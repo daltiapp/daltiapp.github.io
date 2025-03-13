@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DaltiEuroMillions</title>
+    <title>EuroMillions Ticket Generator</title>
     <style>
         :root {
             --max-tickets: 5;
@@ -23,12 +23,14 @@
         .container {
             display: flex;
             flex-direction: column;
-            height: 100vh;
+            height: 100vh; /* 전체 화면 높이 */
+            position: relative; /* 하단 버튼을 위한 상대 위치 */
         }
 
         .ticket-list {
             flex: 1;
             overflow-y: auto;
+            padding-bottom: 60px; /* 버튼 높이만큼 여백 추가 */
         }
 
         .ticket-card {
@@ -99,10 +101,16 @@
         }
 
         .control-buttons {
+            position: fixed; /* 화면 하단에 고정 */
+            bottom: 0; /* 하단에 붙임 */
+            left: 0; /* 왼쪽에 붙임 */
+            right: 0; /* 오른쪽에 붙임 */
             padding: var(--default-padding);
             display: flex;
             justify-content: stretch;
-            gap: 10px; /* 버튼 사이에 10px 간격 추가 */
+            gap: 10px; /* 버튼 사이 간격 */
+            background: #fff; /* 배경색 추가로 자연스럽게 */
+            z-index: 10; /* 다른 요소 위에 표시 */
         }
 
         .control-btn {
@@ -112,15 +120,15 @@
             font-size: 20px;
             border-radius: 4px;
             flex: 1; /* 버튼이 동일한 너비로 확장 */
-            margin: 0 10px; /* 양옆에 10px 여백 추가 */
+            margin: 0 10px; /* 양옆 여백 */
         }
 
         .control-btn:first-child {
-            margin-left: 0; /* 첫 번째 버튼의 왼쪽 여백 제거 */
+            margin-left: 0; /* 첫 번째 버튼 왼쪽 여백 제거 */
         }
 
         .control-btn:last-child {
-            margin-right: 0; /* 마지막 버튼의 오른쪽 여백 제거 */
+            margin-right: 0; /* 마지막 버튼 오른쪽 여백 제거 */
         }
 
         .add-btn {
