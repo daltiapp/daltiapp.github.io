@@ -1,12 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroMillions Ticket Generator</title>
+    <style>
+        :root {
+            --max-tickets: 5;
+            --main-number-count: 5;
+            --star-number-count: 2;
+            --main-number-max: 50;
+            --star-number-max: 12;
+            --default-padding: 5px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: var(--default-padding);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .ticket-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .ticket-card {
+            margin: var(--default-padding);
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+        }
+
+        .ticket-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: var(--default-padding);
+        }
+
+        .ticket-header h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .delete-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .numbers-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: var(--default-padding) 0;
+        }
+
+        .number-circle {
+            margin: 2px;
+            width: 40px;
+            height: 40px;
+            background: blue;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .star-shape {
+            margin: 2px;
+            width: 48px;
+            height: 48px;
+            background: #ffa000;
+            clip-path: polygon(
+                50% 0%, 61% 35%, 98% 35%, 68% 57%,
+                79% 91%, 50% 70%, 21% 91%, 32% 57%,
+                2% 35%, 39% 35%
+            );
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .control-buttons {
+            padding: var(--default-padding);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .control-btn {
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+
+        .add-btn {
+            background: green;
+            color: white;
+        }
+
+        .regen-btn {
+            background: blue;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-  <p>Hello, World!</p>
+    <div class="container">
+        <div class="ticket-list" id="ticketList"></div>
+        <div class="control-buttons">
+            <button class="control-btn add-btn" onclick="addTicket()">+</button>
+            <button class="control-btn regen-btn" onclick="regenerateAll()">↺</button>
+        </div>
+    </div>
+
+    <script>
+        const kMaxTickets = 5;
+        const kMainNumberCount = 5;
+        const kStarNumberCount = 2;
+        const kMainNumberMax = 50;
+        const kStarNumberMax = 12;
+
+        let mainNumbersList = [];
+        let starNumbersList = [];
+
+        function generateUniqueNumbers(count, max) {
+            const numbers = new Set();
+            while (numbers.size < count) {
+                numbers.add(Math.floor(Math.random() * max) + 1);
+            }
+            return Array.from(numbers).sort((a, b) => a - b);
+        }
+
+        function addTicket() {
+            if (mainNumbersList.length < kMaxTickets) {
+                mainNumbersList.push(generateUniqueNumbers(kMainNumberCount, kMainNumberMax));
+                starNumbersList.push(generateUniqueNumbers(kStarNumberCount, kStarNumberMax));
+                renderTickets();
+            }
+        }
+
+        function removeTicket(index) {
+            if (mainNumbersList.length > 1) {
+                mainNumbersList.splice(index, 1);
+                starNumbersList.splice(index, 1);
+                renderTickets();
+            }
+        }
+
+        function regenerateAll() {
+            for (let i = 0; i < mainNumbersList.length; i++) {
+                mainNumbersList[i] = generateUniqueNumbers(kMainNumberCount, kMainNumberMax);
+                starNumbersList[i] = generateUniqueNumbers(kStarNumberCount, kStarNumberMax);
+            }
+            renderTickets();
+        }
+
+        function renderTickets() {
+            const ticketList = document.getElementById('ticketList');
+            ticketList.innerHTML = '';
+
+            mainNumbersList.forEach((mainNumbers, index) => {
+                const ticketCard = document.createElement('div');
+                ticketCard.className = 'ticket-card';
+
+                const header = document.createElement('div');
+                header.className = 'ticket-header';
+                header.innerHTML = `
+                    <h3>Ticket ${index + 1}</h3>
+                    ${mainNumbersList.length > 1 ? 
+                        `<button class="delete-btn" onclick="removeTicket(${index})">🗑️</button>` : 
+                        ''}
+                `;
+
+                const numbersContainer = document.createElement('div');
+                numbersContainer.className = 'numbers-container';
+
+                mainNumbers.forEach(num => {
+                    const circle = document.createElement('div');
+                    circle.className = 'number-circle';
+                    circle.textContent = num;
+                    numbersContainer.appendChild(circle);
+                });
+
+                starNumbersList[index].forEach(num => {
+                    const star = document.createElement('div');
+                    star.className = 'star-shape';
+                    star.textContent = num;
+                    numbersContainer.appendChild(star);
+                });
+
+                ticketCard.appendChild(header);
+                ticketCard.appendChild(numbersContainer);
+                ticketList.appendChild(ticketCard);
+            });
+        }
+
+        // Initial ticket
+        addTicket();
+    </script>
 </body>
 </html>
