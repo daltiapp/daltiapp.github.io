@@ -101,7 +101,8 @@
         .control-buttons {
             padding: var(--default-padding);
             display: flex;
-            justify-content: space-between;
+            justify-content: stretch; /* 버튼이 공간을 채우도록 */
+            gap: 0; /* 버튼 사이 간격 제거 */
         }
 
         .control-btn {
@@ -110,6 +111,8 @@
             cursor: pointer;
             font-size: 20px;
             border-radius: 4px;
+            flex: 1; /* 버튼이 동일한 너비로 확장되도록 */
+            margin: 0; /* 기본 마진 제거 */
         }
 
         .add-btn {
