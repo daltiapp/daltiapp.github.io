@@ -101,8 +101,8 @@
         .control-buttons {
             padding: var(--default-padding);
             display: flex;
-            justify-content: stretch; /* 버튼이 공간을 채우도록 */
-            gap: 0; /* 버튼 사이 간격 제거 */
+            justify-content: stretch;
+            gap: 10px; /* 버튼 사이에 10px 간격 추가 */
         }
 
         .control-btn {
@@ -111,8 +111,16 @@
             cursor: pointer;
             font-size: 20px;
             border-radius: 4px;
-            flex: 1; /* 버튼이 동일한 너비로 확장되도록 */
-            margin: 0; /* 기본 마진 제거 */
+            flex: 1; /* 버튼이 동일한 너비로 확장 */
+            margin: 0 10px; /* 양옆에 10px 여백 추가 */
+        }
+
+        .control-btn:first-child {
+            margin-left: 0; /* 첫 번째 버튼의 왼쪽 여백 제거 */
+        }
+
+        .control-btn:last-child {
+            margin-right: 0; /* 마지막 버튼의 오른쪽 여백 제거 */
         }
 
         .add-btn {
