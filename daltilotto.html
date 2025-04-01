@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>달티로또 - 공식 앱 다운로드</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #6e48aa;
+            color: white;
+            padding: 20px 0;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .logo span {
+            font-size: 2em;
+            font-weight: bold;
+            color: #6e48aa;
+        }
+        .download-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        .store-btn {
+            display: block;
+            width: 200px;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .store-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .android {
+            background-color: #3ddc84;
+        }
+        .ios {
+            background-color: #007aff;
+        }
+        .store-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .screenshots {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        .screenshot {
+            width: 180px;
+            height: 320px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: #ddd;
+            overflow: hidden;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            .download-section {
+                flex-direction: column;
+                align-items: center;
+            }
+            .store-btn {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span>로또</span>
+            </div>
+            <h1>달티로또</h1>
+            <p>로또 번호 생성 및 당첨 확인 앱</p>
+        </header>
+
+        <div class="download-section">
+            <a href="https://play.google.com/store/apps/details?id=com.codeyeolmae.lotto" class="store-btn android">
+                <div class="store-icon">🤖</div>
+                Google Play 다운로드
+            </a>
+            <a href="https://apps.apple.com/kr/app/%EB%8B%AC%ED%8B%B0%EB%A1%9C%EB%98%90/id6464666004" class="store-btn ios">
+                <div class="store-icon">🍏</div>
+                App Store 다운로드
+            </a>
+        </div>
+
+        <div class="screenshots">
+            <div class="screenshot"></div>
+            <div class="screenshot"></div>
+            <div class="screenshot"></div>
+        </div>
+
+        <footer>
+            <p>© 2023 달티로또. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
