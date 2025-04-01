@@ -47,7 +47,7 @@
             justify-content: center;
             gap: 10px;
             margin: 30px 0;
-            flex-wrap: wrap; /* 화면이 좁아지면 줄바꿈 */
+            flex-wrap: wrap;
         }
         .store-btn {
             display: flex;
@@ -57,7 +57,7 @@
             max-width: 200px;
             height: 60px;
             background: #f4f1e8;
-            border: 1px solid #000; /* 검정색으로 변경하고 더 얇게 */
+            border: 1px solid #000;
             border-radius: 10px;
             transition: all 0.2s ease;
             text-decoration: none;
@@ -67,7 +67,7 @@
             background: #e0ddd4;
         }
         .store-text {
-            color: #000; /* 검정색으로 변경 */
+            color: #000;
             font-weight: 600;
             font-size: 1rem;
             text-shadow: none;
@@ -76,13 +76,12 @@
         footer {
             margin-top: 30px;
             padding: 15px;
-            color: #333;
+            color: #666;
             font-size: 0.85rem;
-            background: rgba(255,255,255,0.8);
+            background: #f4f1e8; /* 변경된 부분 */
             border-radius: 8px;
         }
 
-        /* 모바일 가로모드 대응 */
         @media (max-width: 500px) and (orientation: landscape) {
             .store-btn {
                 height: 50px;
@@ -90,7 +89,6 @@
             }
         }
 
-        /* 작은 화면 대응 */
         @media (max-width: 360px) {
             .store-btn {
                 width: 45%;
@@ -98,7 +96,6 @@
             }
         }
 
-        /* 태블릿 이상 대응 */
         @media (min-width: 600px) {
             .container {
                 max-width: 500px;
