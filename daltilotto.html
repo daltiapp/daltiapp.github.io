@@ -28,7 +28,7 @@
             background: #f4f1e8;
             padding: 25px 15px;
             border-radius: 12px 12px 0 0;
-            margin-bottom: 20px;
+            margin-bottom: 1px;
         }
         .app-icon {
             width: 80px;
@@ -49,10 +49,17 @@
             font-size: 1rem;
             color: #444;
         }
+        .highlight {
+            margin: 10px 0 0;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #e63946;
+            animation: pulse 1.5s infinite;
+        }
         .download-section {
             display: flex;
             justify-content: center;
-            gap: 15px;
+            gap: 10px;
             margin: 30px 0;
             flex-wrap: wrap;
         }
@@ -63,20 +70,15 @@
             width: 48%;
             max-width: 200px;
             height: 60px;
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 12px;
+            background: #f4f1e8;
+            border: 1px solid #000;
+            border-radius: 10px;
             transition: all 0.2s ease;
             text-decoration: none;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .store-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
         .store-btn:active {
             transform: translateY(1px);
-            background: #f0f0f0;
+            background: #e0ddd4;
         }
         .store-text {
             color: #000;
@@ -92,6 +94,12 @@
             font-size: 0.85rem;
             background: #f4f1e8;
             border-radius: 8px;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
         }
 
         @media (max-width: 500px) and (orientation: landscape) {
@@ -124,6 +132,9 @@
             .store-text {
                 font-size: 1.1rem;
             }
+            .highlight {
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
@@ -133,6 +144,7 @@
             <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/68/51/fa68511d-78d5-65bd-ba94-be1b94c124f0/AppIcon-0-0-1x_U007epad-0-0-85-220.png/460x0w.webp" alt="달티로또 아이콘" class="app-icon">
             <h1>달티로또</h1>
             <p>로또 번호 생성 및 당첨 확인 앱</p>
+            <p class="highlight">농협본점 가는 그날까지🔥🔥🔥</p>
         </header>
 
         <div class="download-section">
