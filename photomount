@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>달티로또 - 공식 앱 다운로드</title>
+    <title>사진대지 - 공식 앱 다운로드</title>
     <style>
         * {
             box-sizing: border-box;
@@ -141,7 +141,7 @@
 <body>
     <div class="container">
         <header>
-            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/68/51/fa68511d-78d5-65bd-ba94-be1b94c124f0/AppIcon-0-0-1x_U007epad-0-0-85-220.png/460x0w.webp" alt="달티로또 아이콘" class="app-icon">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/ad/a4/6fada4c2-fc08-aafe-4590-9df2b162a9dd/AppIcon-0-0-1x_U007ephone-0-85-220.png/460x0w.webp" alt="달티로또 아이콘" class="app-icon">
             <h1>사진대지</h1>
             <p>Photo mount</p>
             <p class="highlight">image for work🔥🔥🔥</p>
