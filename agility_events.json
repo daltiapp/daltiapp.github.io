@@ -1,4 +1,6 @@
-[
+{
+  "lastUpdated": "2025-10-01T11:45:00",
+  "competitions": [
   {
     "date": "2025-09-05T10:00:00",
     "applicationPeriod": "2025-08-18 ~ 2025-09-10",
@@ -109,4 +111,5 @@
     "eventType": "승급전",
     "matchTypes": ["LV1", "LV2", "LV3"]
   }
-]
+ ]
+}
