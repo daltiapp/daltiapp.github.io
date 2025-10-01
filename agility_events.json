@@ -27,7 +27,7 @@
     "url": "https://waldbow.com",
     "judge": "프렌즈 모리스",
     "eventType": "랭킹전",
-    "matchTypes": ["비기너", "노비스", "어드밴스"]
+    "matchTypes": ["비기너", "노비스", "어드밴스드"]
   },
   {
     "date": "2025-10-18T13:00:00",
@@ -67,7 +67,7 @@
     "url": "https://banryeomaru.kr/",
     "judge": "최용석",
     "eventType": "랭킹전",
-    "matchTypes": ["JP", "AG"]
+    "matchTypes": ["점핑", "어질리티"]
   },
   {
     "date": "2025-09-13T13:00:00",
@@ -77,7 +77,7 @@
     "url": "https://www.agility.co.kr/",
     "judge": "김희윤",
     "eventType": "랭킹전",
-    "matchTypes": ["AG", "ADVANCE"]
+    "matchTypes": ["어질리티", "어드밴스드"]
   },
   {
     "date": "2025-09-13T09:00:00",
@@ -97,7 +97,7 @@
     "url": "http://biz.onvi.co.kr/kcmc.html/",
     "judge": "양은수",
     "eventType": "랭킹전",
-    "matchTypes": ["BEGINNER"]
+    "matchTypes": ["비기너"]
   },
   {
     "date": "2025-09-05T10:00:00",
@@ -107,6 +107,6 @@
     "url": "http://biz.onvi.co.kr/kcmc.html/",
     "judge": "여문주",
     "eventType": "랭킹전",
-    "matchTypes": ["JP", "NOVICE"]
+    "matchTypes": ["점핑", "노비스"]
   }
 ]
