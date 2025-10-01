@@ -2,7 +2,7 @@
   {
     "date": "2025-09-05T10:00:00",
     "applicationPeriod": "2025-08-18 ~ 2025-09-10",
-    "name": "2025서울시 도그스포츠 대회",
+    "name": "2025 서울시 도그스포츠 대회",
     "location": "상암월드컵공원",
     "url": "http://biz.onvi.co.kr/kcmc.html/",
     "judge": "여문주",
@@ -12,7 +12,7 @@
   {
     "date": "2025-09-05T13:00:00",
     "applicationPeriod": "2025-08-18 ~ 2025-09-10",
-    "name": "2025서울시 도그스포츠 대회",
+    "name": "2025 서울시 도그스포츠 대회",
     "location": "상암월드컵공원",
     "url": "http://biz.onvi.co.kr/kcmc.html/",
     "judge": "양은수",
@@ -40,9 +40,9 @@
     "matchTypes": ["어질리티", "어드밴스드"]
   },
   {
-    "date": "2025-10-05T09:00:00",
+    "date": "2025-09-27T09:00:00",
     "applicationPeriod": "2025-08-19 ~ 2025-09-18",
-    "name": "반려마루",
+    "name": "2025 경기도지사배 제2회 전국 반려견 스포츠 대회",
     "location": "반려마루",
     "url": "https://banryeomaru.kr/",
     "judge": "최용석",
@@ -88,6 +88,16 @@
     "judge": "프렌즈 모리스",
     "eventType": "랭킹전",
     "matchTypes": ["비기너", "노비스", "어드밴스드"]
+  },
+    {
+    "date": "2025-10-26T08:00:00",
+    "applicationPeriod": "2025-09-22 ~ 2025-10-05",
+    "name": "2025 FCI 인터내셔널 어질리티 경기대회",
+    "location": "순천만생태공원",
+    "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php",
+    "judge": "최용석",
+    "eventType": "승급전",
+    "matchTypes": ["LV1", "LV2", "LV3","점핑미개최"]
   },
   {
     "date": "2025-11-01T08:00:00",
