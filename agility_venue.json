@@ -1,1 +1,77 @@
-
+{
+  "lastUpdated": "2025-10-06T11:45:00",
+  "venues": [
+    {
+      "venue": {
+        "name": "하이스트",
+        "address": "경기도 안성시 사실로 212",
+        "photos": [
+          "",
+          "",
+          ""
+        ],
+        "links": {
+          "board_url": "",
+          "homepage_url": "",
+          "instagram_url": "",
+          "kakao_url": "",
+          "youtube_url": ""
+        }
+      }
+    },
+    {
+      "venue": {
+        "name": "발트바우",
+        "address": "경기도 양주시 은현면 용암리 876-4",
+        "photos": [
+          "",
+          "",
+          ""
+        ],
+        "links": {
+          "board_url": "",
+          "homepage_url": "",
+          "instagram_url": "",
+          "kakao_url": "",
+          "youtube_url": ""
+        }
+      }
+    },
+    {
+      "venue": {
+        "name": "소노골프장",
+        "address": "강원 홍천군 서면 한치골길 262",
+        "photos": [
+          "",
+          "",
+          ""
+        ],
+        "links": {
+          "board_url": "",
+          "homepage_url": "",
+          "instagram_url": "",
+          "kakao_url": "",
+          "youtube_url": ""
+        }
+      }
+    },
+    {
+      "venue": {
+        "name": "소노메인센터",
+        "address": "강원 홍천군 서면 한치골길 264 대명비발디파크",
+        "photos": [
+          "",
+          "",
+          ""
+        ],
+        "links": {
+          "board_url": "",
+          "homepage_url": "",
+          "instagram_url": "",
+          "kakao_url": "",
+          "youtube_url": ""
+        }
+      }
+    }
+  ]
+}
