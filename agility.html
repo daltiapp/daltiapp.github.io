@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>어질리티 - 공식 앱 다운로드</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f1e8;
+            color: #333;
+            text-align: center;
+            line-height: 1.5;
+            -webkit-text-size-adjust: 100%;
+        }
+        .container {
+            width: 100%;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        header {
+            background: #f4f1e8;
+            padding: 25px 15px;
+            border-radius: 12px 12px 0 0;
+            margin-bottom: 1px;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            margin: 0 auto 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0 0 5px 0;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #222;
+            line-height: 1.3;
+        }
+        p {
+            margin: 0;
+            font-size: 1rem;
+            color: #444;
+        }
+        .highlight {
+            margin: 10px 0 0;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #e63946;
+            animation: pulse 1.5s infinite;
+        }
+        .download-section {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        .store-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48%;
+            max-width: 200px;
+            height: 60px;
+            background: #f4f1e8;
+            border: 1px solid #000;
+            border-radius: 10px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .store-btn:active {
+            transform: translateY(1px);
+            background: #e0ddd4;
+        }
+        .store-text {
+            color: #000;
+            font-weight: 600;
+            font-size: 1rem;
+            text-shadow: none;
+            letter-spacing: -0.5px;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            color: #666;
+            font-size: 0.85rem;
+            background: #f4f1e8;
+            border-radius: 8px;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 500px) and (orientation: landscape) {
+            .store-btn {
+                height: 50px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .store-btn {
+                width: 45%;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (min-width: 600px) {
+            .container {
+                max-width: 500px;
+            }
+            .app-icon {
+                width: 100px;
+                height: 100px;
+                border-radius: 20px;
+            }
+            .store-btn {
+                max-width: 220px;
+                height: 65px;
+            }
+            .store-text {
+                font-size: 1.1rem;
+            }
+            .highlight {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/68/51/fa68511d-78d5-65bd-ba94-be1b94c124f0/AppIcon-0-0-1x_U007epad-0-0-85-220.png/460x0w.webp" alt="달티로또 아이콘" class="app-icon">
+            <h1>어질리티</h1>
+            <p>어질리티 정보 및 대회 정보 확인앱</p>
+            <p class="highlight">어질리티 정보를 한눈에🔥🔥🔥</p>
+        </header>
+
+        <div class="download-section">
+            <a href="https://play.google.com/store/apps/details?id=com.codeyeolmae.lotto" class="store-btn">
+                <div class="store-text">Google Play</div>
+            </a>
+            <a href="https://apps.apple.com/kr/app/%EB%8B%AC%ED%8B%B0%EB%A1%9C%EB%98%90/id6464666004?platform=iphone" class="store-btn">
+                <div class="store-text">App Store</div>
+            </a>
+        </div>
+
+        <footer>
+            <p>© 2024 dalti. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
