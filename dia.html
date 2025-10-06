@@ -116,13 +116,6 @@
             border: 1px solid #777;
             border-radius: 4px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 5px 0;
-        }
     </style>
 </head>
 <body>
@@ -140,109 +133,18 @@
         <div class="item-panel">
             <h2>베이스 아이템</h2>
             <select id="baseItemSelect">
-                <option value="helm2_nadir">투구 (2소켓) - Nadir (구렁텅이)</option>
-                <option value="weapon2_steel">도검/도끼/철퇴 (2소켓) - Steel (강철)</option>
-                <option value="weapon3_malice">근접 무기 (3소켓) - Malice (악의)</option>
-                <option value="armor2_stealth">갑옷 (2소켓) - Stealth (잠행)</option>
-                <option value="staff2_leaf">지팡이 (2소켓) - Leaf (잎새)</option>
-                <option value="shield3_ancient">방패 (3소켓) - Ancient's Pledge (고대인의 서약)</option>
-                <option value="scepter4_holy">홀 (4소켓) - Holy Thunder (신성한 천둥)</option>
-                <option value="missile2_zephyr">원거리 무기 (2소켓) - Zephyr (서풍)</option>
-                <option value="claw3_pattern">손톱 (3소켓) - Pattern (귀감)</option>
-                <option value="weapon3_kings">도검/홀 (3소켓) - King's Grace (왕의 은총)</option>
-                <option value="weapon2_strength">근접 무기 (2소켓) - Strength (강함)</option>
-                <option value="armor3_myth">갑옷 (3소켓) - Myth (신화)</option>
-                <option value="weapon4_spirit_sword">도검 (4소켓) - Spirit (영혼)</option>
-                <option value="shield4_spirit_shield">방패 (4소켓) - Spirit (영혼)</option>
-                <option value="missile3_edge">원거리 무기 (3소켓) - Edge (모서리)</option>
-                <option value="helm2_lore">투구 (2소켓) - Lore (전승)</option>
-                <option value="weapon5_honor">근접 무기 (5소켓) - Honor (명예)</option>
-                <option value="helm3_radiance">투구 (3소켓) - Radiance (광휘)</option>
-                <option value="polearm4_insight">미늘창/지팡이/활/쇠뇌 (4소켓) - Insight (통찰)</option>
-                <option value="shield2_rhyme">방패 (2소켓) - Rhyme (각운)</option>
-                <option value="armor3_peace">갑옷 (3소켓) - Peace (평화)</option>
-                <option value="mace3_black">철퇴/망치 (3소켓) - Black (어둠)</option>
-                <option value="wand2_white">완드 (2소켓) - White (순백)</option>
-                <option value="helm3_prudence">투구 (3소켓) - Prudence (방책)</option>
-                <option value="helm3_cure">투구 (3소켓) - Cure (치료)</option>
-                <option value="helm3_ground">투구 (3소켓) - Ground (접지)</option>
-                <option value="helm3_hearth">투구 (3소켓) - Hearth (화로)</option>
-                <option value="helm3_temper">투구 (3소켓) - Temper (담금질)</option>
-                <option value="staff4_memory">지팡이 (4소켓) - Memory (기억)</option>
-                <option value="armor2_smoke">갑옷 (2소켓) - Smoke (연기)</option>
-                <option value="shield2_splendor">방패 (2소켓) - Splendor (광채)</option>
-                <option value="missile3_melody">원거리 무기 (3소켓) - Melody (선율)</option>
-                <option value="missile4_harmony">원거리 무기 (4소켓) - Harmony (조화)</option>
-                <option value="armor3_fortitude">갑옷 (3소켓) - Fortitude (투지)</option>
-                <option value="weapon3_fortitude_weapon">무기 (3소켓) - Fortitude (투지)</option>
-                <option value="sword6_unbending">도검 (6소켓) - Unbending Will (불굴의 의지)</option>
-                <option value="armor3_lionheart">갑옷 (3소켓) - Lionheart (용맹한 자)</option>
-                <option value="polearm5_obedience">미늘창/창 (5소켓) - Obedience (순종)</option>
-                <option value="armor3_wealth">갑옷 (3소켓) - Wealth (부)</option>
-                <option value="weapon4_passion">무기 (4소켓) - Passion (열정)</option>
-                <option value="helm3_delirium">투구 (3소켓) - Delirium (착란)</option>
-                <option value="armor3_treachery">갑옷 (3소켓) - Treachery (배신)</option>
-                <option value="weapon3_lawbringer">도검/망치/홀 (3소켓) - Lawbringer (집행자)</option>
-                <option value="weapon4_reason">도검/철퇴 (4소켓) - Voice of Reason (이유있는 항변)</option>
-                <option value="helm3_wisdom">투구 (3소켓) - Wisdom (지혜)</option>
-                <option value="armor4_stone">갑옷 (4소켓) - Stone (돌)</option>
-                <option value="armor3_enlightenment">갑옷 (3소켓) - Enlightenment (깨우침)</option>
-                <option value="armor3_duress">갑옷 (3소켓) - Duress (협박)</option>
-                <option value="armor3_gloom">갑옷 (3소켓) - Gloom (어스름)</option>
-                <option value="weapon3_crescent">도끼/도검/미늘창 (3소켓) - Crescent Moon (초승달)</option>
-                <option value="armor3_bone">갑옷 (3소켓) - Bone (뼈)</option>
-                <option value="weapon3_venom">무기 (3소켓) - Venom (베놈)</option>
-                <option value="armor2_prudence_armor">갑옷 (2소켓) - Prudence (신중)</option>
-                <option value="shield3_sanctuary">방패 (3소켓) - Sanctuary (성역)</option>
-                <option value="armor3_rain">갑옷 (3소켓) - Rain (비)</option>
-                <option value="weapon4_oath">도검/도끼/철퇴 (4소켓) - Oath (서약)</option>
-                <option value="weapon4_kingslayer">도검/도끼 (4소켓) - Kingslayer (왕 시해자)</option>
-                <option value="armor3_principle">갑옷 (3소켓) - Principle (원칙)</option>
-                <option value="polearm4_rift">미늘창/홀 (4소켓) - Rift (균열)</option>
-                <option value="claw3_mosaic">손톱 (3소켓) - Mosaic (모자이크)</option>
-                <option value="helm3_flickering">투구 (3소켓) - Flickering Flame (꺼져가는 불길)</option>
-                <option value="weapon6_silence">무기 (6소켓) - Silence (침묵)</option>
-                <option value="mace4_oak">메이스/지팡이 (4소켓) - Heart of the Oak (참나무의 심장)</option>
-                <option value="weapon5_death">도검/도끼 (5소켓) - Death (죽음)</option>
-                <option value="paladin4_exile">팔라딘 방패 (4소켓) - Exile (추방)</option>
-                <option value="claw3_chaos">손톱 (3소켓) - Chaos (혼돈)</option>
-                <option value="weapon5_call">무기 (5소켓) - Call to Arms (소집)</option>
-                <option value="weapon5_grief">도검/도끼 (5소켓) - Grief (슬픔)</option>
-                <option value="armor4_fortitude_armor">갑옷 (4소켓) - Fortitude (인내)</option>
-                <option value="weapon4_fortitude_weapon">무기 (4소켓) - Fortitude (인내)</option>
-                <option value="armor4_bramble">갑옷 (4소켓) - Bramble (찔레)</option>
-                <option value="weapon2_wind">근접 무기 (2소켓) - Wind (윈드)</option>
-                <option value="armor3_dragon">갑옷 (3소켓) - Dragon (용)</option>
-                <option value="shield3_dragon_shield">방패 (3소켓) - Dragon (용)</option>
-                <option value="armor4_honor">갑옷 (4소켓) - Chains of Honor (명예의 굴레)</option>
-                <option value="weapon5_beast">도끼/홀/망치 (5소켓) - Beast (야수)</option>
-                <option value="weapon5_eternity">근접 무기 (5소켓) - Eternity (불멸)</option>
-                <option value="polearm4_infinity">미늘창/창 (4소켓) - Infinity (무한)</option>
-                <option value="missile4_wrath">원거리 무기 (4소켓) - Wrath (진노)</option>
-                <option value="weapon3_fury">근접 무기 (3소켓) - Fury (원한)</option>
-                <option value="armor3_enigma">갑옷 (3소켓) - Enigma (수수께끼)</option>
-                <option value="weapon4_famine">도끼/망치 (4소켓) - Famine (기근)</option>
-                <option value="weapon6_lastwish">도검/망치/도끼 (6소켓) - Last Wish (마지막 소원)</option>
-                <option value="missile4_faith">원거리 무기 (4소켓) - Faith (신념)</option>
-                <option value="weapon4_phoenix">무기 (4소켓) - Phoenix (불사조)</option>
-                <option value="shield4_phoenix_shield">방패 (4소켓) - Phoenix (불사조)</option>
-                <option value="shield3_dream_shield">방패 (3소켓) - Dream (꿈)</option>
-                <option value="helm3_dream_helm">투구 (3소켓) - Dream (꿈)</option>
-                <option value="weapon5_destruction">미늘창/도검 (5소켓) - Destruction (파괴)</option>
-                <option value="missile4_ice">원거리 무기 (4소켓) - Ice (얼음)</option>
-                <option value="missile4_brand">원거리 무기 (4소켓) - Brand (낙인)</option>
-                <option value="weapon3_plague">도검/손톱/단도 (3소켓) - Plague (역병)</option>
-                <option value="missile5_mist">활/쇠뇌 (5소켓) - Mist (안개)</option>
-                <option value="weapon5_doom">도끼/미늘창/망치 (5소켓) - Doom (파멸)</option>
-                <option value="weapon4_justice">무기 (4소켓) - Hand of Justice (정의의 손길)</option>
-                <option value="polearm4_pride">미늘창/창 (4소켓) - Pride (긍지)</option>
-                <option value="helm3_metamorphosis">투구 (3소켓) - Metamorphosis (탈태)</option>
-                <option value="staff6_obsession">지팡이 (6소켓) - Obsession (집착)</option>
-                <option value="weapon6_breath">무기 (6소켓) - Breath of the Dying (죽어가는 자의 숨결)</option>
+                <option value="shield3">방패 (3소켓) - Ancients' Pledge</option>
+                <option value="armor2">갑옷 (2소켓) - Stealth</option>
+                <option value="weapon4">무기 (4소켓) - Spirit</option>
+                <option value="polearm4">폴암 (4소켓) - Insight</option>
+                <option value="armor3">갑옷 (3소켓) - Enigma</option>
+                <option value="weapon5">무기 (5소켓) - Breath of the Dying</option>
+                <option value="helm2">헬름 (2소켓) - Lore</option>
+                <option value="weapon3">무기 (3소켓) - Honor</option>
             </select>
             
             <div class="base-item" id="baseItem">
-                <h3 id="itemName">투구 (2소켓)</h3>
+                <h3 id="itemName">방패 (3소켓)</h3>
                 <div class="sockets" id="sockets">
                     <!-- Sockets will be populated by JS -->
                 </div>
@@ -253,1055 +155,207 @@
     </div>
 
     <script>
-        // Rune data with Korean and English names
-        const runes = [
-            { id: 'El', name: '엘 (El)' },
-            { id: 'Eld', name: '엘드 (Eld)' },
-            { id: 'Tir', name: '티르 (Tir)' },
-            { id: 'Nef', name: '네프 (Nef)' },
-            { id: 'Eth', name: '에드 (Eth)' },
-            { id: 'Ith', name: '이드 (Ith)' },
-            { id: 'Tal', name: '탈 (Tal)' },
-            { id: 'Ral', name: '랄 (Ral)' },
-            { id: 'Ort', name: '오르트 (Ort)' },
-            { id: 'Thul', name: '툴 (Thul)' },
-            { id: 'Amn', name: '앰 (Amn)' },
-            { id: 'Sol', name: '솔 (Sol)' },
-            { id: 'Shael', name: '샤엘 (Shael)' },
-            { id: 'Dol', name: '돌 (Dol)' },
-            { id: 'Hel', name: '헬 (Hel)' },
-            { id: 'Io', name: '아이오 (Io)' },
-            { id: 'Lum', name: '룸 (Lum)' },
-            { id: 'Ko', name: '코 (Ko)' },
-            { id: 'Fal', name: '팔 (Fal)' },
-            { id: 'Lem', name: '렘 (Lem)' },
-            { id: 'Pul', name: '풀 (Pul)' },
-            { id: 'Um', name: '움 (Um)' },
-            { id: 'Mal', name: '말 (Mal)' },
-            { id: 'Ist', name: '이스트 (Ist)' },
-            { id: 'Gul', name: '굴 (Gul)' },
-            { id: 'Vex', name: '벡스 (Vex)' },
-            { id: 'Ohm', name: '옴 (Ohm)' },
-            { id: 'Lo', name: '로 (Lo)' },
-            { id: 'Sur', name: '수르 (Sur)' },
-            { id: 'Ber', name: '버 (Ber)' },
-            { id: 'Jah', name: '자 (Jah)' },
-            { id: 'Cham', name: '참 (Cham)' },
-            { id: 'Zod', name: '조드 (Zod)' }
-        ];
-
-        // Runeword data with Korean stats, variables, and probabilities
+        // Runeword data (expanded based on reference site)
         const runewords = {
-            'helm2_nadir': {
-                name: 'Nadir (구렁텅이)',
-                sockets: 2,
-                runes: ['Nef', 'Tir'],
-                level: 13,
-                bases: ['투구'],
-                stats: [
-                    { text: '방어력 +50% 증가' },
-                    { text: '방어력 +10' },
-                    { text: '원거리 공격 방어력 +30' },
-                    { text: '힘 +5' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '괴물에게서 얻는 금화 -33% 증가' },
-                    { text: '시야 -3' },
-                    { text: '13 레벨 그림자 망토 (충전 9회)' }
-                ]
-            },
-            'weapon2_steel': {
-                name: 'Steel (강철)',
-                sockets: 2,
-                runes: ['Tir', 'El'],
-                level: 13,
-                bases: ['도검', '도끼', '철퇴'],
-                stats: [
-                    { text: '공격 속도 +25%' },
-                    { text: '피해 +20% 증가' },
-                    { text: '최소 피해 +3' },
-                    { text: '최대 피해 +3' },
-                    { text: '명중률 +50' },
-                    { text: '상처 악화 확률 50%', probability: 0.5 },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '시야 +1' }
-                ]
-            },
-            'weapon3_malice': {
-                name: 'Malice (악의)',
+            'shield3': {
+                name: "Ancients' Pledge",
                 sockets: 3,
-                runes: ['Ith', 'El', 'Eth'],
-                level: 15,
-                bases: ['근접 무기'],
-                stats: [
-                    { text: '피해 +33% 증가' },
-                    { text: '최대 피해 +9' },
-                    { text: '대상의 방어력 -25%' },
-                    { text: '명중률 +50' },
-                    { text: '상처 악화 확률 100%' },
-                    { text: '괴물 회복 저지' },
-                    { text: '적중당 괴물 방어력 -100 감소' },
-                    { text: '생명력 흡수 -5' }
-                ]
+                runes: ['Ral', 'Ort', 'Tal'],
+                level: 31,
+                bases: ['Shields']
             },
-            'armor2_stealth': {
-                name: 'Stealth (잠행)',
+            'armor2': {
+                name: "Stealth",
                 sockets: 2,
                 runes: ['Tal', 'Eth'],
                 level: 17,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '달리기/걷기 속도 +25%' },
-                    { text: '시전 속도 +25%' },
-                    { text: '타격 회복 속도 +25%' },
-                    { text: '민첩 +6' },
-                    { text: '마나 재생 15%' },
-                    { text: '최대 지구력 +15' },
-                    { text: '독 저항 +30%' },
-                    { text: '마법 피해 3 감소' }
-                ]
+                bases: ['Body Armor', 'Helms']
             },
-            'staff2_leaf': {
-                name: 'Leaf (잎새)',
-                sockets: 2,
-                runes: ['Tir', 'Ral'],
-                level: 19,
-                bases: ['지팡이'],
-                stats: [
-                    { text: '화염 기술 +3' },
-                    { text: '화염 피해 5~30 추가' },
-                    { text: '+3 지옥불 (원소술사 전용)' },
-                    { text: '+3 온기 (원소술사 전용)' },
-                    { text: '+3 화염탄 (원소술사 전용)' },
-                    { text: '방어력 +2~198 (캐릭터 레벨에 비례)' },
-                    { text: '냉기 저항 +33%' },
-                    { text: '적 처치 시 마나 +2' }
-                ]
-            },
-            'shield3_ancient': {
-                name: "Ancient's Pledge (고대인의 서약)",
-                sockets: 3,
-                runes: ['Ral', 'Ort', 'Tal'],
-                level: 21,
-                bases: ['방패'],
-                stats: [
-                    { text: '방어력 +50% 증가' },
-                    { text: '냉기 저항 +43%' },
-                    { text: '번개 저항 +48%' },
-                    { text: '화염 저항 +48%' },
-                    { text: '독 저항 +48%' },
-                    { text: '받는 피해의 10%만큼 마나 회복' }
-                ]
-            },
-            'scepter4_holy': {
-                name: 'Holy Thunder (신성한 천둥)',
-                sockets: 4,
-                runes: ['Eth', 'Ral', 'Ort', 'Tal'],
-                level: 21,
-                bases: ['홀'],
-                stats: [
-                    { text: '피해 +60% 증가' },
-                    { text: '대상의 방어력 -25%' },
-                    { text: '화염 피해 5~30 추가' },
-                    { text: '번개 피해 21~110 추가' },
-                    { text: '독 피해 +75 (5초에 걸쳐)' },
-                    { text: '최대 피해 +10' },
-                    { text: '번개 저항 +60%' },
-                    { text: '최대 번개 저항 +5%' },
-                    { text: '+3 신성한 충격 (성기사 전용)' },
-                    { text: '7 레벨 연쇄번개 (충전 60회)' }
-                ]
-            },
-            'missile2_zephyr': {
-                name: 'Zephyr (서풍)',
-                sockets: 2,
-                runes: ['Ort', 'Eth'],
-                level: 21,
-                bases: ['원거리 무기'],
-                stats: [
-                    { text: '피격 시 7% 확률로 1 레벨 돌개바람 시전', probability: 0.07 },
-                    { text: '달리기/걷기 속도 +25%' },
-                    { text: '공격 속도 +25%' },
-                    { text: '피해 +33% 증가' },
-                    { text: '대상의 방어력 -25%' },
-                    { text: '명중률 +66' },
-                    { text: '번개 피해 1~50 추가' },
-                    { text: '방어력 +25' }
-                ]
-            },
-            'claw3_pattern': {
-                name: 'Pattern (귀감)',
-                sockets: 3,
-                runes: ['Tal', 'Ort', 'Thul'],
-                level: 23,
-                bases: ['손톱'],
-                stats: [
-                    { text: '막기 속도 +30%' },
-                    { text: '피해 +40~80% 증가' },
-                    { text: '명중률 보너스 10%' },
-                    { text: '화염 피해 17~62 추가' },
-                    { text: '번개 피해 1~50 추가' },
-                    { text: '냉기 피해 3~14 추가' },
-                    { text: '독 피해 +75 (5초에 걸쳐)' },
-                    { text: '힘 +6' },
-                    { text: '민첩 +6' },
-                    { text: '모든 저항 +15' }
-                ]
-            },
-            'weapon3_kings': {
-                name: "King's Grace (왕의 은총)",
-                sockets: 3,
-                runes: ['Amn', 'Ral', 'Thul'],
-                level: 25,
-                bases: ['도검', '홀'],
-                stats: [
-                    { text: '피해 +100% 증가' },
-                    { text: '명중률 +150' },
-                    { text: '악마에게 주는 피해 +100%' },
-                    { text: '악마에 대한 명중률 +100' },
-                    { text: '언데드에게 주는 피해 +50%' },
-                    { text: '언데드에 대한 명중률 +100' },
-                    { text: '화염 피해 5~30 추가' },
-                    { text: '냉기 피해 3~14 추가' },
-                    { text: '적중당 생명력 7% 훔침' }
-                ]
-            },
-            'weapon2_strength': {
-                name: 'Strength (강함)',
-                sockets: 2,
-                runes: ['Amn', 'Tir'],
-                level: 25,
-                bases: ['근접 무기'],
-                stats: [
-                    { text: '피해 +35% 증가' },
-                    { text: '적중당 생명력 7% 훔침' },
-                    { text: '강타 확률 25%', probability: 0.25 },
-                    { text: '힘 +20' },
-                    { text: '활력 +10' },
-                    { text: '적 처치 시 마나 +2' }
-                ]
-            },
-            'armor3_myth': {
-                name: 'Myth (신화)',
-                sockets: 3,
-                runes: ['Hel', 'Amn', 'Nef'],
-                level: 25,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '피격 시 3% 확률로 1 레벨 포효 시전', probability: 0.03 },
-                    { text: '타격 시 10% 확률로 1 레벨 도발 시전', probability: 0.1 },
-                    { text: '야만용사 기술 레벨 +2' },
-                    { text: '원거리 공격 방어력 +30' },
-                    { text: '생명력 회복 +10' },
-                    { text: '공격자가 피해를 14 받음' },
-                    { text: '착용 조건 -15%' }
-                ]
-            },
-            'weapon4_spirit_sword': {
-                name: 'Spirit (영혼)',
+            'weapon4': {
+                name: "Spirit",
                 sockets: 4,
                 runes: ['Tal', 'Thul', 'Ort', 'Amn'],
                 level: 25,
-                bases: ['도검'],
-                stats: [
-                    { text: '모든 기술 +2' },
-                    { text: '시전 속도 +25~35%' },
-                    { text: '타격 회복 속도 +55%' },
-                    { text: '번개 피해 1~50 추가' },
-                    { text: '냉기 피해 3~14 추가' },
-                    { text: '독 피해 +75 (5초에 걸쳐)' },
-                    { text: '적중당 생명력 7% 훔침' },
-                    { text: '원거리 공격 방어력 +250' },
-                    { text: '활력 +22' },
-                    { text: '마나 +89~112' },
-                    { text: '마법 흡수 +3~8' }
-                ]
+                bases: ['Swords', 'Shields']
             },
-            'shield4_spirit_shield': {
-                name: 'Spirit (영혼)',
-                sockets: 4,
-                runes: ['Tal', 'Thul', 'Ort', 'Amn'],
-                level: 25,
-                bases: ['방패'],
-                stats: [
-                    { text: '모든 기술 +2' },
-                    { text: '시전 속도 +25~35%' },
-                    { text: '타격 회복 속도 +55%' },
-                    { text: '원거리 공격 방어력 +250' },
-                    { text: '활력 +22' },
-                    { text: '마나 +89~112' },
-                    { text: '냉기 저항 +35%' },
-                    { text: '번개 저항 +35%' },
-                    { text: '독 저항 +35%' },
-                    { text: '마법 흡수 +3~8' },
-                    { text: '공격자가 피해를 14 받음' }
-                ]
-            },
-            'missile3_edge': {
-                name: 'Edge (모서리)',
-                sockets: 3,
-                runes: ['Tir', 'Tal', 'Amn'],
-                level: 25,
-                bases: ['원거리 무기'],
-                stats: [
-                    { text: '장착 시 15 레벨 가시 오라 효과 적용' },
-                    { text: '공격 속도 +35%' },
-                    { text: '악마에게 주는 피해 +320~380%' },
-                    { text: '언데드에게 주는 피해 280%' },
-                    { text: '독 피해 +75 (5초에 걸쳐)' },
-                    { text: '적중당 생명력 7% 훔침' },
-                    { text: '괴물 회복 저지' },
-                    { text: '모든 능력치 +5~10' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '상점 물품 가격 15% 하락' }
-                ]
-            },
-            'helm2_lore': {
-                name: 'Lore (전승)',
-                sockets: 2,
-                runes: ['Ort', 'Sol'],
-                level: 27,
-                bases: ['투구'],
-                stats: [
-                    { text: '모든 기술 +1' },
-                    { text: '마력 +10' },
-                    { text: '번개 저항 +30%' },
-                    { text: '피해 7 감소' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '시야 +2' }
-                ]
-            },
-            'weapon5_honor': {
-                name: 'Honor (명예)',
-                sockets: 5,
-                runes: ['Amn', 'El', 'Ith', 'Tir', 'Sol'],
-                level: 27,
-                bases: ['근접 무기'],
-                stats: [
-                    { text: '모든 기술 +1' },
-                    { text: '피해 +160% 증가' },
-                    { text: '최소 피해 +9' },
-                    { text: '최대 피해 +9' },
-                    { text: '치명적 공격 25%', probability: 0.25 },
-                    { text: '명중률 +250' },
-                    { text: '적중당 생명력 7% 훔침' },
-                    { text: '힘 +10' },
-                    { text: '생명력 회복 +10' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '시야 +1' }
-                ]
-            },
-            'helm3_radiance': {
-                name: 'Radiance (광휘)',
-                sockets: 3,
-                runes: ['Nef', 'Sol', 'Ith'],
-                level: 27,
-                bases: ['투구'],
-                stats: [
-                    { text: '방어력 +75% 증가' },
-                    { text: '원거리 공격 방어력 +30' },
-                    { text: '활력 +10' },
-                    { text: '마력 +10' },
-                    { text: '마나 +33' },
-                    { text: '피해 7 감소' },
-                    { text: '마법 피해 3 감소' },
-                    { text: '받는 피해의 15%만큼 마나 회복' },
-                    { text: '시야 +5' }
-                ]
-            },
-            'polearm4_insight': {
-                name: 'Insight (통찰)',
+            'polearm4': {
+                name: "Insight",
                 sockets: 4,
                 runes: ['Ral', 'Tir', 'Tal', 'Sol'],
                 level: 27,
-                bases: ['미늘창', '지팡이', '활', '쇠뇌'],
-                stats: [
-                    { text: '장착 시 12~17 레벨 명상 오라 효과 적용' },
-                    { text: '시전 속도 +35%' },
-                    { text: '피해 +200~260% 증가' },
-                    { text: '최소 피해 +9' },
-                    { text: '명중률 보너스 180~250%' },
-                    { text: '화염 피해 5~30 추가' },
-                    { text: '독 피해 +75 (5초에 걸쳐)' },
-                    { text: '+1~6 치명타' },
-                    { text: '모든 능력치 +5' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '마법 아이템 발견 확률 23% 증가' }
-                ]
+                bases: ['Polearms', 'Staves']
             },
-            'shield2_rhyme': {
-                name: 'Rhyme (각운)',
-                sockets: 2,
-                runes: ['Shael', 'Eth'],
-                level: 29,
-                bases: ['방패'],
-                stats: [
-                    { text: '막기 속도 +40%' },
-                    { text: '막기 확률 20% 증가' },
-                    { text: '마나 재생 15%' },
-                    { text: '모든 저항 +25' },
-                    { text: '빙결되지 않음' },
-                    { text: '괴물에게서 얻는 금화 50% 증가' },
-                    { text: '마법 아이템 발견 확률 25% 증가' }
-                ]
-            },
-            'armor3_peace': {
-                name: 'Peace (평화)',
+            'armor3': {
+                name: "Enigma",
                 sockets: 3,
-                runes: ['Shael', 'Thul', 'Amn'],
-                level: 29,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '피격 시 4% 확률로 5 레벨 투사체 감속 시전', probability: 0.04 },
-                    { text: '타격 시 2% 확률로 15 레벨 발키리 시전', probability: 0.02 },
-                    { text: '아마존 기술 레벨 +2' },
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '+2 치명타' },
-                    { text: '냉기 저항 +30%' },
-                    { text: '공격자가 피해를 14 받음' }
-                ]
+                runes: ['Jah', 'Ith', 'Ber'],
+                level: 65,
+                bases: ['Body Armor']
             },
-            'mace3_black': {
-                name: 'Black (어둠)',
-                sockets: 3,
-                runes: ['Thul', 'Io', 'Nef'],
-                level: 35,
-                bases: ['철퇴', '망치'],
-                stats: [
-                    { text: '공격 속도 +15%' },
-                    { text: '피해 +120% 증가' },
-                    { text: '명중률 +200' },
-                    { text: '냉기 피해 3~14 추가' },
-                    { text: '강타 확률 40%', probability: 0.4 },
-                    { text: '밀쳐내기' },
-                    { text: '활력 +10' },
-                    { text: '마법 피해 2 감소' },
-                    { text: '4 레벨 시체 폭발 (충전 12회)' }
-                ]
-            },
-            'wand2_white': {
-                name: 'White (순백)',
-                sockets: 2,
-                runes: ['Dol', 'Io'],
-                level: 35,
-                bases: ['완드'],
-                stats: [
-                    { text: '독과 뼈 기술 +3 (강령술사 전용)' },
-                    { text: '시전 속도 +20%' },
-                    { text: '+2 뼈 창 (강령술사 전용)' },
-                    { text: '+4 해골 숙련 (강령술사 전용)' },
-                    { text: '+3 뼈 갑옷 (강령술사 전용)' },
-                    { text: '적중 시 괴물 도주 25%', probability: 0.25 },
-                    { text: '활력 +10' },
-                    { text: '마나 +13' },
-                    { text: '마법 피해 4 감소' }
-                ]
-            },
-            'helm3_prudence': {
-                name: 'Prudence (방책)',
-                sockets: 3,
-                runes: ['Shael', 'Io', 'Sol'],
-                level: 35,
-                bases: ['투구'],
-                stats: [
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '적중당 생명력 +4~6% 훔침' },
-                    { text: '방어력 +75~100% 증가' },
-                    { text: '활력 +10' },
-                    { text: '최대 생명력 5% 증가' },
-                    { text: '생명력 회복 +30' },
-                    { text: '피해 7 감소' },
-                    { text: '받는 물리 피해 10~15% 감소' }
-                ]
-            },
-            'helm3_cure': {
-                name: 'Cure (치료)',
-                sockets: 3,
-                runes: ['Shael', 'Io', 'Tal'],
-                level: 35,
-                bases: ['투구'],
-                stats: [
-                    { text: '장착 시 1레벨 정화 오라 효과 적용' },
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '방어력 +75~100% 증가' },
-                    { text: '활력 +10' },
-                    { text: '최대 생명력 5% 증가' },
-                    { text: '독 저항 +40~60%' },
-                    { text: '독 지속시간 50% 감소' }
-                ]
-            },
-            'helm3_ground': {
-                name: 'Ground (접지)',
-                sockets: 3,
-                runes: ['Shael', 'Io', 'Ort'],
-                level: 35,
-                bases: ['투구'],
-                stats: [
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '방어력 +75~100% 증가' },
-                    { text: '활력 +10' },
-                    { text: '최대 생명력 5% 증가' },
-                    { text: '번개 저항 +40~60%' },
-                    { text: '번개 흡수 +10~15%' },
-                    { text: '빙결되지 않음' }
-                ]
-            },
-            'helm3_hearth': {
-                name: 'Hearth (화로)',
-                sockets: 3,
-                runes: ['Shael', 'Io', 'Thul'],
-                level: 35,
-                bases: ['투구'],
-                stats: [
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '방어력 +75~100% 증가' },
-                    { text: '활력 +10' },
-                    { text: '최대 생명력 5% 증가' },
-                    { text: '냉기 저항 +40~60%' },
-                    { text: '냉기 흡수 +10~15%' },
-                    { text: '빙결되지 않음' }
-                ]
-            },
-            'helm3_temper': {
-                name: 'Temper (담금질)',
-                sockets: 3,
-                runes: ['Shael', 'Io', 'Ral'],
-                level: 35,
-                bases: ['투구'],
-                stats: [
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '방어력 +75~100% 증가' },
-                    { text: '활력 +10' },
-                    { text: '최대 생명력 5% 증가' },
-                    { text: '화염 저항 +40~60%' },
-                    { text: '화염 흡수 +10~15%' }
-                ]
-            },
-            'staff4_memory': {
-                name: 'Memory (기억)',
-                sockets: 4,
-                runes: ['Lum', 'Io', 'Sol', 'Eth'],
-                level: 37,
-                bases: ['지팡이'],
-                stats: [
-                    { text: '원소술사 기술 레벨 +3' },
-                    { text: '시전 속도 +33%' },
-                    { text: '최대 마나 20% 증가' },
-                    { text: '+3 마력 보호막 (원소술사 전용)' },
-                    { text: '+2 전자기장 (원소술사 전용)' },
-                    { text: '마나 +10' },
-                    { text: '생명력 +10' },
-                    { text: '최소 피해 +9' },
-                    { text: '대상의 방어력 -25%' },
-                    { text: '마법 피해 7 감소' },
-                    { text: '방어력 +50% 증가' }
-                ]
-            },
-            'armor2_smoke': {
-                name: 'Smoke (연기)',
-                sockets: 2,
-                runes: ['Nef', 'Lum'],
-                level: 37,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '방어력 +75% 증가' },
-                    { text: '원거리 공격 방어력 +280' },
-                    { text: '마력 +10' },
-                    { text: '모든 저항 +50' },
-                    { text: '시야 -1' },
-                    { text: '6 레벨 약화 (충전 18회)' }
-                ]
-            },
-            'shield2_splendor': {
-                name: 'Splendor (광채)',
-                sockets: 2,
-                runes: ['Eth', 'Lum'],
-                level: 37,
-                bases: ['방패'],
-                stats: [
-                    { text: '모든 기술 +1' },
-                    { text: '시전 속도 +10%' },
-                    { text: '막기 속도 +20%' },
-                    { text: '방어력 60~100% 증가' },
-                    { text: '마력 +10' },
-                    { text: '마나 재생 15%' },
-                    { text: '괴물에게서 얻는 금화 50% 증가' },
-                    { text: '마법 아이템 발견 확률 20% 증가' },
-                    { text: '시야 +3' }
-                ]
-            },
-            'missile3_melody': {
-                name: 'Melody (선율)',
-                sockets: 3,
-                runes: ['Shael', 'Ko', 'Nef'],
-                level: 39,
-                bases: ['원거리 무기'],
-                stats: [
-                    { text: '활과 쇠뇌 기술 +3 (아마존 전용)' },
-                    { text: '공격 속도 +20%' },
-                    { text: '피해 +50% 증가' },
-                    { text: '언데드에게 주는 피해 +300%' },
-                    { text: '+3 투사체 감속 (아마존 전용)' },
-                    { text: '+3 흘리기 (아마존 전용)' },
-                    { text: '+3 치명타 (아마존 전용)' },
-                    { text: '밀쳐내기' },
-                    { text: '민첩 +10' }
-                ]
-            },
-            'missile4_harmony': {
-                name: 'Harmony (조화)',
-                sockets: 4,
-                runes: ['Tir', 'Ith', 'Sol', 'Ko'],
-                level: 39,
-                bases: ['원거리 무기'],
-                stats: [
-                    { text: '장착 시 10 레벨 원기 오라 효과 적용' },
-                    { text: '피해 +200~275% 증가' },
-                    { text: '최소 피해 +9' },
-                    { text: '최대 피해 +9' },
-                    { text: '화염 피해 55~160 추가' },
-                    { text: '번개 피해 55~160 추가' },
-                    { text: '냉기 피해 55~160 추가' },
-                    { text: '+2~6 발키리' },
-                    { text: '민첩 +10' },
-                    { text: '마나 재생 20%' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '시야 +2' },
-                    { text: '20 레벨 부활 (충전 25회)' }
-                ]
-            },
-            'armor3_fortitude': {
-                name: 'Fortitude (투지)',
-                sockets: 3,
-                runes: ['Shael', 'Ko', 'Eld'],
-                level: 39,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '달리기/걷기 속도 +65%' },
-                    { text: '공격 속도 +40% 증가' },
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '회피 +6' },
-                    { text: '민첩 +10' },
-                    { text: '지구력 고갈 속도 50% 감소' },
-                    { text: '모든 저항 +10' }
-                ]
-            },
-            'weapon3_fortitude_weapon': {
-                name: 'Fortitude (투지)',
-                sockets: 3,
-                runes: ['Shael', 'Ko', 'Eld'],
-                level: 39,
-                bases: ['무기'],
-                stats: [
-                    { text: '타격 시 5% 확률로 1레벨 폭발적인 속도 시전', probability: 0.05 },
-                    { text: '레벨 1 광신 오라' },
-                    { text: '공격 속도 +30% 증가' },
-                    { text: '피해 +180~200% 증가' },
-                    { text: '언데드에게 주는 피해 +75%' },
-                    { text: '언데드에 대한 명중률 +50' },
-                    { text: '민첩 +10' }
-                ]
-            },
-            'sword6_unbending': {
-                name: 'Unbending Will (불굴의 의지)',
-                sockets: 6,
-                runes: ['Fal', 'Io', 'Ith', 'Eld', 'El', 'Hel'],
-                level: 41,
-                bases: ['도검'],
-                stats: [
-                    { text: '타격 시 18% 확률로 18 레벨 도발 시전', probability: 0.18 },
-                    { text: '전투 기술 +3 (야만용사 전용)' },
-                    { text: '공격 속도 +20~30% 증가' },
-                    { text: '피해 +300~350% 증가' },
-                    { text: '최대 피해 +9' },
-                    { text: '명중률 +50' },
-                    { text: '언데드에게 주는 피해 +75%' },
-                    { text: '언데드에 대한 명중률 +50' },
-                    { text: '적중당 생명력 8~10% 훔침' },
-                    { text: '괴물 회복 저지' },
-                    { text: '힘 +10' },
-                    { text: '활력 +10' },
-                    { text: '피해 8 감소' },
-                    { text: '시야 +1' },
-                    { text: '착용 조건 -20%' }
-                ]
-            },
-            'armor3_lionheart': {
-                name: 'Lionheart (용맹한 자)',
-                sockets: 3,
-                runes: ['Hel', 'Lum', 'Fal'],
-                level: 41,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '피해 +20% 증가' },
-                    { text: '착용 조건 -15%' },
-                    { text: '힘 +20' },
-                    { text: '민첩 +15' },
-                    { text: '활력 +20' },
-                    { text: '마력 +10' },
-                    { text: '생명력 +50' },
-                    { text: '모든 저항 +30' }
-                ]
-            },
-            'polearm5_obedience': {
-                name: 'Obedience (순종)',
+            'weapon5': {
+                name: "Breath of the Dying",
                 sockets: 5,
-                runes: ['Hel', 'Ko', 'Thul', 'Eth', 'Fal'],
-                level: 41,
-                bases: ['미늘창', '창'],
-                stats: [
-                    { text: '적 처치 시 30% 확률로 21 레벨 마법부여 시전', probability: 0.3 },
-                    { text: '타격 회복 속도 +40%' },
-                    { text: '피해 +370% 증가' },
-                    { text: '대상의 방어력 -25%' },
-                    { text: '냉기 피해 3~14 추가' },
-                    { text: '적의 화염 저항 -25%' },
-                    { text: '강타 확률 40%', probability: 0.4 },
-                    { text: '방어력 +200~300' },
-                    { text: '힘 +10' },
-                    { text: '민첩 +10' },
-                    { text: '모든 저항 +20~30' },
-                    { text: '착용 조건 -20%' }
-                ]
+                runes: ['Vex', 'Hel', 'El', 'Eld', 'Zod'],
+                level: 69,
+                bases: ['Swords', 'Polearms']
             },
-            'armor3_wealth': {
-                name: 'Wealth (부)',
-                sockets: 3,
-                runes: ['Lem', 'Ko', 'Tir'],
-                level: 43,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '괴물에게서 얻는 금화 300% 증가' },
-                    { text: '마법 아이템 발견 확률 100% 증가' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '민첩 +10' }
-                ]
-            },
-            'weapon4_passion': {
-                name: 'Passion (열정)',
-                sockets: 4,
-                runes: ['Dol', 'Ort', 'Eld', 'Lem'],
-                level: 43,
-                bases: ['무기'],
-                stats: [
-                    { text: '공격 속도 +25%' },
-                    { text: '피해 +160~210% 증가' },
-                    { text: '명중률 보너스 50~80%' },
-                    { text: '언데드에게 주는 피해 +75%' },
-                    { text: '언데드에 대한 명중률 +50' },
-                    { text: '번개 피해 1~50 추가' },
-                    { text: '+1 광폭화' },
-                    { text: '+1 열의' },
-                    { text: '적중 시 대상 실명 +10', probability: 0.1 },
-                    { text: '적중 시 괴물 도주 25%', probability: 0.25 },
-                    { text: '괴물에게서 얻는 금화 75% 증가' },
-                    { text: '3 레벨 울버린의 심장 (충전 12회)' }
-                ]
-            },
-            'helm3_delirium': {
-                name: 'Delirium (착란)',
-                sockets: 3,
-                runes: ['Lem', 'Ist', 'Io'],
-                level: 43,
-                bases: ['투구'],
-                stats: [
-                    { text: '피격 시 1% 확률로 50 레벨 착란 시전', probability: 0.01 },
-                    { text: '피격 시 6% 확률로 14 레벨 정신폭발 시전',名叫: 'Delirium (착란)',
-                sockets: 3,
-                runes: ['Lem', 'Ist', 'Io'],
-                level: 43,
-                bases: ['투구'],
-                stats: [
-                    { text: '피격 시 1% 확률로 50 레벨 착란 시전', probability: 0.01 },
-                    { text: '피격 시 6% 확률로 14 레벨 정신폭발 시전', probability: 0.06 },
-                    { text: '피격 시 14% 확률로 13 레벨 공포 시전', probability: 0.14 },
-                    { text: '타격 시 11% 확률로 18 레벨 혼란 시전', probability: 0.11 },
-                    { text: '모든 기술 +2' },
-                    { text: '방어력 +261' },
-                    { text: '활력 +10' },
-                    { text: '괴물에게서 얻는 금화 50% 증가' },
-                    { text: '마법 아이템 발견 확률 25% 증가' },
-                    { text: '17 레벨 유혹 (충전 60회)' }
-                ]
-            },
-            'armor3_treachery': {
-                name: 'Treachery (배신)',
-                sockets: 3,
-                runes: ['Shael', 'Thul', 'Lem'],
-                level: 43,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '피격 시 5% 확률로 15 레벨 흐리기 시전', probability: 0.05 },
-                    { text: '타격 시 25% 확률로 15 레벨 맹독 시전', probability: 0.25 },
-                    { text: '암살자 기술 레벨 +2' },
-                    { text: '공격 속도 +45%' },
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '냉기 저항 +30%' },
-                    { text: '괴물에게서 얻는 금화 50% 증가' }
-                ]
-            },
-            'weapon3_lawbringer': {
-                name: 'Lawbringer (집행자)',
-                sockets: 3,
-                runes: ['Amn', 'Lem', 'Ko'],
-                level: 43,
-                bases: ['도검', '망치', '홀'],
-                stats: [
-                    { text: '타격 시 20% 확률로 15 레벨 노화 시전', probability: 0.2 },
-                    { text: '장착 시 16 레벨 성역 오라 효과 적용' },
-                    { text: '대상의 방어력 -50%' },
-                    { text: '화염 피해 150~210 추가' },
-                    { text: '냉기 피해 130~180 추가' },
-                    { text: '적중당 생명력 7% 훔침' },
-                    { text: '처치한 괴물이 안식에 듦' },
-                    { text: '원거리 공격 방어력 +200~250' },
-                    { text: '민첩 +10' },
-                    { text: '괴물에게서 얻는 금화 75% 증가' }
-                ]
-            },
-            'weapon4_reason': {
-                name: 'Voice of Reason (이유있는 항변)',
-                sockets: 4,
-                runes: ['Lem', 'Ko', 'El', 'Eld'],
-                level: 43,
-                bases: ['도검', '철퇴'],
-                stats: [
-                    { text: '타격 시 15% 확률로 13 레벨 얼음보주 시전', probability: 0.15 },
-                    { text: '타격 시 18% 확률로 20 레벨 얼음작렬 시전', probability: 0.18 },
-                    { text: '명중률 +50' },
-                    { text: '악마에게 주는 피해 +220~350%' },
-                    { text: '언데드에게 주는 피해 +280~300%' },
-                    { text: '언데드에 대한 명중률 +50' },
-                    { text: '냉기 피해 100~220 추가' },
-                    { text: '적의 냉기 저항 -24%' },
-                    { text: '민첩 +10' },
-                    { text: '빙결되지 않음' },
-                    { text: '괴물에게서 얻는 금화 75% 증가' },
-                    { text: '시야 +1' }
-                ]
-            },
-            'helm3_wisdom': {
-                name: 'Wisdom (지혜)',
-                sockets: 3,
-                runes: ['Pul', 'Ith', 'Eld'],
-                level: 45,
-                bases: ['투구'],
-                stats: [
-                    { text: '관통 공격 +33%' },
-                    { text: '명중률 보너스 +15~25%' },
-                    { text: '적중당 마나 4~8% 훔침' },
-                    { text: '방어력 +30% 증가' },
-                    { text: '마력 +10' },
-                    { text: '지구력 고갈 속도 15% 감소' },
-                    { text: '빙결되지 않음' },
-                    { text: '적 처치 시 마나 +5' },
-                    { text: '받는 피해의 15%만큼 마나 회복' }
-                ]
-            },
-            'armor4_stone': {
-                name: 'Stone (돌)',
-                sockets: 4,
-                runes: ['Shael', 'Um', 'Pul', 'Lum'],
-                level: 45,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '타격 회복 속도 +60%' },
-                    { text: '방어력 +250~290% 증가' },
-                    { text: '원거리 공격 방어력 +300' },
-                    { text: '힘 +16' },
-                    { text: '활력 +16' },
-                    { text: '마력 +10' },
-                    { text: '모든 저항 +15' },
-                    { text: '16 레벨 타오르는 바위 (충전 80회)' },
-                    { text: '16 레벨 점토 골렘 (충전 16회)' }
-                ]
-            },
-            'armor3_enlightenment': {
-                name: 'Enlightenment (깨우침)',
-                sockets: 3,
-                runes: ['Pul', 'Ral', 'Sol'],
-                level: 45,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '피격 시 5% 확률로 15 레벨 불길 시전', probability: 0.05 },
-                    { text: '타격 시 5% 확률로 15 레벨 화염구 시전', probability: 0.05 },
-                    { text: '원소술사 기술 레벨 +2' },
-                    { text: '+1 온기' },
-                    { text: '방어력 +30% 증가' },
-                    { text: '화염 저항 +30%' },
-                    { text: '피해 7 감소' }
-                ]
-            },
-            'armor3_duress': {
-                name: 'Duress (협박)',
-                sockets: 3,
-                runes: ['Shael', 'Um', 'Thul'],
-                level: 47,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '타격 회복 속도 +40%' },
-                    { text: '피해 +10~20% 증가' },
-                    { text: '냉기 피해 37~133 추가' },
-                    { text: '강타 확률 15%', probability: 0.15 },
-                    { text: '상처 악화 확률 33%', probability: 0.33 },
-                    { text: '방어력 150~200% 증가' },
-                    { text: '지구력 고갈 속도 -20% 감소' },
-                    { text: '냉기 저항 +45%' },
-                    { text: '번개 저항 +15%' },
-                    { text: '화염 저항 +15%' },
-                    { text: '독 저항 +15%' }
-                ]
-            },
-            'armor3_gloom': {
-                name: 'Gloom (어스름)',
-                sockets: 3,
-                runes: ['Fal', 'Um', 'Pul'],
-                level: 47,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '피격 시 15% 확률로 3 레벨 시야 흐리기 시전', probability: 0.15 },
-                    { text: '타격 회복 속도 +10%' },
-                    { text: '방어력 +200~260% 증가' },
-                    { text: '힘 +10' },
-                    { text: '모든 저항 +45' },
-                    { text: '빙결 지속시간 절반으로 감소' },
-                    { text: '받는 피해의 5%만큼 마나 회복' },
-                    { text: '시야 -3' }
-                ]
-            },
-            'weapon3_crescent': {
-                name: 'Crescent Moon (초승달)',
-                sockets: 3,
-                runes: ['Shael', 'Um', 'Tir'],
-                level: 47,
-                bases: ['도끼', '도검', '미늘창'],
-                stats: [
-                    { text: '타격 시 10% 확률로 17 레벨 연쇄 번개 시전', probability: 0.1 },
-                    { text: '타격 시 7% 확률로 13 레벨 전자기장 시전', probability: 0.07 },
-                    { text: '공격 속도 +20%' },
-                    { text: '피해 +180~220% 증가' },
-                    { text: '대상의 방어력 무시' },
-                    { text: '적의 번개 저항 -35%' },
-                    { text: '상처 악화 확률 25%', probability: 0.25 },
-                    { text: '마법 흡수 +9~11' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '13 레벨 영혼 늑대 소환 (충전 30회)' }
-                ]
-            },
-            'armor3_bone': {
-                name: 'Bone (뼈)',
-                sockets: 3,
-                runes: ['Sol', 'Um', 'Um'],
-                level: 47,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '피격 시 15% 확률로 10 레벨 뼈 갑옷 시전', probability: 0.15 },
-                    { text: '타격 시 15% 확률로 10 레벨 뼈 창 시전', probability: 0.15 },
-                    { text: '강령술사 기술 레벨 +2' },
-                    { text: '마나 +100~150' },
-                    { text: '모든 저항 +30' },
-                    { text: '피해 7 감소' }
-                ]
-            },
-            'weapon3_venom': {
-                name: 'Venom (베놈)',
-                sockets: 3,
-                runes: ['Tal', 'Dol', 'Mal'],
-                level: 49,
-                bases: ['무기'],
-                stats: [
-                    { text: '대상의 방어력 무시' },
-                    { text: '독 피해 +273 (6초에 걸쳐)' },
-                    { text: '적중당 마나 7% 훔침' },
-                    { text: '괴물 회복 저지' },
-                    { text: '적중 시 괴물 도주 25%', probability: 0.25 },
-                    { text: '13 레벨 맹독 확산 (충전 11회)' },
-                    { text: '15 레벨 맹독 폭발 (충전 27회)' }
-                ]
-            },
-            'armor2_prudence_armor': {
-                name: 'Prudence (신중)',
+            'helm2': {
+                name: "Lore",
                 sockets: 2,
-                runes: ['Mal', 'Tir'],
-                level: 49,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '타격 회복 속도 +25%' },
-                    { text: '방어력 +140~170% 증가' },
-                    { text: '모든 저항 +25~35' },
-                    { text: '피해 3 감소' },
-                    { text: '마법 피해 17 감소' },
-                    { text: '적 처치 시 마나 +2' },
-                    { text: '시야 +1' },
-                    { text: '내구도 1 회복 (4초마다)' }
-                ]
+                runes: ['Ort', 'Sol'],
+                level: 27,
+                bases: ['Helms']
             },
-            'shield3_sanctuary': {
-                name: 'Sanctuary (성역)',
+            'weapon3': {
+                name: "Honor",
                 sockets: 3,
-                runes: ['Ko', 'Ko', 'Mal'],
-                level: 49,
-                bases: ['방패'],
-                stats: [
-                    { text: '타격 회복 속도 +20%' },
-                    { text: '막기 속도 +20%' },
-                    { text: '막기 확률 20% 증가' },
-                    { text: '방어력 130~160% 증가' },
-                    { text: '원거리 공격 방어력 +250' },
-                    { text: '민첩 +20' },
-                    { text: '모든 저항 +50~70' },
-                    { text: '마법 피해 7 감소' },
-                    { text: '12 레벨 투사체 감속 (충전 60회)' }
-                ]
-            },
-            'armor3_rain': {
-                name: 'Rain (비)',
-                sockets: 3,
-                runes: ['Ort', 'Mal', 'Ith'],
-                level: 49,
-                bases: ['갑옷'],
-                stats: [
-                    { text: '피격 시 5% 확률로 15 레벨 회오리 갑옷 시전', probability: 0.05 },
-                    { text: '타격 시 5% 확률로 15 레벨 돌개바람 시전', probability: 0.05 },
-                    { text: '드루이드 기술 레벨 +2' },
-                    { text: '마나 +100~150' },
-                    { text: '번개 저항 +30%' },
-                    { text: '마법 피해 7 감소' },
-                    { text: '받는 피해의 15%만큼 마나 회복' }
-                ]
-            },
-            'weapon4_oath': {
-                name: 'Oath (서약)',
-                sockets: 4,
-                runes: ['Shael', 'Pul', 'Mal', 'Lum'],
-                level: 49,
-                bases: ['도검', '도끼', '철퇴'],
-                stats: [
-                    { text: '파괴 불가' },
-                    { text: '타격 시 30% 확률로 20 레벨 뼈 영혼 시전', probability: 0.3 },
-                    { text: '공격 속도 +50%' },
-                    { text: '피해 +210~340% 증가' },
-                    { text: '악마에게 주는 피해 +75%' },
-                    { text: '악마에 대한 명중률 +100' },
-                    { text: '괴물 회복 저지' },
-                    { text: '마력 +10' },
-                    { text: '마법 흡수 +15' },
-                    { text: '16 레벨 울버린의 심장 (충전 20회)' },
-                    { text: '17 레벨 강철 골렘 (충전 14회)' }
-                ]
-            },
-            'weapon4_kingslayer': {
-                name: 'Kingslayer (왕 시해자)',
-                sockets: 4,
-                runes: ['Mal', 'Um', 'Gul', 'Fal'],
-                level: 53,
-                bases: ['도검', '도끼'],
-                stats: [
-                    { text: '공격 속도 +30%' },
-                    { text: '피해 +230~270% 증가' },
-                    { text: '대상의 방어력 -25%' },
-                    { text: '명중률 보너스 20%' },
-                    { text: '강타 확률 33%', probability: 0.33 },
-                    { text: '상처 악화 확률 50%', probability: 0.5 },
-                    { text: '+1 복수' },
-                    { text: '괴물
+                runes: ['Amn', 'El', 'Ith'],
+                level: 27,
+                bases: ['Melee Weapons']
+            }
+        };
+
+        // All runes list with Korean and English names
+        const allRunes = [
+            { en: 'El', ko: '엘' },
+            { en: 'Eld', ko: '엘드' },
+            { en: 'Tir', ko: '티르' },
+            { en: 'Nef', ko: '네프' },
+            { en: 'Eth', ko: '에스' },
+            { en: 'Ith', ko: '이스' },
+            { en: 'Tal', ko: '탈' },
+            { en: 'Ral', ko: '랄' },
+            { en: 'Ort', ko: '오르트' },
+            { en: 'Thul', ko: '툴' },
+            { en: 'Amn', ko: '앰' },
+            { en: 'Sol', ko: '솔' },
+            { en: 'Shael', ko: '샤엘' },
+            { en: 'Dol', ko: '돌' },
+            { en: 'Hel', ko: '헬' },
+            { en: 'Io', ko: '아이오' },
+            { en: 'Lum', ko: '룸' },
+            { en: 'Ko', ko: '코' },
+            { en: 'Fal', ko: '팔' },
+            { en: 'Lem', ko: '렘' },
+            { en: 'Pul', ko: '풀' },
+            { en: 'Um', ko: '움' },
+            { en: 'Mal', ko: '말' },
+            { en: 'Ist', ko: '이스트' },
+            { en: 'Gul', ko: '굴' },
+            { en: 'Vex', ko: '벡스' },
+            { en: 'Ohm', ko: '옴' },
+            { en: 'Lo', ko: '로' },
+            { en: 'Sur', ko: '수르' },
+            { en: 'Ber', ko: '버' },
+            { en: 'Jah', ko: '자' },
+            { en: 'Cham', ko: '참' },
+            { en: 'Zod', ko: '조드' }
+        ];
+
+        let draggedRune = null;
+
+        // Initialize page
+        function init() {
+            populateRunes();
+            updateBaseItem();
+            setupEventListeners();
+        }
+
+        function populateRunes() {
+            const runesList = document.getElementById('runesList');
+            runesList.innerHTML = '';
+            allRunes.forEach(rune => {
+                const runeEl = document.createElement('div');
+                runeEl.className = 'rune';
+                runeEl.textContent = `${rune.en} (${rune.ko})`;
+                runeEl.dataset.english = rune.en; // Store English name for drag-and-drop
+                runeEl.draggable = true;
+                runeEl.addEventListener('dragstart', handleDragStart);
+                runesList.appendChild(runeEl);
+            });
+        }
+
+        function updateBaseItem() {
+            const select = document.getElementById('baseItemSelect');
+            const baseItem = runewords[select.value];
+            document.getElementById('itemName').textContent = `${baseItem.bases.join('/')} (${baseItem.sockets}소켓) - ${baseItem.name}`;
+            
+            const socketsDiv = document.getElementById('sockets');
+            socketsDiv.innerHTML = '';
+            for (let i = 0; i < baseItem.sockets; i++) {
+                const socket = document.createElement('div');
+                socket.className = 'socket';
+                socket.dataset.index = i;
+                socket.addEventListener('dragover', handleDragOver);
+                socket.addEventListener('drop', handleDrop);
+                socketsDiv.appendChild(socket);
+            }
+            checkRuneword();
+        }
+
+        function setupEventListeners() {
+            document.getElementById('baseItemSelect').addEventListener('change', updateBaseItem);
+        }
+
+        function handleDragStart(e) {
+            draggedRune = e.target.dataset.english; // Use English name for logic
+            e.dataTransfer.effectAllowed = 'copy';
+            e.dataTransfer.setData('text/plain', draggedRune);
+            e.dataTransfer.setData('text/display', e.target.textContent); // Store display text
+        }
+
+        function handleDragOver(e) {
+            e.preventDefault();
+            e.dataTransfer.dropEffect = 'copy';
+            e.target.classList.add('drag-over');
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            e.target.classList.remove('drag-over');
+            const rune = e.dataTransfer.getData('text/plain');
+            const displayText = e.dataTransfer.getData('text/display');
+            if (e.target.classList.contains('socket') && !e.target.textContent) {
+                e.target.textContent = displayText; // Show both Korean and English
+                e.target.dataset.english = rune; // Store English name for checking
+                e.target.classList.add('has-rune');
+                checkRuneword();
+            }
+        }
+
+        function checkRuneword() {
+            const select = document.getElementById('baseItemSelect');
+            const baseItem = runewords[select.value];
+            const sockets = document.querySelectorAll('.socket');
+            const placedRunes = Array.from(sockets).map(s => s.dataset.english).filter(r => r);
+
+            const result = document.getElementById('result');
+            if (placedRunes.length !== baseItem.sockets) {
+                result.textContent = '모든 소켓을 채워주세요.';
+                result.className = 'result info';
+                return;
+            }
+
+            if (JSON.stringify(placedRunes) === JSON.stringify(baseItem.runes)) {
+                result.textContent = `성공! ${baseItem.name} 룬워드가 생성되었습니다. (레벨 요구: ${baseItem.level})`;
+                result.className = 'result success';
+            } else {
+                result.textContent = '룬 순서나 조합이 맞지 않습니다. 다시 시도하세요.';
+                result.className = 'result error';
+            }
+        }
+
+        // Allow clearing sockets by double-click
+        document.addEventListener('dblclick', (e) => {
+            if (e.target.classList.contains('socket') && e.target.textContent) {
+                e.target.textContent = '';
+                e.target.dataset.english = '';
+                e.target.classList.remove('has-rune');
+                checkRuneword();
+            }
+        });
+
+        init();
+    </script>
+</body>
+</html>
