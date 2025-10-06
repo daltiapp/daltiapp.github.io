@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디아블로 룬워드 제작기</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ffd700;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .runes-panel {
+            flex: 1;
+            background-color: #333;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .runes-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            gap: 10px;
+        }
+        .rune {
+            background-color: #555;
+            border: 2px solid #777;
+            border-radius: 4px;
+            padding: 10px;
+            text-align: center;
+            cursor: grab;
+            user-select: none;
+            transition: background-color 0.3s;
+        }
+        .rune:active {
+            cursor: grabbing;
+        }
+        .rune:hover {
+            background-color: #666;
+        }
+        .item-panel {
+            flex: 2;
+            background-color: #333;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .base-item {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sockets {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .socket {
+            width: 60px;
+            height: 60px;
+            border: 2px dashed #999;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #222;
+            transition: border-color 0.3s;
+        }
+        .socket.drag-over {
+            border-color: #ffd700;
+            background-color: #444;
+        }
+        .socket.has-rune {
+            border-color: #ffd700;
+            background-color: #555;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+            min-height: 40px;
+        }
+        .success {
+            background-color: #4caf50;
+            color: white;
+        }
+        .error {
+            background-color: #f44336;
+            color: white;
+        }
+        .info {
+            background-color: #2196f3;
+            color: white;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #555;
+            color: #fff;
+            border: 1px solid #777;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>디아블로 룬워드 제작기</h1>
+    <p style="text-align: center;">룬을 드래그해서 소켓에 놓아보세요. 순서가 중요합니다!</p>
+    
+    <div class="container">
+        <div class="runes-panel">
+            <h2>사용 가능한 룬</h2>
+            <div class="runes-list" id="runesList">
+                <!-- Runes will be populated by JS -->
+            </div>
+        </div>
+        
+        <div class="item-panel">
+            <h2>베이스 아이템</h2>
+            <select id="baseItemSelect">
+                <option value="shield3">방패 (3소켓) - Ancients' Pledge</option>
+                <option value="armor2">갑옷 (2소켓) - Stealth</option>
+                <option value="weapon4">무기 (4소켓) - Spirit</option>
+                <option value="polearm4">폴암 (4소켓) - Insight</option>
+                <option value="armor3">갑옷 (3소켓) - Enigma</option>
+                <option value="weapon5">무기 (5소켓) - Breath of the Dying</option>
+                <option value="helm2">헬름 (2소켓) - Lore</option>
+                <option value="weapon3">무기 (3소켓) - Honor</option>
+            </select>
+            
+            <div class="base-item" id="baseItem">
+                <h3 id="itemName">방패 (3소켓)</h3>
+                <div class="sockets" id="sockets">
+                    <!-- Sockets will be populated by JS -->
+                </div>
+            </div>
+            
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+
+    <script>
+        // Runeword data (expanded based on reference site)
+        const runewords = {
+            'shield3': {
+                name: "Ancients' Pledge",
+                sockets: 3,
+                runes: ['Ral', 'Ort', 'Tal'],
+                level: 31,
+                bases: ['Shields']
+            },
+            'armor2': {
+                name: "Stealth",
+                sockets: 2,
+                runes: ['Tal', 'Eth'],
+                level: 17,
+                bases: ['Body Armor', 'Helms']
+            },
+            'weapon4': {
+                name: "Spirit",
+                sockets: 4,
+                runes: ['Tal', 'Thul', 'Ort', 'Amn'],
+                level: 25,
+                bases: ['Swords', 'Shields']
+            },
+            'polearm4': {
+                name: "Insight",
+                sockets: 4,
+                runes: ['Ral', 'Tir', 'Tal', 'Sol'],
+                level: 27,
+                bases: ['Polearms', 'Staves']
+            },
+            'armor3': {
+                name: "Enigma",
+                sockets: 3,
+                runes: ['Jah', 'Ith', 'Ber'],
+                level: 65,
+                bases: ['Body Armor']
+            },
+            'weapon5': {
+                name: "Breath of the Dying",
+                sockets: 5,
+                runes: ['Vex', 'Hel', 'El', 'Eld', 'Zod'],
+                level: 69,
+                bases: ['Swords', 'Polearms']
+            },
+            'helm2': {
+                name: "Lore",
+                sockets: 2,
+                runes: ['Ort', 'Sol'],
+                level: 27,
+                bases: ['Helms']
+            },
+            'weapon3': {
+                name: "Honor",
+                sockets: 3,
+                runes: ['Amn', 'El', 'Ith'],
+                level: 27,
+                bases: ['Melee Weapons']
+            }
+        };
+
+        // All runes list
+        const allRunes = [
+            'El', 'Eld', 'Tir', 'Nef', 'Eth', 'Ith', 'Tal', 'Ral', 'Ort', 'Thul',
+            'Amn', 'Sol', 'Shael', 'Dol', 'Hel', 'Io', 'Lum', 'Ko', 'Fal', 'Lem',
+            'Pul', 'Um', 'Mal', 'Ist', 'Gul', 'Vex', 'Ohm', 'Lo', 'Sur', 'Ber',
+            'Jah', 'Cham', 'Zod'
+        ];
+
+        let draggedRune = null;
+
+        // Initialize page
+        function init() {
+            populateRunes();
+            updateBaseItem();
+            setupEventListeners();
+        }
+
+        function populateRunes() {
+            const runesList = document.getElementById('runesList');
+            runesList.innerHTML = '';
+            allRunes.forEach(rune => {
+                const runeEl = document.createElement('div');
+                runeEl.className = 'rune';
+                runeEl.textContent = rune;
+                runeEl.draggable = true;
+                runeEl.addEventListener('dragstart', handleDragStart);
+                runesList.appendChild(runeEl);
+            });
+        }
+
+        function updateBaseItem() {
+            const select = document.getElementById('baseItemSelect');
+            const baseItem = runewords[select.value];
+            document.getElementById('itemName').textContent = `${baseItem.bases.join('/')} (${baseItem.sockets}소켓) - ${baseItem.name}`;
+            
+            const socketsDiv = document.getElementById('sockets');
+            socketsDiv.innerHTML = '';
+            for (let i = 0; i < baseItem.sockets; i++) {
+                const socket = document.createElement('div');
+                socket.className = 'socket';
+                socket.dataset.index = i;
+                socket.addEventListener('dragover', handleDragOver);
+                socket.addEventListener('drop', handleDrop);
+                socketsDiv.appendChild(socket);
+            }
+            checkRuneword();
+        }
+
+        function setupEventListeners() {
+            document.getElementById('baseItemSelect').addEventListener('change', updateBaseItem);
+        }
+
+        function handleDragStart(e) {
+            draggedRune = e.target.textContent;
+            e.dataTransfer.effectAllowed = 'copy';
+            e.dataTransfer.setData('text/plain', draggedRune);
+        }
+
+        function handleDragOver(e) {
+            e.preventDefault();
+            e.dataTransfer.dropEffect = 'copy';
+            e.target.classList.add('drag-over');
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            e.target.classList.remove('drag-over');
+            const rune = e.dataTransfer.getData('text/plain');
+            if (e.target.classList.contains('socket') && !e.target.textContent) {
+                e.target.textContent = rune;
+                e.target.classList.add('has-rune');
+                checkRuneword();
+            }
+        }
+
+        function checkRuneword() {
+            const select = document.getElementById('baseItemSelect');
+            const baseItem = runewords[select.value];
+            const sockets = document.querySelectorAll('.socket');
+            const placedRunes = Array.from(sockets).map(s => s.textContent).filter(r => r);
+
+            const result = document.getElementById('result');
+            if (placedRunes.length !== baseItem.sockets) {
+                result.textContent = '모든 소켓을 채워주세요.';
+                result.className = 'result info';
+                return;
+            }
+
+            if (JSON.stringify(placedRunes) === JSON.stringify(baseItem.runes)) {
+                result.textContent = `성공! ${baseItem.name} 룬워드가 생성되었습니다. (레벨 요구: ${baseItem.level})`;
+                result.className = 'result success';
+            } else {
+                result.textContent = '룬 순서나 조합이 맞지 않습니다. 다시 시도하세요.';
+                result.className = 'result error';
+            }
+        }
+
+        // Allow clearing sockets by double-click
+        document.addEventListener('dblclick', (e) => {
+            if (e.target.classList.contains('socket') && e.target.textContent) {
+                e.target.textContent = '';
+                e.target.classList.remove('has-rune');
+                checkRuneword();
+            }
+        });
+
+        init();
+    </script>
+</body>
+</html>
