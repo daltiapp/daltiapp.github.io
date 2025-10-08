@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-08T20:08:00",
+  "lastUpdated": "2025-10-08T20:22:00",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -69,7 +69,7 @@
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
-      "matchTypes": ["점핑", "어질리티", "LV3이하"]
+      "matchTypes": ["점핑", "어질리티", "LV3미만"]
     },
     {
       "date": "2025-10-18T13:00:00",
