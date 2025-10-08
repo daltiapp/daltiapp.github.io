@@ -1,115 +1,135 @@
 {
-  "lastUpdated": "2025-10-06T11:45:00",
+  "lastUpdated": "2025-10-08T10:49:00",
   "competitions": [
-  {
-    "date": "2025-09-05T10:00:00",
-    "applicationPeriod": "2025-08-18 ~ 2025-09-10",
-    "name": "2025 서울시 도그스포츠 대회",
-    "location": "상암월드컵공원",
-    "url": "http://biz.onvi.co.kr/kcmc.html",
-    "judge": "여문주",
-    "eventType": "랭킹전",
-    "matchTypes": ["점핑", "노비스"]
-  },
-  {
-    "date": "2025-09-05T13:00:00",
-    "applicationPeriod": "2025-08-18 ~ 2025-09-10",
-    "name": "2025 서울시 도그스포츠 대회",
-    "location": "상암월드컵공원",
-    "url": "http://biz.onvi.co.kr/kcmc.html",
-    "judge": "양은수",
-    "eventType": "랭킹전",
-    "matchTypes": ["비기너"]
-  },
-  {
-    "date": "2025-09-13T09:00:00",
-    "applicationPeriod": "2025-08-11 ~ 2025-08-17",
-    "name": "제68회 점/어 승급전",
-    "location": "춘천에니메이션 박물관",
-    "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=167261650&t=board",
-    "judge": "홍상우",
-    "eventType": "승급전",
-    "matchTypes": ["LV1", "LV2"]
-  },
-  {
-    "date": "2025-09-13T13:00:00",
-    "applicationPeriod": "2025-08-11 ~ 2025-08-17",
-    "name": "춘천시장배 어질리티 최강자전",
-    "location": "춘천에니메이션 박물관",
-    "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=167261650&t=board",
-    "judge": "김희윤",
-    "eventType": "랭킹전",
-    "matchTypes": ["어질리티", "어드밴스드"]
-  },
-  {
-    "date": "2025-09-27T09:00:00",
-    "applicationPeriod": "2025-08-19 ~ 2025-09-18",
-    "name": "2025 경기도지사배 제2회 전국 반려견 스포츠 대회",
-    "location": "반려마루",
-    "url": "https://banryeomaru.kr/",
-    "judge": "최용석",
-    "eventType": "랭킹전",
-    "matchTypes": ["점핑", "어질리티"]
-  },
-  {
-    "date": "2025-10-12T09:00:00",
-    "applicationPeriod": "2025-09-22 ~ 2025-10-05",
-    "name": "제 70회 KKF 하이스트 독 스포츠 클럽 어질리티 대회",
-    "location": "하이스트",
-    "url": "https://linktr.ee/HIGHESTAGILITY?fbclid=PAZXh0bgNhZW0CMTEAAafdye98to9GEBdQkjy_tUWEl2DLyt01Of4AoLuUa9vI_9jjpspYz-DSYY6_TQ_aem_epectWd9UzffYKmBPSi_IQ",
-    "judge": "김혜민",
-    "eventType": "승급전",
-    "matchTypes": ["LV1", "LV2", "LV3"]
-  },
-  {
-    "date": "2025-10-18T09:00:00",
-    "applicationPeriod": "2025-09-25 ~ 2025-10-19",
-    "name": "AG_Standard_Tournament",
-    "location": "발트바우",
-    "url": "https://waldbow.com/agilityOpen.do",
-    "judge": "모리스",
-    "eventType": "랭킹전",
-    "matchTypes": ["LV2이하"]
-  },
-  {
-    "date": "2025-10-18T13:00:00",
-    "applicationPeriod": "2025-09-25 ~ 2025-10-19",
-    "name": "AG_Master_Tournament",
-    "location": "발트바우",
-    "url": "https://waldbow.com/agilityOpen.do",
-    "judge": "모리스",
-    "eventType": "랭킹전",
-    "matchTypes": ["전체"]
-  },
-  {
-    "date": "2025-10-19T09:00:00",
-    "applicationPeriod": "2025-09-25 ~ 2025-10-19",
-    "name": "EX_Tournament",
-    "location": "발트바우",
-    "url": "https://waldbow.com/agilityOpen.do",
-    "judge": "프렌즈 모리스",
-    "eventType": "랭킹전",
-    "matchTypes": ["비기너", "노비스", "어드밴스드"]
-  },
     {
-    "date": "2025-10-26T08:00:00",
-    "applicationPeriod": "2025-09-26 ~ 2025-10-13",
-    "name": "2025 FCI 인터내셔널 어질리티 경기대회",
-    "location": "순천만생태공원",
-    "url": "https://www.agility.co.kr/17/?bmode=view&idx=168027881&back_url=&t=board&page=",
-    "judge": "최용석",
-    "eventType": "승급전",
-    "matchTypes": ["LV1", "LV2", "LV3"]
-  },
-  {
-    "date": "2025-11-01T08:00:00",
-    "applicationPeriod": "2025-09-26 ~ 2025-10-13",
-    "name": "2025 FCI 인터내셔널 어질리티 경기대회",
-    "location": "소노골프장",
-    "url": "https://www.agility.co.kr/17/?bmode=view&idx=168027881&back_url=&t=board&page=",
-    "judge": "지미첸",
-    "eventType": "승급전",
-    "matchTypes": ["LV1", "LV2", "LV3"]
-  }
- ]
+      "date": "2025-09-05T10:00:00",
+      "applicationPeriod": "2025-08-18 ~ 2025-09-10",
+      "name": "2025 서울시 도그스포츠 대회",
+      "location": "상암월드컵공원",
+      "url": "http://biz.onvi.co.kr/kcmc.html",
+      "judge": "여문주",
+      "eventType": "랭킹전",
+      "matchTypes": ["점핑", "노비스"]
+    },
+    {
+      "date": "2025-09-05T13:00:00",
+      "applicationPeriod": "2025-08-18 ~ 2025-09-10",
+      "name": "2025 서울시 도그스포츠 대회",
+      "location": "상암월드컵공원",
+      "url": "http://biz.onvi.co.kr/kcmc.html",
+      "judge": "양은수",
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너"]
+    },
+    {
+      "date": "2025-09-13T09:00:00",
+      "applicationPeriod": "2025-08-11 ~ 2025-08-17",
+      "name": "제68회 점/어 승급전",
+      "location": "춘천에니메이션 박물관",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=167261650&t=board",
+      "judge": "홍상우",
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2"]
+    },
+    {
+      "date": "2025-09-13T13:00:00",
+      "applicationPeriod": "2025-08-11 ~ 2025-08-17",
+      "name": "춘천시장배 어질리티 최강자전",
+      "location": "춘천에니메이션 박물관",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=167261650&t=board",
+      "judge": "김희윤",
+      "eventType": "랭킹전",
+      "matchTypes": ["어질리티", "어드밴스드"]
+    },
+    {
+      "date": "2025-09-27T09:00:00",
+      "applicationPeriod": "2025-08-19 ~ 2025-09-18",
+      "name": "2025 경기도지사배 제2회 전국 반려견 스포츠 대회",
+      "location": "반려마루",
+      "url": "https://banryeomaru.kr/",
+      "judge": "최용석",
+      "eventType": "랭킹전",
+      "matchTypes": ["점핑", "어질리티"]
+    },
+    {
+      "date": "2025-10-12T09:00:00",
+      "applicationPeriod": "2025-09-22 ~ 2025-10-05",
+      "name": "제 70회 KKF 하이스트 독 스포츠 클럽 어질리티 대회",
+      "location": "하이스트",
+      "url": "https://linktr.ee/HIGHESTAGILITY?fbclid=PAZXh0bgNhZW0CMTEAAafdye98to9GEBdQkjy_tUWEl2DLyt01Of4AoLuUa9vI_9jjpspYz-DSYY6_TQ_aem_epectWd9UzffYKmBPSi_IQ",
+      "judge": "김혜민",
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"]
+    },
+    {
+      "date": "2025-10-18T09:00:00",
+      "applicationPeriod": "2025-09-25 ~ 2025-10-19",
+      "name": "AG_Standard_Tournament",
+      "location": "발트바우",
+      "url": "https://waldbow.com/agilityOpen.do",
+      "judge": "모리스",
+      "eventType": "랭킹전",
+      "matchTypes": ["LV2이하"]
+    },
+    {
+      "date": "2025-10-18T13:00:00",
+      "applicationPeriod": "2025-09-25 ~ 2025-10-19",
+      "name": "AG_Master_Tournament",
+      "location": "발트바우",
+      "url": "https://waldbow.com/agilityOpen.do",
+      "judge": "모리스",
+      "eventType": "랭킹전",
+      "matchTypes": ["전체"]
+    },
+    {
+      "date": "2025-10-19T09:00:00",
+      "applicationPeriod": "2025-09-25 ~ 2025-10-19",
+      "name": "EX_Tournament",
+      "location": "발트바우",
+      "url": "https://waldbow.com/agilityOpen.do",
+      "judge": "프렌즈 모리스",
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스", "어드밴스드"]
+    },
+    {
+      "date": "2025-10-26T08:00:00",
+      "applicationPeriod": "2025-09-26 ~ 2025-10-13",
+      "name": "2025 FCI 인터내셔널 어질리티 경기대회",
+      "location": "순천만생태공원",
+      "url": "https://www.agility.co.kr/17/?bmode=view&idx=168027881&back_url=&t=board&page=",
+      "judge": "최용석",
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"]
+    },
+    {
+      "date": "2025-11-01T08:00:00",
+      "applicationPeriod": "2025-09-26 ~ 2025-10-13",
+      "name": "2025 FCI 인터내셔널 어질리티 경기대회",
+      "location": "소노골프장",
+      "url": "https://www.agility.co.kr/17/?bmode=view&idx=168027881&back_url=&t=board&page=",
+      "judge": "지미첸",
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"]
+    },
+        {
+      "date": "2025-11-02T11:00:00",
+      "applicationPeriod": "2025-10-13 ~ 2025-10-19",
+      "name": "2025 LEEZ 4차 어질리티 대회",
+      "location": "소노골프장",
+      "url": "https://www.agility.co.kr/",
+      "judge": "이가현",
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스", "LV2이하"]
+    },
+    {
+      "date": "2025-11-02T07:00:00",
+      "applicationPeriod": "2025-10-13 ~ 2025-10-19",
+      "name": "2025 LEEZ 4차 어질리티 대회",
+      "location": "소노골프장",
+      "url": "https://www.agility.co.kr/",
+      "judge": "이재룡",
+      "eventType": "랭킹전",
+      "matchTypes": ["점핑", "어질리티"]
+    }
+  ]
 }
