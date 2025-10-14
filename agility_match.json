@@ -55,7 +55,7 @@
       "eventType": "랭킹전",
       "matchTypes": ["어질리티", "어드밴스드"],
       "organizer": "한국어질리티연합",
-      "sponsor": "춘천시"
+      "sponsor": "한국어질리티연합"
     },
     {
       "date": "2025-09-27T09:00:00",
@@ -111,7 +111,7 @@
       "eventType": "랭킹전",
       "matchTypes": ["점펑", "어질리티"],
       "organizer": "발트바우",
-      "sponsor": "발트바우 애견스포츠클럽"
+      "sponsor": "발트바우"
     },
     {
       "date": "2025-10-19T09:00:00",
@@ -167,7 +167,7 @@
       "eventType": "랭킹전",
       "matchTypes": ["비기너", "노비스", "LV2이하"],
       "organizer": "한국어질리티연합",
-      "sponsor": "한국어질리티연합"
+      "sponsor": "LEEZ"
     },
     {
       "date": "2025-11-02T07:00:00",
@@ -181,7 +181,7 @@
       "eventType": "랭킹전",
       "matchTypes": ["점핑", "어질리티"],
       "organizer": "한국어질리티연합",
-      "sponsor": "한국어질리티연합"
+      "sponsor": "LEEZ"
     }
   ]
 }
