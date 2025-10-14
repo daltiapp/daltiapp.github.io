@@ -35,7 +35,7 @@
     },
     {
       "venue": {
-        "name": "한국어질리티연합",
+        "name": "LEEZ",
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
@@ -65,6 +65,22 @@
         }
       }
     },
+     {
+      "venue": {
+        "name": "고프로",
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png",
+        ],
+        "links": {
+          "homepage_url": "",
+          "instagram_url": "https://www.instagram.com/goprokr",
+          "kakao_url": "http://pf.kakao.com/_QviSb",
+          "youtube_url": "https://www.youtube.com/@GoProKR"
+        }
+      }
+    },
     {
       "venue": {
         "name": "도요타",
@@ -83,7 +99,7 @@
     },
         {
       "venue": {
-        "name": "한국애견연맹",
+        "name": "FCI",
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
@@ -99,7 +115,7 @@
     },
     {
       "venue": {
-        "name": "반려마루",
+        "name": "경기도청",
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
