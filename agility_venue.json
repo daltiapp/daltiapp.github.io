@@ -7,7 +7,7 @@
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
-          "assets/images/location/waltbow.png",
+          "assets/images/location/waltbow.png"
         ],
         "links": {
           "homepage_url": "",
@@ -23,7 +23,7 @@
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
-          "assets/images/location/waltbow.png",
+          "assets/images/location/waltbow.png"
         ],
         "links": {
           "homepage_url": "https://waldbow.com",
@@ -39,7 +39,7 @@
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
-          "assets/images/location/waltbow.png",
+          "assets/images/location/waltbow.png"
         ],
         "links": {
           "homepage_url": "https://www.agility.co.kr",
@@ -55,7 +55,7 @@
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
-          "assets/images/location/waltbow.png",
+          "assets/images/location/waltbow.png"
         ],
         "links": {
           "homepage_url": "https://www.agility.co.kr",
@@ -65,13 +65,13 @@
         }
       }
     },
-     {
+    {
       "venue": {
         "name": "고프로",
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
-          "assets/images/location/waltbow.png",
+          "assets/images/location/waltbow.png"
         ],
         "links": {
           "homepage_url": "",
@@ -87,7 +87,7 @@
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
-          "assets/images/location/waltbow.png",
+          "assets/images/location/waltbow.png"
         ],
         "links": {
           "homepage_url": "https://toyota.co.kr/bareundogfestival/about",
@@ -97,13 +97,13 @@
         }
       }
     },
-        {
+    {
       "venue": {
         "name": "FCI",
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
-          "assets/images/location/waltbow.png",
+          "assets/images/location/waltbow.png"
         ],
         "links": {
           "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
@@ -119,7 +119,7 @@
         "photos": [
           "assets/images/location/highest.png",
           "assets/images/location/sonogolf.png",
-          "assets/images/location/waltbow.png",
+          "assets/images/location/waltbow.png"
         ],
         "links": {
           "homepage_url": "https://banryeomaru.kr/",
