@@ -81,6 +81,22 @@
         }
       }
     },
+        {
+      "venue": {
+        "name": "한국애견연맹",
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png",
+        ],
+        "links": {
+          "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
+          "instagram_url": "https://www.instagram.com/korea_kennel_federation",
+          "kakao_url": "http://pf.kakao.com/_Gxlxnxiu",
+          "youtube_url": "https://www.youtube.com/@KOREA_KENNEL_FEDERATION"
+        }
+      }
+    },
     {
       "venue": {
         "name": "반려마루",
