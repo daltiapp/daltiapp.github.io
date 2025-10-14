@@ -45,7 +45,23 @@
           "homepage_url": "https://www.agility.co.kr",
           "instagram_url": "https://www.instagram.com/korea_kennel_agility",
           "kakao_url": "https://pf.kakao.com/_HlJFG",
-          "youtube_url": ""
+          "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
+        }
+      }
+    },
+        {
+      "venue": {
+        "name": "코리아어질리티",
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png",
+        ],
+        "links": {
+          "homepage_url": "https://www.agility.co.kr",
+          "instagram_url": "https://www.instagram.com/korea_agility_club",
+          "kakao_url": "https://pf.kakao.com/_BfHUb",
+          "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
         }
       }
     },
