@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-14T17:17:00",
+  "lastUpdated": "2025-10-14T17:46:00",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -26,7 +26,7 @@
       "applicationPeriod": "2025-08-11 ~ 2025-08-17",
       "name": "제68회 점/어 승급전",
       "location": "춘천에니메이션 박물관",
-      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=167261650&t=board",
+      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "홍상우",
       "eventType": "승급전",
       "matchTypes": ["LV1", "LV2"]
@@ -116,7 +116,7 @@
       "applicationPeriod": "2025-10-13 ~ 2025-10-19",
       "name": "2025 LEEZ 4차 어질리티 대회",
       "location": "소노골프장",
-      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=168173931&t=board",
+      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "이가현",
       "eventType": "랭킹전",
       "matchTypes": ["비기너", "노비스", "LV2이하"]
@@ -126,7 +126,7 @@
       "applicationPeriod": "2025-10-13 ~ 2025-10-19",
       "name": "2025 LEEZ 4차 어질리티 대회",
       "location": "소노골프장",
-      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=168173931&t=board",
+      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "이재룡",
       "eventType": "랭킹전",
       "matchTypes": ["점핑", "어질리티"]
