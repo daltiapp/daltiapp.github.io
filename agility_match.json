@@ -7,13 +7,17 @@
       "name": "2025 서울시 도그스포츠 대회",
       "location": "상암월드컵공원",
       "latitude": 37.5683,
-      "longitude": 126.8960,
+      "longitude": 126.896,
       "url": "http://biz.onvi.co.kr/kcmc.html",
       "judge": "여문주",
       "eventType": "랭킹전",
-      "matchTypes": ["점핑", "노비스"],
+      "matchTypes": [
+        "점핑",
+        "노비스"
+      ],
       "organizer": "KCMC",
-      "sponsor": "서울특별시"
+      "sponsor": "서울특별시",
+      "address": "서울특별시 마포구 월드컵로 243-48"
     },
     {
       "date": "2025-09-05T13:00:00",
@@ -21,13 +25,16 @@
       "name": "2025 서울시 도그스포츠 대회",
       "location": "상암월드컵공원",
       "latitude": 37.5683,
-      "longitude": 126.8960,
+      "longitude": 126.896,
       "url": "http://biz.onvi.co.kr/kcmc.html",
       "judge": "양은수",
       "eventType": "랭킹전",
-      "matchTypes": ["비기너"],
+      "matchTypes": [
+        "비기너"
+      ],
       "organizer": "KCMC",
-      "sponsor": "서울특별시"
+      "sponsor": "서울특별시",
+      "address": "서울특별시 마포구 월드컵로 243-48"
     },
     {
       "date": "2025-09-13T09:00:00",
@@ -39,9 +46,13 @@
       "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "홍상우",
       "eventType": "승급전",
-      "matchTypes": ["LV1", "LV2"],
+      "matchTypes": [
+        "LV1",
+        "LV2"
+      ],
       "organizer": "코리아어질리티",
-      "sponsor": "코리아어질리티"
+      "sponsor": "코리아어질리티",
+      "address": "강원특별자치도 춘천시 서면 박사로 854"
     },
     {
       "date": "2025-09-13T13:00:00",
@@ -53,9 +64,13 @@
       "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=167261650&t=board",
       "judge": "김희윤",
       "eventType": "랭킹전",
-      "matchTypes": ["어질리티", "어드밴스드"],
+      "matchTypes": [
+        "어질리티",
+        "어드밴스드"
+      ],
       "organizer": "한국어질리티연합",
-      "sponsor": "한국어질리티연합"
+      "sponsor": "한국어질리티연합",
+      "address": "강원특별자치도 춘천시 서면 박사로 854"
     },
     {
       "date": "2025-09-27T09:00:00",
@@ -67,9 +82,13 @@
       "url": "https://banryeomaru.kr/",
       "judge": "최용석",
       "eventType": "랭킹전",
-      "matchTypes": ["점핑", "어질리티"],
+      "matchTypes": [
+        "점핑",
+        "어질리티"
+      ],
       "organizer": "반려마루",
-      "sponsor": "경기도청"
+      "sponsor": "경기도청",
+      "address": "경기도 여주시 명품1로 1-2"
     },
     {
       "date": "2025-10-12T09:00:00",
@@ -81,9 +100,14 @@
       "url": "https://linktr.ee/HIGHESTAGILITY?fbclid=PAZXh0bgNhZW0CMTEAAafdye98to9GEBdQkjy_tUWEl2DLyt01Of4AoLuUa9vI_9jjpspYz-DSYY6_TQ_aem_epectWd9UzffYKmBPSi_IQ",
       "judge": "김혜민",
       "eventType": "승급전",
-      "matchTypes": ["LV1", "LV2", "LV3"],
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
       "organizer": "하이스트",
-      "sponsor": "하이스트"
+      "sponsor": "하이스트",
+      "address": "경기도 안성시 사실로 212"
     },
     {
       "date": "2025-10-18T09:00:00",
@@ -95,9 +119,14 @@
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
-      "matchTypes": ["점핑", "어질리티", "LV3미만"],
+      "matchTypes": [
+        "점핑",
+        "어질리티",
+        "LV3미만"
+      ],
       "organizer": "발트바우",
-      "sponsor": "발트바우"
+      "sponsor": "발트바우",
+      "address": "경기도 고양시 덕양구 호국로 1234-43"
     },
     {
       "date": "2025-10-18T13:00:00",
@@ -109,9 +138,13 @@
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
-      "matchTypes": ["점펑", "어질리티"],
+      "matchTypes": [
+        "점펑",
+        "어질리티"
+      ],
       "organizer": "발트바우",
-      "sponsor": "발트바우"
+      "sponsor": "발트바우",
+      "address": "경기도 고양시 덕양구 호국로 1234-43"
     },
     {
       "date": "2025-10-19T09:00:00",
@@ -123,9 +156,14 @@
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
-      "matchTypes": ["비기너", "노비스", "어드밴스드"],
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "어드밴스드"
+      ],
       "organizer": "발트바우",
-      "sponsor": "발트바우"
+      "sponsor": "발트바우",
+      "address": "경기도 고양시 덕양구 호국로 1234-43"
     },
     {
       "date": "2025-10-26T08:00:00",
@@ -137,9 +175,14 @@
       "url": "https://www.agility.co.kr/17/?bmode=view&idx=168027881&back_url=&t=board&page=",
       "judge": "최용석",
       "eventType": "승급전",
-      "matchTypes": ["LV1", "LV2", "LV3"],
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
       "organizer": "한국애견연맹",
-      "sponsor": "FCI"
+      "sponsor": "FCI",
+      "address": "전라남도 순천시 순천만길 513-25"
     },
     {
       "date": "2025-11-01T08:00:00",
@@ -147,13 +190,18 @@
       "name": "2025 FCI 인터내셔널 어질리티 경기대회",
       "location": "소노골프장",
       "latitude": 37.6833,
-      "longitude": 127.4920,
+      "longitude": 127.492,
       "url": "https://www.agility.co.kr/17/?bmode=view&idx=168027881&back_url=&t=board&page=",
       "judge": "지미첸",
       "eventType": "승급전",
-      "matchTypes": ["LV1", "LV2", "LV3"],
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
       "organizer": "한국애견연맹",
-      "sponsor": "FCI"
+      "sponsor": "FCI",
+      "address": "강원특별자치도 홍천군 서면 한치골길 262"
     },
     {
       "date": "2025-11-02T11:00:00",
@@ -161,13 +209,18 @@
       "name": "2025 LEEZ 4차 어질리티 대회",
       "location": "소노골프장",
       "latitude": 37.6833,
-      "longitude": 127.4920,
+      "longitude": 127.492,
       "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "이가현",
       "eventType": "랭킹전",
-      "matchTypes": ["비기너", "노비스", "LV2이하"],
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "LV2이하"
+      ],
       "organizer": "한국어질리티연합",
-      "sponsor": "LEEZ"
+      "sponsor": "LEEZ",
+      "address": "강원특별자치도 홍천군 서면 한치골길 262"
     },
     {
       "date": "2025-11-02T07:00:00",
@@ -175,13 +228,17 @@
       "name": "2025 LEEZ 4차 어질리티 대회",
       "location": "소노골프장",
       "latitude": 37.6833,
-      "longitude": 127.4920,
+      "longitude": 127.492,
       "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "이재룡",
       "eventType": "랭킹전",
-      "matchTypes": ["점핑", "어질리티"],
+      "matchTypes": [
+        "점핑",
+        "어질리티"
+      ],
       "organizer": "한국어질리티연합",
-      "sponsor": "LEEZ"
+      "sponsor": "LEEZ",
+      "address": "강원특별자치도 홍천군 서면 한치골길 262"
     }
   ]
 }
