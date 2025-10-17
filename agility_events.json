@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-14T17:46:00",
+  "lastUpdated": "2025-10-17T23:46:00",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -65,7 +65,7 @@
       "date": "2025-10-18T09:00:00",
       "applicationPeriod": "2025-09-25 ~ 2025-10-09",
       "name": "AG_Standard_Tournament",
-      "location": "발트바우",
+      "location": "소노골프장",
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
@@ -75,7 +75,7 @@
       "date": "2025-10-18T13:00:00",
       "applicationPeriod": "2025-09-25 ~ 2025-10-09",
       "name": "AG_Master_Tournament",
-      "location": "발트바우",
+      "location": "소노골프장",
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
@@ -85,7 +85,7 @@
       "date": "2025-10-19T09:00:00",
       "applicationPeriod": "2025-09-25 ~ 2025-10-09",
       "name": "EX_Tournament",
-      "location": "발트바우",
+      "location": "소노골프장",
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
