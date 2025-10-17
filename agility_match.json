@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-17T16:46:00",
+  "lastUpdated": "2025-10-17T22:46:00",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -113,9 +113,9 @@
       "date": "2025-10-18T09:00:00",
       "applicationPeriod": "2025-09-25 ~ 2025-10-09",
       "name": "AG_Standard_Tournament",
-      "location": "발트바우",
-      "latitude": 37.847713876591,
-      "longitude": 127.022745756239,
+      "location": "소노골프장",
+      "latitude": 37.6521031526954,
+      "longitude": 127.687106349987,
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
@@ -126,15 +126,15 @@
       ],
       "organizer": "발트바우",
       "sponsor": "발트바우",
-      "address": "경기도 양주시 은현면 화합로1080번길 304-16"
+      "address": "강원특별자치도 홍천군 서면 한치골길 262"
     },
     {
       "date": "2025-10-18T13:00:00",
       "applicationPeriod": "2025-09-25 ~ 2025-10-09",
       "name": "AG_Master_Tournament",
-      "location": "발트바우",
-      "latitude": 37.847713876591,
-      "longitude": 127.022745756239,
+      "location": "소노골프장",
+      "latitude": 37.6521031526954,
+      "longitude": 127.687106349987,
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
@@ -144,15 +144,15 @@
       ],
       "organizer": "발트바우",
       "sponsor": "발트바우",
-      "address": "경기도 양주시 은현면 화합로1080번길 304-16"
+      "address": "강원특별자치도 홍천군 서면 한치골길 262"
     },
     {
       "date": "2025-10-19T09:00:00",
       "applicationPeriod": "2025-09-25 ~ 2025-10-09",
       "name": "EX_Tournament",
-      "location": "발트바우",
-      "latitude": 37.847713876591,
-      "longitude": 127.022745756239,
+      "location": "소노골프장",
+      "latitude": 37.6521031526954,
+      "longitude": 127.687106349987,
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
@@ -163,7 +163,7 @@
       ],
       "organizer": "발트바우",
       "sponsor": "발트바우",
-      "address": "경기도 양주시 은현면 화합로1080번길 304-16"
+      "address": "강원특별자치도 홍천군 서면 한치골길 262"
     },
     {
       "date": "2025-10-26T08:00:00",
