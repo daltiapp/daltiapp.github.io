@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-16T23:46:00",
+  "lastUpdated": "2025-10-17T16:46:00",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -139,7 +139,7 @@
       "judge": "모리스",
       "eventType": "랭킹전",
       "matchTypes": [
-        "점펑",
+        "점핑",
         "어질리티"
       ],
       "organizer": "발트바우",
