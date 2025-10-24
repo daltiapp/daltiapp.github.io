@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-18T22:46:00",
+  "lastUpdated": "2025-10-18T23:46:00",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -32,7 +32,7 @@
       "matchTypes": [
         "비기너"
       ],
-      "organizer": "KCMC",
+      "club": "KCMC",
       "sponsor": "서울특별시",
       "address": "서울특별시 마포구 월드컵로 243-48"
     },
