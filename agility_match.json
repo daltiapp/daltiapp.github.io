@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-18T23:47:00",
+  "lastUpdated": "2025-10-26T23:47:00",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -9,13 +9,9 @@
       "url": "http://biz.onvi.co.kr/kcmc.html",
       "judge": "여문주",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "점핑",
-        "노비스"
-      ],
+      "matchTypes": ["점핑", "노비스"],
       "club": "KCMC",
-      "sponsor": "서울특별시",
-      "address": "서울특별시 마포구 월드컵로 243-48"
+      "sponsor": "서울특별시"
     },
     {
       "date": "2025-09-05T13:00:00",
@@ -25,12 +21,9 @@
       "url": "http://biz.onvi.co.kr/kcmc.html",
       "judge": "양은수",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "비기너"
-      ],
+      "matchTypes": ["비기너"],
       "club": "KCMC",
-      "sponsor": "서울특별시",
-      "address": "서울특별시 마포구 월드컵로 243-48"
+      "sponsor": "서울특별시"
     },
     {
       "date": "2025-09-13T09:00:00",
@@ -40,13 +33,9 @@
       "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "홍상우",
       "eventType": "승급전",
-      "matchTypes": [
-        "LV1",
-        "LV2"
-      ],
+      "matchTypes": ["LV1", "LV2"],
       "club": "코리아어질리티",
-      "sponsor": "코리아어질리티",
-      "address": "강원특별자치도 춘천시 서면 박사로 854"
+      "sponsor": "코리아어질리티"
     },
     {
       "date": "2025-09-13T13:00:00",
@@ -56,13 +45,9 @@
       "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=167261650&t=board",
       "judge": "김희윤",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "어질리티",
-        "어드밴스드"
-      ],
+      "matchTypes": ["어질리티", "어드밴스드"],
       "club": "한국어질리티연합",
-      "sponsor": "한국어질리티연합",
-      "address": "강원특별자치도 춘천시 서면 박사로 854"
+      "sponsor": "한국어질리티연합"
     },
     {
       "date": "2025-09-27T09:00:00",
@@ -72,13 +57,9 @@
       "url": "https://banryeomaru.kr/",
       "judge": "최용석",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "점핑",
-        "어질리티"
-      ],
+      "matchTypes": ["점핑", "어질리티"],
       "club": "반려마루",
-      "sponsor": "경기도청",
-      "address": "경기도 여주시 명품1로 1-2"
+      "sponsor": "경기도청"
     },
     {
       "date": "2025-10-12T09:00:00",
@@ -88,14 +69,9 @@
       "url": "https://linktr.ee/HIGHESTAGILITY?fbclid=PAZXh0bgNhZW0CMTEAAafdye98to9GEBdQkjy_tUWEl2DLyt01Of4AoLuUa9vI_9jjpspYz-DSYY6_TQ_aem_epectWd9UzffYKmBPSi_IQ",
       "judge": "김혜민",
       "eventType": "승급전",
-      "matchTypes": [
-        "LV1",
-        "LV2",
-        "LV3"
-      ],
+      "matchTypes": ["LV1", "LV2", "LV3"],
       "club": "하이스트",
-      "sponsor": "하이스트",
-      "address": "경기도 안성시 사실로 212"
+      "sponsor": "하이스트"
     },
     {
       "date": "2025-10-18T09:00:00",
@@ -105,14 +81,9 @@
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "점핑",
-        "어질리티",
-        "LV3미만"
-      ],
+      "matchTypes": ["점핑", "어질리티", "LV3미만"],
       "club": "발트바우",
-      "sponsor": "발트바우",
-      "address": "강원특별자치도 홍천군 서면 한치골길 262"
+      "sponsor": "발트바우"
     },
     {
       "date": "2025-10-18T13:00:00",
@@ -122,13 +93,9 @@
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "점핑",
-        "어질리티"
-      ],
+      "matchTypes": ["점핑", "어질리티"],
       "club": "발트바우",
-      "sponsor": "발트바우",
-      "address": "강원특별자치도 홍천군 서면 한치골길 262"
+      "sponsor": "발트바우"
     },
     {
       "date": "2025-10-19T09:00:00",
@@ -138,14 +105,9 @@
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": "모리스",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "비기너",
-        "노비스",
-        "어드밴스드"
-      ],
+      "matchTypes": ["비기너", "노비스", "어드밴스드"],
       "club": "발트바우",
-      "sponsor": "발트바우",
-      "address": "강원특별자치도 홍천군 서면 한치골길 262"
+      "sponsor": "발트바우"
     },
     {
       "date": "2025-10-26T08:00:00",
@@ -155,14 +117,9 @@
       "url": "https://www.agility.co.kr/17/?bmode=view&idx=168027881&back_url=&t=board&page=",
       "judge": "최용석",
       "eventType": "승급전",
-      "matchTypes": [
-        "LV1",
-        "LV2",
-        "LV3"
-      ],
+      "matchTypes": ["LV1", "LV2", "LV3"],
       "club": "한국애견연맹",
-      "sponsor": "FCI",
-      "address": "전라남도 순천시 순천만길 513-25"
+      "sponsor": "FCI"
     },
     {
       "date": "2025-11-01T08:00:00",
@@ -172,14 +129,9 @@
       "url": "https://www.agility.co.kr/17/?bmode=view&idx=168027881&back_url=&t=board&page=",
       "judge": "지미첸",
       "eventType": "승급전",
-      "matchTypes": [
-        "LV1",
-        "LV2",
-        "LV3"
-      ],
+      "matchTypes": ["LV1", "LV2", "LV3"],
       "club": "한국애견연맹",
-      "sponsor": "FCI",
-      "address": "강원특별자치도 홍천군 서면 한치골길 262"
+      "sponsor": "FCI"
     },
     {
       "date": "2025-11-02T11:00:00",
@@ -189,14 +141,9 @@
       "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "이가현",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "비기너",
-        "노비스",
-        "LV2이하"
-      ],
+      "matchTypes": ["비기너", "노비스", "LV2이하"],
       "club": "한국어질리티연합",
-      "sponsor": "LEEZ",
-      "address": "강원특별자치도 홍천군 서면 한치골길 262"
+      "sponsor": "LEEZ"
     },
     {
       "date": "2025-11-02T07:00:00",
@@ -206,13 +153,33 @@
       "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
       "judge": "이재룡",
       "eventType": "랭킹전",
-      "matchTypes": [
-        "점핑",
-        "어질리티"
-      ],
+      "matchTypes": ["점핑", "어질리티"],
       "club": "한국어질리티연합",
-      "sponsor": "LEEZ",
-      "address": "강원특별자치도 홍천군 서면 한치골길 262"
+      "sponsor": "LEEZ"
+    },
+    {
+      "date": "2025-11-22T09:00:00",
+      "applicationPeriod": "2025-11-07 ~ 2025-11-14",
+      "name": "EXCITING OPEN",
+      "location": "소노골프장",
+      "url": "https://waldbow.com/agilityOpen.do",
+      "judge": "이쿠미",
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스", "어드밴스드", "EM"],
+      "club": "발트바우",
+      "sponsor": "발트바우"
+    },
+    {
+      "date": "2025-11-23T09:00:00",
+      "applicationPeriod": "2025-11-07 ~ 2025-11-14",
+      "name": "EXCITING OPEN",
+      "location": "소노골프장",
+      "url": "https://waldbow.com/agilityOpen.do",
+      "judge": "이쿠미",
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"],
+      "club": "발트바우",
+      "sponsor": "발트바우"
     }
   ]
 }
