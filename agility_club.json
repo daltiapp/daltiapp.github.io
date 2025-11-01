@@ -69,6 +69,22 @@
         },
         {
           "club": {
+            "name": "한국어질리티연합",
+            "photos": [
+              "assets/images/location/highest.png",
+              "assets/images/location/sonogolf.png",
+              "assets/images/location/waltbow.png"
+            ],
+            "links": {
+              "homepage_url": "https://www.agility.co.kr",
+              "instagram_url": "https://www.instagram.com/korea_kennel_agility",
+              "kakao_url": "https://pf.kakao.com/_HlJFG",
+              "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
+            }
+          }
+        },
+        {
+          "club": {
             "name": "고프로",
             "photos": [
               "assets/images/location/highest.png",
