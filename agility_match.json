@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:48:05",
+  "lastUpdated": "2025-10-26T23:48:06",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -145,7 +145,19 @@
       "club": "강아지숲",
       "sponsor": "WAO"
     },
-        {
+    {
+      "date": "2025-11-02T09:30:00",
+      "applicationPeriod": "2025-10-15 ~ 2025-10-27",
+      "name": "2025 KAO(Korea Agility Open)",
+      "location": "강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice",
+      "judge": ["타마스", "에슐리"],
+      "eventType": "랭킹전",
+      "matchTypes": ["펜타슬론", "바이애슬론","스누커","갬블러"],
+      "club": "강아지숲",
+      "sponsor": "WAO"
+    },
+    {
       "date": "2025-11-02T07:00:00",
       "applicationPeriod": "2025-10-13 ~ 2025-10-19",
       "name": "2025 LEEZ 4차 어질리티 대회",
