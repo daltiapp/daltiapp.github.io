@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-03T12:39:02",
+  "lastUpdated": "2025-11-03T12:39:03",
   "venues": [
     {
       "name": "하이스트",
@@ -58,7 +58,11 @@
       "address": "강원도 춘천시 남산면 충효로 437",
       "latitude": 37.7364350197699,
       "longitude": 127.662020178819,
-      "photos": []
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1dDh9BnCy2gBaUDdzRfH9QXxebGk8NbCK",
+        "https://drive.google.com/uc?export=view&id=1JqdzfTrX_gj0Gj7BUqNRSCETREdi3MYa",
+        "https://drive.google.com/uc?export=view&id=1_tbxy4uRdd_HTMgJHJuH4P4WY7DCeHBR"
+      ]
     }
   ]
 }
