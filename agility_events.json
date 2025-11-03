@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:46:01",
+  "lastUpdated": "2025-10-26T23:46:02",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -112,16 +112,6 @@
       "matchTypes": ["LV1", "LV2", "LV3"]
     },
     {
-      "date": "2025-11-02T12:00:00",
-      "applicationPeriod": "2025-10-13 ~ 2025-10-19",
-      "name": "2025 LEEZ 4차 어질리티 대회",
-      "location": "소노골프장",
-      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
-      "judge": "이가현",
-      "eventType": "랭킹전",
-      "matchTypes": ["비기너", "노비스", "LV2이하"]
-    },
-    {
       "date": "2025-11-02T08:00:00",
       "applicationPeriod": "2025-10-13 ~ 2025-10-19",
       "name": "2025 LEEZ 4차 어질리티 대회",
@@ -130,6 +120,16 @@
       "judge": "이재룡",
       "eventType": "랭킹전",
       "matchTypes": ["점핑", "어질리티"]
+    },
+    {
+      "date": "2025-11-02T12:00:00",
+      "applicationPeriod": "2025-10-13 ~ 2025-10-19",
+      "name": "2025 LEEZ 4차 어질리티 대회",
+      "location": "소노골프장",
+      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board",
+      "judge": "이가현",
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스", "LV2이하"]
     },
     {
       "date": "2025-11-22T09:00:00",
