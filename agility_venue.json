@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-03T12:39:03",
+  "lastUpdated": "2025-11-03T12:39:04",
   "venues": [
     {
       "name": "하이스트",
@@ -51,7 +51,12 @@
       "address": "경기도 여주시 명품1로 1-2",
       "latitude": 37.237869075355,
       "longitude": 127.612552562806,
-      "photos": []
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1ELz0Ug56V0GqZ7R-i5NYKQF1-onj-wYy",
+        "https://drive.google.com/uc?export=view&id=1n5XQHicmLKKMYn7FUtxDNOPVjZH6r6po",
+        "https://drive.google.com/uc?export=view&id=12R_zPDXOpz3xHmEhgCtirSsra7ou3IVX",
+        "https://drive.google.com/uc?export=view&id=105r46t9IBjYndb08dwIRB0JkZwopNSpR"
+      ]
     },
     {
       "name": "강아지숲",
