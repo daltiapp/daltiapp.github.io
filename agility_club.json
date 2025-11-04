@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2025-10-07T11:45:09",
+    "lastUpdated": "2025-10-07T11:45:11",
     "clubs": [
         {
             "club": {
@@ -117,10 +117,10 @@
                     "assets/images/location/sonogolf.png",
                     "assets/images/location/waltbow.png"
                 ],
-                "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
-                "instagram_url": "https://www.instagram.com/korea_kennel_federation",
-                "kakao_url": "http://pf.kakao.com/_Gxlxnxiu",
-                "youtube_url": "https://www.youtube.com/@KOREA_KENNEL_FEDERATION"
+                "homepage_url": "http://www.dong-sa.or.kr/main/index.jsp",
+                "instagram_url": "https://www.instagram.com/dongsa08",
+                "kakao_url": "http://pf.kakao.com/_xkKKlK",
+                "youtube_url": "https://www.youtube.com/@AnH-Dogsports"
             }
         },
         {
@@ -135,7 +135,7 @@
                 "homepage_url": "https://banryeomaru.kr/",
                 "instagram_url": "https://www.instagram.com/banryeomaru_official",
                 "kakao_url": "",
-                "youtube_url": "https://www.youtube.com/@ggholics/search?query=%EB%B0%98%EB%A0%A4%EA%B2%AC%20%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                "youtube_url": "https://www.youtube.com/@banryeomaru"
             }
         }
     ]
