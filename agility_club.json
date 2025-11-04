@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-07T11:45:06",
+  "lastUpdated": "2025-10-07T11:45:07",
   "clubs": [
     {
       "club": {
@@ -107,7 +107,7 @@
     },
     {
       "club": {
-        "name": "FCI",
+        "name": "한국애견연맹",
         "isVisible": false,
         "photos": [
           "assets/images/location/highest.png",
