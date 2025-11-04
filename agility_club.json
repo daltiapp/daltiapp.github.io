@@ -1,167 +1,160 @@
 {
-      "lastUpdated": "2025-10-07T11:45:04",
-      "clubs": [
-        {
-          "club": {
-            "name": "하이스트",
-            "photos": [
-              "assets/images/location/highest_1.png",
-              "assets/images/location/highest_2.png",
-              "assets/images/location/highest_3.png",
-              "assets/images/location/highest_4.png"
-            ],
-            "links": {
-              "homepage_url": "",
-              "instagram_url": "https://www.instagram.com/agility_highest",
-              "kakao_url": "https://pf.kakao.com/_cNjMG",
-              "youtube_url": ""
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "발트바우",
-            "photos": [
-              "assets/images/location/waltbow_1.png",
-              "assets/images/location/waltbow_2.png",
-              "assets/images/location/waltbow_3.png",
-              "assets/images/location/waltbow_4.png"
-            ],
-            "links": {
-              "homepage_url": "https://waldbow.com",
-              "instagram_url": "https://www.instagram.com/waldbow_dog_sports",
-              "kakao_url": "",
-              "youtube_url": "https://www.youtube.com/@%EB%B0%9C%ED%8A%B8%EB%B0%94%EC%9A%B0"
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "LEEZ",
-            "photos": [
-              "assets/images/location/highest.png",
-              "assets/images/location/sonogolf.png",
-              "assets/images/location/waltbow.png"
-            ],
-            "links": {
-              "homepage_url": "https://www.agility.co.kr",
-              "instagram_url": "https://www.instagram.com/korea_kennel_agility",
-              "kakao_url": "https://pf.kakao.com/_HlJFG",
-              "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "코리아어질리티",
-            "photos": [
-              "assets/images/location/highest.png",
-              "assets/images/location/sonogolf.png",
-              "assets/images/location/waltbow.png"
-            ],
-            "links": {
-              "homepage_url": "https://www.agility.co.kr",
-              "instagram_url": "https://www.instagram.com/korea_agility_club",
-              "kakao_url": "https://pf.kakao.com/_BfHUb",
-              "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "한국어질리티연합",
-            "photos": [
-              "assets/images/location/highest.png",
-              "assets/images/location/sonogolf.png",
-              "assets/images/location/waltbow.png"
-            ],
-            "links": {
-              "homepage_url": "https://www.agility.co.kr",
-              "instagram_url": "https://www.instagram.com/korea_kennel_agility",
-              "kakao_url": "https://pf.kakao.com/_HlJFG",
-              "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "고프로",
-            "photos": [
-              "assets/images/location/highest.png",
-              "assets/images/location/sonogolf.png",
-              "assets/images/location/waltbow.png"
-            ],
-            "links": {
-              "homepage_url": "",
-              "instagram_url": "https://www.instagram.com/goprokr",
-              "kakao_url": "http://pf.kakao.com/_QviSb",
-              "youtube_url": "https://www.youtube.com/@GoProKR"
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "도요타",
-            "photos": [
-              "assets/images/location/highest.png",
-              "assets/images/location/sonogolf.png",
-              "assets/images/location/waltbow.png"
-            ],
-            "links": {
-              "homepage_url": "https://toyota.co.kr/bareundogfestival/about",
-              "instagram_url": "https://www.instagram.com/bareundog_toyotakr",
-              "kakao_url": "http://pf.kakao.com/_ZSJBM",
-              "youtube_url": "https://www.youtube.com/@TOYOTAKR/shorts"
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "FCI",
-            "photos": [
-              "assets/images/location/highest.png",
-              "assets/images/location/sonogolf.png",
-              "assets/images/location/waltbow.png"
-            ],
-            "links": {
-              "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
-              "instagram_url": "https://www.instagram.com/korea_kennel_federation",
-              "kakao_url": "http://pf.kakao.com/_Gxlxnxiu",
-              "youtube_url": "https://www.youtube.com/@KOREA_KENNEL_FEDERATION"
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "WAO",
-            "photos": [
-              "assets/images/location/highest.png",
-              "assets/images/location/sonogolf.png",
-              "assets/images/location/waltbow.png"
-            ],
-            "links": {
-              "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
-              "instagram_url": "https://www.instagram.com/korea_kennel_federation",
-              "kakao_url": "http://pf.kakao.com/_Gxlxnxiu",
-              "youtube_url": "https://www.youtube.com/@KOREA_KENNEL_FEDERATION"
-            }
-          }
-        },
-        {
-          "club": {
-            "name": "경기도청",
-            "photos": [
-              "assets/images/location/highest.png",
-              "assets/images/location/sonogolf.png",
-              "assets/images/location/waltbow.png"
-            ],
-            "links": {
-              "homepage_url": "https://banryeomaru.kr/",
-              "instagram_url": "https://www.instagram.com/banryeomaru_official",
-              "kakao_url": "",
-              "youtube_url": "https://www.youtube.com/@ggholics/search?query=%EB%B0%98%EB%A0%A4%EA%B2%AC%20%EC%8A%A4%ED%8F%AC%EC%B8%A0"
-            }
-          }
+  "lastUpdated": "2025-10-07T11:45:04",
+  "clubs": [
+    {
+      "club": {
+        "name": "하이스트",
+        "isVisible": true,
+        "photos": [
+          "assets/images/location/highest_1.png",
+          "assets/images/location/highest_2.png",
+          "assets/images/location/highest_3.png",
+          "assets/images/location/highest_4.png"
+        ],
+        "links": {
+          "homepage_url": "",
+          "instagram_url": "https://www.instagram.com/agility_highest",
+          "kakao_url": "https://pf.kakao.com/_cNjMG",
+          "youtube_url": ""
         }
-      ]
+      }
+    },
+    {
+      "club": {
+        "name": "발트바우",
+        "isVisible": true,
+        "photos": [
+          "assets/images/location/waltbow_1.png",
+          "assets/images/location/waltbow_2.png",
+          "assets/images/location/waltbow_3.png",
+          "assets/images/location/waltbow_4.png"
+        ],
+        "links": {
+          "homepage_url": "https://waldbow.com",
+          "instagram_url": "https://www.instagram.com/waldbow_dog_sports",
+          "kakao_url": "",
+          "youtube_url": "https://www.youtube.com/@%EB%B0%9C%ED%8A%B8%EB%B0%94%EC%9A%B0"
+        }
+      }
+    },
+    {
+      "club": {
+        "name": "코리아어질리티",
+        "isVisible": false,
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png"
+        ],
+        "links": {
+          "homepage_url": "https://www.agility.co.kr",
+          "instagram_url": "https://www.instagram.com/korea_agility_club",
+          "kakao_url": "https://pf.kakao.com/_BfHUb",
+          "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
+        }
+      }
+    },
+    {
+      "club": {
+        "name": "한국어질리티연합",
+        "isVisible": false,
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png"
+        ],
+        "links": {
+          "homepage_url": "https://www.agility.co.kr",
+          "instagram_url": "https://www.instagram.com/korea_kennel_agility",
+          "kakao_url": "https://pf.kakao.com/_HlJFG",
+          "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
+        }
+      }
+    },
+    {
+      "club": {
+        "name": "고프로",
+        "isVisible": false,
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png"
+        ],
+        "links": {
+          "homepage_url": "",
+          "instagram_url": "https://www.instagram.com/goprokr",
+          "kakao_url": "http://pf.kakao.com/_QviSb",
+          "youtube_url": "https://www.youtube.com/@GoProKR"
+        }
+      }
+    },
+    {
+      "club": {
+        "name": "도요타",
+        "isVisible": false,
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png"
+        ],
+        "links": {
+          "homepage_url": "https://toyota.co.kr/bareundogfestival/about",
+          "instagram_url": "https://www.instagram.com/bareundog_toyotakr",
+          "kakao_url": "http://pf.kakao.com/_ZSJBM",
+          "youtube_url": "https://www.youtube.com/@TOYOTAKR/shorts"
+        }
+      }
+    },
+    {
+      "club": {
+        "name": "FCI",
+        "isVisible": false,
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png"
+        ],
+        "links": {
+          "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
+          "instagram_url": "https://www.instagram.com/korea_kennel_federation",
+          "kakao_url": "http://pf.kakao.com/_Gxlxnxiu",
+          "youtube_url": "https://www.youtube.com/@KOREA_KENNEL_FEDERATION"
+        }
+      }
+    },
+    {
+      "club": {
+        "name": "WAO",
+        "isVisible": false,
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png"
+        ],
+        "links": {
+          "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
+          "instagram_url": "https://www.instagram.com/korea_kennel_federation",
+          "kakao_url": "http://pf.kakao.com/_Gxlxnxiu",
+          "youtube_url": "https://www.youtube.com/@KOREA_KENNEL_FEDERATION"
+        }
+      }
+    },
+    {
+      "club": {
+        "name": "경기도청",
+        "isVisible": false,
+        "photos": [
+          "assets/images/location/highest.png",
+          "assets/images/location/sonogolf.png",
+          "assets/images/location/waltbow.png"
+        ],
+        "links": {
+          "homepage_url": "https://banryeomaru.kr/",
+          "instagram_url": "https://www.instagram.com/banryeomaru_official",
+          "kakao_url": "",
+          "youtube_url": "https://www.youtube.com/@ggholics/search?query=%EB%B0%98%EB%A0%A4%EA%B2%AC%20%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+        }
+      }
     }
+  ]
+}
