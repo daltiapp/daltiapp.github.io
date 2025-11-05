@@ -1,14 +1,6 @@
 {
-  "lastUpdated": "2025-10-26T23:48:12",
+  "lastUpdated": "2025-10-27T23:48:12",
   "seminar": [
-    {
-      "date": "2025-11-03T09:00:00",
-      "registrationStartDate": "2025-11-01",
-      "name": "디지털 마케팅 전략 세미나",
-      "speaker": "김철수",
-      "organizer": "ABC컨설팅",
-      "url": "https://example.com/seminar1"
-    },
     {
       "date": "2025-12-02T09:00:00",
       "registrationStartDate": "2025-12-01",
@@ -48,6 +40,6 @@
       "speaker": "이쿠미",
       "organizer": "발트바우",
       "url": "https://waldbow.com/program/programOpen.do"
-    },
+    }
   ]
 }
