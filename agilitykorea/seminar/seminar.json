@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:48:11",
+  "lastUpdated": "2025-10-26T23:48:12",
   "seminar": [
     {
       "date": "2025-11-03T09:00:00",
@@ -12,26 +12,26 @@
     {
       "date": "2025-12-02T09:00:00",
       "registrationStartDate": "2025-12-01",
-      "name": "AI 기술과 미래 경향",
-      "speaker": "이영희",
-      "organizer": "테크노로지연구소",
-      "url": "https://example.com/seminar2"
+      "name": "모리스 파운데이션 세미나",
+      "speaker": "발트바우",
+      "organizer": "모리스",
+      "url": "https://waldbow.com/program/programOpen.do"
     },
     {
       "date": "2025-12-03T09:00:00",
       "registrationStartDate": "2025-12-02",
-      "name": "스타트업 성공 전략",
-      "speaker": "박민수",
-      "organizer": "벤처케피탈협회",
-      "url": "https://example.com/seminar3"
+      "name": "모리스 파운데이션 코스러닝 세미나",
+      "speaker": "모리스",
+      "organizer": "발트바우",
+      "url": "https://waldbow.com/program/programOpen.do"
     },
     {
       "date": "2025-12-05T09:00:00",
       "registrationStartDate": "2025-12-03",
-      "name": "타마스 어질리티 코스 세마",
+      "name": "타마스 어질리티 코스디자인 세미나",
       "speaker": "타마스",
       "organizer": "강아지숲",
-      "url": "https://example.com/seminar5"
+      "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1"
     },
     {
       "date": "2025-12-05T09:00:00",
@@ -39,7 +39,15 @@
       "name": "타마스 어질리티 세미나",
       "speaker": "타마스",
       "organizer": "강아지숲",
-      "url": "https://example.com/seminar5"
-    }
+      "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1"
+    },
+    {
+      "date": "2025-12-03T09:00:00",
+      "registrationStartDate": "2025-12-02",
+      "name": "이쿠미 어질리티 세미나",
+      "speaker": "이쿠미",
+      "organizer": "발트바우",
+      "url": "https://waldbow.com/program/programOpen.do"
+    },
   ]
 }
