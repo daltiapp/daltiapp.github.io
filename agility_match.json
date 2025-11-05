@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:48:08",
+  "lastUpdated": "2025-10-26T23:48:09",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -204,6 +204,18 @@
       "matchTypes": ["LV1", "LV2", "LV3"],
       "club": "발트바우",
       "sponsor": "발트바우"
+    },
+    {
+      "date": "2025-11-30T09:30:00",
+      "applicationPeriod": "2025-11-10 ~ 2025-11-21",
+      "name": "제4회 하이스트배",
+      "location": "하이스트",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=77d4ae02-714e-4502-8381-a2a474a85532",
+      "judge": ["양현주"],
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스", "점핑제로", "점핑릴레이"],
+      "club": "하이스트",
+      "sponsor": "하이스트"
     }
   ]
 }
