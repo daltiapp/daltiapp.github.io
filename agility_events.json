@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:46:02",
+  "lastUpdated": "2025-10-26T23:46:03",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -150,6 +150,16 @@
       "judge": "이쿠미",
       "eventType": "승급전",
       "matchTypes": ["LV1", "LV2", "LV3"]
+    },
+    {
+      "date": "2025-11-30T09:30:00",
+      "applicationPeriod": "2025-11-10 ~ 2025-11-21",
+      "name": "제4회 하이스트배 어질리티 대회",
+      "location": "하이스트",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=8888040f-e91e-4ec5-93d6-582a1926efd5",
+      "judge": "양현주",
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스", "점핑제로","점핑릴레이"]
     }
   ]
 }
