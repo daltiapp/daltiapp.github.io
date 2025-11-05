@@ -1,0 +1,94 @@
+{
+  "lastUpdated": "2025-11-03T12:39:06",
+  "venues": [
+    {
+      "name": "하이스트",
+      "location": {
+        "name": "하이스트",
+        "address": "경기도 안성시 사실로 212",
+        "latitude": 37.1301210330316,
+        "longitude": 127.43604536026
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1a0rUEYdikCaLZo3QupxtCn67oOd6ECTb",
+        "https://drive.google.com/uc?export=view&id=1xgTv2z96dEOSgy3KzpmpYZ27qUoEdDBa",
+        "https://drive.google.com/uc?export=view&id=1SbO7RlGYn7GZ4OzrPe6HSo1Xvor_NQK6",
+        "https://drive.google.com/uc?export=view&id=1fISM7XeZom-0vhO8EQhAdjaAl9OeedsW"
+      ]
+    },
+    {
+      "name": "소노골프장",
+      "location": {
+        "name": "소노골프장",
+        "address": "강원특별자치도 홍천군 서면 한치골길 262",
+        "latitude": 37.6521031526954,
+        "longitude": 127.687106349987
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1IdBEQd9KWyIj3lkDt3xBkYLiEAcgRlsE",
+        "https://drive.google.com/uc?export=view&id=1m5EaUwIAtc1zNNidaMFMRAu_Wk689NIR",
+        "https://drive.google.com/uc?export=view&id=17ZQ8lSKrJHGx6BUfpWxuVPeooahNqF8Q",
+        "https://drive.google.com/uc?export=view&id=1FY0Vvnlsu7dmkkDulkASX5hehyskYNQU"
+      ]
+    },
+    {
+      "name": "상암월드컵공원",
+      "location": {
+        "name": "상암월드컵공원",
+        "address": "서울 마포구 하늘공원로 86",
+        "latitude": 37.5715979723206,
+        "longitude": 126.881674368525
+      },
+      "photos": []
+    },
+    {
+      "name": "춘천에니메이션 박물관",
+      "location": {
+        "name": "춘천에니메이션 박물관",
+        "address": "강원 춘천시 서면 박사로 854 애니메이션박물관",
+        "latitude": 37.8930610610383,
+        "longitude": 127.691892620055
+      },
+      "photos": []
+    },
+    {
+      "name": "순천만생태공원",
+      "location": {
+        "name": "순천만생태공원",
+        "address": "전남 순천시 순천만길 513-25",
+        "latitude": 34.8857970100738,
+        "longitude": 127.5092833426
+      },
+      "photos": []
+    },
+    {
+      "name": "반려마루",
+      "location": {
+        "name": "반려마루",
+        "address": "경기도 여주시 명품1로 1-2",
+        "latitude": 37.237869075355,
+        "longitude": 127.612552562806
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1ELz0Ug56V0GqZ7R-i5NYKQF1-onj-wYy",
+        "https://drive.google.com/uc?export=view&id=1n5XQHicmLKKMYn7FUtxDNOPVjZH6r6po",
+        "https://drive.google.com/uc?export=view&id=12R_zPDXOpz3xHmEhgCtirSsra7ou3IVX",
+        "https://drive.google.com/uc?export=view&id=105r46t9IBjYndb08dwIRB0JkZwopNSpR"
+      ]
+    },
+    {
+      "name": "강아지숲",
+      "location": {
+        "name": "강아지숲",
+        "address": "강원도 춘천시 남산면 충효로 437",
+        "latitude": 37.7364350197699,
+        "longitude": 127.662020178819
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1dDh9BnCy2gBaUDdzRfH9QXxebGk8NbCK",
+        "https://drive.google.com/uc?export=view&id=1JqdzfTrX_gj0Gj7BUqNRSCETREdi3MYa",
+        "https://drive.google.com/uc?export=view&id=1_tbxy4uRdd_HTMgJHJuH4P4WY7DCeHBR"
+      ]
+    }
+  ]
+}
