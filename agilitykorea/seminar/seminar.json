@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2025-10-27T23:48:15",
+  "lastUpdated": "2025-10-27T23:48:16",
   "seminar": [
     {
       "date": "2025-10-20T09:00:00",
       "registrationStartDate": "2025-09-25",
       "name": "모리스 파운데이션 세미나",
-      "speaker": "발트바우",
-      "organizer": "모리스",
+      "speaker": "모리스",
+      "organizer": "발트바우",
       "url": "https://waldbow.com/program/programOpen.do"
     },
     {
