@@ -1,41 +1,49 @@
 {
-  "lastUpdated": "2025-10-27T23:48:12",
+  "lastUpdated": "2025-10-27T23:48:15",
   "seminar": [
     {
-      "date": "2025-12-02T09:00:00",
-      "registrationStartDate": "2025-12-01",
+      "date": "2025-10-20T09:00:00",
+      "registrationStartDate": "2025-09-25",
       "name": "모리스 파운데이션 세미나",
       "speaker": "발트바우",
       "organizer": "모리스",
       "url": "https://waldbow.com/program/programOpen.do"
     },
     {
-      "date": "2025-12-03T09:00:00",
-      "registrationStartDate": "2025-12-02",
+      "date": "2025-10-21T09:00:00",
+      "registrationStartDate": "2025-09-25",
       "name": "모리스 파운데이션 코스러닝 세미나",
       "speaker": "모리스",
       "organizer": "발트바우",
       "url": "https://waldbow.com/program/programOpen.do"
     },
     {
-      "date": "2025-12-05T09:00:00",
-      "registrationStartDate": "2025-12-03",
+      "date": "2025-10-30T12:00:00",
+      "registrationStartDate": "2025-10-18",
       "name": "타마스 어질리티 코스디자인 세미나",
       "speaker": "타마스",
       "organizer": "강아지숲",
       "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1"
     },
     {
-      "date": "2025-12-05T09:00:00",
-      "registrationStartDate": "2025-12-04",
+      "date": "2025-10-29T09:00:00",
+      "registrationStartDate": "2025-10-18",
       "name": "타마스 어질리티 세미나",
       "speaker": "타마스",
       "organizer": "강아지숲",
       "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1"
     },
     {
-      "date": "2025-12-03T09:00:00",
-      "registrationStartDate": "2025-12-02",
+      "date": "2025-10-31T09:00:00",
+      "registrationStartDate": "2025-09-29",
+      "name": "지미첸 어질리티 세미나",
+      "speaker": "지미첸",
+      "organizer": "한국애견연맹",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=801"
+    },
+    {
+      "date": "2025-11-24T09:00:00",
+      "registrationStartDate": "2025-11-23",
       "name": "이쿠미 어질리티 세미나",
       "speaker": "이쿠미",
       "organizer": "발트바우",
