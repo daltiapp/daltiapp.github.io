@@ -1,6 +1,22 @@
 {
-    "lastUpdated": "2025-10-27T23:48:17",
+    "lastUpdated": "2025-10-27T23:48:18",
     "seminar": [
+        {
+            "date": "2025-06-28T09:00:00",
+            "registrationStartDate": "2025-06-16",
+            "name": "아네타 어질리티 세미나",
+            "speaker": "아네타",
+            "organizer": "갈리칸코리아",
+            "url": "https://www.instagram.com/p/DK9IfOlzX_M/?img_index=1"
+        },
+                {
+            "date": "2025-08-02T09:00:00",
+            "registrationStartDate": "2025-06-16",
+            "name": "루치에 Handling & Foundation 세미나",
+            "speaker": "루치에",
+            "organizer": "갈리칸코리아",
+            "url": "https://www.instagram.com/p/DLgnh0lzY0h/"
+        },
         {
             "date": "2025-09-27T09:00:00",
             "registrationStartDate": "2025-09-12",
