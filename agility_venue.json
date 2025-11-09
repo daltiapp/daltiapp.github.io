@@ -89,6 +89,17 @@
         "https://drive.google.com/uc?export=view&id=1JqdzfTrX_gj0Gj7BUqNRSCETREdi3MYa",
         "https://drive.google.com/uc?export=view&id=1_tbxy4uRdd_HTMgJHJuH4P4WY7DCeHBR"
       ]
+    },
+    {
+      "name": "갈리칸코리아",
+      "location": {
+        "name": "갈리칸코리아",
+        "address": "인천광역시 중구 서해대로417번길 27-52",
+        "latitude": 37.464568871306,
+        "longitude": 126.626528528308
+      },
+      "photos": [
+      ]
     }
   ]
 }
