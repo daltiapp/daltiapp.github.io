@@ -207,24 +207,6 @@
         "kakao_url": "",
         "youtube_url": "https://www.youtube.com/@banryeomaru"
       }
-    },
-     {
-      "club": {
-        "name": "갈리칸코리아",
-        "isVisible": false,
-        "location": {
-          "name": "갈리칸코리아",
-          "address": "인천광역시 중구 서해대로417번길 27-52",
-          "latitude": 37.464568871306,
-          "longitude": 126.626528528308
-        },
-        "photos": [
-        ],
-        "homepage_url": "https://galicankorea.com",
-        "instagram_url": "https://www.instagram.com/galican_kor",
-        "kakao_url": "",
-        "youtube_url": ""
-      }
     }
   ]
 }
