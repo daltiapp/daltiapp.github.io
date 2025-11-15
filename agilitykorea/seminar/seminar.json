@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2025-10-27T23:48:18",
+    "lastUpdated": "2025-10-27T23:48:19",
     "seminar": [
         {
             "date": "2025-06-28T09:00:00",
@@ -72,14 +72,6 @@
             "speaker": "지미첸",
             "organizer": "한국애견연맹",
             "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=801"
-        },
-        {
-            "date": "2025-11-24T09:00:00",
-            "registrationStartDate": "2025-11-07",
-            "name": "이쿠미 어질리티 세미나",
-            "speaker": "이쿠미",
-            "organizer": "발트바우",
-            "url": "https://waldbow.com/program/programOpen.do"
         }
     ]
 }
