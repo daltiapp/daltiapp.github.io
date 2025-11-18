@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:46:14",
+  "lastUpdated": "2025-10-26T23:46:15",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -170,6 +170,16 @@
       "judge": "강현기, 이지훈",
       "eventType": "랭킹전",
       "matchTypes": ["비기너", "노비스", "점핑", "어질리티"]
+    },
+    {
+     "date": "2025-14-14T09:30:00",
+      "applicationPeriod": "2025-11-24 ~ 2025-12-07",
+      "name": "2025 평택 어질리티 전국대회🏆",
+      "location": "하이스트",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=d5ebf189-200b-496a-acb9-c87ba539beaa",
+      "judge": "유선",
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"]
     },
     {
       "date": "2026-01-25T08:08:00",
