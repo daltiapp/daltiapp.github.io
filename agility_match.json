@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:48:22",
+  "lastUpdated": "2025-10-26T23:48:23",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -228,6 +228,18 @@
       "matchTypes": ["비기너", "노비스", "점핑", "어질리티"],
       "club": "오십케이",
       "sponsor": "오십케이"
+    },
+    {
+      "date": "2025-14-14T09:30:00",
+      "applicationPeriod": "2025-11-24 ~ 2025-12-07",
+      "name": "제72회 KKF 어질리티 대회 클럽전(승급전)",
+      "location": "하이스트",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=d5ebf189-200b-496a-acb9-c87ba539beaa",
+      "judge": ["유선"],
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"],
+      "club": "하이스트",
+      "sponsor": "하이스트"
     },
     {
       "date": "2026-01-25T08:00:00",
