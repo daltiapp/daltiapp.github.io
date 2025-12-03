@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:48:10",
+  "lastUpdated": "2025-10-26T23:48:26",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -196,7 +196,7 @@
     {
       "date": "2025-11-23T09:00:00",
       "applicationPeriod": "2025-11-07 ~ 2025-11-14",
-      "name": "EXCITING OPEN",
+      "name": "KKF AGILITY 승급전",
       "location": "소노골프장",
       "url": "https://waldbow.com/agilityOpen.do",
       "judge": ["이쿠미"],
@@ -216,6 +216,66 @@
       "matchTypes": ["비기너", "노비스", "점핑제로", "점핑릴레이"],
       "club": "하이스트",
       "sponsor": "하이스트"
+    },
+    {
+      "date": "2025-11-30T08:00:00",
+      "applicationPeriod": "2025-11-15 ~ 2025-11-16",
+      "name": "2025 평택 어질리티 전국대회🏆",
+      "location": "초록미소마을",
+      "url": "https://www.instagram.com/50k_doglifecenter_official",
+      "judge": ["강현기", "이지훈"],
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스", "점핑", "어질리티"],
+      "club": "오십케이",
+      "sponsor": "오십케이"
+    },
+    {
+      "date": "2025-12-13T09:00:00",
+      "applicationPeriod": "2025-11-30 ~ 2025-12-07",
+      "name": "제79회 점핑/어질리티 승급전",
+      "location": "소노골프장",
+      "url": "https://www.instagram.com/korea_agility_club",
+      "judge": ["하승호"],
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2"],
+      "club": "코리아어질리티",
+      "sponsor": "코리아어질리티"
+    },
+    {
+      "date": "2025-12-14T09:30:00",
+      "applicationPeriod": "2025-11-24 ~ 2025-12-07",
+      "name": "제72회 KKF 어질리티 대회 클럽전",
+      "location": "하이스트",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=d5ebf189-200b-496a-acb9-c87ba539beaa",
+      "judge": ["유선"],
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"],
+      "club": "하이스트",
+      "sponsor": "하이스트"
+    },
+    {
+      "date": "2025-12-14T10:00:00",
+      "applicationPeriod": "2025-11-30 ~ 2025-12-07",
+      "name": "제22회 비기너/노비스 승급전",
+      "location": "소노골프장",
+      "url": "https://www.instagram.com/korea_agility_club",
+      "judge": ["채민수"],
+      "eventType": "승급전",
+      "matchTypes": ["비기너", "노비스", "노비스 오픈"],
+      "club": "코리아어질리티",
+      "sponsor": "코리아어질리티"
+    },
+    {
+      "date": "2026-01-25T08:00:00",
+      "applicationPeriod": "2025-11-25 ~ 2025-12-31",
+      "name": "4S agility Cup in Korea🇰🇷",
+      "location": "갈리칸코리아",
+      "url": "https://www.instagram.com/galican_kor",
+      "judge": ["스테파니"],
+      "eventType": "랭킹전",
+      "matchTypes": ["점핑제로", "점핑1~3", "어질1~3","Final"],
+      "club": "갈리칸코리아",
+      "sponsor": "갈리칸코리아"
     }
   ]
 }
