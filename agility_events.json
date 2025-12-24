@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:46:19",
+  "lastUpdated": "2025-10-26T23:46:20",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -203,11 +203,21 @@
     },
     {
       "date": "2026-01-25T08:08:00",
-      "applicationPeriod": "2025-11-25 ~ 2025-12-31",
+      "applicationPeriod": "2025-11-25 ~ 2026-01-15",
       "name": "4S agility Cup in Korea🇰🇷",
       "location": "갈리칸코리아",
       "url": "https://www.instagram.com/galican_kor",
       "judge": "스테파니",
+      "eventType": "랭킹전",
+      "matchTypes": ["점핑제로", "점핑1~3", "어질1~3","Final"]
+    }
+    {
+      "date": "2026-03-21T08:08:00",
+      "applicationPeriod": "2025-11-25 ~ 2026-03-10",
+      "name": "갈리칸 코리아 어질리티 오픈",
+      "location": "갈리칸코리아",
+      "url": "https://www.instagram.com/galican_kor",
+      "judge": "얀에길",
       "eventType": "랭킹전",
       "matchTypes": ["점핑제로", "점핑1~3", "어질1~3","Final"]
     }
