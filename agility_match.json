@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:48:42",
+  "lastUpdated": "2025-10-26T23:48:43",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -234,7 +234,7 @@
       "applicationPeriod": "2025-11-30 ~ 2025-12-07",
       "name": "제79회 점핑/어질리티 승급전",
       "location": "소노골프장",
-      "url": "https://www.instagram.com/korea_agility_club",
+      "url": "https://www.instagram.com/korea_dogsports",
       "judge": ["하승호"],
       "eventType": "승급전",
       "matchTypes": ["LV1", "LV2"],
@@ -258,7 +258,7 @@
       "applicationPeriod": "2025-11-30 ~ 2025-12-07",
       "name": "제22회 비기너/노비스 승급전",
       "location": "소노골프장",
-      "url": "https://www.instagram.com/korea_agility_club",
+      "url": "https://www.instagram.com/korea_dogsports",
       "judge": ["채민수"],
       "eventType": "승급전",
       "matchTypes": ["비기너", "노비스", "노비스 오픈"],
@@ -266,11 +266,11 @@
       "sponsor": "코리아어질리티"
     },
     {
-      "date": "2026-01-24T08:00:00",
+      "date": "2026-01-24T07:30:00",
       "applicationPeriod": "2025-11-28 ~ 2026-01-04",
       "name": "제1회 2026 LEEZ 크라운 어질리티 대회",
       "location": "소노골프장",
-      "url": "https://www.instagram.com/korea_dogsports",
+      "url": "https://www.instagram.com/korea_kennel_agility",
       "judge": ["이즈마엘"],
       "eventType": "랭킹전",
       "matchTypes": ["비기너", "노비스", "점핑","어질리티"],
