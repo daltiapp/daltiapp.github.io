@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:48:41",
+  "lastUpdated": "2025-10-26T23:48:42",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -266,18 +266,6 @@
       "sponsor": "코리아어질리티"
     },
     {
-      "date": "2026-01-25T08:00:00",
-      "applicationPeriod": "2025-11-25 ~ 2026-01-15",
-      "name": "4S agility Cup in Korea🇰🇷",
-      "location": "강아지숲",
-      "url": "https://www.instagram.com/galican_kor",
-      "judge": ["스테파니"],
-      "eventType": "랭킹전",
-      "matchTypes": ["점핑제로", "점핑1~3", "어질1~3","Final"],
-      "club": "갈리칸코리아",
-      "sponsor": "갈리칸코리아"
-    },
-    {
       "date": "2026-01-24T08:00:00",
       "applicationPeriod": "2025-11-28 ~ 2026-01-04",
       "name": "제1회 2026 LEEZ 크라운 어질리티 대회",
@@ -288,6 +276,30 @@
       "matchTypes": ["비기너", "노비스", "점핑","어질리티"],
       "club": "한국어질리티연합",
       "sponsor": "LEEZ"
+    },
+    {
+      "date": "2026-01-25T08:00:00",
+      "applicationPeriod": "2026-01-01 ~ 2026-01-04",
+      "name": "제74회 점/어 승급전",
+      "location": "소노골프장",
+      "url": "https://www.instagram.com/korea_dogsports",
+      "judge": ["고승욱"],
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"],
+      "club": "코리아어질리티",
+      "sponsor": "코리아어질리티"
+    },
+    {
+      "date": "2026-01-25T08:00:00",
+      "applicationPeriod": "2025-11-25 ~ 2026-01-15",
+      "name": "4S agility Cup in Korea🇰🇷",
+      "location": "강아지숲",
+      "url": "https://www.instagram.com/galican_kor",
+      "judge": ["스테파니"],
+      "eventType": "랭킹전",
+      "matchTypes": ["점핑제로", "점핑1~3", "어질1~3","Final"],
+      "club": "갈리칸코리아",
+      "sponsor": "갈리칸코리아"
     },
     {
       "date": "2026-03-21T08:00:00",
