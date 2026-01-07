@@ -1,212 +1,229 @@
 {
-  "lastUpdated": "2025-10-07T11:45:14",
-  "clubs": [
-    {
-      "club": {
-        "name": "하이스트",
-        "isVisible": true,
-        "location": {
-          "name": "하이스트",
-          "address": "강원특별자치도 홍천군 서면 한치골길 262",
-          "latitude": 37.6521031526954,
-          "longitude": 127.687106349987
+    "lastUpdated": "2025-10-07T11:45:22",
+    "clubs": [
+        {
+            "club": {
+                "name": "하이스트",
+                "isVisible": true,
+                "location": {
+                    "name": "하이스트",
+                    "address": "강원특별자치도 홍천군 서면 한치골길 262",
+                    "latitude": 37.6521031526954,
+                    "longitude": 127.687106349987
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "",
+                "instagram_url": "https://www.instagram.com/agility_highest",
+                "kakao_url": "https://pf.kakao.com/_cNjMG",
+                "youtube_url": ""
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "",
-        "instagram_url": "https://www.instagram.com/agility_highest",
-        "kakao_url": "https://pf.kakao.com/_cNjMG",
-        "youtube_url": ""
-      }
-    },
-    {
-      "club": {
-        "name": "발트바우",
-        "isVisible": true,
-        "location": {
-          "name": "발트바우",
-          "address": "경기도 양주시 은현면 화합로1080번길 304-16",
-          "latitude": 37.6521031526954,
-          "longitude": 127.687106349987
+        {
+            "club": {
+                "name": "발트바우",
+                "isVisible": true,
+                "location": {
+                    "name": "발트바우",
+                    "address": "경기도 양주시 은현면 화합로1080번길 304-16",
+                    "latitude": 37.6521031526954,
+                    "longitude": 127.687106349987
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "https://waldbow.com",
+                "instagram_url": "https://www.instagram.com/waldbow_dog_sports",
+                "kakao_url": "",
+                "youtube_url": "https://www.youtube.com/@%EB%B0%9C%ED%8A%B8%EB%B0%94%EC%9A%B0"
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "https://waldbow.com",
-        "instagram_url": "https://www.instagram.com/waldbow_dog_sports",
-        "kakao_url": "",
-        "youtube_url": "https://www.youtube.com/@%EB%B0%9C%ED%8A%B8%EB%B0%94%EC%9A%B0"
-      }
-    },
-    {
-      "club": {
-        "name": "코리아어질리티",
-        "isVisible": false,
-        "location": {
-          "name": "코리아어질리티",
-          "address": "경기도 양주시 은현면 화합로1080번길 304-16",
-          "latitude": 37.6521031526954,
-          "longitude": 127.687106349987
+        {
+            "club": {
+                "name": "코리아어질리티",
+                "isVisible": false,
+                "location": {
+                    "name": "코리아어질리티",
+                    "address": "경기도 양주시 은현면 화합로1080번길 304-16",
+                    "latitude": 37.6521031526954,
+                    "longitude": 127.687106349987
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "https://www.agility.co.kr",
+                "instagram_url": "https://www.instagram.com/korea_dogsports",
+                "kakao_url": "https://pf.kakao.com/_BfHUb",
+                "youtube_url": ""
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "https://www.agility.co.kr",
-        "instagram_url": "https://www.instagram.com/korea_agility_club",
-        "kakao_url": "https://pf.kakao.com/_BfHUb",
-        "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
-      }
-    },
-    {
-      "club": {
-        "name": "한국어질리티연합",
-        "isVisible": false,
-        "location": {
-          "name": "한국어질리티연합",
-          "address": "경기도 양주시 은현면 화합로1080번길 304-16",
-          "latitude": 37.6521031526954,
-          "longitude": 127.687106349987
+        {
+            "club": {
+                "name": "한국어질리티연합",
+                "isVisible": false,
+                "location": {
+                    "name": "한국어질리티연합",
+                    "address": "경기도 양주시 은현면 화합로1080번길 304-16",
+                    "latitude": 37.6521031526954,
+                    "longitude": 127.687106349987
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "https://www.agility.co.kr",
+                "instagram_url": "https://www.instagram.com/korea_kennel_agility",
+                "kakao_url": "https://pf.kakao.com/_HlJFG",
+                "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "https://www.agility.co.kr",
-        "instagram_url": "https://www.instagram.com/korea_kennel_agility",
-        "kakao_url": "https://pf.kakao.com/_HlJFG",
-        "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
-      }
-    },
-    {
-      "club": {
-        "name": "고프로",
-        "isVisible": false,
-        "location": {
-          "name": "고프로",
-          "address": "강원특별자치도 홍천군 서면 한치골길 262",
-          "latitude": 37.6521031526954,
-          "longitude": 127.687106349987
+        {
+            "club": {
+                "name": "고프로",
+                "isVisible": false,
+                "location": {
+                    "name": "고프로",
+                    "address": "강원특별자치도 홍천군 서면 한치골길 262",
+                    "latitude": 37.6521031526954,
+                    "longitude": 127.687106349987
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "",
+                "instagram_url": "https://www.instagram.com/goprokr",
+                "kakao_url": "http://pf.kakao.com/_QviSb",
+                "youtube_url": "https://www.youtube.com/@GoProKR"
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "",
-        "instagram_url": "https://www.instagram.com/goprokr",
-        "kakao_url": "http://pf.kakao.com/_QviSb",
-        "youtube_url": "https://www.youtube.com/@GoProKR"
-      }
-    },
-    {
-      "club": {
-        "name": "도요타",
-        "isVisible": false,
-        "location": {
-          "name": "도요타",
-          "address": "경기 용인시 기흥구 용구대로2469번길 47",
-          "latitude": 37.6521031526954,
-          "longitude": 127.687106349987
+        {
+            "club": {
+                "name": "도요타",
+                "isVisible": false,
+                "location": {
+                    "name": "도요타",
+                    "address": "경기 용인시 기흥구 용구대로2469번길 47",
+                    "latitude": 37.6521031526954,
+                    "longitude": 127.687106349987
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "https://toyota.co.kr/bareundogfestival/about",
+                "instagram_url": "https://www.instagram.com/bareundog_toyotakr",
+                "kakao_url": "http://pf.kakao.com/_ZSJBM",
+                "youtube_url": "https://www.youtube.com/@TOYOTAKR/shorts"
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "https://toyota.co.kr/bareundogfestival/about",
-        "instagram_url": "https://www.instagram.com/bareundog_toyotakr",
-        "kakao_url": "http://pf.kakao.com/_ZSJBM",
-        "youtube_url": "https://www.youtube.com/@TOYOTAKR/shorts"
-      }
-    },
-    {
-      "club": {
-        "name": "한국애견연맹",
-        "isVisible": false,
-        "location": {
-          "name": "한국애견연맹",
-          "address": "서울 도봉구 도봉로 169나길 6",
-          "latitude": 37.6521031526954,
-          "longitude": 127.687106349987
+        {
+            "club": {
+                "name": "한국애견연맹",
+                "isVisible": false,
+                "location": {
+                    "name": "한국애견연맹",
+                    "address": "서울 도봉구 도봉로 169나길 6",
+                    "latitude": 37.6521031526954,
+                    "longitude": 127.687106349987
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
+                "instagram_url": "https://www.instagram.com/korea_kennel_federation",
+                "kakao_url": "http://pf.kakao.com/_Gxlxnxiu",
+                "youtube_url": "https://www.youtube.com/@KOREA_KENNEL_FEDERATION"
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "https://www.thekkf.or.kr/new_home/main.php",
-        "instagram_url": "https://www.instagram.com/korea_kennel_federation",
-        "kakao_url": "http://pf.kakao.com/_Gxlxnxiu",
-        "youtube_url": "https://www.youtube.com/@KOREA_KENNEL_FEDERATION"
-      }
-    },
-    {
-      "club": {
-        "name": "강아지숲",
-        "isVisible": false,
-        "location": {
-          "name": "강아지숲",
-          "address": "강원도 춘천시 남산면 충효로 437",
-          "latitude": 37.7364350197699,
-          "longitude": 127.662020178819
+        {
+            "club": {
+                "name": "강아지숲",
+                "isVisible": false,
+                "location": {
+                    "name": "강아지숲",
+                    "address": "강원도 춘천시 남산면 충효로 437",
+                    "latitude": 37.7364350197699,
+                    "longitude": 127.662020178819
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "http://www.dong-sa.or.kr/main/index.jsp",
+                "instagram_url": "https://www.instagram.com/dongsa08",
+                "kakao_url": "http://pf.kakao.com/_xkKKlK",
+                "youtube_url": "https://www.youtube.com/@AnH-Dogsports"
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "http://www.dong-sa.or.kr/main/index.jsp",
-        "instagram_url": "https://www.instagram.com/dongsa08",
-        "kakao_url": "http://pf.kakao.com/_xkKKlK",
-        "youtube_url": "https://www.youtube.com/@AnH-Dogsports"
-      }
-    },
-    {
-      "club": {
-        "name": "반려마루",
-        "isVisible": false,
-        "location": {
-          "name": "소노골프장",
-          "address": "강원특별자치도 홍천군 서면 한치골길 262",
-          "latitude": 37.6521031526954,
-          "longitude": 127.687106349987
+        {
+            "club": {
+                "name": "반려마루",
+                "isVisible": false,
+                "location": {
+                    "name": "소노골프장",
+                    "address": "강원특별자치도 홍천군 서면 한치골길 262",
+                    "latitude": 37.6521031526954,
+                    "longitude": 127.687106349987
+                },
+                "photos": [
+                    "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+                    "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+                    "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+                    "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+                    "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+                ],
+                "homepage_url": "https://banryeomaru.kr/",
+                "instagram_url": "https://www.instagram.com/banryeomaru_official",
+                "kakao_url": "",
+                "youtube_url": "https://www.youtube.com/@banryeomaru"
+            }
         },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "https://banryeomaru.kr/",
-        "instagram_url": "https://www.instagram.com/banryeomaru_official",
-        "kakao_url": "",
-        "youtube_url": "https://www.youtube.com/@banryeomaru"
-      }
-    }
-  ]
+        {
+            "club": {
+                "name": "갈리칸코리아",
+                "isVisible": false,
+                "location": {
+                    "name": "갈리칸코리아",
+                    "address": "인천광역시 중구 서해대로417번길 27-52",
+                    "latitude": 37.464568871306,
+                    "longitude": 126.626528528308
+                },
+                "photos": [],
+                "homepage_url": "https://galicankorea.com",
+                "instagram_url": "https://www.instagram.com/galican_kor",
+                "kakao_url": "",
+                "youtube_url": ""
+            }
+        }
+    ]
 }
