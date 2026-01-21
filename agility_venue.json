@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-03T12:39:07",
+  "lastUpdated": "2025-11-03T12:39:08",
   "venues": [
     {
       "name": "하이스트",
@@ -88,6 +88,17 @@
         "https://drive.google.com/uc?export=view&id=1dDh9BnCy2gBaUDdzRfH9QXxebGk8NbCK",
         "https://drive.google.com/uc?export=view&id=1JqdzfTrX_gj0Gj7BUqNRSCETREdi3MYa",
         "https://drive.google.com/uc?export=view&id=1_tbxy4uRdd_HTMgJHJuH4P4WY7DCeHBR"
+      ]
+    },
+    {
+      "name": "킨더도기",
+      "location": {
+        "name": "킨더도기",
+        "address": "경기도 양주시 백석읍 양주산성로 903-8",
+        "latitude": 37.7926921177226,
+        "longitude": 126.961777782957
+      },
+      "photos": [
       ]
     },
     {
