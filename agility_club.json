@@ -224,6 +224,25 @@
                 "kakao_url": "",
                 "youtube_url": ""
             }
-        }
+        },
+        {
+            "club": {
+                "name": "킨더도기",
+                "isVisible": false,
+                "location": {
+                    "name": "킨더도기",
+                    "address": "경기도 양주시 백석읍 양주산성로 903-8",
+                    "latitude": 37.7926921177226,
+                    "longitude": 126.961777782957
+                },
+                "photos": [
+
+                ],
+                "homepage_url": "https://www.instagram.com/ares_agility_open",
+                "instagram_url": "https://www.instagram.com/ares_agility_open",
+                "kakao_url": "",
+                "youtube_url": "https://www.youtube.com/@Winzombiewin"
+            }
+        },
     ]
 }
