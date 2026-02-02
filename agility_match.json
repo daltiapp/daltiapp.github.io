@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-26T23:48:47",
+  "lastUpdated": "2025-10-26T23:48:48",
   "competitions": [
     {
       "date": "2025-09-05T10:00:00",
@@ -300,6 +300,30 @@
       "matchTypes": ["점핑제로", "점핑1~3", "어질1~3","Final"],
       "club": "갈리칸코리아",
       "sponsor": "갈리칸코리아"
+    },
+    {
+      "date": "2026-03-07T08:00:00",
+      "applicationPeriod": "2026-02-09 ~ 2026-02-15",
+      "name": "2026 LEEZ 어질리티 리그",
+      "location": "소노골프장",
+      "url": "https://www.instagram.com/korea_kennel_agility",
+      "judge": ["하승호"],
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스"],
+      "club": "한국어질리티연합",
+      "sponsor": "한국어질리티연합"
+    },
+    {
+      "date": "2026-03-08T08:00:00",
+      "applicationPeriod": "2026-02-09 ~ 2026-02-15",
+      "name": "2026 LEEZ 어질리티 리그",
+      "location": "소노골프장",
+      "url": "https://www.instagram.com/korea_kennel_agility",
+      "judge": ["이민우"],
+      "eventType": "랭킹전",
+      "matchTypes": ["점핑", "어질리티"],
+      "club": "한국어질리티연합",
+      "sponsor": "한국어질리티연합"
     },
     {
       "date": "2026-03-21T08:00:00",
