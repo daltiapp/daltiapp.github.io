@@ -18,7 +18,7 @@
       "endDate": "2026-07-27",
       "location": "Equestrian Stadium Le Grand Parquet, Fontainebleau",
       "country": "France",
-      "url": "https://www.agilitynow.eu/agility-european-open-2026-will-take-place-in-france/"
+      "url": "https://www.agilitynow.eu/agility-european-open-2026-will-take-place-in-france"
     },
     {
       "id": "awc-fci-2026",
@@ -28,7 +28,7 @@
       "endDate": "2026-09-27",
       "location": "Gatorade Center, Turku",
       "country": "Finland",
-      "url": "https://awc2026.fi/"
+      "url": "https://awc2026.fi"
     },
     {
       "id": "no-2026",
@@ -38,7 +38,7 @@
       "endDate": "2026-10-11",
       "location": "Kongsvingerhallen",
       "country": "Norway",
-      "url": ""
+      "url": "https://norwegian-open.com"
     },
     {
       "id": "wac-ifcs-2026",
@@ -58,7 +58,7 @@
       "endDate": "2026-05-17",
       "location": "National Hippic Centre (KNHS), Ermelo",
       "country": "Netherlands",
-      "url": "https://worldagilityopen.com/"
+      "url": "https://worldagilityopen.com"
     }
   ]
 }
