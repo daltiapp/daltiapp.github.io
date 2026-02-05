@@ -26,6 +26,15 @@
       "location": "Gatorade Center, Turku",
       "country": "Finland",
       "url": "https://awc2026.fi/"
+    },
+    {
+      "id": "no-2026",
+      "name": "Norwegian Open",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-11",
+      "location": "Kongsvingerhallen",
+      "country": "Norway",
+      "url": "https://www.norwegian-open.com"
     }
   ]
 }
