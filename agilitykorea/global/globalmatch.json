@@ -1,22 +1,31 @@
 {
   "globalmatch": [
     {
+      "id": "jao-2026",
       "name": "Junior & Senior Agility Open",
-      "dates": "10.07. - 12.07.2026",
-      "location": "Maimarkt Area, Mannheim, Germany",
-      "country": "Germany"
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-12",
+      "location": "Maimarkt Area, Mannheim",
+      "country": "Germany",
+      "url": "https://www.instagram.com/jaosao2026"
     },
     {
+      "id": "eo-2026",
       "name": "European Open",
-      "dates": "23.07. - 27.07.2026",
-      "location": "Equestrian Stadium Le Grand Parquet in Fontainebleau, France",
-      "country": "France"
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-27",
+      "location": "Equestrian Stadium Le Grand Parquet, Fontainebleau",
+      "country": "France",
+      "url": "https://www.agilitynow.eu/agility-european-open-2026-will-take-place-in-france/"
     },
     {
+      "id": "awc-2026",
       "name": "Agility World Championship",
-      "dates": "22.09. - 27.09.2026",
-      "location": "Gatorade Center in Turku, Finland",
-      "country": "Finland"
+      "startDate": "2026-09-22",
+      "endDate": "2026-09-27",
+      "location": "Gatorade Center, Turku",
+      "country": "Finland",
+      "url": "https://awc2026.fi/"
     }
   ]
 }
