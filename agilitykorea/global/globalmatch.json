@@ -49,6 +49,16 @@
       "location": "Club Hipico Mouratours, Godella, Valencia",
       "country": "Spain",
       "url": "https://www.ifcsdogsports.org/wac"
+    },
+    {
+      "id": "wao-2026",
+      "name": "FitPaws World Agility Open",
+      "federation": "WAO",
+      "startDate": "2026-05-13",
+      "endDate": "2026-05-17",
+      "location": "National Hippic Centre (KNHS), Ermelo",
+      "country": "Netherlands",
+      "url": "https://worldagilityopen.com/"
     }
   ]
 }
