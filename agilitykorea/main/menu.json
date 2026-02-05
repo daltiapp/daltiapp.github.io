@@ -23,7 +23,7 @@
     {
       "id": "seminar",
       "title": "세미나",
-      "isActive": false
+      "isActive": true
     },
     {
       "id": "setting",
