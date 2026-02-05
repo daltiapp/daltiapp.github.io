@@ -1,5 +1,4 @@
 {
-  "lastUpdated": "2025-11-03T12:39:08",
   "venues": [
     {
       "name": "하이스트",
@@ -90,17 +89,21 @@
         "https://drive.google.com/uc?export=view&id=1_tbxy4uRdd_HTMgJHJuH4P4WY7DCeHBR"
       ]
     },
-    {
-      "name": "킨더도기",
-      "location": {
-        "name": "킨더도기",
-        "address": "경기도 양주시 백석읍 양주산성로 903-8",
-        "latitude": 37.7926921177226,
-        "longitude": 126.961777782957
-      },
-      "photos": [
-      ]
-    },
+		{
+			"name": "킨더도기",
+			"location": {
+				"name": "킨더도기",
+				"address": "경기도 양주시 백석읍 양주산성로 903-8",
+				"latitude": 37.7926921177226,
+				"longitude": 126.961777782957
+			},
+			"photos": [
+				"https://drive.google.com/uc?export=view&id=1_Jn3G2ztkGpl242JLAc2exBYt6eHq6w9",
+				"https://drive.google.com/uc?export=view&id=15ARpoiypn-3cJke5DC_YUzB8-eAKd4P9",
+				"https://drive.google.com/uc?export=view&id=1l08q7tz10-cpR_dNqy3R6p1-W41BeU6T",
+				"https://drive.google.com/uc?export=view&id=1vdM5rGgk-8A45BcdYD4e9pETQcFoUphl"
+			]
+		},
     {
       "name": "갈리칸코리아",
       "location": {
