@@ -3,6 +3,7 @@
     {
       "id": "jao-2026",
       "name": "Junior & Senior Agility Open",
+      "federation": "FCI",
       "startDate": "2026-07-10",
       "endDate": "2026-07-12",
       "location": "Maimarkt Area, Mannheim",
@@ -12,6 +13,7 @@
     {
       "id": "eo-2026",
       "name": "European Open",
+      "federation": "FCI",
       "startDate": "2026-07-23",
       "endDate": "2026-07-27",
       "location": "Equestrian Stadium Le Grand Parquet, Fontainebleau",
@@ -19,8 +21,9 @@
       "url": "https://www.agilitynow.eu/agility-european-open-2026-will-take-place-in-france/"
     },
     {
-      "id": "awc-2026",
+      "id": "awc-fci-2026",
       "name": "Agility World Championship",
+      "federation": "FCI",
       "startDate": "2026-09-22",
       "endDate": "2026-09-27",
       "location": "Gatorade Center, Turku",
@@ -30,11 +33,22 @@
     {
       "id": "no-2026",
       "name": "Norwegian Open",
+      "federation": "FCI",
       "startDate": "2026-10-09",
       "endDate": "2026-10-11",
       "location": "Kongsvingerhallen",
       "country": "Norway",
-      "url": "https://www.norwegian-open.com"
+      "url": ""
+    },
+    {
+      "id": "wac-ifcs-2026",
+      "name": "World Agility Championship",
+      "federation": "IFCS",
+      "startDate": "2026-04-28",
+      "endDate": "2026-05-03",
+      "location": "Club Hipico Mouratours, Godella, Valencia",
+      "country": "Spain",
+      "url": "https://www.ifcsdogsports.org/wac"
     }
   ]
 }
