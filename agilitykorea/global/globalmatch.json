@@ -1,6 +1,36 @@
 {
   "globalmatch": [
     {
+      "id": "crufts-2026",
+      "name": "Crufts 2026",
+      "federation": "Kennel Club",
+      "startDate": "2026-03-05",
+      "endDate": "2026-03-08",
+      "location": "NEC Birmingham",
+      "country": "United Kingdom",
+      "url": "https://crufts.org.uk"
+    },
+    {
+      "id": "wac-ifcs-2026",
+      "name": "World Agility Championship",
+      "federation": "IFCS",
+      "startDate": "2026-04-28",
+      "endDate": "2026-05-03",
+      "location": "Club Hipico Mouratours, Godella, Valencia",
+      "country": "Spain",
+      "url": "https://www.ifcsdogsports.org/wac"
+    },
+    {
+      "id": "wao-2026",
+      "name": "World Agility Open",
+      "federation": "WAO",
+      "startDate": "2026-05-13",
+      "endDate": "2026-05-17",
+      "location": "National Hippic Centre (KNHS), Ermelo",
+      "country": "Netherlands",
+      "url": "https://worldagilityopen.com"
+    },
+    {
       "id": "jao-2026",
       "name": "Junior & Senior Agility Open",
       "federation": "FCI",
@@ -39,26 +69,6 @@
       "location": "Kongsvingerhallen",
       "country": "Norway",
       "url": "https://norwegian-open.com"
-    },
-    {
-      "id": "wac-ifcs-2026",
-      "name": "World Agility Championship",
-      "federation": "IFCS",
-      "startDate": "2026-04-28",
-      "endDate": "2026-05-03",
-      "location": "Club Hipico Mouratours, Godella, Valencia",
-      "country": "Spain",
-      "url": "https://www.ifcsdogsports.org/wac"
-    },
-    {
-      "id": "wao-2026",
-      "name": "World Agility Open",
-      "federation": "WAO",
-      "startDate": "2026-05-13",
-      "endDate": "2026-05-17",
-      "location": "National Hippic Centre (KNHS), Ermelo",
-      "country": "Netherlands",
-      "url": "https://worldagilityopen.com"
     }
   ]
 }
