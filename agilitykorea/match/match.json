@@ -326,6 +326,18 @@
     },
     {
       "date": "2026-03-21T08:00:00",
+      "applicationPeriod": "2026-02-06 ~ 2026-02-20",
+      "name": "2026년도 FCI AWC 한국대표 선발전",
+      "location": "소노골프장",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12222",
+      "judge": ["한국애견연맹"],
+      "eventType": "선발전",
+      "matchTypes": ["점핑", "어질리티"],
+      "club": "한국애견연맹",
+      "sponsor": "한국애견연맹"
+    },
+    {
+      "date": "2026-03-21T08:00:00",
       "applicationPeriod": "2025-11-25 ~ 2026-03-10",
       "name": "갈리칸 코리아 어질리티 오픈",
       "location": "갈리칸코리아",
