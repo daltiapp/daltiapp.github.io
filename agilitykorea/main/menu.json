@@ -21,6 +21,11 @@
       "isActive": true
     },
     {
+      "id": "result",
+      "title": "대회결과",
+      "isActive": true
+    },
+    {
       "id": "seminar",
       "title": "세미나",
       "isActive": true
@@ -31,4 +36,3 @@
       "isActive": true
     }
   ]
-}
