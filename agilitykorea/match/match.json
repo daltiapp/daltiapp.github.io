@@ -301,6 +301,18 @@
       "sponsor": "갈리칸코리아"
     },
     {
+      "date": "2026-02-22T08:00:00",
+      "applicationPeriod": "2026-02-02 ~ 2026-02-08",
+      "name": "제23회 비기너/노비스 승급전",
+      "location": "소노골프장",
+      "url": "https://www.instagram.com/korea_dogsports",
+      "judge": ["채민수"],
+      "eventType": "승급전",
+      "matchTypes": ["비기너", "노비스"],
+      "club": "코리아어질리티",
+      "sponsor": "코리아어질리티"
+    },
+    {
       "date": "2026-03-07T08:00:00",
       "applicationPeriod": "2026-02-09 ~ 2026-02-15",
       "name": "2026 LEEZ 어질리티 리그",
@@ -354,7 +366,7 @@
       "name": "2026 아레스 어질리티 오픈 챔피언쉽",
       "location": "킨더도기",
       "url": "https://www.instagram.com/p/DUE31MFEtUB/?img_index=1",
-      "judge": ["이용민, 전영환"],
+      "judge": ["이용민", "전영환"],
       "eventType": "랭킹전",
       "matchTypes": ["비기너", "노비스", "어질리티","점핑","점핑릴레이"],
       "club": "킨더도기",
