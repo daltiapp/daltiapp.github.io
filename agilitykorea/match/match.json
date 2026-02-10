@@ -361,6 +361,18 @@
       "sponsor": "갈리칸코리아"
     },
     {
+      "date": "2026-03-29T08:00:00",
+      "applicationPeriod": "2026-02-16 ~ 2026-02-28",
+      "name": "제3회 PDC어질리티 챔피언쉽",
+      "location": "강아지숲",
+      "url": "https://www.instagram.com/galican_kor",
+      "judge": ["이지은", "오윤석"],
+      "eventType": "랭킹전",
+      "matchTypes": ["비기너", "노비스", "점핑", "어질리티"],
+      "club": "팔레드차밍",
+      "sponsor": "팔레드차밍"
+    },
+    {
       "date": "2026-03-29T08:30:00",
       "applicationPeriod": "2026-02-21 ~ 2026-03-10",
       "name": "2026 아레스 어질리티 오픈 챔피언쉽",
