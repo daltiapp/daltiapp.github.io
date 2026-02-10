@@ -89,21 +89,31 @@
         "https://drive.google.com/uc?export=view&id=1_tbxy4uRdd_HTMgJHJuH4P4WY7DCeHBR"
       ]
     },
-		{
-			"name": "킨더도기",
-			"location": {
-				"name": "킨더도기",
-				"address": "경기도 양주시 백석읍 양주산성로 903-8",
-				"latitude": 37.7926921177226,
-				"longitude": 126.961777782957
-			},
-			"photos": [
-				"https://drive.google.com/uc?export=view&id=1_Jn3G2ztkGpl242JLAc2exBYt6eHq6w9",
-				"https://drive.google.com/uc?export=view&id=15ARpoiypn-3cJke5DC_YUzB8-eAKd4P9",
-				"https://drive.google.com/uc?export=view&id=1l08q7tz10-cpR_dNqy3R6p1-W41BeU6T",
-				"https://drive.google.com/uc?export=view&id=1vdM5rGgk-8A45BcdYD4e9pETQcFoUphl"
-			]
-		},
+    {
+      "name": "킨더도기",
+      "location": {
+        "name": "킨더도기",
+        "address": "경기도 양주시 백석읍 양주산성로 903-8",
+        "latitude": 37.7926921177226,
+        "longitude": 126.961777782957
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1_Jn3G2ztkGpl242JLAc2exBYt6eHq6w9",
+        "https://drive.google.com/uc?export=view&id=15ARpoiypn-3cJke5DC_YUzB8-eAKd4P9",
+        "https://drive.google.com/uc?export=view&id=1l08q7tz10-cpR_dNqy3R6p1-W41BeU6T",
+        "https://drive.google.com/uc?export=view&id=1vdM5rGgk-8A45BcdYD4e9pETQcFoUphl"
+      ]
+    },
+    {
+      "name": "팔레드차밍",
+      "location": {
+        "name": "팔레드차밍",
+        "address": "경기 양평군 양동면 아래배내1길 36-28",
+        "latitude": 37.3899416523248,
+        "longitude": 127.782276203212
+      },
+      "photos": []
+    },
     {
       "name": "갈리칸코리아",
       "location": {
@@ -112,8 +122,7 @@
         "latitude": 37.464568871306,
         "longitude": 126.626528528308
       },
-      "photos": [
-      ]
+      "photos": []
     }
   ]
 }
