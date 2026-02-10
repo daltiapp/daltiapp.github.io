@@ -226,6 +226,23 @@
     },
     {
       "club": {
+        "name": "팔레드차밍",
+        "isVisible": false,
+        "location": {
+          "name": "팔레드차밍",
+          "address": "경기 양평군 양동면 아래배내1길 36-28 팔레드차밍",
+          "latitude": 37.3899416523248,
+          "longitude": 127.782276203212
+        },
+        "photos": [],
+        "homepage_url": "https://www.pdcharming.com",
+        "instagram_url": "https://www.instagram.com/pdc_agility",
+        "kakao_url": "http://pf.kakao.com/_MPeBn",
+        "youtube_url": "https://www.youtube.com/@palaisdecharming"
+      }
+    },
+    {
+      "club": {
         "name": "킨더도기",
         "isVisible": false,
         "location": {
