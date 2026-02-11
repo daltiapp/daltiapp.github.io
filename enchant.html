@@ -134,4 +134,85 @@
         const aura = document.getElementById('aura-effect');
 
         // 강화 확률 고지 (제한 없음)
-        function
+        function getProbability(lv) {
+            if (lv < 6) return 100; // 6강까지 안전
+            if (lv < 10) return Math.max(5, 100 - (lv * 10)); // 7~10강 급격히 하락
+            return Math.max(1, Math.floor(10 / (lv - 8))); // 10강 이후 극악의 확률 (최저 1%)
+        }
+
+        function updateDisplay() {
+            nameDisplay.innerText = `+${level} ${itemName}`;
+            probDisplay.innerText = `${getProbability(level)}%`;
+            
+            // 강화 수치에 따른 색상 및 오라 강화
+            let color = "#fff";
+            let blurSize = level * 5;
+            
+            if (level > 0 && level <= 6) color = "#ffffff";
+            else if (level <= 8) color = "#00bfff"; // 파란색
+            else if (level <= 10) color = "#ff00ff"; // 보라색
+            else if (level <= 15) color = "#ff4500"; // 주황색
+            else color = "#ff0000"; // 붉은색 (전설)
+
+            // 무기 자체 광원
+            imgDisplay.style.filter = `drop-shadow(0 0 ${10 + level * 3}px ${color})`;
+            imgDisplay.style.color = color;
+            
+            // 뒤쪽 오라 효과
+            aura.style.opacity = level > 0 ? "0.8" : "0";
+            aura.style.background = color;
+            aura.style.width = `${100 + level * 10}px`;
+            aura.style.height = `${100 + level * 10}px`;
+            aura.style.animation = level > 6 ? "pulse 1.5s infinite" : "none";
+            
+            // 무기 크기 변화
+            imgDisplay.style.transform = `scale(${1 + (level * 0.05)})`;
+        }
+
+        function enhance() {
+            const chance = getProbability(level);
+            const roll = Math.random() * 100;
+
+            // 1. 클릭 시 화면 번쩍임 (Flash Effect)
+            body.classList.add('flash');
+            setTimeout(() => body.classList.remove('flash'), 50);
+
+            // 2. 무기 흔들림 효과
+            imgDisplay.style.transform += " translateY(-20px)";
+
+            if (roll < chance) {
+                // 성공 효과
+                level++;
+                log.innerText = `✨ 축하합니다! 강화 성공 (+${level})`;
+                log.style.color = "#ffd700";
+                
+                // 성공 시 무기 튀어오르는 연출
+                setTimeout(() => {
+                    updateDisplay();
+                }, 100);
+            } else {
+                // 실패 효과 (증발)
+                log.innerText = `💥 파괴됨: 무기가 흔적도 없이 사라졌습니다.`;
+                log.style.color = "#ff4500";
+                
+                // 실패 시 연출
+                imgDisplay.style.opacity = "0";
+                imgDisplay.style.transform = "scale(2) rotate(20deg)";
+                
+                setTimeout(() => {
+                    if(confirm(`${level}강에서 실패했습니다. 복구하시겠습니까?`)) {
+                        level = 0;
+                        imgDisplay.style.opacity = "1";
+                        updateDisplay();
+                        log.innerText = "새로운 무기를 준비했습니다.";
+                        log.style.color = "#ffd700";
+                    }
+                }, 500);
+            }
+        }
+
+        // 초기 화면 설정
+        updateDisplay();
+    </script>
+</body>
+</html>
