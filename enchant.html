@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Lineage Style Upgrade Simulator</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: 'Malgun Gothic', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .item-card {
+            background: #2c2c2c;
+            border: 2px solid #444;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+            width: 300px;
+        }
+
+        #item-image {
+            font-size: 80px;
+            margin-bottom: 20px;
+            transition: all 0.3s;
+            display: inline-block;
+            filter: drop-shadow(0 0 5px rgba(255,255,255,0.2));
+        }
+
+        #item-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .stats { color: #aaa; margin-bottom: 20px; }
+
+        button {
+            background: #b22222;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.2s;
+        }
+
+        button:hover { background: #ff4500; }
+        button:disabled { background: #555; cursor: not-allowed; }
+
+        #log {
+            margin-top: 20px;
+            font-size: 14px;
+            height: 50px;
+            color: #ffd700;
+        }
+
+        /* 강화 이펙트 */
+        .glow-safe { filter: drop-shadow(0 0 10px #fff) !important; }
+        .glow-mid { filter: drop-shadow(0 0 15px #00bfff) !important; color: #00bfff; }
+        .glow-high { filter: drop-shadow(0 0 20px #ff0000) !important; color: #ff4500; animation: shake 0.1s infinite; }
+        
+        @keyframes shake {
+            0% { transform: translate(1px, 1px) rotate(0deg); }
+            50% { transform: translate(-1px, -2px) rotate(-1deg); }
+            100% { transform: translate(1px, 1px) rotate(0deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="item-card">
+        <div id="item-image">🗡️</div>
+        <div id="item-name">+0 집행검</div>
+        <div class="stats">성공 확률: <span id="prob-display">100%</span></div>
+        <button onclick="enhance()">강화하기 (주문서 사용)</button>
+        <div id="log">무기에 기운이 감돕니다.</div>
+    </div>
+
+    <script>
+        let level = 0;
+        const itemName = "집행검";
+        const log = document.getElementById('log');
+        const nameDisplay = document.getElementById('item-name');
+        const imgDisplay = document.getElementById('item-image');
+        const probDisplay = document.getElementById('prob-display');
+
+        // 리니지 기반 확률 (6강까지 안전, 이후 급격히 하락)
+        function getProbability(lv) {
+            if (lv < 6) return 100; // 안전 강화
+            if (lv === 6) return 33;
+            if (lv === 7) return 25;
+            if (lv === 8) return 10;
+            if (lv >= 9) return 5;
+            return 0;
+        }
+
+        function updateDisplay() {
+            nameDisplay.innerText = `+${level} ${itemName}`;
+            probDisplay.innerText = `${getProbability(level)}%`;
+            
+            // 이펙트 초기화
+            imgDisplay.className = "";
+            
+            // 강화 단계별 이펙트
+            if (level >= 1 && level <= 6) {
+                imgDisplay.classList.add('glow-safe');
+            } else if (level >= 7 && level <= 8) {
+                imgDisplay.classList.add('glow-mid');
+            } else if (level >= 9) {
+                imgDisplay.classList.add('glow-high');
+            }
+        }
+
+        function enhance() {
+            const chance = getProbability(level);
+            const roll = Math.random() * 100;
+
+            if (roll < chance) {
+                // 성공
+                level++;
+                log.innerText = `✨ 강화 성공! 무기가 더 강해졌습니다. (+${level})`;
+                log.style.color = "#ffd700";
+            } else {
+                // 실패 (아이템 증발)
+                log.innerText = `💥 강화 실패! ${itemName}이(가) 가루가 되었습니다.`;
+                log.style.color = "#ff4500";
+                level = 0;
+                document.querySelector('button').disabled = true;
+                setTimeout(() => {
+                    if(confirm("아이템이 파괴되었습니다. 복구(재시작)하시겠습니까?")) {
+                        location.reload();
+                    }
+                }, 1000);
+            }
+            updateDisplay();
+        }
+
+        updateDisplay();
+    </script>
+</body>
+</html>
