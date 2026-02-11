@@ -15,27 +15,26 @@
             height: 100vh;
             margin: 0;
             overflow: hidden;
-            transition: background-color 0.1s;
+            transition: background-color 0.3s;
         }
 
         /* 전체 배경 번쩍임 효과 */
         .flash { background-color: #ffffff !important; }
 
         .item-card {
-            background: rgba(44, 44, 44, 0.9);
-            border: 2px solid #555;
+            background: rgba(30, 30, 30, 0.95);
+            border: 2px solid #444;
             padding: 50px;
             border-radius: 20px;
             text-align: center;
-            box-shadow: 0 0 50px rgba(0,0,0,0.8);
-            width: 350px;
-            z-index: 10;
+            box-shadow: 0 0 50px rgba(0,0,0,0.9);
+            width: 380px;
             position: relative;
         }
 
         #item-container {
             position: relative;
-            height: 150px;
+            height: 180px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -46,14 +45,13 @@
             font-size: 100px;
             z-index: 2;
             transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            filter: drop-shadow(0 0 10px rgba(255,255,255,0.3));
         }
 
         #item-name {
-            font-size: 28px;
+            font-size: 30px;
             font-weight: bold;
             margin-bottom: 5px;
-            text-shadow: 2px 2px 4px black;
+            text-shadow: 0 0 10px rgba(0,0,0,1);
         }
 
         .stats { 
@@ -61,52 +59,68 @@
             font-size: 18px;
             margin-bottom: 25px; 
             font-weight: bold;
+            letter-spacing: 1px;
         }
 
-        button {
+        /* 강화 버튼 */
+        .btn-main {
             background: linear-gradient(135deg, #b22222, #4b0000);
             color: white;
             border: 1px solid #ff4500;
-            padding: 15px 35px;
+            padding: 15px 40px;
             font-size: 20px;
             font-weight: bold;
             cursor: pointer;
-            border-radius: 50px;
+            border-radius: 5px;
             transition: 0.2s;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            display: inline-block;
         }
 
-        button:hover { 
-            transform: scale(1.05);
-            background: linear-gradient(135deg, #ff4500, #b22222);
-        }
+        .btn-main:hover { transform: scale(1.05); background: linear-gradient(135deg, #ff4500, #b22222); }
+        .btn-main:disabled { filter: grayscale(1); cursor: not-allowed; opacity: 0.5; }
 
-        button:active { transform: scale(0.95); }
+        /* 재시작 버튼 (실패 시 등장) */
+        #retry-btn {
+            display: none;
+            background: linear-gradient(135deg, #444, #111);
+            color: #eee;
+            border: 1px solid #888;
+            padding: 15px 40px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: -55px; /* 강화 버튼 위치 보정 */
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 20;
+        }
 
         #log {
-            margin-top: 25px;
+            margin-top: 30px;
             font-size: 16px;
             font-weight: bold;
-            height: 20px;
+            height: 24px;
             text-shadow: 1px 1px 2px black;
         }
 
-        /* 실시간 강화 이펙트 레이어 */
+        /* 아우라 효과 */
         .aura {
             position: absolute;
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
-            filter: blur(30px);
+            filter: blur(40px);
             opacity: 0;
             transition: 0.5s;
             z-index: 1;
         }
 
         @keyframes pulse {
-            0% { transform: scale(1); opacity: 0.5; }
-            50% { transform: scale(1.5); opacity: 0.8; }
-            100% { transform: scale(1); opacity: 0.5; }
+            0% { transform: scale(1); opacity: 0.4; }
+            50% { transform: scale(1.6); opacity: 0.7; }
+            100% { transform: scale(1); opacity: 0.4; }
         }
     </style>
 </head>
@@ -118,9 +132,12 @@
             <div id="item-image">🗡️</div>
         </div>
         <div id="item-name">+0 집행검</div>
-        <div class="stats">다음 강화 확률: <span id="prob-display">100%</span></div>
-        <button onclick="enhance()">강화 (주문서 사용)</button>
-        <div id="log">무기가 차갑게 식어있습니다.</div>
+        <div class="stats">성공 확률: <span id="prob-display">100%</span></div>
+        
+        <button id="enhance-btn" class="btn-main" onclick="enhance()">강화하기</button>
+        <button id="retry-btn" onclick="resetGame()">새 무기 받기</button>
+
+        <div id="log">무기에 기운이 서려 있습니다.</div>
     </div>
 
     <script>
@@ -132,86 +149,84 @@
         const imgDisplay = document.getElementById('item-image');
         const probDisplay = document.getElementById('prob-display');
         const aura = document.getElementById('aura-effect');
+        const enhanceBtn = document.getElementById('enhance-btn');
+        const retryBtn = document.getElementById('retry-btn');
 
-        // 강화 확률 고지 (제한 없음)
         function getProbability(lv) {
-            if (lv < 6) return 100; // 6강까지 안전
-            if (lv < 10) return Math.max(5, 100 - (lv * 10)); // 7~10강 급격히 하락
-            return Math.max(1, Math.floor(10 / (lv - 8))); // 10강 이후 극악의 확률 (최저 1%)
+            if (lv < 6) return 100;
+            if (lv < 10) return Math.max(5, 100 - (lv * 10));
+            return Math.max(1, Math.floor(20 / (lv - 7))); 
         }
 
         function updateDisplay() {
             nameDisplay.innerText = `+${level} ${itemName}`;
             probDisplay.innerText = `${getProbability(level)}%`;
             
-            // 강화 수치에 따른 색상 및 오라 강화
             let color = "#fff";
-            let blurSize = level * 5;
-            
-            if (level > 0 && level <= 6) color = "#ffffff";
-            else if (level <= 8) color = "#00bfff"; // 파란색
-            else if (level <= 10) color = "#ff00ff"; // 보라색
-            else if (level <= 15) color = "#ff4500"; // 주황색
-            else color = "#ff0000"; // 붉은색 (전설)
+            if (level > 0 && level <= 6) color = "#fff";
+            else if (level <= 8) color = "#00f2ff"; 
+            else if (level <= 10) color = "#bc13fe";
+            else if (level <= 15) color = "#ffea00"; 
+            else color = "#ff0040"; 
 
-            // 무기 자체 광원
-            imgDisplay.style.filter = `drop-shadow(0 0 ${10 + level * 3}px ${color})`;
+            // 이펙트 적용
+            imgDisplay.style.filter = `drop-shadow(0 0 ${15 + level * 5}px ${color})`;
             imgDisplay.style.color = color;
-            
-            // 뒤쪽 오라 효과
+            imgDisplay.style.transform = `scale(${1 + (level * 0.08)})`;
+
             aura.style.opacity = level > 0 ? "0.8" : "0";
             aura.style.background = color;
-            aura.style.width = `${100 + level * 10}px`;
-            aura.style.height = `${100 + level * 10}px`;
-            aura.style.animation = level > 6 ? "pulse 1.5s infinite" : "none";
-            
-            // 무기 크기 변화
-            imgDisplay.style.transform = `scale(${1 + (level * 0.05)})`;
+            aura.style.animation = level > 6 ? "pulse 1s infinite" : "none";
+
+            // 고강화 시 배경 변화
+            if (level >= 9) {
+                body.style.backgroundColor = "#1a0000";
+            } else {
+                body.style.backgroundColor = "#0a0a0a";
+            }
         }
 
         function enhance() {
             const chance = getProbability(level);
             const roll = Math.random() * 100;
 
-            // 1. 클릭 시 화면 번쩍임 (Flash Effect)
+            // 클릭 피드백
             body.classList.add('flash');
-            setTimeout(() => body.classList.remove('flash'), 50);
-
-            // 2. 무기 흔들림 효과
-            imgDisplay.style.transform += " translateY(-20px)";
+            setTimeout(() => body.classList.remove('flash'), 40);
 
             if (roll < chance) {
-                // 성공 효과
+                // 성공
                 level++;
-                log.innerText = `✨ 축하합니다! 강화 성공 (+${level})`;
-                log.style.color = "#ffd700";
-                
-                // 성공 시 무기 튀어오르는 연출
-                setTimeout(() => {
-                    updateDisplay();
-                }, 100);
+                log.innerText = `[SUCCESS] +${level} 강화에 성공했습니다!`;
+                log.style.color = "#00ffcc";
+                updateDisplay();
             } else {
-                // 실패 효과 (증발)
-                log.innerText = `💥 파괴됨: 무기가 흔적도 없이 사라졌습니다.`;
+                // 실패
+                log.innerText = `[FAILED] 무기가 파괴되었습니다...`;
                 log.style.color = "#ff4500";
                 
-                // 실패 시 연출
+                // 파괴 연출
+                imgDisplay.style.transform = "scale(0.5) rotate(90deg)";
                 imgDisplay.style.opacity = "0";
-                imgDisplay.style.transform = "scale(2) rotate(20deg)";
+                aura.style.opacity = "0";
                 
-                setTimeout(() => {
-                    if(confirm(`${level}강에서 실패했습니다. 복구하시겠습니까?`)) {
-                        level = 0;
-                        imgDisplay.style.opacity = "1";
-                        updateDisplay();
-                        log.innerText = "새로운 무기를 준비했습니다.";
-                        log.style.color = "#ffd700";
-                    }
-                }, 500);
+                // 버튼 교체
+                enhanceBtn.style.display = "none";
+                retryBtn.style.display = "block";
             }
         }
 
-        // 초기 화면 설정
+        function resetGame() {
+            level = 0;
+            imgDisplay.style.opacity = "1";
+            imgDisplay.style.transform = "scale(1)";
+            enhanceBtn.style.display = "inline-block";
+            retryBtn.style.display = "none";
+            log.innerText = "새로운 무기를 준비했습니다.";
+            log.style.color = "#ffd700";
+            updateDisplay();
+        }
+
         updateDisplay();
     </script>
 </body>
