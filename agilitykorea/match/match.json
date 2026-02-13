@@ -349,6 +349,18 @@
       "sponsor": "한국애견연맹"
     },
     {
+      "date": "2026-03-22T07:00:00",
+      "applicationPeriod": "2026-02-23 ~ 2026-03-15",
+      "name": "2026 홍천 FCI 인터내셔널 어질리티 경기대회",
+      "location": "소노골프장",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=793",
+      "judge": ["한국애견연맹"],
+      "eventType": "승급전",
+      "matchTypes": ["LV1", "LV2", "LV3"],
+      "club": "한국애견연맹",
+      "sponsor": "한국애견연맹"
+    },
+    {
       "date": "2026-03-21T08:00:00",
       "applicationPeriod": "2025-11-25 ~ 2026-03-10",
       "name": "갈리칸 코리아 어질리티 오픈",
