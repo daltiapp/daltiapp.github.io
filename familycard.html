@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>가계도/페디그리 트리 데모 (SVG + D3)</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: rgba(255,255,255,0.08);
+      --text: #e5e7eb;
+      --muted: rgba(229,231,235,0.65);
+      --link: rgba(229,231,235,0.25);
+      --border: rgba(229,231,235,0.25);
+      --border-strong: rgba(96,165,250,0.9);
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+    }
+    #app { position: relative; height: 100%; width: 100%; }
+    #toolbar {
+      position: absolute;
+      top: env(safe-area-inset-top, 12px);
+      left: env(safe-area-inset-left, 12px);
+      right: env(safe-area-inset-right, 12px);
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      padding: 10px 12px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      z-index: 10;
+    }
+    #toolbar button {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    #toolbar button:active { transform: translateY(1px); }
+    #toolbar .hint {
+      margin-left: auto;
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    #tree { height: 100%; width: 100%; }
+
+    .link { fill: none; stroke: var(--link); stroke-width: 2; }
+    .node-border {
+      fill: rgba(17,24,39,0.9);
+      stroke: var(--border);
+      stroke-width: 2;
+    }
+    .node-border.has-children { stroke: var(--border-strong); }
+    .label {
+      fill: var(--text);
+      font-size: 12px;
+      font-weight: 700;
+      paint-order: stroke;
+      stroke: rgba(0,0,0,0.35);
+      stroke-width: 3px;
+      stroke-linejoin: round;
+      pointer-events: none;
+    }
+    .type-badge { font-size: 14px; pointer-events: none; opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div id="toolbar">
+      <button id="fitBtn">화면맞춤</button>
+      <button id="resetBtn">초기화</button>
+      <span class="hint">📱 핀치줌 / 드래그로 이동 · 노드 클릭: 접기/펼치기</span>
+    </div>
+    <div id="tree"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+
+  <script>
+    // --- 1) 샘플용 "사진" (data:image/svg+xml) 생성 ---
+    function avatarDataUri(label, hue) {
+      const svg = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="hsl(${hue} 80% 55%)"/>
+              <stop offset="1" stop-color="hsl(${(hue+40)%360} 80% 45%)"/>
+            </linearGradient>
+          </defs>
+          <rect width="120" height="120" rx="60" fill="url(#g)"/>
+          <text x="60" y="72" font-size="54" text-anchor="middle"
+                font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
+                fill="rgba(255,255,255,0.95)" font-weight="800">${label}</text>
+        </svg>`;
+      return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg.trim());
+    }
+
+    const placeholder = avatarDataUri("?", 210);
+
+    // --- 2) 트리 데이터 (원하는 구조로 교체 가능) ---
+    const data = {
+      id: "root",
+      type: "group",
+      name: "우리 가족 & 반려견",
+      photo: avatarDataUri("家", 190),
+      children: [
+        {
+          id: "p1",
+          type: "human",
+          name: "김민수",
+          photo: avatarDataUri("M", 30),
+          children: [
+            {
+              id: "p1c1",
+              type: "human",
+              name: "김하늘",
+              photo: avatarDataUri("H", 120),
+              children: []
+            },
+            {
+              id: "dog1",
+              type: "dog",
+              name: "보리",
+              photo: avatarDataUri("🐶", 55),
+              children: [
+                {
+                  id: "dog1c1",
+                  type: "dog",
+                  name: "보리 2세",
+                  photo: avatarDataUri("🐾", 85),
+                  children: []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          id: "p2",
+          type: "human",
+          name: "이서연",
+          photo: avatarDataUri("S", 260),
+          children: []
+        }
+      ]
+    };
+
+    // --- 3) D3 + SVG 렌더러 ---
+    const container = document.getElementById("tree");
+
+    const svg = d3.select(container).append("svg")
+      .attr("width", container.clientWidth)
+      .attr("height", container.clientHeight)
+      .style("touch-action", "none"); // 모바일 제스처(D3 zoom) 위해
+
+    const viewport = svg.append("g").attr("class", "viewport");
+
+    const zoom = d3.zoom()
+      .scaleExtent([0.25, 3])
+      .on("zoom", (event) => viewport.attr("transform", event.transform));
+
+    svg.call(zoom).on("dblclick.zoom", null);
+
+    const NODE_R = 28;        // 사진 원 반지름
+    const NODE_GAP_X = 90;    // 세로 간격
+    const NODE_GAP_Y = 170;   // 가로 간격
+
+    const root = d3.hierarchy(data);
+    root.x0 = 0;
+    root.y0 = 0;
+
+    function nodeKey(d) {
+      return String(d.data.id).replace(/[^a-zA-Z0-9_-]/g, "_");
+    }
+
+    function truncate(s, n) {
+      if (!s) return "";
+      return s.length > n ? s.slice(0, n - 1) + "…" : s;
+    }
+
+    function diagonal(link) {
+      const s = link.source, t = link.target;
+      return `M${s.y},${s.x}
+              C${(s.y + t.y) / 2},${s.x}
+               ${(s.y + t.y) / 2},${t.x}
+               ${t.y},${t.x}`;
+    }
+
+    function toggle(d) {
+      if (d.children) {
+        d._children = d.children;
+        d.children = null;
+      } else {
+        d.children = d._children;
+        d._children = null;
+      }
+    }
+
+    function update(source) {
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      svg.attr("width", width).attr("height", height);
+
+      const layout = d3.tree().nodeSize([NODE_GAP_X, NODE_GAP_Y]);
+      layout(root);
+
+      const nodes = root.descendants();
+      const links = root.links();
+
+      const minX = d3.min(nodes, d => d.x);
+      nodes.forEach(d => d.x = d.x - minX + 60);
+
+      // LINKS
+      const linkSel = viewport.selectAll("path.link")
+        .data(links, d => nodeKey(d.target));
+
+      linkSel.enter()
+        .append("path")
+        .attr("class", "link")
+        .attr("d", () => diagonal({ source: {x: source.x0, y: source.y0}, target: {x: source.x0, y: source.y0} }))
+        .merge(linkSel)
+        .transition().duration(350)
+        .attr("d", diagonal);
+
+      linkSel.exit()
+        .transition().duration(350)
+        .attr("d", () => diagonal({ source: {x: source.x, y: source.y}, target: {x: source.x, y: source.y} }))
+        .remove();
+
+      // NODES
+      const nodeSel = viewport.selectAll("g.node")
+        .data(nodes, d => nodeKey(d));
+
+      const nodeEnter = nodeSel.enter()
+        .append("g")
+        .attr("class", "node")
+        .attr("transform", `translate(${source.y0},${source.x0})`)
+        .on("click", (event, d) => {
+          toggle(d);
+          update(d);
+          event.stopPropagation();
+        });
+
+      nodeEnter.append("circle")
+        .attr("class", "node-border")
+        .attr("r", NODE_R + 2);
+
+      const defs = nodeEnter.append("defs");
+      defs.append("clipPath")
+        .attr("id", d => `clip-${nodeKey(d)}`)
+        .append("circle")
+        .attr("r", NODE_R)
+        .attr("cx", 0)
+        .attr("cy", 0);
+
+      nodeEnter.append("image")
+        .attr("x", -NODE_R)
+        .attr("y", -NODE_R)
+        .attr("width", NODE_R * 2)
+        .attr("height", NODE_R * 2)
+        .attr("href", d => d.data.photo || placeholder)
+        .attr("clip-path", d => `url(#clip-${nodeKey(d)})`)
+        .each(function(d) {
+          if (!d.data.photo) d3.select(this).attr("href", placeholder);
+        });
+
+      nodeEnter.append("text")
+        .attr("class", "label")
+        .attr("text-anchor", "middle")
+        .attr("dy", NODE_R + 18)
+        .text(d => truncate(d.data.name, 12));
+
+      nodeEnter.append("text")
+        .attr("class", "type-badge")
+        .attr("x", NODE_R + 6)
+        .attr("y", -NODE_R + 12)
+        .text(d => d.data.type === "dog" ? "🐶" : (d.data.type === "human" ? "👤" : "🌳"));
+
+      const nodeUpdate = nodeEnter.merge(nodeSel);
+
+      nodeUpdate.transition().duration(350)
+        .attr("transform", d => `translate(${d.y},${d.x})`);
+
+      nodeUpdate.select("circle.node-border")
+        .classed("has-children", d => !!(d.children || d._children));
+
+      nodeSel.exit()
+        .transition().duration(350)
+        .attr("transform", `translate(${source.y},${source.x})`)
+        .remove();
+
+      nodes.forEach(d => { d.x0 = d.x; d.y0 = d.y; });
+    }
+
+    function fitToScreen() {
+      const gNode = viewport.node();
+      if (!gNode) return;
+
+      const bbox = gNode.getBBox();
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+      if (bbox.width === 0 || bbox.height === 0) return;
+
+      const scale = Math.min(3, Math.max(0.25, 0.92 / Math.max(bbox.width / width, bbox.height / height)));
+      const tx = (width - bbox.width * scale) / 2 - bbox.x * scale;
+      const ty = (height - bbox.height * scale) / 2 - bbox.y * scale;
+
+      svg.transition().duration(350)
+        .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+    }
+
+    document.getElementById("fitBtn").addEventListener("click", fitToScreen);
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity);
+    });
+
+    update(root);
+    setTimeout(fitToScreen, 0);
+
+    window.addEventListener("resize", () => {
+      update(root);
+      fitToScreen();
+    });
+  </script>
+</body>
+</html>
+“이미 있는 걸 쓰는” 빠른 데모: Family Chart의 imageCircle 예시
+Family Chart는 카드 렌더러가 있고, 스타일 옵션에 imageCircle이 문서로 확인됩니다. 
+
+아래는 CDN으로 바로 돌리는 최소 예시예요(원형 사진 + 이름).
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://unpkg.com/d3@7"></script>
+  <link rel="stylesheet" href="https://unpkg.com/family-chart@0.8.0-beta.2/dist/styles/family-chart.css">
+  <script type="module" src="https://unpkg.com/family-chart@0.8.0-beta.2"></script>
+  <style>
+    body { margin:0; background:#0b1020; }
+    #FamilyChart { width:100vw; height:100vh; margin:auto; }
+  </style>
+</head>
+<body>
+  <div id="FamilyChart" class="f3"></div>
+
+  <script type="module">
+    const data = [
+      {
+        id: "1",
+        data: { name: "김민수", gender: "M", photo: "https://picsum.photos/seed/p1/200" },
+        rels: { spouses: ["2"], children: ["3"] }
+      },
+      {
+        id: "2",
+        data: { name: "이서연", gender: "F", photo: "https://picsum.photos/seed/p2/200" },
+        rels: { spouses: ["1"], children: ["3"] }
+      },
+      {
+        id: "3",
+        data: { name: "보리(강아지)", gender: "U", photo: "https://picsum.photos/seed/dog1/200" },
+        rels: { father: "1", mother: "2" }
+      }
+    ];
+
+    const chart = f3.createChart("#FamilyChart", data);
+
+    chart.setCardHtml()
+      .setStyle("imageCircle")
+      .setCardImageField("photo")
+      .setCardDisplay([["name"]]);
+
+    chart.updateTree({ initial: true });
+  </script>
+</body>
+</html>
