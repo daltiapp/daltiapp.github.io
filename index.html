@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dalti Developer</title>
+
   <style>
     body {
       font-family: "Pretendard", sans-serif;
@@ -21,7 +22,7 @@
       width: 96px;
       height: 96px;
       border-radius: 20%;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       margin-bottom: 1rem;
     }
     h1 {
@@ -36,9 +37,6 @@
       color: #2563eb;
       text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
-    }
     footer {
       margin-top: 2rem;
       font-size: 0.8rem;
@@ -46,21 +44,73 @@
     }
   </style>
 </head>
+
 <body>
-  <img src="dalti_logo.png" alt="Dalti App Logo" class="logo" />
+
+  <img src="dalti_logo.png" class="logo" />
+
   <h1>Dalti Developer</h1>
-  <p>앱 개발 및 서비스 운영팀</p>
-  <p>App Store / Google Play 공식 개발자</p>
-  <p>문의: dalti.app@gmail.com</p>
+
+  <p id="desc1"></p>
+  <p id="desc2"></p>
+  <p id="contact"></p>
 
   <p>
-    🔒 <a href="https://sites.google.com/view/dalti" target="_blank" rel="noopener noreferrer">
-      개인정보 처리방침
+    🔒 <a href="https://sites.google.com/view/dalti" target="_blank">
+      <span id="privacy"></span>
     </a>
   </p>
 
-  <footer>
-    © 2024 Dalti. All rights reserved.
-  </footer>
+  <footer>© 2024 Dalti</footer>
+
+  <script>
+    const lang = navigator.language.toLowerCase();
+
+    const text = {
+      ko: {
+        desc1: "앱 개발 및 서비스 운영팀",
+        desc2: "App Store / Google Play 공식 개발자",
+        contact: "문의: dalti.app@gmail.com",
+        privacy: "개인정보 처리방침"
+      },
+      en: {
+        desc1: "App Development & Service Team",
+        desc2: "Official App Store / Google Play Developer",
+        contact: "Contact: dalti.app@gmail.com",
+        privacy: "Privacy Policy"
+      },
+      ja: {
+        desc1: "アプリ開発・サービス運営チーム",
+        desc2: "App Store / Google Play 公式開発者",
+        contact: "お問い合わせ: dalti.app@gmail.com",
+        privacy: "プライバシーポリシー"
+      },
+      zh: {
+        desc1: "应用开发与服务团队",
+        desc2: "App Store / Google Play 官方开发者",
+        contact: "联系方式: dalti.app@gmail.com",
+        privacy: "隐私政策"
+      },
+      pt: {
+        desc1: "Equipe de Desenvolvimento de Apps",
+        desc2: "Desenvolvedor oficial da App Store / Google Play",
+        contact: "Contato: dalti.app@gmail.com",
+        privacy: "Política de Privacidade"
+      }
+    };
+
+    let selected = "en";
+
+    if (lang.startsWith("ko")) selected = "ko";
+    else if (lang.startsWith("ja")) selected = "ja";
+    else if (lang.startsWith("zh")) selected = "zh";
+    else if (lang.startsWith("pt")) selected = "pt";
+
+    document.getElementById("desc1").innerText = text[selected].desc1;
+    document.getElementById("desc2").innerText = text[selected].desc2;
+    document.getElementById("contact").innerText = text[selected].contact;
+    document.getElementById("privacy").innerText = text[selected].privacy;
+  </script>
+
 </body>
 </html>
