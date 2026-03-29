@@ -4,39 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dalti Developer</title>
-
   <style>
     body {
-      font-family: "Pretendard", sans-serif;
+      font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       background: #f9fafb;
       color: #111827;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
       text-align: center;
       margin: 0;
+      padding: 24px;
+      box-sizing: border-box;
     }
+
     img.logo {
       width: 96px;
       height: 96px;
       border-radius: 20%;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       margin-bottom: 1rem;
+      object-fit: cover;
     }
+
     h1 {
       font-size: 2rem;
       margin-bottom: 0.5rem;
+      line-height: 1.2;
     }
+
     p {
       color: #4b5563;
-      margin: 0.2rem 0;
+      margin: 0.25rem 0;
+      line-height: 1.5;
+      word-break: keep-all;
     }
+
     a {
       color: #2563eb;
       text-decoration: none;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     footer {
       margin-top: 2rem;
       font-size: 0.8rem;
@@ -44,40 +58,78 @@
     }
   </style>
 </head>
-
 <body>
-
-  <img src="dalti_logo.png" class="logo" />
-
+  <img src="dalti_logo.png" alt="Dalti App Logo" class="logo" />
   <h1>Dalti Developer</h1>
 
   <p id="desc1"></p>
   <p id="desc2"></p>
   <p id="contact"></p>
 
-  <p>
-    🔒 <a href="https://sites.google.com/view/dalti" target="_blank">
+  <p style="margin-top: 0.75rem;">
+    🔒
+    <a href="https://sites.google.com/view/dalti" target="_blank" rel="noopener noreferrer">
       <span id="privacy"></span>
     </a>
   </p>
 
-  <footer>© 2024 Dalti</footer>
+  <footer>© 2024 Dalti. All rights reserved.</footer>
 
   <script>
-    const lang = navigator.language.toLowerCase();
+    function getPreferredLanguage() {
+      const urlLang = new URLSearchParams(window.location.search).get("lang");
+      if (urlLang) return urlLang.toLowerCase();
+
+      if (navigator.languages && navigator.languages.length > 0) {
+        return navigator.languages[0].toLowerCase();
+      }
+
+      return (navigator.language || "en").toLowerCase();
+    }
+
+    function detectLang(lang) {
+      if (lang === "zh-cn" || lang === "zh-sg" || lang === "zh-hans") return "zh-Hans";
+      if (lang === "zh-tw" || lang === "zh-hk" || lang === "zh-mo" || lang === "zh-hant") return "zh-Hant";
+      if (lang === "pt-br") return "pt-BR";
+      if (lang === "en-us") return "en-US";
+      if (lang === "es-419") return "es-419";
+      if (lang === "fr-ca") return "fr-CA";
+
+      if (lang.startsWith("ko")) return "ko";
+      if (lang.startsWith("ja")) return "ja";
+      if (lang.startsWith("hi")) return "hi";
+      if (lang.startsWith("id")) return "id";
+      if (lang.startsWith("bn")) return "bn";
+      if (lang.startsWith("ur")) return "ur";
+      if (lang.startsWith("vi")) return "vi";
+      if (lang.startsWith("th")) return "th";
+      if (lang.startsWith("ms")) return "ms";
+      if (lang.startsWith("fil")) return "fil";
+      if (lang.startsWith("zh")) return "zh-Hans";
+      if (lang.startsWith("en")) return "en";
+      if (lang.startsWith("de")) return "de";
+      if (lang.startsWith("fr")) return "fr";
+      if (lang.startsWith("es")) return "es";
+      if (lang.startsWith("pt")) return "pt-BR";
+      if (lang.startsWith("ar")) return "ar";
+      if (lang.startsWith("fa")) return "fa";
+      if (lang.startsWith("he")) return "he";
+
+      return "en";
+    }
 
     const text = {
-      ko: {
-        desc1: "앱 개발 및 서비스 운영팀",
-        desc2: "App Store / Google Play 공식 개발자",
-        contact: "문의: dalti.app@gmail.com",
-        privacy: "개인정보 처리방침"
+      "zh-Hans": {
+        desc1: "应用开发与服务团队",
+        desc2: "App Store / Google Play 官方开发者",
+        contact: "联系方式: dalti.app@gmail.com",
+        privacy: "隐私政策"
       },
-      en: {
-        desc1: "App Development & Service Team",
-        desc2: "Official App Store / Google Play Developer",
-        contact: "Contact: dalti.app@gmail.com",
-        privacy: "Privacy Policy"
+      hi: {
+        desc1: "ऐप विकास और सेवा टीम",
+        desc2: "आधिकारिक App Store / Google Play डेवलपर",
+        contact: "संपर्क: dalti.app@gmail.com",
+        privacy: "गोपनीयता नीति"
       },
       ja: {
         desc1: "アプリ開発・サービス運営チーム",
@@ -85,32 +137,143 @@
         contact: "お問い合わせ: dalti.app@gmail.com",
         privacy: "プライバシーポリシー"
       },
-      zh: {
-        desc1: "应用开发与服务团队",
-        desc2: "App Store / Google Play 官方开发者",
-        contact: "联系方式: dalti.app@gmail.com",
-        privacy: "隐私政策"
+      id: {
+        desc1: "Tim Pengembang Aplikasi",
+        desc2: "Developer resmi App Store / Google Play",
+        contact: "Kontak: dalti.app@gmail.com",
+        privacy: "Kebijakan Privasi"
       },
-      pt: {
-        desc1: "Equipe de Desenvolvimento de Apps",
+      ko: {
+        desc1: "앱 개발 및 서비스 운영팀",
+        desc2: "App Store / Google Play 공식 개발자",
+        contact: "문의: dalti.app@gmail.com",
+        privacy: "개인정보 처리방침"
+      },
+      bn: {
+        desc1: "অ্যাপ ডেভেলপমেন্ট টিম",
+        desc2: "অফিসিয়াল App Store / Google Play ডেভেলপার",
+        contact: "যোগাযোগ: dalti.app@gmail.com",
+        privacy: "গোপনীয়তা নীতি"
+      },
+      ur: {
+        desc1: "ایپ ڈیولپمنٹ ٹیم",
+        desc2: "آفیشل App Store / Google Play ڈویلپر",
+        contact: "رابطہ: dalti.app@gmail.com",
+        privacy: "پرائیویسی پالیسی"
+      },
+      vi: {
+        desc1: "Đội phát triển ứng dụng",
+        desc2: "Nhà phát triển chính thức App Store / Google Play",
+        contact: "Liên hệ: dalti.app@gmail.com",
+        privacy: "Chính sách bảo mật"
+      },
+      th: {
+        desc1: "ทีมพัฒนาแอป",
+        desc2: "นักพัฒนา App Store / Google Play อย่างเป็นทางการ",
+        contact: "ติดต่อ: dalti.app@gmail.com",
+        privacy: "นโยบายความเป็นส่วนตัว"
+      },
+      ms: {
+        desc1: "Pasukan Pembangun Aplikasi",
+        desc2: "Pembangun rasmi App Store / Google Play",
+        contact: "Hubungi: dalti.app@gmail.com",
+        privacy: "Dasar Privasi"
+      },
+      fil: {
+        desc1: "App Development Team",
+        desc2: "Opisyal na App Store / Google Play Developer",
+        contact: "Makipag-ugnayan: dalti.app@gmail.com",
+        privacy: "Patakaran sa Privacy"
+      },
+      "zh-Hant": {
+        desc1: "應用開發與服務團隊",
+        desc2: "App Store / Google Play 官方開發者",
+        contact: "聯絡方式: dalti.app@gmail.com",
+        privacy: "隱私政策"
+      },
+      "en-US": {
+        desc1: "App Development & Service Team",
+        desc2: "Official App Store / Google Play Developer",
+        contact: "Contact: dalti.app@gmail.com",
+        privacy: "Privacy Policy"
+      },
+      en: {
+        desc1: "App Development & Service Team",
+        desc2: "Official App Store / Google Play Developer",
+        contact: "Contact: dalti.app@gmail.com",
+        privacy: "Privacy Policy"
+      },
+      de: {
+        desc1: "App-Entwicklungsteam",
+        desc2: "Offizieller App Store / Google Play Entwickler",
+        contact: "Kontakt: dalti.app@gmail.com",
+        privacy: "Datenschutzrichtlinie"
+      },
+      fr: {
+        desc1: "Équipe de développement d'applications",
+        desc2: "Développeur officiel App Store / Google Play",
+        contact: "Contact : dalti.app@gmail.com",
+        privacy: "Politique de confidentialité"
+      },
+      es: {
+        desc1: "Equipo de desarrollo de aplicaciones",
+        desc2: "Desarrollador oficial de App Store / Google Play",
+        contact: "Contacto: dalti.app@gmail.com",
+        privacy: "Política de privacidad"
+      },
+      "pt-BR": {
+        desc1: "Equipe de desenvolvimento de aplicativos",
         desc2: "Desenvolvedor oficial da App Store / Google Play",
         contact: "Contato: dalti.app@gmail.com",
         privacy: "Política de Privacidade"
+      },
+      "es-419": {
+        desc1: "Equipo de desarrollo de aplicaciones",
+        desc2: "Desarrollador oficial de App Store / Google Play",
+        contact: "Contacto: dalti.app@gmail.com",
+        privacy: "Política de privacidad"
+      },
+      ar: {
+        desc1: "فريق تطوير التطبيقات",
+        desc2: "مطور رسمي على App Store / Google Play",
+        contact: "اتصل بنا: dalti.app@gmail.com",
+        privacy: "سياسة الخصوصية"
+      },
+      fa: {
+        desc1: "تیم توسعه اپلیکیشن",
+        desc2: "توسعه‌دهنده رسمی App Store / Google Play",
+        contact: "تماس: dalti.app@gmail.com",
+        privacy: "سیاست حفظ حریم خصوصی"
+      },
+      he: {
+        desc1: "צוות פיתוח אפליקציות",
+        desc2: "מפתח רשמי App Store / Google Play",
+        contact: "צור קשר: dalti.app@gmail.com",
+        privacy: "מדיניות פרטיות"
+      },
+      "fr-CA": {
+        desc1: "Équipe de développement d'applications",
+        desc2: "Développeur officiel App Store / Google Play",
+        contact: "Contact : dalti.app@gmail.com",
+        privacy: "Politique de confidentialité"
       }
     };
 
-    let selected = "en";
+    const rawLang = getPreferredLanguage();
+    const selected = detectLang(rawLang);
+    const content = text[selected] || text.en;
 
-    if (lang.startsWith("ko")) selected = "ko";
-    else if (lang.startsWith("ja")) selected = "ja";
-    else if (lang.startsWith("zh")) selected = "zh";
-    else if (lang.startsWith("pt")) selected = "pt";
+    document.documentElement.lang = selected;
 
-    document.getElementById("desc1").innerText = text[selected].desc1;
-    document.getElementById("desc2").innerText = text[selected].desc2;
-    document.getElementById("contact").innerText = text[selected].contact;
-    document.getElementById("privacy").innerText = text[selected].privacy;
+    if (["ar", "fa", "he", "ur"].includes(selected)) {
+      document.documentElement.dir = "rtl";
+      document.body.style.textAlign = "center";
+    }
+
+    document.getElementById("desc1").textContent = content.desc1;
+    document.getElementById("desc2").textContent = content.desc2;
+    document.getElementById("contact").textContent = content.contact;
+    document.getElementById("privacy").textContent = content.privacy;
   </script>
-
 </body>
 </html>
