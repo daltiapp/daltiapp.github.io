@@ -579,6 +579,9 @@
       nodeUpdate.transition().duration(350)
         .attr("transform", d => `translate(${d._sx},${d._sy})`);
 
+      nodeUpdate.select("text.label")
+        .text(d => truncate(d.data.name, 12));
+
       nodeUpdate.select("circle.node-border")
         .classed("has-children", d => !!(d.children || d._children))
         .classed("selected", d => d.data.id === selectedNodeId);
