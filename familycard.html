@@ -142,12 +142,14 @@
         {
           id: "p1",
           type: "human",
+          gender: "M",
           name: "김민수",
           photo: avatarDataUri("M", 30),
           children: [
             {
               id: "p1c1",
               type: "human",
+              gender: "F",
               name: "김하늘",
               photo: avatarDataUri("H", 120),
               children: []
@@ -155,12 +157,14 @@
             {
               id: "dog1",
               type: "dog",
+              gender: "",
               name: "보리",
               photo: avatarDataUri("🐶", 55),
               children: [
                 {
                   id: "dog1c1",
                   type: "dog",
+                  gender: "",
                   name: "보리 2세",
                   photo: avatarDataUri("🐾", 85),
                   children: []
@@ -172,6 +176,7 @@
         {
           id: "p2",
           type: "human",
+          gender: "F",
           name: "이서연",
           photo: avatarDataUri("S", 260),
           children: []
@@ -301,6 +306,7 @@
         const result = {
           id: node.data.id,
           type: node.data.type,
+          gender: node.data.gender || "",
           name: node.data.name,
           photo: node.data.photo,
           children: []
@@ -364,6 +370,14 @@
       return visibleChildren.length + hiddenChildren.length === 0;
     }
 
+    function getGenderBadge(data) {
+      const raw = `${data.gender || ""}`.toLowerCase();
+      if (raw === "m" || raw === "male" || raw === "남" || raw === "남자") return "♂";
+      if (raw === "f" || raw === "female" || raw === "여" || raw === "여자") return "♀";
+      if (raw === "x") return "⚥";
+      return "❓";
+    }
+
     function addChildToNode(parentId) {
       const currentTree = treeToObject(root);
       const parent = findNode(currentTree, parentId);
@@ -377,6 +391,8 @@
 
       const rawType = prompt("타입을 입력하세요 (human / dog / group)", "human");
       const type = (rawType || "human").trim().toLowerCase() || "human";
+      const rawGender = prompt("성별을 입력하세요 (M/F/공백)", "M");
+      const gender = (rawGender || "").trim().toUpperCase();
 
       const label = prompt("표시 텍스트 (1~2자 권장)", "N");
       const safeLabel = (label || "N").trim().slice(0, 2) || "N";
@@ -387,6 +403,7 @@
       parent.children.push({
         id: `n_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
         type,
+        gender: (type === "human") ? (gender === "M" || gender === "F" || gender === "X" ? gender : "M") : "",
         name: name.trim(),
         photo: avatarDataUri(safeLabel, nextColor),
         children: []
@@ -677,7 +694,7 @@
         .attr("class", "type-badge")
         .attr("x", NODE_R + 6)
         .attr("y", -NODE_R + 12)
-        .text(d => d.data.type === "dog" ? "🐶" : (d.data.type === "human" ? "👤" : "🌳"));
+        .text(d => d.data.type === "human" ? getGenderBadge(d.data) : " ");
 
       const actionOffsetY = -NODE_R - 26;
       const actionOffsetX = -26;
