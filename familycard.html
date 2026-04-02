@@ -478,34 +478,6 @@
       return "";
     }
 
-    function parseSingleNodeInput(raw) {
-      const fallback = { name: "새 멤버", type: "human", gender: "M", label: "N" };
-      if (!raw) return fallback;
-
-      const parts = String(raw).split(",").map((v) => v.trim());
-      const cleaned = parts.map((v) => v.replace(/\s+/g, " ").trim()).filter((v) => v.length > 0);
-      if (cleaned.length === 0) return fallback;
-
-      const parseGender = (value) => {
-        const v = (value || "").trim().toUpperCase();
-        if (v === "M" || v === "F" || v === "X") return v;
-        return "M";
-      };
-
-      const parseType = (value) => {
-        const v = (value || "").trim().toLowerCase();
-        if (v === "human" || v === "dog" || v === "group") return v;
-        return "human";
-      };
-
-      return {
-        name: cleaned[0] || fallback.name,
-        type: parseType(cleaned[1]),
-        gender: parseGender(cleaned[2]),
-        label: (cleaned[3] || fallback.label).slice(0, 2)
-      };
-    }
-
     function addChildToNode(parentId) {
       const currentTree = treeToObject(root);
       const parent = findNode(currentTree, parentId);
@@ -514,11 +486,26 @@
         return;
       }
 
-      const raw = prompt("한 번에 입력: 이름, 타입(human/dog/group), 성별(M/F/X), 라벨(1~2자)", "김도현, human, M, K");
-      if (raw === null) return;
-      const parsed = parseSingleNodeInput(raw);
-      const { name, type, gender, label } = parsed;
-      const safeLabel = (label || "N").trim().slice(0, 2) || "N";
+      const rawName = prompt("새 노드 이름", "새 멤버");
+      if (rawName === null) return;
+      const name = rawName.trim();
+
+      const rawType = prompt("타입을 입력하세요 (human / dog / group)", "human");
+      if (rawType === null) return;
+      const typeInput = rawType.trim().toLowerCase();
+      const type = (typeInput === "human" || typeInput === "dog" || typeInput === "group") ? typeInput : "human";
+
+      let gender = "";
+      if (type === "human") {
+        const rawGender = prompt("성별을 입력하세요 (M/F/X)", "M");
+        if (rawGender === null) return;
+        const upperGender = (rawGender || "").trim().toUpperCase();
+        gender = (upperGender === "M" || upperGender === "F" || upperGender === "X") ? upperGender : "M";
+      }
+
+      const rawLabel = prompt("표시 텍스트 (1~2자 권장)", "N");
+      if (rawLabel === null) return;
+      const safeLabel = rawLabel.trim().slice(0, 2) || "N";
 
       const nextColor = Math.floor(Math.random() * 360);
 
@@ -527,7 +514,7 @@
         id: `n_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
         type,
         gender: (type === "human") ? gender : "",
-        name,
+        name: name || "새 멤버",
         photo: avatarDataUri(safeLabel, nextColor),
         children: []
       });
