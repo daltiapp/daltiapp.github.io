@@ -112,6 +112,7 @@
     const HISTORY_LIMIT = 30;
     const CLICK_TOGGLE_DELAY = 180;
     const MAX_STORAGE_TRY = 3;
+    let layoutMode = "vertical";
 
     // --- 1) 샘플용 "사진" (data:image/svg+xml) 생성 ---
     function avatarDataUri(label, hue) {
@@ -621,7 +622,6 @@
       horizontal: "좌우 보기",
       vertical: "상하 보기"
     };
-    let layoutMode = "vertical";
 
     let root = d3.hierarchy(data);
     root.x0 = 0;
