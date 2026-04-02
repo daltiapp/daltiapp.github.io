@@ -37,6 +37,7 @@
       border-radius: 12px;
       backdrop-filter: blur(10px);
       z-index: 10;
+      flex-wrap: wrap;
     }
     #toolbar button {
       appearance: none;
@@ -47,6 +48,7 @@
       border-radius: 10px;
       font-weight: 600;
       cursor: pointer;
+      white-space: nowrap;
     }
     #toolbar button:active { transform: translateY(1px); }
     #toolbar .hint {
@@ -64,6 +66,7 @@
       stroke-width: 2;
     }
     .node-border.has-children { stroke: var(--border-strong); }
+    .node-border.selected { stroke: #60a5fa; stroke-width: 3; }
     .label {
       fill: var(--text);
       font-size: 12px;
@@ -81,8 +84,16 @@
   <div id="app">
     <div id="toolbar">
       <button id="fitBtn">화면맞춤</button>
+      <button id="saveBtn">현재 트리 저장</button>
+      <button id="layoutBtn">보기: 상하 보기</button>
+      <button id="addBtn">선택 노드에 자식 추가</button>
+      <button id="removeBtn">선택 노드 삭제</button>
+      <button id="undoBtn" disabled>되돌리기</button>
+      <button id="downloadBtn">JSON 다운로드</button>
+      <button id="importBtn">JSON 불러오기</button>
+      <button id="clearLocalBtn">로컬 저장 초기화</button>
       <button id="resetBtn">초기화</button>
-      <span class="hint">📱 핀치줌 / 드래그로 이동 · 노드 클릭: 접기/펼치기</span>
+      <span id="status" class="hint">📱 핀치줌/드래그로 이동 · 노드 클릭: 선택/접기·펼치기 · 더블클릭: 이름 수정</span>
     </div>
     <div id="tree"></div>
   </div>
@@ -90,6 +101,10 @@
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
 
   <script>
+    const STORAGE_KEY = "familycard:data:v1";
+    const AUTOSAVE_DELAY_MS = 700;
+    const HISTORY_LIMIT = 30;
+
     // --- 1) 샘플용 "사진" (data:image/svg+xml) 생성 ---
     function avatarDataUri(label, hue) {
       const svg = `
@@ -97,7 +112,7 @@
           <defs>
             <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0" stop-color="hsl(${hue} 80% 55%)"/>
-              <stop offset="1" stop-color="hsl(${(hue+40)%360} 80% 45%)"/>
+              <stop offset="1" stop-color="hsl(${(hue + 40) % 360} 80% 45%)"/>
             </linearGradient>
           </defs>
           <rect width="120" height="120" rx="60" fill="url(#g)"/>
@@ -110,8 +125,8 @@
 
     const placeholder = avatarDataUri("?", 210);
 
-    // --- 2) 트리 데이터 (원하는 구조로 교체 가능) ---
-    const data = {
+    // --- 2) 기본 트리 데이터 ---
+    const defaultData = {
       id: "root",
       type: "group",
       name: "우리 가족 & 반려견",
@@ -157,13 +172,222 @@
       ]
     };
 
+    function cloneData(source) {
+      return JSON.parse(JSON.stringify(source));
+    }
+
+    function normalizePayload(parsed) {
+      if (!parsed || typeof parsed !== "object") return null;
+      if (parsed.tree && parsed.tree.id) return parsed;
+      if (parsed.id) {
+        return { version: 1, layoutMode: "vertical", tree: parsed };
+      }
+      return null;
+    }
+
+    function loadData() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return cloneData(defaultData);
+        const payload = normalizePayload(JSON.parse(raw));
+        if (!payload) return cloneData(defaultData);
+        layoutMode = payload.layoutMode || "vertical";
+        return payload.tree;
+      } catch (e) {
+        console.warn("저장 데이터를 읽지 못해 기본값을 사용합니다.", e);
+        return cloneData(defaultData);
+      }
+    }
+
+    function saveData(tree) {
+      const data = treeToObject(tree || root);
+      const payload = { version: 2, layoutMode, tree: data };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+      setStatus("저장됨");
+      return data;
+    }
+
+    function markDirty() {
+      isDirty = true;
+      setStatus("수정됨 · 자동저장 대기중");
+      if (autoSaveTimer) {
+        clearTimeout(autoSaveTimer);
+      }
+      autoSaveTimer = setTimeout(() => {
+        if (!isDirty) return;
+        saveData(root);
+        isDirty = false;
+      }, AUTOSAVE_DELAY_MS);
+    }
+
+    function flushAutoSave() {
+      if (!isDirty) return;
+      if (autoSaveTimer) {
+        clearTimeout(autoSaveTimer);
+        autoSaveTimer = null;
+      }
+      saveData(root);
+      isDirty = false;
+    }
+
+    function treeToObject(treeNode) {
+      const walk = (node) => {
+        const result = {
+          id: node.data.id,
+          type: node.data.type,
+          name: node.data.name,
+          photo: node.data.photo,
+          children: []
+        };
+      
+        const list = node.children || [];
+        for (const c of list) {
+          result.children.push(walk(c));
+        }
+        return result;
+      };
+      return walk(treeNode);
+    }
+
+    function setStatus(text) {
+      document.getElementById("status").textContent = `${text} · 📱 핀치줌/드래그로 이동 · 노드 클릭: 접기/펼치기 · 더블클릭: 이름 수정`;
+    }
+
+    function updateUndoState() {
+      const undoBtn = document.getElementById("undoBtn");
+      if (undoBtn) undoBtn.disabled = history.length === 0;
+    }
+
+    function pushHistory() {
+      history.push(JSON.stringify(treeToObject(root)));
+      if (history.length > HISTORY_LIMIT) history.shift();
+      updateUndoState();
+    }
+
+    function undoHistory() {
+      if (history.length === 0) return;
+      const prev = JSON.parse(history.pop());
+      data = prev;
+      replaceTree(prev, true);
+      isDirty = true;
+      markDirty();
+      setStatus("이전 상태로 되돌렸습니다");
+      updateUndoState();
+    }
+
+    function findNode(source, targetId) {
+      if (!source) return null;
+      if (source.id === targetId) return source;
+      if (!Array.isArray(source.children)) return null;
+      for (const child of source.children) {
+        const found = findNode(child, targetId);
+        if (found) return found;
+      }
+      return null;
+    }
+
+    function addChildToSelected() {
+      const currentTree = treeToObject(root);
+      const parentId = selectedNodeId || defaultData.id;
+      const parent = findNode(currentTree, parentId);
+      if (!parent) {
+        alert("선택된 노드를 찾을 수 없습니다.");
+        return;
+      }
+
+      const name = prompt("새 노드 이름", "새 멤버");
+      if (!name || !name.trim()) return;
+
+      const rawType = prompt("타입을 입력하세요 (human / dog / group)", "human");
+      const type = (rawType || "human").trim().toLowerCase() || "human";
+
+      const label = prompt("표시 텍스트 (1~2자 권장)", "N");
+      const safeLabel = (label || "N").trim().slice(0, 2) || "N";
+
+      const nextColor = Math.floor(Math.random() * 360);
+
+      parent.children = parent.children || [];
+      parent.children.push({
+        id: `n_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
+        type,
+        name: name.trim(),
+        photo: avatarDataUri(safeLabel, nextColor),
+        children: []
+      });
+
+      pushHistory();
+      data = currentTree;
+      replaceTree(currentTree, false);
+      selectedNodeId = parent.id;
+      markDirty();
+      setStatus("노드 추가됨");
+    }
+
+    function removeNodeById(source, targetId) {
+      if (!source || source.id === targetId) return false;
+      if (!Array.isArray(source.children)) return false;
+
+      let removed = false;
+      source.children = source.children.filter((child) => {
+        if (child.id === targetId) {
+          removed = true;
+          return false;
+        }
+        return true;
+      });
+
+      if (removed) return true;
+
+      for (const child of source.children) {
+        removed = removeNodeById(child, targetId) || removed;
+      }
+
+      return removed;
+    }
+
+    function removeSelectedNode() {
+      if (!selectedNodeId || selectedNodeId === defaultData.id) {
+        alert("루트는 삭제할 수 없습니다.");
+        return;
+      }
+      const next = treeToObject(root);
+      const removed = removeNodeById(next, selectedNodeId);
+      if (!removed) {
+        alert("삭제할 노드를 찾지 못했습니다.");
+        return;
+      }
+      pushHistory();
+      data = next;
+      selectedNodeId = defaultData.id;
+      replaceTree(next, false);
+      markDirty();
+      setStatus("선택 노드 삭제됨");
+    }
+
+    function downloadJson() {
+      const payload = getPersistPayload(root);
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "familycard.json";
+      a.click();
+      URL.revokeObjectURL(url);
+      setStatus("JSON 다운로드됨");
+    }
+
+    let data = loadData();
+    let autoSaveTimer = null;
+    let isDirty = false;
+    let selectedNodeId = defaultData.id;
+    let history = [];
+
     // --- 3) D3 + SVG 렌더러 ---
     const container = document.getElementById("tree");
-
     const svg = d3.select(container).append("svg")
       .attr("width", container.clientWidth)
       .attr("height", container.clientHeight)
-      .style("touch-action", "none"); // 모바일 제스처(D3 zoom) 위해
+      .style("touch-action", "none");
 
     const viewport = svg.append("g").attr("class", "viewport");
 
@@ -173,16 +397,28 @@
 
     svg.call(zoom).on("dblclick.zoom", null);
 
-    const NODE_R = 28;        // 사진 원 반지름
-    const NODE_GAP_X = 90;    // 세로 간격
-    const NODE_GAP_Y = 170;   // 가로 간격
+    const NODE_R = 28;
+    const NODE_GAP_X = 90;
+    const NODE_GAP_Y = 170;
+    const LAYOUT_LABELS = {
+      horizontal: "좌우 보기",
+      vertical: "상하 보기"
+    };
+    let layoutMode = "vertical";
 
-    const root = d3.hierarchy(data);
+    let root = d3.hierarchy(data);
     root.x0 = 0;
     root.y0 = 0;
 
     function nodeKey(d) {
       return String(d.data.id).replace(/[^a-zA-Z0-9_-]/g, "_");
+    }
+
+    function getPoint(d) {
+      if (layoutMode === "vertical") {
+        return { x: d.x, y: d.y };
+      }
+      return { x: d.y, y: d.x };
     }
 
     function truncate(s, n) {
@@ -191,11 +427,17 @@
     }
 
     function diagonal(link) {
-      const s = link.source, t = link.target;
-      return `M${s.y},${s.x}
-              C${(s.y + t.y) / 2},${s.x}
-               ${(s.y + t.y) / 2},${t.x}
-               ${t.y},${t.x}`;
+      const s = getPoint(link.source), t = getPoint(link.target);
+      if (layoutMode === "vertical") {
+        return `M${s.x},${s.y}
+                C${s.x},${(s.y + t.y) / 2}
+                 ${t.x},${(s.y + t.y) / 2}
+                 ${t.x},${t.y}`;
+      }
+      return `M${s.x},${s.y}
+              C${(s.x + t.x) / 2},${s.y}
+               ${(s.x + t.x) / 2},${t.y}
+               ${t.x},${t.y}`;
     }
 
     function toggle(d) {
@@ -208,10 +450,17 @@
       }
     }
 
+    function editNodeName(d) {
+      const next = prompt("이름을 수정하세요", d.data.name);
+      if (next === null) return;
+      d.data.name = next.trim() || d.data.name;
+      update(d);
+      markDirty();
+    }
+
     function update(source) {
       const width = container.clientWidth;
       const height = container.clientHeight;
-
       svg.attr("width", width).attr("height", height);
 
       const layout = d3.tree().nodeSize([NODE_GAP_X, NODE_GAP_Y]);
@@ -220,37 +469,47 @@
       const nodes = root.descendants();
       const links = root.links();
 
-      const minX = d3.min(nodes, d => d.x);
-      nodes.forEach(d => d.x = d.x - minX + 60);
+      const minAxis = d3.min(nodes, d => getPoint(d).x);
+      nodes.forEach((d) => {
+        const p = getPoint(d);
+        d._viewX = p.x - minAxis + 60;
+        d._viewY = p.y + 60;
+      });
 
-      // LINKS
-      const linkSel = viewport.selectAll("path.link")
-        .data(links, d => nodeKey(d.target));
-
+      const linkSel = viewport.selectAll("path.link").data(links, d => nodeKey(d.target));
       linkSel.enter()
         .append("path")
         .attr("class", "link")
-        .attr("d", () => diagonal({ source: {x: source.x0, y: source.y0}, target: {x: source.x0, y: source.y0} }))
+        .attr("d", () => {
+          const p = getPoint(source);
+          return `M${p.x},${p.y} C${p.x},${p.y} ${p.x},${p.y} ${p.x},${p.y}`;
+        })
         .merge(linkSel)
         .transition().duration(350)
         .attr("d", diagonal);
 
       linkSel.exit()
         .transition().duration(350)
-        .attr("d", () => diagonal({ source: {x: source.x, y: source.y}, target: {x: source.x, y: source.y} }))
+        .attr("d", () => diagonal({ source: { x: source.x, y: source.y }, target: { x: source.x, y: source.y } }))
         .remove();
 
-      // NODES
-      const nodeSel = viewport.selectAll("g.node")
-        .data(nodes, d => nodeKey(d));
-
+      const nodeSel = viewport.selectAll("g.node").data(nodes, d => nodeKey(d));
       const nodeEnter = nodeSel.enter()
         .append("g")
         .attr("class", "node")
-        .attr("transform", `translate(${source.y0},${source.x0})`)
+        .attr("transform", () => `translate(${(getPoint(source).x || 0) + 0},${(getPoint(source).y || 0) + 0})`)
         .on("click", (event, d) => {
+          // 더블클릭이 동작하면 click이 2번 발생하므로, 2번째 이벤트는 건너뜀
+          if (event.detail >= 2) return;
+          selectedNodeId = d.data.id;
+          setStatus(`선택: ${d.data.name}`);
           toggle(d);
           update(d);
+          event.stopPropagation();
+        })
+        .on("dblclick", (event, d) => {
+          event.preventDefault();
+          editNodeName(d);
           event.stopPropagation();
         });
 
@@ -273,7 +532,7 @@
         .attr("height", NODE_R * 2)
         .attr("href", d => d.data.photo || placeholder)
         .attr("clip-path", d => `url(#clip-${nodeKey(d)})`)
-        .each(function(d) {
+        .each(function (d) {
           if (!d.data.photo) d3.select(this).attr("href", placeholder);
         });
 
@@ -290,19 +549,39 @@
         .text(d => d.data.type === "dog" ? "🐶" : (d.data.type === "human" ? "👤" : "🌳"));
 
       const nodeUpdate = nodeEnter.merge(nodeSel);
-
       nodeUpdate.transition().duration(350)
-        .attr("transform", d => `translate(${d.y},${d.x})`);
+        .attr("transform", d => `translate(${d._viewX},${d._viewY})`);
 
       nodeUpdate.select("circle.node-border")
-        .classed("has-children", d => !!(d.children || d._children));
+        .classed("has-children", d => !!(d.children || d._children))
+        .classed("selected", d => d.data.id === selectedNodeId);
 
       nodeSel.exit()
         .transition().duration(350)
-        .attr("transform", `translate(${source.y},${source.x})`)
+        .attr("transform", `translate(${getPoint(source).x},${getPoint(source).y})`)
         .remove();
 
-      nodes.forEach(d => { d.x0 = d.x; d.y0 = d.y; });
+      nodes.forEach(d => {
+        const p = getPoint(d);
+        d.x0 = p.x;
+        d.y0 = p.y;
+      });
+    }
+
+    function toggleLayout() {
+      layoutMode = layoutMode === "horizontal" ? "vertical" : "horizontal";
+      updateLayoutButtonText();
+      setStatus(`${layoutMode === "horizontal" ? "좌우" : "상하"} 보기`);
+      update(root);
+      fitToScreen();
+      markDirty();
+    }
+
+    function updateLayoutButtonText() {
+      const btn = document.getElementById("layoutBtn");
+      if (!btn) return;
+      const next = layoutMode === "horizontal" ? "vertical" : "horizontal";
+      btn.textContent = `보기: ${LAYOUT_LABELS[next]}`;
     }
 
     function fitToScreen() {
@@ -322,11 +601,84 @@
         .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
     }
 
+    function replaceTree(nextData, keepDirty = false) {
+      root = d3.hierarchy(nextData);
+      root.x0 = 0;
+      root.y0 = 0;
+      update(root);
+      fitToScreen();
+      isDirty = keepDirty ? isDirty : false;
+      if (autoSaveTimer) {
+        clearTimeout(autoSaveTimer);
+        autoSaveTimer = null;
+      }
+    }
+
     document.getElementById("fitBtn").addEventListener("click", fitToScreen);
+    document.getElementById("layoutBtn").addEventListener("click", toggleLayout);
+    document.getElementById("addBtn").addEventListener("click", addChildToSelected);
+    document.getElementById("removeBtn").addEventListener("click", removeSelectedNode);
+    document.getElementById("undoBtn").addEventListener("click", undoHistory);
+    document.getElementById("saveBtn").addEventListener("click", () => saveData(root));
+    document.getElementById("downloadBtn").addEventListener("click", downloadJson);
+    document.getElementById("importBtn").addEventListener("click", () => {
+      const input = document.createElement("input");
+      input.type = "file";
+      input.accept = ".json,application/json";
+      input.onchange = () => {
+        const file = input.files && input.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          try {
+            const parsed = normalizePayload(JSON.parse(String(e.target?.result || "{}")));
+            if (!parsed) throw new Error("invalid payload");
+            history = [];
+            layoutMode = parsed.layoutMode || "vertical";
+            updateLayoutButtonText();
+            replaceTree(parsed.tree);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed));
+            isDirty = false;
+            if (autoSaveTimer) {
+              clearTimeout(autoSaveTimer);
+              autoSaveTimer = null;
+            }
+            setStatus("JSON 불러옴");
+          } catch {
+            alert("JSON 형식이 올바르지 않습니다.");
+          }
+        };
+        reader.readAsText(file);
+      };
+      input.click();
+    });
+    document.getElementById("clearLocalBtn").addEventListener("click", () => {
+      localStorage.removeItem(STORAGE_KEY);
+      history = [];
+      data = cloneData(defaultData);
+      replaceTree(data);
+      layoutMode = "vertical";
+      updateLayoutButtonText();
+      isDirty = false;
+      if (autoSaveTimer) {
+        clearTimeout(autoSaveTimer);
+        autoSaveTimer = null;
+      }
+      setStatus("로컬 저장소 초기화됨");
+    });
     document.getElementById("resetBtn").addEventListener("click", () => {
       svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity);
     });
 
+    document.addEventListener("keydown", (event) => {
+      if (event.key.toLowerCase() !== "v") return;
+      const tag = event.target && event.target.tagName ? event.target.tagName.toLowerCase() : "";
+      if (tag === "input" || tag === "textarea" || tag === "select") return;
+      event.preventDefault();
+      toggleLayout();
+    });
+
+    updateLayoutButtonText();
     update(root);
     setTimeout(fitToScreen, 0);
 
@@ -334,56 +686,18 @@
       update(root);
       fitToScreen();
     });
-  </script>
-</body>
-</html>
-“이미 있는 걸 쓰는” 빠른 데모: Family Chart의 imageCircle 예시
-Family Chart는 카드 렌더러가 있고, 스타일 옵션에 imageCircle이 문서로 확인됩니다. 
 
-아래는 CDN으로 바로 돌리는 최소 예시예요(원형 사진 + 이름).
-<!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://unpkg.com/d3@7"></script>
-  <link rel="stylesheet" href="https://unpkg.com/family-chart@0.8.0-beta.2/dist/styles/family-chart.css">
-  <script type="module" src="https://unpkg.com/family-chart@0.8.0-beta.2"></script>
-  <style>
-    body { margin:0; background:#0b1020; }
-    #FamilyChart { width:100vw; height:100vh; margin:auto; }
-  </style>
-</head>
-<body>
-  <div id="FamilyChart" class="f3"></div>
-
-  <script type="module">
-    const data = [
-      {
-        id: "1",
-        data: { name: "김민수", gender: "M", photo: "https://picsum.photos/seed/p1/200" },
-        rels: { spouses: ["2"], children: ["3"] }
-      },
-      {
-        id: "2",
-        data: { name: "이서연", gender: "F", photo: "https://picsum.photos/seed/p2/200" },
-        rels: { spouses: ["1"], children: ["3"] }
-      },
-      {
-        id: "3",
-        data: { name: "보리(강아지)", gender: "U", photo: "https://picsum.photos/seed/dog1/200" },
-        rels: { father: "1", mother: "2" }
+    window.addEventListener("click", () => {
+      if (data && data.id === "root") {
+        selectedNodeId = data.id;
       }
-    ];
+    });
 
-    const chart = f3.createChart("#FamilyChart", data);
+    window.addEventListener("beforeunload", () => {
+      flushAutoSave();
+    });
 
-    chart.setCardHtml()
-      .setStyle("imageCircle")
-      .setCardImageField("photo")
-      .setCardDisplay([["name"]]);
-
-    chart.updateTree({ initial: true });
+    updateUndoState();
   </script>
 </body>
 </html>
