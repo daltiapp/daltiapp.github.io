@@ -92,6 +92,82 @@
     .node .action { cursor: pointer; opacity: 0.2; transition: opacity 0.2s ease; }
     .node.selected .action { opacity: 1; }
     .node .action.hidden { display: none; }
+    .hidden { display: none !important; }
+    .node-form-backdrop {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: rgba(11,16,32,0.72);
+      backdrop-filter: blur(12px);
+      z-index: 20;
+    }
+    .node-form-card {
+      width: min(420px, 100%);
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: rgba(15,23,42,0.96);
+      box-shadow: 0 24px 80px rgba(0,0,0,0.45);
+    }
+    .node-form-title {
+      margin: 0 0 14px;
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .node-form-grid {
+      display: grid;
+      gap: 12px;
+    }
+    .node-form-field {
+      display: grid;
+      gap: 6px;
+    }
+    .node-form-field span {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .node-form-field input,
+    .node-form-field select {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      padding: 11px 12px;
+      font: inherit;
+    }
+    .node-form-field input:focus,
+    .node-form-field select:focus {
+      outline: none;
+      border-color: #60a5fa;
+      box-shadow: 0 0 0 3px rgba(96,165,250,0.18);
+    }
+    .node-form-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .node-form-actions button {
+      appearance: none;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      color: var(--text);
+      background: rgba(255,255,255,0.06);
+    }
+    .node-form-actions button[type="submit"] {
+      background: linear-gradient(135deg, rgba(59,130,246,0.95), rgba(37,99,235,0.92));
+      border-color: rgba(147,197,253,0.8);
+    }
   </style>
 </head>
 <body>
@@ -108,9 +184,45 @@
       <button id="importBtn">백업 불러오기</button>
       <button id="clearLocalBtn">저장 초기화</button>
       <button id="resetBtn">보기 초기화</button>
-      <span id="status" class="hint">📱 핀치줌/드래그로 이동 · 노드 클릭: 선택/접기·펼치기 · 더블클릭: 이름 수정</span>
+      <span id="status" class="hint">📱 핀치줌/드래그로 이동 · 노드 클릭: 선택/접기·펼치기 · 더블클릭: 정보 수정</span>
     </div>
     <div id="tree"></div>
+    <div id="nodeFormBackdrop" class="node-form-backdrop hidden">
+      <form id="nodeForm" class="node-form-card">
+        <h2 id="nodeFormTitle" class="node-form-title">노드 정보</h2>
+        <div class="node-form-grid">
+          <label class="node-form-field">
+            <span>이름</span>
+            <input id="nodeFormName" type="text" maxlength="30" autocomplete="off" />
+          </label>
+          <label id="nodeFormTypeField" class="node-form-field">
+            <span>타입</span>
+            <select id="nodeFormType">
+              <option value="human">사람</option>
+              <option value="dog">반려동물</option>
+              <option value="group">그룹</option>
+            </select>
+          </label>
+          <label id="nodeFormGenderField" class="node-form-field">
+            <span>성별</span>
+            <select id="nodeFormGender">
+              <option value="M">남</option>
+              <option value="F">여</option>
+              <option value="X">기타</option>
+              <option value="">없음</option>
+            </select>
+          </label>
+          <label id="nodeFormLabelField" class="node-form-field">
+            <span>라벨</span>
+            <input id="nodeFormLabel" type="text" maxlength="2" autocomplete="off" />
+          </label>
+        </div>
+        <div class="node-form-actions">
+          <button id="nodeFormCancel" type="button">취소</button>
+          <button id="nodeFormSubmit" type="submit">확인</button>
+        </div>
+      </form>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
@@ -194,6 +306,20 @@
         }
       ]
     };
+
+    const nodeFormBackdrop = document.getElementById("nodeFormBackdrop");
+    const nodeForm = document.getElementById("nodeForm");
+    const nodeFormTitle = document.getElementById("nodeFormTitle");
+    const nodeFormName = document.getElementById("nodeFormName");
+    const nodeFormType = document.getElementById("nodeFormType");
+    const nodeFormGender = document.getElementById("nodeFormGender");
+    const nodeFormLabel = document.getElementById("nodeFormLabel");
+    const nodeFormTypeField = document.getElementById("nodeFormTypeField");
+    const nodeFormGenderField = document.getElementById("nodeFormGenderField");
+    const nodeFormLabelField = document.getElementById("nodeFormLabelField");
+    const nodeFormSubmit = document.getElementById("nodeFormSubmit");
+    let nodeFormResolver = null;
+    let nodeFormConfig = null;
 
     function cloneData(source) {
       return JSON.parse(JSON.stringify(source));
@@ -430,7 +556,7 @@
     }
 
     function setStatus(text) {
-      document.getElementById("status").textContent = `${text} · 📱 핀치줌/드래그로 이동 · 노드 클릭: 접기/펼치기 · 더블클릭: 이름 수정`;
+      document.getElementById("status").textContent = `${text} · 📱 핀치줌/드래그로 이동 · 노드 클릭: 접기/펼치기 · 더블클릭: 정보 수정`;
     }
 
     function updateUndoState() {
@@ -511,7 +637,45 @@
       });
     }
 
-    function addChildToNode(parentId) {
+    function syncNodeFormFields() {
+      const type = nodeFormType.value;
+      const showGender = type !== "group" && (!nodeFormConfig || nodeFormConfig.showGender !== false);
+      nodeFormGenderField.classList.toggle("hidden", !showGender);
+      if (!showGender) nodeFormGender.value = "";
+    }
+
+    function closeNodeForm(result) {
+      nodeFormBackdrop.classList.add("hidden");
+      const resolver = nodeFormResolver;
+      nodeFormResolver = null;
+      nodeFormConfig = null;
+      if (resolver) resolver(result);
+    }
+
+    function openNodeForm(config) {
+      nodeFormConfig = config;
+      nodeFormTitle.textContent = config.title || "노드 정보";
+      nodeFormSubmit.textContent = config.submitLabel || "확인";
+
+      nodeFormName.value = config.defaults?.name || "";
+      nodeFormType.value = config.defaults?.type || "human";
+      nodeFormGender.value = normalizeGender(config.defaults?.gender) || "M";
+      nodeFormLabel.value = config.defaults?.label || "";
+
+      nodeFormTypeField.classList.toggle("hidden", config.showType === false);
+      nodeFormLabelField.classList.toggle("hidden", config.showLabel === false);
+      nodeFormType.disabled = config.lockType === true;
+
+      syncNodeFormFields();
+      nodeFormBackdrop.classList.remove("hidden");
+      requestAnimationFrame(() => nodeFormName.focus());
+
+      return new Promise((resolve) => {
+        nodeFormResolver = resolve;
+      });
+    }
+
+    async function addChildToNode(parentId) {
       const currentTree = treeToObject(root);
       const parent = findNode(currentTree, parentId);
       if (!parent) {
@@ -519,25 +683,25 @@
         return;
       }
 
-      const rawName = prompt("새 노드 이름", "새 멤버");
-      if (rawName === null) return;
-      const name = rawName.trim();
+      const formData = await openNodeForm({
+        title: "자식 노드 추가",
+        submitLabel: "추가",
+        showType: true,
+        showGender: true,
+        showLabel: true,
+        defaults: {
+          name: "새 멤버",
+          type: "human",
+          gender: "M",
+          label: "N"
+        }
+      });
+      if (!formData) return;
 
-      const rawType = prompt("타입을 입력하세요 (human / dog / group)", "human");
-      if (rawType === null) return;
-      const typeInput = rawType.trim().toLowerCase();
-      const type = (typeInput === "human" || typeInput === "dog" || typeInput === "group") ? typeInput : "human";
-
-      let gender = "";
-      if (type !== "group") {
-        const rawGender = prompt("성별을 입력하세요 (M/F/X)", "M");
-        if (rawGender === null) return;
-        gender = normalizeGender(rawGender) || "M";
-      }
-
-      const rawLabel = prompt("표시 텍스트 (1~2자 권장)", "N");
-      if (rawLabel === null) return;
-      const safeLabel = rawLabel.trim().slice(0, 2) || "N";
+      const name = formData.name || "새 멤버";
+      const type = formData.type;
+      const gender = type === "group" ? "" : (normalizeGender(formData.gender) || "M");
+      const safeLabel = (formData.label || name.slice(0, 2) || "N").trim().slice(0, 2) || "N";
 
       const nextColor = Math.floor(Math.random() * 360);
 
@@ -583,22 +747,20 @@
       if (!source || source.id === targetId) return false;
       if (!Array.isArray(source.children)) return false;
 
-      let removed = false;
-      source.children = source.children.filter((child) => {
+      for (let index = 0; index < source.children.length; index++) {
+        const child = source.children[index];
         if (child.id === targetId) {
-          removed = true;
-          return false;
+          const promotedChildren = Array.isArray(child.children) ? child.children : [];
+          source.children.splice(index, 1, ...promotedChildren);
+          return true;
         }
-        return true;
-      });
-
-      if (removed) return true;
-
-      for (const child of source.children) {
-        removed = removeNodeById(child, targetId) || removed;
       }
 
-      return removed;
+      for (const child of source.children) {
+        if (removeNodeById(child, targetId)) return true;
+      }
+
+      return false;
     }
 
     function removeSelectedNode() {
@@ -606,7 +768,7 @@
         alert("루트는 삭제할 수 없습니다.");
         return;
       }
-      if (!confirm("정말 삭제하시겠어요?")) return;
+      if (!confirm("정말 삭제하시겠어요?\n하위 노드는 유지되고 위로 이어집니다.")) return;
       const next = treeToObject(root);
       const removed = removeNodeById(next, selectedNodeId);
       if (!removed) {
@@ -618,7 +780,7 @@
       selectedNodeId = defaultData.id;
       replaceTree(next, false);
       markDirty();
-      setStatus("선택 노드 삭제됨");
+      setStatus("선택 노드 삭제됨 · 하위 노드는 유지됨");
     }
 
     function downloadJson() {
@@ -740,16 +902,25 @@
       }
     }
 
-    function editNodeName(d) {
-      const next = prompt("이름을 수정하세요", d.data.name);
-      if (next === null) return;
-      d.data.name = next.trim() || d.data.name;
-      if (d.data.type !== "group") {
-        const currentGender = normalizeGender(d.data.gender);
-        const nextGender = prompt("성별을 입력하세요 (M/F/X, 비우면 제거)", currentGender);
-        if (nextGender !== null) {
-          d.data.gender = normalizeGender(nextGender);
+    async function editNodeName(d) {
+      const formData = await openNodeForm({
+        title: "노드 정보 수정",
+        submitLabel: "적용",
+        showType: true,
+        lockType: true,
+        showGender: true,
+        showLabel: false,
+        defaults: {
+          name: d.data.name,
+          type: d.data.type || "human",
+          gender: d.data.gender
         }
+      });
+      if (!formData) return;
+
+      d.data.name = formData.name || d.data.name;
+      if (d.data.type !== "group") {
+        d.data.gender = normalizeGender(formData.gender);
       }
       update(d);
       markDirty();
@@ -777,7 +948,7 @@
         nodeClickTimer = null;
       }
       event.preventDefault();
-      editNodeName(d);
+      void editNodeName(d);
       event.stopPropagation();
     }
 
@@ -1076,11 +1247,31 @@
     });
 
     document.addEventListener("keydown", (event) => {
+      if (!nodeFormBackdrop.classList.contains("hidden") && event.key === "Escape") {
+        event.preventDefault();
+        closeNodeForm(null);
+        return;
+      }
       if (event.key.toLowerCase() !== "v") return;
       const tag = event.target && event.target.tagName ? event.target.tagName.toLowerCase() : "";
       if (tag === "input" || tag === "textarea" || tag === "select") return;
       event.preventDefault();
       toggleLayout();
+    });
+
+    nodeFormType.addEventListener("change", syncNodeFormFields);
+    nodeForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      closeNodeForm({
+        name: nodeFormName.value.trim(),
+        type: nodeFormType.value,
+        gender: nodeFormGender.value,
+        label: nodeFormLabel.value.trim()
+      });
+    });
+    document.getElementById("nodeFormCancel").addEventListener("click", () => closeNodeForm(null));
+    nodeFormBackdrop.addEventListener("click", (event) => {
+      if (event.target === nodeFormBackdrop) closeNodeForm(null);
     });
 
     updateLayoutButtonText();
