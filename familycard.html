@@ -77,7 +77,7 @@
       stroke-linejoin: round;
       pointer-events: none;
     }
-    .type-badge { font-size: 14px; pointer-events: none; opacity: 0.9; fill: var(--text); font-weight: 800; }
+    .type-badge { font-size: 14px; pointer-events: none; opacity: 0.95; fill: var(--text); font-weight: 800; font-family: "Apple Color Emoji","Segoe UI Symbol","Noto Color Emoji","Noto Sans Symbols","Noto Sans KR",sans-serif; }
     .action-btn-bg { fill: #0f172a; stroke: #93c5fd; stroke-width: 1; }
     .action-btn-text { fill: #e2e8f0; font-size: 11px; font-weight: 700; pointer-events: none; text-anchor: middle; dominant-baseline: central; }
     .node .action { cursor: pointer; opacity: 0.2; transition: opacity 0.2s ease; }
@@ -470,14 +470,12 @@
     }
 
     function getGenderBadge(data) {
-      const raw = `${data.gender || ""}`.toLowerCase();
-      if (raw === "♂" || raw === "male") return "♂";
-      if (raw === "♀" || raw === "female") return "♀";
-      if (raw === "⚥") return "⚥";
-      if (raw === "m" || raw === "male" || raw === "남" || raw === "남자") return "♂";
-      if (raw === "f" || raw === "female" || raw === "여" || raw === "여자") return "♀";
-      if (raw === "x") return "⚥";
-      return "❓";
+      if (!data || data.type !== "human") return "";
+      const raw = `${data.gender || ""}`.trim().toLowerCase();
+      if (raw === "m" || raw === "남" || raw === "남자" || raw === "male" || raw === "♂") return "♂";
+      if (raw === "f" || raw === "여" || raw === "여자" || raw === "female" || raw === "♀") return "♀";
+      if (raw === "x" || raw === "intersex" || raw === "⚥") return "⚥";
+      return "";
     }
 
     function addChildToNode(parentId) {
