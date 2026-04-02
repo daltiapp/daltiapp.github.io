@@ -77,7 +77,7 @@
       stroke-linejoin: round;
       pointer-events: none;
     }
-    .type-badge { font-size: 14px; pointer-events: none; opacity: 0.9; }
+    .type-badge { font-size: 14px; pointer-events: none; opacity: 0.9; fill: var(--text); font-weight: 800; }
     .action-btn-bg { fill: #0f172a; stroke: #93c5fd; stroke-width: 1; }
     .action-btn-text { fill: #e2e8f0; font-size: 11px; font-weight: 700; pointer-events: none; text-anchor: middle; dominant-baseline: central; }
     .node .action { cursor: pointer; opacity: 0.2; transition: opacity 0.2s ease; }
@@ -111,6 +111,7 @@
     const AUTOSAVE_DELAY_MS = 700;
     const HISTORY_LIMIT = 30;
     const CLICK_TOGGLE_DELAY = 180;
+    const MAX_STORAGE_TRY = 3;
 
     // --- 1) 샘플용 "사진" (data:image/svg+xml) 생성 ---
     function avatarDataUri(label, hue) {
@@ -241,11 +242,36 @@
 
     function normalizePayload(parsed) {
       if (!parsed || typeof parsed !== "object") return null;
-      if (parsed.tree && parsed.tree.id) return parsed;
+      if (parsed.tree && parsed.tree.id) {
+        return migrateTreePayload(parsed);
+      }
       if (parsed.id) {
-        return { version: 1, layoutMode: "vertical", tree: parsed };
+        return migrateTreePayload({ version: 1, layoutMode: "vertical", tree: parsed });
       }
       return null;
+    }
+
+    function migrateTreePayload(payload) {
+      if (!payload || !payload.tree) return payload;
+      const migrateNode = (node) => {
+        if (!node || typeof node !== "object") return node;
+        const next = { ...node };
+        if (next.type === "human" && !next.gender) next.gender = "M";
+        if (!next.id) next.id = `m_${Date.now()}_${Math.floor(Math.random() * 10000)}`;
+        if (!Array.isArray(next.children)) next.children = [];
+        return next;
+      };
+      const walk = (node) => {
+        const current = migrateNode(node);
+        const list = Array.isArray(current.children) ? current.children : [];
+        current.children = list.map(walk);
+        return current;
+      };
+      return {
+        ...payload,
+        layoutMode: payload.layoutMode || "vertical",
+        tree: walk(payload.tree)
+      };
     }
 
     function getPersistPayload(tree) {
@@ -270,17 +296,80 @@
       }
     }
 
+    function applyCollapsedState(d3Node, source) {
+      if (!d3Node || !source) return;
+      const shouldCollapse = source.collapsed === true;
+      const sourceChildren = Array.isArray(source.children) ? source.children : [];
+      const activeChildren = d3Node.children || [];
+      activeChildren.forEach((child, index) => {
+        applyCollapsedState(child, sourceChildren[index]);
+      });
+      if (shouldCollapse && activeChildren.length > 0) {
+        d3Node._children = activeChildren;
+        d3Node.children = null;
+      }
+      if (!shouldCollapse && d3Node._children) {
+        const next = d3Node._children;
+        next.forEach((child, index) => {
+          applyCollapsedState(child, sourceChildren[index]);
+        });
+        d3Node.children = next;
+        d3Node._children = null;
+      }
+    }
+
     function saveData(tree) {
       const data = treeToObject(tree || root);
-      const payload = getPersistPayload(tree);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-      setStatus("저장됨");
-      return data;
+      const makePayload = (inputTree) => getPersistPayloadFromTree(inputTree);
+      const removeImages = (node) => {
+        if (!node || typeof node !== "object") return;
+        if (node.photo) node.photo = placeholder;
+        if (Array.isArray(node.children)) node.children.forEach(removeImages);
+      };
+
+      let payload = makePayload(tree || root);
+      let lastErr;
+
+      for (let retry = 0; retry < MAX_STORAGE_TRY; retry++) {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+          setStatus("저장됨");
+          isDirty = false;
+          return data;
+        } catch (err) {
+          lastErr = err;
+          if (retry >= MAX_STORAGE_TRY - 1) break;
+
+          if (retry === 0) {
+            payload = cloneData(payload);
+            removeImages(payload.tree);
+            continue;
+          }
+
+          payload = cloneData(payload);
+          payload.tree = { ...payload.tree, photo: placeholder };
+          continue;
+        }
+      }
+
+      console.warn("로컬 저장 실패", lastErr);
+      setStatus("저장 실패 · 용량 부족 또는 브라우저 정책");
+      throw lastErr;
+    }
+
+    function getPersistPayloadFromTree(treeOrPayload) {
+      const tree = treeToObject(treeOrPayload);
+      return {
+        version: 2,
+        layoutMode,
+        tree
+      };
     }
 
     function markDirty() {
       isDirty = true;
       setStatus("수정됨 · 자동저장 대기중");
+      saveData(root);
       if (autoSaveTimer) {
         clearTimeout(autoSaveTimer);
       }
@@ -297,24 +386,33 @@
         clearTimeout(autoSaveTimer);
         autoSaveTimer = null;
       }
-      saveData(root);
-      isDirty = false;
+      try {
+        saveData(root);
+        isDirty = false;
+      } catch {
+        console.warn("flushAutoSave 저장 실패");
+      }
     }
 
     function treeToObject(treeNode) {
       const walk = (node) => {
+        if (!node || !node.data) return null;
         const result = {
           id: node.data.id,
           type: node.data.type,
           gender: node.data.gender || "",
           name: node.data.name,
           photo: node.data.photo,
+          collapsed: !!node._children,
           children: []
         };
       
-        const list = node.children || [];
+        const list = Array.isArray(node.children) && node.children.length > 0
+          ? node.children
+          : (Array.isArray(node._children) ? node._children : []);
         for (const c of list) {
-          result.children.push(walk(c));
+          const mapped = walk(c);
+          if (mapped) result.children.push(mapped);
         }
         return result;
       };
@@ -372,6 +470,9 @@
 
     function getGenderBadge(data) {
       const raw = `${data.gender || ""}`.toLowerCase();
+      if (raw === "♂" || raw === "male") return "♂";
+      if (raw === "♀" || raw === "female") return "♀";
+      if (raw === "⚥") return "⚥";
       if (raw === "m" || raw === "male" || raw === "남" || raw === "남자") return "♂";
       if (raw === "f" || raw === "female" || raw === "여" || raw === "여자") return "♀";
       if (raw === "x") return "⚥";
@@ -492,6 +593,7 @@
     }
 
     let data = loadData();
+    data = migrateTreePayload({ tree: data }).tree;
     let autoSaveTimer = null;
     let isDirty = false;
     let selectedNodeId = defaultData.id;
@@ -524,6 +626,7 @@
     let root = d3.hierarchy(data);
     root.x0 = 0;
     root.y0 = 0;
+    applyCollapsedState(root, data);
 
     function nodeKey(d) {
       return String(d.data.id).replace(/[^a-zA-Z0-9_-]/g, "_");
@@ -738,6 +841,8 @@
 
       nodeUpdate.select("text.label")
         .text(d => truncate(d.data.name, 12));
+      nodeUpdate.select(".type-badge")
+        .text(d => d.data.type === "human" ? getGenderBadge(d.data) : " ");
 
       nodeUpdate.select(".action")
         .classed("hidden", d => !(d.data.id === selectedNodeId) || !isLeaf(d.data))
@@ -813,6 +918,7 @@
 
     function replaceTree(nextData, keepDirty = false) {
       root = d3.hierarchy(nextData);
+      applyCollapsedState(root, nextData);
       root.x0 = 0;
       root.y0 = 0;
       update(root);
@@ -927,6 +1033,14 @@
 
     window.addEventListener("beforeunload", () => {
       flushAutoSave();
+    });
+    window.addEventListener("pagehide", () => {
+      flushAutoSave();
+    });
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") {
+        flushAutoSave();
+      }
     });
 
     updateUndoState();
