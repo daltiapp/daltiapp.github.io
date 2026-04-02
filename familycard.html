@@ -185,6 +185,14 @@
       return null;
     }
 
+    function getPersistPayload(tree) {
+      return {
+        version: 2,
+        layoutMode,
+        tree: treeToObject(tree || root)
+      };
+    }
+
     function loadData() {
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
@@ -201,7 +209,7 @@
 
     function saveData(tree) {
       const data = treeToObject(tree || root);
-      const payload = { version: 2, layoutMode, tree: data };
+      const payload = getPersistPayload(tree);
       localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
       setStatus("저장됨");
       return data;
@@ -426,8 +434,24 @@
       return s.length > n ? s.slice(0, n - 1) + "…" : s;
     }
 
+    function getScreenPoint(d) {
+      if (!d) return { x: 0, y: 0 };
+      if (typeof d._sx === "number" && typeof d._sy === "number") {
+        return { x: d._sx, y: d._sy };
+      }
+      return getPoint(d);
+    }
+
+    function layoutScreenPoint(d, minAxis) {
+      const p = getPoint(d);
+      return {
+        x: p.x - minAxis + 60,
+        y: p.y + 60
+      };
+    }
+
     function diagonal(link) {
-      const s = getPoint(link.source), t = getPoint(link.target);
+      const s = getScreenPoint(link.source), t = getScreenPoint(link.target);
       if (layoutMode === "vertical") {
         return `M${s.x},${s.y}
                 C${s.x},${(s.y + t.y) / 2}
@@ -471,9 +495,9 @@
 
       const minAxis = d3.min(nodes, d => getPoint(d).x);
       nodes.forEach((d) => {
-        const p = getPoint(d);
-        d._viewX = p.x - minAxis + 60;
-        d._viewY = p.y + 60;
+        const p = layoutScreenPoint(d, minAxis);
+        d._sx = p.x;
+        d._sy = p.y;
       });
 
       const linkSel = viewport.selectAll("path.link").data(links, d => nodeKey(d.target));
@@ -481,7 +505,7 @@
         .append("path")
         .attr("class", "link")
         .attr("d", () => {
-          const p = getPoint(source);
+          const p = getScreenPoint(source);
           return `M${p.x},${p.y} C${p.x},${p.y} ${p.x},${p.y} ${p.x},${p.y}`;
         })
         .merge(linkSel)
@@ -497,7 +521,10 @@
       const nodeEnter = nodeSel.enter()
         .append("g")
         .attr("class", "node")
-        .attr("transform", () => `translate(${(getPoint(source).x || 0) + 0},${(getPoint(source).y || 0) + 0})`)
+        .attr("transform", () => {
+          const p = getScreenPoint(source);
+          return `translate(${p.x},${p.y})`;
+        })
         .on("click", (event, d) => {
           // 더블클릭이 동작하면 click이 2번 발생하므로, 2번째 이벤트는 건너뜀
           if (event.detail >= 2) return;
@@ -550,7 +577,7 @@
 
       const nodeUpdate = nodeEnter.merge(nodeSel);
       nodeUpdate.transition().duration(350)
-        .attr("transform", d => `translate(${d._viewX},${d._viewY})`);
+        .attr("transform", d => `translate(${d._sx},${d._sy})`);
 
       nodeUpdate.select("circle.node-border")
         .classed("has-children", d => !!(d.children || d._children))
@@ -558,11 +585,14 @@
 
       nodeSel.exit()
         .transition().duration(350)
-        .attr("transform", `translate(${getPoint(source).x},${getPoint(source).y})`)
+        .attr("transform", () => {
+          const p = getScreenPoint(source);
+          return `translate(${p.x},${p.y})`;
+        })
         .remove();
 
       nodes.forEach(d => {
-        const p = getPoint(d);
+        const p = getScreenPoint(d);
         d.x0 = p.x;
         d.y0 = p.y;
       });
