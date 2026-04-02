@@ -77,7 +77,20 @@
       stroke-linejoin: round;
       pointer-events: none;
     }
-    .type-badge { font-size: 14px; pointer-events: none; opacity: 0.95; fill: var(--text); font-weight: 800; font-family: "Apple Color Emoji","Segoe UI Symbol","Noto Color Emoji","Noto Sans Symbols","Noto Sans KR",sans-serif; }
+    .type-badge {
+      font-size: 18px;
+      pointer-events: none;
+      opacity: 1;
+      fill: #f8fafc;
+      font-weight: 900;
+      text-anchor: middle;
+      dominant-baseline: middle;
+      font-family: "Apple Color Emoji","Segoe UI Symbol","Noto Color Emoji","Noto Sans Symbols","Noto Sans KR",sans-serif;
+      paint-order: stroke;
+      stroke: rgba(0,0,0,0.35);
+      stroke-width: 2px;
+      stroke-linejoin: round;
+    }
     .action-btn-bg { fill: #0f172a; stroke: #93c5fd; stroke-width: 1; }
     .action-btn-text { fill: #e2e8f0; font-size: 11px; font-weight: 700; pointer-events: none; text-anchor: middle; dominant-baseline: central; }
     .node .action { cursor: pointer; opacity: 0.2; transition: opacity 0.2s ease; }
@@ -470,7 +483,7 @@
     }
 
     function getGenderBadge(data) {
-      if (!data || data.type !== "human") return "";
+      if (!data || (data.type !== "human" && data.type !== "person")) return "";
       const raw = `${data.gender || ""}`.trim().toLowerCase();
       if (raw === "m" || raw === "남" || raw === "남자" || raw === "male" || raw === "♂") return "♂";
       if (raw === "f" || raw === "여" || raw === "여자" || raw === "female" || raw === "♀") return "♀";
@@ -819,9 +832,9 @@
 
       nodeEnter.append("text")
         .attr("class", "type-badge")
-        .attr("x", NODE_R + 6)
-        .attr("y", -NODE_R + 12)
-        .text(d => d.data.type === "human" ? getGenderBadge(d.data) : " ");
+        .attr("x", 0)
+        .attr("y", -NODE_R + 4)
+        .text(d => getGenderBadge(d.data));
 
       const actionOffsetY = -NODE_R - 26;
       const actionOffsetX = -26;
@@ -866,7 +879,7 @@
       nodeUpdate.select("text.label")
         .text(d => truncate(d.data.name, 12));
       nodeUpdate.select(".type-badge")
-        .text(d => d.data.type === "human" ? getGenderBadge(d.data) : " ");
+        .text(d => getGenderBadge(d.data));
 
       nodeUpdate.select(".action")
         .classed("hidden", d => !(d.data.id === selectedNodeId) || !isLeaf(d.data))
