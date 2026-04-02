@@ -110,6 +110,7 @@
     const STORAGE_KEY = "familycard:data:v1";
     const AUTOSAVE_DELAY_MS = 700;
     const HISTORY_LIMIT = 30;
+    const CLICK_TOGGLE_DELAY = 180;
 
     // --- 1) 샘플용 "사진" (data:image/svg+xml) 생성 ---
     function avatarDataUri(label, hue) {
@@ -571,6 +572,32 @@
       markDirty();
     }
 
+    let nodeClickTimer = null;
+    function onNodeClick(event, d) {
+      selectedNodeId = d.data.id;
+      setStatus(`선택: ${d.data.name}`);
+      if (nodeClickTimer) {
+        clearTimeout(nodeClickTimer);
+        nodeClickTimer = null;
+      }
+      nodeClickTimer = setTimeout(() => {
+        toggle(d);
+        update(d);
+        nodeClickTimer = null;
+      }, CLICK_TOGGLE_DELAY);
+      event.stopPropagation();
+    }
+
+    function onNodeDblClick(event, d) {
+      if (nodeClickTimer) {
+        clearTimeout(nodeClickTimer);
+        nodeClickTimer = null;
+      }
+      event.preventDefault();
+      editNodeName(d);
+      event.stopPropagation();
+    }
+
     function update(source) {
       const width = container.clientWidth;
       const height = container.clientHeight;
@@ -614,20 +641,8 @@
           const p = getScreenPoint(source);
           return `translate(${p.x},${p.y})`;
         })
-        .on("click", (event, d) => {
-          // 더블클릭이 동작하면 click이 2번 발생하므로, 2번째 이벤트는 건너뜀
-          if (event.detail >= 2) return;
-          selectedNodeId = d.data.id;
-          setStatus(`선택: ${d.data.name}`);
-          toggle(d);
-          update(d);
-          event.stopPropagation();
-        })
-        .on("dblclick", (event, d) => {
-          event.preventDefault();
-          editNodeName(d);
-          event.stopPropagation();
-        });
+        .on("click", onNodeClick)
+        .on("dblclick", onNodeDblClick);
 
       nodeEnter.append("circle")
         .attr("class", "node-border")
