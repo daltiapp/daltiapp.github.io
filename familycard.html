@@ -93,6 +93,7 @@
       <button id="layoutBtn">보기: 상하 보기</button>
       <button id="addBtn">선택 노드에 자식 추가</button>
       <button id="removeBtn">선택 노드 삭제</button>
+      <button id="uploadBtn">선택 노드 사진 업로드</button>
       <button id="undoBtn" disabled>되돌리기</button>
       <button id="downloadBtn">JSON 다운로드</button>
       <button id="importBtn">JSON 불러오기</button>
@@ -179,6 +180,57 @@
 
     function cloneData(source) {
       return JSON.parse(JSON.stringify(source));
+    }
+
+    function imageToSvgDataUri(file) {
+      const MAX_SIZE = 240;
+      return new Promise((resolve, reject) => {
+        if (!file || !file.type?.startsWith("image/")) {
+          reject(new Error("이미지 파일이 아닙니다."));
+          return;
+        }
+
+        const img = new Image();
+        const url = URL.createObjectURL(file);
+
+        img.onload = () => {
+          const ratio = Math.min(1, MAX_SIZE / Math.max(img.width, img.height));
+          const w = Math.max(1, Math.round(img.width * ratio));
+          const h = Math.max(1, Math.round(img.height * ratio));
+
+          const canvas = document.createElement("canvas");
+          canvas.width = w;
+          canvas.height = h;
+          const ctx = canvas.getContext("2d");
+          if (!ctx) {
+            URL.revokeObjectURL(url);
+            reject(new Error("Canvas를 생성할 수 없습니다."));
+            return;
+          }
+          ctx.drawImage(img, 0, 0, w, h);
+          const base64 = canvas.toDataURL("image/jpeg", 0.84);
+
+          const svg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+              <defs>
+                <style>*{shape-rendering:geometricPrecision}</style>
+              </defs>
+              <rect width="${w}" height="${h}" rx="${Math.min(w, h) / 2}" fill="#0f172a"/>
+              <image x="0" y="0" width="${w}" height="${h}" href="${base64}" preserveAspectRatio="xMidYMid slice"/>
+            </svg>`;
+
+          const svgUri = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg.trim());
+          URL.revokeObjectURL(url);
+          resolve(svgUri);
+        };
+
+        img.onerror = () => {
+          URL.revokeObjectURL(url);
+          reject(new Error("이미지를 로드할 수 없습니다."));
+        };
+
+        img.src = url;
+      });
     }
 
     function normalizePayload(parsed) {
@@ -345,6 +397,26 @@
       selectedNodeId = parent.id;
       markDirty();
       setStatus("노드 추가됨");
+    }
+
+    function replacePhotoOfSelectedNode(nextPhoto) {
+      if (!selectedNodeId) {
+        alert("먼저 노드를 선택해주세요.");
+        return;
+      }
+
+      const currentTree = treeToObject(root);
+      const target = findNode(currentTree, selectedNodeId);
+      if (!target) {
+        alert("선택된 노드를 찾지 못했습니다.");
+        return;
+      }
+
+      target.photo = nextPhoto;
+      pushHistory();
+      replaceTree(currentTree, false);
+      markDirty();
+      setStatus("사진이 변경되었습니다.");
     }
 
     function removeNodeById(source, targetId) {
@@ -600,7 +672,6 @@
         .on("click", (event, d) => {
           event.preventDefault();
           event.stopPropagation();
-          const next = (d.children || d._children || []).length === 0;
           addChildToNode(d.data.id);
           setStatus(`${d.data.name}에 자식 노드를 추가합니다`);
         });
@@ -725,6 +796,28 @@
     document.getElementById("layoutBtn").addEventListener("click", toggleLayout);
     document.getElementById("addBtn").addEventListener("click", addChildToSelected);
     document.getElementById("removeBtn").addEventListener("click", removeSelectedNode);
+    document.getElementById("uploadBtn").addEventListener("click", () => {
+      if (!selectedNodeId) {
+        alert("사진을 바꿀 노드를 먼저 선택해주세요.");
+        return;
+      }
+
+      const input = document.createElement("input");
+      input.type = "file";
+      input.accept = "image/*";
+      input.onchange = async () => {
+        const file = input.files && input.files[0];
+        if (!file) return;
+        try {
+          const svgPhoto = await imageToSvgDataUri(file);
+          replacePhotoOfSelectedNode(svgPhoto);
+        } catch (e) {
+          console.warn(e);
+          alert("이미지 업로드에 실패했습니다.");
+        }
+      };
+      input.click();
+    });
     document.getElementById("undoBtn").addEventListener("click", undoHistory);
     document.getElementById("saveBtn").addEventListener("click", () => saveData(root));
     document.getElementById("downloadBtn").addEventListener("click", downloadJson);
