@@ -78,6 +78,11 @@
       pointer-events: none;
     }
     .type-badge { font-size: 14px; pointer-events: none; opacity: 0.9; }
+    .action-btn-bg { fill: #0f172a; stroke: #93c5fd; stroke-width: 1; }
+    .action-btn-text { fill: #e2e8f0; font-size: 11px; font-weight: 700; pointer-events: none; text-anchor: middle; dominant-baseline: central; }
+    .node .action { cursor: pointer; opacity: 0.2; transition: opacity 0.2s ease; }
+    .node.selected .action { opacity: 1; }
+    .node .action.hidden { display: none; }
   </style>
 </head>
 <body>
@@ -295,8 +300,19 @@
     }
 
     function addChildToSelected() {
-      const currentTree = treeToObject(root);
       const parentId = selectedNodeId || defaultData.id;
+      addChildToNode(parentId);
+    }
+
+    function isLeaf(nodeData) {
+      if (!nodeData) return false;
+      const visibleChildren = nodeData.children || [];
+      const hiddenChildren = nodeData._children || [];
+      return visibleChildren.length + hiddenChildren.length === 0;
+    }
+
+    function addChildToNode(parentId) {
+      const currentTree = treeToObject(root);
       const parent = findNode(currentTree, parentId);
       if (!parent) {
         alert("선택된 노드를 찾을 수 없습니다.");
@@ -358,6 +374,7 @@
         alert("루트는 삭제할 수 없습니다.");
         return;
       }
+      if (!confirm("정말 삭제하시겠어요?")) return;
       const next = treeToObject(root);
       const removed = removeNodeById(next, selectedNodeId);
       if (!removed) {
@@ -575,12 +592,69 @@
         .attr("y", -NODE_R + 12)
         .text(d => d.data.type === "dog" ? "🐶" : (d.data.type === "human" ? "👤" : "🌳"));
 
+      const actionOffsetY = -NODE_R - 26;
+      const actionOffsetX = -26;
+      const addAction = nodeEnter.append("g")
+        .attr("class", "action hidden")
+        .attr("transform", `translate(${actionOffsetX},${actionOffsetY})`)
+        .on("click", (event, d) => {
+          event.preventDefault();
+          event.stopPropagation();
+          const next = (d.children || d._children || []).length === 0;
+          addChildToNode(d.data.id);
+          setStatus(`${d.data.name}에 자식 노드를 추가합니다`);
+        });
+      addAction.append("circle")
+        .attr("r", 11)
+        .attr("class", "action-btn-bg");
+      addAction.append("text")
+        .attr("class", "action-btn-text")
+        .attr("y", 0.5)
+        .text("+");
+
+      const delAction = nodeEnter.append("g")
+        .attr("class", "action hidden")
+        .attr("transform", `translate(${actionOffsetX + 28},${actionOffsetY})`)
+        .on("click", (event, d) => {
+          event.preventDefault();
+          event.stopPropagation();
+          selectedNodeId = d.data.id;
+          removeSelectedNode();
+        });
+      delAction.append("circle")
+        .attr("r", 11)
+        .attr("class", "action-btn-bg");
+      delAction.append("text")
+        .attr("class", "action-btn-text")
+        .attr("y", 0.5)
+        .text("−");
+
       const nodeUpdate = nodeEnter.merge(nodeSel);
       nodeUpdate.transition().duration(350)
         .attr("transform", d => `translate(${d._sx},${d._sy})`);
 
       nodeUpdate.select("text.label")
         .text(d => truncate(d.data.name, 12));
+
+      nodeUpdate.select(".action")
+        .classed("hidden", d => !(d.data.id === selectedNodeId) || !isLeaf(d.data))
+        .attr("transform", d => {
+          const isSelectedLeaf = d.data.id === selectedNodeId && isLeaf(d.data);
+          const x = isSelectedLeaf ? -26 : 0;
+          const y = isSelectedLeaf ? -NODE_R - 26 : 0;
+          return `translate(${x},${y})`;
+        });
+
+      nodeUpdate.selectAll(".action").each(function (d) {
+        const g = d3.select(this);
+        if (d.data.id === selectedNodeId && isLeaf(d.data)) {
+          g.classed("hidden", false);
+          g.style("opacity", 1);
+        } else {
+          g.style("opacity", 0.2);
+          if (!g.classed("hidden")) g.classed("hidden", true);
+        }
+      });
 
       nodeUpdate.select("circle.node-border")
         .classed("has-children", d => !!(d.children || d._children))
