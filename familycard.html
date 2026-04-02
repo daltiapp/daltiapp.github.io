@@ -77,19 +77,15 @@
       stroke-linejoin: round;
       pointer-events: none;
     }
-    .type-badge {
-      font-size: 18px;
-      pointer-events: none;
-      opacity: 1;
+    .gender-badge { pointer-events: none; }
+    .gender-badge-bg { stroke-width: 1.5; }
+    .gender-badge-text {
       fill: #f8fafc;
-      font-weight: 900;
+      font-size: 12px;
+      font-weight: 800;
       text-anchor: middle;
-      dominant-baseline: middle;
-      font-family: "Apple Color Emoji","Segoe UI Symbol","Noto Color Emoji","Noto Sans Symbols","Noto Sans KR",sans-serif;
-      paint-order: stroke;
-      stroke: rgba(0,0,0,0.35);
-      stroke-width: 2px;
-      stroke-linejoin: round;
+      dominant-baseline: central;
+      font-family: "Apple Symbols","Segoe UI Symbol","Noto Sans Symbols 2","Arial Unicode MS",sans-serif;
     }
     .action-btn-bg { fill: #0f172a; stroke: #93c5fd; stroke-width: 1; }
     .action-btn-text { fill: #e2e8f0; font-size: 11px; font-weight: 700; pointer-events: none; text-anchor: middle; dominant-baseline: central; }
@@ -101,17 +97,17 @@
 <body>
   <div id="app">
     <div id="toolbar">
-      <button id="fitBtn">화면맞춤</button>
-      <button id="saveBtn">현재 트리 저장</button>
-      <button id="layoutBtn">보기: 상하 보기</button>
-      <button id="addBtn">선택 노드에 자식 추가</button>
-      <button id="removeBtn">선택 노드 삭제</button>
-      <button id="uploadBtn">선택 노드 사진 업로드</button>
+      <button id="fitBtn">전체 보기</button>
+      <button id="saveBtn">지금 저장</button>
+      <button id="layoutBtn">방향: 상하</button>
+      <button id="addBtn">자식 추가</button>
+      <button id="removeBtn">선택 삭제</button>
+      <button id="uploadBtn">사진 변경</button>
       <button id="undoBtn" disabled>되돌리기</button>
-      <button id="downloadBtn">JSON 다운로드</button>
-      <button id="importBtn">JSON 불러오기</button>
-      <button id="clearLocalBtn">로컬 저장 초기화</button>
-      <button id="resetBtn">초기화</button>
+      <button id="downloadBtn">백업 저장</button>
+      <button id="importBtn">백업 불러오기</button>
+      <button id="clearLocalBtn">저장 초기화</button>
+      <button id="resetBtn">보기 초기화</button>
       <span id="status" class="hint">📱 핀치줌/드래그로 이동 · 노드 클릭: 선택/접기·펼치기 · 더블클릭: 이름 수정</span>
     </div>
     <div id="tree"></div>
@@ -482,13 +478,37 @@
       return visibleChildren.length + hiddenChildren.length === 0;
     }
 
-    function getGenderBadge(data) {
-      if (!data || (data.type !== "human" && data.type !== "person")) return "";
-      const raw = `${data.gender || ""}`.trim().toLowerCase();
-      if (raw === "m" || raw === "남" || raw === "남자" || raw === "male" || raw === "♂") return "♂";
-      if (raw === "f" || raw === "여" || raw === "여자" || raw === "female" || raw === "♀") return "♀";
-      if (raw === "x" || raw === "intersex" || raw === "⚥") return "⚥";
+    function normalizeGender(value) {
+      const raw = `${value || ""}`.trim().toLowerCase();
+      if (raw === "m" || raw === "남" || raw === "남자" || raw === "male" || raw === "♂") return "M";
+      if (raw === "f" || raw === "여" || raw === "여자" || raw === "female" || raw === "♀") return "F";
+      if (raw === "x" || raw === "intersex" || raw === "⚥") return "X";
       return "";
+    }
+
+    function getGenderBadge(data) {
+      if (!data) return null;
+      const normalized = normalizeGender(data.gender);
+      if (!normalized) return null;
+      if (normalized === "M") return { text: "♂", fill: "#0284c7", stroke: "#7dd3fc" };
+      if (normalized === "F") return { text: "♀", fill: "#db2777", stroke: "#f9a8d4" };
+      return { text: "⚥", fill: "#7c3aed", stroke: "#c4b5fd" };
+    }
+
+    function updateGenderBadge(selection) {
+      selection.each(function (d) {
+        const badge = getGenderBadge(d.data);
+        const group = d3.select(this);
+        group.style("display", badge ? null : "none");
+        if (!badge) return;
+
+        group.select("circle")
+          .attr("fill", badge.fill)
+          .attr("stroke", badge.stroke);
+
+        group.select("text")
+          .text(badge.text);
+      });
     }
 
     function addChildToNode(parentId) {
@@ -509,11 +529,10 @@
       const type = (typeInput === "human" || typeInput === "dog" || typeInput === "group") ? typeInput : "human";
 
       let gender = "";
-      if (type === "human") {
+      if (type !== "group") {
         const rawGender = prompt("성별을 입력하세요 (M/F/X)", "M");
         if (rawGender === null) return;
-        const upperGender = (rawGender || "").trim().toUpperCase();
-        gender = (upperGender === "M" || upperGender === "F" || upperGender === "X") ? upperGender : "M";
+        gender = normalizeGender(rawGender) || "M";
       }
 
       const rawLabel = prompt("표시 텍스트 (1~2자 권장)", "N");
@@ -526,7 +545,7 @@
       parent.children.push({
         id: `n_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
         type,
-        gender: (type === "human") ? gender : "",
+        gender,
         name: name || "새 멤버",
         photo: avatarDataUri(safeLabel, nextColor),
         children: []
@@ -640,8 +659,8 @@
     const NODE_GAP_X = 90;
     const NODE_GAP_Y = 170;
     const LAYOUT_LABELS = {
-      horizontal: "좌우 보기",
-      vertical: "상하 보기"
+      horizontal: "좌우",
+      vertical: "상하"
     };
 
     let root = d3.hierarchy(data);
@@ -725,6 +744,13 @@
       const next = prompt("이름을 수정하세요", d.data.name);
       if (next === null) return;
       d.data.name = next.trim() || d.data.name;
+      if (d.data.type !== "group") {
+        const currentGender = normalizeGender(d.data.gender);
+        const nextGender = prompt("성별을 입력하세요 (M/F/X, 비우면 제거)", currentGender);
+        if (nextGender !== null) {
+          d.data.gender = normalizeGender(nextGender);
+        }
+      }
       update(d);
       markDirty();
     }
@@ -830,11 +856,17 @@
         .attr("dy", NODE_R + 18)
         .text(d => truncate(d.data.name, 12));
 
-      nodeEnter.append("text")
-        .attr("class", "type-badge")
-        .attr("x", 0)
-        .attr("y", -NODE_R + 4)
-        .text(d => getGenderBadge(d.data));
+      const genderBadgeEnter = nodeEnter.append("g")
+        .attr("class", "gender-badge")
+        .attr("transform", `translate(${NODE_R - 8},${-NODE_R + 8})`);
+
+      genderBadgeEnter.append("circle")
+        .attr("class", "gender-badge-bg")
+        .attr("r", 10);
+
+      genderBadgeEnter.append("text")
+        .attr("class", "gender-badge-text")
+        .attr("y", 0.5);
 
       const actionOffsetY = -NODE_R - 26;
       const actionOffsetX = -26;
@@ -878,8 +910,7 @@
 
       nodeUpdate.select("text.label")
         .text(d => truncate(d.data.name, 12));
-      nodeUpdate.select(".type-badge")
-        .text(d => getGenderBadge(d.data));
+      updateGenderBadge(nodeUpdate.select(".gender-badge"));
 
       nodeUpdate.select(".action")
         .classed("hidden", d => !(d.data.id === selectedNodeId) || !isLeaf(d.data))
@@ -923,7 +954,7 @@
     function toggleLayout() {
       layoutMode = layoutMode === "horizontal" ? "vertical" : "horizontal";
       updateLayoutButtonText();
-      setStatus(`${layoutMode === "horizontal" ? "좌우" : "상하"} 보기`);
+      setStatus(`보기 방향: ${LAYOUT_LABELS[layoutMode]}`);
       update(root);
       fitToScreen();
       markDirty();
@@ -932,8 +963,7 @@
     function updateLayoutButtonText() {
       const btn = document.getElementById("layoutBtn");
       if (!btn) return;
-      const next = layoutMode === "horizontal" ? "vertical" : "horizontal";
-      btn.textContent = `보기: ${LAYOUT_LABELS[next]}`;
+      btn.textContent = `방향: ${LAYOUT_LABELS[layoutMode]}`;
     }
 
     function fitToScreen() {
