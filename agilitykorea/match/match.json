@@ -431,18 +431,6 @@
       "matchTypes": ["AG1", "AG2", "AG3"],
       "club": "한국애견연맹",
       "sponsor": "한국애견연맹"
-    },
-    {
-      "date": "2026-11-07T08:00:00",
-      "applicationPeriod": "2026-11-01 ~ 2026-11-02",
-      "name": "2026 KAO(Korea Agility Open)",
-      "location": "강아지숲",
-      "url": "https://www.instagram.com/p/DUDAlFTkydz/?img_index=1",
-      "judge": ["강아지숲"],
-      "eventType": "랭킹전",
-      "matchTypes": ["펜타슬론", "바이애슬론","스누커","갬블러"],
-      "club": "강아지숲",
-      "sponsor": "WAO"
     }
   ]
 }
