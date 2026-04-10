@@ -48,13 +48,36 @@
     },
     {
       "club": {
+        "name": "코리아어질리티",
+        "isVisible": false,
+        "location": {
+          "name": "코리아어질리티",
+          "address": "경기도 양주시 은현면 화합로1080번길 304-16",
+          "latitude": 37.6521031526954,
+          "longitude": 127.687106349987
+        },
+        "photos": [
+          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
+          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
+          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
+          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
+          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
+        ],
+        "homepage_url": "https://www.agility.co.kr",
+        "instagram_url": "https://www.instagram.com/korea_dogsports",
+        "kakao_url": "https://pf.kakao.com/_BfHUb",
+        "youtube_url": ""
+      }
+    },
+    {
+      "club": {
         "name": "한국어질리티연합",
         "isVisible": false,
         "location": {
           "name": "한국어질리티연합",
-          "address": "서울 강동구 양재대로1355 210호",
-          "latitude": 37.527398281,
-          "longitude": 127.135617141
+          "address": "경기도 양주시 은현면 화합로1080번길 304-16",
+          "latitude": 37.6521031526954,
+          "longitude": 127.687106349987
         },
         "photos": [
           "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
@@ -67,29 +90,6 @@
         "instagram_url": "https://www.instagram.com/korea_kennel_agility",
         "kakao_url": "https://pf.kakao.com/_HlJFG",
         "youtube_url": "https://www.youtube.com/@KOREAKENNELAGILITY"
-      }
-    },
-    {
-      "club": {
-        "name": "코리아어질리티",
-        "isVisible": false,
-        "location": {
-          "name": "코리아어질리티",
-          "address": "서울 강동구 양재대로1355 210호",
-          "latitude": 37.527398281,
-          "longitude": 127.135617141
-        },
-        "photos": [
-          "https://drive.google.com/uc?export=view&id=1PVo5IqUCJdE_4FujLSaemhcjEzOXNLGr",
-          "https://drive.google.com/uc?export=view&id=1cUsjMKgw2qkWeSJj55Sf_rZmXxT_PrbC",
-          "https://drive.google.com/uc?export=view&id=1UOwLAVjOIxZAdmmwgG66q26ju0BRIUO5",
-          "https://drive.google.com/uc?export=view&id=12DlJ1ytdYp_IMaLMWrjincGhaAHWQap_",
-          "https://drive.google.com/uc?export=view&id=1VWOaK3lttr8vvcZDoyKqDpzWnZBjcB-W"
-        ],
-        "homepage_url": "https://www.agility.co.kr",
-        "instagram_url": "https://www.instagram.com/kam.official.mag",
-        "kakao_url": "https://pf.kakao.com/_BfHUb",
-        "youtube_url": ""
       }
     },
     {
