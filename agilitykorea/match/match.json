@@ -419,6 +419,18 @@
       "matchTypes": ["비기너", "노비스"],
       "club": "한국어질리티연합",
       "sponsor": "한국어질리티연합"
+    },
+    {
+      "date": "2026-05-03T08:30:00",
+      "applicationPeriod": "2026-04-05 ~ 2026-04-19",
+      "name": "2026 홍천 FCI 인터내셔널 어질리티 경기대회",
+      "location": "오수의견관광지",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=852",
+      "judge": ["김혜민, 이재룡"],
+      "eventType": "승급전",
+      "matchTypes": ["AG1", "AG2", "AG3"],
+      "club": "한국애견연맹",
+      "sponsor": "한국애견연맹"
     }
   ]
 }
