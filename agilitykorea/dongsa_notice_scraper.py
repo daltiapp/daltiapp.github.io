@@ -27,7 +27,7 @@ from kkf_notice_scraper import (
 BASE_LIST_URL = "http://www.dong-sa.or.kr/board/index.jsp?code=notice"
 OUTPUT_DIR = Path(__file__).resolve().parent / "notice" / "dongsa"
 OUTPUT_JSON = OUTPUT_DIR / "notice_dongsa.json"
-DETAIL_DIR = OUTPUT_DIR / "detail"
+DETAIL_DIR = OUTPUT_DIR
 LOG_FILE = OUTPUT_DIR / "dongsa_notice_scraper.log"
 
 KEYWORDS = ["WAO", "KAO", "어질리티"]
@@ -347,7 +347,7 @@ def build_index_item(item: NoticeItem) -> dict[str, object]:
         "published_at": item.published_at,
         "matched_keywords": item.matched_keywords,
         "matched_in": item.matched_in,
-        "detail_path": f"./detail/{item.seq}.json",
+        "detail_path": f"./{item.seq}.json",
         "image_count": len(item.image_urls),
         "attachment_count": len(item.attachments),
         "table_count": len(item.tables),
@@ -372,6 +372,8 @@ def save_result(items: list[NoticeItem]) -> None:
         written_detail_names.add(detail_name)
 
     for stale_path in DETAIL_DIR.glob("*.json"):
+        if stale_path.name == OUTPUT_JSON.name:
+            continue
         if stale_path.name not in written_detail_names:
             stale_path.unlink()
 
@@ -381,7 +383,7 @@ def save_result(items: list[NoticeItem]) -> None:
         "storage": "split_index_detail",
         "keywords": KEYWORDS,
         "total_count": len(items),
-        "detail_dir": "./detail",
+        "detail_dir": "./",
         "items": [build_index_item(item) for item in items],
     }
     write_json_file(OUTPUT_JSON, payload)

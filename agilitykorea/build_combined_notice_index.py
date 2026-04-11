@@ -16,13 +16,13 @@ SOURCES = [
         "key": "kkf",
         "label": "KKF",
         "index_path": NOTICE_DIR / "kkf" / "notice_kkf.json",
-        "detail_prefix": "./kkf/detail/",
+        "detail_prefix": "./kkf/",
     },
     {
         "key": "dongsa",
         "label": "Dongsa",
         "index_path": NOTICE_DIR / "dongsa" / "notice_dongsa.json",
-        "detail_prefix": "./dongsa/detail/",
+        "detail_prefix": "./dongsa/",
     },
 ]
 
@@ -33,9 +33,13 @@ def load_json(path: Path) -> dict[str, object]:
 
 def normalize_detail_path(detail_path: str, detail_prefix: str) -> str:
     suffix = str(detail_path or "").strip()
+    if not suffix:
+        return ""
     if suffix.startswith("./detail/"):
-        return f"{detail_prefix}{suffix.removeprefix('./detail/')}"
-    return suffix
+        suffix = suffix.removeprefix("./detail/")
+    elif suffix.startswith("./"):
+        suffix = suffix.removeprefix("./")
+    return f"{detail_prefix}{suffix}"
 
 
 def merged_items() -> tuple[list[str], list[dict[str, object]]]:
