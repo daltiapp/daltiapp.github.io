@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KKF 공지 뷰어</title>
+  <style>
+    :root {
+      --bg: #f3f0e8;
+      --panel: #fffdf8;
+      --line: #d5cfc1;
+      --text: #231f18;
+      --muted: #6d6458;
+      --accent: #8b3f1f;
+      --accent-soft: #f3e1d6;
+      --shadow: 0 18px 50px rgba(44, 28, 16, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Pretendard", "Noto Sans KR", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(139, 63, 31, 0.08), transparent 32%),
+        linear-gradient(180deg, #f8f5ef 0%, #eee8dc 100%);
+      min-height: 100vh;
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 360px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      border-right: 1px solid var(--line);
+      background: rgba(255, 253, 248, 0.94);
+      backdrop-filter: blur(18px);
+      padding: 24px 20px;
+      overflow: auto;
+    }
+
+    .content {
+      padding: 28px;
+      overflow: auto;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    .toolbar,
+    .detail-toolbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .toolbar {
+      margin-bottom: 16px;
+    }
+
+    .toolbar input[type="search"] {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px 14px;
+      background: #fff;
+      font-size: 14px;
+    }
+
+    .toolbar input[type="file"] {
+      width: 100%;
+      font-size: 13px;
+    }
+
+    .status {
+      margin: 0 0 14px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .item {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+      padding: 14px;
+      cursor: pointer;
+      transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+    }
+
+    .item:hover,
+    .item.active {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+      box-shadow: var(--shadow);
+    }
+
+    .item-title {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .item-meta,
+    .meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .board {
+      background: rgba(255, 253, 248, 0.96);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .board-head {
+      padding: 24px 28px 18px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(243, 237, 228, 0.88));
+    }
+
+    .board-title {
+      margin: 0 0 14px;
+      font-size: 30px;
+      line-height: 1.28;
+      letter-spacing: -0.02em;
+    }
+
+    .detail-toolbar {
+      margin-top: 18px;
+    }
+
+    .link-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 14px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .link-button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .board-body {
+      padding: 28px;
+    }
+
+    .board-html {
+      line-height: 1.85;
+      font-size: 16px;
+      word-break: break-word;
+    }
+
+    .board-html img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 16px auto;
+      border-radius: 14px;
+      box-shadow: 0 14px 28px rgba(35, 31, 24, 0.08);
+    }
+
+    .board-html table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      background: #fff;
+    }
+
+    .board-html th,
+    .board-html td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      vertical-align: top;
+    }
+
+    .board-html a {
+      color: var(--accent);
+    }
+
+    .board-side {
+      display: grid;
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      background: rgba(255,255,255,0.72);
+    }
+
+    .panel h2 {
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+
+    .table-block {
+      overflow: auto;
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    .table-block table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .table-block th,
+    .table-block td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      text-align: left;
+      white-space: pre-wrap;
+      vertical-align: top;
+    }
+
+    .link-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .link-list a {
+      color: var(--accent);
+      font-size: 13px;
+      line-height: 1.5;
+      word-break: break-all;
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 980px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .content {
+        padding: 18px;
+      }
+
+      .board-head,
+      .board-body {
+        padding: 20px;
+      }
+
+      .board-title {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <h1>KKF 공지 뷰어</h1>
+      <div class="sub">`notice_kkf.json`을 읽어 게시판처럼 렌더합니다. 로컬 파일로 열어서 자동 로드가 막히면 아래 파일 선택으로 불러오면 됩니다.</div>
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="제목, 본문, 날짜 검색">
+        <input id="fileInput" type="file" accept=".json,application/json">
+      </div>
+      <p id="status" class="status">`./notice_kkf.json` 자동 로드를 시도합니다.</p>
+      <div id="list" class="list"></div>
+    </aside>
+    <main class="content">
+      <section class="board">
+        <div class="board-head">
+          <div id="meta" class="meta"></div>
+          <h2 id="title" class="board-title">게시물을 선택하세요.</h2>
+          <div id="detailToolbar" class="detail-toolbar"></div>
+        </div>
+        <div class="board-body">
+          <div id="body" class="board-html empty">왼쪽 목록에서 게시물을 선택하면 본문 HTML을 그대로 렌더합니다.</div>
+          <div class="board-side">
+            <section class="panel">
+              <h2>추출된 표</h2>
+              <div id="tables" class="empty">표가 없습니다.</div>
+            </section>
+            <section class="panel">
+              <h2>본문 링크</h2>
+              <div id="links" class="empty">링크가 없습니다.</div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>
+    const DEFAULT_JSON_URL = "./notice_kkf.json";
+    const state = {
+      source: null,
+      items: [],
+      filtered: [],
+      selectedSeq: null,
+    };
+
+    const statusEl = document.getElementById("status");
+    const listEl = document.getElementById("list");
+    const titleEl = document.getElementById("title");
+    const metaEl = document.getElementById("meta");
+    const bodyEl = document.getElementById("body");
+    const tablesEl = document.getElementById("tables");
+    const linksEl = document.getElementById("links");
+    const detailToolbarEl = document.getElementById("detailToolbar");
+    const searchEl = document.getElementById("searchInput");
+    const fileEl = document.getElementById("fileInput");
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function setStatus(message) {
+      statusEl.textContent = message;
+    }
+
+    function formatMeta(item) {
+      const meta = [];
+      if (item.published_at_raw) meta.push(`작성일 ${item.published_at_raw}`);
+      if (item.view_count !== null && item.view_count !== undefined) meta.push(`조회수 ${item.view_count}`);
+      if (item.seq) meta.push(`seq ${item.seq}`);
+      return meta;
+    }
+
+    function normalizePayload(payload) {
+      const items = Array.isArray(payload.items) ? payload.items.slice() : [];
+      items.sort((a, b) => Number(a.seq || 0) - Number(b.seq || 0));
+      return items;
+    }
+
+    function applyFilter() {
+      const query = searchEl.value.trim().toLowerCase();
+      if (!query) {
+        state.filtered = state.items.slice();
+      } else {
+        state.filtered = state.items.filter((item) => {
+          const haystack = [
+            item.title,
+            item.body_text,
+            item.published_at_raw,
+            (item.matched_keywords || []).join(" "),
+          ].join("\n").toLowerCase();
+          return haystack.includes(query);
+        });
+      }
+
+      renderList();
+
+      if (!state.filtered.some((item) => item.seq === state.selectedSeq)) {
+        state.selectedSeq = state.filtered[0]?.seq || null;
+      }
+
+      renderDetail();
+    }
+
+    function renderList() {
+      listEl.innerHTML = "";
+      if (!state.filtered.length) {
+        listEl.innerHTML = '<div class="empty">조건에 맞는 게시물이 없습니다.</div>';
+        return;
+      }
+
+      for (const item of state.filtered) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `item${item.seq === state.selectedSeq ? " active" : ""}`;
+        button.innerHTML = `
+          <div class="item-title">${escapeHtml(item.title || "(제목 없음)")}</div>
+          <div class="item-meta">${formatMeta(item).map(escapeHtml).map((text) => `<span>${text}</span>`).join("")}</div>
+        `;
+        button.addEventListener("click", () => {
+          state.selectedSeq = item.seq;
+          renderList();
+          renderDetail();
+        });
+        listEl.appendChild(button);
+      }
+    }
+
+    function renderTables(item) {
+      const tables = Array.isArray(item.tables) ? item.tables : [];
+      if (!tables.length) {
+        tablesEl.className = "empty";
+        tablesEl.textContent = "표가 없습니다.";
+        return;
+      }
+
+      tablesEl.className = "";
+      tablesEl.innerHTML = tables.map((table) => {
+        const rows = Array.isArray(table.rows) ? table.rows : [];
+        const header = rows[0] || [];
+        const bodyRows = rows.slice(1);
+        return `
+          <div class="table-block">
+            <table>
+              ${header.length ? `<thead><tr>${header.map((cell) => `<th>${escapeHtml(cell)}</th>`).join("")}</tr></thead>` : ""}
+              <tbody>
+                ${bodyRows.map((row) => `<tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join("")}</tr>`).join("")}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function renderLinks(item) {
+      const links = Array.isArray(item.link_urls) ? item.link_urls : [];
+      if (!links.length) {
+        linksEl.className = "empty";
+        linksEl.textContent = "링크가 없습니다.";
+        return;
+      }
+
+      linksEl.className = "link-list";
+      linksEl.innerHTML = links
+        .map((url) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(url)}</a>`)
+        .join("");
+    }
+
+    function renderDetail() {
+      const item = state.filtered.find((entry) => entry.seq === state.selectedSeq) || state.filtered[0];
+      if (!item) {
+        titleEl.textContent = "게시물이 없습니다.";
+        metaEl.innerHTML = "";
+        bodyEl.className = "board-html empty";
+        bodyEl.textContent = "목록이 비어 있습니다.";
+        detailToolbarEl.innerHTML = "";
+        renderTables({ tables: [] });
+        renderLinks({ link_urls: [] });
+        return;
+      }
+
+      state.selectedSeq = item.seq;
+      titleEl.textContent = item.title || "(제목 없음)";
+      metaEl.innerHTML = formatMeta(item).map(escapeHtml).map((text) => `<span>${text}</span>`).join("");
+      detailToolbarEl.innerHTML = `
+        <a class="link-button" href="${escapeHtml(item.url || "#")}" target="_blank" rel="noopener noreferrer">공개 상세 열기</a>
+        <a class="link-button" href="${escapeHtml(item.internal_url || item.url || "#")}" target="_blank" rel="noopener noreferrer">내부 상세 열기</a>
+      `;
+      bodyEl.className = "board-html";
+      bodyEl.innerHTML = item.body_html || `<pre>${escapeHtml(item.body_text || "")}</pre>`;
+      renderTables(item);
+      renderLinks(item);
+    }
+
+    function loadPayload(payload, sourceLabel) {
+      state.source = sourceLabel;
+      state.items = normalizePayload(payload);
+      state.filtered = state.items.slice();
+      state.selectedSeq = state.items[0]?.seq || null;
+      setStatus(`${sourceLabel} 로드 완료: ${state.items.length}건`);
+      renderList();
+      renderDetail();
+    }
+
+    async function loadDefaultJson() {
+      try {
+        const response = await fetch(DEFAULT_JSON_URL, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        loadPayload(payload, DEFAULT_JSON_URL);
+      } catch (error) {
+        setStatus(`자동 로드 실패: ${error.message}. 아래에서 JSON 파일을 직접 선택하세요.`);
+      }
+    }
+
+    fileEl.addEventListener("change", async (event) => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const text = await file.text();
+      const payload = JSON.parse(text);
+      loadPayload(payload, file.name);
+    });
+
+    searchEl.addEventListener("input", applyFilter);
+    loadDefaultJson();
+  </script>
+</body>
+</html>
