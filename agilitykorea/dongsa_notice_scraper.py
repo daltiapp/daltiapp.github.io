@@ -283,23 +283,17 @@ def extract_attachments(view_url: str, view_html: str) -> list[dict[str, object]
     return attachments
 
 
-def detect_keywords(title: str, body_text: str) -> tuple[list[str], list[str]]:
+def detect_keywords(title: str) -> tuple[list[str], list[str]]:
     title_l = lower_text(title)
-    body_l = lower_text(body_text)
     matched_keywords: list[str] = []
     matched_in: set[str] = set()
 
     for keyword in KEYWORDS:
         keyword_l = keyword.lower()
-        in_title = keyword_l in title_l
-        in_body = keyword_l in body_l
-        if not in_title and not in_body:
+        if keyword_l not in title_l:
             continue
         matched_keywords.append(keyword)
-        if in_title:
-            matched_in.add("title")
-        if in_body:
-            matched_in.add("body")
+        matched_in.add("title")
 
     return dedupe_keep_order(matched_keywords), sorted(matched_in)
 
@@ -321,7 +315,7 @@ def parse_notice_detail(detail_url: str) -> NoticeItem | None:
     body_text = extract_rich_text(body_html)
     tables = extract_tables(body_html)
     attachments = extract_attachments(canonical_url, view_html)
-    matched_keywords, matched_in = detect_keywords(title, body_text)
+    matched_keywords, matched_in = detect_keywords(title)
     if not matched_keywords:
         return None
 
