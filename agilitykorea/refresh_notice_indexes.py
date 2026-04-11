@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).resolve().parent
-COMBINED_JSON = BASE_DIR / "notice" / "notice_combined.json"
+COMBINED_JSON = BASE_DIR / "notice" / "notice.json"
 
 STEPS = [
     BASE_DIR / "kkf_notice_scraper.py",

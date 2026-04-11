@@ -9,7 +9,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 NOTICE_DIR = BASE_DIR / "notice"
-OUTPUT_JSON = NOTICE_DIR / "notice_combined.json"
+OUTPUT_JSON = NOTICE_DIR / "notice.json"
 
 SOURCES = [
     {
@@ -52,6 +52,7 @@ def merged_items() -> tuple[list[str], list[dict[str, object]]]:
             merged = dict(item)
             merged["source"] = source["key"]
             merged["source_label"] = source["label"]
+            merged["board"] = source["label"]
             merged["source_seq"] = item.get("seq", "")
             merged["notice_id"] = f"{source['key']}:{item.get('seq', '')}"
             merged["detail_path"] = normalize_detail_path(
