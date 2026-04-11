@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
   <title>KKF 공지 뷰어</title>
   <style>
     :root {
@@ -30,6 +30,10 @@
       min-height: 100vh;
     }
 
+    body.embedded-mode {
+      background: #ffffff;
+    }
+
     .shell {
       display: grid;
       grid-template-columns: 360px minmax(0, 1fr);
@@ -47,6 +51,20 @@
     .content {
       padding: 28px;
       overflow: auto;
+    }
+
+    .embedded-mode .shell {
+      display: block;
+      min-height: auto;
+    }
+
+    .embedded-mode .sidebar {
+      display: none;
+    }
+
+    .embedded-mode .content {
+      padding: 0;
+      overflow: visible;
     }
 
     h1 {
@@ -143,10 +161,23 @@
       overflow: hidden;
     }
 
+    .embedded-mode .board {
+      background: #ffffff;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      min-height: 100vh;
+    }
+
     .board-head {
       padding: 24px 28px 18px;
       border-bottom: 1px solid var(--line);
       background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(243, 237, 228, 0.88));
+    }
+
+    .embedded-mode .board-head {
+      padding: 18px 16px 14px;
+      background: #ffffff;
     }
 
     .board-title {
@@ -185,6 +216,10 @@
       min-width: 0;
     }
 
+    .embedded-mode .board-body {
+      padding: 16px;
+    }
+
     .board-html {
       line-height: 1.85;
       font-size: 16px;
@@ -195,7 +230,6 @@
 
     .board-html * {
       box-sizing: border-box;
-      max-width: 100%;
     }
 
     .board-html img {
@@ -237,19 +271,23 @@
 
     .board-html .table-scroll {
       width: 100%;
-      max-width: 100%;
       overflow-x: auto;
+      overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
       margin: 18px 0;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
     }
 
     .board-html .table-scroll table {
-      width: 100% !important;
-      min-width: 0;
+      width: max-content !important;
+      min-width: 100%;
+      max-width: none !important;
       margin: 0;
       border-collapse: collapse;
       background: #fff;
-      table-layout: fixed;
+      table-layout: auto;
     }
 
     .board-html th,
@@ -257,6 +295,8 @@
       border: 1px solid var(--line);
       padding: 10px 12px;
       vertical-align: top;
+      white-space: nowrap;
+      word-break: keep-all;
     }
 
     .board-html a {
@@ -269,11 +309,22 @@
       margin-top: 24px;
     }
 
+    .embedded-mode .board-side {
+      gap: 14px;
+      margin-top: 18px;
+    }
+
     .panel {
       border: 1px solid var(--line);
       border-radius: 18px;
       padding: 18px;
       background: rgba(255,255,255,0.72);
+    }
+
+    .embedded-mode .panel {
+      border-radius: 14px;
+      padding: 14px;
+      background: #fff;
     }
 
     .panel h2 {
@@ -375,6 +426,16 @@
       .item {
         padding: 12px;
       }
+
+      .board-html .table-scroll {
+        margin: 14px 0;
+      }
+
+      .board-html .table-scroll th,
+      .board-html .table-scroll td {
+        padding: 8px 10px;
+        font-size: 13px;
+      }
     }
   </style>
 </head>
@@ -419,6 +480,11 @@
   </div>
   <script>
     const DEFAULT_JSON_URL = "./notice_kkf.json";
+    const searchParams = new URLSearchParams(window.location.search);
+    const requestedSeq = searchParams.get("seq");
+    const embeddedMode = ["1", "true", "yes", "y"].includes(
+      (searchParams.get("embedded") || "").toLowerCase()
+    );
     const state = {
       source: null,
       detailBaseUrl: null,
@@ -440,6 +506,10 @@
     const detailToolbarEl = document.getElementById("detailToolbar");
     const searchEl = document.getElementById("searchInput");
     const fileEl = document.getElementById("fileInput");
+
+    if (embeddedMode) {
+      document.body.classList.add("embedded-mode");
+    }
 
     function escapeHtml(value) {
       return String(value ?? "")
@@ -720,7 +790,10 @@
       state.detailBaseUrl = sourceUrl ? new URL(sourceUrl, window.location.href).toString() : window.location.href;
       state.items = normalizePayload(payload);
       state.filtered = state.items.slice();
-      state.selectedSeq = state.items[0]?.seq || null;
+      const preferredItem = requestedSeq
+        ? state.items.find((item) => String(item.seq) === String(requestedSeq))
+        : null;
+      state.selectedSeq = preferredItem?.seq || state.items[0]?.seq || null;
       state.detailCache = new Map();
       setStatus(`${sourceLabel} 로드 완료: ${state.items.length}건`);
       renderList();
