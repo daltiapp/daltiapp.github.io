@@ -527,7 +527,6 @@
     function formatMeta(item) {
       const meta = [];
       if (item.published_at_raw) meta.push(`작성일 ${item.published_at_raw}`);
-      if (item.view_count !== null && item.view_count !== undefined) meta.push(`조회수 ${item.view_count}`);
       if (item.seq) meta.push(`seq ${item.seq}`);
       return meta;
     }

@@ -59,7 +59,6 @@ class NoticeItem:
     internal_url: str
     published_at_raw: str
     published_at: str
-    view_count: int | None
     matched_keywords: list[str]
     matched_in: list[str]
     body_html: str
@@ -491,31 +490,23 @@ def parse_published_at(raw_value: str) -> str:
     return f"{int(year):04d}-{int(month):02d}-{int(day):02d}T00:00:00+09:00"
 
 
-def extract_detail_meta(view_html: str) -> tuple[str, str, int | None]:
+def extract_detail_meta(view_html: str) -> tuple[str, str]:
     match = re.search(
         r'<table[^>]*class="[^"]*\bbbs_view\b[^"]*"[^>]*>.*?<thead>.*?<tr>\s*<td[^>]*>(.*?)</td>',
         view_html,
         re.I | re.S,
     )
     if not match:
-        return "", "", None
+        return "", ""
 
     meta_text = extract_text(match.group(1))
     published_at_raw = ""
-    view_count = None
 
     date_match = re.search(r"작성일\s*([0-9]{4}\.[0-9]{1,2}\.[0-9]{1,2})", meta_text)
     if date_match:
         published_at_raw = date_match.group(1)
 
-    view_match = re.search(r"조회수\s*([0-9,]+)", meta_text)
-    if view_match:
-        try:
-            view_count = int(view_match.group(1).replace(",", ""))
-        except ValueError:
-            view_count = None
-
-    return published_at_raw, parse_published_at(published_at_raw), view_count
+    return published_at_raw, parse_published_at(published_at_raw)
 
 
 def extract_body_inner_html(content_html: str) -> str:
@@ -668,7 +659,7 @@ def parse_notice_detail(detail_url: str) -> NoticeItem | None:
     if not matched_keywords:
         return None
 
-    published_at_raw, published_at, view_count = extract_detail_meta(view_html)
+    published_at_raw, published_at = extract_detail_meta(view_html)
     content_url = extract_content_iframe_url(canonical_url, view_html)
 
     body_html = ""
@@ -693,7 +684,6 @@ def parse_notice_detail(detail_url: str) -> NoticeItem | None:
         internal_url=canonical_url,
         published_at_raw=published_at_raw,
         published_at=published_at,
-        view_count=view_count,
         matched_keywords=matched_keywords,
         matched_in=matched_in,
         body_html=body_html,
@@ -725,8 +715,6 @@ def dedupe_notice_items(items: list[NoticeItem]) -> list[NoticeItem]:
             existing.published_at_raw = item.published_at_raw
         if not existing.published_at and item.published_at:
             existing.published_at = item.published_at
-        if existing.view_count is None and item.view_count is not None:
-            existing.view_count = item.view_count
         if not existing.body_html and item.body_html:
             existing.body_html = item.body_html
         if not existing.body_text and item.body_text:
@@ -766,7 +754,6 @@ def build_index_item(item: NoticeItem) -> dict[str, object]:
         "internal_url": item.internal_url,
         "published_at_raw": item.published_at_raw,
         "published_at": item.published_at,
-        "view_count": item.view_count,
         "matched_keywords": item.matched_keywords,
         "matched_in": item.matched_in,
         "detail_path": f"./detail/{item.seq}.json",
