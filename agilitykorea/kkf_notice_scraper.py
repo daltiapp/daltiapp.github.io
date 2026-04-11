@@ -25,7 +25,7 @@ BASE_LIST_URL = (
     "https://www.thekkf.or.kr/new_home/news/board/"
     "list.php?board=board&code=1&intCurPage=&strSearchWord=&strSearchType==&f_word=&f_idx=&part="
 )
-OUTPUT_DIR = Path(__file__).resolve().parent / "notice"
+OUTPUT_DIR = Path(__file__).resolve().parent / "notice" / "kkf"
 OUTPUT_JSON = OUTPUT_DIR / "notice_kkf.json"
 DETAIL_DIR = OUTPUT_DIR / "detail"
 LOG_FILE = OUTPUT_DIR / "kkf_notice_scraper.log"

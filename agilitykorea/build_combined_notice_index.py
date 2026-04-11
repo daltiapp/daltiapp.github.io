@@ -15,8 +15,8 @@ SOURCES = [
     {
         "key": "kkf",
         "label": "KKF",
-        "index_path": NOTICE_DIR / "notice_kkf.json",
-        "detail_prefix": "./detail/",
+        "index_path": NOTICE_DIR / "kkf" / "notice_kkf.json",
+        "detail_prefix": "./kkf/detail/",
     },
     {
         "key": "dongsa",
