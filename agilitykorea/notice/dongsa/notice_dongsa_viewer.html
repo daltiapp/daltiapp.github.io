@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
+  <title>동사 WAO/KAO/어질리티 공지 뷰어</title>
+  <style>
+    :root {
+      --bg: #f3f0e8;
+      --panel: #fffdf8;
+      --line: #d5cfc1;
+      --text: #231f18;
+      --muted: #6d6458;
+      --accent: #8b3f1f;
+      --accent-soft: #f3e1d6;
+      --shadow: 0 18px 50px rgba(44, 28, 16, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Pretendard", "Noto Sans KR", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(139, 63, 31, 0.08), transparent 32%),
+        linear-gradient(180deg, #f8f5ef 0%, #eee8dc 100%);
+      min-height: 100vh;
+    }
+
+    body.embedded-mode {
+      background: #ffffff;
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 360px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      border-right: 1px solid var(--line);
+      background: rgba(255, 253, 248, 0.94);
+      backdrop-filter: blur(18px);
+      padding: 24px 20px;
+      overflow: auto;
+    }
+
+    .content {
+      padding: 28px;
+      overflow: auto;
+    }
+
+    .embedded-mode .shell {
+      display: block;
+      min-height: auto;
+    }
+
+    .embedded-mode .sidebar {
+      display: none;
+    }
+
+    .embedded-mode .content {
+      padding: 0;
+      overflow: visible;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    .toolbar,
+    .detail-toolbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .toolbar {
+      margin-bottom: 16px;
+    }
+
+    .toolbar input[type="search"] {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px 14px;
+      background: #fff;
+      font-size: 14px;
+    }
+
+    .toolbar input[type="file"] {
+      width: 100%;
+      font-size: 13px;
+    }
+
+    .status {
+      margin: 0 0 14px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .item {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+      padding: 14px;
+      cursor: pointer;
+      transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+    }
+
+    .item:hover,
+    .item.active {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+      box-shadow: var(--shadow);
+    }
+
+    .item-title {
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .item-meta,
+    .meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .board {
+      background: rgba(255, 253, 248, 0.96);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .embedded-mode .board {
+      background: #ffffff;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      min-height: 100vh;
+    }
+
+    .board-head {
+      padding: 24px 28px 18px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(243, 237, 228, 0.88));
+    }
+
+    .embedded-mode .board-head {
+      padding: 18px 16px 14px;
+      background: #ffffff;
+    }
+
+    .board-title {
+      margin: 0 0 14px;
+      font-size: 30px;
+      line-height: 1.28;
+      letter-spacing: -0.02em;
+    }
+
+    .detail-toolbar {
+      margin-top: 18px;
+    }
+
+    .link-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 14px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .link-button:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .board-body {
+      padding: 28px;
+      min-width: 0;
+    }
+
+    .embedded-mode .board-body {
+      padding: 16px;
+    }
+
+    .board-html {
+      line-height: 1.85;
+      font-size: 16px;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      min-width: 0;
+    }
+
+    .board-html * {
+      box-sizing: border-box;
+    }
+
+    .board-html img {
+      max-width: 100% !important;
+      width: auto !important;
+      height: auto !important;
+      display: block;
+      margin: 16px auto;
+      border-radius: 14px;
+      box-shadow: 0 14px 28px rgba(35, 31, 24, 0.08);
+    }
+
+    .board-html iframe,
+    .board-html embed,
+    .board-html object {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    .board-html p,
+    .board-html div,
+    .board-html li,
+    .board-html span,
+    .board-html td,
+    .board-html th {
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      white-space: normal;
+    }
+
+    .board-html pre {
+      white-space: pre-wrap;
+      overflow-x: auto;
+      overflow-wrap: anywhere;
+      padding: 12px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.78);
+    }
+
+    .board-html .table-scroll {
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      margin: 18px 0;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .board-html .table-scroll table {
+      width: max-content !important;
+      min-width: 100%;
+      max-width: none !important;
+      margin: 0;
+      border-collapse: collapse;
+      background: #fff;
+      table-layout: auto;
+    }
+
+    .board-html th,
+    .board-html td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      vertical-align: top;
+      white-space: nowrap;
+      word-break: keep-all;
+    }
+
+    .board-html a {
+      color: var(--accent);
+    }
+
+    .board-side {
+      display: grid;
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .embedded-mode .board-side {
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      background: rgba(255,255,255,0.72);
+    }
+
+    .embedded-mode .panel {
+      border-radius: 14px;
+      padding: 14px;
+      background: #fff;
+    }
+
+    .panel h2 {
+      margin: 0 0 10px;
+      font-size: 16px;
+    }
+
+    .table-block {
+      overflow: auto;
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    .table-block table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .table-block th,
+    .table-block td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      text-align: left;
+      white-space: pre-wrap;
+      vertical-align: top;
+    }
+
+    .link-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .link-list a {
+      color: var(--accent);
+      font-size: 13px;
+      line-height: 1.5;
+      word-break: break-all;
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 980px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .content {
+        padding: 18px;
+      }
+
+      .board-head,
+      .board-body {
+        padding: 20px;
+      }
+
+      .board-title {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .sidebar,
+      .content,
+      .board-head,
+      .board-body {
+        padding: 16px;
+      }
+
+      .board {
+        border-radius: 18px;
+      }
+
+      .board-title {
+        font-size: 20px;
+        line-height: 1.4;
+      }
+
+      .board-html {
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .panel {
+        padding: 14px;
+      }
+
+      .item {
+        padding: 12px;
+      }
+
+      .board-html .table-scroll {
+        margin: 14px 0;
+      }
+
+      .board-html .table-scroll th,
+      .board-html .table-scroll td {
+        padding: 8px 10px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <h1>동사 WAO/KAO/어질리티 공지 뷰어</h1>
+      <div class="sub">동물과사람 공지사항 중 WAO, KAO, 어질리티 제목이 포함된 `notice_dongsa.json` 인덱스를 먼저 읽고, 선택한 게시물의 상세 JSON을 따로 불러옵니다. 정적 서버나 배포 환경에서 여는 방식이 가장 안정적입니다.</div>
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="제목, 날짜, WAO/KAO/어질리티 검색">
+        <input id="fileInput" type="file" accept=".json,application/json">
+      </div>
+      <p id="status" class="status">`./notice_dongsa.json` 자동 로드를 시도합니다.</p>
+      <div id="list" class="list"></div>
+    </aside>
+    <main class="content">
+      <section class="board">
+        <div class="board-head">
+          <div id="meta" class="meta"></div>
+          <h2 id="title" class="board-title">동사 공지 게시물을 선택하세요.</h2>
+          <div id="detailToolbar" class="detail-toolbar"></div>
+        </div>
+        <div class="board-body">
+          <div id="body" class="board-html empty">왼쪽 목록에서 동사 WAO/KAO/어질리티 공지를 선택하면 본문 HTML을 그대로 렌더합니다.</div>
+          <div class="board-side">
+            <section class="panel">
+              <h2>추출된 표</h2>
+              <div id="tables" class="empty">표가 없습니다.</div>
+            </section>
+            <section class="panel">
+              <h2>본문 링크</h2>
+              <div id="links" class="empty">링크가 없습니다.</div>
+            </section>
+            <section class="panel">
+              <h2>첨부파일</h2>
+              <div id="attachments" class="empty">첨부파일이 없습니다.</div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>
+    const DEFAULT_JSON_URL = "./notice_dongsa.json";
+    const searchParams = new URLSearchParams(window.location.search);
+    const requestedSeq = searchParams.get("seq");
+    const embeddedMode = ["1", "true", "yes", "y"].includes(
+      (searchParams.get("embedded") || "").toLowerCase()
+    );
+    const state = {
+      source: null,
+      detailBaseUrl: null,
+      items: [],
+      filtered: [],
+      selectedSeq: null,
+      detailCache: new Map(),
+      detailRequestSeq: null,
+    };
+
+    const statusEl = document.getElementById("status");
+    const listEl = document.getElementById("list");
+    const titleEl = document.getElementById("title");
+    const metaEl = document.getElementById("meta");
+    const bodyEl = document.getElementById("body");
+    const tablesEl = document.getElementById("tables");
+    const linksEl = document.getElementById("links");
+    const attachmentsEl = document.getElementById("attachments");
+    const detailToolbarEl = document.getElementById("detailToolbar");
+    const searchEl = document.getElementById("searchInput");
+    const fileEl = document.getElementById("fileInput");
+
+    if (embeddedMode) {
+      document.body.classList.add("embedded-mode");
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function setStatus(message) {
+      statusEl.textContent = message;
+    }
+
+    function formatMeta(item) {
+      const meta = [];
+      if (item.published_at_raw) meta.push(`작성일 ${item.published_at_raw}`);
+      if (item.seq) meta.push(`seq ${item.seq}`);
+      return meta;
+    }
+
+    function normalizePayload(payload) {
+      const items = Array.isArray(payload.items) ? payload.items.slice() : [];
+      items.sort((a, b) => Number(a.seq || 0) - Number(b.seq || 0));
+      return items;
+    }
+
+    function cleanInlineStyle(value) {
+      return String(value || "")
+        .replace(/(?:^|;)\s*width\s*:[^;]+;?/gi, ";")
+        .replace(/(?:^|;)\s*min-width\s*:[^;]+;?/gi, ";")
+        .replace(/(?:^|;)\s*max-width\s*:[^;]+;?/gi, ";")
+        .replace(/(?:^|;)\s*height\s*:[^;]+;?/gi, ";")
+        .replace(/(?:^|;)\s*min-height\s*:[^;]+;?/gi, ";")
+        .replace(/(?:^|;)\s*white-space\s*:\s*nowrap\s*;?/gi, ";")
+        .replace(/;;+/g, ";")
+        .replace(/^;|;$/g, "")
+        .trim();
+    }
+
+    function normalizeBodyHtml(html) {
+      if (!html) return "";
+
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(`<div id="body-root">${html}</div>`, "text/html");
+      const root = doc.getElementById("body-root");
+
+      if (!root) return html;
+
+      root.querySelectorAll("*").forEach((node) => {
+        node.removeAttribute("width");
+        node.removeAttribute("height");
+        node.removeAttribute("nowrap");
+
+        const cleanedStyle = cleanInlineStyle(node.getAttribute("style"));
+        if (cleanedStyle) {
+          node.setAttribute("style", cleanedStyle);
+        } else {
+          node.removeAttribute("style");
+        }
+      });
+
+      root.querySelectorAll("img").forEach((img) => {
+        img.setAttribute("loading", "lazy");
+      });
+
+      root.querySelectorAll("table").forEach((table) => {
+        if (table.parentElement && table.parentElement.classList.contains("table-scroll")) {
+          return;
+        }
+        const wrapper = doc.createElement("div");
+        wrapper.className = "table-scroll";
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      });
+
+      return root.innerHTML;
+    }
+
+    function applyFilter() {
+      const query = searchEl.value.trim().toLowerCase();
+      if (!query) {
+        state.filtered = state.items.slice();
+      } else {
+        state.filtered = state.items.filter((item) => {
+          const haystack = [
+            item.title,
+            item.published_at_raw,
+            (item.matched_keywords || []).join(" "),
+          ].join("\n").toLowerCase();
+          return haystack.includes(query);
+        });
+      }
+
+      renderList();
+
+      if (!state.filtered.some((item) => item.seq === state.selectedSeq)) {
+        state.selectedSeq = state.filtered[0]?.seq || null;
+      }
+
+      renderDetail();
+    }
+
+    function renderList() {
+      listEl.innerHTML = "";
+      if (!state.filtered.length) {
+        listEl.innerHTML = '<div class="empty">조건에 맞는 동사 공지가 없습니다.</div>';
+        return;
+      }
+
+      for (const item of state.filtered) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `item${item.seq === state.selectedSeq ? " active" : ""}`;
+        button.innerHTML = `
+          <div class="item-title">${escapeHtml(item.title || "(제목 없음)")}</div>
+          <div class="item-meta">${formatMeta(item).map(escapeHtml).map((text) => `<span>${text}</span>`).join("")}</div>
+        `;
+        button.addEventListener("click", () => {
+          state.selectedSeq = item.seq;
+          renderList();
+          void renderDetail();
+        });
+        listEl.appendChild(button);
+      }
+    }
+
+    function renderTables(item) {
+      const tables = Array.isArray(item.tables) ? item.tables : [];
+      if (!tables.length) {
+        tablesEl.className = "empty";
+        tablesEl.textContent = "표가 없습니다.";
+        return;
+      }
+
+      tablesEl.className = "";
+      tablesEl.innerHTML = tables.map((table) => {
+        const rows = Array.isArray(table.rows) ? table.rows : [];
+        const header = rows[0] || [];
+        const bodyRows = rows.slice(1);
+        return `
+          <div class="table-block">
+            <table>
+              ${header.length ? `<thead><tr>${header.map((cell) => `<th>${escapeHtml(cell)}</th>`).join("")}</tr></thead>` : ""}
+              <tbody>
+                ${bodyRows.map((row) => `<tr>${row.map((cell) => `<td>${escapeHtml(cell)}</td>`).join("")}</tr>`).join("")}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function renderLinks(item) {
+      const links = Array.isArray(item.link_urls) ? item.link_urls : [];
+      if (!links.length) {
+        linksEl.className = "empty";
+        linksEl.textContent = "링크가 없습니다.";
+        return;
+      }
+
+      linksEl.className = "link-list";
+      linksEl.innerHTML = links
+        .map((url) => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(url)}</a>`)
+        .join("");
+    }
+
+    function buildDetailUrl(detailPath) {
+      const baseUrl = state.detailBaseUrl || window.location.href;
+      return new URL(detailPath, baseUrl).toString();
+    }
+
+    async function ensureDetail(item) {
+      if (state.detailCache.has(item.seq)) {
+        return state.detailCache.get(item.seq);
+      }
+
+      if (item.body_html || item.body_text || item.tables || item.attachments) {
+        state.detailCache.set(item.seq, item);
+        return item;
+      }
+
+      if (!item.detail_path) {
+        return item;
+      }
+
+      const response = await fetch(buildDetailUrl(item.detail_path), { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      const detail = await response.json();
+      state.detailCache.set(item.seq, detail);
+      return detail;
+    }
+
+    function renderLoadingDetail(item, message) {
+      titleEl.textContent = item.title || "(제목 없음)";
+      metaEl.innerHTML = formatMeta(item).map(escapeHtml).map((text) => `<span>${text}</span>`).join("");
+      detailToolbarEl.innerHTML = `
+        <a class="link-button" href="${escapeHtml(item.url || "#")}" target="_blank" rel="noopener noreferrer">공개 상세 열기</a>
+        <a class="link-button" href="${escapeHtml(item.internal_url || item.url || "#")}" target="_blank" rel="noopener noreferrer">내부 상세 열기</a>
+      `;
+      bodyEl.className = "board-html empty";
+      bodyEl.textContent = message;
+      renderTables({ tables: [] });
+      renderLinks({ link_urls: [] });
+      renderAttachments({ attachments: [] });
+    }
+
+    async function renderDetail() {
+      const item = state.filtered.find((entry) => entry.seq === state.selectedSeq) || state.filtered[0];
+      if (!item) {
+        titleEl.textContent = "동사 공지가 없습니다.";
+        metaEl.innerHTML = "";
+        bodyEl.className = "board-html empty";
+        bodyEl.textContent = "표시할 동사 공지가 없습니다.";
+        detailToolbarEl.innerHTML = "";
+        renderTables({ tables: [] });
+        renderLinks({ link_urls: [] });
+        renderAttachments({ attachments: [] });
+        return;
+      }
+
+      state.selectedSeq = item.seq;
+      state.detailRequestSeq = item.seq;
+      renderLoadingDetail(item, "상세 내용을 불러오는 중입니다.");
+
+      try {
+        const detail = await ensureDetail(item);
+        if (state.detailRequestSeq !== item.seq) return;
+
+        titleEl.textContent = detail.title || item.title || "(제목 없음)";
+        metaEl.innerHTML = formatMeta(detail).map(escapeHtml).map((text) => `<span>${text}</span>`).join("");
+        detailToolbarEl.innerHTML = `
+          <a class="link-button" href="${escapeHtml(detail.url || item.url || "#")}" target="_blank" rel="noopener noreferrer">공개 상세 열기</a>
+          <a class="link-button" href="${escapeHtml(detail.internal_url || detail.url || item.internal_url || item.url || "#")}" target="_blank" rel="noopener noreferrer">내부 상세 열기</a>
+        `;
+        bodyEl.className = "board-html";
+        bodyEl.innerHTML = detail.body_html
+          ? normalizeBodyHtml(detail.body_html)
+          : `<pre>${escapeHtml(detail.body_text || "")}</pre>`;
+        renderTables(detail);
+        renderLinks(detail);
+        renderAttachments(detail);
+      } catch (error) {
+        if (state.detailRequestSeq !== item.seq) return;
+        renderLoadingDetail(item, `상세 JSON 로드 실패: ${error.message}. 파일을 정적 서버로 열었는지 확인하세요.`);
+      }
+    }
+
+    function renderAttachments(item) {
+      const attachments = Array.isArray(item.attachments) ? item.attachments : [];
+      if (!attachments.length) {
+        attachmentsEl.className = "empty";
+        attachmentsEl.textContent = "첨부파일이 없습니다.";
+        return;
+      }
+
+      attachmentsEl.className = "";
+      attachmentsEl.innerHTML = attachments.map((attachment) => {
+        const text = attachment.text ? `<pre style="white-space:pre-wrap; font-size:12px; line-height:1.6; background:#fff; border:1px solid var(--line); border-radius:12px; padding:12px; margin-top:10px;">${escapeHtml(attachment.text)}</pre>` : '<div class="empty" style="margin-top:10px;">PDF 텍스트를 추출하지 못했거나 첨부가 문서형이 아닙니다.</div>';
+        return `
+          <div style="padding:12px 0; border-top:1px solid var(--line);">
+            <div style="font-size:13px; font-weight:700;">${escapeHtml(attachment.label || attachment.file_name || "첨부파일")}</div>
+            <div style="margin-top:6px;">
+              <a href="${escapeHtml(attachment.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(attachment.file_name || attachment.url || "")}</a>
+            </div>
+            ${text}
+          </div>
+        `;
+      }).join("");
+    }
+
+    function loadPayload(payload, sourceLabel, sourceUrl) {
+      state.source = sourceLabel;
+      state.detailBaseUrl = sourceUrl ? new URL(sourceUrl, window.location.href).toString() : window.location.href;
+      state.items = normalizePayload(payload);
+      state.filtered = state.items.slice();
+      const preferredItem = requestedSeq
+        ? state.items.find((item) => String(item.seq) === String(requestedSeq))
+        : null;
+      state.selectedSeq = preferredItem?.seq || state.items[0]?.seq || null;
+      state.detailCache = new Map();
+      setStatus(`${sourceLabel} 로드 완료: ${state.items.length}건`);
+      renderList();
+      void renderDetail();
+    }
+
+    async function loadDefaultJson() {
+      try {
+        const response = await fetch(DEFAULT_JSON_URL, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        loadPayload(payload, DEFAULT_JSON_URL, DEFAULT_JSON_URL);
+      } catch (error) {
+        setStatus(`자동 로드 실패: ${error.message}. 아래에서 JSON 파일을 직접 선택하세요.`);
+      }
+    }
+
+    fileEl.addEventListener("change", async (event) => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const text = await file.text();
+      const payload = JSON.parse(text);
+      loadPayload(payload, file.name, DEFAULT_JSON_URL);
+    });
+
+    searchEl.addEventListener("input", applyFilter);
+    loadDefaultJson();
+  </script>
+</body>
+</html>
