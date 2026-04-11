@@ -6,15 +6,18 @@ from __future__ import annotations
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 import logging
+import os
 import re
+import subprocess
 import sys
+import tempfile
 import time
 from dataclasses import asdict, dataclass
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import parse_qs, urlencode, urljoin, urlparse
+from urllib.parse import parse_qs, quote, unquote, urlencode, urljoin, urlparse, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 
@@ -24,6 +27,7 @@ BASE_LIST_URL = (
 )
 OUTPUT_DIR = Path(__file__).resolve().parent / "notice"
 OUTPUT_JSON = OUTPUT_DIR / "notice_kkf.json"
+DETAIL_DIR = OUTPUT_DIR / "detail"
 LOG_FILE = OUTPUT_DIR / "kkf_notice_scraper.log"
 
 KEYWORDS = ["awc", "어질리티"]
@@ -63,6 +67,7 @@ class NoticeItem:
     link_urls: list[str]
     image_urls: list[str]
     tables: list[dict[str, object]]
+    attachments: list[dict[str, object]]
 
 
 class LinkImageParser(HTMLParser):
@@ -331,22 +336,26 @@ def build_public_detail_url(seq: str) -> str:
     return f"https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq={seq}"
 
 
-def detect_keywords(title: str, body_text: str) -> tuple[list[str], list[str]]:
+def is_deleted_notice(html: str) -> bool:
+    lowered = lower_text(html)
+    markers = [
+        "존재하지 않는 글입니다",
+        "삭제된 글",
+        "삭제된 게시물",
+        "없는 글입니다",
+    ]
+    return any(marker in lowered for marker in markers)
+
+
+def detect_keywords(title: str) -> tuple[list[str], list[str]]:
     title_l = lower_text(title)
-    body_l = lower_text(body_text)
     matched_keywords: list[str] = []
     matched_in: set[str] = set()
 
     for keyword in KEYWORDS:
         keyword_l = keyword.lower()
-        hit = False
         if keyword_l in title_l:
             matched_in.add("title")
-            hit = True
-        if keyword_l in body_l:
-            matched_in.add("body")
-            hit = True
-        if hit:
             matched_keywords.append(keyword)
 
     return matched_keywords, sorted(matched_in)
@@ -563,12 +572,102 @@ def extract_tables(body_html: str) -> list[dict[str, object]]:
     return tables
 
 
+def safe_request_url(url: str) -> str:
+    parts = urlsplit(url)
+    path = quote(parts.path, safe='/%')
+    query = quote(parts.query, safe='=&/%()')
+    return urlunsplit((parts.scheme, parts.netloc, path, query, parts.fragment))
+
+
+def build_direct_attachment_url(view_url: str, href: str) -> str:
+    full_url = urljoin(view_url, href)
+    parsed = urlparse(full_url)
+    filepath = parse_qs(parsed.query).get("filepath", [""])[0]
+    if filepath:
+        return urljoin(view_url, quote(filepath, safe='/%'))
+    return full_url
+
+
+def extract_pdf_text(url: str) -> str:
+    temp_path = None
+    try:
+        request = Request(safe_request_url(url), headers={**HEADERS, "Referer": url})
+        with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+            data = response.read()
+        if not data:
+            return ""
+        fd, temp_path = tempfile.mkstemp(suffix=".pdf")
+        os.write(fd, data)
+        os.close(fd)
+        result = subprocess.run(
+            ["/usr/bin/textutil", "-convert", "txt", temp_path, "-stdout"],
+            capture_output=True,
+            text=True,
+        )
+        if result.returncode != 0:
+            return ""
+        return normalize_preserved_text(result.stdout)
+    except Exception:
+        return ""
+    finally:
+        if temp_path and os.path.exists(temp_path):
+            os.unlink(temp_path)
+
+
+def extract_attachments(view_url: str, view_html: str) -> list[dict[str, object]]:
+    attachments: list[dict[str, object]] = []
+
+    for match in re.finditer(r"<p[^>]*class=['\"]file['\"][^>]*>(.*?)</p>", view_html, re.I | re.S):
+        block = match.group(1)
+        label_text = extract_text(re.sub(r"<!--.*?-->", "", block, flags=re.S))
+        href_match = re.search(r"href=['\"]([^'\"]+)['\"]", block, re.I)
+        if not href_match:
+            continue
+
+        raw_href = href_match.group(1).strip()
+        direct_url = build_direct_attachment_url(view_url, raw_href)
+        file_name = unquote(direct_url.rstrip("/").split("/")[-1])
+        file_ext = ""
+        if "." in file_name:
+            file_ext = "." + file_name.rsplit(".", 1)[-1].lower()
+
+        attachment = {
+            "label": label_text or "첨부파일",
+            "url": direct_url,
+            "file_name": file_name,
+            "file_ext": file_ext,
+            "text": "",
+        }
+
+        if file_ext == ".pdf":
+            attachment["text"] = extract_pdf_text(direct_url)
+
+        attachments.append(attachment)
+
+    deduped: list[dict[str, object]] = []
+    seen_urls: set[str] = set()
+    for attachment in attachments:
+        if attachment["url"] in seen_urls:
+            continue
+        seen_urls.add(attachment["url"])
+        deduped.append(attachment)
+
+    return deduped
+
+
 def parse_notice_detail(detail_url: str) -> NoticeItem | None:
     canonical_url = canonicalize_detail_url(detail_url)
     seq = extract_seq(canonical_url)
     logging.info("Parse detail: %s", canonical_url)
     view_html = fetch_html(canonical_url)
+    if is_deleted_notice(view_html):
+        return None
+
     title = extract_title(view_html)
+    matched_keywords, matched_in = detect_keywords(title)
+    if not matched_keywords:
+        return None
+
     published_at_raw, published_at, view_count = extract_detail_meta(view_html)
     content_url = extract_content_iframe_url(canonical_url, view_html)
 
@@ -577,6 +676,7 @@ def parse_notice_detail(detail_url: str) -> NoticeItem | None:
     link_urls: list[str] = []
     image_urls: list[str] = []
     tables: list[dict[str, object]] = []
+    attachments = extract_attachments(canonical_url, view_html)
     if content_url:
         content_html = fetch_html(content_url)
         body_html = extract_body_inner_html(content_html)
@@ -585,10 +685,6 @@ def parse_notice_detail(detail_url: str) -> NoticeItem | None:
         time.sleep(REQUEST_SLEEP)
     else:
         body_text = extract_text(view_html)
-
-    matched_keywords, matched_in = detect_keywords(title, body_text)
-    if not matched_keywords:
-        return None
 
     return NoticeItem(
         seq=seq,
@@ -605,6 +701,7 @@ def parse_notice_detail(detail_url: str) -> NoticeItem | None:
         link_urls=link_urls,
         image_urls=image_urls,
         tables=tables,
+        attachments=attachments,
     )
 
 
@@ -639,24 +736,78 @@ def dedupe_notice_items(items: list[NoticeItem]) -> list[NoticeItem]:
         existing.image_urls = dedupe_keep_order(existing.image_urls + item.image_urls)
         if not existing.tables and item.tables:
             existing.tables = item.tables
+        if not existing.attachments and item.attachments:
+            existing.attachments = item.attachments
 
     return list(unique.values())
 
 
+def filter_title_matched_items(items: list[NoticeItem]) -> list[NoticeItem]:
+    filtered: list[NoticeItem] = []
+
+    for item in items:
+        matched_keywords, matched_in = detect_keywords(item.title)
+        if not matched_keywords:
+            logging.info("Skip by final title filter: seq=%s title=%s", item.seq, item.title)
+            continue
+
+        item.matched_keywords = matched_keywords
+        item.matched_in = matched_in
+        filtered.append(item)
+
+    return filtered
+
+
+def build_index_item(item: NoticeItem) -> dict[str, object]:
+    return {
+        "seq": item.seq,
+        "title": item.title,
+        "url": item.url,
+        "internal_url": item.internal_url,
+        "published_at_raw": item.published_at_raw,
+        "published_at": item.published_at,
+        "view_count": item.view_count,
+        "matched_keywords": item.matched_keywords,
+        "matched_in": item.matched_in,
+        "detail_path": f"./detail/{item.seq}.json",
+        "image_count": len(item.image_urls),
+        "attachment_count": len(item.attachments),
+        "table_count": len(item.tables),
+    }
+
+
+def write_json_file(path: Path, payload: object) -> None:
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
 def save_result(items: list[NoticeItem]) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    unique_items = dedupe_notice_items(items)
+    DETAIL_DIR.mkdir(parents=True, exist_ok=True)
+    unique_items = filter_title_matched_items(dedupe_notice_items(items))
+    written_detail_names: set[str] = set()
+
+    for item in unique_items:
+        detail_name = f"{item.seq}.json"
+        write_json_file(DETAIL_DIR / detail_name, asdict(item))
+        written_detail_names.add(detail_name)
+
+    for stale_path in DETAIL_DIR.glob("*.json"):
+        if stale_path.name not in written_detail_names:
+            stale_path.unlink()
+
     payload = {
         "source_board_url": BASE_LIST_URL,
         "crawl_mode": "full_board",
+        "storage": "split_index_detail",
         "keywords": KEYWORDS,
         "total_count": len(unique_items),
-        "items": [asdict(item) for item in unique_items],
+        "detail_dir": "./detail",
+        "items": [build_index_item(item) for item in unique_items],
     }
-    OUTPUT_JSON.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    write_json_file(OUTPUT_JSON, payload)
     logging.info("Saved JSON: %s", OUTPUT_JSON)
 
 
@@ -683,6 +834,7 @@ def main() -> int:
                 items.append(item)
             logging.info("Detail progress %s / %s", index, len(detail_urls))
 
+    items = filter_title_matched_items(items)
     items.sort(key=lambda item: int(item.seq) if item.seq.isdigit() else 0)
     save_result(items)
     logging.info("Done. matched_items=%s", len(items))
