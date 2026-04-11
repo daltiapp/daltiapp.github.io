@@ -258,15 +258,58 @@ def extract_first_div_inner_html(html: str, class_name: str) -> str:
     return ""
 
 
+def extract_attribute(attrs_html: str, name: str) -> str:
+    match = re.search(
+        rf"""\b{re.escape(name)}\s*=\s*(['"])(.*?)\1""",
+        attrs_html,
+        re.I | re.S,
+    )
+    return normalize_text(match.group(2)) if match else ""
+
+
+def build_attachment_url(view_url: str, href: str = "", onclick: str = "") -> str:
+    raw_href = (href or "").strip()
+    if raw_href and not raw_href.lower().startswith("javascript:"):
+        return urljoin(view_url, raw_href)
+
+    onclick_text = onclick or ""
+    direct_match = re.search(
+        r"""['"]([^'"]*download\.jsp\?[^'"]+)['"]""",
+        onclick_text,
+        re.I,
+    )
+    if direct_match:
+        return urljoin(view_url, direct_match.group(1).strip())
+
+    args = re.findall(r"""['"]([^'"]+)['"]""", onclick_text)
+    if len(args) >= 2 and args[0].isdigit():
+        return f"http://www.dong-sa.or.kr/main/download.jsp?id={args[0]}&ek={args[1]}"
+
+    return ""
+
+
 def extract_attachments(view_url: str, view_html: str) -> list[dict[str, object]]:
-    block_match = re.search(r'<dl class="file_upload clear">(.*?)</dl>', view_html, re.I | re.S)
+    block_match = re.search(
+        r"""<dl[^>]*class=['"][^'"]*\bfile_upload\b[^'"]*['"][^>]*>(.*?)</dl>""",
+        view_html,
+        re.I | re.S,
+    )
     if not block_match:
         return []
 
     attachments: list[dict[str, object]] = []
-    for href, label in re.findall(r'<dd>\s*<a href="([^"]+)".*?>(.*?)</a>\s*</dd>', block_match.group(1), re.I | re.S):
-        direct_url = urljoin(view_url, href.strip())
+    for attrs_html, label in re.findall(r"<a\b([^>]*)>(.*?)</a>", block_match.group(1), re.I | re.S):
+        direct_url = build_attachment_url(
+            view_url,
+            extract_attribute(attrs_html, "href"),
+            extract_attribute(attrs_html, "onclick"),
+        )
+        if not direct_url:
+            continue
+
         file_name = normalize_text(re.sub(r"<[^>]+>", " ", label))
+        if not file_name:
+            file_name = direct_url.rstrip("/").split("/")[-1]
         file_ext = ""
         if "." in file_name:
             file_ext = "." + file_name.rsplit(".", 1)[-1].lower()
@@ -280,7 +323,16 @@ def extract_attachments(view_url: str, view_html: str) -> list[dict[str, object]
         if file_ext == ".pdf":
             attachment["text"] = extract_pdf_text(direct_url)
         attachments.append(attachment)
-    return attachments
+
+    deduped: list[dict[str, object]] = []
+    seen_urls: set[str] = set()
+    for attachment in attachments:
+        if attachment["url"] in seen_urls:
+            continue
+        seen_urls.add(attachment["url"])
+        deduped.append(attachment)
+
+    return deduped
 
 
 def detect_keywords(title: str) -> tuple[list[str], list[str]]:
