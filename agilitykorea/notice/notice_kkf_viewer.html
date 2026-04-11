@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
-  <title>KKF 공지 뷰어</title>
+  <title>KKF 어질리티 공지 뷰어</title>
   <style>
     :root {
       --bg: #f3f0e8;
@@ -442,8 +442,8 @@
 <body>
   <div class="shell">
     <aside class="sidebar">
-      <h1>KKF 공지 뷰어</h1>
-      <div class="sub">`notice_kkf.json` 인덱스를 먼저 읽고, 선택한 게시물의 상세 JSON을 따로 불러옵니다. 정적 서버나 배포 환경에서 여는 방식이 가장 안정적입니다.</div>
+      <h1>KKF 어질리티 공지 뷰어</h1>
+      <div class="sub">한국애견연맹(KKF) 어질리티 관련 공지용 `notice_kkf.json` 인덱스를 먼저 읽고, 선택한 게시물의 상세 JSON을 따로 불러옵니다. 정적 서버나 배포 환경에서 여는 방식이 가장 안정적입니다.</div>
       <div class="toolbar">
         <input id="searchInput" type="search" placeholder="제목, 날짜, 키워드 검색">
         <input id="fileInput" type="file" accept=".json,application/json">
@@ -455,11 +455,11 @@
       <section class="board">
         <div class="board-head">
           <div id="meta" class="meta"></div>
-          <h2 id="title" class="board-title">게시물을 선택하세요.</h2>
+          <h2 id="title" class="board-title">KKF 공지 게시물을 선택하세요.</h2>
           <div id="detailToolbar" class="detail-toolbar"></div>
         </div>
         <div class="board-body">
-          <div id="body" class="board-html empty">왼쪽 목록에서 게시물을 선택하면 본문 HTML을 그대로 렌더합니다.</div>
+          <div id="body" class="board-html empty">왼쪽 목록에서 KKF 어질리티 공지를 선택하면 본문 HTML을 그대로 렌더합니다.</div>
           <div class="board-side">
             <section class="panel">
               <h2>추출된 표</h2>
@@ -616,7 +616,7 @@
     function renderList() {
       listEl.innerHTML = "";
       if (!state.filtered.length) {
-        listEl.innerHTML = '<div class="empty">조건에 맞는 게시물이 없습니다.</div>';
+        listEl.innerHTML = '<div class="empty">조건에 맞는 KKF 공지가 없습니다.</div>';
         return;
       }
 
@@ -723,10 +723,10 @@
     async function renderDetail() {
       const item = state.filtered.find((entry) => entry.seq === state.selectedSeq) || state.filtered[0];
       if (!item) {
-        titleEl.textContent = "게시물이 없습니다.";
+        titleEl.textContent = "KKF 공지가 없습니다.";
         metaEl.innerHTML = "";
         bodyEl.className = "board-html empty";
-        bodyEl.textContent = "목록이 비어 있습니다.";
+        bodyEl.textContent = "표시할 KKF 공지가 없습니다.";
         detailToolbarEl.innerHTML = "";
         renderTables({ tables: [] });
         renderLinks({ link_urls: [] });
