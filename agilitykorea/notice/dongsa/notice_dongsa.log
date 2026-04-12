@@ -1,0 +1,986 @@
+2026-04-12 08:52:17,564 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 08:52:17,565 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 08:52:17,755 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 08:52:17,920 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 08:52:18,079 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=4
+2026-04-12 08:52:18,235 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=5
+2026-04-12 08:52:18,390 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=6
+2026-04-12 08:52:18,540 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=7
+2026-04-12 08:52:18,707 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=8
+2026-04-12 08:52:18,875 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=9
+2026-04-12 08:52:19,035 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=10
+2026-04-12 08:52:19,195 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=11
+2026-04-12 08:52:19,352 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=12
+2026-04-12 08:52:19,518 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=13
+2026-04-12 08:52:19,668 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=14
+2026-04-12 08:52:19,761 [INFO] Collected incremental detail urls: 133
+2026-04-12 08:52:19,762 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 08:52:19,763 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 08:52:19,765 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 08:52:19,767 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=222&code=notice
+2026-04-12 08:52:19,769 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice
+2026-04-12 08:52:19,771 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=220&code=notice
+2026-04-12 08:52:19,774 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=219&code=notice
+2026-04-12 08:52:19,775 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=218&code=notice
+2026-04-12 08:52:19,833 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=217&code=notice
+2026-04-12 08:52:19,841 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=216&code=notice
+2026-04-12 08:52:19,841 [INFO] Incremental detail progress 1 / 133
+2026-04-12 08:52:19,845 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=215&code=notice
+2026-04-12 08:52:19,853 [INFO] Incremental detail progress 2 / 133
+2026-04-12 08:52:19,856 [INFO] Incremental detail progress 3 / 133
+2026-04-12 08:52:19,884 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=214&code=notice
+2026-04-12 08:52:19,888 [INFO] Incremental detail progress 4 / 133
+2026-04-12 08:52:19,903 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=213&code=notice
+2026-04-12 08:52:19,904 [INFO] Incremental detail progress 5 / 133
+2026-04-12 08:52:20,034 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=212&code=notice
+2026-04-12 08:52:20,035 [INFO] Incremental detail progress 6 / 133
+2026-04-12 08:52:20,260 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=211&code=notice
+2026-04-12 08:52:20,262 [INFO] Incremental detail progress 7 / 133
+2026-04-12 08:52:20,265 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=210&code=notice
+2026-04-12 08:52:20,266 [INFO] Incremental detail progress 8 / 133
+2026-04-12 08:52:20,340 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=209&code=notice
+2026-04-12 08:52:20,340 [INFO] Incremental detail progress 9 / 133
+2026-04-12 08:52:20,498 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=208&code=notice
+2026-04-12 08:52:20,498 [INFO] Incremental detail progress 10 / 133
+2026-04-12 08:52:20,510 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=207&code=notice
+2026-04-12 08:52:20,511 [INFO] Incremental detail progress 11 / 133
+2026-04-12 08:52:20,586 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=206&code=notice
+2026-04-12 08:52:20,586 [INFO] Incremental detail progress 12 / 133
+2026-04-12 08:52:20,731 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=205&code=notice
+2026-04-12 08:52:20,731 [INFO] Incremental detail progress 13 / 133
+2026-04-12 08:52:20,781 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=204&code=notice
+2026-04-12 08:52:20,781 [INFO] Incremental detail progress 14 / 133
+2026-04-12 08:52:20,836 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=203&code=notice
+2026-04-12 08:52:20,837 [INFO] Incremental detail progress 15 / 133
+2026-04-12 08:52:20,873 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=200&code=notice
+2026-04-12 08:52:20,873 [INFO] Incremental detail progress 16 / 133
+2026-04-12 08:52:20,904 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=199&code=notice
+2026-04-12 08:52:20,905 [INFO] Incremental detail progress 17 / 133
+2026-04-12 08:52:20,973 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=198&code=notice
+2026-04-12 08:52:20,973 [INFO] Incremental detail progress 18 / 133
+2026-04-12 08:52:21,130 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=197&code=notice
+2026-04-12 08:52:21,131 [INFO] Incremental detail progress 19 / 133
+2026-04-12 08:52:21,222 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=196&code=notice
+2026-04-12 08:52:21,223 [INFO] Incremental detail progress 20 / 133
+2026-04-12 08:52:21,265 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=195&code=notice
+2026-04-12 08:52:21,266 [INFO] Incremental detail progress 21 / 133
+2026-04-12 08:52:21,331 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=194&code=notice
+2026-04-12 08:52:21,332 [INFO] Incremental detail progress 22 / 133
+2026-04-12 08:52:21,444 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=192&code=notice
+2026-04-12 08:52:21,444 [INFO] Incremental detail progress 23 / 133
+2026-04-12 08:52:21,658 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=191&code=notice
+2026-04-12 08:52:21,659 [INFO] Incremental detail progress 24 / 133
+2026-04-12 08:52:21,728 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=189&code=notice
+2026-04-12 08:52:21,730 [INFO] Incremental detail progress 25 / 133
+2026-04-12 08:52:21,732 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=187&code=notice
+2026-04-12 08:52:21,733 [INFO] Incremental detail progress 26 / 133
+2026-04-12 08:52:21,741 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=186&code=notice
+2026-04-12 08:52:21,741 [INFO] Incremental detail progress 27 / 133
+2026-04-12 08:52:21,758 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=185&code=notice
+2026-04-12 08:52:21,758 [INFO] Incremental detail progress 28 / 133
+2026-04-12 08:52:21,876 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=184&code=notice
+2026-04-12 08:52:21,876 [INFO] Incremental detail progress 29 / 133
+2026-04-12 08:52:21,984 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=183&code=notice
+2026-04-12 08:52:21,985 [INFO] Incremental detail progress 30 / 133
+2026-04-12 08:52:22,013 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=178&code=notice
+2026-04-12 08:52:22,014 [INFO] Incremental detail progress 31 / 133
+2026-04-12 08:52:22,156 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=177&code=notice
+2026-04-12 08:52:22,157 [INFO] Incremental detail progress 32 / 133
+2026-04-12 08:52:22,564 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=176&code=notice
+2026-04-12 08:52:22,564 [INFO] Incremental detail progress 33 / 133
+2026-04-12 08:52:22,820 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=175&code=notice
+2026-04-12 08:52:22,820 [INFO] Incremental detail progress 34 / 133
+2026-04-12 08:52:22,892 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=173&code=notice
+2026-04-12 08:52:22,892 [INFO] Incremental detail progress 35 / 133
+2026-04-12 08:52:23,187 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=172&code=notice
+2026-04-12 08:52:23,188 [INFO] Incremental detail progress 36 / 133
+2026-04-12 08:52:23,275 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=170&code=notice
+2026-04-12 08:52:23,277 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=169&code=notice
+2026-04-12 08:52:23,277 [INFO] Incremental detail progress 37 / 133
+2026-04-12 08:52:23,280 [INFO] Incremental detail progress 38 / 133
+2026-04-12 08:52:23,388 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=168&code=notice
+2026-04-12 08:52:23,388 [INFO] Incremental detail progress 39 / 133
+2026-04-12 08:52:23,432 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=166&code=notice
+2026-04-12 08:52:23,433 [INFO] Incremental detail progress 40 / 133
+2026-04-12 08:52:23,461 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=164&code=notice
+2026-04-12 08:52:23,461 [INFO] Incremental detail progress 41 / 133
+2026-04-12 08:52:23,505 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=162&code=notice
+2026-04-12 08:52:23,510 [INFO] Incremental detail progress 42 / 133
+2026-04-12 08:52:23,514 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=161&code=notice
+2026-04-12 08:52:23,515 [INFO] Incremental detail progress 43 / 133
+2026-04-12 08:52:23,546 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=156&code=notice
+2026-04-12 08:52:23,546 [INFO] Incremental detail progress 44 / 133
+2026-04-12 08:52:23,556 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=155&code=notice
+2026-04-12 08:52:23,557 [INFO] Incremental detail progress 45 / 133
+2026-04-12 08:52:23,563 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=153&code=notice
+2026-04-12 08:52:23,564 [INFO] Incremental detail progress 46 / 133
+2026-04-12 08:52:23,585 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=152&code=notice
+2026-04-12 08:52:23,586 [INFO] Incremental detail progress 47 / 133
+2026-04-12 08:52:23,606 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=150&code=notice
+2026-04-12 08:52:23,607 [INFO] Incremental detail progress 48 / 133
+2026-04-12 08:52:23,622 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=148&code=notice
+2026-04-12 08:52:23,623 [INFO] Incremental detail progress 49 / 133
+2026-04-12 08:52:23,635 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=147&code=notice
+2026-04-12 08:52:23,636 [INFO] Incremental detail progress 50 / 133
+2026-04-12 08:52:23,640 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=144&code=notice
+2026-04-12 08:52:23,640 [INFO] Incremental detail progress 51 / 133
+2026-04-12 08:52:23,655 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=143&code=notice
+2026-04-12 08:52:23,656 [INFO] Incremental detail progress 52 / 133
+2026-04-12 08:52:23,672 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=142&code=notice
+2026-04-12 08:52:23,672 [INFO] Incremental detail progress 53 / 133
+2026-04-12 08:52:23,769 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=140&code=notice
+2026-04-12 08:52:23,769 [INFO] Incremental detail progress 54 / 133
+2026-04-12 08:52:23,800 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=138&code=notice
+2026-04-12 08:52:23,800 [INFO] Incremental detail progress 55 / 133
+2026-04-12 08:52:23,836 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=136&code=notice
+2026-04-12 08:52:23,836 [INFO] Incremental detail progress 56 / 133
+2026-04-12 08:52:24,108 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=135&code=notice
+2026-04-12 08:52:24,109 [INFO] Incremental detail progress 57 / 133
+2026-04-12 08:52:24,271 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=133&code=notice
+2026-04-12 08:52:24,272 [INFO] Incremental detail progress 58 / 133
+2026-04-12 08:52:24,297 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=131&code=notice
+2026-04-12 08:52:24,297 [INFO] Incremental detail progress 59 / 133
+2026-04-12 08:52:24,748 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=130&code=notice
+2026-04-12 08:52:24,749 [INFO] Incremental detail progress 60 / 133
+2026-04-12 08:52:24,776 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=128&code=notice
+2026-04-12 08:52:24,776 [INFO] Incremental detail progress 61 / 133
+2026-04-12 08:52:24,817 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=126&code=notice
+2026-04-12 08:52:24,817 [INFO] Incremental detail progress 62 / 133
+2026-04-12 08:52:24,841 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=124&code=notice
+2026-04-12 08:52:24,841 [INFO] Incremental detail progress 63 / 133
+2026-04-12 08:52:24,883 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=121&code=notice
+2026-04-12 08:52:24,884 [INFO] Incremental detail progress 64 / 133
+2026-04-12 08:52:25,356 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=117&code=notice
+2026-04-12 08:52:25,357 [INFO] Incremental detail progress 65 / 133
+2026-04-12 08:52:25,360 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=116&code=notice
+2026-04-12 08:52:25,362 [INFO] Incremental detail progress 66 / 133
+2026-04-12 08:52:25,368 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=114&code=notice
+2026-04-12 08:52:25,369 [INFO] Incremental detail progress 67 / 133
+2026-04-12 08:52:25,395 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=113&code=notice
+2026-04-12 08:52:25,395 [INFO] Incremental detail progress 68 / 133
+2026-04-12 08:52:25,417 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=111&code=notice
+2026-04-12 08:52:25,418 [INFO] Incremental detail progress 69 / 133
+2026-04-12 08:52:25,435 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=109&code=notice
+2026-04-12 08:52:25,435 [INFO] Incremental detail progress 70 / 133
+2026-04-12 08:52:25,439 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=108&code=notice
+2026-04-12 08:52:25,440 [INFO] Incremental detail progress 71 / 133
+2026-04-12 08:52:25,499 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=106&code=notice
+2026-04-12 08:52:25,500 [INFO] Incremental detail progress 72 / 133
+2026-04-12 08:52:25,513 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=105&code=notice
+2026-04-12 08:52:25,514 [INFO] Incremental detail progress 73 / 133
+2026-04-12 08:52:25,524 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=103&code=notice
+2026-04-12 08:52:25,525 [INFO] Incremental detail progress 74 / 133
+2026-04-12 08:52:25,565 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=101&code=notice
+2026-04-12 08:52:25,565 [INFO] Incremental detail progress 75 / 133
+2026-04-12 08:52:25,648 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=100&code=notice
+2026-04-12 08:52:25,650 [INFO] Incremental detail progress 76 / 133
+2026-04-12 08:52:25,794 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=99&code=notice
+2026-04-12 08:52:25,795 [INFO] Incremental detail progress 77 / 133
+2026-04-12 08:52:25,945 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=96&code=notice
+2026-04-12 08:52:25,945 [INFO] Incremental detail progress 78 / 133
+2026-04-12 08:52:26,035 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=95&code=notice
+2026-04-12 08:52:26,035 [INFO] Incremental detail progress 79 / 133
+2026-04-12 08:52:26,140 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=90&code=notice
+2026-04-12 08:52:26,140 [INFO] Incremental detail progress 80 / 133
+2026-04-12 08:52:26,305 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=87&code=notice
+2026-04-12 08:52:26,307 [INFO] Incremental detail progress 81 / 133
+2026-04-12 08:52:26,309 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=86&code=notice
+2026-04-12 08:52:26,309 [INFO] Incremental detail progress 82 / 133
+2026-04-12 08:52:26,334 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=85&code=notice
+2026-04-12 08:52:26,334 [INFO] Incremental detail progress 83 / 133
+2026-04-12 08:52:26,372 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=84&code=notice
+2026-04-12 08:52:26,372 [INFO] Incremental detail progress 84 / 133
+2026-04-12 08:52:26,479 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=83&code=notice
+2026-04-12 08:52:26,480 [INFO] Incremental detail progress 85 / 133
+2026-04-12 08:52:26,581 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=82&code=notice
+2026-04-12 08:52:26,581 [INFO] Incremental detail progress 86 / 133
+2026-04-12 08:52:27,042 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=79&code=notice
+2026-04-12 08:52:27,048 [INFO] Incremental detail progress 87 / 133
+2026-04-12 08:52:27,050 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=78&code=notice
+2026-04-12 08:52:27,052 [INFO] Incremental detail progress 88 / 133
+2026-04-12 08:52:27,162 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=77&code=notice
+2026-04-12 08:52:27,163 [INFO] Incremental detail progress 89 / 133
+2026-04-12 08:52:27,196 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=70&code=notice
+2026-04-12 08:52:27,197 [INFO] Incremental detail progress 90 / 133
+2026-04-12 08:52:27,271 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=69&code=notice
+2026-04-12 08:52:27,272 [INFO] Incremental detail progress 91 / 133
+2026-04-12 08:52:27,423 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=68&code=notice
+2026-04-12 08:52:27,423 [INFO] Incremental detail progress 92 / 133
+2026-04-12 08:52:27,474 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=67&code=notice
+2026-04-12 08:52:27,475 [INFO] Incremental detail progress 93 / 133
+2026-04-12 08:52:27,497 [INFO] Incremental detail progress 94 / 133
+2026-04-12 08:52:27,498 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=65&code=notice
+2026-04-12 08:52:27,543 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=64&code=notice
+2026-04-12 08:52:27,544 [INFO] Incremental detail progress 95 / 133
+2026-04-12 08:52:27,574 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=62&code=notice
+2026-04-12 08:52:27,575 [INFO] Incremental detail progress 96 / 133
+2026-04-12 08:52:27,587 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=60&code=notice
+2026-04-12 08:52:27,587 [INFO] Incremental detail progress 97 / 133
+2026-04-12 08:52:27,615 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=59&code=notice
+2026-04-12 08:52:27,615 [INFO] Incremental detail progress 98 / 133
+2026-04-12 08:52:27,646 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=58&code=notice
+2026-04-12 08:52:27,646 [INFO] Incremental detail progress 99 / 133
+2026-04-12 08:52:27,672 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=56&code=notice
+2026-04-12 08:52:27,672 [INFO] Incremental detail progress 100 / 133
+2026-04-12 08:52:27,679 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=55&code=notice
+2026-04-12 08:52:27,679 [INFO] Incremental detail progress 101 / 133
+2026-04-12 08:52:27,702 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=53&code=notice
+2026-04-12 08:52:27,703 [INFO] Incremental detail progress 102 / 133
+2026-04-12 08:52:27,960 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=51&code=notice
+2026-04-12 08:52:27,962 [INFO] Incremental detail progress 103 / 133
+2026-04-12 08:52:28,006 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=50&code=notice
+2026-04-12 08:52:28,006 [INFO] Incremental detail progress 104 / 133
+2026-04-12 08:52:28,035 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=49&code=notice
+2026-04-12 08:52:28,036 [INFO] Incremental detail progress 105 / 133
+2026-04-12 08:52:28,065 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=48&code=notice
+2026-04-12 08:52:28,066 [INFO] Incremental detail progress 106 / 133
+2026-04-12 08:52:28,094 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=46&code=notice
+2026-04-12 08:52:28,095 [INFO] Incremental detail progress 107 / 133
+2026-04-12 08:52:28,183 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=43&code=notice
+2026-04-12 08:52:28,184 [INFO] Incremental detail progress 108 / 133
+2026-04-12 08:52:28,212 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=42&code=notice
+2026-04-12 08:52:28,215 [INFO] Incremental detail progress 109 / 133
+2026-04-12 08:52:28,251 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=40&code=notice
+2026-04-12 08:52:28,253 [INFO] Incremental detail progress 110 / 133
+2026-04-12 08:52:28,255 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=38&code=notice
+2026-04-12 08:52:28,256 [INFO] Incremental detail progress 111 / 133
+2026-04-12 08:52:28,441 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=37&code=notice
+2026-04-12 08:52:28,442 [INFO] Incremental detail progress 112 / 133
+2026-04-12 08:52:28,452 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=30&code=notice
+2026-04-12 08:52:28,455 [INFO] Incremental detail progress 113 / 133
+2026-04-12 08:52:28,498 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=29&code=notice
+2026-04-12 08:52:28,498 [INFO] Incremental detail progress 114 / 133
+2026-04-12 08:52:28,585 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=28&code=notice
+2026-04-12 08:52:28,592 [INFO] Incremental detail progress 115 / 133
+2026-04-12 08:52:28,593 [INFO] Incremental detail progress 116 / 133
+2026-04-12 08:52:28,594 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=27&code=notice
+2026-04-12 08:52:28,636 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=26&code=notice
+2026-04-12 08:52:28,637 [INFO] Incremental detail progress 117 / 133
+2026-04-12 08:52:28,851 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=25&code=notice
+2026-04-12 08:52:28,852 [INFO] Incremental detail progress 118 / 133
+2026-04-12 08:52:28,867 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=23&code=notice
+2026-04-12 08:52:28,868 [INFO] Incremental detail progress 119 / 133
+2026-04-12 08:52:28,924 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=21&code=notice
+2026-04-12 08:52:28,924 [INFO] Incremental detail progress 120 / 133
+2026-04-12 08:52:28,951 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=19&code=notice
+2026-04-12 08:52:28,952 [INFO] Incremental detail progress 121 / 133
+2026-04-12 08:52:28,985 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=17&code=notice
+2026-04-12 08:52:28,985 [INFO] Incremental detail progress 122 / 133
+2026-04-12 08:52:29,042 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=15&code=notice
+2026-04-12 08:52:29,042 [INFO] Incremental detail progress 123 / 133
+2026-04-12 08:52:29,091 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=10&code=notice
+2026-04-12 08:52:29,091 [INFO] Incremental detail progress 124 / 133
+2026-04-12 08:52:29,109 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=8&code=notice
+2026-04-12 08:52:29,109 [INFO] Incremental detail progress 125 / 133
+2026-04-12 08:52:29,116 [INFO] Incremental detail progress 126 / 133
+2026-04-12 08:52:29,130 [INFO] Incremental detail progress 127 / 133
+2026-04-12 08:52:29,139 [INFO] Incremental detail progress 128 / 133
+2026-04-12 08:52:29,185 [INFO] Incremental detail progress 129 / 133
+2026-04-12 08:52:29,338 [INFO] Incremental detail progress 130 / 133
+2026-04-12 08:52:29,783 [INFO] Incremental detail progress 131 / 133
+2026-04-12 08:52:30,491 [INFO] Incremental detail progress 132 / 133
+2026-04-12 08:52:30,709 [INFO] Incremental detail progress 133 / 133
+2026-04-12 08:52:30,755 [INFO] Saved JSON: /volume1/homes/sam/work/agility-scraper/output/notice/dongsa/notice_dongsa.json
+2026-04-12 08:52:30,756 [INFO] Done. total_items=39 new_items=39
+2026-04-12 08:55:19,142 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 08:55:19,154 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 08:55:19,346 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 08:55:19,630 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 08:55:19,715 [INFO] Collected incremental detail urls: 3
+2026-04-12 08:55:19,716 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 08:55:19,717 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 08:55:19,719 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 08:55:19,767 [INFO] Incremental detail progress 1 / 3
+2026-04-12 08:55:19,831 [INFO] Incremental detail progress 2 / 3
+2026-04-12 08:55:20,602 [INFO] Incremental detail progress 3 / 3
+2026-04-12 08:55:20,603 [INFO] No new Dongsa notices. Keep existing output as-is.
+2026-04-12 08:55:20,603 [INFO] Done. total_items=39 new_items=0
+2026-04-12 09:15:48,449 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 09:15:48,461 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 09:15:48,655 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 09:15:48,818 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 09:15:48,906 [INFO] Collected incremental detail urls: 3
+2026-04-12 09:15:48,907 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 09:15:48,909 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 09:15:48,910 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 09:15:48,969 [INFO] Incremental detail progress 1 / 3
+2026-04-12 09:15:49,029 [INFO] Incremental detail progress 2 / 3
+2026-04-12 09:15:49,669 [INFO] Incremental detail progress 3 / 3
+2026-04-12 09:15:49,671 [INFO] No new Dongsa notices. Keep existing output as-is.
+2026-04-12 09:15:49,671 [INFO] Done. total_items=39 new_items=0
+2026-04-12 09:27:20,021 [INFO] Start Dongsa notice scraper: mode=full
+2026-04-12 09:27:20,022 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 09:27:20,192 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 09:27:20,329 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 09:27:20,467 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=4
+2026-04-12 09:27:20,604 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=5
+2026-04-12 09:27:20,748 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=6
+2026-04-12 09:27:20,888 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=7
+2026-04-12 09:27:21,030 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=8
+2026-04-12 09:27:21,165 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=9
+2026-04-12 09:27:21,308 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=10
+2026-04-12 09:27:21,449 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=11
+2026-04-12 09:27:21,577 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=14
+2026-04-12 09:27:21,707 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=12
+2026-04-12 09:27:21,854 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=13
+2026-04-12 09:27:21,993 [INFO] Discovered list pages: 14
+2026-04-12 09:27:21,994 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 09:27:22,157 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 09:27:22,291 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 09:27:22,427 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=4
+2026-04-12 09:27:22,562 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=5
+2026-04-12 09:27:22,688 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=6
+2026-04-12 09:27:22,826 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=7
+2026-04-12 09:27:22,963 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=8
+2026-04-12 09:27:23,098 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=9
+2026-04-12 09:27:23,251 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=10
+2026-04-12 09:27:23,388 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=11
+2026-04-12 09:27:23,522 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=14
+2026-04-12 09:27:23,647 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=12
+2026-04-12 09:27:23,797 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=13
+2026-04-12 09:27:23,925 [INFO] Collected candidate detail urls: 133
+2026-04-12 09:27:23,926 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 09:27:23,927 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 09:27:23,928 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 09:27:23,931 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=222&code=notice
+2026-04-12 09:27:23,932 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice
+2026-04-12 09:27:23,934 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=220&code=notice
+2026-04-12 09:27:23,937 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=219&code=notice
+2026-04-12 09:27:23,939 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=218&code=notice
+2026-04-12 09:27:23,993 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=217&code=notice
+2026-04-12 09:27:23,996 [INFO] Detail progress 1 / 133
+2026-04-12 09:27:24,001 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=216&code=notice
+2026-04-12 09:27:24,011 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=215&code=notice
+2026-04-12 09:27:24,015 [INFO] Detail progress 2 / 133
+2026-04-12 09:27:24,017 [INFO] Detail progress 3 / 133
+2026-04-12 09:27:24,049 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=214&code=notice
+2026-04-12 09:27:24,051 [INFO] Detail progress 4 / 133
+2026-04-12 09:27:24,074 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=213&code=notice
+2026-04-12 09:27:24,075 [INFO] Detail progress 5 / 133
+2026-04-12 09:27:24,115 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=212&code=notice
+2026-04-12 09:27:24,115 [INFO] Detail progress 6 / 133
+2026-04-12 09:27:24,253 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=211&code=notice
+2026-04-12 09:27:24,253 [INFO] Detail progress 7 / 133
+2026-04-12 09:27:24,328 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=210&code=notice
+2026-04-12 09:27:24,328 [INFO] Detail progress 8 / 133
+2026-04-12 09:27:24,354 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=209&code=notice
+2026-04-12 09:27:24,355 [INFO] Detail progress 9 / 133
+2026-04-12 09:27:24,358 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=208&code=notice
+2026-04-12 09:27:24,360 [INFO] Detail progress 10 / 133
+2026-04-12 09:27:24,426 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=207&code=notice
+2026-04-12 09:27:24,427 [INFO] Detail progress 11 / 133
+2026-04-12 09:27:24,659 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=206&code=notice
+2026-04-12 09:27:24,660 [INFO] Detail progress 12 / 133
+2026-04-12 09:27:24,685 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=205&code=notice
+2026-04-12 09:27:24,685 [INFO] Detail progress 13 / 133
+2026-04-12 09:27:24,733 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=204&code=notice
+2026-04-12 09:27:24,734 [INFO] Detail progress 14 / 133
+2026-04-12 09:27:25,223 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=203&code=notice
+2026-04-12 09:27:25,224 [INFO] Detail progress 15 / 133
+2026-04-12 09:27:25,273 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=200&code=notice
+2026-04-12 09:27:25,273 [INFO] Detail progress 16 / 133
+2026-04-12 09:27:25,281 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=199&code=notice
+2026-04-12 09:27:25,282 [INFO] Detail progress 17 / 133
+2026-04-12 09:27:25,289 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=198&code=notice
+2026-04-12 09:27:25,290 [INFO] Detail progress 18 / 133
+2026-04-12 09:27:25,381 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=197&code=notice
+2026-04-12 09:27:25,381 [INFO] Detail progress 19 / 133
+2026-04-12 09:27:25,469 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=196&code=notice
+2026-04-12 09:27:25,469 [INFO] Detail progress 20 / 133
+2026-04-12 09:27:25,487 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=195&code=notice
+2026-04-12 09:27:25,488 [INFO] Detail progress 21 / 133
+2026-04-12 09:27:25,549 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=194&code=notice
+2026-04-12 09:27:25,549 [INFO] Detail progress 22 / 133
+2026-04-12 09:27:25,606 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=192&code=notice
+2026-04-12 09:27:25,606 [INFO] Detail progress 23 / 133
+2026-04-12 09:27:25,804 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=191&code=notice
+2026-04-12 09:27:25,804 [INFO] Detail progress 24 / 133
+2026-04-12 09:27:25,913 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=189&code=notice
+2026-04-12 09:27:25,913 [INFO] Detail progress 25 / 133
+2026-04-12 09:27:25,942 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=187&code=notice
+2026-04-12 09:27:25,943 [INFO] Detail progress 26 / 133
+2026-04-12 09:27:25,959 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=186&code=notice
+2026-04-12 09:27:25,959 [INFO] Detail progress 27 / 133
+2026-04-12 09:27:26,130 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=185&code=notice
+2026-04-12 09:27:26,130 [INFO] Detail progress 28 / 133
+2026-04-12 09:27:26,183 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=184&code=notice
+2026-04-12 09:27:26,183 [INFO] Detail progress 29 / 133
+2026-04-12 09:27:26,210 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=183&code=notice
+2026-04-12 09:27:26,211 [INFO] Detail progress 30 / 133
+2026-04-12 09:27:26,217 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=178&code=notice
+2026-04-12 09:27:26,218 [INFO] Detail progress 31 / 133
+2026-04-12 09:27:26,229 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=177&code=notice
+2026-04-12 09:27:26,229 [INFO] Detail progress 32 / 133
+2026-04-12 09:27:26,268 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=176&code=notice
+2026-04-12 09:27:26,269 [INFO] Detail progress 33 / 133
+2026-04-12 09:27:26,566 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=175&code=notice
+2026-04-12 09:27:26,566 [INFO] Detail progress 34 / 133
+2026-04-12 09:27:26,634 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=173&code=notice
+2026-04-12 09:27:26,634 [INFO] Detail progress 35 / 133
+2026-04-12 09:27:27,302 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=172&code=notice
+2026-04-12 09:27:27,303 [INFO] Detail progress 36 / 133
+2026-04-12 09:27:27,423 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=170&code=notice
+2026-04-12 09:27:27,423 [INFO] Detail progress 37 / 133
+2026-04-12 09:27:27,501 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=169&code=notice
+2026-04-12 09:27:27,501 [INFO] Detail progress 38 / 133
+2026-04-12 09:27:27,516 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=168&code=notice
+2026-04-12 09:27:27,517 [INFO] Detail progress 39 / 133
+2026-04-12 09:27:27,545 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=166&code=notice
+2026-04-12 09:27:27,546 [INFO] Detail progress 40 / 133
+2026-04-12 09:27:27,593 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=164&code=notice
+2026-04-12 09:27:27,593 [INFO] Detail progress 41 / 133
+2026-04-12 09:27:27,607 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=162&code=notice
+2026-04-12 09:27:27,607 [INFO] Detail progress 42 / 133
+2026-04-12 09:27:27,630 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=161&code=notice
+2026-04-12 09:27:27,630 [INFO] Detail progress 43 / 133
+2026-04-12 09:27:27,673 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=156&code=notice
+2026-04-12 09:27:27,675 [INFO] Detail progress 44 / 133
+2026-04-12 09:27:27,680 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=155&code=notice
+2026-04-12 09:27:27,681 [INFO] Detail progress 45 / 133
+2026-04-12 09:27:27,692 [INFO] Detail progress 46 / 133
+2026-04-12 09:27:27,692 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=153&code=notice
+2026-04-12 09:27:27,732 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=152&code=notice
+2026-04-12 09:27:27,733 [INFO] Detail progress 47 / 133
+2026-04-12 09:27:27,756 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=150&code=notice
+2026-04-12 09:27:27,757 [INFO] Detail progress 48 / 133
+2026-04-12 09:27:27,768 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=148&code=notice
+2026-04-12 09:27:27,769 [INFO] Detail progress 49 / 133
+2026-04-12 09:27:27,784 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=147&code=notice
+2026-04-12 09:27:27,784 [INFO] Detail progress 50 / 133
+2026-04-12 09:27:27,804 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=144&code=notice
+2026-04-12 09:27:27,805 [INFO] Detail progress 51 / 133
+2026-04-12 09:27:27,831 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=143&code=notice
+2026-04-12 09:27:27,831 [INFO] Detail progress 52 / 133
+2026-04-12 09:27:27,896 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=142&code=notice
+2026-04-12 09:27:27,896 [INFO] Detail progress 53 / 133
+2026-04-12 09:27:27,956 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=140&code=notice
+2026-04-12 09:27:27,956 [INFO] Detail progress 54 / 133
+2026-04-12 09:27:28,052 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=138&code=notice
+2026-04-12 09:27:28,053 [INFO] Detail progress 55 / 133
+2026-04-12 09:27:28,117 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=136&code=notice
+2026-04-12 09:27:28,118 [INFO] Detail progress 56 / 133
+2026-04-12 09:27:28,140 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=135&code=notice
+2026-04-12 09:27:28,141 [INFO] Detail progress 57 / 133
+2026-04-12 09:27:28,367 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=133&code=notice
+2026-04-12 09:27:28,367 [INFO] Detail progress 58 / 133
+2026-04-12 09:27:28,417 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=131&code=notice
+2026-04-12 09:27:28,417 [INFO] Detail progress 59 / 133
+2026-04-12 09:27:28,436 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=130&code=notice
+2026-04-12 09:27:28,436 [INFO] Detail progress 60 / 133
+2026-04-12 09:27:28,469 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=128&code=notice
+2026-04-12 09:27:28,470 [INFO] Detail progress 61 / 133
+2026-04-12 09:27:28,499 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=126&code=notice
+2026-04-12 09:27:28,499 [INFO] Detail progress 62 / 133
+2026-04-12 09:27:28,583 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=124&code=notice
+2026-04-12 09:27:28,583 [INFO] Detail progress 63 / 133
+2026-04-12 09:27:28,746 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=121&code=notice
+2026-04-12 09:27:28,747 [INFO] Detail progress 64 / 133
+2026-04-12 09:27:28,847 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=117&code=notice
+2026-04-12 09:27:28,848 [INFO] Detail progress 65 / 133
+2026-04-12 09:27:28,956 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=116&code=notice
+2026-04-12 09:27:28,957 [INFO] Detail progress 66 / 133
+2026-04-12 09:27:29,070 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=114&code=notice
+2026-04-12 09:27:29,071 [INFO] Detail progress 67 / 133
+2026-04-12 09:27:29,104 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=113&code=notice
+2026-04-12 09:27:29,105 [INFO] Detail progress 68 / 133
+2026-04-12 09:27:29,112 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=111&code=notice
+2026-04-12 09:27:29,113 [INFO] Detail progress 69 / 133
+2026-04-12 09:27:29,129 [INFO] Detail progress 70 / 133
+2026-04-12 09:27:29,130 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=109&code=notice
+2026-04-12 09:27:29,198 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=108&code=notice
+2026-04-12 09:27:29,199 [INFO] Detail progress 71 / 133
+2026-04-12 09:27:29,227 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=106&code=notice
+2026-04-12 09:27:29,227 [INFO] Detail progress 72 / 133
+2026-04-12 09:27:29,255 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=105&code=notice
+2026-04-12 09:27:29,256 [INFO] Detail progress 73 / 133
+2026-04-12 09:27:29,286 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=103&code=notice
+2026-04-12 09:27:29,286 [INFO] Detail progress 74 / 133
+2026-04-12 09:27:29,371 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=101&code=notice
+2026-04-12 09:27:29,371 [INFO] Detail progress 75 / 133
+2026-04-12 09:27:29,562 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=100&code=notice
+2026-04-12 09:27:29,563 [INFO] Detail progress 76 / 133
+2026-04-12 09:27:29,630 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=99&code=notice
+2026-04-12 09:27:29,631 [INFO] Detail progress 77 / 133
+2026-04-12 09:27:29,769 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=96&code=notice
+2026-04-12 09:27:29,770 [INFO] Detail progress 78 / 133
+2026-04-12 09:27:29,827 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=95&code=notice
+2026-04-12 09:27:29,828 [INFO] Detail progress 79 / 133
+2026-04-12 09:27:29,995 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=90&code=notice
+2026-04-12 09:27:29,995 [INFO] Detail progress 80 / 133
+2026-04-12 09:27:30,000 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=87&code=notice
+2026-04-12 09:27:30,000 [INFO] Detail progress 81 / 133
+2026-04-12 09:27:30,044 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=86&code=notice
+2026-04-12 09:27:30,045 [INFO] Detail progress 82 / 133
+2026-04-12 09:27:30,052 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=85&code=notice
+2026-04-12 09:27:30,052 [INFO] Detail progress 83 / 133
+2026-04-12 09:27:30,170 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=84&code=notice
+2026-04-12 09:27:30,170 [INFO] Detail progress 84 / 133
+2026-04-12 09:27:30,482 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=83&code=notice
+2026-04-12 09:27:30,482 [INFO] Detail progress 85 / 133
+2026-04-12 09:27:30,557 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=82&code=notice
+2026-04-12 09:27:30,557 [INFO] Detail progress 86 / 133
+2026-04-12 09:27:30,561 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=79&code=notice
+2026-04-12 09:27:30,561 [INFO] Detail progress 87 / 133
+2026-04-12 09:27:30,600 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=78&code=notice
+2026-04-12 09:27:30,600 [INFO] Detail progress 88 / 133
+2026-04-12 09:27:30,685 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=77&code=notice
+2026-04-12 09:27:30,685 [INFO] Detail progress 89 / 133
+2026-04-12 09:27:31,126 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=70&code=notice
+2026-04-12 09:27:31,126 [INFO] Detail progress 90 / 133
+2026-04-12 09:27:31,192 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=69&code=notice
+2026-04-12 09:27:31,193 [INFO] Detail progress 91 / 133
+2026-04-12 09:27:31,254 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=68&code=notice
+2026-04-12 09:27:31,255 [INFO] Detail progress 92 / 133
+2026-04-12 09:27:31,310 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=67&code=notice
+2026-04-12 09:27:31,311 [INFO] Detail progress 93 / 133
+2026-04-12 09:27:31,358 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=65&code=notice
+2026-04-12 09:27:31,358 [INFO] Detail progress 94 / 133
+2026-04-12 09:27:31,750 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=64&code=notice
+2026-04-12 09:27:31,750 [INFO] Detail progress 95 / 133
+2026-04-12 09:27:31,845 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=62&code=notice
+2026-04-12 09:27:31,846 [INFO] Detail progress 96 / 133
+2026-04-12 09:27:31,929 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=60&code=notice
+2026-04-12 09:27:31,929 [INFO] Detail progress 97 / 133
+2026-04-12 09:27:31,990 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=59&code=notice
+2026-04-12 09:27:31,991 [INFO] Detail progress 98 / 133
+2026-04-12 09:27:32,000 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=58&code=notice
+2026-04-12 09:27:32,001 [INFO] Detail progress 99 / 133
+2026-04-12 09:27:32,052 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=56&code=notice
+2026-04-12 09:27:32,053 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=55&code=notice
+2026-04-12 09:27:32,054 [INFO] Detail progress 100 / 133
+2026-04-12 09:27:32,057 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=53&code=notice
+2026-04-12 09:27:32,060 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=15&code=notice
+2026-04-12 09:27:32,060 [INFO] Detail progress 101 / 133
+2026-04-12 09:27:32,063 [INFO] Detail progress 102 / 133
+2026-04-12 09:27:32,064 [INFO] Detail progress 103 / 133
+2026-04-12 09:27:32,209 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=10&code=notice
+2026-04-12 09:27:32,221 [INFO] Detail progress 104 / 133
+2026-04-12 09:27:32,253 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=8&code=notice
+2026-04-12 09:27:32,253 [INFO] Detail progress 105 / 133
+2026-04-12 09:27:32,331 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=51&code=notice
+2026-04-12 09:27:32,332 [INFO] Detail progress 106 / 133
+2026-04-12 09:27:32,385 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=50&code=notice
+2026-04-12 09:27:32,385 [INFO] Detail progress 107 / 133
+2026-04-12 09:27:32,400 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=49&code=notice
+2026-04-12 09:27:32,401 [INFO] Detail progress 108 / 133
+2026-04-12 09:27:32,481 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=48&code=notice
+2026-04-12 09:27:32,482 [INFO] Detail progress 109 / 133
+2026-04-12 09:27:32,568 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=46&code=notice
+2026-04-12 09:27:32,569 [INFO] Detail progress 110 / 133
+2026-04-12 09:27:32,595 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=43&code=notice
+2026-04-12 09:27:32,595 [INFO] Detail progress 111 / 133
+2026-04-12 09:27:32,604 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=42&code=notice
+2026-04-12 09:27:32,604 [INFO] Detail progress 112 / 133
+2026-04-12 09:27:32,625 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=40&code=notice
+2026-04-12 09:27:32,625 [INFO] Detail progress 113 / 133
+2026-04-12 09:27:32,658 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=38&code=notice
+2026-04-12 09:27:32,658 [INFO] Detail progress 114 / 133
+2026-04-12 09:27:32,703 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=37&code=notice
+2026-04-12 09:27:32,709 [INFO] Detail progress 115 / 133
+2026-04-12 09:27:32,856 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=30&code=notice
+2026-04-12 09:27:32,857 [INFO] Detail progress 116 / 133
+2026-04-12 09:27:32,875 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=29&code=notice
+2026-04-12 09:27:32,875 [INFO] Detail progress 117 / 133
+2026-04-12 09:27:32,892 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=28&code=notice
+2026-04-12 09:27:32,892 [INFO] Detail progress 118 / 133
+2026-04-12 09:27:32,918 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=27&code=notice
+2026-04-12 09:27:32,918 [INFO] Detail progress 119 / 133
+2026-04-12 09:27:32,978 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=26&code=notice
+2026-04-12 09:27:32,978 [INFO] Detail progress 120 / 133
+2026-04-12 09:27:33,043 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=25&code=notice
+2026-04-12 09:27:33,044 [INFO] Detail progress 121 / 133
+2026-04-12 09:27:33,367 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=23&code=notice
+2026-04-12 09:27:33,367 [INFO] Detail progress 122 / 133
+2026-04-12 09:27:33,397 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=21&code=notice
+2026-04-12 09:27:33,397 [INFO] Detail progress 123 / 133
+2026-04-12 09:27:33,416 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=19&code=notice
+2026-04-12 09:27:33,417 [INFO] Detail progress 124 / 133
+2026-04-12 09:27:33,436 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=17&code=notice
+2026-04-12 09:27:33,437 [INFO] Detail progress 125 / 133
+2026-04-12 09:27:33,456 [INFO] Detail progress 126 / 133
+2026-04-12 09:27:33,470 [INFO] Detail progress 127 / 133
+2026-04-12 09:27:33,582 [INFO] Detail progress 128 / 133
+2026-04-12 09:27:34,029 [INFO] Detail progress 129 / 133
+2026-04-12 09:27:34,117 [INFO] Detail progress 130 / 133
+2026-04-12 09:27:34,152 [INFO] Detail progress 131 / 133
+2026-04-12 09:27:35,042 [INFO] Detail progress 132 / 133
+2026-04-12 09:27:35,302 [INFO] Detail progress 133 / 133
+2026-04-12 09:27:35,351 [INFO] Saved JSON: /volume1/homes/sam/work/agility-scraper/output/notice/dongsa/notice_dongsa.json
+2026-04-12 09:27:35,351 [INFO] Done. matched_items=39
+2026-04-12 09:35:53,960 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 09:35:53,972 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 09:35:54,161 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 09:35:54,330 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 09:35:54,417 [INFO] Collected incremental detail urls: 3
+2026-04-12 09:35:54,418 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 09:35:54,419 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 09:35:54,420 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 09:35:54,478 [INFO] Incremental detail progress 1 / 3
+2026-04-12 09:35:54,527 [INFO] Incremental detail progress 2 / 3
+2026-04-12 09:35:55,221 [INFO] Incremental detail progress 3 / 3
+2026-04-12 09:35:55,223 [INFO] No new Dongsa notices. Keep existing output as-is.
+2026-04-12 09:35:55,223 [INFO] Done. total_items=39 new_items=0
+2026-04-12 09:42:03,046 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 09:42:03,058 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 09:42:03,233 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 09:42:03,398 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 09:42:03,487 [INFO] Collected incremental detail urls: 3
+2026-04-12 09:42:03,488 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 09:42:03,489 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 09:42:03,490 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 09:42:03,549 [INFO] Incremental detail progress 1 / 3
+2026-04-12 09:42:03,601 [INFO] Incremental detail progress 2 / 3
+2026-04-12 09:42:04,275 [INFO] Incremental detail progress 3 / 3
+2026-04-12 09:42:04,276 [INFO] No new Dongsa notices. Keep existing output as-is.
+2026-04-12 09:42:04,276 [INFO] Done. total_items=39 new_items=0
+2026-04-12 10:02:37,464 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 10:02:37,475 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 10:02:37,662 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 10:02:37,812 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 10:02:38,039 [INFO] Collected incremental detail urls: 3
+2026-04-12 10:02:38,040 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 10:02:38,041 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 10:02:38,043 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 10:02:38,096 [INFO] Incremental detail progress 1 / 3
+2026-04-12 10:02:38,148 [INFO] Incremental detail progress 2 / 3
+2026-04-12 10:02:38,922 [INFO] Incremental detail progress 3 / 3
+2026-04-12 10:02:38,923 [INFO] No new Dongsa notices. Keep existing output as-is.
+2026-04-12 10:02:38,923 [INFO] Done. total_items=39 new_items=0
+2026-04-12 02:12:13,409 [INFO] Start Dongsa notice scraper: mode=full
+2026-04-12 02:12:13,424 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 02:12:13,611 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 02:12:13,741 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 02:12:13,870 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=4
+2026-04-12 02:12:13,991 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=5
+2026-04-12 02:12:14,117 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=6
+2026-04-12 02:12:14,245 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=7
+2026-04-12 02:12:14,369 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=8
+2026-04-12 02:12:14,491 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=9
+2026-04-12 02:12:14,611 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=10
+2026-04-12 02:12:14,747 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=11
+2026-04-12 02:12:14,878 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=14
+2026-04-12 02:12:14,993 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=12
+2026-04-12 02:12:15,170 [INFO] Discover list page: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=13
+2026-04-12 02:12:15,296 [INFO] Discovered list pages: 14
+2026-04-12 02:12:15,296 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 02:12:15,428 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 02:12:15,551 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 02:12:15,677 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=4
+2026-04-12 02:12:15,807 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=5
+2026-04-12 02:12:15,929 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=6
+2026-04-12 02:12:16,055 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=7
+2026-04-12 02:12:16,171 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=8
+2026-04-12 02:12:16,299 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=9
+2026-04-12 02:12:16,421 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=10
+2026-04-12 02:12:16,545 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=11
+2026-04-12 02:12:16,667 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=14
+2026-04-12 02:12:16,782 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=12
+2026-04-12 02:12:16,915 [INFO] Collect detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=13
+2026-04-12 02:12:17,032 [INFO] Collected candidate detail urls: 133
+2026-04-12 02:12:17,033 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 02:12:17,034 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 02:12:17,035 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 02:12:17,036 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=222&code=notice
+2026-04-12 02:12:17,037 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice
+2026-04-12 02:12:17,039 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=220&code=notice
+2026-04-12 02:12:17,039 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=219&code=notice
+2026-04-12 02:12:17,041 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=218&code=notice
+2026-04-12 02:12:17,088 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=217&code=notice
+2026-04-12 02:12:17,090 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=216&code=notice
+2026-04-12 02:12:17,091 [INFO] Detail progress 1 / 133
+2026-04-12 02:12:17,099 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=215&code=notice
+2026-04-12 02:12:17,101 [INFO] Detail progress 2 / 133
+2026-04-12 02:12:17,102 [INFO] Detail progress 3 / 133
+2026-04-12 02:12:17,144 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=214&code=notice
+2026-04-12 02:12:17,144 [INFO] Detail progress 4 / 133
+2026-04-12 02:12:17,200 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=213&code=notice
+2026-04-12 02:12:17,200 [INFO] Detail progress 5 / 133
+2026-04-12 02:12:17,236 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=212&code=notice
+2026-04-12 02:12:17,237 [INFO] Detail progress 6 / 133
+2026-04-12 02:12:17,505 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=211&code=notice
+2026-04-12 02:12:17,505 [INFO] Detail progress 7 / 133
+2026-04-12 02:12:17,532 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=210&code=notice
+2026-04-12 02:12:17,532 [INFO] Detail progress 8 / 133
+2026-04-12 02:12:17,586 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=209&code=notice
+2026-04-12 02:12:17,586 [INFO] Detail progress 9 / 133
+2026-04-12 02:12:17,675 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=208&code=notice
+2026-04-12 02:12:17,675 [INFO] Detail progress 10 / 133
+2026-04-12 02:12:17,777 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=207&code=notice
+2026-04-12 02:12:17,777 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=206&code=notice
+2026-04-12 02:12:17,777 [INFO] Detail progress 11 / 133
+2026-04-12 02:12:17,779 [INFO] Detail progress 12 / 133
+2026-04-12 02:12:17,938 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=205&code=notice
+2026-04-12 02:12:17,939 [INFO] Detail progress 13 / 133
+2026-04-12 02:12:17,967 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=204&code=notice
+2026-04-12 02:12:17,967 [INFO] Detail progress 14 / 133
+2026-04-12 02:12:18,250 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=203&code=notice
+2026-04-12 02:12:18,250 [INFO] Detail progress 15 / 133
+2026-04-12 02:12:18,286 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=200&code=notice
+2026-04-12 02:12:18,286 [INFO] Detail progress 16 / 133
+2026-04-12 02:12:18,317 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=199&code=notice
+2026-04-12 02:12:18,317 [INFO] Detail progress 17 / 133
+2026-04-12 02:12:18,319 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=198&code=notice
+2026-04-12 02:12:18,320 [INFO] Detail progress 18 / 133
+2026-04-12 02:12:18,508 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=197&code=notice
+2026-04-12 02:12:18,508 [INFO] Detail progress 19 / 133
+2026-04-12 02:12:18,647 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=196&code=notice
+2026-04-12 02:12:18,647 [INFO] Detail progress 20 / 133
+2026-04-12 02:12:18,886 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=195&code=notice
+2026-04-12 02:12:18,887 [INFO] Detail progress 21 / 133
+2026-04-12 02:12:19,015 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=194&code=notice
+2026-04-12 02:12:19,015 [INFO] Detail progress 22 / 133
+2026-04-12 02:12:19,048 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=192&code=notice
+2026-04-12 02:12:19,049 [INFO] Detail progress 23 / 133
+2026-04-12 02:12:19,236 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=191&code=notice
+2026-04-12 02:12:19,236 [INFO] Detail progress 24 / 133
+2026-04-12 02:12:19,281 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=189&code=notice
+2026-04-12 02:12:19,281 [INFO] Detail progress 25 / 133
+2026-04-12 02:12:19,329 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=187&code=notice
+2026-04-12 02:12:19,330 [INFO] Detail progress 26 / 133
+2026-04-12 02:12:19,338 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=186&code=notice
+2026-04-12 02:12:19,338 [INFO] Detail progress 27 / 133
+2026-04-12 02:12:19,359 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=185&code=notice
+2026-04-12 02:12:19,359 [INFO] Detail progress 28 / 133
+2026-04-12 02:12:19,385 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=184&code=notice
+2026-04-12 02:12:19,385 [INFO] Detail progress 29 / 133
+2026-04-12 02:12:19,516 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=183&code=notice
+2026-04-12 02:12:19,516 [INFO] Detail progress 30 / 133
+2026-04-12 02:12:19,590 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=178&code=notice
+2026-04-12 02:12:19,590 [INFO] Detail progress 31 / 133
+2026-04-12 02:12:19,764 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=177&code=notice
+2026-04-12 02:12:19,765 [INFO] Detail progress 32 / 133
+2026-04-12 02:12:19,782 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=176&code=notice
+2026-04-12 02:12:19,783 [INFO] Detail progress 33 / 133
+2026-04-12 02:12:19,805 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=175&code=notice
+2026-04-12 02:12:19,806 [INFO] Detail progress 34 / 133
+2026-04-12 02:12:19,886 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=173&code=notice
+2026-04-12 02:12:19,886 [INFO] Detail progress 35 / 133
+2026-04-12 02:12:20,240 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=172&code=notice
+2026-04-12 02:12:20,240 [INFO] Detail progress 36 / 133
+2026-04-12 02:12:20,307 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=170&code=notice
+2026-04-12 02:12:20,308 [INFO] Detail progress 37 / 133
+2026-04-12 02:12:20,493 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=169&code=notice
+2026-04-12 02:12:20,494 [INFO] Detail progress 38 / 133
+2026-04-12 02:12:20,582 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=168&code=notice
+2026-04-12 02:12:20,583 [INFO] Detail progress 39 / 133
+2026-04-12 02:12:20,606 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=166&code=notice
+2026-04-12 02:12:20,606 [INFO] Detail progress 40 / 133
+2026-04-12 02:12:20,611 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=164&code=notice
+2026-04-12 02:12:20,611 [INFO] Detail progress 41 / 133
+2026-04-12 02:12:20,614 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=162&code=notice
+2026-04-12 02:12:20,614 [INFO] Detail progress 42 / 133
+2026-04-12 02:12:20,649 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=161&code=notice
+2026-04-12 02:12:20,650 [INFO] Detail progress 43 / 133
+2026-04-12 02:12:20,931 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=156&code=notice
+2026-04-12 02:12:20,931 [INFO] Detail progress 44 / 133
+2026-04-12 02:12:21,084 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=155&code=notice
+2026-04-12 02:12:21,087 [INFO] Detail progress 45 / 133
+2026-04-12 02:12:21,088 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=153&code=notice
+2026-04-12 02:12:21,095 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=152&code=notice
+2026-04-12 02:12:21,095 [INFO] Detail progress 46 / 133
+2026-04-12 02:12:21,098 [INFO] Detail progress 47 / 133
+2026-04-12 02:12:21,098 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=150&code=notice
+2026-04-12 02:12:21,099 [INFO] Detail progress 48 / 133
+2026-04-12 02:12:21,117 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=148&code=notice
+2026-04-12 02:12:21,117 [INFO] Detail progress 49 / 133
+2026-04-12 02:12:21,124 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=147&code=notice
+2026-04-12 02:12:21,125 [INFO] Detail progress 50 / 133
+2026-04-12 02:12:21,162 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=144&code=notice
+2026-04-12 02:12:21,162 [INFO] Detail progress 51 / 133
+2026-04-12 02:12:21,208 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=143&code=notice
+2026-04-12 02:12:21,209 [INFO] Detail progress 52 / 133
+2026-04-12 02:12:21,213 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=142&code=notice
+2026-04-12 02:12:21,213 [INFO] Detail progress 53 / 133
+2026-04-12 02:12:21,262 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=140&code=notice
+2026-04-12 02:12:21,262 [INFO] Detail progress 54 / 133
+2026-04-12 02:12:21,293 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=138&code=notice
+2026-04-12 02:12:21,293 [INFO] Detail progress 55 / 133
+2026-04-12 02:12:21,353 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=136&code=notice
+2026-04-12 02:12:21,354 [INFO] Detail progress 56 / 133
+2026-04-12 02:12:21,520 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=135&code=notice
+2026-04-12 02:12:21,520 [INFO] Detail progress 57 / 133
+2026-04-12 02:12:21,670 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=133&code=notice
+2026-04-12 02:12:21,670 [INFO] Detail progress 58 / 133
+2026-04-12 02:12:21,704 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=131&code=notice
+2026-04-12 02:12:21,704 [INFO] Detail progress 59 / 133
+2026-04-12 02:12:22,026 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=130&code=notice
+2026-04-12 02:12:22,027 [INFO] Detail progress 60 / 133
+2026-04-12 02:12:22,062 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=128&code=notice
+2026-04-12 02:12:22,062 [INFO] Detail progress 61 / 133
+2026-04-12 02:12:22,137 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=126&code=notice
+2026-04-12 02:12:22,137 [INFO] Detail progress 62 / 133
+2026-04-12 02:12:22,169 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=124&code=notice
+2026-04-12 02:12:22,170 [INFO] Detail progress 63 / 133
+2026-04-12 02:12:22,214 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=121&code=notice
+2026-04-12 02:12:22,214 [INFO] Detail progress 64 / 133
+2026-04-12 02:12:22,216 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=117&code=notice
+2026-04-12 02:12:22,217 [INFO] Detail progress 65 / 133
+2026-04-12 02:12:22,255 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=116&code=notice
+2026-04-12 02:12:22,255 [INFO] Detail progress 66 / 133
+2026-04-12 02:12:22,290 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=114&code=notice
+2026-04-12 02:12:22,290 [INFO] Detail progress 67 / 133
+2026-04-12 02:12:22,318 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=113&code=notice
+2026-04-12 02:12:22,318 [INFO] Detail progress 68 / 133
+2026-04-12 02:12:22,349 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=111&code=notice
+2026-04-12 02:12:22,349 [INFO] Detail progress 69 / 133
+2026-04-12 02:12:22,374 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=109&code=notice
+2026-04-12 02:12:22,374 [INFO] Detail progress 70 / 133
+2026-04-12 02:12:22,387 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=108&code=notice
+2026-04-12 02:12:22,388 [INFO] Detail progress 71 / 133
+2026-04-12 02:12:22,434 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=106&code=notice
+2026-04-12 02:12:22,434 [INFO] Detail progress 72 / 133
+2026-04-12 02:12:22,847 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=105&code=notice
+2026-04-12 02:12:22,847 [INFO] Detail progress 73 / 133
+2026-04-12 02:12:22,883 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=103&code=notice
+2026-04-12 02:12:22,883 [INFO] Detail progress 74 / 133
+2026-04-12 02:12:22,960 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=101&code=notice
+2026-04-12 02:12:22,961 [INFO] Detail progress 75 / 133
+2026-04-12 02:12:22,992 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=100&code=notice
+2026-04-12 02:12:22,992 [INFO] Detail progress 76 / 133
+2026-04-12 02:12:23,011 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=99&code=notice
+2026-04-12 02:12:23,011 [INFO] Detail progress 77 / 133
+2026-04-12 02:12:23,092 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=96&code=notice
+2026-04-12 02:12:23,093 [INFO] Detail progress 78 / 133
+2026-04-12 02:12:23,220 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=95&code=notice
+2026-04-12 02:12:23,220 [INFO] Detail progress 79 / 133
+2026-04-12 02:12:23,359 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=90&code=notice
+2026-04-12 02:12:23,359 [INFO] Detail progress 80 / 133
+2026-04-12 02:12:23,393 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=87&code=notice
+2026-04-12 02:12:23,394 [INFO] Detail progress 81 / 133
+2026-04-12 02:12:23,408 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=86&code=notice
+2026-04-12 02:12:23,409 [INFO] Detail progress 82 / 133
+2026-04-12 02:12:23,433 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=85&code=notice
+2026-04-12 02:12:23,433 [INFO] Detail progress 83 / 133
+2026-04-12 02:12:23,496 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=84&code=notice
+2026-04-12 02:12:23,497 [INFO] Detail progress 84 / 133
+2026-04-12 02:12:23,898 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=83&code=notice
+2026-04-12 02:12:23,898 [INFO] Detail progress 85 / 133
+2026-04-12 02:12:23,927 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=82&code=notice
+2026-04-12 02:12:23,927 [INFO] Detail progress 86 / 133
+2026-04-12 02:12:23,981 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=79&code=notice
+2026-04-12 02:12:23,981 [INFO] Detail progress 87 / 133
+2026-04-12 02:12:24,012 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=78&code=notice
+2026-04-12 02:12:24,012 [INFO] Detail progress 88 / 133
+2026-04-12 02:12:24,047 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=77&code=notice
+2026-04-12 02:12:24,047 [INFO] Detail progress 89 / 133
+2026-04-12 02:12:24,090 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=70&code=notice
+2026-04-12 02:12:24,090 [INFO] Detail progress 90 / 133
+2026-04-12 02:12:24,136 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=69&code=notice
+2026-04-12 02:12:24,137 [INFO] Detail progress 91 / 133
+2026-04-12 02:12:24,199 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=68&code=notice
+2026-04-12 02:12:24,199 [INFO] Detail progress 92 / 133
+2026-04-12 02:12:24,335 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=67&code=notice
+2026-04-12 02:12:24,335 [INFO] Detail progress 93 / 133
+2026-04-12 02:12:24,362 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=65&code=notice
+2026-04-12 02:12:24,362 [INFO] Detail progress 94 / 133
+2026-04-12 02:12:24,399 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=64&code=notice
+2026-04-12 02:12:24,400 [INFO] Detail progress 95 / 133
+2026-04-12 02:12:24,419 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=62&code=notice
+2026-04-12 02:12:24,419 [INFO] Detail progress 96 / 133
+2026-04-12 02:12:24,431 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=60&code=notice
+2026-04-12 02:12:24,432 [INFO] Detail progress 97 / 133
+2026-04-12 02:12:24,461 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=59&code=notice
+2026-04-12 02:12:24,461 [INFO] Detail progress 98 / 133
+2026-04-12 02:12:24,468 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=58&code=notice
+2026-04-12 02:12:24,469 [INFO] Detail progress 99 / 133
+2026-04-12 02:12:24,511 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=56&code=notice
+2026-04-12 02:12:24,511 [INFO] Detail progress 100 / 133
+2026-04-12 02:12:24,669 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=55&code=notice
+2026-04-12 02:12:24,670 [INFO] Detail progress 101 / 133
+2026-04-12 02:12:24,716 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=53&code=notice
+2026-04-12 02:12:24,716 [INFO] Detail progress 102 / 133
+2026-04-12 02:12:24,906 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=15&code=notice
+2026-04-12 02:12:24,907 [INFO] Detail progress 103 / 133
+2026-04-12 02:12:24,939 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=10&code=notice
+2026-04-12 02:12:24,939 [INFO] Detail progress 104 / 133
+2026-04-12 02:12:24,957 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=8&code=notice
+2026-04-12 02:12:24,957 [INFO] Detail progress 105 / 133
+2026-04-12 02:12:25,002 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=51&code=notice
+2026-04-12 02:12:25,002 [INFO] Detail progress 106 / 133
+2026-04-12 02:12:25,034 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=50&code=notice
+2026-04-12 02:12:25,035 [INFO] Detail progress 107 / 133
+2026-04-12 02:12:25,134 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=49&code=notice
+2026-04-12 02:12:25,134 [INFO] Detail progress 108 / 133
+2026-04-12 02:12:25,163 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=48&code=notice
+2026-04-12 02:12:25,164 [INFO] Detail progress 109 / 133
+2026-04-12 02:12:25,188 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=46&code=notice
+2026-04-12 02:12:25,188 [INFO] Detail progress 110 / 133
+2026-04-12 02:12:25,317 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=43&code=notice
+2026-04-12 02:12:25,322 [INFO] Detail progress 111 / 133
+2026-04-12 02:12:25,343 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=42&code=notice
+2026-04-12 02:12:25,343 [INFO] Detail progress 112 / 133
+2026-04-12 02:12:25,376 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=40&code=notice
+2026-04-12 02:12:25,376 [INFO] Detail progress 113 / 133
+2026-04-12 02:12:25,380 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=38&code=notice
+2026-04-12 02:12:25,380 [INFO] Detail progress 114 / 133
+2026-04-12 02:12:25,415 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=37&code=notice
+2026-04-12 02:12:25,416 [INFO] Detail progress 115 / 133
+2026-04-12 02:12:25,470 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=30&code=notice
+2026-04-12 02:12:25,471 [INFO] Detail progress 116 / 133
+2026-04-12 02:12:25,552 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=29&code=notice
+2026-04-12 02:12:25,562 [INFO] Detail progress 117 / 133
+2026-04-12 02:12:25,566 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=28&code=notice
+2026-04-12 02:12:25,567 [INFO] Detail progress 118 / 133
+2026-04-12 02:12:25,604 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=27&code=notice
+2026-04-12 02:12:25,605 [INFO] Detail progress 119 / 133
+2026-04-12 02:12:25,644 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=26&code=notice
+2026-04-12 02:12:25,644 [INFO] Detail progress 120 / 133
+2026-04-12 02:12:25,682 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=25&code=notice
+2026-04-12 02:12:25,682 [INFO] Detail progress 121 / 133
+2026-04-12 02:12:25,774 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=23&code=notice
+2026-04-12 02:12:25,774 [INFO] Detail progress 122 / 133
+2026-04-12 02:12:25,787 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=21&code=notice
+2026-04-12 02:12:25,787 [INFO] Detail progress 123 / 133
+2026-04-12 02:12:25,832 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=19&code=notice
+2026-04-12 02:12:25,833 [INFO] Detail progress 124 / 133
+2026-04-12 02:12:25,838 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=17&code=notice
+2026-04-12 02:12:25,838 [INFO] Detail progress 125 / 133
+2026-04-12 02:12:25,864 [INFO] Detail progress 126 / 133
+2026-04-12 02:12:25,999 [INFO] Detail progress 127 / 133
+2026-04-12 02:12:26,002 [INFO] Detail progress 128 / 133
+2026-04-12 02:12:26,167 [INFO] Detail progress 129 / 133
+2026-04-12 02:12:26,474 [INFO] Detail progress 130 / 133
+2026-04-12 02:12:26,475 [INFO] Detail progress 131 / 133
+2026-04-12 02:12:26,955 [INFO] Detail progress 132 / 133
+2026-04-12 02:12:28,366 [INFO] Detail progress 133 / 133
+2026-04-12 02:12:28,385 [INFO] Saved JSON: /workspace/output/notice/dongsa/notice_dongsa.json
+2026-04-12 02:12:28,386 [INFO] Done. matched_items=39
+2026-04-12 07:47:28,124 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 07:47:28,134 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 07:47:28,342 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 07:47:28,486 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 07:47:28,556 [INFO] Collected incremental detail urls: 3
+2026-04-12 07:47:28,557 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 07:47:28,558 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 07:47:28,559 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 07:47:28,610 [INFO] Incremental detail progress 1 / 3
+2026-04-12 07:47:28,658 [INFO] Incremental detail progress 2 / 3
+2026-04-12 07:47:29,413 [INFO] Incremental detail progress 3 / 3
+2026-04-12 07:47:29,413 [INFO] No new Dongsa notices. Keep existing output as-is.
+2026-04-12 07:47:29,414 [INFO] Done. total_items=39 new_items=0
+2026-04-12 07:58:08,649 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 07:58:08,658 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 07:58:08,860 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 07:58:08,999 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 07:58:09,077 [INFO] Collected incremental detail urls: 3
+2026-04-12 07:58:09,078 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 07:58:09,079 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 07:58:09,080 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 07:58:09,127 [INFO] Incremental detail progress 1 / 3
+2026-04-12 07:58:09,180 [INFO] Incremental detail progress 2 / 3
+2026-04-12 07:58:09,871 [INFO] Incremental detail progress 3 / 3
+2026-04-12 07:58:09,872 [INFO] No new Dongsa notices. Keep existing output as-is.
+2026-04-12 07:58:09,873 [INFO] Done. total_items=39 new_items=0
+2026-04-12 08:18:39,645 [INFO] Start Dongsa notice scraper: mode=update
+2026-04-12 08:18:39,654 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice
+2026-04-12 08:18:39,875 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=2
+2026-04-12 08:18:40,012 [INFO] Collect incremental detail links from: http://www.dong-sa.or.kr/board/index.jsp?code=notice&page=3
+2026-04-12 08:18:40,093 [INFO] Collected incremental detail urls: 3
+2026-04-12 08:18:40,094 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=225&code=notice
+2026-04-12 08:18:40,095 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=224&code=notice
+2026-04-12 08:18:40,096 [INFO] Parse detail: http://www.dong-sa.or.kr/board/read.jsp?id=223&code=notice
+2026-04-12 08:18:40,142 [INFO] Incremental detail progress 1 / 3
+2026-04-12 08:18:40,395 [INFO] Incremental detail progress 2 / 3
+2026-04-12 08:18:40,895 [INFO] Incremental detail progress 3 / 3
+2026-04-12 08:18:40,896 [INFO] No new Dongsa notices. Keep existing output as-is.
+2026-04-12 08:18:40,896 [INFO] Done. total_items=39 new_items=0
