@@ -14627,3 +14627,59 @@
 2026-04-12 08:21:48,708 [INFO] Incremental detail progress 23 / 23
 2026-04-12 08:21:48,711 [INFO] No new KKF notices. Keep existing output as-is.
 2026-04-12 08:21:48,712 [INFO] Done. total_items=85 new_items=0
+2026-04-12 18:33:07,477 [INFO] Start KKF notice scraper: mode=update
+2026-04-12 18:33:08,206 [INFO] Start incremental board crawl: https://www.thekkf.or.kr/new_home/news/board/list.php?board=board&code=1&intCurPage=&strSearchWord=&strSearchType==&f_word=&f_idx=&part=
+2026-04-12 18:33:08,207 [INFO] Collect incremental detail links from: https://www.thekkf.or.kr/new_home/news/board/list.php?board=board&code=1&intCurPage=&strSearchWord=&strSearchType==&f_word=&f_idx=&part=
+2026-04-12 18:33:08,628 [INFO] Collect incremental detail links from: https://www.thekkf.or.kr/new_home/news/board/list.php?1=1&board=board&code=1&intCurPage=&strSearchWord=&strSearchType=%3D&f_word=&f_idx=&part=&page=2
+2026-04-12 18:33:08,813 [INFO] Collect incremental detail links from: https://www.thekkf.or.kr/new_home/news/board/list.php?1=1&board=board&code=1&intCurPage=&strSearchWord=&strSearchType=%3D&f_word=&f_idx=&part=&page=3
+2026-04-12 18:33:09,279 [INFO] Collect incremental detail links from: https://www.thekkf.or.kr/new_home/news/board/list.php?1=1&board=board&code=1&intCurPage=&strSearchWord=&strSearchType=%3D&f_word=&f_idx=&part=&page=4
+2026-04-12 18:33:09,740 [INFO] Collect incremental detail links from: https://www.thekkf.or.kr/new_home/news/board/list.php?1=1&board=board&code=1&intCurPage=&strSearchWord=&strSearchType=%3D&f_word=&f_idx=&part=&page=5
+2026-04-12 18:33:09,855 [INFO] Collected incremental detail urls: 23
+2026-04-12 18:33:09,856 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12352
+2026-04-12 18:33:09,857 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12351
+2026-04-12 18:33:09,858 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12350
+2026-04-12 18:33:09,863 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12349
+2026-04-12 18:33:09,864 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12348
+2026-04-12 18:33:09,866 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12347
+2026-04-12 18:33:09,867 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12345
+2026-04-12 18:33:09,870 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12344
+2026-04-12 18:33:10,230 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12343
+2026-04-12 18:33:10,230 [INFO] Incremental detail progress 1 / 23
+2026-04-12 18:33:10,269 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12340
+2026-04-12 18:33:10,269 [INFO] Incremental detail progress 2 / 23
+2026-04-12 18:33:10,283 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12336
+2026-04-12 18:33:10,284 [INFO] Incremental detail progress 3 / 23
+2026-04-12 18:33:10,308 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12334
+2026-04-12 18:33:10,308 [INFO] Incremental detail progress 4 / 23
+2026-04-12 18:33:10,351 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12333
+2026-04-12 18:33:10,352 [INFO] Incremental detail progress 5 / 23
+2026-04-12 18:33:10,360 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12331
+2026-04-12 18:33:10,361 [INFO] Incremental detail progress 6 / 23
+2026-04-12 18:33:10,388 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12329
+2026-04-12 18:33:10,388 [INFO] Incremental detail progress 7 / 23
+2026-04-12 18:33:10,401 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12324
+2026-04-12 18:33:10,402 [INFO] Incremental detail progress 8 / 23
+2026-04-12 18:33:10,426 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12319
+2026-04-12 18:33:10,426 [INFO] Incremental detail progress 9 / 23
+2026-04-12 18:33:10,445 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12315
+2026-04-12 18:33:10,446 [INFO] Incremental detail progress 10 / 23
+2026-04-12 18:33:10,469 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12337
+2026-04-12 18:33:10,469 [INFO] Incremental detail progress 11 / 23
+2026-04-12 18:33:10,484 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12321
+2026-04-12 18:33:10,484 [INFO] Incremental detail progress 12 / 23
+2026-04-12 18:33:10,490 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12316
+2026-04-12 18:33:10,491 [INFO] Incremental detail progress 13 / 23
+2026-04-12 18:33:10,505 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12314
+2026-04-12 18:33:10,506 [INFO] Incremental detail progress 14 / 23
+2026-04-12 18:33:10,530 [INFO] Parse detail: https://www.thekkf.or.kr/new_home/news/board/view.php?board=board&seq=12313
+2026-04-12 18:33:10,535 [INFO] Incremental detail progress 15 / 23
+2026-04-12 18:33:10,536 [INFO] Incremental detail progress 16 / 23
+2026-04-12 18:33:10,539 [INFO] Incremental detail progress 17 / 23
+2026-04-12 18:33:10,543 [INFO] Incremental detail progress 18 / 23
+2026-04-12 18:33:10,546 [INFO] Incremental detail progress 19 / 23
+2026-04-12 18:33:10,561 [INFO] Incremental detail progress 20 / 23
+2026-04-12 18:33:10,572 [INFO] Incremental detail progress 21 / 23
+2026-04-12 18:33:10,575 [INFO] Incremental detail progress 22 / 23
+2026-04-12 18:33:10,802 [INFO] Incremental detail progress 23 / 23
+2026-04-12 18:33:10,805 [INFO] No new KKF notices. Keep existing output as-is.
+2026-04-12 18:33:10,806 [INFO] Done. total_items=85 new_items=0
