@@ -1,1 +1,24 @@
-{"id":121,"source":"dongsa","source_seq":"205","title":"제3회 KAO 챔피언십 타임테이블 공지","url":"http://www.dong-sa.or.kr/board/read.jsp?id=205&code=notice","published_at_raw":"2024.10.27","published_at":"2024-10-27T00:00:00+09:00","body_html":"<p><img src=\"http://www.dong-sa.or.kr/data/file/4e7675d73b2039e9d7df308a0bd12f35.jpg\" alt=\"\" width=\"560\" height=\"2240\" /></p>","body_text":"","image_urls":["http://www.dong-sa.or.kr/data/file/4e7675d73b2039e9d7df308a0bd12f35.jpg"],"tables":[],"attachments":[{"label":"2024 KAO 타임테이블_홈페이지.jpg","url":"http://www.dong-sa.or.kr/main/download.jsp?id=100599&ek=87e9345183a4d8ed7a85fbcac1204d54","file_name":"2024 KAO 타임테이블_홈페이지.jpg","file_ext":".jpg","text":""}]}
+{
+  "id": 121,
+  "source": "dongsa",
+  "source_seq": "205",
+  "title": "제3회 KAO 챔피언십 타임테이블 공지",
+  "url": "http://www.dong-sa.or.kr/board/read.jsp?id=205&code=notice",
+  "published_at_raw": "2024.10.27",
+  "published_at": "2024-10-27T00:00:00+09:00",
+  "body_html": "<p><img src=\"http://www.dong-sa.or.kr/data/file/4e7675d73b2039e9d7df308a0bd12f35.jpg\" alt=\"\" width=\"560\" height=\"2240\" /></p>",
+  "body_text": "",
+  "image_urls": [
+    "http://www.dong-sa.or.kr/data/file/4e7675d73b2039e9d7df308a0bd12f35.jpg"
+  ],
+  "tables": [],
+  "attachments": [
+    {
+      "label": "2024 KAO 타임테이블_홈페이지.jpg",
+      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100599&ek=87e9345183a4d8ed7a85fbcac1204d54",
+      "file_name": "2024 KAO 타임테이블_홈페이지.jpg",
+      "file_ext": ".jpg",
+      "text": ""
+    }
+  ]
+}

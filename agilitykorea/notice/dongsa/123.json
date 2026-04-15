@@ -1,1 +1,24 @@
-{"id":123,"source":"dongsa","source_seq":"221","title":"제4회 KAO 챔피언십 개최 및 접수 안내","url":"http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice","published_at_raw":"2025.10.15","published_at":"2025-10-15T00:00:00+09:00","body_html":"<p><a href=\"https://forms.gle/MwzLNo6yE3Yqm2jC6\">https://forms.gle/MwzLNo6yE3Yqm2jC6</a></p>\r\n<p><img src=\"http://www.dong-sa.or.kr/data/file/f9e72ee2ea1447b8e81db98a5c865629.jpg\" alt=\"\" width=\"560\" height=\"5503\" /></p>\r\n<p>&nbsp;</p>","body_text":"https://forms.gle/MwzLNo6yE3Yqm2jC6","image_urls":["http://www.dong-sa.or.kr/data/file/f9e72ee2ea1447b8e81db98a5c865629.jpg"],"tables":[],"attachments":[{"label":"2025 KAO 접수게시물_홈페이지.jpg","url":"http://www.dong-sa.or.kr/main/download.jsp?id=100661&ek=c275c187b1a59d3dabfb554df93b9ccb","file_name":"2025 KAO 접수게시물_홈페이지.jpg","file_ext":".jpg","text":""}]}
+{
+  "id": 123,
+  "source": "dongsa",
+  "source_seq": "221",
+  "title": "제4회 KAO 챔피언십 개최 및 접수 안내",
+  "url": "http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice",
+  "published_at_raw": "2025.10.15",
+  "published_at": "2025-10-15T00:00:00+09:00",
+  "body_html": "<p><a href=\"https://forms.gle/MwzLNo6yE3Yqm2jC6\">https://forms.gle/MwzLNo6yE3Yqm2jC6</a></p>\r\n<p><img src=\"http://www.dong-sa.or.kr/data/file/f9e72ee2ea1447b8e81db98a5c865629.jpg\" alt=\"\" width=\"560\" height=\"5503\" /></p>\r\n<p>&nbsp;</p>",
+  "body_text": "https://forms.gle/MwzLNo6yE3Yqm2jC6",
+  "image_urls": [
+    "http://www.dong-sa.or.kr/data/file/f9e72ee2ea1447b8e81db98a5c865629.jpg"
+  ],
+  "tables": [],
+  "attachments": [
+    {
+      "label": "2025 KAO 접수게시물_홈페이지.jpg",
+      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100661&ek=c275c187b1a59d3dabfb554df93b9ccb",
+      "file_name": "2025 KAO 접수게시물_홈페이지.jpg",
+      "file_ext": ".jpg",
+      "text": ""
+    }
+  ]
+}
