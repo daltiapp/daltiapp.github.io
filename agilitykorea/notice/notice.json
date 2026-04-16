@@ -1,7 +1,17 @@
 {
   "identity_field": "id",
-  "total_count": 124,
+  "total_count": 125,
   "items": [
+    {
+      "id": 125,
+      "source": "kkf",
+      "source_seq": "12365",
+      "title": "2026년 KKF 어질리티 위원회 신규위원 모집안내",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12365",
+      "published_at_raw": "2026.4.16",
+      "published_at": "2026-04-16T00:00:00+09:00",
+      "detail_path": "./kkf/125.json"
+    },
     {
       "id": 85,
       "source": "kkf",

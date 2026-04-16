@@ -1,13 +1,13 @@
 {
   "source_board_url": "https://www.thekkf.or.kr/new_home/news/board/list.php?board=board&code=1&intCurPage=&strSearchWord=&strSearchType==&f_word=&f_idx=&part=",
-  "crawl_mode": "full_board",
+  "crawl_mode": "incremental_update",
   "storage": "split_index_detail",
   "identity_field": "id",
   "keywords": [
     "awc",
     "어질리티"
   ],
-  "total_count": 85,
+  "total_count": 86,
   "detail_dir": "./",
   "items": [
     {
@@ -859,6 +859,16 @@
       "published_at_raw": "2026.3.19",
       "published_at": "2026-03-19T00:00:00+09:00",
       "detail_path": "./85.json"
+    },
+    {
+      "id": 125,
+      "source": "kkf",
+      "source_seq": "12365",
+      "title": "2026년 KKF 어질리티 위원회 신규위원 모집안내",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12365",
+      "published_at_raw": "2026.4.16",
+      "published_at": "2026-04-16T00:00:00+09:00",
+      "detail_path": "./125.json"
     }
   ]
 }
