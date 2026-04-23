@@ -1,5 +1,46 @@
 # 필독: 푸시 안전 규칙
 
+## Signing And Keychain Safety Rules
+
+Android release signing in this repo must use the project-local signing path:
+
+- `keystore.properties`
+- the `storeFile` path referenced from that file
+- Gradle `signingConfigs`
+
+Do not treat macOS keychain inspection as a normal troubleshooting step for this project.
+
+Hard rules:
+- never run keychain dump commands
+- never run certificate dump/export commands
+- never run broad secret-search commands against the whole keychain
+- never use keychain inspection when the same check can be done through `keystore.properties`, local JKS file existence, Gradle config, or build output
+
+Explicitly forbidden examples:
+- `security dump-keychain`
+- `security export`
+- `security find-certificate -p`
+- broad `security find-generic-password` scans
+- broad `security find-internet-password` scans
+- any command intended to dump or enumerate the full keychain contents
+
+Allowed baseline for Android signing work:
+- verify `keystore.properties`
+- verify the referenced local JKS file path exists
+- verify Gradle `signingConfigs`
+- run `:app:bundleRelease` or `:app:assembleRelease`
+
+Exception rule:
+- only run `security find-identity -p codesigning -v` when the user explicitly requests that exact command
+- do not expand from that command into any additional keychain dump/export/search step without explicit user approval
+
+If release signing fails, debug in this order:
+1. `keystore.properties`
+2. referenced JKS file path
+3. Gradle signing config
+4. release build output
+
+
 - 이 저장소의 `match.json` 수정은 앱 푸시 대상 계산에 직접 영향을 준다.
 - `notice_send_*`, `schedule_send_*` 를 포함한 모든 앱 푸시 배치 스크립트는 **스크립트 하나의 1회 실행 기준**으로 발송 대상이 `3건 이상`이면 앱 푸시를 보내지 않고 운영자 텔레그램 확인 요청만 보내야 한다.
 - 최근 실제 사고는 `수집 신규 0건인데 푸시 발송 대상이 대량으로 잡힌 상태 오염`이었다. 이런 패턴을 만들 수 있는 수동 데이터 수정은 매우 보수적으로 다룬다.
