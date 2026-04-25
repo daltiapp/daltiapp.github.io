@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>어질리티 대회일정</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4f6f8;
+        --surface: #ffffff;
+        --surface-soft: #f8fafc;
+        --text-strong: #1f2937;
+        --text-body: #4b5563;
+        --text-muted: #6b7280;
+        --text-faint: #9ca3af;
+        --border: #d7dee7;
+        --border-strong: #c7d1dd;
+        --accent: #1d4ed8;
+        --accent-soft: #dbeafe;
+        --danger: #dc2626;
+        --danger-soft: #fee2e2;
+        --success: #15803d;
+        --success-soft: #dcfce7;
+        --muted-badge: #e5e7eb;
+        --muted-badge-text: #4b5563;
+        --primary-badge: #dbeafe;
+        --primary-badge-text: #1d4ed8;
+        --selection-badge: #ede9fe;
+        --selection-badge-text: #6d28d9;
+        --shadow: 0 18px 42px rgba(15, 23, 42, 0.08);
+        --radius-xl: 28px;
+        --radius-lg: 22px;
+        --radius-md: 18px;
+        --radius-sm: 14px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at top left, rgba(219, 234, 254, 0.9), transparent 26%),
+          radial-gradient(circle at top right, rgba(220, 252, 231, 0.8), transparent 22%),
+          linear-gradient(180deg, #f9fbfd 0%, var(--bg) 100%);
+        color: var(--text-strong);
+        font-family:
+          "Pretendard",
+          "Apple SD Gothic Neo",
+          "Noto Sans KR",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .page {
+        width: min(1180px, calc(100vw - 32px));
+        margin: 0 auto;
+        padding: 32px 0 64px;
+      }
+
+      .hero {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        margin-bottom: 24px;
+        padding: 20px 22px;
+        border: 1px solid rgba(199, 209, 221, 0.7);
+        border-radius: var(--radius-xl);
+        background: rgba(255, 255, 255, 0.88);
+        backdrop-filter: blur(18px);
+        box-shadow: var(--shadow);
+      }
+
+      .hero-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 10px;
+        padding: 7px 12px;
+        border-radius: 999px;
+        background: var(--surface-soft);
+        color: var(--text-muted);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-size: clamp(30px, 5vw, 42px);
+        line-height: 1.04;
+        letter-spacing: -0.035em;
+      }
+
+      .hero p {
+        margin: 10px 0 0;
+        color: var(--text-body);
+        font-size: 15px;
+        line-height: 1.55;
+      }
+
+      .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .stat-chip {
+        min-width: 110px;
+        padding: 12px 14px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
+        background: var(--surface-soft);
+      }
+
+      .stat-chip strong {
+        display: block;
+        font-size: 18px;
+        line-height: 1.1;
+      }
+
+      .stat-chip span {
+        display: block;
+        margin-top: 4px;
+        color: var(--text-muted);
+        font-size: 12px;
+      }
+
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px 16px;
+      }
+
+      .toolbar-left,
+      .toolbar-right {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 12px;
+      }
+
+      .toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 14px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--surface);
+        color: var(--text-body);
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .toggle input {
+        width: 18px;
+        height: 18px;
+        margin: 0;
+        accent-color: var(--accent);
+      }
+
+      .search {
+        width: min(320px, 100%);
+        height: 46px;
+        padding: 0 16px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: var(--surface);
+        color: var(--text-strong);
+        font: inherit;
+      }
+
+      .search::placeholder {
+        color: var(--text-faint);
+      }
+
+      .meta-text {
+        color: var(--text-muted);
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .list {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .card {
+        display: block;
+        padding: 22px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        background: var(--surface);
+        box-shadow: 0 14px 30px rgba(15, 23, 42, 0.04);
+        transition:
+          transform 0.18s ease,
+          box-shadow 0.18s ease,
+          border-color 0.18s ease;
+      }
+
+      .card.is-link:hover {
+        transform: translateY(-2px);
+        border-color: var(--border-strong);
+        box-shadow: 0 18px 36px rgba(15, 23, 42, 0.08);
+      }
+
+      .card.is-disabled {
+        opacity: 0.88;
+      }
+
+      .card-grid {
+        display: grid;
+        grid-template-columns: 118px 1px minmax(0, 1fr);
+        gap: 18px;
+        align-items: center;
+      }
+
+      .date-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .date-main {
+        display: flex;
+        align-items: flex-end;
+        gap: 2px;
+        margin-bottom: 4px;
+        line-height: 1;
+      }
+
+      .date-main .month {
+        color: var(--text-muted);
+        font-size: 28px;
+        font-weight: 500;
+      }
+
+      .date-main .slash {
+        color: var(--text-faint);
+        font-size: 28px;
+        font-weight: 500;
+      }
+
+      .date-main .day {
+        font-size: 44px;
+        font-weight: 800;
+        letter-spacing: -0.05em;
+      }
+
+      .weekday {
+        margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .weekday.is-sun {
+        color: var(--danger);
+      }
+
+      .weekday.is-sat {
+        color: var(--accent);
+      }
+
+      .weekday.is-weekday {
+        color: var(--text-muted);
+      }
+
+      .time {
+        color: var(--text-body);
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .dday {
+        margin-top: 10px;
+        padding: 5px 10px;
+        border: 1px solid #fecaca;
+        border-radius: 999px;
+        background: var(--danger-soft);
+        color: #991b1b;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.01em;
+      }
+
+      .divider {
+        width: 1px;
+        height: 100%;
+        min-height: 146px;
+        background: var(--border);
+      }
+
+      .content {
+        min-width: 0;
+      }
+
+      .content-top {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .title {
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+        font-size: 25px;
+        line-height: 1.23;
+        letter-spacing: -0.035em;
+        word-break: keep-all;
+      }
+
+      .status {
+        flex-shrink: 0;
+        min-width: 78px;
+        max-width: 110px;
+        padding: 7px 10px;
+        border-radius: 12px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 1.1;
+        text-align: center;
+      }
+
+      .status.is-danger {
+        background: var(--danger);
+      }
+
+      .status.is-success {
+        background: var(--success);
+      }
+
+      .status.is-primary {
+        background: var(--accent);
+      }
+
+      .status.is-muted {
+        background: #6b7280;
+      }
+
+      .info-row,
+      .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .info-row {
+        margin-top: 14px;
+      }
+
+      .tag-row {
+        margin-top: 14px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        min-height: 34px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: #f8fafc;
+        border: 1px solid var(--border);
+        color: var(--text-body);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .pill svg {
+        flex-shrink: 0;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        min-height: 34px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .tag.is-primary {
+        background: var(--primary-badge);
+        color: var(--primary-badge-text);
+        border: 1px solid #bfdbfe;
+      }
+
+      .tag.is-selection {
+        background: var(--selection-badge);
+        color: var(--selection-badge-text);
+        border: 1px solid #ddd6fe;
+      }
+
+      .tag.is-violet {
+        background: #f3e8ff;
+        color: #7e22ce;
+        border: 1px solid #e9d5ff;
+      }
+
+      .tag.is-neutral {
+        background: #f3f4f6;
+        color: #4b5563;
+        border: 1px solid #e5e7eb;
+      }
+
+      .detail-note {
+        margin-top: 12px;
+        padding: 12px 14px;
+        border-radius: var(--radius-sm);
+        background: #faf5ff;
+        color: #6b21a8;
+        font-size: 13px;
+        line-height: 1.5;
+        border: 1px solid #e9d5ff;
+      }
+
+      .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+        margin-top: 14px;
+        color: var(--text-muted);
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .footer-row .link-indicator {
+        color: var(--accent);
+      }
+
+      .empty,
+      .loading {
+        padding: 42px 24px;
+        border: 1px dashed var(--border-strong);
+        border-radius: var(--radius-lg);
+        background: rgba(255, 255, 255, 0.72);
+        text-align: center;
+        color: var(--text-muted);
+        font-size: 15px;
+        line-height: 1.6;
+      }
+
+      .error {
+        padding: 18px 20px;
+        margin-bottom: 18px;
+        border-radius: var(--radius-md);
+        background: var(--danger-soft);
+        border: 1px solid #fecaca;
+        color: #991b1b;
+        font-weight: 700;
+      }
+
+      @media (max-width: 960px) {
+        .hero-top {
+          flex-direction: column;
+        }
+
+        .stats {
+          width: 100%;
+        }
+
+        .stat-chip {
+          flex: 1 1 140px;
+        }
+      }
+
+      @media (max-width: 760px) {
+        .page {
+          width: min(100vw - 20px, 720px);
+          padding-top: 16px;
+        }
+
+        .hero {
+          border-radius: 24px;
+          padding: 18px;
+        }
+
+        .toolbar {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .toolbar-left,
+        .toolbar-right {
+          width: 100%;
+        }
+
+        .search {
+          width: 100%;
+        }
+
+        .card {
+          padding: 18px;
+        }
+
+        .card-grid {
+          grid-template-columns: 1fr;
+          gap: 14px;
+        }
+
+        .divider {
+          display: none;
+        }
+
+        .date-column {
+          display: grid;
+          grid-template-columns: auto auto 1fr auto;
+          gap: 10px;
+          align-items: center;
+          justify-content: start;
+          text-align: left;
+        }
+
+        .date-main {
+          margin: 0;
+        }
+
+        .date-main .month,
+        .date-main .slash {
+          font-size: 20px;
+        }
+
+        .date-main .day {
+          font-size: 32px;
+        }
+
+        .weekday,
+        .time {
+          margin: 0;
+          font-size: 14px;
+        }
+
+        .dday {
+          margin-top: 0;
+          justify-self: end;
+        }
+
+        .title {
+          font-size: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <section class="hero">
+        <div class="hero-top">
+          <div>
+            <div class="eyebrow">🐾 어질리티앱 대회일정 리스트 스타일</div>
+            <h1>대회일정</h1>
+            <p>
+              <strong>match.json</strong>을 정적 HTML에서 바로 볼 수 있게 만든 목록
+              화면입니다. 카드 구성은 앱의 대회일정 리스트를 기준으로 맞췄습니다.
+            </p>
+          </div>
+          <div class="stats" id="stats"></div>
+        </div>
+        <div class="toolbar">
+          <div class="toolbar-left">
+            <label class="toggle">
+              <input id="showEnded" type="checkbox" />
+              지난대회 보기
+            </label>
+            <span class="meta-text" id="lastUpdated">불러오는 중...</span>
+          </div>
+          <div class="toolbar-right">
+            <input
+              id="search"
+              class="search"
+              type="search"
+              placeholder="대회명, 장소, 종목 검색"
+            />
+          </div>
+        </div>
+      </section>
+
+      <div id="error" class="error" hidden></div>
+      <div id="list" class="list">
+        <div class="loading">대회일정을 불러오는 중입니다.</div>
+      </div>
+    </div>
+
+    <script>
+      const MATCH_JSON_URL = "./match/match.json";
+      const WEEKDAYS = ["일", "월", "화", "수", "목", "금", "토"];
+
+      const state = {
+        items: [],
+        showEnded: false,
+        keyword: "",
+      };
+
+      const listEl = document.getElementById("list");
+      const statsEl = document.getElementById("stats");
+      const errorEl = document.getElementById("error");
+      const lastUpdatedEl = document.getElementById("lastUpdated");
+      const showEndedEl = document.getElementById("showEnded");
+      const searchEl = document.getElementById("search");
+
+      showEndedEl.addEventListener("change", () => {
+        state.showEnded = showEndedEl.checked;
+        render();
+      });
+
+      searchEl.addEventListener("input", () => {
+        state.keyword = searchEl.value.trim().toLowerCase();
+        render();
+      });
+
+      load();
+
+      async function load() {
+        try {
+          const response = await fetch(MATCH_JSON_URL, { cache: "no-store" });
+          if (!response.ok) {
+            throw new Error(`match.json 요청 실패 (${response.status})`);
+          }
+
+          const payload = await response.json();
+          const competitions = Array.isArray(payload.competitions)
+            ? payload.competitions
+            : [];
+
+          state.items = competitions
+            .map(normalizeCompetition)
+            .sort((a, b) => a.startAt - b.startAt || a.name.localeCompare(b.name, "ko"));
+
+          lastUpdatedEl.textContent = `${state.items.length}개 대회 로드 완료`;
+          render();
+        } catch (error) {
+          errorEl.hidden = false;
+          errorEl.textContent = `대회일정 데이터를 불러오지 못했습니다. ${error.message}`;
+          listEl.innerHTML =
+            '<div class="empty">match.json을 읽지 못했습니다. 경로와 파일 내용을 확인해 주세요.</div>';
+          statsEl.innerHTML = "";
+          lastUpdatedEl.textContent = "불러오기 실패";
+          console.error(error);
+        }
+      }
+
+      function normalizeCompetition(item) {
+        const startAt = parseDate(item.startAt || item.date);
+        const endAt = parseDate(item.endAt || item.startAt || item.date);
+        const applicationStartAt = parseDate(item.applicationStartAt);
+        const applicationEndAt = parseDate(item.applicationEndAt);
+        const judges = Array.isArray(item.judge)
+          ? item.judge.filter(Boolean)
+          : [];
+        const matchTypes = Array.isArray(item.matchTypes)
+          ? item.matchTypes.filter(Boolean)
+          : [];
+
+        return {
+          ...item,
+          name: String(item.name || "").trim(),
+          location: String(item.location || "").trim(),
+          club: String(item.club || "").trim(),
+          sponsor: String(item.sponsor || "").trim(),
+          eventType: String(item.eventType || "").trim(),
+          detailStatus: String(item.detailStatus || "").trim(),
+          detailNotice: String(item.detailNotice || "").trim(),
+          url: String(item.url || "").trim(),
+          startAt,
+          endAt,
+          applicationStartAt,
+          applicationEndAt,
+          judges,
+          matchTypes,
+        };
+      }
+
+      function render() {
+        const filtered = state.items.filter((item) => {
+          if (!state.showEnded && isEnded(item)) {
+            return false;
+          }
+
+          if (!state.keyword) {
+            return true;
+          }
+
+          const haystack = [
+            item.name,
+            item.location,
+            item.club,
+            item.sponsor,
+            item.eventType,
+            item.matchTypes.join(" "),
+            item.judges.join(" "),
+          ]
+            .join(" ")
+            .toLowerCase();
+
+          return haystack.includes(state.keyword);
+        });
+
+        renderStats(filtered);
+
+        if (!filtered.length) {
+          listEl.innerHTML =
+            '<div class="empty">조건에 맞는 대회가 없습니다. 지난대회 보기나 검색어를 다시 확인해 주세요.</div>';
+          return;
+        }
+
+        listEl.innerHTML = filtered.map(renderCard).join("");
+      }
+
+      function renderStats(filtered) {
+        const total = state.items.length;
+        const visible = filtered.length;
+        const upcoming = filtered.filter((item) => !isEnded(item)).length;
+        const open = filtered.filter((item) => resolveStatus(item).text === "접수중").length;
+
+        statsEl.innerHTML = [
+          statChip(total, "전체 대회"),
+          statChip(visible, "현재 표시"),
+          statChip(upcoming, "예정/진행"),
+          statChip(open, "접수중"),
+        ].join("");
+      }
+
+      function statChip(value, label) {
+        return `<div class="stat-chip"><strong>${escapeHtml(String(value))}</strong><span>${escapeHtml(
+          label
+        )}</span></div>`;
+      }
+
+      function renderCard(item) {
+        const status = resolveStatus(item);
+        const dday = resolveDday(item.startAt);
+        const weekdayIndex = item.startAt.getDay();
+        const weekdayClass =
+          weekdayIndex === 0 ? "is-sun" : weekdayIndex === 6 ? "is-sat" : "is-weekday";
+
+        const badges = buildBadges(item)
+          .map((badge) => `<span class="tag ${badge.className}">${escapeHtml(badge.text)}</span>`)
+          .join("");
+
+        const infoBadges = [
+          infoBadge(
+            `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 20h8M12 4l7 4v4c0 4.5-2.8 7.7-7 8-4.2-.3-7-3.5-7-8V8l7-4Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+            item.judges.length ? item.judges.join(", ") : "심판 정보 없음"
+          ),
+          infoBadge(
+            `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s6-4.6 6-10a6 6 0 1 0-12 0c0 5.4 6 10 6 10Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="11" r="2.2" stroke="currentColor" stroke-width="1.8"/></svg>`,
+            item.location || "장소 정보 없음"
+          ),
+        ].join("");
+
+        const noteHtml = item.detailStatus === "detail_pending"
+          ? `<div class="detail-note">${escapeHtml(
+              item.detailNotice || "상세 공지 전입니다. 추후 상세 정보가 업데이트될 예정입니다."
+            )}</div>`
+          : "";
+
+        const footerBits = [];
+        if (item.applicationPeriod) {
+          footerBits.push(`접수기간 ${escapeHtml(item.applicationPeriod)}`);
+        }
+        if (item.sponsor) {
+          footerBits.push(`주최 ${escapeHtml(item.sponsor)}`);
+        }
+        footerBits.push(
+          item.url
+            ? `<span class="link-indicator">원문 링크 열기</span>`
+            : "원문 링크 없음"
+        );
+
+        const cardClass = item.url ? "card is-link" : "card is-disabled";
+        const tag = item.url ? "a" : "div";
+        const attrs = item.url
+          ? `href="${escapeAttribute(item.url)}" target="_blank" rel="noopener noreferrer"`
+          : "";
+
+        return `
+          <${tag} class="${cardClass}" ${attrs}>
+            <div class="card-grid">
+              <div class="date-column">
+                <div class="date-main">
+                  <span class="month">${item.startAt.getMonth() + 1}</span>
+                  <span class="slash">/</span>
+                  <span class="day">${item.startAt.getDate()}</span>
+                </div>
+                <div class="weekday ${weekdayClass}">${WEEKDAYS[weekdayIndex]}</div>
+                <div class="time">${escapeHtml(formatTime(item))}</div>
+                ${dday ? `<div class="dday">${escapeHtml(dday)}</div>` : ""}
+              </div>
+              <div class="divider"></div>
+              <div class="content">
+                <div class="content-top">
+                  <h2 class="title">${escapeHtml(item.name)}</h2>
+                  <div class="status ${status.className}">${escapeHtml(status.text)}</div>
+                </div>
+                <div class="info-row">${infoBadges}</div>
+                <div class="tag-row">${badges}</div>
+                ${noteHtml}
+                <div class="footer-row">${footerBits.join(" · ")}</div>
+              </div>
+            </div>
+          </${tag}>
+        `;
+      }
+
+      function buildBadges(item) {
+        const result = [];
+
+        if (item.detailStatus === "detail_pending") {
+          result.push({ text: "상세공지 전", className: "is-neutral" });
+        }
+
+        if (!isSameDay(item.startAt, item.endAt)) {
+          const days =
+            Math.floor(
+              (stripTime(item.endAt).getTime() - stripTime(item.startAt).getTime()) /
+                86400000
+            ) + 1;
+          result.push({ text: `${days}일 일정`, className: "is-primary" });
+        }
+
+        const eventBadges = [item.eventType, ...item.matchTypes].filter(Boolean);
+        for (const badge of eventBadges) {
+          let className = "is-neutral";
+          if (badge === "랭킹전") className = "is-violet";
+          if (badge === "승급전") className = "is-primary";
+          if (badge === "선발전") className = "is-selection";
+          result.push({ text: badge, className });
+        }
+
+        if (item.club) {
+          result.push({ text: item.club, className: "is-neutral" });
+        }
+
+        return result;
+      }
+
+      function resolveStatus(item) {
+        const now = new Date();
+        const competitionStartDay = stripTime(item.startAt);
+        const competitionEndDay = stripTime(item.endAt);
+
+        if (!item.applicationStartAt || !item.applicationEndAt) {
+          if (item.detailStatus === "detail_pending") {
+            return { text: "상세공지 전", className: "is-muted" };
+          }
+          return { text: "정보 없음", className: "is-muted" };
+        }
+
+        const applicationEndOfDay = new Date(
+          item.applicationEndAt.getFullYear(),
+          item.applicationEndAt.getMonth(),
+          item.applicationEndAt.getDate(),
+          23,
+          59,
+          59
+        );
+        const today = stripTime(now);
+        const competitionEndOfDay = new Date(
+          item.endAt.getFullYear(),
+          item.endAt.getMonth(),
+          item.endAt.getDate(),
+          23,
+          59,
+          59
+        );
+
+        if (today >= competitionStartDay && today <= competitionEndDay) {
+          return {
+            text: isSameDay(item.startAt, item.endAt) ? "대회날" : "대회중",
+            className: "is-danger",
+          };
+        }
+
+        if (now > competitionEndOfDay) {
+          return { text: "대회종료", className: "is-muted" };
+        }
+
+        if (now < item.applicationStartAt) {
+          return { text: "접수예정", className: "is-primary" };
+        }
+
+        const registrationEndDay = stripTime(applicationEndOfDay);
+        if (today.getTime() === registrationEndDay.getTime()) {
+          return { text: "오늘마감", className: "is-danger" };
+        }
+
+        if (now > applicationEndOfDay && now < competitionStartDay) {
+          return { text: "접수마감", className: "is-muted" };
+        }
+
+        return { text: "접수중", className: "is-success" };
+      }
+
+      function resolveDday(startAt) {
+        const diff = Math.floor((stripTime(startAt) - stripTime(new Date())) / 86400000);
+        if (diff >= 0) {
+          return `D-${diff}`;
+        }
+        return null;
+      }
+
+      function formatTime(item) {
+        if (
+          item.detailStatus === "detail_pending" &&
+          item.startAt.getHours() === 0 &&
+          item.startAt.getMinutes() === 0
+        ) {
+          return "시간 미정";
+        }
+
+        return `${String(item.startAt.getHours()).padStart(2, "0")}:${String(
+          item.startAt.getMinutes()
+        ).padStart(2, "0")}`;
+      }
+
+      function infoBadge(icon, text) {
+        return `<span class="pill">${icon}<span>${escapeHtml(text)}</span></span>`;
+      }
+
+      function isEnded(item) {
+        const now = new Date();
+        const endOfDay = new Date(
+          item.endAt.getFullYear(),
+          item.endAt.getMonth(),
+          item.endAt.getDate(),
+          23,
+          59,
+          59
+        );
+        return now > endOfDay;
+      }
+
+      function stripTime(date) {
+        return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      }
+
+      function isSameDay(left, right) {
+        return (
+          left.getFullYear() === right.getFullYear() &&
+          left.getMonth() === right.getMonth() &&
+          left.getDate() === right.getDate()
+        );
+      }
+
+      function parseDate(raw) {
+        if (!raw) {
+          return new Date();
+        }
+        const parsed = new Date(raw);
+        return Number.isNaN(parsed.getTime()) ? new Date() : parsed;
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      function escapeAttribute(value) {
+        return escapeHtml(value);
+      }
+    </script>
+  </body>
+</html>
