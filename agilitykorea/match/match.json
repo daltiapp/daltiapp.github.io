@@ -847,13 +847,37 @@
       "applicationPeriod": "2026-04-05 ~ 2026-04-19",
       "applicationStartAt": "2026-04-05T00:00:00",
       "club": "한국애견연맹",
+      "date": "2026-05-02T09:30:00",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-05-02T09:30:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "홍상우"
+      ],
+      "location": "오수의견관광지",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "2026 오수 KKF 아마추어 어질리티 대회",
+      "sponsor": "한국애견연맹",
+      "startAt": "2026-05-02T09:30:00",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=853"
+    },
+    {
+      "applicationEndAt": "2026-04-19T23:59:59",
+      "applicationPeriod": "2026-04-05 ~ 2026-04-19",
+      "applicationStartAt": "2026-04-05T00:00:00",
+      "club": "한국애견연맹",
       "date": "2026-05-03T08:30:00",
       "detailNotice": "",
       "detailStatus": "detail_ready",
       "endAt": "2026-05-03T08:30:00",
       "eventType": "승급전",
       "judge": [
-        "김혜민", "이재룡"
+        "김혜민",
+        "이재룡"
       ],
       "location": "오수의견관광지",
       "matchTypes": [
