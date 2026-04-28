@@ -1,7 +1,27 @@
 {
   "identity_field": "id",
-  "total_count": 125,
+  "total_count": 127,
   "items": [
+    {
+      "id": 127,
+      "source": "kkf",
+      "source_seq": "12406",
+      "title": "2026 오수 KKF 내셔널 어질리티 평가전 및 2026 오수 FCI 인터내셔널 어질리티 경기대회 출진자 명단 ('26.5.3.)",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12406",
+      "published_at_raw": "2026.4.28",
+      "published_at": "2026-04-28T00:00:00+09:00",
+      "detail_path": "./kkf/127.json"
+    },
+    {
+      "id": 126,
+      "source": "kkf",
+      "source_seq": "12405",
+      "title": "2026 오수 KKF 아마추어 어질리티 경기대회 ('26.5.2.)",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12405",
+      "published_at_raw": "2026.4.28",
+      "published_at": "2026-04-28T00:00:00+09:00",
+      "detail_path": "./kkf/126.json"
+    },
     {
       "id": 125,
       "source": "kkf",
