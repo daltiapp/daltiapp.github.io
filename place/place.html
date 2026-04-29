@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agility Club | 실내 어질리티 연습장</title>
+  <meta name="description" content="24시간 예약 가능한 실내 어질리티 연습장. 시간 대관과 회차권으로 쾌적하게 연습하세요." />
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --line: rgba(0,0,0,.08);
+      --blue: #0071e3;
+      --dark: #111827;
+      --radius: 28px;
+      --max: 920px;
+      --shadow: 0 24px 70px rgba(0,0,0,.08);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Pretendard", "Noto Sans KR", system-ui, sans-serif;
+      background: radial-gradient(circle at 20% 0%, rgba(0,113,227,.12), transparent 32%), var(--bg);
+      color: var(--text);
+      letter-spacing: -0.035em;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 22px; }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(18px) saturate(180%);
+      background: rgba(245,245,247,.78);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      max-width: var(--max);
+      height: 58px;
+      margin: 0 auto;
+      padding: 0 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; }
+    .mark { width: 28px; height: 28px; border-radius: 9px; background: linear-gradient(145deg, #111827, #0071e3); }
+    .nav-links { display: flex; gap: 18px; align-items: center; font-size: 14px; color: var(--muted); font-weight: 700; }
+
+    .btn, .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 999px;
+      font-weight: 800;
+      transition: .2s ease;
+    }
+    .btn.primary, .nav-cta { background: var(--blue); color: #fff; }
+    .btn.secondary { background: #fff; border: 1px solid var(--line); }
+    .btn:hover, .nav-cta:hover { transform: translateY(-1px); }
+
+    .hero { padding: 92px 0 72px; text-align: center; }
+    .eyebrow {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.72);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 800;
+    }
+    .dot { width: 8px; height: 8px; border-radius: 99px; background: #34c759; box-shadow: 0 0 0 6px rgba(52,199,89,.13); }
+    h1 {
+      max-width: 820px;
+      margin: 24px auto 18px;
+      font-size: clamp(46px, 8vw, 88px);
+      line-height: .96;
+      letter-spacing: -0.075em;
+      font-weight: 950;
+    }
+    .lead {
+      max-width: 660px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: clamp(19px, 2.4vw, 25px);
+      line-height: 1.42;
+      font-weight: 650;
+    }
+    .actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+
+    section { margin-bottom: 82px; }
+    .section-head { text-align: center; margin-bottom: 24px; }
+    .section-head h2 { margin: 0 0 12px; font-size: clamp(32px, 5vw, 54px); line-height: 1.04; letter-spacing: -0.065em; }
+    .section-head p { margin: 0 auto; max-width: 620px; color: var(--muted); font-size: 20px; line-height: 1.45; font-weight: 650; }
+
+    .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .feature {
+      padding: 22px;
+      border-radius: 24px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      box-shadow: 0 12px 30px rgba(0,0,0,.045);
+    }
+    .feature strong { display: block; margin-bottom: 8px; font-size: 19px; }
+    .feature span { color: var(--muted); line-height: 1.5; font-weight: 620; }
+
+    .pricing-horizontal {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .price-card {
+      padding: 26px;
+      border-radius: var(--radius);
+      background: var(--card);
+      border: 1px solid var(--line);
+      box-shadow: 0 14px 34px rgba(0,0,0,.05);
+    }
+    .price-card.featured {
+      background: var(--dark);
+      color: #fff;
+      box-shadow: var(--shadow);
+    }
+    .price-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: baseline;
+      margin-bottom: 12px;
+    }
+    .price-title h3 {
+      margin: 0;
+      font-size: 25px;
+      letter-spacing: -0.055em;
+    }
+    .price {
+      margin: 0;
+      font-size: clamp(42px, 6vw, 58px);
+      line-height: 1;
+      font-weight: 950;
+      letter-spacing: -0.07em;
+      white-space: nowrap;
+    }
+    .price small {
+      font-size: 18px;
+      color: var(--muted);
+      font-weight: 800;
+      letter-spacing: -0.035em;
+    }
+    .featured .price small { color: rgba(255,255,255,.72); }
+    .price-card ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 8px;
+      color: var(--muted);
+      font-weight: 650;
+      line-height: 1.45;
+    }
+    .featured ul { color: rgba(255,255,255,.72); }
+    .price-note { margin: 18px auto 0; max-width: 700px; text-align: center; color: var(--muted); font-weight: 700; line-height: 1.45; }
+
+    /* FIX: pricing cards layout */
+    .pricing-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .pricing-plan {
+      position: relative;
+      border-radius: 26px;
+      overflow: hidden;
+      background: #fff;
+      border: 1px solid rgba(0,0,0,.10);
+      box-shadow: 0 18px 48px rgba(0,0,0,.08);
+    }
+
+    .pricing-plan:hover {
+      transform: translateY(-2px);
+      transition: .2s ease;
+      box-shadow: 0 26px 70px rgba(0,0,0,.12);
+    }
+
+    .plan-head {
+      padding: 22px 20px;
+      font-size: 24px;
+      font-weight: 900;
+      text-align: center;
+      color: #fff;
+      background: #1f2937;
+      letter-spacing: -0.055em;
+    }
+
+    .dark-plan .plan-head {
+      background: #020617;
+    }
+
+    .plan-body {
+      padding: 34px 26px 30px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .big-price {
+      font-size: clamp(54px, 6vw, 72px);
+      line-height: 1;
+      font-weight: 950;
+      letter-spacing: -0.08em;
+      color: #050505;
+    }
+
+    .big-price span {
+      font-size: 22px;
+      color: #2f343b;
+      font-weight: 850;
+      letter-spacing: -0.045em;
+    }
+
+    .divider {
+      height: 1px;
+      background: rgba(0,0,0,.14);
+      margin: 28px 0;
+    }
+
+    .plan-points {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+      text-align: left;
+      font-size: 17px;
+      color: #24272c;
+      font-weight: 760;
+      line-height: 1.45;
+      letter-spacing: -0.04em;
+    }
+
+    .recommend-plan {
+      border: 2px solid #111827;
+    }
+
+    .recommend-ribbon {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: #111827;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+    }
+
+    .pricing-note-box {
+      max-width: 900px;
+      margin: 22px auto 0;
+      padding: 22px 24px;
+      border-radius: 20px;
+      background: #fff;
+      border: 1px solid rgba(0,0,0,.10);
+      box-shadow: 0 12px 34px rgba(0,0,0,.045);
+      font-size: 16px;
+      color: #2f343b;
+      font-weight: 720;
+      line-height: 1.55;
+    }
+
+    .rules { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .rule { padding: 22px; border-radius: 24px; background: var(--card); border: 1px solid var(--line); }
+    .rule h3 { margin: 0 0 8px; font-size: 20px; }
+    .rule p { margin: 0; color: var(--muted); line-height: 1.48; font-weight: 620; }
+
+    .cta {
+      text-align: center;
+      padding: 58px 26px;
+      border-radius: 38px;
+      background: linear-gradient(135deg, #111827, #0d3b75 58%, #0071e3);
+      color: #fff;
+      box-shadow: var(--shadow);
+    }
+    .cta h2 { margin: 0 auto 14px; max-width: 720px; font-size: clamp(34px, 5vw, 58px); line-height: 1.04; letter-spacing: -0.065em; }
+    .cta p { max-width: 600px; margin: 0 auto 28px; color: rgba(255,255,255,.74); font-size: 20px; line-height: 1.45; font-weight: 650; }
+    footer { padding: 30px 0 56px; color: var(--muted); font-weight: 650; display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); }
+
+    @media (max-width: 840px) {
+      .nav-links a:not(.nav-cta) { display: none; }
+      .hero { padding: 66px 0 56px; }
+      .features, .rules { grid-template-columns: 1fr; }
+      .price-title { display: block; }
+      .price { margin-top: 10px; }
+      footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top"><span class="mark"></span><span>Agility Club</span></a>
+      <div class="nav-links">
+        <a href="#space">공간</a>
+        <a href="#pricing">요금</a>
+        <a href="#contact" class="nav-cta">예약 확인</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top" class="wrap">
+    <header class="hero">
+      <div class="eyebrow"><span class="dot"></span> 24시간 예약 운영 · 실내 어질리티 연습장</div>
+      <h1>쾌적하게,<br />제대로 연습하는<br />어질리티 공간.</h1>
+      <p class="lead">도그워크 · A프레임 · 시소 · 허들까지. 언제든 예약하고, 필요한 만큼 연습하세요.</p>
+      <div class="actions">
+        <a class="btn primary" href="#contact">이용 가능 시간 확인</a>
+        <a class="btn secondary" href="#pricing">요금 보기</a>
+      </div>
+    </header>
+
+    <section id="space">
+      <div class="section-head">
+        <h2>공간이 바뀌면,<br />연습이 달라집니다.</h2>
+        <p>날씨와 시간 제약을 줄이고, 반복 훈련에 집중할 수 있는 실내 연습 환경입니다.</p>
+      </div>
+      <div class="features">
+        <div class="feature"><strong>쾌적한 실내</strong><span>안정적인 바닥과 여유 있는 동선에서 반복 연습</span></div>
+        <div class="feature"><strong>컨택트 장비</strong><span>도그워크 · A프레임 · 시소 중심의 구성</span></div>
+        <div class="feature"><strong>24시간 예약</strong><span>원하는 시간 확인 후 예약 이용</span></div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="section-head">
+        <h2>이용 요금</h2>
+        <p>시간 대관 또는 회차권. 필요한 방식으로 선택하세요.</p>
+      </div>
+
+      <div class="pricing-cards">
+        <article class="pricing-plan dark-plan">
+          <div class="plan-head">시간 대관</div>
+          <div class="plan-body">
+            <div class="big-price">6만 <span>/ 1시간</span></div>
+            <div class="divider"></div>
+            <ul class="plan-points">
+              <li>기본 2인 기준</li>
+              <li>추가 인원 시 인원당 +1만원</li>
+              <li>1시간 단위 예약 · 24시간 이용 가능</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="pricing-plan">
+          <div class="plan-head">8회권</div>
+          <div class="plan-body">
+            <div class="big-price">44만</div>
+            <div class="divider"></div>
+            <ul class="plan-points">
+              <li>총 8회 이용</li>
+              <li>1회 약 5.5만</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="pricing-plan recommend-plan">
+          <div class="recommend-ribbon">추천</div>
+          <div class="plan-head">12회권</div>
+          <div class="plan-body">
+            <div class="big-price">60만</div>
+            <div class="divider"></div>
+            <ul class="plan-points">
+              <li>총 12회 이용</li>
+              <li>1회 약 5.0만</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="pricing-note-box">
+        <p>✓ 회차권은 이용 횟수 기준 상품입니다.</p>
+        <p>✓ 1회는 60분 기준이며, 하루에 여러 회차를 연속으로 사용할 수 있습니다.</p>
+        <p>✓ 구매 후 일정 기간 내 사용 완료가 필요합니다. 예: 8회권 1개월 / 12회권 2개월</p>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary" href="#contact">이용 가능 시간 확인</a>
+        <a class="btn secondary" href="#contact">바로 예약하기</a>
+      </div>
+    </section>
+
+    <section id="equipment">
+      <div class="section-head">
+        <h2>장비 구성</h2>
+        <p>
+      <div class="section-head">
+        <h2>예약 전 확인사항</h2>
+        <p>쾌적한 이용을 위해 기본 운영 기준을 적용합니다.</p>
+      </div>
+      <div class="rules">
+        <div class="rule"><h3>예약 확정</h3><p>모든 이용은 사전 예약제로 운영되며, 결제 완료 후 예약이 확정됩니다.</p></div>
+        <div class="rule"><h3>60분 이용</h3><p>회차당 1시간(60분) 이용이며, 준비와 정리를 포함한 시간입니다. 지각 시 이용 시간은 연장되지 않습니다.</p></div>
+        <div class="rule"><h3>취소 / 노쇼</h3><p>24시간 전 취소 가능. 당일 취소 또는 노쇼는 회차 차감 또는 요금이 부과될 수 있습니다.</p></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="cta">
+        <h2>지금 이용 가능한 시간을 확인하세요.</h2>
+        <p>24시간 예약 운영. 원하는 시간을 확인하고 편하게 이용하세요.</p>
+        <a class="btn primary" href="https://open.kakao.com/" target="_blank" rel="noopener">예약 문의하기</a>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2026 Agility Club</span>
+      <span>Indoor agility training space · 24h reservation</span>
+    </footer>
+  </main>
+</body>
+</html>
