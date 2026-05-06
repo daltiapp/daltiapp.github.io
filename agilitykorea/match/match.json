@@ -889,6 +889,54 @@
       "sponsor": "한국애견연맹",
       "startAt": "2026-05-03T08:30:00",
       "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=852"
+    },
+    {
+      "applicationEndAt": "2026-05-10T18:00:00",
+      "applicationPeriod": "2026-05-03 ~ 2026-05-10 18:00",
+      "applicationStartAt": "2026-05-03T00:00:00",
+      "club": "한국어질리티연합",
+      "date": "2026-05-16T08:00:00",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-05-16T08:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "이수경"
+      ],
+      "location": "팔레드차밍",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제 76회 KKF 어질리티 위원회 승급전",
+      "sponsor": "한국어질리티연합",
+      "startAt": "2026-05-16T08:00:00",
+      "url": "https://www.agility.co.kr//?bmode=view&idx=171129201"
+    },
+    {
+      "applicationEndAt": "2026-05-10T18:00:00",
+      "applicationPeriod": "2026-05-03 ~ 2026-05-10 18:00",
+      "applicationStartAt": "2026-05-03T00:00:00",
+      "club": "한국어질리티연합",
+      "date": "2026-05-17T08:00:00",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-05-17T08:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "이민우"
+      ],
+      "location": "팔레드차밍",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제 77회 KKF 어질리티 위원회 승급전",
+      "sponsor": "한국어질리티연합",
+      "startAt": "2026-05-17T08:00:00",
+      "url": "https://www.agility.co.kr//?bmode=view&idx=171129201"
     }
   ]
 }
