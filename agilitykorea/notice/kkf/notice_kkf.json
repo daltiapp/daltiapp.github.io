@@ -7,7 +7,7 @@
     "awc",
     "어질리티"
   ],
-  "total_count": 88,
+  "total_count": 89,
   "detail_dir": "./",
   "items": [
     {
@@ -889,6 +889,16 @@
       "published_at_raw": "2026.4.28",
       "published_at": "2026-04-28T00:00:00+09:00",
       "detail_path": "./127.json"
+    },
+    {
+      "id": 128,
+      "source": "kkf",
+      "source_seq": "12451",
+      "title": "2026 오수 KKF 내셔널 어질리티 평가전 및 FCI 인터내셔널 어질리티 경기대회 결과 공고('26.5.2.)",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12451",
+      "published_at_raw": "2026.5.8",
+      "published_at": "2026-05-08T00:00:00+09:00",
+      "detail_path": "./128.json"
     }
   ]
 }
