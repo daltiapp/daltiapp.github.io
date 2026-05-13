@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Dalti Developer</title>
 
   <style>
@@ -10,18 +11,53 @@
       box-sizing: border-box;
     }
 
+    :root {
+      --bg: #f5f5f7;
+      --text: #0f172a;
+      --sub: #5b6472;
+      --border: rgba(15, 23, 42, 0.08);
+      --glass: rgba(255, 255, 255, 0.72);
+      --glass-hover: rgba(255, 255, 255, 0.9);
+      --footer: #9ca3af;
+      --link: #2563eb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --text: #f8fafc;
+        --sub: #cbd5e1;
+        --border: rgba(255,255,255,0.08);
+        --glass: rgba(30, 41, 59, 0.72);
+        --glass-hover: rgba(30, 41, 59, 0.95);
+        --footer: #64748b;
+        --link: #60a5fa;
+      }
+    }
+
     body {
-      font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background: #f9fafb;
-      color: #111827;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
       margin: 0;
       padding: 24px;
+
+      min-height: 100vh;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: var(--bg);
+
+      color: var(--text);
+
+      font-family:
+        "Pretendard",
+        -apple-system,
+        BlinkMacSystemFont,
+        "SF Pro Display",
+        "Segoe UI",
+        sans-serif;
+
+      text-align: center;
     }
 
     .container {
@@ -29,75 +65,122 @@
       max-width: 520px;
     }
 
-    img.logo {
-      width: 96px;
-      height: 96px;
-      border-radius: 24px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-      margin-bottom: 1rem;
+    .logo {
+      width: 108px;
+      height: 108px;
+
+      border-radius: 28px;
+
       object-fit: cover;
+
+      box-shadow:
+        0 10px 30px rgba(0,0,0,0.05);
+
+      margin-bottom: 28px;
     }
 
     h1 {
-      font-size: 2rem;
-      margin: 0 0 0.5rem;
-      line-height: 1.2;
-      font-weight: 700;
+      margin: 0;
+
+      font-size: clamp(3rem, 8vw, 4.2rem);
+      line-height: 1.02;
+      letter-spacing: -0.05em;
+      font-weight: 800;
+
+      color: var(--text);
     }
 
-    p {
-      color: #4b5563;
-      margin: 0.25rem 0;
+    .subtitle {
+      margin-top: 24px;
+
+      font-size: 1.05rem;
+      line-height: 1.7;
+
+      color: var(--sub);
+      font-weight: 600;
+    }
+
+    .subtitle p {
+      margin: 0;
+    }
+
+    .subtitle p + p {
+      margin-top: 8px;
+    }
+
+    .contact {
+      margin-top: 22px;
+
+      font-size: 1rem;
       line-height: 1.6;
-      word-break: keep-all;
-    }
 
-    a {
-      text-decoration: none;
+      color: var(--sub);
+      font-weight: 600;
     }
 
     .store-buttons {
+      margin-top: 34px;
+
       display: flex;
-      gap: 12px;
       justify-content: center;
+      gap: 14px;
+
       flex-wrap: wrap;
-      margin-top: 1.5rem;
     }
 
     .store-button {
+      height: 56px;
+      min-width: 180px;
+
+      padding: 0 22px;
+
+      border-radius: 20px;
+
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
-      min-width: 160px;
-      padding: 14px 18px;
-      border-radius: 16px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: all 0.2s ease;
+      gap: 10px;
+
+      text-decoration: none;
+
+      background: var(--glass);
+
+      border: 1px solid var(--border);
+
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+
+      color: var(--text);
+
+      font-size: 1rem;
+      font-weight: 700;
+
+      transition:
+        transform 0.18s ease,
+        background 0.18s ease,
+        border-color 0.18s ease;
     }
 
     .store-button:hover {
-      transform: translateY(-2px);
+      transform: translateY(-1px);
+
+      background: var(--glass-hover);
     }
 
-    .apple {
-      background: #000;
-      color: #fff;
-    }
-
-    .google {
-      background: #34A853;
-      color: #fff;
+    .store-icon {
+      font-size: 1.15rem;
     }
 
     .privacy {
-      margin-top: 1.25rem;
-      font-size: 0.95rem;
+      margin-top: 26px;
+
+      font-size: 1rem;
+      font-weight: 600;
     }
 
     .privacy a {
-      color: #2563eb;
+      color: var(--link);
+      text-decoration: none;
     }
 
     .privacy a:hover {
@@ -105,78 +188,72 @@
     }
 
     footer {
-      margin-top: 2rem;
-      font-size: 0.8rem;
-      color: #9ca3af;
+      margin-top: 44px;
+
+      color: var(--footer);
+
+      font-size: 0.92rem;
+      font-weight: 600;
     }
 
-    @media (prefers-color-scheme: dark) {
-      body {
-        background: #0f172a;
-        color: #f8fafc;
+    @media (max-width: 480px) {
+
+      .store-button {
+        width: 100%;
       }
 
-      p {
-        color: #cbd5e1;
+      h1 {
+        font-size: 3rem;
       }
 
-      .apple {
-        background: #ffffff;
-        color: #000000;
-      }
-
-      .google {
-        background: #34A853;
-        color: #ffffff;
-      }
-
-      .privacy a {
-        color: #60a5fa;
-      }
-
-      footer {
-        color: #64748b;
-      }
     }
   </style>
 </head>
 
 <body>
+
   <div class="container">
 
-    <img src="dalti_logo.png" alt="Dalti App Logo" class="logo" />
+    <img
+      src="dalti_logo.png"
+      alt="Dalti Logo"
+      class="logo"
+    />
 
     <h1>Dalti Developer</h1>
 
-    <p id="desc1"></p>
-    <p id="desc2"></p>
-    <p id="contact"></p>
+    <div class="subtitle">
+      <p id="desc1"></p>
+      <p id="desc2"></p>
+    </div>
 
-    <!-- Store Buttons -->
+    <div class="contact" id="contact"></div>
+
     <div class="store-buttons">
 
       <a
         href="https://apps.apple.com/us/developer/sangil-jeon/id1507362656"
         target="_blank"
         rel="noopener noreferrer"
-        class="store-button apple"
+        class="store-button"
       >
-        🍎 App Store
+        <span class="store-icon"></span>
+        <span>App Store</span>
       </a>
 
       <a
         href="https://play.google.com/store/apps/dev?id=6842858747814742652"
         target="_blank"
         rel="noopener noreferrer"
-        class="store-button google"
+        class="store-button"
       >
-        ▶ Google Play
+        <span class="store-icon">▶</span>
+        <span>Google Play</span>
       </a>
 
     </div>
 
-    <!-- Privacy -->
-    <p class="privacy">
+    <div class="privacy">
       🔒
       <a
         href="https://sites.google.com/view/dalti"
@@ -185,7 +262,7 @@
       >
         <span id="privacy"></span>
       </a>
-    </p>
+    </div>
 
     <footer>
       © 2026 Dalti. All rights reserved.
@@ -194,14 +271,20 @@
   </div>
 
   <script>
+
     function getPreferredLanguage() {
-      const urlLang = new URLSearchParams(window.location.search).get("lang");
+
+      const urlLang =
+        new URLSearchParams(window.location.search).get("lang");
 
       if (urlLang) {
         return urlLang.toLowerCase();
       }
 
-      if (navigator.languages && navigator.languages.length > 0) {
+      if (
+        navigator.languages &&
+        navigator.languages.length > 0
+      ) {
         return navigator.languages[0].toLowerCase();
       }
 
@@ -210,37 +293,27 @@
 
     function detectLang(lang) {
 
-      if (lang === "zh-cn" || lang === "zh-sg" || lang === "zh-hans") {
+      if (
+        lang === "zh-cn" ||
+        lang === "zh-sg" ||
+        lang === "zh-hans"
+      ) {
         return "zh-Hans";
       }
 
-      if (lang === "zh-tw" || lang === "zh-hk" || lang === "zh-mo" || lang === "zh-hant") {
+      if (
+        lang === "zh-tw" ||
+        lang === "zh-hk" ||
+        lang === "zh-mo" ||
+        lang === "zh-hant"
+      ) {
         return "zh-Hant";
-      }
-
-      if (lang === "pt-br") {
-        return "pt-BR";
       }
 
       if (lang.startsWith("ko")) return "ko";
       if (lang.startsWith("ja")) return "ja";
-      if (lang.startsWith("hi")) return "hi";
-      if (lang.startsWith("id")) return "id";
-      if (lang.startsWith("bn")) return "bn";
-      if (lang.startsWith("ur")) return "ur";
-      if (lang.startsWith("vi")) return "vi";
-      if (lang.startsWith("th")) return "th";
-      if (lang.startsWith("ms")) return "ms";
-      if (lang.startsWith("fil")) return "fil";
       if (lang.startsWith("zh")) return "zh-Hans";
-      if (lang.startsWith("en")) return "en";
-      if (lang.startsWith("de")) return "de";
-      if (lang.startsWith("fr")) return "fr";
-      if (lang.startsWith("es")) return "es";
-      if (lang.startsWith("pt")) return "pt-BR";
-      if (lang.startsWith("ar")) return "ar";
-      if (lang.startsWith("fa")) return "fa";
-      if (lang.startsWith("he")) return "he";
+      if (lang.startsWith("hi")) return "hi";
 
       return "en";
     }
@@ -250,60 +323,69 @@
       ko: {
         desc1: "빠르고 심플한 유틸리티 앱 개발팀",
         desc2: "사진 · PDF · 파일 작업을 더 쉽고 빠르게",
-        contact: "문의: dalti.app@gmail.com",
+        contact: "문의 · dalti.app@gmail.com",
         privacy: "개인정보 처리방침"
       },
 
       en: {
         desc1: "Fast & Simple Utility Apps",
         desc2: "Make photo, PDF, and file tasks easier and faster",
-        contact: "Contact: dalti.app@gmail.com",
+        contact: "Contact · dalti.app@gmail.com",
         privacy: "Privacy Policy"
       },
 
       ja: {
-        desc1: "シンプルで高速なユーティリティアプリ",
+        desc1: "高速でシンプルなユーティリティアプリ",
         desc2: "写真・PDF・ファイル作業をもっと簡単に",
-        contact: "お問い合わせ: dalti.app@gmail.com",
+        contact: "お問い合わせ · dalti.app@gmail.com",
         privacy: "プライバシーポリシー"
       },
 
       "zh-Hans": {
         desc1: "快速简洁的实用工具应用",
         desc2: "让照片、PDF 和文件处理更加轻松高效",
-        contact: "联系方式: dalti.app@gmail.com",
+        contact: "联系 · dalti.app@gmail.com",
         privacy: "隐私政策"
       },
 
       "zh-Hant": {
         desc1: "快速簡潔的工具應用",
         desc2: "讓照片、PDF 與檔案處理更加輕鬆",
-        contact: "聯絡方式: dalti.app@gmail.com",
+        contact: "聯絡 · dalti.app@gmail.com",
         privacy: "隱私政策"
       },
 
       hi: {
         desc1: "तेज़ और सरल यूटिलिटी ऐप्स",
         desc2: "फोटो, PDF और फ़ाइल कार्यों को आसान बनाएं",
-        contact: "संपर्क: dalti.app@gmail.com",
+        contact: "संपर्क · dalti.app@gmail.com",
         privacy: "गोपनीयता नीति"
       }
+
     };
 
     const rawLang = getPreferredLanguage();
+
     const selected = detectLang(rawLang);
-    const content = text[selected] || text.en;
+
+    const content =
+      text[selected] || text.en;
 
     document.documentElement.lang = selected;
 
-    if (["ar", "fa", "he", "ur"].includes(selected)) {
-      document.documentElement.dir = "rtl";
-    }
+    document.getElementById("desc1").textContent =
+      content.desc1;
 
-    document.getElementById("desc1").textContent = content.desc1;
-    document.getElementById("desc2").textContent = content.desc2;
-    document.getElementById("contact").textContent = content.contact;
-    document.getElementById("privacy").textContent = content.privacy;
+    document.getElementById("desc2").textContent =
+      content.desc2;
+
+    document.getElementById("contact").textContent =
+      content.contact;
+
+    document.getElementById("privacy").textContent =
+      content.privacy;
+
   </script>
+
 </body>
 </html>
