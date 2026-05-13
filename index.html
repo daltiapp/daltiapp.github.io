@@ -4,7 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dalti Developer</title>
+
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       background: #f9fafb;
@@ -17,37 +22,85 @@
       text-align: center;
       margin: 0;
       padding: 24px;
-      box-sizing: border-box;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
     }
 
     img.logo {
       width: 96px;
       height: 96px;
-      border-radius: 20%;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
       margin-bottom: 1rem;
       object-fit: cover;
     }
 
     h1 {
       font-size: 2rem;
-      margin-bottom: 0.5rem;
+      margin: 0 0 0.5rem;
       line-height: 1.2;
+      font-weight: 700;
     }
 
     p {
       color: #4b5563;
       margin: 0.25rem 0;
-      line-height: 1.5;
+      line-height: 1.6;
       word-break: keep-all;
     }
 
     a {
-      color: #2563eb;
       text-decoration: none;
     }
 
-    a:hover {
+    .store-buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .store-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-width: 160px;
+      padding: 14px 18px;
+      border-radius: 16px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .store-button:hover {
+      transform: translateY(-2px);
+    }
+
+    .apple {
+      background: #000;
+      color: #fff;
+    }
+
+    .google {
+      background: #34A853;
+      color: #fff;
+    }
+
+    .privacy {
+      margin-top: 1.25rem;
+      font-size: 0.95rem;
+    }
+
+    .privacy a {
+      color: #2563eb;
+    }
+
+    .privacy a:hover {
       text-decoration: underline;
     }
 
@@ -56,29 +109,97 @@
       font-size: 0.8rem;
       color: #9ca3af;
     }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #0f172a;
+        color: #f8fafc;
+      }
+
+      p {
+        color: #cbd5e1;
+      }
+
+      .apple {
+        background: #ffffff;
+        color: #000000;
+      }
+
+      .google {
+        background: #34A853;
+        color: #ffffff;
+      }
+
+      .privacy a {
+        color: #60a5fa;
+      }
+
+      footer {
+        color: #64748b;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <img src="dalti_logo.png" alt="Dalti App Logo" class="logo" />
-  <h1>Dalti Developer</h1>
+  <div class="container">
 
-  <p id="desc1"></p>
-  <p id="desc2"></p>
-  <p id="contact"></p>
+    <img src="dalti_logo.png" alt="Dalti App Logo" class="logo" />
 
-  <p style="margin-top: 0.75rem;">
-    🔒
-    <a href="https://sites.google.com/view/dalti" target="_blank" rel="noopener noreferrer">
-      <span id="privacy"></span>
-    </a>
-  </p>
+    <h1>Dalti Developer</h1>
 
-  <footer>© 2024 Dalti. All rights reserved.</footer>
+    <p id="desc1"></p>
+    <p id="desc2"></p>
+    <p id="contact"></p>
+
+    <!-- Store Buttons -->
+    <div class="store-buttons">
+
+      <a
+        href="https://apps.apple.com/us/developer/sangil-jeon/id1507362656"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="store-button apple"
+      >
+        🍎 App Store
+      </a>
+
+      <a
+        href="https://play.google.com/store/apps/dev?id=6842858747814742652"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="store-button google"
+      >
+        ▶ Google Play
+      </a>
+
+    </div>
+
+    <!-- Privacy -->
+    <p class="privacy">
+      🔒
+      <a
+        href="https://sites.google.com/view/dalti"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span id="privacy"></span>
+      </a>
+    </p>
+
+    <footer>
+      © 2026 Dalti. All rights reserved.
+    </footer>
+
+  </div>
 
   <script>
     function getPreferredLanguage() {
       const urlLang = new URLSearchParams(window.location.search).get("lang");
-      if (urlLang) return urlLang.toLowerCase();
+
+      if (urlLang) {
+        return urlLang.toLowerCase();
+      }
 
       if (navigator.languages && navigator.languages.length > 0) {
         return navigator.languages[0].toLowerCase();
@@ -88,12 +209,18 @@
     }
 
     function detectLang(lang) {
-      if (lang === "zh-cn" || lang === "zh-sg" || lang === "zh-hans") return "zh-Hans";
-      if (lang === "zh-tw" || lang === "zh-hk" || lang === "zh-mo" || lang === "zh-hant") return "zh-Hant";
-      if (lang === "pt-br") return "pt-BR";
-      if (lang === "en-us") return "en-US";
-      if (lang === "es-419") return "es-419";
-      if (lang === "fr-ca") return "fr-CA";
+
+      if (lang === "zh-cn" || lang === "zh-sg" || lang === "zh-hans") {
+        return "zh-Hans";
+      }
+
+      if (lang === "zh-tw" || lang === "zh-hk" || lang === "zh-mo" || lang === "zh-hant") {
+        return "zh-Hant";
+      }
+
+      if (lang === "pt-br") {
+        return "pt-BR";
+      }
 
       if (lang.startsWith("ko")) return "ko";
       if (lang.startsWith("ja")) return "ja";
@@ -119,143 +246,47 @@
     }
 
     const text = {
-      "zh-Hans": {
-        desc1: "应用开发与服务团队",
-        desc2: "App Store / Google Play 官方开发者",
-        contact: "联系方式: dalti.app@gmail.com",
-        privacy: "隐私政策"
-      },
-      hi: {
-        desc1: "ऐप विकास और सेवा टीम",
-        desc2: "आधिकारिक App Store / Google Play डेवलपर",
-        contact: "संपर्क: dalti.app@gmail.com",
-        privacy: "गोपनीयता नीति"
-      },
-      ja: {
-        desc1: "アプリ開発・サービス運営チーム",
-        desc2: "App Store / Google Play 公式開発者",
-        contact: "お問い合わせ: dalti.app@gmail.com",
-        privacy: "プライバシーポリシー"
-      },
-      id: {
-        desc1: "Tim Pengembang Aplikasi",
-        desc2: "Developer resmi App Store / Google Play",
-        contact: "Kontak: dalti.app@gmail.com",
-        privacy: "Kebijakan Privasi"
-      },
+
       ko: {
-        desc1: "앱 개발 및 서비스 운영팀",
-        desc2: "App Store / Google Play 공식 개발자",
+        desc1: "빠르고 심플한 유틸리티 앱 개발팀",
+        desc2: "사진 · PDF · 파일 작업을 더 쉽고 빠르게",
         contact: "문의: dalti.app@gmail.com",
         privacy: "개인정보 처리방침"
       },
-      bn: {
-        desc1: "অ্যাপ ডেভেলপমেন্ট টিম",
-        desc2: "অফিসিয়াল App Store / Google Play ডেভেলপার",
-        contact: "যোগাযোগ: dalti.app@gmail.com",
-        privacy: "গোপনীয়তা নীতি"
+
+      en: {
+        desc1: "Fast & Simple Utility Apps",
+        desc2: "Make photo, PDF, and file tasks easier and faster",
+        contact: "Contact: dalti.app@gmail.com",
+        privacy: "Privacy Policy"
       },
-      ur: {
-        desc1: "ایپ ڈیولپمنٹ ٹیم",
-        desc2: "آفیشل App Store / Google Play ڈویلپر",
-        contact: "رابطہ: dalti.app@gmail.com",
-        privacy: "پرائیویسی پالیسی"
+
+      ja: {
+        desc1: "シンプルで高速なユーティリティアプリ",
+        desc2: "写真・PDF・ファイル作業をもっと簡単に",
+        contact: "お問い合わせ: dalti.app@gmail.com",
+        privacy: "プライバシーポリシー"
       },
-      vi: {
-        desc1: "Đội phát triển ứng dụng",
-        desc2: "Nhà phát triển chính thức App Store / Google Play",
-        contact: "Liên hệ: dalti.app@gmail.com",
-        privacy: "Chính sách bảo mật"
+
+      "zh-Hans": {
+        desc1: "快速简洁的实用工具应用",
+        desc2: "让照片、PDF 和文件处理更加轻松高效",
+        contact: "联系方式: dalti.app@gmail.com",
+        privacy: "隐私政策"
       },
-      th: {
-        desc1: "ทีมพัฒนาแอป",
-        desc2: "นักพัฒนา App Store / Google Play อย่างเป็นทางการ",
-        contact: "ติดต่อ: dalti.app@gmail.com",
-        privacy: "นโยบายความเป็นส่วนตัว"
-      },
-      ms: {
-        desc1: "Pasukan Pembangun Aplikasi",
-        desc2: "Pembangun rasmi App Store / Google Play",
-        contact: "Hubungi: dalti.app@gmail.com",
-        privacy: "Dasar Privasi"
-      },
-      fil: {
-        desc1: "App Development Team",
-        desc2: "Opisyal na App Store / Google Play Developer",
-        contact: "Makipag-ugnayan: dalti.app@gmail.com",
-        privacy: "Patakaran sa Privacy"
-      },
+
       "zh-Hant": {
-        desc1: "應用開發與服務團隊",
-        desc2: "App Store / Google Play 官方開發者",
+        desc1: "快速簡潔的工具應用",
+        desc2: "讓照片、PDF 與檔案處理更加輕鬆",
         contact: "聯絡方式: dalti.app@gmail.com",
         privacy: "隱私政策"
       },
-      "en-US": {
-        desc1: "App Development & Service Team",
-        desc2: "Official App Store / Google Play Developer",
-        contact: "Contact: dalti.app@gmail.com",
-        privacy: "Privacy Policy"
-      },
-      en: {
-        desc1: "App Development & Service Team",
-        desc2: "Official App Store / Google Play Developer",
-        contact: "Contact: dalti.app@gmail.com",
-        privacy: "Privacy Policy"
-      },
-      de: {
-        desc1: "App-Entwicklungsteam",
-        desc2: "Offizieller App Store / Google Play Entwickler",
-        contact: "Kontakt: dalti.app@gmail.com",
-        privacy: "Datenschutzrichtlinie"
-      },
-      fr: {
-        desc1: "Équipe de développement d'applications",
-        desc2: "Développeur officiel App Store / Google Play",
-        contact: "Contact : dalti.app@gmail.com",
-        privacy: "Politique de confidentialité"
-      },
-      es: {
-        desc1: "Equipo de desarrollo de aplicaciones",
-        desc2: "Desarrollador oficial de App Store / Google Play",
-        contact: "Contacto: dalti.app@gmail.com",
-        privacy: "Política de privacidad"
-      },
-      "pt-BR": {
-        desc1: "Equipe de desenvolvimento de aplicativos",
-        desc2: "Desenvolvedor oficial da App Store / Google Play",
-        contact: "Contato: dalti.app@gmail.com",
-        privacy: "Política de Privacidade"
-      },
-      "es-419": {
-        desc1: "Equipo de desarrollo de aplicaciones",
-        desc2: "Desarrollador oficial de App Store / Google Play",
-        contact: "Contacto: dalti.app@gmail.com",
-        privacy: "Política de privacidad"
-      },
-      ar: {
-        desc1: "فريق تطوير التطبيقات",
-        desc2: "مطور رسمي على App Store / Google Play",
-        contact: "اتصل بنا: dalti.app@gmail.com",
-        privacy: "سياسة الخصوصية"
-      },
-      fa: {
-        desc1: "تیم توسعه اپلیکیشن",
-        desc2: "توسعه‌دهنده رسمی App Store / Google Play",
-        contact: "تماس: dalti.app@gmail.com",
-        privacy: "سیاست حفظ حریم خصوصی"
-      },
-      he: {
-        desc1: "צוות פיתוח אפליקציות",
-        desc2: "מפתח רשמי App Store / Google Play",
-        contact: "צור קשר: dalti.app@gmail.com",
-        privacy: "מדיניות פרטיות"
-      },
-      "fr-CA": {
-        desc1: "Équipe de développement d'applications",
-        desc2: "Développeur officiel App Store / Google Play",
-        contact: "Contact : dalti.app@gmail.com",
-        privacy: "Politique de confidentialité"
+
+      hi: {
+        desc1: "तेज़ और सरल यूटिलिटी ऐप्स",
+        desc2: "फोटो, PDF और फ़ाइल कार्यों को आसान बनाएं",
+        contact: "संपर्क: dalti.app@gmail.com",
+        privacy: "गोपनीयता नीति"
       }
     };
 
@@ -267,7 +298,6 @@
 
     if (["ar", "fa", "he", "ur"].includes(selected)) {
       document.documentElement.dir = "rtl";
-      document.body.style.textAlign = "center";
     }
 
     document.getElementById("desc1").textContent = content.desc1;
