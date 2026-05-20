@@ -1,7 +1,17 @@
 {
   "identity_field": "id",
-  "total_count": 128,
+  "total_count": 129,
   "items": [
+    {
+      "id": 129,
+      "source": "kkf",
+      "source_seq": "12467",
+      "title": "2026년 KKF 어질리티 대회 참가 관련 안내",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12467",
+      "published_at_raw": "2026.5.20",
+      "published_at": "2026-05-20T00:00:00+09:00",
+      "detail_path": "./kkf/129.json"
+    },
     {
       "id": 128,
       "source": "kkf",
