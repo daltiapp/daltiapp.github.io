@@ -55,3 +55,14 @@ If release signing fails, debug in this order:
 - 일정 판별 기준으로 쓰는 `match.json.url` 은 제목 추정 링크가 아니라 실제 상세에서 복사한 주소를 유지한다.
 - 공지 푸시 후보는 로컬에 새로 들어온 시점이 아니라 게시판 `published_at` 기준 최근 2일만 인정한다. 이 값은 운영에서 바꾸지 않는 고정 규칙이며, 오래된 게시글이 새로 수집돼도 자동 푸시 후보는 아니다.
 - 공지/일정 스키마, 파일명, 경로 규칙을 바꾸는 작업은 앱/스크립트/문서를 한 세트로 보고 같이 확인한다.
+
+# AgilityKorea JSON 강제 업데이트 규칙
+
+- 기존 `/agilitykorea` 경로는 레거시/기존 앱용으로 유지하고 덮어쓰지 않는다.
+- JSON 구조가 바뀌는 강제 업데이트는 `/agilitykorea-data/schema-vN` 폴더를 새로 만들고 `/agilitykorea-manifest.json` 의 `basePath` 를 전환한다.
+- schema 폴더에는 JSON만 포함한다. HTML, `.DS_Store`, `@eaDir`, `.gitkeep` 는 넣지 않는다.
+- `schemaVersion` 은 breaking schema 변경 때만 올리고, 일반 데이터 갱신은 `dataVersion` 과 `forceRefreshKey` 만 올린다.
+- 앱은 `/agilitykorea-manifest.json` 을 먼저 읽고 `basePath` 기준으로 `files` 하위 JSON을 로드한다.
+- `notice.json` 의 `detail_path` 는 기존처럼 상대 경로를 유지하고 앱은 manifest의 `basePath` 기준으로 상세 JSON을 찾는다.
+- rollback은 이전 schema 폴더를 삭제하지 않고 manifest를 이전 `basePath`/`forceRefreshKey` 로 되돌린다.
+- 상세 운영 규칙은 [AGILITYKOREA_DATA_VERSIONING.md](/Users/sam/Documents/daltiapp/daltiapp.github.io/AGILITYKOREA_DATA_VERSIONING.md) 를 따른다.
