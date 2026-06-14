@@ -983,6 +983,56 @@
       "sponsor": "코리아어질리티",
       "startAt": "2026-06-21T13:30:00",
       "url": "https://www.agility.co.kr/17/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171569089&t=board"
+    },
+    {
+      "applicationEndAt": "2026-06-21T18:00:00",
+      "applicationPeriod": "2026-06-14 10:00 ~ 2026-06-21 18:00",
+      "applicationStartAt": "2026-06-14T10:00:00",
+      "club": "한국어질리티연합",
+      "date": "2026-07-04T13:00:00",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-07-04T13:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "마재웅"
+      ],
+      "location": "가든파이브",
+      "matchTypes": [
+        "비기너1",
+        "노비스1",
+        "어질리티 ST",
+        "어질리티 MS"
+      ],
+      "name": "2026 가든파이브 LEEZ 어질리티 4차(토)",
+      "sponsor": "LEEZ",
+      "startAt": "2026-07-04T13:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171801812&t=board"
+    },
+    {
+      "applicationEndAt": "2026-06-21T18:00:00",
+      "applicationPeriod": "2026-06-14 10:00 ~ 2026-06-21 18:00",
+      "applicationStartAt": "2026-06-14T10:00:00",
+      "club": "한국어질리티연합",
+      "date": "2026-07-05T13:00:00",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-07-05T13:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이상민"
+      ],
+      "location": "가든파이브",
+      "matchTypes": [
+        "비기너2",
+        "노비스2",
+        "점핑 MS",
+        "점핑 ST"
+      ],
+      "name": "2026 가든파이브 LEEZ 어질리티 4차(일)",
+      "sponsor": "LEEZ",
+      "startAt": "2026-07-05T13:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171801812&t=board"
     }
   ]
 }
