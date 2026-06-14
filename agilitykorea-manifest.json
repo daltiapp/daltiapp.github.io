@@ -1,11 +1,11 @@
 {
   "service": "agilitykorea",
-  "schemaVersion": 3,
-  "dataVersion": "20260615.1",
-  "forceRefreshKey": "schema-v3:20260615.1",
-  "basePath": "/agilitykorea-data/schema-v3",
+  "schemaVersion": 1,
+  "dataVersion": "20260615.3",
+  "forceRefreshKey": "v1:20260615.3",
+  "basePath": "/ak/v1",
   "legacyBasePath": "/agilitykorea",
-  "updatedAt": "2026-06-15T00:00:00+09:00",
+  "updatedAt": "2026-06-15T01:40:00+09:00",
   "files": {
     "club": "club/club.json",
     "globalMatch": "global/globalmatch.json",
