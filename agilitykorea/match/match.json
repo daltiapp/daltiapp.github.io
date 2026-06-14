@@ -937,6 +937,52 @@
       "sponsor": "한국어질리티연합",
       "startAt": "2026-05-17T08:00:00",
       "url": "https://www.agility.co.kr//?bmode=view&idx=171129201"
+    },
+    {
+      "applicationEndAt": "2026-06-14T23:59:59",
+      "applicationPeriod": "2026-06-07 ~ 2026-06-14",
+      "applicationStartAt": "2026-06-07T00:00:00",
+      "club": "코리아어질리티",
+      "date": "2026-06-21T06:30:00",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-06-21T06:30:00",
+      "eventType": "승급전",
+      "judge": [
+        "김민성"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2"
+      ],
+      "name": "제78회 점핑/어질리티 승급전",
+      "sponsor": "코리아어질리티",
+      "startAt": "2026-06-21T06:30:00",
+      "url": "https://www.agility.co.kr/17/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171569089&t=board"
+    },
+    {
+      "applicationEndAt": "2026-06-14T23:59:59",
+      "applicationPeriod": "2026-06-07 ~ 2026-06-14",
+      "applicationStartAt": "2026-06-07T00:00:00",
+      "club": "코리아어질리티",
+      "date": "2026-06-21T13:30:00",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-06-21T13:30:00",
+      "eventType": "승급전",
+      "judge": [
+        "원재성"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "제25회 비기너/노비스 승급전",
+      "sponsor": "코리아어질리티",
+      "startAt": "2026-06-21T13:30:00",
+      "url": "https://www.agility.co.kr/17/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171569089&t=board"
     }
   ]
 }
