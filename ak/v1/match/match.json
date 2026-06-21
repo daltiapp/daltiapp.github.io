@@ -875,11 +875,11 @@
       "location": "가든파이브",
       "matchTypes": [
         "비기너1",
+        "비기너2",
         "노비스1",
-        "어질리티 ST",
-        "어질리티 MS"
+        "노비스2"
       ],
-      "name": "2026 가든파이브 LEEZ 어질리티 4차(토)",
+      "name": "2026 가든파이브 LEEZ 어질리티 4차",
       "startAt": "2026-07-04T13:00:00",
       "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171801812&t=board"
     },
@@ -896,12 +896,12 @@
       ],
       "location": "가든파이브",
       "matchTypes": [
-        "비기너2",
-        "노비스2",
+        "점핑 ST",
+        "어질리티 ST",
         "점핑 MS",
-        "점핑 ST"
+        "어질리티 MS"
       ],
-      "name": "2026 가든파이브 LEEZ 어질리티 4차(일)",
+      "name": "2026 가든파이브 LEEZ 어질리티 4차",
       "startAt": "2026-07-05T13:00:00",
       "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171801812&t=board"
     }
