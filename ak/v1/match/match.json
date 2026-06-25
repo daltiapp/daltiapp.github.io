@@ -904,6 +904,80 @@
       "name": "2026 가든파이브 LEEZ 어질리티 4차",
       "startAt": "2026-07-05T13:00:00",
       "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171801812&t=board"
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "동물과사람",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-07T00:00:00",
+      "eventType": "랭킹전",
+      "judge": [],
+      "location": "강아지숲",
+      "matchTypes": [
+        "펜타슬론",
+        "바이애슬론",
+        "스누커",
+        "갬블러"
+      ],
+      "name": "2026 Korea Agility Open (KAO)",
+      "startAt": "2026-11-07T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "동물과사람",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-08T00:00:00",
+      "eventType": "랭킹전",
+      "judge": [],
+      "location": "강아지숲",
+      "matchTypes": [
+        "펜타슬론",
+        "바이애슬론",
+        "스누커",
+        "갬블러"
+      ],
+      "name": "2026 Korea Agility Open (KAO)",
+      "startAt": "2026-11-08T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-21T00:00:00",
+      "eventType": "선발전",
+      "judge": [],
+      "location": "미정",
+      "matchTypes": [
+        "미정"
+      ],
+      "name": "2027 EO(European Open) 어질리티 대회 선발전",
+      "startAt": "2026-11-21T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-22T00:00:00",
+      "eventType": "선발전",
+      "judge": [],
+      "location": "미정",
+      "matchTypes": [
+        "미정"
+      ],
+      "name": "2027 EO(European Open) 어질리티 대회 선발전",
+      "startAt": "2026-11-22T00:00:00",
+      "url": ""
     }
   ]
 }
