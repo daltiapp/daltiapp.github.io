@@ -906,6 +906,26 @@
       "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171801812&t=board"
     },
     {
+      "applicationEndAt": "2026-07-12T23:59:59",
+      "applicationStartAt": "2026-07-05T00:00:00",
+      "club": "코리아어질리티클럽",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-07-25T14:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "김민성"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2"
+      ],
+      "name": "제79회 KKF 코리아어질리티클럽 점핑/어질리티 승급전",
+      "startAt": "2026-07-25T14:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172214338&t=board"
+    },
+    {
       "applicationEndAt": "",
       "applicationStartAt": "",
       "club": "동물과사람",
