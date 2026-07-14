@@ -926,6 +926,28 @@
       "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172214338&t=board"
     },
     {
+      "applicationEndAt": "2026-07-26T23:59:59",
+      "applicationStartAt": "2026-07-19T00:00:00",
+      "club": "KKF 코리아어질리티클럽",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-08-08T19:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "홍상우"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "점핑1",
+        "점핑2",
+        "어질리티1",
+        "어질리티2"
+      ],
+      "name": "제 80회 KKF 코리아어질리티클럽 점/어 승급전",
+      "startAt": "2026-08-08T14:00:00",
+      "url": "https://www.instagram.com/p/Daxn7o4mAThu2Unlj5d51VBzDz2pOenyIg9ais0/"
+    },
+    {
       "applicationEndAt": "",
       "applicationStartAt": "",
       "club": "동물과사람",
