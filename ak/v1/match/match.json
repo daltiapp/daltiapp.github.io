@@ -950,6 +950,45 @@
     {
       "applicationEndAt": "",
       "applicationStartAt": "",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_pending",
+      "endAt": "2026-09-19T09:00:00",
+      "eventType": "아마추어 대회",
+      "judge": [],
+      "location": "홍천생활체육공원",
+      "matchTypes": [
+        "비기너1",
+        "비기너2",
+        "노비스1",
+        "노비스2"
+      ],
+      "name": "2026 홍천 KKF 일반부/학생부 어질리티대회",
+      "startAt": "2026-09-19T09:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_pending",
+      "endAt": "2026-09-20T09:00:00",
+      "eventType": "평가전",
+      "judge": [],
+      "location": "홍천생활체육공원",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제2회 KKF 내셔널 어질리티 평가전",
+      "startAt": "2026-09-20T09:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
       "club": "동물과사람",
       "detailNotice": "",
       "detailStatus": "detail_ready",
