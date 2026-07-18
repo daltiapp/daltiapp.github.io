@@ -952,9 +952,9 @@
       "applicationStartAt": "",
       "club": "한국애견연맹",
       "detailNotice": "",
-      "detailStatus": "detail_pending",
+      "detailStatus": "detail_ready",
       "endAt": "2026-09-19T09:00:00",
-      "eventType": "아마추어 대회",
+      "eventType": "랭킹전",
       "judge": [],
       "location": "홍천생활체육공원",
       "matchTypes": [
@@ -972,9 +972,9 @@
       "applicationStartAt": "",
       "club": "한국애견연맹",
       "detailNotice": "",
-      "detailStatus": "detail_pending",
+      "detailStatus": "detail_ready",
       "endAt": "2026-09-20T09:00:00",
-      "eventType": "평가전",
+      "eventType": "승급전",
       "judge": [],
       "location": "홍천생활체육공원",
       "matchTypes": [
