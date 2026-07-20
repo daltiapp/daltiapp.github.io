@@ -162,7 +162,12 @@
         "latitude": 35.8538044860671,
         "longitude": 129.277404123157
       },
-      "photos": []
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1-mF20y2Qj4jiHpWLuKz_SsahRtgf4Nq7",
+        "https://drive.google.com/uc?export=view&id=1aob5g1xoSz0ibhy21GLLHzg9TSquqiiT",
+        "https://drive.google.com/uc?export=view&id=1oE8Gds77TO-m7JcC18oGc2Q-eJ5L2qNb",
+        "https://drive.google.com/uc?export=view&id=1OBWx14gVEvktjYpbuugjHbD3_5jlickw"
+      ]
     }
   ]
 }
