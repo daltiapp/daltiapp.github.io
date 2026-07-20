@@ -989,6 +989,46 @@
     {
       "applicationEndAt": "",
       "applicationStartAt": "",
+      "club": "ARES",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-19T00:00:00",
+      "eventType": "대회",
+      "judge": [],
+      "location": "키녹 그린스페이스",
+      "matchTypes": [
+        "비기너",
+        "노비스1",
+        "노비스2",
+        "점핑0"
+      ],
+      "name": "ARES : GAME ON",
+      "startAt": "2026-09-19T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "ARES",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-20T00:00:00",
+      "eventType": "대회",
+      "judge": [],
+      "location": "키녹 그린스페이스",
+      "matchTypes": [
+        "점핑스피드",
+        "점핑플로우",
+        "어질리티",
+        "어질리티오픈"
+      ],
+      "name": "ARES : GAME ON",
+      "startAt": "2026-09-20T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
       "club": "동물과사람",
       "detailNotice": "",
       "detailStatus": "detail_ready",
