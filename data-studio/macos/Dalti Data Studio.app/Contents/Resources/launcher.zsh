@@ -81,8 +81,11 @@ if (( install_status != 0 )); then
   fi
 fi
 
-"$NPM_BIN" run dev >>"$LOG_FILE" 2>&1 &
+# Finder가 launcher를 종료해도 Data Studio 서버가 계속 살아 있도록
+# npm 중간 프로세스 없이 Node 서버를 직접 독립 실행합니다.
+nohup "$NODE_BIN" "$STUDIO_DIR/server.mjs" >>"$LOG_FILE" 2>&1 </dev/null &
 server_pid=$!
+disown "$server_pid" 2>/dev/null || true
 echo "$server_pid" >"$PID_FILE"
 
 for _ in {1..100}; do
