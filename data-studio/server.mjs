@@ -13,6 +13,8 @@ const STUDIO_ROOT = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(STUDIO_ROOT, "..");
 const PORT = Number(process.env.DALTI_DATA_STUDIO_PORT || 4190);
 const HOST = "127.0.0.1";
+const IMAGE_PROXY_HOSTS = new Set(["drive.google.com", "drive.usercontent.google.com"]);
+const MAX_IMAGE_BYTES = 8 * 1024 * 1024;
 const MATCH_KEYS = [
   "applicationEndAt",
   "applicationStartAt",
@@ -819,6 +821,42 @@ function sendJson(res, status, payload) {
   res.end(JSON.stringify(payload));
 }
 
+function imageProxyTarget(value) {
+  const target = new URL(String(value || ""));
+  if (target.protocol !== "https:" || !IMAGE_PROXY_HOSTS.has(target.hostname)) {
+    throw new Error("허용되지 않은 이미지 주소입니다.");
+  }
+  return target;
+}
+
+async function sendProxiedImage(res, value) {
+  let target = imageProxyTarget(value);
+  let response;
+  for (let redirectCount = 0; redirectCount <= 3; redirectCount += 1) {
+    response = await fetch(target, { redirect: "manual" });
+    if (![301, 302, 303, 307, 308].includes(response.status)) break;
+    const location = response.headers.get("location");
+    if (!location || redirectCount === 3) throw new Error("이미지 리디렉션을 확인하지 못했습니다.");
+    target = imageProxyTarget(new URL(location, target).toString());
+  }
+  if (!response.ok) {
+    throw new Error(`이미지를 가져오지 못했습니다(${response.status}).`);
+  }
+  const contentType = response.headers.get("content-type") || "";
+  if (!contentType.startsWith("image/")) {
+    throw new Error("이미지 응답 형식이 아닙니다.");
+  }
+  const body = Buffer.from(await response.arrayBuffer());
+  if (body.length > MAX_IMAGE_BYTES) {
+    throw new Error("이미지 크기가 8MB를 초과합니다.");
+  }
+  res.writeHead(200, {
+    "Content-Type": contentType,
+    "Cache-Control": "public, max-age=3600"
+  });
+  res.end(body);
+}
+
 export function healthStatus() {
   return {
     service: "dalti-data-studio",
@@ -830,6 +868,12 @@ export function healthStatus() {
 
 async function apiHandler(req, res) {
   try {
+    if (req.method === "GET" && req.url?.startsWith("/api/image?")) {
+      const requestURL = new URL(req.url, `http://${HOST}:${PORT}`);
+      await sendProxiedImage(res, requestURL.searchParams.get("url"));
+      return;
+    }
+
     if (req.method === "GET" && req.url === "/api/health") {
       sendJson(res, 200, healthStatus());
       return;

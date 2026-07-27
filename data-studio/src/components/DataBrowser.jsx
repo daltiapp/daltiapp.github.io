@@ -1,4 +1,4 @@
-import { Braces, CalendarDays, ExternalLink, MapPin, Search } from "lucide-react";
+import { ArrowDownUp, Braces, CalendarDays, ExternalLink, MapPin, Search } from "lucide-react";
 import { useDeferredValue, useMemo, useState } from "react";
 
 function dateLabel(value) {
@@ -8,6 +8,13 @@ function dateLabel(value) {
     month: "long",
     day: "numeric"
   }).format(new Date(value));
+}
+
+function imageSource(value) {
+  if (!value) return "";
+  return value.startsWith("https://drive.google.com/")
+    ? `/api/image?url=${encodeURIComponent(value)}`
+    : value;
 }
 
 function MatchCard({ item }) {
@@ -41,11 +48,15 @@ function MatchCard({ item }) {
 }
 
 function VenueCard({ item }) {
-  const photo = item.photos?.[0];
+  const photos = Array.isArray(item.photos) ? item.photos.filter(Boolean) : [];
   return (
     <article className="client-card venue-client-card">
-      <div className="venue-client-photo">
-        {photo ? <img src={photo} alt="" loading="lazy" /> : <MapPin size={30} />}
+      <div className="venue-client-photos">
+        {photos.length ? photos.map((photo, index) => (
+          <a href={photo} target="_blank" rel="noreferrer" key={`${photo}-${index}`}>
+            <img src={imageSource(photo)} alt={`${item.name} 사진 ${index + 1}`} loading="lazy" />
+          </a>
+        )) : <div className="venue-client-photo-empty"><MapPin size={30} /></div>}
       </div>
       <div className="venue-client-body">
         <div className="client-card-head">
@@ -72,15 +83,32 @@ function VenueCard({ item }) {
 
 export function DataBrowser({ type, items = [], path }) {
   const [query, setQuery] = useState("");
+  const [sortOrder, setSortOrder] = useState("newest");
   const deferredQuery = useDeferredValue(query.trim().toLocaleLowerCase("ko"));
-  const filtered = useMemo(
-    () => items.filter((item) =>
-      !deferredQuery
-      || JSON.stringify(item).toLocaleLowerCase("ko").includes(deferredQuery)
-    ),
-    [items, deferredQuery]
-  );
   const isMatch = type === "match";
+  const filtered = useMemo(
+    () => {
+      const result = items.filter((item) =>
+        !deferredQuery
+        || JSON.stringify(item).toLocaleLowerCase("ko").includes(deferredQuery)
+      );
+      if (!isMatch) return result;
+
+      return [...result].sort((a, b) => {
+        const aTime = Date.parse(a.startAt || "");
+        const bTime = Date.parse(b.startAt || "");
+        const aValid = Number.isFinite(aTime);
+        const bValid = Number.isFinite(bTime);
+        if (!aValid && !bValid) return 0;
+        if (!aValid) return 1;
+        if (!bValid) return -1;
+        const aValue = aTime;
+        const bValue = bTime;
+        return sortOrder === "newest" ? bValue - aValue : aValue - bValue;
+      });
+    },
+    [items, deferredQuery, isMatch, sortOrder]
+  );
 
   return (
     <section className="data-browser">
@@ -89,15 +117,27 @@ export function DataBrowser({ type, items = [], path }) {
           <h2>{isMatch ? "현재 대회 JSON" : "현재 장소 JSON"}</h2>
           <p>{path} · 전체 {items.length}건 · 검색 결과 {filtered.length}건</p>
         </div>
-        <label className="data-search">
-          <Search size={16} />
-          <span className="sr-only">현재 JSON 검색</span>
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder={isMatch ? "대회명·장소·주최 검색" : "장소명·주소 검색"}
-          />
-        </label>
+        <div className="data-browser-controls">
+          {isMatch ? (
+            <label className="data-sort">
+              <ArrowDownUp size={15} />
+              <span className="sr-only">대회 정렬 순서</span>
+              <select value={sortOrder} onChange={(event) => setSortOrder(event.target.value)}>
+                <option value="newest">최신순</option>
+                <option value="oldest">오래된순</option>
+              </select>
+            </label>
+          ) : null}
+          <label className="data-search">
+            <Search size={16} />
+            <span className="sr-only">현재 JSON 검색</span>
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder={isMatch ? "대회명·장소·주최 검색" : "장소명·주소 검색"}
+            />
+          </label>
+        </div>
       </div>
       <div className={`client-grid ${isMatch ? "match-grid" : "venue-grid"}`}>
         {filtered.map((item) =>
