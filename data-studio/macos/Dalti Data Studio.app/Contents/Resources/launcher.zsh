@@ -6,10 +6,13 @@ PROJECT_ROOT="${APP_RESOURCES}/../../../../../"
 PROJECT_ROOT="${PROJECT_ROOT:A}"
 STUDIO_DIR="${PROJECT_ROOT}/data-studio"
 PID_FILE="${STUDIO_DIR}/.dalti-data-studio.pid"
+PORT_FILE="${STUDIO_DIR}/.dalti-data-studio.port"
 LOG_FILE="${STUDIO_DIR}/.dalti-data-studio.log"
 INSTALL_STAMP="${STUDIO_DIR}/node_modules/.dalti-package-lock.sha256"
-URL="http://127.0.0.1:4173/?fresh=$(date +%s)"
-PORT="4173"
+PREFERRED_PORT="${DALTI_DATA_STUDIO_PORT:-4190}"
+PORT_RANGE_END=$((PREFERRED_PORT + 19))
+PORT=""
+URL=""
 
 show_error() {
   /usr/bin/osascript -e "display alert \"Dalti Data Studio\" message \"$1\" as critical" >/dev/null 2>&1 || true
@@ -49,9 +52,14 @@ stop_server_pid() {
 }
 
 stop_server_listener() {
+  local port="$1"
   local listener_pid
-  listener_pid="$(/usr/sbin/lsof -nP -tiTCP:"$PORT" -sTCP:LISTEN 2>/dev/null | /usr/bin/head -1 || true)"
+  listener_pid="$(/usr/sbin/lsof -nP -tiTCP:"$port" -sTCP:LISTEN 2>/dev/null | /usr/bin/head -1 || true)"
   [[ -n "$listener_pid" ]] && stop_server_pid "$listener_pid"
+}
+
+port_is_busy() {
+  /usr/sbin/lsof -nP -iTCP:"$1" -sTCP:LISTEN >/dev/null 2>&1
 }
 
 if [[ ! -d "$STUDIO_DIR" ]]; then
@@ -86,12 +94,27 @@ if [[ -f "$PID_FILE" ]]; then
   stop_server_pid "$old_pid"
   /bin/rm -f "$PID_FILE"
 fi
-stop_server_listener
+if [[ -f "$PORT_FILE" ]]; then
+  previous_port="$(/bin/cat "$PORT_FILE" 2>/dev/null || true)"
+  if [[ "$previous_port" == <-> ]]; then
+    stop_server_listener "$previous_port"
+  fi
+fi
 
-if /usr/sbin/lsof -nP -iTCP:"$PORT" -sTCP:LISTEN >/dev/null 2>&1; then
-  show_error "포트 ${PORT}을 다른 프로그램이 사용 중입니다. 로그: ${LOG_FILE}"
+candidate="$PREFERRED_PORT"
+while (( candidate <= PORT_RANGE_END )); do
+  if ! port_is_busy "$candidate"; then
+    PORT="$candidate"
+    break
+  fi
+  candidate=$((candidate + 1))
+done
+
+if [[ -z "$PORT" ]]; then
+  show_error "Data Studio 포트 ${PREFERRED_PORT}~${PORT_RANGE_END}가 모두 사용 중입니다. 로그: ${LOG_FILE}"
   exit 1
 fi
+URL="http://127.0.0.1:${PORT}/?fresh=$(date +%s)"
 
 cd "$STUDIO_DIR" || exit 1
 lock_hash="$(/usr/bin/shasum -a 256 "$STUDIO_DIR/package-lock.json" | /usr/bin/awk '{print $1}')"
@@ -126,13 +149,15 @@ fi
 
 # Finder가 launcher를 종료해도 Data Studio 서버가 계속 살아 있도록
 # npm 중간 프로세스 없이 Node 서버를 직접 독립 실행합니다.
+export DALTI_DATA_STUDIO_PORT="$PORT"
 nohup "$NODE_BIN" "$STUDIO_DIR/server.mjs" >>"$LOG_FILE" 2>&1 </dev/null &
 server_pid=$!
 disown "$server_pid" 2>/dev/null || true
 echo "$server_pid" >"$PID_FILE"
+echo "$PORT" >"$PORT_FILE"
 
 for _ in {1..100}; do
-  if /usr/bin/curl -fsS --max-time 1 http://127.0.0.1:4173/api/state >/dev/null 2>&1; then
+  if /usr/bin/curl -fsS --max-time 1 "http://127.0.0.1:${PORT}/api/state" >/dev/null 2>&1; then
     if [[ "${DALTI_DATA_STUDIO_NO_OPEN:-0}" != "1" ]]; then
       /usr/bin/open "$URL"
     fi
@@ -142,6 +167,6 @@ for _ in {1..100}; do
 done
 
 /bin/kill "$server_pid" 2>/dev/null || true
-/bin/rm -f "$PID_FILE"
+/bin/rm -f "$PID_FILE" "$PORT_FILE"
 show_error "Data Studio 서버가 시작되지 않았습니다. 로그를 확인하세요."
 exit 1

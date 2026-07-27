@@ -11,7 +11,7 @@ import { promisify } from "node:util";
 const execFileAsync = promisify(execFile);
 const STUDIO_ROOT = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(STUDIO_ROOT, "..");
-const PORT = Number(process.env.DALTI_DATA_STUDIO_PORT || 4173);
+const PORT = Number(process.env.DALTI_DATA_STUDIO_PORT || 4190);
 const HOST = "127.0.0.1";
 const MATCH_KEYS = [
   "applicationEndAt",
