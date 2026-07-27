@@ -1,3 +1,5 @@
 node_modules/
 dist/
 .DS_Store
+.dalti-data-studio.pid
+.dalti-data-studio.log
