@@ -1,15 +1,15 @@
 import {
-  Archive,
   Bell,
   BookOpenText,
   Braces,
+  GitBranch,
   History,
   MapPin,
   ShieldCheck
 } from "lucide-react";
 
 const ITEMS = [
-  ["inbox", "작업함", Archive],
+  ["inbox", "저장소", GitBranch],
   ["match", "대회 JSON", Braces],
   ["venue", "장소 JSON", MapPin],
   ["notice", "공지사항", Bell],

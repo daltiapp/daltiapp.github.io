@@ -86,17 +86,105 @@ async function git(args) {
   return stdout.trim();
 }
 
-async function repositoryHealth() {
-  const [status, branch, remoteUrl] = await Promise.all([
+function changedFilesFromStatus(status) {
+  return status
+    .split("\n")
+    .filter(Boolean)
+    .map((line) => {
+      const value = line.slice(3).trim().replace(/^"|"$/g, "");
+      return value.includes(" -> ") ? value.split(" -> ").at(-1) : value;
+    });
+}
+
+export async function repositoryHealth() {
+  const [status, branch, remoteUrl, head, upstream] = await Promise.all([
     git(["status", "--porcelain"]),
     git(["branch", "--show-current"]),
-    git(["remote", "get-url", "origin"])
+    git(["remote", "get-url", "origin"]),
+    git(["rev-parse", "--short", "HEAD"]),
+    git(["rev-parse", "--abbrev-ref", "--symbolic-full-name", "@{upstream}"]).catch(() => "")
   ]);
+  let ahead = 0;
+  let behind = 0;
+  if (upstream) {
+    const counts = await git(["rev-list", "--left-right", "--count", `${upstream}...HEAD`]);
+    [behind, ahead] = counts.split(/\s+/).map(Number);
+  }
   return {
     clean: status === "",
-    status: status ? status.split("\n").slice(0, 12) : [],
+    status: status ? status.split("\n").slice(0, 50) : [],
+    changedFiles: changedFilesFromStatus(status),
     branch,
-    remoteUrl
+    remoteUrl,
+    head,
+    upstream,
+    ahead,
+    behind,
+    synced: status === "" && ahead === 0 && behind === 0
+  };
+}
+
+function validateCommitMessage(subject, body) {
+  if (!subject || subject.length > 100) {
+    throw new Error("커밋 제목은 1~100자로 입력하세요.");
+  }
+  const bilingualFormat = /[가-힣][\s\S]*\([A-Za-z][\s\S]*\)/;
+  if (!bilingualFormat.test(subject) || !bilingualFormat.test(body)) {
+    throw new Error("커밋 제목과 내용은 모두 한글(English) 형식으로 작성하세요.");
+  }
+}
+
+function assertCommitPathsSafe(files) {
+  const blocked = files.find((file) =>
+    /(^|\/)(\.env(?:\..*)?|keystore\.properties|[^/]+\.(?:pem|key|p12|jks))$/i.test(file)
+    || file.startsWith(".git/")
+    || file.includes("/node_modules/")
+  );
+  if (blocked) {
+    throw new Error(`보안상 자동 커밋할 수 없는 파일이 포함돼 있습니다: ${blocked}`);
+  }
+}
+
+async function commitAndPushRepository(body) {
+  if (body.confirmed !== true) {
+    throw new Error("변경 파일과 푸시 대상을 직접 확인해야 합니다.");
+  }
+  const before = await repositoryHealth();
+  if (!before.branch) throw new Error("detached HEAD에서는 자동 커밋·푸시할 수 없습니다.");
+  if (before.behind > 0) {
+    throw new Error(`원격 브랜치가 ${before.behind}개 커밋 앞서 있습니다. 먼저 최신 코드를 반영하세요.`);
+  }
+  let commitHash = "";
+  if (!before.clean) {
+    assertCommitPathsSafe(before.changedFiles);
+    const subject = String(body.subject || "").trim();
+    const messageBody = String(body.body || "").trim();
+    validateCommitMessage(subject, messageBody);
+    await git(["add", "-A", "--", ...before.changedFiles]);
+    try {
+      await git(["commit", "-m", subject, "-m", messageBody]);
+      commitHash = await git(["rev-parse", "--short", "HEAD"]);
+    } catch (error) {
+      await git(["restore", "--staged", "--", ...before.changedFiles]).catch(() => {});
+      throw new Error(`커밋에 실패했습니다. 로컬 파일은 유지했습니다: ${error.message}`);
+    }
+  }
+  const afterCommit = await repositoryHealth();
+  if (afterCommit.ahead > 0) {
+    try {
+      await git(["push", "origin", afterCommit.branch]);
+    } catch (error) {
+      throw new Error(
+        `커밋 ${commitHash || afterCommit.head}은 유지됐지만 푸시에 실패했습니다: ${error.message}`
+      );
+    }
+  }
+  return {
+    ok: true,
+    commit: commitHash || afterCommit.head,
+    branch: afterCommit.branch,
+    pushed: afterCommit.ahead > 0,
+    health: await repositoryHealth()
   };
 }
 
@@ -751,6 +839,12 @@ async function apiHandler(req, res) {
           notices: activeData.notices.items.length
         },
         notices: activeData.notices.items,
+        datasets: {
+          matches: activeData.matches.competitions,
+          venues: activeData.venues.venues,
+          matchPath: relative(activeData.matchPath),
+          venuePath: relative(activeData.venuePath)
+        },
         health,
         history,
         defaultEvidence: [
@@ -785,6 +879,16 @@ async function apiHandler(req, res) {
           }
         ]
       });
+      return;
+    }
+
+    if (req.method === "GET" && req.url === "/api/repository") {
+      sendJson(res, 200, await repositoryHealth());
+      return;
+    }
+
+    if (req.method === "POST" && req.url === "/api/repository/commit-push") {
+      sendJson(res, 200, await commitAndPushRepository(await parseBody(req)));
       return;
     }
 

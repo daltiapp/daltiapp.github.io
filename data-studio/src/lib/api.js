@@ -12,6 +12,12 @@ async function request(path, options = {}) {
 
 export const api = {
   state: () => request("/api/state"),
+  repository: () => request("/api/repository"),
+  commitPush: (body) =>
+    request("/api/repository/commit-push", {
+      method: "POST",
+      body: JSON.stringify(body)
+    }),
   analyze: (body) =>
     request("/api/analyze", { method: "POST", body: JSON.stringify(body) }),
   preview: (body) =>

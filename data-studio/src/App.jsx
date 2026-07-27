@@ -1,10 +1,12 @@
 import { Eye, LoaderCircle, Save, ShieldCheck } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { ConfirmModal } from "./components/ConfirmModal";
+import { DataBrowser } from "./components/DataBrowser";
 import { EvidencePanel } from "./components/EvidencePanel";
 import { MatchEditor } from "./components/MatchEditor";
 import { NoticeWorkspace } from "./components/NoticeWorkspace";
 import { ReferenceDocs } from "./components/ReferenceDocs";
+import { RepositoryPanel } from "./components/RepositoryPanel";
 import { Sidebar } from "./components/Sidebar";
 import { SourceImporter } from "./components/SourceImporter";
 import { ValidationRail } from "./components/ValidationRail";
@@ -31,8 +33,10 @@ export default function App() {
   const [fieldEvidence, setFieldEvidence] = useState({});
   const [checks, setChecks] = useState(INITIAL_CHECKS);
   const [preview, setPreview] = useState(null);
+  const [dataView, setDataView] = useState("editor");
   const [loading, setLoading] = useState(false);
   const [applying, setApplying] = useState(false);
+  const [repositoryBusy, setRepositoryBusy] = useState(false);
   const [toast, setToast] = useState("");
 
   const loadState = async () => {
@@ -52,18 +56,54 @@ export default function App() {
   const title = useMemo(
     () =>
       active === "match"
-        ? "대회 JSON 만들기"
+        ? dataView === "current"
+          ? "현재 대회 JSON"
+          : "대회 JSON 만들기"
         : active === "venue"
-          ? "장소 JSON 만들기"
+          ? dataView === "current"
+            ? "현재 장소 JSON"
+            : "장소 JSON 만들기"
           : active === "notice"
             ? "공지사항 JSON 관리"
             : active === "docs"
               ? "근거 문서"
               : active === "history"
                 ? "변경 이력"
-                : "작업함",
-    [active]
+                : "저장소 상태",
+    [active, dataView]
   );
+
+  async function refreshRepository() {
+    setRepositoryBusy(true);
+    setToast("");
+    try {
+      const health = await api.repository();
+      setState((current) => current ? { ...current, health } : current);
+      setToast("저장소 상태를 다시 확인했습니다.");
+    } catch (error) {
+      setToast(error.message);
+    } finally {
+      setRepositoryBusy(false);
+    }
+  }
+
+  async function commitPush(payload) {
+    setRepositoryBusy(true);
+    setToast("");
+    try {
+      const result = await api.commitPush(payload);
+      setToast(
+        result.pushed
+          ? `완료: ${result.commit} · origin/${result.branch} 푸시 성공`
+          : `완료: ${result.commit} · 원격과 이미 동기화됨`
+      );
+      await loadState();
+    } catch (error) {
+      setToast(error.message);
+    } finally {
+      setRepositoryBusy(false);
+    }
+  }
 
   async function analyze(sourceType) {
     setLoading(true);
@@ -122,6 +162,15 @@ export default function App() {
   }
 
   const showEditor = active === "match" || active === "venue";
+  const healthLabel = !state?.health
+    ? "저장소 확인 중"
+    : state.health.behind
+      ? `원격 변경 ${state.health.behind}개 확인 필요`
+      : !state.health.clean
+        ? `커밋 필요 ${state.health.changedFiles?.length || 0}건`
+        : state.health.ahead
+          ? `푸시 필요 ${state.health.ahead}개`
+          : "원격과 동기화";
 
   return (
     <div className="app-shell">
@@ -137,67 +186,102 @@ export default function App() {
           </div>
           <div className="top-health">
             <ShieldCheck size={17} />
-            {state?.health?.clean ? "저장소 준비됨" : "저장소 변경 확인 필요"}
+            {healthLabel}
           </div>
         </header>
 
         {showEditor ? (
           <>
-            <SourceImporter
-              url={sourceUrl}
-              text={sourceText}
-              onUrl={setSourceUrl}
-              onText={setSourceText}
-              onAnalyze={analyze}
-              loading={loading}
-            />
-            <div className="workspace-grid">
-              <EvidencePanel evidence={evidence} />
-              {active === "match" ? (
-                <MatchEditor
-                  draft={matchDraft}
-                  onChange={setMatchDraft}
-                  fieldEvidence={fieldEvidence}
-                />
-              ) : (
-                <VenueEditor draft={venueDraft} onChange={setVenueDraft} />
-              )}
-              <ValidationRail checks={checks} health={state?.health} />
+            <div className="view-switch" aria-label="JSON 작업 화면">
+              <button
+                className={dataView === "editor" ? "is-active" : ""}
+                type="button"
+                onClick={() => setDataView("editor")}
+              >
+                새 항목 만들기
+              </button>
+              <button
+                className={dataView === "current" ? "is-active" : ""}
+                type="button"
+                onClick={() => setDataView("current")}
+              >
+                현재 JSON 보기
+              </button>
             </div>
-            <footer className="action-bar">
-              <div>
-                <strong>파일 쓰기 전 마지막 단계</strong>
-                <span>미리보기는 저장소를 변경하지 않습니다.</span>
-              </div>
-              <div>
-                <button
-                  className="button secondary"
-                  onClick={() => {
-                    localStorage.setItem(
-                      `dalti-draft-${active}`,
-                      JSON.stringify(active === "venue" ? venueDraft : matchDraft)
-                    );
-                    setToast("초안을 이 브라우저에 저장했습니다.");
-                  }}
-                  type="button"
-                >
-                  <Save size={17} /> 초안 저장
-                </button>
-                <button
-                  className="button primary"
-                  onClick={makePreview}
-                  disabled={loading}
-                  type="button"
-                >
-                  {loading ? (
-                    <LoaderCircle className="spin" size={17} />
+            {dataView === "current" ? (
+              <DataBrowser
+                key={active}
+                type={active}
+                items={
+                  active === "match"
+                    ? state?.datasets?.matches
+                    : state?.datasets?.venues
+                }
+                path={
+                  active === "match"
+                    ? state?.datasets?.matchPath
+                    : state?.datasets?.venuePath
+                }
+              />
+            ) : (
+              <>
+                <SourceImporter
+                  url={sourceUrl}
+                  text={sourceText}
+                  onUrl={setSourceUrl}
+                  onText={setSourceText}
+                  onAnalyze={analyze}
+                  loading={loading}
+                />
+                <div className="workspace-grid">
+                  <EvidencePanel evidence={evidence} />
+                  {active === "match" ? (
+                    <MatchEditor
+                      draft={matchDraft}
+                      onChange={setMatchDraft}
+                      fieldEvidence={fieldEvidence}
+                    />
                   ) : (
-                    <Eye size={17} />
+                    <VenueEditor draft={venueDraft} onChange={setVenueDraft} />
                   )}
-                  변경 미리보기
-                </button>
-              </div>
-            </footer>
+                  <ValidationRail checks={checks} health={state?.health} />
+                </div>
+                <footer className="action-bar">
+                  <div>
+                    <strong>파일 쓰기 전 마지막 단계</strong>
+                    <span>미리보기는 저장소를 변경하지 않습니다.</span>
+                  </div>
+                  <div>
+                    <button
+                      className="button secondary"
+                      onClick={() => {
+                        localStorage.setItem(
+                          `dalti-draft-${active}`,
+                          JSON.stringify(active === "venue" ? venueDraft : matchDraft)
+                        );
+                        setToast("초안을 이 브라우저에 저장했습니다.");
+                      }}
+                      type="button"
+                    >
+                      <Save size={17} /> 초안 저장
+                    </button>
+                    <button
+                      className="button primary"
+                      onClick={makePreview}
+                      disabled={loading}
+                      type="button"
+                    >
+                      {loading ? (
+                        <LoaderCircle className="spin" size={17} />
+                      ) : (
+                        <Eye size={17} />
+                      )}
+                      변경 미리보기
+                    </button>
+                  </div>
+                </footer>
+              </>
+            )}
           </>
         ) : active === "notice" ? (
           <NoticeWorkspace
@@ -217,14 +301,12 @@ export default function App() {
             ))}
           </section>
         ) : (
-          <section className="inbox-summary">
-            <h2>현재 활성 데이터</h2>
-            <div>
-              <span><strong>{state?.counts?.matches || 0}</strong> 대회</span>
-              <span><strong>{state?.counts?.venues || 0}</strong> 장소</span>
-              <span><strong>{state?.counts?.notices || 0}</strong> 공지</span>
-            </div>
-          </section>
+          <RepositoryPanel
+            health={state?.health}
+            busy={repositoryBusy}
+            onRefresh={refreshRepository}
+            onCommitPush={commitPush}
+          />
         )}
       </main>
       {preview ? (
