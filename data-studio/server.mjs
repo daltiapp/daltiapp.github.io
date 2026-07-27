@@ -819,8 +819,22 @@ function sendJson(res, status, payload) {
   res.end(JSON.stringify(payload));
 }
 
+export function healthStatus() {
+  return {
+    service: "dalti-data-studio",
+    pid: process.pid,
+    port: PORT,
+    repoRoot: REPO_ROOT
+  };
+}
+
 async function apiHandler(req, res) {
   try {
+    if (req.method === "GET" && req.url === "/api/health") {
+      sendJson(res, 200, healthStatus());
+      return;
+    }
+
     if (req.method === "GET" && req.url === "/api/state") {
       const [activeData, health, historyRaw] = await Promise.all([
         loadActiveData(),

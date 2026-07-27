@@ -2,11 +2,20 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   analyzeMatchText,
+  healthStatus,
   loadActiveData,
   repositoryHealth,
   validateMatch,
   validateVenue
 } from "../server.mjs";
+
+test("상태 확인 응답이 실행 중인 Data Studio 서버를 식별한다", () => {
+  const health = healthStatus();
+  assert.equal(health.service, "dalti-data-studio");
+  assert.equal(health.pid, process.pid);
+  assert.equal(health.port, 4190);
+  assert.match(health.repoRoot, /daltiapp\.github\.io$/);
+});
 
 test("활성 manifest에서 실제 JSON을 해석한다", async () => {
   const data = await loadActiveData();

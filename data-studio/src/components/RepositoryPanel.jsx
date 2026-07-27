@@ -83,7 +83,7 @@ export function RepositoryPanel({ health, busy, onRefresh, onCommitPush }) {
         </form>
       </div>
       <p className="runtime-log-path">
-        실행 로그 <code>data-studio/.dalti-data-studio.log</code>
+        실행 로그 <code>~/Library/Logs/DaltiDataStudio/launcher.log</code>
       </p>
     </section>
   );
