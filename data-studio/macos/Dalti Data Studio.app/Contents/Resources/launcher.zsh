@@ -148,11 +148,36 @@ else
 fi
 
 # Finder가 launcher를 종료해도 Data Studio 서버가 계속 살아 있도록
-# npm 중간 프로세스 없이 Node 서버를 직접 독립 실행합니다.
+# Python의 새 세션으로 Node 프로세스를 완전히 분리합니다.
 export DALTI_DATA_STUDIO_PORT="$PORT"
-nohup "$NODE_BIN" "$STUDIO_DIR/server.mjs" >>"$LOG_FILE" 2>&1 </dev/null &
-server_pid=$!
-disown "$server_pid" 2>/dev/null || true
+server_pid="$({
+  /usr/bin/python3 - "$NODE_BIN" "$STUDIO_DIR/server.mjs" "$STUDIO_DIR" "$LOG_FILE" "$PORT" <<'PY'
+import os
+import subprocess
+import sys
+
+node_bin, server_path, working_dir, log_path, port = sys.argv[1:]
+log_file = open(log_path, "ab", buffering=0)
+environment = os.environ.copy()
+environment["DALTI_DATA_STUDIO_PORT"] = port
+process = subprocess.Popen(
+    [node_bin, server_path],
+    cwd=working_dir,
+    stdin=subprocess.DEVNULL,
+    stdout=log_file,
+    stderr=subprocess.STDOUT,
+    close_fds=True,
+    start_new_session=True,
+    env=environment,
+)
+print(process.pid)
+PY
+})"
+if [[ "$server_pid" != <-> ]]; then
+  /bin/rm -f "$PID_FILE" "$PORT_FILE"
+  show_error "Data Studio 서버 프로세스를 분리하지 못했습니다. 로그: ${LOG_FILE}"
+  exit 1
+fi
 echo "$server_pid" >"$PID_FILE"
 echo "$PORT" >"$PORT_FILE"
 
