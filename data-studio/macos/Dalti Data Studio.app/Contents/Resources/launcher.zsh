@@ -9,6 +9,7 @@ PID_FILE="${STUDIO_DIR}/.dalti-data-studio.pid"
 PORT_FILE="${STUDIO_DIR}/.dalti-data-studio.port"
 LOG_FILE="${STUDIO_DIR}/.dalti-data-studio.log"
 INSTALL_STAMP="${STUDIO_DIR}/node_modules/.dalti-package-lock.sha256"
+LOCK_DIR="${STUDIO_DIR}/.dalti-data-studio.launcher.lock"
 PREFERRED_PORT="${DALTI_DATA_STUDIO_PORT:-4190}"
 PORT_RANGE_END=$((PREFERRED_PORT + 19))
 PORT=""
@@ -17,6 +18,26 @@ URL=""
 show_error() {
   /usr/bin/osascript -e "display alert \"Dalti Data Studio\" message \"$1\" as critical" >/dev/null 2>&1 || true
 }
+
+acquired_lock=0
+for _ in {1..100}; do
+  if /bin/mkdir "$LOCK_DIR" 2>/dev/null; then
+    print -r -- "$$" >"$LOCK_DIR/pid"
+    acquired_lock=1
+    break
+  fi
+  lock_pid="$(/bin/cat "$LOCK_DIR/pid" 2>/dev/null || true)"
+  if [[ "$lock_pid" != <-> ]] || ! /bin/kill -0 "$lock_pid" 2>/dev/null; then
+    /bin/rmdir "$LOCK_DIR" 2>/dev/null || true
+    continue
+  fi
+  /bin/sleep 0.2
+done
+if (( acquired_lock != 1 )); then
+  show_error "Data Studio가 이미 재시작 중입니다. 잠시 후 다시 실행하세요. 로그: ${LOG_FILE}"
+  exit 1
+fi
+trap '/bin/rm -rf "$LOCK_DIR"' EXIT
 
 find_executable() {
   local candidate
@@ -150,6 +171,7 @@ fi
 # Finder가 launcher를 종료해도 Data Studio 서버가 계속 살아 있도록
 # Python의 새 세션으로 Node 프로세스를 완전히 분리합니다.
 export DALTI_DATA_STUDIO_PORT="$PORT"
+print -r -- "[$(/bin/date)] launcher: spawning detached server port=$PORT" >>"$LOG_FILE"
 server_pid="$({
   /usr/bin/python3 - "$NODE_BIN" "$STUDIO_DIR/server.mjs" "$STUDIO_DIR" "$LOG_FILE" "$PORT" <<'PY'
 import os
@@ -172,8 +194,9 @@ process = subprocess.Popen(
 )
 print(process.pid)
 PY
-})"
+})" 2>>"$LOG_FILE"
 if [[ "$server_pid" != <-> ]]; then
+  print -r -- "[$(/bin/date)] launcher: detached server spawn returned invalid pid=<$server_pid>" >>"$LOG_FILE"
   /bin/rm -f "$PID_FILE" "$PORT_FILE"
   show_error "Data Studio 서버 프로세스를 분리하지 못했습니다. 로그: ${LOG_FILE}"
   exit 1

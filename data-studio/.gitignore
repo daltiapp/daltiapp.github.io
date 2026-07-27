@@ -4,3 +4,4 @@ dist/
 .dalti-data-studio.pid
 .dalti-data-studio.port
 .dalti-data-studio.log
+.dalti-data-studio.launcher.lock
