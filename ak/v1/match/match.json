@@ -248,6 +248,26 @@
       "url": "http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice"
     },
     {
+      "applicationEndAt": "2025-10-19T23:59:59",
+      "applicationStartAt": "2025-10-13T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-02T07:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이재룡"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "점핑",
+        "어질리티"
+      ],
+      "name": "2025 LEEZ 4차 어질리티 대회",
+      "startAt": "2025-11-02T07:00:00",
+      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board"
+    },
+    {
       "applicationEndAt": "2025-10-27T23:59:59",
       "applicationStartAt": "2025-10-15T00:00:00",
       "club": "강아지숲",
@@ -269,26 +289,6 @@
       "name": "2025 KAO(Korea Agility Open)",
       "startAt": "2025-11-02T09:30:00",
       "url": "http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice"
-    },
-    {
-      "applicationEndAt": "2025-10-19T23:59:59",
-      "applicationStartAt": "2025-10-13T00:00:00",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2025-11-02T07:00:00",
-      "eventType": "랭킹전",
-      "judge": [
-        "이재룡"
-      ],
-      "location": "소노골프장",
-      "matchTypes": [
-        "점핑",
-        "어질리티"
-      ],
-      "name": "2025 LEEZ 4차 어질리티 대회",
-      "startAt": "2025-11-02T07:00:00",
-      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board"
     },
     {
       "applicationEndAt": "2025-10-19T23:59:59",
@@ -355,28 +355,6 @@
       "url": "https://waldbow.com/agilityOpen.do"
     },
     {
-      "applicationEndAt": "2025-11-21T23:59:59",
-      "applicationStartAt": "2025-11-10T00:00:00",
-      "club": "하이스트",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2025-11-30T09:30:00",
-      "eventType": "랭킹전",
-      "judge": [
-        "양현주"
-      ],
-      "location": "하이스트",
-      "matchTypes": [
-        "비기너",
-        "노비스",
-        "점핑제로",
-        "점핑릴레이"
-      ],
-      "name": "제4회 하이스트배 어질리티 대회",
-      "startAt": "2025-11-30T09:30:00",
-      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=77d4ae02-714e-4502-8381-a2a474a85532"
-    },
-    {
       "applicationEndAt": "2025-11-16T23:59:59",
       "applicationStartAt": "2025-11-15T00:00:00",
       "club": "오십케이",
@@ -398,6 +376,28 @@
       "name": "2025 평택 어질리티 전국대회🏆",
       "startAt": "2025-11-30T08:00:00",
       "url": "https://www.instagram.com/50k_doglifecenter_official"
+    },
+    {
+      "applicationEndAt": "2025-11-21T23:59:59",
+      "applicationStartAt": "2025-11-10T00:00:00",
+      "club": "하이스트",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-30T09:30:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "양현주"
+      ],
+      "location": "하이스트",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑제로",
+        "점핑릴레이"
+      ],
+      "name": "제4회 하이스트배 어질리티 대회",
+      "startAt": "2025-11-30T09:30:00",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=77d4ae02-714e-4502-8381-a2a474a85532"
     },
     {
       "applicationEndAt": "2025-12-07T23:59:59",
@@ -972,45 +972,6 @@
     {
       "applicationEndAt": "",
       "applicationStartAt": "",
-      "club": "한국애견연맹",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2026-09-19T09:00:00",
-      "eventType": "랭킹전",
-      "judge": [],
-      "location": "홍천생활체육공원",
-      "matchTypes": [
-        "비기너1",
-        "비기너2",
-        "노비스1",
-        "노비스2"
-      ],
-      "name": "2026 홍천 KKF 일반부/학생부 어질리티대회",
-      "startAt": "2026-09-19T09:00:00",
-      "url": ""
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국애견연맹",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2026-09-20T09:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "홍천생활체육공원",
-      "matchTypes": [
-        "LV1",
-        "LV2",
-        "LV3"
-      ],
-      "name": "제2회 KKF 내셔널 어질리티 평가전",
-      "startAt": "2026-09-20T09:00:00",
-      "url": ""
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
       "club": "ARES",
       "detailNotice": "",
       "detailStatus": "detail_ready",
@@ -1031,6 +992,26 @@
     {
       "applicationEndAt": "",
       "applicationStartAt": "",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-19T09:00:00",
+      "eventType": "랭킹전",
+      "judge": [],
+      "location": "홍천생활체육공원",
+      "matchTypes": [
+        "비기너1",
+        "비기너2",
+        "노비스1",
+        "노비스2"
+      ],
+      "name": "2026 홍천 KKF 일반부/학생부 어질리티대회",
+      "startAt": "2026-09-19T09:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
       "club": "ARES",
       "detailNotice": "",
       "detailStatus": "detail_ready",
@@ -1046,6 +1027,25 @@
       ],
       "name": "ARES : GAME ON",
       "startAt": "2026-09-20T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-20T09:00:00",
+      "eventType": "승급전",
+      "judge": [],
+      "location": "홍천생활체육공원",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제2회 KKF 내셔널 어질리티 평가전",
+      "startAt": "2026-09-20T09:00:00",
       "url": ""
     },
     {
