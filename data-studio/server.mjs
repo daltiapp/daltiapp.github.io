@@ -31,6 +31,165 @@ const MATCH_KEYS = [
   "url"
 ];
 const previews = new Map();
+const reviewPreviews = new Map();
+
+const DEFAULT_REVIEW_QUEUE_DIR = "review/schedule";
+const QUEUE_FILE_PATTERN = /_review_queue\.json$/;
+
+// Source key → label mapping for display
+const SOURCE_LABELS = {
+  kkf: "한국애견연맹",
+  kau: "한국어질리티연합"
+};
+
+// Resolved lazily so tests can redirect the queue directory with
+// DALTI_REVIEW_QUEUE_DIR instead of touching the operator's live queue.
+export function reviewQueueDir() {
+  const configured = String(process.env.DALTI_REVIEW_QUEUE_DIR || "").trim();
+  return configured || DEFAULT_REVIEW_QUEUE_DIR;
+}
+
+// List all *_review_queue.json files in the queue directory
+async function listQueueFiles() {
+  const dirPath = safeRepoPath(reviewQueueDir());
+  let entries;
+  try {
+    entries = await fs.readdir(dirPath, { withFileTypes: true });
+  } catch (error) {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  }
+  return entries
+    .filter(e => e.isFile() && QUEUE_FILE_PATTERN.test(e.name))
+    .map(e => ({
+      name: e.name,
+      key: e.name.replace(/_review_queue\.json$/, ""),
+      relativePath: `${reviewQueueDir()}/${e.name}`,
+      absolutePath: path.join(dirPath, e.name)
+    }));
+}
+
+async function loadSingleQueueFile(fileMeta) {
+  try {
+    return await readJson(fileMeta.absolutePath);
+  } catch (error) {
+    if (error.code === "ENOENT") return null;
+    throw error;
+  }
+}
+
+async function loadAllQueues() {
+  const files = await listQueueFiles();
+  const results = [];
+  for (const fileMeta of files) {
+    const data = await loadSingleQueueFile(fileMeta);
+    if (data) results.push({ fileMeta, data });
+  }
+  return results;
+}
+
+// Merge all queue files into a unified response with source tracking
+async function loadMergedReviewQueue() {
+  const queues = await loadAllQueues();
+  if (queues.length === 0) {
+    return {
+      schemaVersion: 1,
+      items: [],
+      counts: { total: 0, pending_review: 0, approved: 0, rejected: 0, new: 0, changed: 0 },
+      sources: []
+    };
+  }
+
+  const allItems = [];
+  const sources = [];
+
+  for (const { fileMeta, data } of queues) {
+    const sourceKey = fileMeta.key;
+    const sourceLabel = data.sourceLabel || SOURCE_LABELS[sourceKey] || sourceKey;
+    const items = (data.items || []).map(item => ({
+      ...item,
+      _source: { key: sourceKey, label: sourceLabel, file: fileMeta.relativePath }
+    }));
+    allItems.push(...items);
+
+    const counts = data.counts || computeCounts(data.items || []);
+    sources.push({
+      key: sourceKey,
+      label: sourceLabel,
+      file: fileMeta.relativePath,
+      generatedAt: data.generatedAt || null,
+      counts
+    });
+  }
+
+  const counts = computeCounts(allItems);
+  return { schemaVersion: 1, items: allItems, counts, sources };
+}
+
+function computeCounts(items) {
+  return {
+    total: items.length,
+    pending_review: items.filter(i => i.status === "pending_review").length,
+    approved: items.filter(i => i.status === "approved").length,
+    rejected: items.filter(i => i.status === "rejected").length,
+    new: items.filter(i => i.diffKind === "new").length,
+    changed: items.filter(i => i.diffKind === "changed").length
+  };
+}
+
+// Find which queue file contains a given item by id
+async function findItemInQueues(itemId) {
+  const queues = await loadAllQueues();
+  for (const { fileMeta, data } of queues) {
+    const item = (data.items || []).find(i => i.id === itemId);
+    if (item) return { fileMeta, data, item };
+  }
+  return null;
+}
+
+// Save a single queue file (only the one that was modified)
+async function saveSingleQueueFile(fileMeta, queueData) {
+  const filePath = fileMeta.absolutePath;
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
+  // Recompute counts for this file
+  queueData.counts = computeCounts(queueData.items || []);
+  const temporary = `${filePath}.dalti-data-studio-${process.pid}.tmp`;
+  await fs.writeFile(temporary, jsonText(queueData), "utf8");
+  await fs.rename(temporary, filePath);
+}
+
+function fieldIsFilled(value) {
+  if (Array.isArray(value)) return value.length > 0;
+  if (typeof value === "string") return value.trim() !== "";
+  return value !== null && value !== undefined;
+}
+
+// A warning is resolved once its field carries a value. Without this the
+// image-only fields (location, judge) would stay blocking forever and no
+// reviewed item could ever be applied.
+export function resolveWarnings(item) {
+  const warnings = Array.isArray(item.warnings) ? item.warnings : [];
+  return warnings.filter(warning => {
+    if (!warning || !warning.field) return true;
+    if (!MATCH_KEYS.includes(warning.field)) return true;
+    return !fieldIsFilled(item.draft ? item.draft[warning.field] : undefined);
+  });
+}
+
+// Kept for backward compatibility in apply flow
+function updateQueueCounts(queue) {
+  queue.counts = computeCounts(queue.items || []);
+  return queue;
+}
+
+function diffQueueItemWithActive(item, activeMatches) {
+  if (!item.draft || !item.draft.url) return { syncStatus: "unknown" };
+  const existing = activeMatches.find(m => m.url === item.draft.url);
+  if (!existing) return { syncStatus: "not_applied" };
+  const draftKeys = MATCH_KEYS.filter(k => JSON.stringify(item.draft[k]) !== JSON.stringify(existing[k]));
+  if (draftKeys.length === 0) return { syncStatus: "applied" };
+  return { syncStatus: "changed", changedFields: draftKeys };
+}
 
 function jsonText(value) {
   return `${JSON.stringify(value, null, 2)}\n`;
@@ -270,6 +429,112 @@ async function fetchPublicPage(rawUrl) {
     return { html, finalUrl: current.toString() };
   }
   throw new Error("원본 사이트의 리디렉션이 너무 많습니다.");
+}
+
+const IG_APP_ID = "936619743392459";
+
+function extractInstagramUsername(rawUrl) {
+  try {
+    const url = new URL(rawUrl);
+    if (!url.hostname.includes("instagram.com")) return null;
+    const parts = url.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+    // Profile URL: /username or /username/
+    if (parts.length === 1 && !["p", "reel", "stories", "explore"].includes(parts[0])) {
+      return parts[0];
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+function extractInstagramPostShortcode(rawUrl) {
+  try {
+    const url = new URL(rawUrl);
+    if (!url.hostname.includes("instagram.com")) return null;
+    const parts = url.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+    // Post URL: /p/{shortcode} or /reel/{shortcode}
+    if ((parts[0] === "p" || parts[0] === "reel") && parts[1]) {
+      return parts[1];
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+async function fetchInstagramProfile(username) {
+  const url = `https://www.instagram.com/api/v1/users/web_profile_info/?username=${encodeURIComponent(username)}`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15_000);
+  try {
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "X-IG-App-ID": IG_APP_ID,
+        "X-Requested-With": "XMLHttpRequest",
+        "Accept": "*/*",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Referer": "https://www.instagram.com/",
+        "Sec-Fetch-Site": "same-origin"
+      }
+    });
+    if (!response.ok) {
+      throw new Error(`Instagram 프로필 API 응답 오류 (${response.status})`);
+    }
+    return await response.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchInstagramPost(shortcode) {
+  const url = `https://www.instagram.com/api/v1/media/${shortcode}/info/`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15_000);
+  try {
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "X-IG-App-ID": IG_APP_ID,
+        "Accept": "*/*",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
+      }
+    });
+    if (!response.ok) {
+      throw new Error(`Instagram 게시물 API 응답 오류 (${response.status})`);
+    }
+    return await response.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function extractInstagramCaptions(profileData) {
+  const user = profileData?.data?.user;
+  if (!user) return "";
+
+  const texts = [];
+  // Biography
+  if (user.biography) texts.push(user.biography);
+
+  // Recent posts from timeline
+  const timelineEdges = user.edge_owner_to_timeline_media?.edges || [];
+  for (const edge of timelineEdges.slice(0, 12)) {
+    const caption = edge.node?.edge_media_to_caption?.edges?.[0]?.node?.text;
+    if (caption) texts.push(caption);
+  }
+
+  // IGTV / Reels / Felix videos
+  const felixEdges = user.edge_felix_video_timeline?.edges || [];
+  for (const edge of felixEdges.slice(0, 6)) {
+    const caption = edge.node?.edge_media_to_caption?.edges?.[0]?.node?.text;
+    if (caption) texts.push(caption);
+  }
+
+  return texts.join("\n---\n").slice(0, 80_000);
 }
 
 function decodeEntities(value) {
@@ -605,6 +870,11 @@ function kstParts() {
     .formatToParts(new Date())
     .reduce((acc, part) => ({ ...acc, [part.type]: part.value }), {});
   return parts;
+}
+
+function kstTimestamp() {
+  const now = kstParts();
+  return `${now.year}-${now.month}-${now.day}T${now.hour}:${now.minute}:${now.second}+09:00`;
 }
 
 function nextManifest(manifest) {
@@ -959,7 +1229,25 @@ async function apiHandler(req, res) {
       let sourceText = String(body.text || "").trim();
       let finalUrl = String(body.url || "").trim();
       let sourceLabel = body.sourceType === "instagram" ? "Instagram 게시물" : "원본 사이트";
-      if (body.sourceType !== "text") {
+      if (body.sourceType === "instagram") {
+        // Instagram 내부 API를 통한 게시물 데이터 가져오기
+        const username = extractInstagramUsername(finalUrl);
+        const shortcode = extractInstagramPostShortcode(finalUrl);
+        if (username) {
+          const profileData = await fetchInstagramProfile(username);
+          sourceText = extractInstagramCaptions(profileData);
+          finalUrl = `https://www.instagram.com/${username}/`;
+        } else if (shortcode) {
+          // 개별 게시물 URL인 경우 프로필 URL로 가이드
+          throw new Error(
+            "Instagram 프로필 URL을 입력하세요 (예: https://www.instagram.com/korea_kennel_agility/). 개별 게시물 URL은 아직 지원하지 않습니다."
+          );
+        } else {
+          throw new Error(
+            "Instagram 프로필 URL을 인식하지 못했습니다. https://www.instagram.com/계정명/ 형식으로 입력하세요."
+          );
+        }
+      } else if (body.sourceType !== "text") {
         const page = await fetchPublicPage(finalUrl);
         finalUrl = page.finalUrl;
         sourceText = [
@@ -1023,6 +1311,351 @@ async function apiHandler(req, res) {
 
     if (req.method === "POST" && req.url === "/api/apply") {
       sendJson(res, 200, await applyPreview(await parseBody(req)));
+      return;
+    }
+
+    // === Review Queue API ===
+    if (req.method === "GET" && req.url === "/api/review/queue") {
+      const [merged, activeData] = await Promise.all([loadMergedReviewQueue(), loadActiveData()]);
+      const activeMatches = activeData.matches.competitions || [];
+      const items = merged.items.map(item => ({
+        ...item,
+        _sync: diffQueueItemWithActive(item, activeMatches)
+      }));
+      sendJson(res, 200, { ...merged, items });
+      return;
+    }
+
+    if (req.method === "POST" && req.url === "/api/review/item") {
+      const body = await parseBody(req);
+      if (!body.id) throw new Error("항목 id가 필요합니다.");
+      if (!body.draft) throw new Error("draft가 필요합니다.");
+      const draftKeys = Object.keys(body.draft);
+      const invalidKeys = draftKeys.filter(k => !MATCH_KEYS.includes(k));
+      if (invalidKeys.length) {
+        throw new Error(`draft에 허용되지 않은 필드가 있습니다: ${invalidKeys.join(", ")}`);
+      }
+      const found = await findItemInQueues(body.id);
+      if (!found) throw new Error("해당 id의 항목을 찾을 수 없습니다.");
+      const { fileMeta, data, item } = found;
+      const editedFields = [];
+      for (const key of draftKeys) {
+        if (JSON.stringify(item.draft[key]) !== JSON.stringify(body.draft[key])) {
+          item.draft[key] = body.draft[key];
+          editedFields.push(key);
+          if (!item.fieldEvidence) item.fieldEvidence = {};
+          if (!item.fieldEvidence[key]) item.fieldEvidence[key] = {};
+          item.fieldEvidence[key].source = "manual";
+        }
+      }
+      if (!item.review) item.review = { reviewedAt: "", reviewer: "", note: "", editedFields: [] };
+      item.review.editedFields = [...new Set([...(item.review.editedFields || []), ...editedFields])];
+      item.warnings = resolveWarnings(item);
+      item.fingerprint = hash(JSON.stringify(item.draft));
+      await saveSingleQueueFile(fileMeta, data);
+      sendJson(res, 200, { ok: true, editedFields, warnings: item.warnings });
+      return;
+    }
+
+    if (req.method === "POST" && req.url === "/api/review/status") {
+      const body = await parseBody(req);
+      if (!body.id) throw new Error("항목 id가 필요합니다.");
+      const validStatuses = ["approved", "rejected", "pending_review"];
+      if (!validStatuses.includes(body.status)) {
+        throw new Error(`status는 ${validStatuses.join("/")} 중 하나여야 합니다.`);
+      }
+      const found = await findItemInQueues(body.id);
+      if (!found) throw new Error("해당 id의 항목을 찾을 수 없습니다.");
+      const { fileMeta, data, item } = found;
+      item.status = body.status;
+      if (!item.review) item.review = { reviewedAt: "", reviewer: "", note: "", editedFields: [] };
+      if (body.note !== undefined) item.review.note = String(body.note);
+      if (body.status === "approved" || body.status === "rejected") {
+        item.review.reviewedAt = kstTimestamp();
+      }
+      await saveSingleQueueFile(fileMeta, data);
+      sendJson(res, 200, { ok: true, status: item.status });
+      return;
+    }
+
+    if (req.method === "POST" && req.url === "/api/review/preview") {
+      const body = await parseBody(req);
+      const merged = await loadMergedReviewQueue();
+      const ids = Array.isArray(body.ids) ? body.ids : [];
+      if (!ids.length) throw new Error("미리보기할 항목 id 목록이 필요합니다.");
+      const approvedItems = merged.items.filter(i => ids.includes(i.id) && i.status === "approved");
+      if (approvedItems.length !== ids.length) {
+        const missing = ids.filter(id => !approvedItems.find(i => i.id === id));
+        throw new Error(`승인되지 않았거나 존재하지 않는 항목이 있습니다: ${missing.join(", ")}`);
+      }
+      // Check for required warnings
+      for (const item of approvedItems) {
+        const requiredWarnings = (item.warnings || []).filter(w => w.level === "required");
+        if (requiredWarnings.length) {
+          throw new Error(`항목 ${item.id}에 필수 수정 경고가 남아 있습니다: ${requiredWarnings.map(w => w.message).join("; ")}`);
+        }
+      }
+      // Check for cross-source URL duplicates among selected items
+      const urlToItems = new Map();
+      for (const item of approvedItems) {
+        const url = item.draft?.url;
+        if (url) {
+          if (!urlToItems.has(url)) urlToItems.set(url, []);
+          urlToItems.get(url).push(item);
+        }
+      }
+      const duplicateUrls = [...urlToItems.entries()].filter(([, items]) => items.length > 1);
+      if (duplicateUrls.length > 0) {
+        const details = duplicateUrls.map(([url, items]) =>
+          `URL ${url}: ${items.map(i => `${i.id}(${i._source?.key || "?"})`).join(", ")}`
+        );
+        throw new Error(`서로 다른 소스의 항목이 같은 URL을 가리킵니다:\n${details.join("\n")}`);
+      }
+      const [activeData, health] = await Promise.all([loadActiveData(), repositoryHealth()]);
+      if (hasBlockingWorkspaceChanges(health)) {
+        throw new Error(`저장소에 기존 변경이 있어 미리보기를 확정할 수 없습니다: ${health.status.join(", ")}`);
+      }
+      // Build next match data
+      const currentMatches = activeData.matches;
+      const nextCompetitions = [...currentMatches.competitions];
+      const changes = [];
+      for (const item of approvedItems) {
+        const canonical = canonicalMatch(item.draft);
+        // Validate 13 fields
+        const keys = Object.keys(canonical);
+        if (keys.length !== MATCH_KEYS.length || !MATCH_KEYS.every(k => keys.includes(k))) {
+          throw new Error(`항목 ${item.id}의 draft가 13필드 계약을 만족하지 않습니다.`);
+        }
+        // Check duplicate URL in existing data
+        const existingIdx = nextCompetitions.findIndex(c => c.url && c.url === canonical.url);
+        if (existingIdx >= 0) {
+          changes.push({ type: "update", id: item.id, source: item._source, index: existingIdx, before: nextCompetitions[existingIdx], after: canonical });
+          nextCompetitions[existingIdx] = canonical;
+        } else {
+          changes.push({ type: "add", id: item.id, source: item._source, after: canonical });
+          nextCompetitions.push(canonical);
+        }
+      }
+      const nextMatchData = { competitions: nextCompetitions };
+      const manifestNext = nextManifest(activeData.manifest);
+      const targetBefore = await fs.readFile(activeData.matchPath, "utf8");
+      const manifestBefore = await fs.readFile(activeData.manifestPath, "utf8");
+      const targetAfter = jsonText(nextMatchData);
+      const manifestAfter = jsonText(manifestNext);
+
+      // Determine which queue files will be affected
+      const affectedSources = new Map();
+      for (const item of approvedItems) {
+        if (item._source) {
+          affectedSources.set(item._source.file, item._source);
+        }
+      }
+      // Read current contents of affected queue files for hash tracking
+      const queueFileRecords = [];
+      for (const [relPath] of affectedSources) {
+        const absPath = safeRepoPath(relPath);
+        const before = await fs.readFile(absPath, "utf8");
+        queueFileRecords.push({
+          path: absPath,
+          relative: relPath,
+          before,
+          hash: hash(before)
+        });
+      }
+
+      const previewId = crypto.randomUUID();
+      const files = [relative(activeData.matchPath), relative(activeData.manifestPath), ...queueFileRecords.map(q => q.relative)];
+
+      const record = {
+        createdAt: Date.now(),
+        branch: health.branch,
+        ids,
+        files: [
+          { path: activeData.matchPath, relative: files[0], before: targetBefore, after: targetAfter, hash: hash(targetBefore) },
+          { path: activeData.manifestPath, relative: files[1], before: manifestBefore, after: manifestAfter, hash: hash(manifestBefore) },
+          ...queueFileRecords
+        ],
+        queueFiles: queueFileRecords.map(q => q.relative),
+        approvedItems
+      };
+      reviewPreviews.set(previewId, record);
+
+      // Build source-level summary for UI
+      const sourceSummary = [];
+      for (const [, src] of affectedSources) {
+        const count = approvedItems.filter(i => i._source?.file === src.file).length;
+        sourceSummary.push({ key: src.key, label: src.label, file: src.file, count });
+      }
+
+      sendJson(res, 200, {
+        previewId,
+        branch: health.branch,
+        files,
+        changes,
+        manifestBefore: { dataVersion: activeData.manifest.dataVersion, forceRefreshKey: activeData.manifest.forceRefreshKey, updatedAt: activeData.manifest.updatedAt },
+        manifestAfter: { dataVersion: manifestNext.dataVersion, forceRefreshKey: manifestNext.forceRefreshKey, updatedAt: manifestNext.updatedAt },
+        itemCount: approvedItems.length,
+        sources: sourceSummary
+      });
+      return;
+    }
+
+    if (req.method === "POST" && req.url === "/api/review/apply") {
+      const body = await parseBody(req);
+      if (!body.confirmedDiff || !body.confirmedPush) {
+        throw new Error("변경 내용과 푸시 대상을 모두 직접 확인해야 합니다.");
+      }
+      const preview = reviewPreviews.get(body.previewId);
+      if (!preview) throw new Error("미리보기가 만료됐습니다. 다시 생성하세요.");
+      if (Date.now() - preview.createdAt > 20 * 60 * 1000) {
+        reviewPreviews.delete(body.previewId);
+        throw new Error("미리보기 생성 후 20분이 지나 다시 확인해야 합니다.");
+      }
+      const health = await repositoryHealth();
+      if (!health.clean || health.branch !== preview.branch) {
+        throw new Error("미리보기 이후 저장소 상태 또는 브랜치가 바뀌었습니다.");
+      }
+      // Check file hashes (match.json + manifest only; queue files may have changed via status edits)
+      const coreFiles = preview.files.filter(f => !preview.queueFiles?.includes(f.relative));
+      for (const file of coreFiles) {
+        const current = await fs.readFile(file.path, "utf8");
+        if (hash(current) !== file.hash) {
+          throw new Error(`${file.relative} 파일이 미리보기 이후 변경됐습니다.`);
+        }
+      }
+      // Write match.json and manifest
+      for (const file of coreFiles) {
+        const temporary = `${file.path}.dalti-data-studio-${process.pid}.tmp`;
+        await fs.writeFile(temporary, file.after, "utf8");
+        await fs.rename(temporary, file.path);
+      }
+      // Update queue items' statuses in their respective source files
+      const queues = await loadAllQueues();
+      const affectedFiles = new Set();
+      for (const id of preview.ids) {
+        for (const { fileMeta, data } of queues) {
+          const item = (data.items || []).find(i => i.id === id);
+          if (item) {
+            item.status = "approved";
+            if (!item.review) item.review = { reviewedAt: "", reviewer: "", note: "", editedFields: [] };
+            item.review.reviewedAt = kstTimestamp();
+            affectedFiles.add(JSON.stringify({ fileMeta, data }));
+            break;
+          }
+        }
+      }
+      // Save only affected queue files
+      const savedQueueFiles = [];
+      for (const { fileMeta, data } of queues) {
+        const hasAffectedItem = (data.items || []).some(i => preview.ids.includes(i.id));
+        if (hasAffectedItem) {
+          await saveSingleQueueFile(fileMeta, data);
+          savedQueueFiles.push(fileMeta.relativePath);
+        }
+      }
+      // Commit and push
+      const relativeFiles = coreFiles.map(f => f.relative);
+      relativeFiles.push(...savedQueueFiles);
+      let commitHash = "";
+      try {
+        await git(["add", "--", ...relativeFiles]);
+        const subject = String(body.subject || "검수 큐 반영(Apply review queue items)").trim();
+        const messageBody = String(body.body || "검수 승인된 항목을 활성 match.json에 반영(Apply approved review queue items to active match.json)").trim();
+        await git(["commit", "-m", subject, "-m", messageBody]);
+        commitHash = await git(["rev-parse", "--short", "HEAD"]);
+        await git(["push", "origin", preview.branch]);
+      } catch (error) {
+        if (!commitHash) {
+          await git(["restore", "--staged", "--", ...relativeFiles]).catch(() => {});
+          for (const file of coreFiles) {
+            await fs.writeFile(file.path, file.before, "utf8");
+          }
+        }
+        throw new Error(
+          commitHash
+            ? `커밋 ${commitHash}은 생성됐지만 푸시에 실패했습니다: ${error.message}`
+            : `파일을 원복했습니다. 커밋에 실패했습니다: ${error.message}`
+        );
+      }
+      reviewPreviews.delete(body.previewId);
+      sendJson(res, 200, { ok: true, commit: commitHash, branch: preview.branch, appliedIds: preview.ids, queueFiles: savedQueueFiles });
+      return;
+    }
+
+    // --- Instagram Fetch Endpoint ---
+    if (method === "POST" && pathname === "/api/instagram/fetch") {
+      const profileData = await fetchInstagramProfile("korea_kennel_agility");
+      const edges = profileData?.graphql?.user?.edge_owner_to_timeline_media?.edges || [];
+      const totalPosts = edges.length;
+
+      const competitionKeywords = ['대회', '승급전', '랭킹전', '선발전', '챔피언', '개최', '참가신청', '출진'];
+      const datePattern = /(20\d{2})\s*[년.\/-]\s*(\d{1,2})\s*[월.\/-]\s*(\d{1,2})/;
+
+      const activeData = await loadActiveData();
+      const queuePath = safeRepoPath("review/instagram/instagram_queue.json");
+      await fs.mkdir(path.dirname(queuePath), { recursive: true });
+
+      let queue = [];
+      try {
+        queue = await readJson(queuePath);
+      } catch {
+        queue = [];
+      }
+
+      const existingShortcodes = new Set(queue.map((item) => item.shortcode));
+      let newCompetitions = 0;
+      let skipped = 0;
+
+      for (const edge of edges) {
+        const node = edge.node;
+        const caption = node.edge_media_to_caption?.edges?.[0]?.node?.text || "";
+        const shortcode = node.shortcode;
+
+        const matchedKeywords = competitionKeywords.filter((kw) => caption.includes(kw));
+        const hasDate = datePattern.test(caption);
+        const isCompetition = matchedKeywords.length >= 2 || (matchedKeywords.length >= 1 && hasDate);
+
+        if (!isCompetition) continue;
+
+        if (existingShortcodes.has(shortcode)) {
+          skipped++;
+          continue;
+        }
+
+        const postUrl = `https://www.instagram.com/p/${shortcode}/`;
+        const { draft } = analyzeMatchText(caption, postUrl, activeData);
+
+        queue.push({
+          id: `ig_${shortcode}`,
+          shortcode,
+          postUrl,
+          captionPreview: caption.slice(0, 200),
+          postedAt: new Date(node.taken_at_timestamp * 1000).toISOString(),
+          fetchedAt: kstTimestamp(),
+          isCompetition: true,
+          draft,
+          status: "pending_review"
+        });
+
+        existingShortcodes.add(shortcode);
+        newCompetitions++;
+      }
+
+      await fs.writeFile(queuePath, jsonText(queue), "utf8");
+      sendJson(res, 200, { ok: true, fetched: totalPosts, competitions: newCompetitions, skipped, queue });
+      return;
+    }
+
+    // --- Instagram Queue Endpoint ---
+    if (method === "GET" && pathname === "/api/instagram/queue") {
+      const queuePath = safeRepoPath("review/instagram/instagram_queue.json");
+      let queue = [];
+      try {
+        queue = await readJson(queuePath);
+      } catch {
+        queue = [];
+      }
+      sendJson(res, 200, queue);
       return;
     }
 

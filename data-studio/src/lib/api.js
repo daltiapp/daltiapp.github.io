@@ -23,5 +23,20 @@ export const api = {
   preview: (body) =>
     request("/api/preview", { method: "POST", body: JSON.stringify(body) }),
   apply: (body) =>
-    request("/api/apply", { method: "POST", body: JSON.stringify(body) })
+    request("/api/apply", { method: "POST", body: JSON.stringify(body) }),
+
+  // Review Queue API
+  reviewQueue: () => request("/api/review/queue"),
+  reviewItem: (body) =>
+    request("/api/review/item", { method: "POST", body: JSON.stringify(body) }),
+  reviewStatus: (body) =>
+    request("/api/review/status", { method: "POST", body: JSON.stringify(body) }),
+  reviewPreview: (body) =>
+    request("/api/review/preview", { method: "POST", body: JSON.stringify(body) }),
+  reviewApply: (body) =>
+    request("/api/review/apply", { method: "POST", body: JSON.stringify(body) }),
+
+  // Instagram API
+  instagramFetch: () => request('/api/instagram/fetch', { method: 'POST' }),
+  instagramQueue: () => request('/api/instagram/queue'),
 };
