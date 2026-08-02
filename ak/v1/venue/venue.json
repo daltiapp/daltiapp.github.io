@@ -172,6 +172,16 @@
         "https://drive.google.com/uc?export=view&id=1oE8Gds77TO-m7JcC18oGc2Q-eJ5L2qNb",
         "https://drive.google.com/uc?export=view&id=1OBWx14gVEvktjYpbuugjHbD3_5jlickw"
       ]
+    },
+    {
+      "name": "꽃지해수욕장",
+      "location": {
+        "name": "꽃지해수욕장",
+        "address": "충청남도 태안군 안면읍 꽃지해안로 400",
+        "latitude": 36.4871024,
+        "longitude": 126.3355443
+      },
+      "photos": []
     }
   ]
 }

@@ -928,7 +928,7 @@
     {
       "applicationEndAt": "2026-07-26T23:59:59",
       "applicationStartAt": "2026-07-19T00:00:00",
-      "club": "KKF 코리아어질리티클럽",
+      "club": "코리아어질리티",
       "detailNotice": "",
       "detailStatus": "detail_ready",
       "endAt": "2026-08-08T19:00:00",
@@ -946,6 +946,28 @@
       "name": "제 80회 KKF 코리아어질리티클럽 점/어 승급전",
       "startAt": "2026-08-08T14:00:00",
       "url": "https://www.agility.co.kr/17/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172472260&t=board"
+    },
+    {
+      "applicationEndAt": "2026-08-09T23:59:59",
+      "applicationStartAt": "2026-08-02T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-05T17:00:00",
+      "eventType": "대회",
+      "judge": [
+        "김민성"
+      ],
+      "location": "꽃지해수욕장",
+      "matchTypes": [
+        "비기너",
+        "스피드 노비스",
+        "점핑",
+        "스피드 어질리티"
+      ],
+      "name": "2026 LEEZ DOGSPORTS TAEAN BEACH AGILITY CUP",
+      "startAt": "2026-09-05T09:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172813882&t=board"
     },
     {
       "applicationEndAt": "",
