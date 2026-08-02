@@ -139,20 +139,21 @@
             }
         ];
 
-        // Image mapping based on location
-        // Upload images to a folder like 'images/' in your GitHub repo
-        // and reference them here. Use placeholders or actual file names.
-        const locationImages = {
-            "소노 골프장": "images/sono_golf.jpg",  // Replace with your uploaded image path
-            "소노 승마장": "images/sono_riding.jpg",
-            "하이스트센터": "images/highst_center.jpg",
-            "발트바우센터": "images/baltbau_center.jpg",
-            "소노 메인센터": "images/sono_main.jpg"
+        // Location color mapping for generated placeholders
+        const locationColors = {
+            "소노 골프장": "#28a745",
+            "소노 승마장": "#6f42c1",
+            "하이스트센터": "#fd7e14",
+            "발트바우센터": "#dc3545",
+            "소노 메인센터": "#007bff"
         };
 
-        // Function to get image or fallback
+        // Generate inline SVG data URI as placeholder (no external dependency)
         function getLocationImage(location) {
-            return locationImages[location] || "https://via.placeholder.com/400x200?text=" + encodeURIComponent(location);  // Fallback to placeholder if not found
+            const color = locationColors[location] || "#6c757d";
+            const text = encodeURIComponent(location);
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200"><rect fill="${color}" width="400" height="200"/><text fill="#fff" font-family="sans-serif" font-size="20" font-weight="bold" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">${location}</text></svg>`;
+            return "data:image/svg+xml," + encodeURIComponent(svg);
         }
 
         // Render events
