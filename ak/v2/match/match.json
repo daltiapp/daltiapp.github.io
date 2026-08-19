@@ -991,14 +991,16 @@
       "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172813882&t=board"
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-09-10T23:59:59",
+      "applicationStartAt": "2026-08-15T00:00:00",
       "club": "ARES",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-09-19T00:00:00",
+      "endAt": "2026-09-19T07:40:00",
       "eventType": "대회",
-      "judge": [],
+      "judge": [
+        "이용민"
+      ],
       "location": "키녹 그린스페이스",
       "matchTypes": [
         "비기너",
@@ -1007,8 +1009,8 @@
         "점핑0"
       ],
       "name": "ARES : GAME ON",
-      "startAt": "2026-09-19T00:00:00",
-      "url": ""
+      "startAt": "2026-09-19T07:40:00",
+      "url": "https://www.instagram.com/ares.agility/"
     },
     {
       "applicationEndAt": "",
@@ -1031,14 +1033,16 @@
       "url": ""
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-09-10T23:59:59",
+      "applicationStartAt": "2026-08-15T00:00:00",
       "club": "ARES",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-09-20T00:00:00",
+      "endAt": "2026-09-20T07:40:00",
       "eventType": "대회",
-      "judge": [],
+      "judge": [
+        "전영환"
+      ],
       "location": "키녹 그린스페이스",
       "matchTypes": [
         "점핑스피드",
@@ -1047,8 +1051,8 @@
         "어질리티오픈"
       ],
       "name": "ARES : GAME ON",
-      "startAt": "2026-09-20T00:00:00",
-      "url": ""
+      "startAt": "2026-09-20T07:40:00",
+      "url": "https://www.instagram.com/ares.agility/"
     },
     {
       "applicationEndAt": "",
