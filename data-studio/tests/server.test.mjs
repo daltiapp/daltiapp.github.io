@@ -158,12 +158,12 @@ test("상태 확인 응답이 실행 중인 Data Studio 서버를 식별한다",
 
 test("활성 manifest에서 실제 JSON을 해석한다", async () => {
   const data = await loadActiveData();
-  assert.equal(data.manifest.basePath, "/ak/v1");
+  assert.equal(data.manifest.basePath, "/ak/v2");
   assert.ok(data.matches.competitions.length > 0);
   assert.ok(data.venues.venues.length > 0);
   assert.ok(data.notices.items.length > 0);
-  assert.match(data.matchPath, /\/ak\/v1\/match\/match\.json$/);
-  assert.match(data.venuePath, /\/ak\/v1\/venue\/venue\.json$/);
+  assert.match(data.matchPath, /\/ak\/v2\/match\/match\.json$/);
+  assert.match(data.venuePath, /\/ak\/v2\/venue\/venue\.json$/);
 });
 
 test("저장소 상태에서 브랜치와 원격 동기화 정보를 제공한다", async () => {

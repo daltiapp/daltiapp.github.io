@@ -206,7 +206,7 @@ export default function App() {
             <div>
               <h1>{title}</h1>
               <p>
-                {state?.manifest?.basePath || "/ak/v1"} · dataVersion{" "}
+                {state?.manifest?.basePath || "manifest 확인 필요"} · dataVersion{" "}
                 {state?.manifest?.dataVersion || "확인 중"}
               </p>
             </div>

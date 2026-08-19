@@ -61,13 +61,13 @@ If release signing fails, debug in this order:
 
 - 구버전 `/agilitykorea` JSON 경로는 사용하지 않는다. 앱과 모든 배치는 `/agilitykorea-manifest.json`만 진입점으로 사용한다.
 - JSON 구조가 바뀌는 강제 업데이트는 `/ak/vN` 폴더를 새로 만들고 manifest의 `basePath`를 전환한다.
-- 현재 활성 경로는 `/ak/v1`이며, 다음 강제 전환은 사용자가 명시할 때 `/ak/v2`로 올린다.
+- 현재 활성 경로는 `/ak/v2`이며, 다음 강제 전환은 사용자가 명시할 때 `/ak/v3`로 올린다.
 - 버전 폴더에는 JSON만 포함한다. HTML, `.DS_Store`, `@eaDir`, `.gitkeep` 는 넣지 않는다.
 - `schemaVersion` 은 breaking schema 변경 때만 올리고, 일반 데이터 갱신은 `dataVersion` 과 `forceRefreshKey` 만 올린다.
 - 앱과 배치는 manifest를 먼저 읽고 `basePath + files.<key>`로 JSON을 로드한다. manifest 오류 시 구경로 fallback하지 않는다.
 - `notice.json` 의 `detail_path` 는 기존처럼 `notice/notice.json` 파일 위치 기준 상대 경로(`./kkf/129.json` 등)를 유지한다.
 - 앱은 manifest의 `basePath` 와 `files.notice` 의 디렉터리를 합친 위치를 기준으로 상세 JSON을 찾는다.
 - 공지 배치는 `files.notice` 디렉터리에 직접 배포하고, 일정 배치는 `files.match`만 읽는다.
-- `/ak/v1`을 앱 코드·배치 코드·NAS env에 직접 고정하지 않는다.
+- `/ak/v2`를 앱 코드·배치 코드·NAS env에 직접 고정하지 않는다.
 - rollback은 이전 버전 폴더를 삭제하지 않고 manifest를 이전 `basePath`/`forceRefreshKey`로 되돌린다.
 - 상세 운영 규칙은 [AGILITYKOREA_DATA_VERSIONING.md](/Users/sam/Documents/daltiapp/daltiapp.github.io/AGILITYKOREA_DATA_VERSIONING.md) 를 따른다.

@@ -7,9 +7,9 @@
 ## 경로 규칙
 
 - 활성 JSON은 `/ak/vN` 아래에 둔다.
-- 현재 활성 경로는 manifest의 `basePath`가 결정하며 현재 값은 `/ak/v1`이다.
+- 현재 활성 경로는 manifest의 `basePath`가 결정하며 현재 값은 `/ak/v2`이다.
 - `/ak/vN`에는 JSON만 둔다. HTML, `.DS_Store`, `@eaDir`, `.gitkeep`는 금지한다.
-- 모든 소비자는 `basePath + files.<key>`로 파일을 찾는다. `/ak/v1`을 코드나 NAS 환경파일에 직접 고정하지 않는다.
+- 모든 소비자는 `basePath + files.<key>`로 파일을 찾는다. `/ak/vN`을 코드나 NAS 환경파일에 직접 고정하지 않는다.
 - manifest를 읽지 못하거나 필수 key/file이 없으면 오류로 종료한다. 구경로 fallback은 금지한다.
 
 ## 버전 규칙
@@ -30,7 +30,7 @@
 ## 일정 규칙
 
 - 일정 푸시와 일정 감지는 manifest의 `files.match`가 가리키는 파일 하나만 읽는다.
-- `/ak/v1/match/match.json`의 각 대회는 아래 13개 필드만 유지한다.
+- 활성 `/ak/vN/match/match.json`의 각 대회는 아래 13개 필드만 유지한다.
 
 ```text
 applicationEndAt, applicationStartAt, club, detailNotice, detailStatus,
@@ -38,6 +38,14 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 ```
 
 - 구버전 `date`, `applicationPeriod`, `sponsor` 필드를 배치 입력으로 사용하지 않는다.
+
+## 세미나 규칙
+
+- v1 세미나 JSON은 `/ak/v1/seminar/seminar.json`에 보존한다.
+- 현재 활성 v2 세미나 JSON은 기존 필드에 `listImage` 문자열과 `detailImages` 배열을 추가한다.
+- `listImage`는 목록에 표시할 선수 이미지 URL이다. 등록 전에는 빈 문자열로 둔다.
+- `detailImages`는 상세 화면에 표시할 이미지 URL 문자열 배열이다. 이미지가 확인되지 않은 항목은 빈 배열로 둔다.
+- Google Drive의 `/app/agilitykorea/seminar/list`에는 선수 목록 이미지를, `/app/agilitykorea/seminar/detail`에는 상세 이미지를 저장한다.
 
 ## 검증
 
