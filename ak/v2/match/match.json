@@ -874,10 +874,8 @@
       ],
       "location": "가든파이브",
       "matchTypes": [
-        "비기너1",
-        "비기너2",
-        "노비스1",
-        "노비스2"
+        "비기너",
+        "노비스"
       ],
       "name": "2026 가든파이브 LEEZ 어질리티 4차",
       "startAt": "2026-07-04T13:00:00",
@@ -1013,14 +1011,16 @@
       "url": "https://www.instagram.com/ares.agility/"
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-09-06T23:59:59",
+      "applicationStartAt": "2026-08-23T00:00:00",
       "club": "한국애견연맹",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-09-19T09:00:00",
-      "eventType": "랭킹전",
-      "judge": [],
+      "endAt": "2026-09-19T17:00:00",
+      "eventType": "대회",
+      "judge": [
+        "이민우"
+      ],
       "location": "홍천생활체육공원",
       "matchTypes": [
         "비기너1",
@@ -1028,9 +1028,9 @@
         "노비스1",
         "노비스2"
       ],
-      "name": "2026 홍천 KKF 일반부/학생부 어질리티대회",
+      "name": "2026 홍천 KKF 아마추어 어질리티 경기대회",
       "startAt": "2026-09-19T09:00:00",
-      "url": ""
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173320506&t=board"
     },
     {
       "applicationEndAt": "2026-09-10T23:59:59",
@@ -1055,23 +1055,25 @@
       "url": "https://www.instagram.com/ares.agility/"
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-09-06T23:59:59",
+      "applicationStartAt": "2026-08-23T00:00:00",
       "club": "한국애견연맹",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-09-20T09:00:00",
+      "endAt": "2026-09-20T17:00:00",
       "eventType": "승급전",
-      "judge": [],
+      "judge": [
+        "김민성"
+      ],
       "location": "홍천생활체육공원",
       "matchTypes": [
         "LV1",
         "LV2",
         "LV3"
       ],
-      "name": "제2회 KKF 내셔널 어질리티 평가전",
+      "name": "2026 KKF 내셔널 어질리티 평가전",
       "startAt": "2026-09-20T09:00:00",
-      "url": ""
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173320506&t=board"
     },
     {
       "applicationEndAt": "",
