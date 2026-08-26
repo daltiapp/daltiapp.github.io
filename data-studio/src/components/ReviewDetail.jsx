@@ -1,196 +1,189 @@
-import { useState } from "react";
-import { Check, ExternalLink, X } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { Check, CheckCircle2, ExternalLink, Image as ImageIcon, TriangleAlert, X } from "lucide-react";
 import { MATCH_FIELDS } from "../data/defaults";
+import { api } from "../lib/api";
 
-const SOURCE_LABELS = { title: "제목", detail: "상세", application: "접수", manual: "수동", board: "게시판" };
+const SOURCE_LABELS = {
+  title: "제목",
+  detail: "상세",
+  application: "신청 페이지",
+  manual: "수동",
+  board: "게시판",
+  codex_image: "이미지"
+};
 
-function SourceBadge({ source }) {
-  if (!source) return null;
-  const cls = `badge-${source}`;
-  return <span className={`badge-source ${cls}`}>{SOURCE_LABELS[source] || source}</span>;
+function fieldValue(value) {
+  return Array.isArray(value) ? value.join(", ") : String(value || "");
 }
 
-function ConfidenceBadge({ value }) {
-  if (value == null) return null;
-  const pct = typeof value === "number" ? Math.round(value * 100) : value;
-  return <span className="chip chip-confidence">{pct}%</span>;
+function imageSource(item, index) {
+  const cached = (item.imageEvidence || []).find(image => image.imageIndex === index);
+  if (cached?.cacheKey) return api.kauCacheUrl(cached.cacheKey);
+  return item.images?.[index - 1] || "";
 }
 
-export function ReviewDetail({ item, onStatusChange, onItemEdit, onToast }) {
-  const [editingField, setEditingField] = useState(null);
-  const [editValue, setEditValue] = useState("");
+function EvidenceLabel({ evidence }) {
+  if (!evidence) return <span className="draft-evidence is-missing">확인 필요</span>;
+  const source = SOURCE_LABELS[evidence.source] || evidence.source;
+  return <span className="draft-evidence">{evidence.imageIndex ? `이미지 ${evidence.imageIndex}` : source}</span>;
+}
 
-  function startEdit(field, currentValue) {
-    setEditingField(field);
-    setEditValue(Array.isArray(currentValue) ? currentValue.join(", ") : String(currentValue || ""));
+export function ReviewDetail({ item, onStatusChange, onItemEdit }) {
+  const [selectedImage, setSelectedImage] = useState(1);
+  const [values, setValues] = useState(() => structuredClone(item.draft || {}));
+
+  useEffect(() => {
+    setValues(structuredClone(item.draft || {}));
+    setSelectedImage(1);
+  }, [item.id, item.fingerprint]);
+
+  const images = useMemo(() => {
+    const count = Math.max(item.images?.length || 0, item.imageEvidence?.length || 0);
+    return Array.from({ length: count }, (_, index) => ({
+      index: index + 1,
+      src: imageSource(item, index + 1)
+    })).filter(image => image.src);
+  }, [item]);
+  const selectedSource = images.find(image => image.index === selectedImage)?.src || images[0]?.src || "";
+  const requiredWarnings = (item.warnings || []).filter(warning => warning.level === "required");
+  const warningFields = new Set(requiredWarnings.map(warning => warning.field));
+  const automation = item.automation || {};
+  const autoPositive = ["auto_ready", "applied"].includes(automation.state);
+  const checks = automation.checks?.length
+    ? automation.checks
+    : [
+        { id: "schema", pass: Object.keys(item.draft || {}).length === 13, label: "13필드 통과" },
+        { id: "url", pass: Boolean(item.draft?.url), label: "상세 URL 일치" },
+        { id: "duplicate", pass: item._sync?.syncStatus !== "applied", label: "중복 없음" },
+        { id: "venue", pass: Boolean(item.draft?.location), label: "장소 연결" }
+      ];
+
+  function updateValue(field, type, rawValue) {
+    const value = type === "list"
+      ? rawValue.split(",").map(part => part.trim()).filter(Boolean)
+      : rawValue;
+    setValues(current => ({ ...current, [field]: value }));
   }
 
-  function commitEdit(field) {
-    if (editingField !== field) return;
-    const fieldDef = MATCH_FIELDS.find(f => f[0] === field);
-    let value = editValue;
-    if (fieldDef && fieldDef[2] === "list") {
-      value = editValue.split(",").map(s => s.trim()).filter(Boolean);
-    }
-    onItemEdit(item.id, { [field]: value });
-    setEditingField(null);
-    setEditValue("");
+  function commitField(field) {
+    if (JSON.stringify(values[field]) === JSON.stringify(item.draft?.[field])) return;
+    onItemEdit(item.id, { [field]: values[field] });
   }
-
-  function cancelEdit() {
-    setEditingField(null);
-    setEditValue("");
-  }
-
-  const requiredWarnings = (item.warnings || []).filter(w => w.level === "required");
-  const warnFields = new Set(requiredWarnings.map(w => w.field));
 
   return (
-    <div>
-      {/* Source card */}
-      <div className="review-source-card">
-        <h4>원본 근거</h4>
-        {item._source && (
-          <div className="review-source-origin" style={{ marginBottom: "var(--sp-2)" }}>
-            <span className={`chip chip-source chip-source-${item._source.key}`}>{item._source.label}</span>
-          </div>
-        )}
-        <div className="review-source-title">{item.sourceTitle || "제목 없음"}</div>
-        <div className="review-source-meta">
-          {item.publishedAt && <span>게시일: {new Date(item.publishedAt).toLocaleDateString("ko-KR")}</span>}
-          {item.collectedAt && <span>수집일: {new Date(item.collectedAt).toLocaleDateString("ko-KR")}</span>}
+    <>
+      <section className="review-evidence-panel" aria-label="원본 증거">
+        <div className="panel-heading-row">
+          <h2>원본 증거</h2>
           {item.sourceUrl && (
-            <a href={item.sourceUrl} target="_blank" rel="noreferrer">
-              원문 보기 <ExternalLink size={11} />
+            <a className="source-open-button" href={item.sourceUrl} target="_blank" rel="noreferrer">
+              원문 열기 <ExternalLink size={14} />
             </a>
           )}
         </div>
-        {item.images && item.images.length > 0 && (
-          <div className="review-source-images">
-            {item.images.map((img, i) => (
-              <a key={i} href={img} target="_blank" rel="noreferrer">
-                <img src={img} alt={`수집 이미지 ${i + 1}`} loading="lazy" />
-              </a>
+        <h3 className="evidence-title">{item.sourceTitle || item.draft?.name || "제목 없음"}</h3>
+        <p className="evidence-date">
+          게시일: {item.publishedAt ? new Date(item.publishedAt).toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" }) : "확인 필요"}
+        </p>
+
+        <div className="poster-stage">
+          {selectedSource ? (
+            <img src={selectedSource} alt={`${item.sourceTitle || "대회"} 게시물 이미지 ${selectedImage}`} />
+          ) : (
+            <div className="poster-empty">
+              <ImageIcon size={42} />
+              <strong>본문 이미지 없음</strong>
+              <span>제목 근거만으로 자동반영하지 않습니다.</span>
+            </div>
+          )}
+        </div>
+
+        {images.length > 0 && (
+          <div className="poster-thumbnails" aria-label="게시물 이미지 목록">
+            {images.map(image => (
+              <button
+                key={image.index}
+                className={selectedImage === image.index ? "is-active" : ""}
+                type="button"
+                onClick={() => setSelectedImage(image.index)}
+              >
+                <img src={image.src} alt="" />
+                <span>이미지 {image.index}</span>
+              </button>
             ))}
           </div>
         )}
-      </div>
+      </section>
 
-      {/* Warnings */}
-      {requiredWarnings.length > 0 && (
-        <div style={{ marginBottom: "var(--sp-4)" }}>
-          {requiredWarnings.map((w, i) => (
-            <div key={i} className="push-note" style={{ background: "var(--red-soft)", color: "var(--red-text)", marginBottom: "var(--sp-2)" }}>
-              ⚠️ {w.field}: {w.message}
-            </div>
-          ))}
+      <section className="review-editor-panel" aria-label="일정 JSON 초안">
+        <div className="panel-heading-row editor-heading">
+          <h2>일정 JSON 초안</h2>
+          <span>자동 추출 근거</span>
         </div>
-      )}
 
-      {/* Draft fields grid */}
-      <div className="review-fields">
-        {MATCH_FIELDS.map(([field, label, type]) => {
-          const value = item.draft?.[field];
-          const evidence = item.fieldEvidence?.[field];
-          const isWarn = warnFields.has(field);
-          const isLowConfidence = evidence && typeof evidence.confidence === "number" && evidence.confidence < 0.7;
-          const isEditing = editingField === field;
-
-          let fieldClass = "review-field";
-          if (isWarn) fieldClass += " field-required";
-          else if (isLowConfidence) fieldClass += " field-highlight";
-
-          return (
-            <div key={field} className={fieldClass}>
-              <div className="review-field-header">
-                <span className="review-field-label">{label}</span>
-                <span style={{ display: "flex", gap: "4px", alignItems: "center" }}>
-                  {evidence && <SourceBadge source={evidence.source} />}
-                  {evidence && <ConfidenceBadge value={evidence.confidence} />}
+        <div className="draft-table">
+          <div className="draft-table-head"><span>필드</span><span>값</span><span>근거</span></div>
+          {MATCH_FIELDS.map(([field, label, type]) => {
+            const value = values[field];
+            const warning = warningFields.has(field);
+            const evidence = item.fieldEvidence?.[field];
+            return (
+              <label className={`draft-row ${warning ? "is-warning" : ""}`} key={field}>
+                <span className="draft-label">{label}</span>
+                <span className="draft-control">
+                  <input
+                    type={type === "datetime-local" ? "datetime-local" : "text"}
+                    value={fieldValue(value)}
+                    placeholder={type === "list" ? "쉼표로 구분" : "선택 또는 입력..."}
+                    onChange={event => updateValue(field, type, event.target.value)}
+                    onBlur={() => commitField(field)}
+                    onKeyDown={event => { if (event.key === "Enter") event.currentTarget.blur(); }}
+                  />
                 </span>
-              </div>
-              <div className="review-field-value">
-                {isEditing ? (
-                  <span style={{ display: "flex", gap: "4px" }}>
-                    {type === "list" ? (
-                      <input
-                        value={editValue}
-                        onChange={e => setEditValue(e.target.value)}
-                        onKeyDown={e => { if (e.key === "Enter") commitEdit(field); if (e.key === "Escape") cancelEdit(); }}
-                        placeholder="콤마로 구분"
-                        autoFocus
-                      />
-                    ) : (
-                      <input
-                        type={type === "datetime-local" ? "datetime-local" : "text"}
-                        value={editValue}
-                        onChange={e => setEditValue(e.target.value)}
-                        onKeyDown={e => { if (e.key === "Enter") commitEdit(field); if (e.key === "Escape") cancelEdit(); }}
-                        autoFocus
-                      />
-                    )}
-                    <button className="icon-button" onClick={() => commitEdit(field)} aria-label="저장" type="button">
-                      <Check size={14} />
-                    </button>
-                    <button className="icon-button" onClick={cancelEdit} aria-label="취소" type="button">
-                      <X size={14} />
-                    </button>
-                  </span>
-                ) : (
-                  <span
-                    onClick={() => startEdit(field, value)}
-                    style={{ cursor: "pointer", minHeight: "20px", display: "block" }}
-                    role="button"
-                    tabIndex={0}
-                    onKeyDown={e => { if (e.key === "Enter") startEdit(field, value); }}
-                    aria-label={`${label} 편집`}
-                  >
-                    {Array.isArray(value) ? (value.length ? value.join(", ") : "—") : (value || "—")}
-                  </span>
-                )}
-              </div>
-              {evidence?.raw && (
-                <div style={{ fontSize: "var(--text-xs)", color: "var(--text-muted)", marginTop: "4px" }}>
-                  원문: {evidence.raw}
-                </div>
-              )}
-            </div>
-          );
-        })}
-      </div>
+                <EvidenceLabel evidence={evidence} />
+              </label>
+            );
+          })}
+        </div>
 
-      {/* Actions */}
-      <div className="review-detail-actions">
-        <button
-          className="button primary"
-          type="button"
-          onClick={() => onStatusChange(item.id, "approved")}
-          disabled={requiredWarnings.length > 0}
-        >
-          <Check size={16} /> 승인
-        </button>
-        <button
-          className="button danger"
-          type="button"
-          onClick={() => onStatusChange(item.id, "rejected")}
-        >
-          <X size={16} /> 반려
-        </button>
-        {item.status !== "pending_review" && (
-          <button
-            className="button secondary"
-            type="button"
-            onClick={() => onStatusChange(item.id, "pending_review")}
-          >
-            검수대기로 되돌리기
+        <div className="validation-card">
+          <h3>검증 요약</h3>
+          <div className="validation-pills">
+            {checks.map(check => (
+              <span className={check.pass ? "is-pass" : "is-warn"} key={check.id}>
+                {check.pass ? <CheckCircle2 size={15} /> : <TriangleAlert size={15} />}
+                {check.label}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div className={`automation-card ${autoPositive ? "is-positive" : "is-review"}`}>
+          {autoPositive ? <Check size={25} /> : <TriangleAlert size={25} />}
+          <div>
+            <strong>{autoPositive ? "자동 반영 조건 충족" : "운영자 확인 필요"}</strong>
+            <p>
+              {autoPositive
+                ? "새 URL 1건 · 필수 경고 없음 · 앱 푸시 없음"
+                : (automation.reasons || requiredWarnings.map(warning => warning.message)).join(" · ") || "필드 근거를 확인해 주세요."}
+            </p>
+          </div>
+        </div>
+
+        <div className="editor-actions">
+          <button className="button secondary" type="button" onClick={() => onStatusChange(item.id, "rejected")}>
+            <X size={16} /> 반려
           </button>
-        )}
-        <p className="review-detail-actions-note">
-          {requiredWarnings.length > 0
-            ? `필수 수정 ${requiredWarnings.length}건을 채우면 승인할 수 있습니다.`
-            : "승인 후 반영 미리보기에서 커밋·푸시합니다."}
-        </p>
-      </div>
-    </div>
+          <button
+            className="button primary"
+            type="button"
+            disabled={requiredWarnings.length > 0}
+            onClick={() => onStatusChange(item.id, "approved")}
+          >
+            <Check size={16} /> 검수 승인
+          </button>
+        </div>
+      </section>
+    </>
   );
 }

@@ -36,6 +36,10 @@ export const api = {
   reviewApply: (body) =>
     request("/api/review/apply", { method: "POST", body: JSON.stringify(body) }),
 
+  kauJob: () => request("/api/kau/job"),
+  kauRefresh: () => request("/api/kau/refresh", { method: "POST" }),
+  kauCacheUrl: (cacheKey) => `/api/kau/cache?key=${encodeURIComponent(cacheKey)}`,
+
   // Instagram API
   instagramFetch: () => request('/api/instagram/fetch', { method: 'POST' }),
   instagramQueue: () => request('/api/instagram/queue'),

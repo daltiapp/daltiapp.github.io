@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "draft": {
+      "type": "object",
+      "properties": {
+        "applicationEndAt": { "type": "string" },
+        "applicationStartAt": { "type": "string" },
+        "club": { "type": "string" },
+        "detailNotice": { "type": "string" },
+        "detailStatus": { "type": "string", "enum": ["detail_ready", "detail_pending"] },
+        "endAt": { "type": "string" },
+        "eventType": { "type": "string" },
+        "judge": { "type": "array", "items": { "type": "string" } },
+        "location": { "type": "string" },
+        "matchTypes": { "type": "array", "items": { "type": "string" } },
+        "name": { "type": "string" },
+        "startAt": { "type": "string" },
+        "url": { "type": "string" }
+      },
+      "required": [
+        "applicationEndAt",
+        "applicationStartAt",
+        "club",
+        "detailNotice",
+        "detailStatus",
+        "endAt",
+        "eventType",
+        "judge",
+        "location",
+        "matchTypes",
+        "name",
+        "startAt",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "field": {
+            "type": "string",
+            "enum": [
+              "applicationEndAt",
+              "applicationStartAt",
+              "club",
+              "detailNotice",
+              "detailStatus",
+              "endAt",
+              "eventType",
+              "judge",
+              "location",
+              "matchTypes",
+              "name",
+              "startAt",
+              "url"
+            ]
+          },
+          "imageIndex": { "type": "integer", "minimum": 1, "maximum": 12 },
+          "rawText": { "type": "string" },
+          "certainty": { "type": "string", "enum": ["exact", "uncertain", "missing"] }
+        },
+        "required": ["field", "imageIndex", "rawText", "certainty"],
+        "additionalProperties": false
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["draft", "evidence", "warnings"],
+  "additionalProperties": false
+}

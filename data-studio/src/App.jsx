@@ -188,6 +188,21 @@ export default function App() {
           ? `푸시 ${state.health.ahead}개`
           : "동기화 완료";
 
+  if (active === "review") {
+    return (
+      <div className="review-app">
+        <ReviewQueue
+          onToast={setToast}
+          health={state?.health}
+          onNavigate={setActive}
+        />
+        {toast ? (
+          <div className="toast" role="status" aria-live="polite" onClick={() => setToast("")}>{toast}</div>
+        ) : null}
+      </div>
+    );
+  }
+
   return (
     <div className="app-shell">
       <Sidebar
@@ -196,9 +211,7 @@ export default function App() {
         health={state?.health}
         pendingCount={pendingCount}
       />
-      {active === "review" ? (
-        <ReviewQueue onToast={setToast} />
-      ) : active === "instagram" ? (
+      {active === "instagram" ? (
         <InstagramQueue onPreview={setPreview} onToast={setToast} />
       ) : (
         <main>

@@ -1,131 +1,117 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { AlertTriangle, Check, Inbox, Keyboard, RefreshCw, Search, X } from "lucide-react";
+import { AlertTriangle, Check, CheckCircle2, ChevronRight, Circle, Inbox, LoaderCircle, RefreshCw, RotateCw, X } from "lucide-react";
 import { ReviewDetail } from "./ReviewDetail";
 import { ReviewPreviewModal } from "./ReviewPreviewModal";
 import { api } from "../lib/api";
 
-const STATUS_LABELS = { pending_review: "검수대기", approved: "승인", rejected: "반려" };
-const DIFF_LABELS = { new: "신규", changed: "변경" };
-const SOURCE_BADGE_LABELS = { kkf: "한국애견연맹", kau: "한국어질리티연합" };
+const STATUS_LABELS = { pending_review: "확인 필요", approved: "처리 완료", rejected: "반려" };
 
-function SourceBadge({ source }) {
-  if (!source) return null;
-  const label = source.label || SOURCE_BADGE_LABELS[source.key] || source.key;
-  return <span className={`chip chip-source chip-source-${source.key}`} title={`소스: ${label}`}>{label}</span>;
+function itemAutomationLabel(item) {
+  if (item.automation?.state === "applied") return { tone: "green", text: "자동 반영 완료", icon: CheckCircle2 };
+  if (item.automation?.state === "auto_ready") return { tone: "green", text: "자동 반영 가능", icon: CheckCircle2 };
+  if (item.diffKind === "changed") return { tone: "red", text: "기존 일정 변경", icon: RotateCw };
+  const warningCount = (item.warnings || []).filter(warning => warning.level === "required").length;
+  if (warningCount) return { tone: "amber", text: `필수 확인 ${warningCount}`, icon: AlertTriangle };
+  return { tone: "gray", text: STATUS_LABELS[item.status] || item.status, icon: Circle };
 }
 
-function StatusChip({ status }) {
-  const cls = status === "approved" ? "chip-approved" : status === "rejected" ? "chip-rejected" : "chip-pending";
-  return <span className={`chip ${cls}`}>{STATUS_LABELS[status] || status}</span>;
+function Pipeline({ job }) {
+  const stages = ["게시판 확인", "이미지 캐시", "Codex 판독", "규칙 검증", "반영"];
+  const activeIndex = job?.status === "running"
+    ? Math.min(4, Math.floor((job.progress || 0) / 20))
+    : job?.status === "completed" ? 4 : 0;
+  return (
+    <div className="review-pipeline" aria-label="자동 수집 진행 단계">
+      {stages.map((stage, index) => (
+        <span className={index === activeIndex ? "is-active" : index < activeIndex ? "is-done" : ""} key={stage}>
+          <i />{stage}{index < stages.length - 1 && <ChevronRight size={15} />}
+        </span>
+      ))}
+    </div>
+  );
 }
 
-function DiffBadge({ kind }) {
-  if (!kind || kind === "matched") return null;
-  const cls = kind === "new" ? "chip-new" : "chip-changed";
-  return <span className={`chip ${cls}`}>{DIFF_LABELS[kind] || kind}</span>;
-}
-
-export function ReviewQueue({ onToast }) {
+export function ReviewQueue({ onToast, health, onNavigate }) {
   const [queue, setQueue] = useState(null);
+  const [job, setJob] = useState(null);
   const [loading, setLoading] = useState(true);
   const [selectedId, setSelectedId] = useState(null);
   const [checkedIds, setCheckedIds] = useState(new Set());
   const [filter, setFilter] = useState("all");
-  const [diffFilter, setDiffFilter] = useState("all");
-  const [sourceFilter, setSourceFilter] = useState("all");
-  const [search, setSearch] = useState("");
-  const [sortBy, setSortBy] = useState("date");
   const [previewData, setPreviewData] = useState(null);
-  const [showHelp, setShowHelp] = useState(false);
 
   const loadQueue = useCallback(async () => {
+    const data = await api.reviewQueue();
+    setQueue(data);
+    return data;
+  }, []);
+
+  const loadJob = useCallback(async () => {
+    const data = await api.kauJob();
+    setJob(data);
+    return data;
+  }, []);
+
+  const loadAll = useCallback(async () => {
     try {
-      const data = await api.reviewQueue();
-      setQueue(data);
+      await Promise.all([loadQueue(), loadJob()]);
     } catch (error) {
       onToast(error.message);
     } finally {
       setLoading(false);
     }
-  }, [onToast]);
+  }, [loadJob, loadQueue, onToast]);
 
-  useEffect(() => { loadQueue(); }, [loadQueue]);
+  useEffect(() => { loadAll(); }, [loadAll]);
+
+  useEffect(() => {
+    if (job?.status !== "running") return undefined;
+    const timer = window.setInterval(async () => {
+      try {
+        const next = await loadJob();
+        if (next.status !== "running") await loadQueue();
+      } catch (error) {
+        onToast(error.message);
+      }
+    }, 1500);
+    return () => window.clearInterval(timer);
+  }, [job?.status, loadJob, loadQueue, onToast]);
 
   const items = useMemo(() => {
-    if (!queue?.items) return [];
-    let list = [...queue.items];
-    if (filter !== "all") list = list.filter(i => i.status === filter);
-    if (diffFilter !== "all") list = list.filter(i => i.diffKind === diffFilter);
-    if (sourceFilter !== "all") list = list.filter(i => i._source?.key === sourceFilter);
-    if (search.trim()) {
-      const q = search.trim().toLowerCase();
-      list = list.filter(i =>
-        (i.draft?.name || "").toLowerCase().includes(q) ||
-        (i.sourceTitle || "").toLowerCase().includes(q)
-      );
-    }
-    list.sort((a, b) => {
-      if (sortBy === "date") return new Date(b.collectedAt || 0) - new Date(a.collectedAt || 0);
-      if (sortBy === "confidence") return (a.confidence || 0) - (b.confidence || 0);
-      return 0;
-    });
-    return list;
-  }, [queue, filter, diffFilter, sourceFilter, search, sortBy]);
+    const all = queue?.items || [];
+    if (filter === "needs") return all.filter(item => item.status === "pending_review");
+    if (filter === "done") return all.filter(item => item.status !== "pending_review");
+    return all;
+  }, [queue, filter]);
 
   const selectedItem = useMemo(
-    () => items.find(i => i.id === selectedId) || null,
-    [items, selectedId]
+    () => (queue?.items || []).find(item => item.id === selectedId) || null,
+    [queue, selectedId]
   );
 
-  // Keep a selection so the detail pane is not left empty on load or after filtering.
   useEffect(() => {
     if (!items.length) {
-      if (selectedId) setSelectedId(null);
+      setSelectedId(null);
       return;
     }
-    if (!items.some(i => i.id === selectedId)) setSelectedId(items[0].id);
+    if (!items.some(item => item.id === selectedId)) setSelectedId(items[0].id);
   }, [items, selectedId]);
 
-  // Keyboard navigation
-  useEffect(() => {
-    function handleKey(e) {
-      if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.tagName === "SELECT") return;
-      if (e.target.isContentEditable) return;
-
-      const currentIdx = items.findIndex(i => i.id === selectedId);
-      if (e.key === "j") {
-        e.preventDefault();
-        const next = Math.min(currentIdx + 1, items.length - 1);
-        if (items[next]) setSelectedId(items[next].id);
-      } else if (e.key === "k") {
-        e.preventDefault();
-        const prev = Math.max(currentIdx - 1, 0);
-        if (items[prev]) setSelectedId(items[prev].id);
-      } else if (e.key === "a" && selectedItem) {
-        e.preventDefault();
-        handleStatusChange(selectedItem.id, "approved");
-      } else if (e.key === "r" && selectedItem) {
-        e.preventDefault();
-        handleStatusChange(selectedItem.id, "rejected");
-      } else if (e.key === "e" && selectedItem) {
-        e.preventDefault();
-        // Focus first input in detail panel
-        const firstInput = document.querySelector(".review-detail-panel input, .review-detail-panel textarea");
-        if (firstInput) firstInput.focus();
-      } else if (e.key === "?") {
-        e.preventDefault();
-        setShowHelp(h => !h);
-      }
+  async function refreshKau() {
+    try {
+      const next = await api.kauRefresh();
+      setJob(next);
+      onToast(next.status === "running" ? "KAU 새 게시물 확인을 시작했습니다." : next.message);
+    } catch (error) {
+      onToast(error.message);
     }
-    window.addEventListener("keydown", handleKey);
-    return () => window.removeEventListener("keydown", handleKey);
-  }, [items, selectedId, selectedItem]);
+  }
 
   async function handleStatusChange(id, status, note) {
     try {
       await api.reviewStatus({ id, status, note });
       await loadQueue();
-      onToast(`${STATUS_LABELS[status]} 처리 완료`);
+      onToast(`${STATUS_LABELS[status]} 처리했습니다.`);
     } catch (error) {
       onToast(error.message);
     }
@@ -135,256 +121,132 @@ export function ReviewQueue({ onToast }) {
     try {
       await api.reviewItem({ id, draft });
       await loadQueue();
+      onToast("수정 내용을 검수 큐에 저장했습니다.");
     } catch (error) {
       onToast(error.message);
     }
   }
 
-  async function handleBulkStatus(status) {
-    for (const id of checkedIds) {
-      try {
-        await api.reviewStatus({ id, status });
-      } catch { /* continue */ }
-    }
-    setCheckedIds(new Set());
-    await loadQueue();
-    onToast(`${checkedIds.size}건 ${STATUS_LABELS[status]} 처리 완료`);
-  }
-
   async function handlePreview() {
-    const ids = [...checkedIds].filter(id => {
-      const item = (queue?.items || []).find(i => i.id === id);
-      return item && item.status === "approved";
-    });
+    const chosen = checkedIds.size ? [...checkedIds] : selectedItem ? [selectedItem.id] : [];
+    const ids = chosen.filter(id => (queue?.items || []).some(item => item.id === id && item.status === "approved"));
     if (!ids.length) {
-      onToast("승인된 항목만 미리보기할 수 있습니다.");
+      onToast("검수 승인된 항목을 선택해 주세요.");
       return;
     }
     try {
-      const data = await api.reviewPreview({ ids });
-      setPreviewData(data);
+      setPreviewData(await api.reviewPreview({ ids }));
     } catch (error) {
       onToast(error.message);
     }
   }
 
   function toggleCheck(id) {
-    setCheckedIds(prev => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
+    setCheckedIds(current => {
+      const next = new Set(current);
+      if (next.has(id)) next.delete(id); else next.add(id);
       return next;
     });
   }
 
-  if (loading) {
-    return <div className="review-detail-empty"><p>검수 큐를 불러오는 중...</p></div>;
-  }
+  const lastChecked = job?.finishedAt || job?.startedAt || queue?.generatedAt;
+  const branchLabel = health?.branch || "main";
+  const syncLabel = health?.behind ? `원격 ${health.behind}개 뒤처짐` : health?.ahead ? `푸시 ${health.ahead}개 대기` : "원격 동기화";
 
-  const isEmpty = !queue?.items?.length;
+  if (loading) return <div className="review-loading"><LoaderCircle className="spin" /> 검수 화면을 준비하고 있습니다.</div>;
 
   return (
     <>
       <div className="review-layout">
         <header className="review-topbar">
-          <div className="review-topbar-title">
-            <h1>검수 큐</h1>
-            <p>
-              자동 수집 초안을 확인하고 승인한 항목만 활성 <code>match.json</code>에 반영합니다.
-              {queue?.generatedAt
-                ? ` · 마지막 수집 ${new Date(queue.generatedAt).toLocaleString("ko-KR", { dateStyle: "short", timeStyle: "short" })}`
-                : ""}
-            </p>
+          <div className="studio-brand">Dalti Data Studio</div>
+          <div className="repo-state"><strong>{branchLabel}</strong> · {syncLabel}</div>
+          <div className="last-checked">
+            마지막 확인: {lastChecked ? new Date(lastChecked).toLocaleString("ko-KR") : "아직 없음"}
+            <button type="button" onClick={loadAll} aria-label="화면 새로고침"><RefreshCw size={16} /></button>
           </div>
-          <div className="review-topbar-stats">
-            <span className="stat">
-              <strong>{queue?.counts?.pending_review ?? 0}</strong>
-              검수대기
-            </span>
-            <span className="stat">
-              <strong>{queue?.counts?.approved ?? 0}</strong>
-              승인
-            </span>
-            <span className="stat">
-              <strong>{queue?.counts?.rejected ?? 0}</strong>
-              반려
-            </span>
-            <button className="button secondary" type="button" onClick={loadQueue}>
-              <RefreshCw size={15} /> 새로고침
-            </button>
-            <button
-              className="button secondary icon-only"
-              type="button"
-              onClick={() => setShowHelp(true)}
-              aria-label="키보드 단축키 보기"
-              title="키보드 단축키 (?)"
-            >
-              <Keyboard size={15} />
-            </button>
-          </div>
+          <button className="manual-tools" type="button" onClick={() => onNavigate?.("match")}>수동 데이터</button>
+          <button className="refresh-posts" type="button" onClick={refreshKau} disabled={job?.status === "running"}>
+            {job?.status === "running" ? <LoaderCircle className="spin" size={19} /> : <RefreshCw size={19} />}
+            새 게시물 확인
+          </button>
         </header>
-        <section className="review-list-panel" aria-label="검수 항목 목록">
-          <div className="review-list-toolbar">
-            <div className="toolbar-row">
-              <label className="sr-only" htmlFor="review-search">검색</label>
-              <input
-                id="review-search"
-                type="search"
-                placeholder="대회명 검색..."
-                value={search}
-                onChange={e => setSearch(e.target.value)}
-              />
-            </div>
-            <div className="toolbar-row filter-row">
-              <select value={filter} onChange={e => setFilter(e.target.value)} aria-label="상태 필터">
-                <option value="all">전체 상태</option>
-                <option value="pending_review">검수대기</option>
-                <option value="approved">승인</option>
-                <option value="rejected">반려</option>
-              </select>
-              <select value={diffFilter} onChange={e => setDiffFilter(e.target.value)} aria-label="구분 필터">
-                <option value="all">전체 구분</option>
-                <option value="new">신규</option>
-                <option value="changed">변경</option>
-              </select>
-              <select value={sourceFilter} onChange={e => setSourceFilter(e.target.value)} aria-label="소스 필터">
-                <option value="all">전체 소스</option>
-                {(queue?.sources || []).map(src => (
-                  <option key={src.key} value={src.key}>{src.label} ({src.counts?.pending_review ?? 0})</option>
-                ))}
-              </select>
-              <select value={sortBy} onChange={e => setSortBy(e.target.value)} aria-label="정렬">
-                <option value="date">최신순</option>
-                <option value="confidence">신뢰도 낮은순</option>
-              </select>
-            </div>
-            {queue?.sources && queue.sources.length > 1 && (
-              <div className="toolbar-row source-counts" aria-label="소스별 검수 대기 건수">
-                {queue.sources.map(src => (
-                  <span key={src.key} className="source-count-badge">
-                    <span className={`chip chip-source chip-source-${src.key}`}>{src.label}</span>
-                    <span className="count">{src.counts?.pending_review ?? 0}건 대기</span>
-                  </span>
-                ))}
-              </div>
-            )}
-          </div>
 
-          <div className="review-items" role="listbox" aria-label="검수 항목">
-            {isEmpty && (
-              <div className="review-detail-empty" style={{ padding: "48px 16px" }}>
-                <Inbox size={40} />
-                <h3>큐가 비어 있습니다</h3>
-                <p>자동 수집 배치가 아직 초안을 만들지 않았습니다.</p>
-                {queue?.generatedAt && (
-                  <p style={{ fontSize: "var(--text-xs)" }}>마지막 수집: {new Date(queue.generatedAt).toLocaleString("ko-KR")}</p>
-                )}
-              </div>
+        <Pipeline job={job} />
+
+        <section className="review-list-panel" aria-label="검수 큐">
+          <div className="queue-tabs">
+            <h1>검수 큐</h1>
+            <button className={filter === "all" ? "is-active" : ""} onClick={() => setFilter("all")} type="button">전체</button>
+            <button className={filter === "needs" ? "is-active" : ""} onClick={() => setFilter("needs")} type="button">확인 필요</button>
+            <button className={filter === "done" ? "is-active" : ""} onClick={() => setFilter("done")} type="button">처리 완료</button>
+          </div>
+          <div className="queue-items" role="listbox">
+            {!items.length && (
+              <div className="queue-empty"><Inbox size={36} /><strong>표시할 항목이 없습니다</strong><span>새 게시물을 확인하면 여기에 초안이 나타납니다.</span></div>
             )}
             {items.map(item => {
-              const warnings = (item.warnings || []).filter(w => w.level === "required");
+              const automation = itemAutomationLabel(item);
+              const StatusIcon = automation.icon;
               return (
-                <div
+                <article
+                  className={`queue-item ${selectedId === item.id ? "is-selected" : ""}`}
                   key={item.id}
-                  className={`review-item ${selectedId === item.id ? "is-selected" : ""}`}
                   onClick={() => setSelectedId(item.id)}
                   role="option"
                   aria-selected={selectedId === item.id}
-                  tabIndex={0}
                 >
-                  <input
-                    type="checkbox"
-                    className="review-item-check"
-                    checked={checkedIds.has(item.id)}
-                    onChange={() => toggleCheck(item.id)}
-                    onClick={e => e.stopPropagation()}
-                    aria-label={`${item.draft?.name || item.id} 선택`}
-                  />
-                  <div className="review-item-body">
-                    <div className="review-item-header">
-                      <span className="review-item-name">{item.draft?.name || item.sourceTitle || item.id}</span>
-                      <SourceBadge source={item._source} />
-                      <StatusChip status={item.status} />
-                      <DiffBadge kind={item.diffKind} />
-                    </div>
-                    <div className="review-item-meta">
-                      <span className="chip chip-confidence">{Math.round((item.confidence || 0) * 100)}%</span>
-                      {item.draft?.startAt && <span>{item.draft.startAt.slice(0, 10)}</span>}
-                      {item.publishedAt && <span>게시 {item.publishedAt.slice(0, 10)}</span>}
-                      {warnings.length > 0 && (
-                        <span className="review-item-warnings">
-                          <AlertTriangle size={12} /> {warnings.length}
-                        </span>
-                      )}
-                    </div>
+                  <div className="queue-item-topline">
+                    <span>{item._source?.label || "한국어질리티연합"}</span>
+                    <strong className={`tone-${automation.tone}`}>{automation.text}</strong>
                   </div>
-                </div>
+                  <h2>{item.draft?.name || item.sourceTitle || item.id}</h2>
+                  <div className="queue-item-bottomline">
+                    <time>{item.publishedAt ? new Date(item.publishedAt).toLocaleString("ko-KR", { dateStyle: "short", timeStyle: "short" }) : "게시일 확인 필요"}</time>
+                    <StatusIcon className={`tone-${automation.tone}`} size={28} />
+                  </div>
+                  {item.status === "approved" && (
+                    <input
+                      aria-label="반영 대상 선택"
+                      type="checkbox"
+                      checked={checkedIds.has(item.id)}
+                      onChange={() => toggleCheck(item.id)}
+                      onClick={event => event.stopPropagation()}
+                    />
+                  )}
+                </article>
               );
             })}
           </div>
-
-          {checkedIds.size > 0 && (
-            <div className="review-bulk-bar" aria-live="polite">
-              <strong>{checkedIds.size}건 선택</strong>
-              <button className="button sm" type="button" onClick={() => handleBulkStatus("approved")}>
-                <Check size={14} /> 승인
-              </button>
-              <button className="button sm danger" type="button" onClick={() => handleBulkStatus("rejected")}>
-                <X size={14} /> 반려
-              </button>
-              <button className="button sm secondary" type="button" onClick={handlePreview}>
-                미리보기
-              </button>
-              <button className="button sm" type="button" onClick={() => setCheckedIds(new Set())} style={{ marginLeft: "auto" }}>
-                선택 해제
-              </button>
-            </div>
-          )}
         </section>
 
-        <main className="review-detail-panel" aria-label="검수 상세">
-          {selectedItem ? (
-            <ReviewDetail
-              item={selectedItem}
-              onStatusChange={handleStatusChange}
-              onItemEdit={handleItemEdit}
-              onToast={onToast}
-            />
-          ) : (
-            <div className="review-detail-empty">
-              <Inbox size={48} />
-              <h3>항목을 선택하세요</h3>
-              <p>좌측 목록에서 항목을 선택하면 상세 내용이 여기에 표시됩니다. <kbd>j</kbd>/<kbd>k</kbd>로 이동, <kbd>?</kbd>로 단축키 보기.</p>
-            </div>
-          )}
-        </main>
+        {selectedItem ? (
+          <ReviewDetail item={selectedItem} onStatusChange={handleStatusChange} onItemEdit={handleItemEdit} />
+        ) : (
+          <>
+            <section className="review-evidence-panel empty-panel"><Inbox size={44} /><strong>검수할 항목을 선택하세요</strong></section>
+            <section className="review-editor-panel empty-panel"><span>13필드 초안과 검증 결과가 여기에 표시됩니다.</span></section>
+          </>
+        )}
+
+        <footer className="review-activity">
+          <strong>최근 활동</strong>
+          <span className={job?.status === "failed" ? "is-error" : ""}>
+            <i /> {job?.message || "수집 작업 대기 중"}
+          </span>
+          <span><i /> 후보 {job?.candidateCount || 0}건</span>
+          <span><i /> 자동 반영 {job?.autoAppliedCount || 0}건</span>
+          <button type="button" onClick={handlePreview} disabled={!selectedItem || selectedItem.status !== "approved"}>반영 미리보기</button>
+        </footer>
       </div>
 
       {previewData && (
         <ReviewPreviewModal
           preview={previewData}
           onClose={() => setPreviewData(null)}
-          onApplied={() => { setPreviewData(null); setCheckedIds(new Set()); loadQueue(); }}
+          onApplied={() => { setPreviewData(null); setCheckedIds(new Set()); loadAll(); }}
           onToast={onToast}
         />
-      )}
-
-      {showHelp && (
-        <div className="modal-backdrop" role="presentation" onClick={() => setShowHelp(false)}>
-          <div className="kbd-help" role="dialog" aria-modal="true" aria-label="키보드 단축키" onClick={e => e.stopPropagation()}>
-            <h2>키보드 단축키</h2>
-            <div className="kbd-row"><span>다음 항목</span><kbd>j</kbd></div>
-            <div className="kbd-row"><span>이전 항목</span><kbd>k</kbd></div>
-            <div className="kbd-row"><span>승인</span><kbd>a</kbd></div>
-            <div className="kbd-row"><span>반려</span><kbd>r</kbd></div>
-            <div className="kbd-row"><span>편집 포커스</span><kbd>e</kbd></div>
-            <div className="kbd-row"><span>이 도움말 토글</span><kbd>?</kbd></div>
-            <p style={{ fontSize: "var(--text-xs)", color: "var(--text-muted)", marginTop: "var(--sp-3)" }}>
-              입력 필드에 포커스 중에는 단축키가 동작하지 않습니다.
-            </p>
-            <button className="button secondary" onClick={() => setShowHelp(false)} type="button" style={{ marginTop: "var(--sp-3)" }}>닫기</button>
-          </div>
-        </div>
       )}
     </>
   );

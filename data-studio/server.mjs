@@ -3,10 +3,18 @@ import dns from "node:dns/promises";
 import fs from "node:fs/promises";
 import http from "node:http";
 import net from "node:net";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import {
+  cacheKauImages,
+  evaluateAutoEligibility,
+  kauCacheRoot,
+  mergeCodexExtraction,
+  runCodexImageExtraction
+} from "./kau-automation.mjs";
 
 const execFileAsync = promisify(execFile);
 const STUDIO_ROOT = path.dirname(fileURLToPath(import.meta.url));
@@ -32,6 +40,20 @@ const MATCH_KEYS = [
 ];
 const previews = new Map();
 const reviewPreviews = new Map();
+let kauJob = {
+  id: "",
+  status: "idle",
+  stage: "대기",
+  message: "앱을 열거나 새 게시물 확인을 누르면 수집합니다.",
+  progress: 0,
+  startedAt: "",
+  finishedAt: "",
+  candidateCount: 0,
+  autoAppliedCount: 0,
+  reviewRequiredCount: 0,
+  commit: "",
+  error: ""
+};
 
 const DEFAULT_REVIEW_QUEUE_DIR = "review/schedule";
 const QUEUE_FILE_PATTERN = /_review_queue\.json$/;
@@ -237,6 +259,354 @@ export async function loadActiveData() {
     venues,
     notices
   };
+}
+
+function updateKauJob(values) {
+  kauJob = { ...kauJob, ...values };
+}
+
+export function currentKauJob() {
+  return structuredClone(kauJob);
+}
+
+function kauSourceStatePath() {
+  return safeRepoPath(`${reviewQueueDir()}/kau_source_state.json`);
+}
+
+function kauQueuePath() {
+  return safeRepoPath(`${reviewQueueDir()}/kau_review_queue.json`);
+}
+
+function scraperRepoRoot() {
+  const configured = String(process.env.DALTI_SCRAPER_REPO_DIR || "").trim();
+  return configured ? path.resolve(configured) : path.resolve(REPO_ROOT, "..", "agility-scraper");
+}
+
+async function writeAtomic(filePath, textValue) {
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
+  const temporary = `${filePath}.dalti-data-studio-${process.pid}-${crypto.randomUUID()}.tmp`;
+  await fs.writeFile(temporary, textValue, "utf8");
+  await fs.rename(temporary, filePath);
+}
+
+async function readOptionalText(filePath) {
+  try {
+    return await fs.readFile(filePath, "utf8");
+  } catch (error) {
+    if (error.code === "ENOENT") return null;
+    throw error;
+  }
+}
+
+async function restoreOptionalText(filePath, before) {
+  if (before === null) {
+    await fs.unlink(filePath).catch(error => {
+      if (error.code !== "ENOENT") throw error;
+    });
+    return;
+  }
+  await writeAtomic(filePath, before);
+}
+
+async function gitAt(repoRoot, args) {
+  const { stdout } = await execFileAsync("git", args, {
+    cwd: repoRoot,
+    maxBuffer: 2 * 1024 * 1024
+  });
+  return stdout.trim();
+}
+
+function fileMimeFromName(filePath) {
+  const extension = path.extname(filePath).toLowerCase();
+  if (extension === ".png") return "image/png";
+  if (extension === ".webp") return "image/webp";
+  if (extension === ".gif") return "image/gif";
+  if (extension === ".avif") return "image/avif";
+  return "image/jpeg";
+}
+
+async function sendCachedKauImage(res, cacheKeyValue) {
+  const cacheKey = String(cacheKeyValue || "").replace(/\\/g, "/");
+  if (!/^[0-9A-Za-z_-]+\/[0-9A-Za-z._-]+$/.test(cacheKey)) {
+    throw new Error("KAU 이미지 캐시 키가 올바르지 않습니다.");
+  }
+  const root = path.resolve(kauCacheRoot());
+  const target = path.resolve(root, cacheKey);
+  if (!target.startsWith(`${root}${path.sep}`)) throw new Error("KAU 이미지 캐시 경로가 올바르지 않습니다.");
+  const content = await fs.readFile(target);
+  res.writeHead(200, {
+    "Content-Type": fileMimeFromName(target),
+    "Content-Length": content.length,
+    "Cache-Control": "private, max-age=3600"
+  });
+  res.end(content);
+}
+
+function candidateItemsFromQueue(queue, startedAt) {
+  const started = Date.parse(startedAt) - 2_000;
+  return (queue.items || []).filter(item =>
+    item?._source?.key !== "kkf" && (
+      (["new", "changed"].includes(item.diffKind) && Date.parse(item.collectedAt || 0) >= started)
+      || (item.status === "pending_review" && item.automation?.state === "error")
+    )
+  );
+}
+
+function markAutomationReview(item, reasons, state = "review_required") {
+  item.automation = {
+    ...(item.automation || {}),
+    state,
+    checkedAt: kstTimestamp(),
+    eligible: false,
+    reasons: [...new Set(reasons.filter(Boolean))]
+  };
+  item.status = "pending_review";
+}
+
+async function runKauRefresh(jobId) {
+  const startedAt = kauJob.startedAt;
+  const queuePath = kauQueuePath();
+  const sourceStatePath = kauSourceStatePath();
+  const queueBefore = await readOptionalText(queuePath);
+  const sourceStateBefore = await readOptionalText(sourceStatePath);
+  const activeData = await loadActiveData();
+  const matchBefore = await fs.readFile(activeData.matchPath, "utf8");
+  const manifestBefore = await fs.readFile(activeData.manifestPath, "utf8");
+  const scraperRoot = scraperRepoRoot();
+  const detectorPath = path.join(scraperRoot, "schedule", "schedule_detect_kau.py");
+  const runtimeRoot = await fs.mkdtemp(path.join(os.tmpdir(), "dalti-kau-refresh-"));
+  let commitHash = "";
+
+  try {
+    await fs.access(detectorPath);
+    updateKauJob({ stage: "저장소 확인", message: "원격 기준과 작업 트리를 확인하고 있습니다.", progress: 8 });
+    if (process.env.DALTI_KAU_SKIP_FETCH !== "1") {
+      await Promise.all([
+        git(["fetch", "origin", "main"]),
+        gitAt(scraperRoot, ["fetch", "origin", "main"])
+      ]);
+    }
+    const health = await repositoryHealth();
+    if (health.branch !== "main") throw new Error(`main 브랜치에서만 자동 수집할 수 있습니다(현재 ${health.branch || "detached"}).`);
+    if (health.behind > 0) throw new Error(`데이터 저장소가 origin/main보다 ${health.behind}개 뒤처져 있습니다.`);
+    if (health.ahead > 0) throw new Error(`아직 푸시되지 않은 커밋이 ${health.ahead}개 있어 중복 실행을 막았습니다.`);
+    const allowedGenerated = [relative(queuePath), relative(sourceStatePath)];
+    if (hasBlockingWorkspaceChanges(health, allowedGenerated)) {
+      throw new Error(`자동 수집과 무관한 변경이 있습니다: ${health.status.join(", ")}`);
+    }
+    const scraperBehind = Number(await gitAt(scraperRoot, ["rev-list", "--count", "HEAD..origin/main"]).catch(() => "0"));
+    if (scraperBehind > 0) throw new Error(`스크래퍼 저장소가 origin/main보다 ${scraperBehind}개 뒤처져 있습니다.`);
+
+    updateKauJob({ stage: "게시물 수집", message: "agility.co.kr 게시판과 상세 이미지를 읽고 있습니다.", progress: 22 });
+    const summaryPath = path.join(runtimeRoot, "summary.json");
+    const detectorStatePath = path.join(runtimeRoot, "detector-state.json");
+    const year = Number(process.env.DALTI_KAU_YEAR || new Intl.DateTimeFormat("en", {
+      timeZone: "Asia/Seoul",
+      year: "numeric"
+    }).format(new Date()));
+    const detectorArgs = [
+      detectorPath,
+      "--match-json", activeData.matchPath,
+      "--state-json", detectorStatePath,
+      "--source-state-json", sourceStatePath,
+      "--summary-json", summaryPath,
+      "--queue-json", queuePath,
+      "--year", String(year),
+      "--max-pages", String(Number(process.env.DALTI_KAU_MAX_PAGES || 10))
+    ];
+    await execFileAsync(process.env.DALTI_PYTHON_BIN || "python3", detectorArgs, {
+      cwd: scraperRoot,
+      maxBuffer: 4 * 1024 * 1024,
+      timeout: 10 * 60 * 1000
+    });
+
+    const [summary, queue] = await Promise.all([readJson(summaryPath), readJson(queuePath)]);
+    const candidates = candidateItemsFromQueue(queue, startedAt);
+    const reportedCandidateCount = Number(summary.new_count || 0) + Number(summary.changed_count || 0);
+    const candidateCount = Math.max(reportedCandidateCount, candidates.length);
+    updateKauJob({ candidateCount, progress: 43 });
+
+    if (candidateCount === 0) {
+      await restoreOptionalText(queuePath, queueBefore);
+      if (sourceStateBefore !== null) {
+        await restoreOptionalText(sourceStatePath, sourceStateBefore);
+        updateKauJob({
+          status: "completed",
+          stage: "완료",
+          message: "새 게시물이나 원본 변경이 없습니다.",
+          progress: 100,
+          finishedAt: new Date().toISOString()
+        });
+        return;
+      }
+    }
+
+    const autoEnabled = process.env.DALTI_KAU_AUTO_APPLY !== "0" && sourceStateBefore !== null;
+    updateKauJob({
+      stage: candidateCount >= 3 ? "안전 차단" : "이미지 판독",
+      message: candidateCount >= 3
+        ? `후보 ${candidateCount}건이라 자동반영을 차단하고 검수 큐에 남깁니다.`
+        : "게시물 이미지를 로컬에 보관하고 Codex로 13필드를 확인합니다.",
+      progress: 52
+    });
+
+    if (candidateCount >= 3) {
+      for (const item of candidates) markAutomationReview(item, ["한 번의 수집 후보가 3건 이상이므로 자동반영하지 않습니다."]);
+    } else {
+      for (let index = 0; index < candidates.length; index += 1) {
+        const item = candidates[index];
+        try {
+          const cached = await cacheKauImages(item);
+          item.imageEvidence = cached.imageEvidence;
+          item.automation = {
+            ...(item.automation || {}),
+            evidenceFingerprint: cached.evidenceFingerprint,
+            cachedAt: kstTimestamp(),
+            state: "cached"
+          };
+          if (!cached.localFiles.length) throw new Error("게시물 본문 이미지가 없습니다.");
+          const extraction = await runCodexImageExtraction(item, activeData, cached.localFiles, { cwd: REPO_ROOT });
+          const merged = mergeCodexExtraction(item, extraction);
+          const eligibility = evaluateAutoEligibility(merged, activeData, candidateCount);
+          Object.assign(item, merged);
+          item.automation = {
+            ...item.automation,
+            eligible: eligibility.eligible && autoEnabled,
+            reasons: autoEnabled ? eligibility.reasons : ["첫 실행 기준선 생성 중이라 자동반영하지 않습니다."],
+            checks: eligibility.checks,
+            state: eligibility.eligible && autoEnabled ? "auto_ready" : "review_required"
+          };
+        } catch (error) {
+          markAutomationReview(item, [error.message], "error");
+        }
+        updateKauJob({ progress: 52 + Math.round(((index + 1) / Math.max(candidates.length, 1)) * 22) });
+      }
+    }
+
+    const autoItems = candidates.filter(item => item.automation?.state === "auto_ready");
+    const nextCompetitions = [...activeData.matches.competitions];
+    for (const item of autoItems) {
+      const validation = validateMatch(item.draft, { ...activeData, matches: { competitions: nextCompetitions } });
+      if (validation.blocking) {
+        markAutomationReview(item, ["최종 match.json 검증을 통과하지 못했습니다."]);
+        continue;
+      }
+      nextCompetitions.push(validation.item);
+      item.status = "approved";
+      item.review = {
+        ...(item.review || {}),
+        reviewedAt: kstTimestamp(),
+        reviewer: "data-studio-auto",
+        note: "이미지 근거와 13필드 안전 규칙을 통과해 자동 반영"
+      };
+      item.automation.state = "applied";
+      item.automation.appliedAt = kstTimestamp();
+    }
+    const appliedItems = autoItems.filter(item => item.automation?.state === "applied");
+    const reviewRequiredCount = Math.max(0, candidateCount - appliedItems.length);
+    queue.counts = computeCounts(queue.items || []);
+    await writeAtomic(queuePath, jsonText(queue));
+
+    const filesToCommit = [relative(sourceStatePath), relative(queuePath)];
+    if (appliedItems.length) {
+      updateKauJob({ stage: "자동 반영", message: `${appliedItems.length}건을 활성 일정에 원자적으로 반영합니다.`, progress: 81 });
+      await writeAtomic(activeData.matchPath, jsonText({ competitions: nextCompetitions }));
+      await writeAtomic(activeData.manifestPath, jsonText(nextManifest(activeData.manifest)));
+      filesToCommit.push(relative(activeData.matchPath), relative(activeData.manifestPath));
+    }
+
+    const changedPaths = [];
+    for (const file of [...new Set(filesToCommit)]) {
+      const status = await git(["status", "--porcelain", "--", file]);
+      if (status) changedPaths.push(file);
+    }
+    if (!changedPaths.length) {
+      updateKauJob({
+        status: "completed",
+        stage: "완료",
+        message: "새로 기록할 변경이 없습니다.",
+        progress: 100,
+        finishedAt: new Date().toISOString(),
+        autoAppliedCount: 0,
+        reviewRequiredCount
+      });
+      return;
+    }
+
+    updateKauJob({ stage: "커밋·푸시", message: "이번 작업의 명시 파일만 커밋하고 origin/main에 푸시합니다.", progress: 90 });
+    assertCommitPathsSafe(changedPaths);
+    await git(["add", "--", ...changedPaths]);
+    try {
+      await git([
+        "commit",
+        "-m", "KAU 일정 자동 수집(Update KAU schedule review data)",
+        "-m", `KAU 게시물 ${candidateCount}건을 판독하고 자동반영 ${appliedItems.length}건·검수 ${reviewRequiredCount}건을 기록(Record KAU extraction, apply safe items, and retain review items)`
+      ]);
+      commitHash = await git(["rev-parse", "--short", "HEAD"]);
+      await git(["push", "origin", "main"]);
+    } catch (error) {
+      if (!commitHash) await git(["restore", "--staged", "--", ...changedPaths]).catch(() => {});
+      throw new Error(commitHash
+        ? `커밋 ${commitHash}은 생성됐지만 푸시에 실패했습니다: ${error.message}`
+        : `KAU 작업 커밋에 실패했습니다: ${error.message}`);
+    }
+
+    updateKauJob({
+      status: "completed",
+      stage: "완료",
+      message: appliedItems.length
+        ? `${appliedItems.length}건 자동반영, ${reviewRequiredCount}건 검수 필요 · ${commitHash}`
+        : `${reviewRequiredCount}건을 검수 큐에 기록했습니다 · ${commitHash}`,
+      progress: 100,
+      finishedAt: new Date().toISOString(),
+      autoAppliedCount: appliedItems.length,
+      reviewRequiredCount,
+      commit: commitHash
+    });
+  } catch (error) {
+    if (!commitHash) {
+      await Promise.all([
+        restoreOptionalText(queuePath, queueBefore),
+        restoreOptionalText(sourceStatePath, sourceStateBefore),
+        writeAtomic(activeData.matchPath, matchBefore),
+        writeAtomic(activeData.manifestPath, manifestBefore)
+      ]).catch(() => {});
+    }
+    updateKauJob({
+      status: "failed",
+      stage: "확인 필요",
+      message: error.message,
+      error: error.message,
+      finishedAt: new Date().toISOString()
+    });
+  } finally {
+    await fs.rm(runtimeRoot, { recursive: true, force: true }).catch(() => {});
+    if (kauJob.id !== jobId) return;
+  }
+}
+
+export function startKauRefresh(trigger = "manual") {
+  if (kauJob.status === "running") return currentKauJob();
+  const id = crypto.randomUUID();
+  kauJob = {
+    id,
+    trigger,
+    status: "running",
+    stage: "시작",
+    message: "KAU 게시물 확인을 시작합니다.",
+    progress: 2,
+    startedAt: new Date().toISOString(),
+    finishedAt: "",
+    candidateCount: 0,
+    autoAppliedCount: 0,
+    reviewRequiredCount: 0,
+    commit: "",
+    error: ""
+  };
+  runKauRefresh(id).catch(error => {
+    updateKauJob({ status: "failed", stage: "확인 필요", message: error.message, error: error.message });
+  });
+  return currentKauJob();
 }
 
 async function git(args) {
@@ -901,10 +1271,11 @@ function relative(file) {
   return path.relative(REPO_ROOT, file).split(path.sep).join("/");
 }
 
-function hasBlockingWorkspaceChanges(health) {
-  return health.status.some((line) => {
-    const changedPath = line.slice(3).trim().replace(/^"|"$/g, "");
-    return !changedPath.startsWith("data-studio/");
+export function hasBlockingWorkspaceChanges(health, allowedPaths = []) {
+  const allowed = new Set(allowedPaths.map(value => String(value).replace(/\\/g, "/")));
+  return (health.changedFiles || []).some(changedPath => {
+    const normalized = String(changedPath).replace(/\\/g, "/");
+    return !normalized.startsWith("data-studio/") && !allowed.has(normalized);
   });
 }
 
@@ -1138,6 +1509,22 @@ export function healthStatus() {
 
 async function apiHandler(req, res) {
   try {
+    if (req.method === "GET" && req.url?.startsWith("/api/kau/cache?")) {
+      const requestURL = new URL(req.url, `http://${HOST}:${PORT}`);
+      await sendCachedKauImage(res, requestURL.searchParams.get("key"));
+      return;
+    }
+
+    if (req.method === "GET" && req.url === "/api/kau/job") {
+      sendJson(res, 200, currentKauJob());
+      return;
+    }
+
+    if (req.method === "POST" && req.url === "/api/kau/refresh") {
+      sendJson(res, 202, startKauRefresh("manual"));
+      return;
+    }
+
     if (req.method === "GET" && req.url?.startsWith("/api/image?")) {
       const requestURL = new URL(req.url, `http://${HOST}:${PORT}`);
       await sendProxiedImage(res, requestURL.searchParams.get("url"));
@@ -1411,8 +1798,12 @@ async function apiHandler(req, res) {
         );
         throw new Error(`서로 다른 소스의 항목이 같은 URL을 가리킵니다:\n${details.join("\n")}`);
       }
+      const affectedSources = new Map();
+      for (const item of approvedItems) {
+        if (item._source) affectedSources.set(item._source.file, item._source);
+      }
       const [activeData, health] = await Promise.all([loadActiveData(), repositoryHealth()]);
-      if (hasBlockingWorkspaceChanges(health)) {
+      if (hasBlockingWorkspaceChanges(health, [...affectedSources.keys()])) {
         throw new Error(`저장소에 기존 변경이 있어 미리보기를 확정할 수 없습니다: ${health.status.join(", ")}`);
       }
       // Build next match data
@@ -1444,12 +1835,6 @@ async function apiHandler(req, res) {
       const manifestAfter = jsonText(manifestNext);
 
       // Determine which queue files will be affected
-      const affectedSources = new Map();
-      for (const item of approvedItems) {
-        if (item._source) {
-          affectedSources.set(item._source.file, item._source);
-        }
-      }
       // Read current contents of affected queue files for hash tracking
       const queueFileRecords = [];
       for (const [relPath] of affectedSources) {
@@ -1512,17 +1897,17 @@ async function apiHandler(req, res) {
         throw new Error("미리보기 생성 후 20분이 지나 다시 확인해야 합니다.");
       }
       const health = await repositoryHealth();
-      if (!health.clean || health.branch !== preview.branch) {
+      if (health.branch !== preview.branch || hasBlockingWorkspaceChanges(health, preview.queueFiles || [])) {
         throw new Error("미리보기 이후 저장소 상태 또는 브랜치가 바뀌었습니다.");
       }
-      // Check file hashes (match.json + manifest only; queue files may have changed via status edits)
-      const coreFiles = preview.files.filter(f => !preview.queueFiles?.includes(f.relative));
-      for (const file of coreFiles) {
+      // Every previewed file, including the human-edited queue, must still match.
+      for (const file of preview.files) {
         const current = await fs.readFile(file.path, "utf8");
         if (hash(current) !== file.hash) {
           throw new Error(`${file.relative} 파일이 미리보기 이후 변경됐습니다.`);
         }
       }
+      const coreFiles = preview.files.filter(f => !preview.queueFiles?.includes(f.relative));
       // Write match.json and manifest
       for (const file of coreFiles) {
         const temporary = `${file.path}.dalti-data-studio-${process.pid}.tmp`;
@@ -1567,8 +1952,8 @@ async function apiHandler(req, res) {
       } catch (error) {
         if (!commitHash) {
           await git(["restore", "--staged", "--", ...relativeFiles]).catch(() => {});
-          for (const file of coreFiles) {
-            await fs.writeFile(file.path, file.before, "utf8");
+          for (const file of preview.files) {
+            await writeAtomic(file.path, file.before);
           }
         }
         throw new Error(
@@ -1585,7 +1970,10 @@ async function apiHandler(req, res) {
     // --- Instagram Fetch Endpoint ---
     if (method === "POST" && pathname === "/api/instagram/fetch") {
       const profileData = await fetchInstagramProfile("korea_kennel_agility");
-      const edges = profileData?.graphql?.user?.edge_owner_to_timeline_media?.edges || [];
+      // web_profile_info returns data.user. Older web responses used graphql.user;
+      // accept both shapes while the upstream endpoint transitions.
+      const profileUser = profileData?.data?.user || profileData?.graphql?.user;
+      const edges = profileUser?.edge_owner_to_timeline_media?.edges || [];
       const totalPosts = edges.length;
 
       const competitionKeywords = ['대회', '승급전', '랭킹전', '선발전', '챔피언', '개최', '참가신청', '출진'];
@@ -1715,6 +2103,9 @@ async function start() {
   server.listen(PORT, HOST, () => {
     console.log(`Dalti Data Studio: http://${HOST}:${PORT}`);
     console.log(`Repository: ${REPO_ROOT}`);
+    if (!development && process.env.DALTI_KAU_AUTORUN !== "0") {
+      startKauRefresh("startup");
+    }
   });
 }
 

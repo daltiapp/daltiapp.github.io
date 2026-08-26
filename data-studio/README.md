@@ -1,7 +1,8 @@
 # Dalti Data Studio
 
-활성 AgilityKorea JSON을 원본 근거와 함께 분석하고, 사람이 diff를 확인한 뒤에만
-커밋·푸시하는 로컬 운영 도구입니다.
+활성 AgilityKorea JSON을 원본 근거와 함께 분석하는 로컬 운영 도구입니다.
+KAU 일정은 새 게시물 감지부터 이미지 캐시, Codex 구조화 판독, 안전 규칙 검증까지
+자동화하고 규칙 밖의 항목만 사람이 확인합니다.
 
 ## 실행
 
@@ -17,9 +18,30 @@ npm run dev
 macOS 실행 아이콘은 `macos/README.md`의 외장하드 권한, 재실행, 로그 안내를
 따릅니다.
 
-## 사이드바 구조
+## KAU 가벼운 자동화
 
-앱 진입 시 **검수 큐**가 기본 화면입니다.
+- 백그라운드 데몬을 두지 않습니다. macOS 앱을 열 때와 `새 게시물 확인`을 누를 때만 실행합니다.
+- 게시글 이미지는 Git에 넣지 않고 `~/Library/Caches/Dalti Data Studio/kau`에만 저장합니다.
+- Codex CLI의 기존 ChatGPT 로그인을 사용합니다. API 키를 저장하지 않습니다.
+- 첫 실행은 현재 게시물 지문을 `review/schedule/kau_source_state.json`에 기준선으로만 기록합니다.
+- 이후 신규 1~2건 중 정확한 13필드, 상세 idx URL, 장소/주최/종류 정규화, 이미지 원문 근거,
+  중복 없음, 경고 없음 조건을 모두 통과한 항목만 `match.json`과 manifest에 자동 반영합니다.
+- 기존 일정 변경, 모호한 판독, 이미지 없음, 후보 3건 이상은 `kau_review_queue.json`에만 남깁니다.
+- 한 작업의 queue/state/match/manifest는 명시 파일만 같은 커밋으로 푸시합니다. FCM과 Telegram은 호출하지 않습니다.
+
+실행 제어 환경변수:
+
+| 변수 | 기본값 | 의미 |
+|---|---|---|
+| `DALTI_KAU_AUTORUN` | `1`(production) | 앱 시작 자동 확인, `0`이면 끔 |
+| `DALTI_KAU_AUTO_APPLY` | `1` | 엄격 조건 자동반영, `0`이면 전부 검수 큐 |
+| `DALTI_KAU_MAX_PAGES` | `10` | 게시판 확인 최대 페이지 |
+| `DALTI_KAU_CACHE_DIR` | macOS 사용자 캐시 | 이미지 로컬 캐시 경로 |
+| `DALTI_SCRAPER_REPO_DIR` | 데이터 저장소의 형제 `agility-scraper` | 수집기 저장소 |
+
+## 화면 구조
+
+앱 진입 시 **검수 큐**가 기본 화면이며 목록·원본 이미지·13필드 편집기의 3열 구조입니다.
 
 | 순번 | 항목 | 설명 |
 |---:|---|---|
@@ -66,7 +88,7 @@ macOS 실행 아이콘은 `macos/README.md`의 외장하드 권한, 재실행, �
 
 1. **큐 조회**: `GET /api/review/queue`로 전체 큐를 로드합니다. 응답에는
    `sources` 배열(소스별 key, label, file, generatedAt, counts)이 포함됩니다.
-   필터(상태/분류/소스)와 정렬(날짜/신뢰도)로 항목을 탐색합니다.
+   `전체 / 확인 필요 / 처리 완료` 탭으로 항목을 탐색합니다.
 2. **검수**: 항목을 선택하면 상세 패널에서 13개 필드, `fieldEvidence`, `warnings`,
    이미지를 확인합니다. 소스 배지로 한국애견연맹/한국어질리티연합을 구분합니다.
    `required` 경고가 있으면 수동 보완이 필요합니다.
@@ -94,23 +116,13 @@ Telegram 발송을 호출하지 않습니다.
 | POST | `/api/review/status` | 항목 상태 전환 (해당 소스 파일만 갱신) |
 | POST | `/api/review/preview` | 반영 diff 미리보기 (여러 소스 혼합 가능, 파일 미수정) |
 | POST | `/api/review/apply` | 승인 항목 활성 match.json + manifest + 큐 파일 반영 (단일 커밋) |
+| POST | `/api/kau/refresh` | KAU 수집 작업 시작(중복 실행 시 현재 작업 반환) |
+| GET | `/api/kau/job` | 단계·진행률·후보·자동반영·오류 상태 조회 |
+| GET | `/api/kau/cache?key=...` | 허용된 로컬 KAU 캐시 이미지 조회 |
 
 큐 디렉터리는 기본값 `review/schedule`이고 `DALTI_REVIEW_QUEUE_DIR`(저장소
 루트 기준 상대경로)로 바꿀 수 있습니다. 디렉터리가 없거나 파일이 하나도
 없으면 빈 큐로 200 응답합니다(오류 아님).
-
-## 키보드 단축키
-
-검수 큐 화면에서 입력 필드 외 영역에서 사용합니다.
-
-| 키 | 동작 |
-|---|---|
-| `j` | 다음 항목 선택 |
-| `k` | 이전 항목 선택 |
-| `a` | 선택 항목 승인 |
-| `r` | 선택 항목 반려 |
-| `e` | 상세 패널 첫 입력란 포커스 |
-| `?` | 키보드 단축키 도움말 토글 |
 
 ## 데이터별 정책
 

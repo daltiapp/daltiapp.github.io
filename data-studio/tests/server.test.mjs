@@ -6,6 +6,8 @@ import test from "node:test";
 import { fileURLToPath } from "node:url";
 import {
   analyzeMatchText,
+  currentKauJob,
+  hasBlockingWorkspaceChanges,
   healthStatus,
   loadActiveData,
   repositoryHealth,
@@ -154,6 +156,20 @@ test("상태 확인 응답이 실행 중인 Data Studio 서버를 식별한다",
   assert.equal(health.pid, process.pid);
   assert.equal(health.port, 4190);
   assert.match(health.repoRoot, /daltiapp\.github\.io$/);
+});
+
+test("KAU 작업 상태는 앱 시작 전 안전한 대기 상태다", () => {
+  const job = currentKauJob();
+  assert.equal(job.status, "idle");
+  assert.equal(job.autoAppliedCount, 0);
+});
+
+test("검수 큐 자체 변경은 허용하되 다른 산출물 변경은 차단한다", () => {
+  const health = {
+    changedFiles: ["review/schedule/kau_review_queue.json"]
+  };
+  assert.equal(hasBlockingWorkspaceChanges(health, ["review/schedule/kau_review_queue.json"]), false);
+  assert.equal(hasBlockingWorkspaceChanges({ changedFiles: ["ak/v2/match/match.json"] }, []), true);
 });
 
 test("활성 manifest에서 실제 JSON을 해석한다", async () => {
