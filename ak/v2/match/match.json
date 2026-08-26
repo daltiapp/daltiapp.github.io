@@ -1148,6 +1148,28 @@
       "name": "2027 EO(European Open) 어질리티 대회 선발전",
       "startAt": "2026-11-22T00:00:00",
       "url": ""
+    },
+    {
+      "applicationEndAt": "2026-09-14T17:00:00",
+      "applicationStartAt": "2026-08-19T10:00:00",
+      "club": "한국애견협회",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-19T09:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "우아미"
+      ],
+      "location": "KKC 행사장(어린이회관 서편운동장)",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑",
+        "어질리티"
+      ],
+      "name": "2026 KKC 어질리티 경기대회",
+      "startAt": "2026-09-19T09:00:00",
+      "url": "https://www.kkc.or.kr/calendar/contest/n2ssGwp366hMSrrtRUdQ"
     }
   ]
 }
