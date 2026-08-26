@@ -699,6 +699,7 @@
           name: String(item.name || "").trim(),
           location: String(item.location || "").trim(),
           club: String(item.club || "").trim(),
+          eventChair: String(item.eventChair || "").trim(),
           sponsor: String(item.sponsor || "").trim(),
           eventType: String(item.eventType || "").trim(),
           detailStatus: String(item.detailStatus || "").trim(),
@@ -727,6 +728,7 @@
             item.name,
             item.location,
             item.club,
+            item.eventChair,
             item.sponsor,
             item.eventType,
             item.matchTypes.join(" "),
@@ -781,6 +783,10 @@
           .join("");
 
         const infoBadges = [
+          infoBadge(
+            `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 14.8 8.7 21 9.6l-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>`,
+            item.eventChair || "대회장 정보 없음"
+          ),
           infoBadge(
             `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 20h8M12 4l7 4v4c0 4.5-2.8 7.7-7 8-4.2-.3-7-3.5-7-8V8l7-4Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
             item.judges.length ? item.judges.join(", ") : "심판 정보 없음"
