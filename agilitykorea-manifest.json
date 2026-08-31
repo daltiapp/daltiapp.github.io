@@ -1,8 +1,8 @@
 {
   "service": "agilitykorea",
   "schemaVersion": 2,
-  "dataVersion": "20260831.2",
-  "forceRefreshKey": "v3:20260831.2",
+  "dataVersion": "20260831.3",
+  "forceRefreshKey": "v3:20260831.3",
   "basePath": "/ak/v3",
   "updatedAt": "2026-08-31T00:00:00+09:00",
   "files": {
