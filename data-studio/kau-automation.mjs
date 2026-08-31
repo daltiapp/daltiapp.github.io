@@ -41,6 +41,11 @@ export const MATCH_KEYS = [
   "url"
 ];
 
+export const OPTIONAL_MATCH_KEYS = ["eventChair", "detailImages"];
+
+const DRIVE_IMAGE_URL_PATTERN =
+  /^https:\/\/drive\.google\.com\/uc\?export=view&id=[A-Za-z0-9_-]+$/;
+
 export function kauCacheRoot() {
   const configured = String(process.env.DALTI_KAU_CACHE_DIR || "").trim();
   return configured || path.join(os.homedir(), "Library", "Caches", "Dalti Data Studio", "kau");
@@ -172,6 +177,9 @@ function canRefineMidnight(field, currentValue, nextValue) {
 
 export function mergeCodexExtraction(item, extraction, now = new Date()) {
   const currentDraft = Object.fromEntries(MATCH_KEYS.map(key => [key, item?.draft?.[key]]));
+  for (const key of OPTIONAL_MATCH_KEYS) {
+    if (Object.hasOwn(item?.draft || {}, key)) currentDraft[key] = structuredClone(item.draft[key]);
+  }
   const extractedDraft = extraction?.draft || {};
   const nextDraft = structuredClone(currentDraft);
   const nextEvidence = structuredClone(item?.fieldEvidence || {});
@@ -239,11 +247,69 @@ function normalizeKauUrlKey(value) {
   try {
     const url = new URL(String(value || ""));
     const index = url.searchParams.get("idx");
-    if (!index || !url.hostname.toLowerCase().endsWith("agility.co.kr")) return "";
+    const hostname = url.hostname.toLowerCase();
+    const isKauHost = hostname === "agility.co.kr" || hostname.endsWith(".agility.co.kr");
+    if (!index || !isKauHost) return "";
     return `agility.co.kr|${index}`;
   } catch {
     return "";
   }
+}
+
+function uniqueStrings(values) {
+  return [...new Set(values.map(value => String(value || "").trim()).filter(Boolean))];
+}
+
+export function buildActiveRuleProfile(activeData) {
+  const matches = activeData?.matches?.competitions || [];
+  return {
+    clubs: uniqueStrings(matches.map(match => match.club)),
+    eventTypes: uniqueStrings(matches.map(match => match.eventType)),
+    matchTypes: uniqueStrings(matches.flatMap(match => match.matchTypes || [])),
+    venues: uniqueStrings((activeData?.venues?.venues || []).map(venue => venue.name))
+  };
+}
+
+export function compareKauItemWithActive(item, activeData) {
+  const draft = item?.draft || {};
+  const matches = activeData?.matches?.competitions || [];
+  const profile = buildActiveRuleProfile(activeData);
+  const urlKey = normalizeKauUrlKey(draft.url || item?.sourceUrl);
+  const existing = urlKey
+    ? matches.find(match => normalizeKauUrlKey(match.url) === urlKey) || null
+    : null;
+  const differences = existing
+    ? MATCH_KEYS.flatMap(field => (field === "url"
+      ? normalizeKauUrlKey(existing[field]) === normalizeKauUrlKey(draft[field])
+      : valuesEqual(existing[field], draft[field]))
+      ? []
+      : [{ field, before: existing[field] ?? "", after: draft[field] ?? "" }])
+    : [];
+  const profileSets = Object.fromEntries(
+    Object.entries(profile).map(([key, values]) => [key, new Set(values)])
+  );
+  const normalizedMatchTypes = uniqueStrings(Array.isArray(draft.matchTypes) ? draft.matchTypes : []);
+  const classificationPass = item?.sourceClassification?.isAgilityCompetition === true;
+  const ruleChecks = [
+    { id: "agility", pass: classificationPass, label: "어질리티 대회" },
+    { id: "change", pass: item?.diffKind === "new", label: item?.diffKind === "changed" ? "기존 일정 변경" : "신규 일정" },
+    { id: "club-rule", pass: profileSets.clubs.has(String(draft.club || "").trim()), label: "기존 주최 값" },
+    { id: "event-rule", pass: profileSets.eventTypes.has(String(draft.eventType || "").trim()), label: "기존 대회유형 값" },
+    {
+      id: "match-rule",
+      pass: normalizedMatchTypes.length > 0 && normalizedMatchTypes.every(value => profileSets.matchTypes.has(value)),
+      label: "기존 경기종목 값"
+    },
+    { id: "venue", pass: profileSets.venues.has(String(draft.location || "").trim()), label: "기존 장소 연결" }
+  ];
+  return {
+    kind: existing ? (differences.length ? "changed" : "matched") : "new",
+    existing,
+    differences,
+    ruleChecks,
+    deviations: ruleChecks.filter(check => !check.pass).map(check => check.label),
+    allowedValues: profile
+  };
 }
 
 function isIsoSecond(value) {
@@ -254,9 +320,28 @@ export function evaluateAutoEligibility(item, activeData, candidateCount) {
   const reasons = [];
   const checks = [];
   const draft = item?.draft || {};
-  const exactKeys = MATCH_KEYS.every(key => Object.hasOwn(draft, key)) && Object.keys(draft).length === MATCH_KEYS.length;
-  checks.push({ id: "schema", pass: exactKeys, label: "13필드 통과" });
-  if (!exactKeys) reasons.push("13필드 계약 불일치");
+  const comparison = compareKauItemWithActive(item, activeData);
+  const draftKeys = Object.keys(draft);
+  const eventChairValid = !Object.hasOwn(draft, "eventChair")
+    || (typeof draft.eventChair === "string" && draft.eventChair.trim() !== "");
+  const detailImagesValid = !Object.hasOwn(draft, "detailImages")
+    || (Array.isArray(draft.detailImages)
+      && draft.detailImages.length > 0
+      && draft.detailImages.every(value => typeof value === "string" && DRIVE_IMAGE_URL_PATTERN.test(value)));
+  const exactKeys = MATCH_KEYS.every(key => Object.hasOwn(draft, key))
+    && draftKeys.every(key => MATCH_KEYS.includes(key) || OPTIONAL_MATCH_KEYS.includes(key))
+    && eventChairValid
+    && detailImagesValid;
+  checks.push({ id: "schema", pass: exactKeys, label: "13필드 + 선택 필드 통과" });
+  checks.push(...comparison.ruleChecks);
+  if (!exactKeys) reasons.push("13개 core 필드와 선택 필드 계약 불일치");
+  const publishedImages = item?.detailImages;
+  const driveImagesReady = Array.isArray(publishedImages)
+    && publishedImages.length > 0
+    && publishedImages.every(value => typeof value === "string" && DRIVE_IMAGE_URL_PATTERN.test(value));
+  checks.push({ id: "drive-images", pass: driveImagesReady, label: "Drive 이미지 공개 주소" });
+  if (!driveImagesReady) reasons.push("Drive 이미지 공개 주소가 없음");
+  if (item?.sourceClassification?.isAgilityCompetition !== true) reasons.push("어질리티 대회 분류 근거가 없음");
   if (item?.diffKind !== "new") reasons.push("기존 일정 변경은 자동 반영하지 않음");
   if (candidateCount >= 3) reasons.push("한 번의 확인에서 후보가 3건 이상임");
   if (item?.automation?.state !== "extracted") reasons.push("Codex 이미지 판독이 완료되지 않음");
@@ -289,11 +374,12 @@ export function evaluateAutoEligibility(item, activeData, candidateCount) {
     reasons.push("시작/종료 시각이 임의 자정값임");
   }
 
-  const venues = new Set((activeData?.venues?.venues || []).map(venue => String(venue.name || "").trim()).filter(Boolean));
+  const ruleProfile = buildActiveRuleProfile(activeData);
+  const venues = new Set(ruleProfile.venues);
   const matches = activeData?.matches?.competitions || [];
-  const clubs = new Set(matches.map(match => String(match.club || "").trim()).filter(Boolean));
-  const eventTypes = new Set(matches.map(match => String(match.eventType || "").trim()).filter(Boolean));
-  const matchTypes = new Set(matches.flatMap(match => match.matchTypes || []).map(value => String(value).trim()).filter(Boolean));
+  const clubs = new Set(ruleProfile.clubs);
+  const eventTypes = new Set(ruleProfile.eventTypes);
+  const matchTypes = new Set(ruleProfile.matchTypes);
   if (!venues.has(String(draft.location || "").trim())) reasons.push("활성 venue.json과 장소가 연결되지 않음");
   if (!clubs.has(String(draft.club || "").trim())) reasons.push("기존 주최 정규화표에 없는 값");
   if (!eventTypes.has(String(draft.eventType || "").trim())) reasons.push("기존 대회종류 정규화표에 없는 값");
@@ -308,21 +394,18 @@ export function evaluateAutoEligibility(item, activeData, candidateCount) {
   if (!candidateUrlKey) reasons.push("agility.co.kr 상세 idx URL이 아님");
   if (existingUrlKeys.has(candidateUrlKey)) reasons.push("활성 일정에 같은 상세 URL이 이미 있음");
   checks.push({ id: "duplicate", pass: !existingUrlKeys.has(candidateUrlKey), label: "중복 없음" });
-  checks.push({ id: "venue", pass: venues.has(String(draft.location || "").trim()), label: "장소 연결" });
 
   const uniqueReasons = [...new Set(reasons)];
-  return { eligible: uniqueReasons.length === 0, reasons: uniqueReasons, checks };
+  return { eligible: uniqueReasons.length === 0, reasons: uniqueReasons, checks, comparison };
 }
 
 export function buildCodexPrompt(item, activeData) {
-  const venues = (activeData?.venues?.venues || []).map(venue => venue.name).filter(Boolean);
-  const matches = activeData?.matches?.competitions || [];
-  const clubs = [...new Set(matches.map(match => match.club).filter(Boolean))];
-  const eventTypes = [...new Set(matches.map(match => match.eventType).filter(Boolean))];
-  const matchTypes = [...new Set(matches.flatMap(match => match.matchTypes || []).filter(Boolean))];
+  const { venues, clubs, eventTypes, matchTypes } = buildActiveRuleProfile(activeData);
   return [
     "첨부된 한국어질리티연합 대회 포스터만 읽고 일정 JSON 초안을 보완하세요.",
+    "포스터가 어질리티 대회가 아니면 필드를 추측하지 말고 warnings에 그 사실을 기록하세요.",
     "명확히 인쇄된 정보만 exact로 표시하고 추측하지 마세요. 읽히지 않으면 missing 또는 uncertain으로 표시하세요.",
+    "장소·주최·대회종류·경기종류는 아래 기존 JSON 값과 의미가 정확히 같을 때만 그 값을 사용하세요. 새 값이나 다른 표기는 warnings에 남기세요.",
     "URL과 detailNotice는 제공된 초안을 그대로 유지하세요. 날짜는 YYYY-MM-DDTHH:mm:ss 형식입니다.",
     "각 변경 필드에는 반드시 이미지 번호와 포스터에서 읽은 짧은 원문 근거를 넣으세요.",
     `원본 제목: ${item.sourceTitle || ""}`,

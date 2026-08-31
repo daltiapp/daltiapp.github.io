@@ -228,6 +228,16 @@ private func runLauncher() -> Int32 {
     process.arguments = [launcherURL.path]
     var environment = ProcessInfo.processInfo.environment
     environment["DALTI_DATA_STUDIO_ROOT"] = selectedRoot.path
+    environment["DALTI_KAU_DRIVE_FOLDER_ID"] = "1fLSRAv1eQi9EPniDrw42GPZSRxmIlhII"
+    environment["DALTI_GDRIVE_ACCOUNT"] = "dalti.app@gmail.com"
+    let gcloudURL = URL(fileURLWithPath: "/opt/homebrew/share/google-cloud-sdk/bin/gcloud")
+    if fileManager.isExecutableFile(atPath: gcloudURL.path) {
+        environment["DALTI_GCLOUD_BIN"] = gcloudURL.path
+    }
+    let cwebpURL = URL(fileURLWithPath: "/opt/homebrew/bin/cwebp")
+    if fileManager.isExecutableFile(atPath: cwebpURL.path) {
+        environment["DALTI_CWEBP_BIN"] = cwebpURL.path
+    }
     process.environment = environment
     process.standardInput = FileHandle.nullDevice
     process.standardOutput = FileHandle.nullDevice

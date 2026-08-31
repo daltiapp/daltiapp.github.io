@@ -17,7 +17,7 @@ import { EMPTY_MATCH, EMPTY_VENUE } from "./data/defaults";
 import { api } from "./lib/api";
 
 const INITIAL_CHECKS = [
-  { id: "schema", label: "13개 필드", detail: "미리보기에서 검사", status: "idle" },
+  { id: "schema", label: "13개 core + 선택 필드", detail: "미리보기에서 검사", status: "idle" },
   { id: "url", label: "상세 URL 원문 일치", detail: "원본 상세 주소 필요", status: "idle" },
   { id: "venue", label: "장소 데이터 연결", detail: "활성 venue.json과 비교", status: "idle" },
   { id: "duplicate", label: "중복 일정", detail: "URL·대회명·시작일 비교", status: "idle" },

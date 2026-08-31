@@ -10,11 +10,13 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import {
   cacheKauImages,
+  compareKauItemWithActive,
   evaluateAutoEligibility,
   kauCacheRoot,
   mergeCodexExtraction,
   runCodexImageExtraction
 } from "./kau-automation.mjs";
+import { uploadGoogleDriveImages } from "./google-drive-upload.mjs";
 
 const execFileAsync = promisify(execFile);
 const STUDIO_ROOT = path.dirname(fileURLToPath(import.meta.url));
@@ -38,6 +40,10 @@ const MATCH_KEYS = [
   "startAt",
   "url"
 ];
+const OPTIONAL_MATCH_KEYS = ["eventChair", "detailImages"];
+const ALLOWED_MATCH_KEYS = [...MATCH_KEYS, ...OPTIONAL_MATCH_KEYS];
+const DRIVE_IMAGE_URL_PATTERN =
+  /^https:\/\/drive\.google\.com\/uc\?export=view&id=[A-Za-z0-9_-]+$/;
 const previews = new Map();
 const reviewPreviews = new Map();
 let kauJob = {
@@ -49,6 +55,12 @@ let kauJob = {
   startedAt: "",
   finishedAt: "",
   candidateCount: 0,
+  scannedCount: 0,
+  agilityCompetitionCount: 0,
+  excludedCount: 0,
+  historicalExcludedCount: 0,
+  newCount: 0,
+  changedCount: 0,
   autoAppliedCount: 0,
   reviewRequiredCount: 0,
   commit: "",
@@ -144,6 +156,15 @@ async function loadMergedReviewQueue() {
     });
   }
 
+  const activeData = await loadActiveData().catch(() => null);
+  if (activeData) {
+    for (const item of allItems) {
+      if (item._source?.key === "kau") {
+        item.comparison = compareKauItemWithActive(item, activeData);
+      }
+    }
+  }
+
   const counts = computeCounts(allItems);
   return { schemaVersion: 1, items: allItems, counts, sources };
 }
@@ -208,7 +229,15 @@ function diffQueueItemWithActive(item, activeMatches) {
   if (!item.draft || !item.draft.url) return { syncStatus: "unknown" };
   const existing = activeMatches.find(m => m.url === item.draft.url);
   if (!existing) return { syncStatus: "not_applied" };
-  const draftKeys = MATCH_KEYS.filter(k => JSON.stringify(item.draft[k]) !== JSON.stringify(existing[k]));
+  const comparisonDraft = {
+    ...item.draft,
+    ...(item.detailImages?.length ? { detailImages: item.detailImages } : {})
+  };
+  const comparedKeys = [
+    ...MATCH_KEYS,
+    ...OPTIONAL_MATCH_KEYS.filter(key => Object.hasOwn(comparisonDraft, key))
+  ];
+  const draftKeys = comparedKeys.filter(k => JSON.stringify(comparisonDraft[k]) !== JSON.stringify(existing[k]));
   if (draftKeys.length === 0) return { syncStatus: "applied" };
   return { syncStatus: "changed", changedFields: draftKeys };
 }
@@ -342,6 +371,99 @@ async function sendCachedKauImage(res, cacheKeyValue) {
   res.end(content);
 }
 
+function kauSourceId(item) {
+  const explicit = String(item?.sourceId || "").trim();
+  if (/^[0-9A-Za-z_-]+$/.test(explicit)) return explicit;
+  try {
+    const sourceUrl = new URL(String(item?.sourceUrl || item?.draft?.url || ""));
+    const hostname = sourceUrl.hostname.toLowerCase();
+    const index = String(sourceUrl.searchParams.get("idx") || "").trim();
+    if ((hostname === "agility.co.kr" || hostname.endsWith(".agility.co.kr")) && /^[0-9A-Za-z_-]+$/.test(index)) {
+      return index;
+    }
+  } catch {
+    // The caller emits a stable operator-facing error below.
+  }
+  throw new Error("Drive 업로드에 필요한 KAU sourceId를 확인하지 못했습니다.");
+}
+
+async function cachedKauUploadFiles(item) {
+  const evidence = Array.isArray(item?.imageEvidence) ? [...item.imageEvidence] : [];
+  if (!evidence.length) return null;
+  evidence.sort((left, right) => Number(left.imageIndex || 0) - Number(right.imageIndex || 0));
+  let cacheRoot;
+  try {
+    cacheRoot = await fs.realpath(path.resolve(kauCacheRoot()));
+  } catch {
+    return null;
+  }
+  const files = [];
+  for (const image of evidence) {
+    const cacheKey = String(image.cacheKey || "").replace(/\\/g, "/");
+    if (!/^[0-9A-Za-z_-]+\/[0-9A-Za-z._-]+$/.test(cacheKey)) return null;
+    const target = path.resolve(cacheRoot, cacheKey);
+    if (!target.startsWith(`${cacheRoot}${path.sep}`)) return null;
+    let realTarget;
+    try {
+      realTarget = await fs.realpath(target);
+    } catch {
+      return null;
+    }
+    if (!realTarget.startsWith(`${cacheRoot}${path.sep}`)) return null;
+    files.push({
+      path: realTarget,
+      sha256: String(image.sha256 || ""),
+      mimeType: String(image.contentType || fileMimeFromName(realTarget))
+    });
+  }
+  return files;
+}
+
+async function prepareKauImagesForDrive(item, cached = null) {
+  if (item?.sourceClassification?.isAgilityCompetition !== true) {
+    throw new Error("어질리티 대회로 판별된 KAU 항목만 Drive에 업로드할 수 있습니다.");
+  }
+  let uploadFiles = cached?.localFiles?.map((localPath, index) => ({
+    path: localPath,
+    sha256: cached.imageEvidence?.[index]?.sha256 || "",
+    mimeType: cached.imageEvidence?.[index]?.contentType || fileMimeFromName(localPath)
+  })) || await cachedKauUploadFiles(item);
+  if (!uploadFiles?.length) {
+    const nextCache = await cacheKauImages(item);
+    item.imageEvidence = nextCache.imageEvidence;
+    item.automation = {
+      ...(item.automation || {}),
+      evidenceFingerprint: nextCache.evidenceFingerprint,
+      cachedAt: kstTimestamp(),
+      state: "cached"
+    };
+    uploadFiles = nextCache.localFiles.map((localPath, index) => ({
+      path: localPath,
+      sha256: nextCache.imageEvidence[index]?.sha256 || "",
+      mimeType: nextCache.imageEvidence[index]?.contentType || fileMimeFromName(localPath)
+    }));
+  }
+  if (!uploadFiles.length) throw new Error("Drive에 업로드할 게시물 이미지가 없습니다.");
+  const uploaded = await uploadGoogleDriveImages({
+    sourceId: kauSourceId(item),
+    files: uploadFiles
+  });
+  if (!uploaded.urls.length) throw new Error("Drive 이미지 공개 주소를 만들지 못했습니다.");
+  item.detailImages = uploaded.urls;
+  item.automation = {
+    ...(item.automation || {}),
+    driveUploadedAt: kstTimestamp(),
+    driveFiles: uploaded.files.map(file => ({
+      fileId: file.fileId,
+      filename: file.filename,
+      sha256: file.sha256,
+      url: file.url,
+      reused: file.reused
+    }))
+  };
+  return uploaded;
+}
+
 function candidateItemsFromQueue(queue, startedAt) {
   const started = Date.parse(startedAt) - 2_000;
   return (queue.items || []).filter(item =>
@@ -424,7 +546,16 @@ async function runKauRefresh(jobId) {
     const candidates = candidateItemsFromQueue(queue, startedAt);
     const reportedCandidateCount = Number(summary.new_count || 0) + Number(summary.changed_count || 0);
     const candidateCount = Math.max(reportedCandidateCount, candidates.length);
-    updateKauJob({ candidateCount, progress: 43 });
+    updateKauJob({
+      candidateCount,
+      scannedCount: Number(summary.board_item_count || 0),
+      agilityCompetitionCount: Number(summary.agility_competition_count || summary.board_candidate_count || 0),
+      excludedCount: Number(summary.excluded_count || 0) + Number(summary.historical_excluded_count || 0),
+      historicalExcludedCount: Number(summary.historical_excluded_count || 0),
+      newCount: Number(summary.new_count || 0),
+      changedCount: Number(summary.changed_count || 0),
+      progress: 43
+    });
 
     if (candidateCount === 0) {
       await restoreOptionalText(queuePath, queueBefore);
@@ -446,12 +577,15 @@ async function runKauRefresh(jobId) {
       stage: candidateCount >= 3 ? "안전 차단" : "이미지 판독",
       message: candidateCount >= 3
         ? `후보 ${candidateCount}건이라 자동반영을 차단하고 검수 큐에 남깁니다.`
-        : "게시물 이미지를 로컬에 보관하고 Codex로 13필드를 확인합니다.",
+        : "게시물 이미지를 로컬에 보관하고 Codex로 13개 core 필드를 확인합니다.",
       progress: 52
     });
 
     if (candidateCount >= 3) {
-      for (const item of candidates) markAutomationReview(item, ["한 번의 수집 후보가 3건 이상이므로 자동반영하지 않습니다."]);
+      for (const item of candidates) {
+        item.comparison = compareKauItemWithActive(item, activeData);
+        markAutomationReview(item, ["한 번의 수집 후보가 3건 이상이므로 자동반영하지 않습니다."]);
+      }
     } else {
       for (let index = 0; index < candidates.length; index += 1) {
         const item = candidates[index];
@@ -465,10 +599,20 @@ async function runKauRefresh(jobId) {
             state: "cached"
           };
           if (!cached.localFiles.length) throw new Error("게시물 본문 이미지가 없습니다.");
+          updateKauJob({
+            stage: "Drive 업로드",
+            message: `${index + 1}/${candidates.length} 대회 이미지를 지정 Google Drive에 보관하고 공개 주소를 만들고 있습니다.`
+          });
+          await prepareKauImagesForDrive(item, cached);
+          updateKauJob({
+            stage: "이미지 판독",
+            message: `${index + 1}/${candidates.length} 대회 포스터를 Codex로 확인하고 있습니다.`
+          });
           const extraction = await runCodexImageExtraction(item, activeData, cached.localFiles, { cwd: REPO_ROOT });
           const merged = mergeCodexExtraction(item, extraction);
           const eligibility = evaluateAutoEligibility(merged, activeData, candidateCount);
           Object.assign(item, merged);
+          item.comparison = eligibility.comparison;
           item.automation = {
             ...item.automation,
             eligible: eligibility.eligible && autoEnabled,
@@ -486,7 +630,11 @@ async function runKauRefresh(jobId) {
     const autoItems = candidates.filter(item => item.automation?.state === "auto_ready");
     const nextCompetitions = [...activeData.matches.competitions];
     for (const item of autoItems) {
-      const validation = validateMatch(item.draft, { ...activeData, matches: { competitions: nextCompetitions } });
+      const activeDraft = {
+        ...item.draft,
+        ...(item.detailImages?.length ? { detailImages: item.detailImages } : {})
+      };
+      const validation = validateMatch(activeDraft, { ...activeData, matches: { competitions: nextCompetitions } });
       if (validation.blocking) {
         markAutomationReview(item, ["최종 match.json 검증을 통과하지 못했습니다."]);
         continue;
@@ -497,7 +645,7 @@ async function runKauRefresh(jobId) {
         ...(item.review || {}),
         reviewedAt: kstTimestamp(),
         reviewer: "data-studio-auto",
-        note: "이미지 근거와 13필드 안전 규칙을 통과해 자동 반영"
+        note: "이미지 근거, Drive 공개 주소와 일정 안전 규칙을 통과해 자동 반영"
       };
       item.automation.state = "applied";
       item.automation.appliedAt = kstTimestamp();
@@ -598,6 +746,12 @@ export function startKauRefresh(trigger = "manual") {
     startedAt: new Date().toISOString(),
     finishedAt: "",
     candidateCount: 0,
+    scannedCount: 0,
+    agilityCompetitionCount: 0,
+    excludedCount: 0,
+    historicalExcludedCount: 0,
+    newCount: 0,
+    changedCount: 0,
     autoAppliedCount: 0,
     reviewRequiredCount: 0,
     commit: "",
@@ -1078,7 +1232,33 @@ function canonicalMatch(draft) {
     startAt: asIso(String(draft.startAt || "")),
     url: String(draft.url || "").trim()
   };
-  return Object.fromEntries(MATCH_KEYS.map((key) => [key, canonical[key]]));
+  const item = Object.fromEntries(MATCH_KEYS.map((key) => [key, canonical[key]]));
+  if (Object.hasOwn(draft, "eventChair")) {
+    const eventChair = String(draft.eventChair || "").trim();
+    if (eventChair) item.eventChair = eventChair;
+  }
+  if (Object.hasOwn(draft, "detailImages")) {
+    const detailImages = [...new Set((Array.isArray(draft.detailImages) ? draft.detailImages : [])
+      .map(value => String(value || "").trim())
+      .filter(Boolean))];
+    if (detailImages.length) item.detailImages = detailImages;
+  }
+  return item;
+}
+
+function matchKeyContractValid(draft) {
+  const keys = Object.keys(draft || {});
+  if (!MATCH_KEYS.every(key => Object.hasOwn(draft || {}, key))) return false;
+  if (!keys.every(key => ALLOWED_MATCH_KEYS.includes(key))) return false;
+  if (Object.hasOwn(draft, "eventChair")
+      && (typeof draft.eventChair !== "string" || draft.eventChair.trim() === "")) return false;
+  if (Object.hasOwn(draft, "detailImages")) {
+    if (!Array.isArray(draft.detailImages) || draft.detailImages.length === 0) return false;
+    if (!draft.detailImages.every(value => typeof value === "string" && DRIVE_IMAGE_URL_PATTERN.test(value))) {
+      return false;
+    }
+  }
+  return true;
 }
 
 function isIsoOrEmpty(value) {
@@ -1090,8 +1270,7 @@ export function validateMatch(draft, activeData) {
   const missing = ["name", "club", "eventType", "location", "startAt", "endAt"].filter(
     (key) => !item[key]
   );
-  const exactKeys =
-    JSON.stringify(Object.keys(item)) === JSON.stringify(MATCH_KEYS);
+  const exactKeys = matchKeyContractValid(draft);
   const datesValid = [
     item.applicationStartAt,
     item.applicationEndAt,
@@ -1122,7 +1301,7 @@ export function validateMatch(draft, activeData) {
   const checks = [
     {
       id: "schema",
-      label: "13개 필드",
+      label: "13개 core 필드 + 선택 필드",
       detail:
         exactKeys && datesValid && !missing.length
           ? "필수 필드와 ISO 날짜 형식 통과"
@@ -1573,13 +1752,13 @@ async function apiHandler(req, res) {
           },
           {
             label: "운영 정책",
-            value: "13개 필드 · 실제 상세 URL · 3건 이상 푸시 차단"
+            value: "13개 core + 선택 필드 · 실제 상세 URL · 3건 이상 푸시 차단"
           }
         ],
         references: [
           {
             title: "AgilityKorea Active Data Contract",
-            detail: "manifest 진입점, 활성 버전, match 13개 필드 계약",
+            detail: "manifest 진입점, 활성 버전, match core/선택 필드 계약",
             path: "AGILITYKOREA_DATA_VERSIONING.md"
           },
           {
@@ -1661,7 +1840,7 @@ async function apiHandler(req, res) {
         },
         {
           label: "정책 문서",
-          value: "match 13개 필드 · URL 자연키 · 사람 승인 필수"
+          value: "match core/선택 필드 · URL 자연키 · 사람 승인 필수"
         }
       ];
       if (body.mode === "venue") {
@@ -1713,6 +1892,25 @@ async function apiHandler(req, res) {
       return;
     }
 
+    if (req.method === "POST" && req.url === "/api/review/images/upload") {
+      const body = await parseBody(req);
+      if (!body.id) throw new Error("항목 id가 필요합니다.");
+      const found = await findItemInQueues(body.id);
+      if (!found) throw new Error("해당 id의 항목을 찾을 수 없습니다.");
+      if (found.fileMeta.name !== "kau_review_queue.json") {
+        throw new Error("한국어질리티연합 검수 항목만 Drive 이미지 업로드를 지원합니다.");
+      }
+      const uploaded = await prepareKauImagesForDrive(found.item);
+      await saveSingleQueueFile(found.fileMeta, found.data);
+      sendJson(res, 200, {
+        ok: true,
+        id: body.id,
+        urls: uploaded.urls,
+        reusedCount: uploaded.files.filter(file => file.reused).length
+      });
+      return;
+    }
+
     if (req.method === "POST" && req.url === "/api/review/item") {
       const body = await parseBody(req);
       if (!body.id) throw new Error("항목 id가 필요합니다.");
@@ -1754,6 +1952,12 @@ async function apiHandler(req, res) {
       const found = await findItemInQueues(body.id);
       if (!found) throw new Error("해당 id의 항목을 찾을 수 없습니다.");
       const { fileMeta, data, item } = found;
+      if (body.status === "approved"
+          && fileMeta.name === "kau_review_queue.json"
+          && item.sourceClassification?.isAgilityCompetition === true
+          && !item.detailImages?.length) {
+        throw new Error("Drive 이미지 공개 주소를 먼저 준비해야 검수 승인할 수 있습니다.");
+      }
       item.status = body.status;
       if (!item.review) item.review = { reviewedAt: "", reviewer: "", note: "", editedFields: [] };
       if (body.note !== undefined) item.review.note = String(body.note);
@@ -1811,17 +2015,26 @@ async function apiHandler(req, res) {
       const nextCompetitions = [...currentMatches.competitions];
       const changes = [];
       for (const item of approvedItems) {
-        const canonical = canonicalMatch(item.draft);
-        // Validate 13 fields
-        const keys = Object.keys(canonical);
-        if (keys.length !== MATCH_KEYS.length || !MATCH_KEYS.every(k => keys.includes(k))) {
-          throw new Error(`항목 ${item.id}의 draft가 13필드 계약을 만족하지 않습니다.`);
+        const activeDraft = {
+          ...item.draft,
+          ...(item.detailImages?.length ? { detailImages: item.detailImages } : {})
+        };
+        if (item?._source?.key === "kau"
+            && item?.sourceClassification?.isAgilityCompetition === true
+            && !item.detailImages?.length) {
+          throw new Error(`항목 ${item.id}의 Drive 이미지 공개 주소가 준비되지 않았습니다.`);
+        }
+        const canonical = canonicalMatch(activeDraft);
+        // Validate the 13 core fields and supported optional active-data fields.
+        if (!matchKeyContractValid(activeDraft)) {
+          throw new Error(`항목 ${item.id}의 draft가 13개 core 필드와 선택 필드 계약을 만족하지 않습니다.`);
         }
         // Check duplicate URL in existing data
         const existingIdx = nextCompetitions.findIndex(c => c.url && c.url === canonical.url);
         if (existingIdx >= 0) {
-          changes.push({ type: "update", id: item.id, source: item._source, index: existingIdx, before: nextCompetitions[existingIdx], after: canonical });
-          nextCompetitions[existingIdx] = canonical;
+          const mergedCanonical = canonicalMatch({ ...nextCompetitions[existingIdx], ...activeDraft });
+          changes.push({ type: "update", id: item.id, source: item._source, index: existingIdx, before: nextCompetitions[existingIdx], after: mergedCanonical });
+          nextCompetitions[existingIdx] = mergedCanonical;
         } else {
           changes.push({ type: "add", id: item.id, source: item._source, after: canonical });
           nextCompetitions.push(canonical);

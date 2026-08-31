@@ -12,6 +12,10 @@
 5. `package-lock.json`이 바뀐 경우에만 의존성을 갱신합니다.
 6. 분리된 새 서버를 시작하고 `/api/health`의 서비스 식별자, PID, 포트,
    저장소 경로를 확인한 뒤 브라우저를 새로 엽니다.
+7. KAU 대회 이미지는 지정된 `dalti.app@gmail.com` Drive 폴더 ID와 로컬
+   gcloud·cwebp 실행 경로를 서버 환경에 전달합니다. 업로드 전 이미지는 WebP로
+   압축되며, 최초 1회 Drive 권한 승인은
+   상위 `README.md`의 `gcloud auth login ... --enable-gdrive-access` 절차를 따릅니다.
 
 앱은 로컬 `127.0.0.1`에만 바인딩됩니다. 앱이나 외장하드 경로가 바뀌어도
 실행 상태와 로그는 고정된 사용자 라이브러리 경로를 사용합니다.

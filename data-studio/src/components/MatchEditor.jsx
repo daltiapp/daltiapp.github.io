@@ -1,5 +1,5 @@
 import { AlertTriangle, CheckCircle2 } from "lucide-react";
-import { EVENT_TYPES, MATCH_FIELDS } from "../data/defaults";
+import { EVENT_TYPES, MATCH_FIELDS, MATCH_OPTIONAL_KEYS } from "../data/defaults";
 
 function toInputDate(value) {
   return value ? value.slice(0, 16) : "";
@@ -25,7 +25,14 @@ function SourceHint({ field, fieldEvidence }) {
 }
 
 export function MatchEditor({ draft, onChange, fieldEvidence }) {
-  const update = (field, value) => onChange({ ...draft, [field]: value });
+  const update = (field, value) => {
+    const next = { ...draft };
+    const emptyOptional = MATCH_OPTIONAL_KEYS.includes(field)
+      && (Array.isArray(value) ? value.length === 0 : String(value || "").trim() === "");
+    if (emptyOptional) delete next[field];
+    else next[field] = value;
+    onChange(next);
+  };
   return (
     <section className="editor-panel" aria-labelledby="draft-title">
       <div className="panel-title">
@@ -42,7 +49,7 @@ export function MatchEditor({ draft, onChange, fieldEvidence }) {
                 {type === "select" ? (
                   <select
                     id={`field-${field}`}
-                    value={value}
+                    value={value || EVENT_TYPES[0]}
                     onChange={(event) => update(field, event.target.value)}
                   >
                     {EVENT_TYPES.map((option) => (
@@ -52,7 +59,7 @@ export function MatchEditor({ draft, onChange, fieldEvidence }) {
                 ) : type === "select-status" ? (
                   <select
                     id={`field-${field}`}
-                    value={value}
+                    value={value || "detail_ready"}
                     onChange={(event) => update(field, event.target.value)}
                   >
                     <option value="detail_ready">detail_ready</option>
@@ -64,10 +71,10 @@ export function MatchEditor({ draft, onChange, fieldEvidence }) {
                     type={type === "list" ? "text" : type}
                     value={
                       type === "list"
-                        ? value.join(", ")
+                        ? (Array.isArray(value) ? value : []).join(", ")
                         : type === "datetime-local"
                           ? toInputDate(value)
-                          : value
+                          : value || ""
                     }
                     onChange={(event) =>
                       update(

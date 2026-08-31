@@ -21,12 +21,19 @@ macOS 실행 아이콘은 `macos/README.md`의 외장하드 권한, 재실행, �
 ## KAU 가벼운 자동화
 
 - 백그라운드 데몬을 두지 않습니다. macOS 앱을 열 때와 `새 게시물 확인`을 누를 때만 실행합니다.
-- 게시글 이미지는 Git에 넣지 않고 `~/Library/Caches/Dalti Data Studio/kau`에만 저장합니다.
+- `agility.co.kr/17` 게시판에서 제목에 **어질리티 종목 근거와 실제 대회 유형 근거가 모두 있는 글만** 후보로 사용합니다. 오비디언스·도그댄스·세미나·결과/명단·업데이트 공지는 제외합니다.
+- 활성 JSON에 없는 과거 종료 대회는 첫 실행의 신규 검수 큐를 오염시키지 않도록 원본 기준선에만 기록합니다. 단, 같은 상세 URL의 기존 일정 변경은 과거 일정이어도 검수 대상으로 유지합니다.
+- 게시글 이미지는 Git에 넣지 않고 `~/Library/Caches/Dalti Data Studio/kau`에서 먼저 검증합니다.
+- 실제 어질리티 대회 이미지는 지정된 달티 Gmail Drive에 source id+SHA 기반 이름으로 업로드하고,
+  파일별 공개 직접보기 주소를 일정의 선택 필드 `detailImages`에 저장합니다.
+- 업로드 전 긴 변을 최대 2400px로 낮추고 WebP 품질 88로 재인코딩해 용량을 줄입니다. 투명도가 있는 PNG도 WebP로 보존하며,
+  변환 도구를 사용할 수 없을 때만 원본 형식으로 안전하게 대체합니다.
 - Codex CLI의 기존 ChatGPT 로그인을 사용합니다. API 키를 저장하지 않습니다.
 - 첫 실행은 현재 게시물 지문을 `review/schedule/kau_source_state.json`에 기준선으로만 기록합니다.
-- 이후 신규 1~2건 중 정확한 13필드, 상세 idx URL, 장소/주최/종류 정규화, 이미지 원문 근거,
+- 이후 신규 1~2건 중 13개 core 필드, 상세 idx URL, 장소/주최/종류 정규화, 이미지 원문 근거와 Drive 공개 주소,
   중복 없음, 경고 없음 조건을 모두 통과한 항목만 `match.json`과 manifest에 자동 반영합니다.
 - 기존 일정 변경, 모호한 판독, 이미지 없음, 후보 3건 이상은 `kau_review_queue.json`에만 남깁니다.
+- 주최·장소·대회유형·경기종목은 활성 JSON의 기존 값을 정규화표로 사용합니다. 새 값 또는 다른 표기는 자동 반영하지 않고 검수 화면에 규칙 불일치와 기존/수집 값을 표시합니다.
 - 한 작업의 queue/state/match/manifest는 명시 파일만 같은 커밋으로 푸시합니다. FCM과 Telegram은 호출하지 않습니다.
 
 실행 제어 환경변수:
@@ -38,10 +45,21 @@ macOS 실행 아이콘은 `macos/README.md`의 외장하드 권한, 재실행, �
 | `DALTI_KAU_MAX_PAGES` | `10` | 게시판 확인 최대 페이지 |
 | `DALTI_KAU_CACHE_DIR` | macOS 사용자 캐시 | 이미지 로컬 캐시 경로 |
 | `DALTI_SCRAPER_REPO_DIR` | 데이터 저장소의 형제 `agility-scraper` | 수집기 저장소 |
+| `DALTI_KAU_DRIVE_FOLDER_ID` | 없음 | KAU 이미지를 넣을 달티 Gmail Drive 폴더 ID |
+| `DALTI_GDRIVE_ACCOUNT` | gcloud 활성 계정 | Drive 권한을 가진 Google 계정 |
+| `DALTI_GCLOUD_BIN` | `gcloud` | gcloud 실행 파일 절대경로(macOS 앱은 설치 경로를 자동 지정) |
+| `DALTI_CWEBP_BIN` | `cwebp` | WebP 압축 실행 파일 경로(없으면 원본 형식으로 대체) |
+
+Drive 자동 업로드를 처음 사용하기 전에 로컬 Mac에서 한 번만 아래 권한을 승인합니다.
+access token은 저장소나 로그에 기록하지 않고 gcloud 자격 증명에서 실행 시점에만 가져옵니다.
+
+```sh
+gcloud auth login dalti.app@gmail.com --enable-gdrive-access
+```
 
 ## 화면 구조
 
-앱 진입 시 **검수 큐**가 기본 화면이며 목록·원본 이미지·13필드 편집기의 3열 구조입니다.
+앱 진입 시 **검수 큐**가 기본 화면이며 목록·원본 이미지·13개 core 필드 및 선택 필드 편집기의 3열 구조입니다.
 
 | 순번 | 항목 | 설명 |
 |---:|---|---|
@@ -89,7 +107,7 @@ macOS 실행 아이콘은 `macos/README.md`의 외장하드 권한, 재실행, �
 1. **큐 조회**: `GET /api/review/queue`로 전체 큐를 로드합니다. 응답에는
    `sources` 배열(소스별 key, label, file, generatedAt, counts)이 포함됩니다.
    `전체 / 확인 필요 / 처리 완료` 탭으로 항목을 탐색합니다.
-2. **검수**: 항목을 선택하면 상세 패널에서 13개 필드, `fieldEvidence`, `warnings`,
+2. **검수**: 항목을 선택하면 상세 패널에서 13개 core 필드와 선택 필드, `fieldEvidence`, `warnings`,
    이미지를 확인합니다. 소스 배지로 한국애견연맹/한국어질리티연합을 구분합니다.
    `required` 경고가 있으면 수동 보완이 필요합니다.
    `POST /api/review/item`으로 값을 채우면 해당 필드의 경고가 자동으로 해제됩니다.
@@ -116,6 +134,7 @@ Telegram 발송을 호출하지 않습니다.
 | POST | `/api/review/status` | 항목 상태 전환 (해당 소스 파일만 갱신) |
 | POST | `/api/review/preview` | 반영 diff 미리보기 (여러 소스 혼합 가능, 파일 미수정) |
 | POST | `/api/review/apply` | 승인 항목 활성 match.json + manifest + 큐 파일 반영 (단일 커밋) |
+| POST | `/api/review/images/upload` | KAU 캐시 이미지를 Drive에 멱등 업로드하고 `detailImages` 갱신 |
 | POST | `/api/kau/refresh` | KAU 수집 작업 시작(중복 실행 시 현재 작업 반환) |
 | GET | `/api/kau/job` | 단계·진행률·후보·자동반영·오류 상태 조회 |
 | GET | `/api/kau/cache?key=...` | 허용된 로컬 KAU 캐시 이미지 조회 |
@@ -126,7 +145,7 @@ Telegram 발송을 호출하지 않습니다.
 
 ## 데이터별 정책
 
-- 대회: 활성 `files.match`의 정확한 13개 필드를 유지합니다.
+- 대회: 활성 `files.match`의 13개 core 필드와 선택 `eventChair`/`detailImages` 계약을 유지합니다.
 - 장소: 활성 `files.venue`의 이름·주소·좌표·사진 구조를 유지합니다.
 - 공지: 목록과 상세 JSON을 직접 수정하지 않습니다. 공식 수집 스크립트의
   재생성·배포 경로만 허용하는 읽기 전용 관리 화면입니다.

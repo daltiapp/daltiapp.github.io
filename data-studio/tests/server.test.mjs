@@ -174,12 +174,12 @@ test("검수 큐 자체 변경은 허용하되 다른 산출물 변경은 차단
 
 test("활성 manifest에서 실제 JSON을 해석한다", async () => {
   const data = await loadActiveData();
-  assert.equal(data.manifest.basePath, "/ak/v2");
+  assert.equal(data.manifest.basePath, "/ak/v3");
   assert.ok(data.matches.competitions.length > 0);
   assert.ok(data.venues.venues.length > 0);
   assert.ok(data.notices.items.length > 0);
-  assert.match(data.matchPath, /\/ak\/v2\/match\/match\.json$/);
-  assert.match(data.venuePath, /\/ak\/v2\/venue\/venue\.json$/);
+  assert.match(data.matchPath, /\/ak\/v3\/match\/match\.json$/);
+  assert.match(data.venuePath, /\/ak\/v3\/venue\/venue\.json$/);
 });
 
 test("저장소 상태에서 브랜치와 원격 동기화 정보를 제공한다", async () => {
@@ -203,7 +203,7 @@ test("원문에서 알려진 장소와 날짜를 대회 초안으로 추출한�
   assert.ok(result.draft.matchTypes.includes("비기너"));
 });
 
-test("대회는 정확한 13개 필드와 중복을 검사한다", async () => {
+test("대회는 13개 core 필드와 중복을 검사한다", async () => {
   const data = await loadActiveData();
   const existing = data.matches.competitions[0];
   const validation = validateMatch(existing, data);
@@ -220,9 +220,35 @@ test("대회는 정확한 13개 필드와 중복을 검사한다", async () => {
     "matchTypes",
     "name",
     "startAt",
-    "url"
+    "url",
+    "detailImages"
   ]);
   assert.equal(validation.blocking, true);
+});
+
+test("대회의 eventChair와 공개 Drive detailImages 선택 필드를 보존한다", async () => {
+  const data = await loadActiveData();
+  const existing = data.matches.competitions[0];
+  const candidate = {
+    ...existing,
+    name: `${existing.name} 이미지 계약 테스트`,
+    url: "https://www.agility.co.kr/17/?bmode=view&idx=999999991&t=board",
+    eventChair: "테스트 대회장",
+    eventType: "대회",
+    location: "테스트 장소",
+    judge: ["테스트 심사위원"],
+    detailImages: ["https://drive.google.com/uc?export=view&id=drivePoster123"]
+  };
+  const validation = validateMatch(candidate, data);
+  assert.equal(validation.blocking, false);
+  assert.equal(validation.item.eventChair, "테스트 대회장");
+  assert.deepEqual(validation.item.detailImages, candidate.detailImages);
+
+  const invalid = validateMatch({
+    ...candidate,
+    detailImages: ["https://example.com/poster.jpg"]
+  }, data);
+  assert.equal(invalid.blocking, true);
 });
 
 test("장소 좌표 범위와 중복을 검사한다", async () => {
@@ -342,13 +368,14 @@ test("KKF 항목 수정 시 KAU 파일은 바뀌지 않음", async () => {
   });
 });
 
-test("13필드 외 키가 draft에 있으면 거부한다", async () => {
-  const MATCH_KEYS = [
+test("core 및 선택 필드 외 키가 draft에 있으면 거부한다", async () => {
+  const ALLOWED_MATCH_KEYS = [
     "applicationEndAt", "applicationStartAt", "club", "detailNotice", "detailStatus",
-    "endAt", "eventType", "judge", "location", "matchTypes", "name", "startAt", "url"
+    "endAt", "eventType", "judge", "location", "matchTypes", "name", "startAt", "url",
+    "eventChair", "detailImages"
   ];
   const invalidDraft = { name: "수정", invalidField: "bad", anotherBad: "x" };
-  const invalidKeys = Object.keys(invalidDraft).filter(k => !MATCH_KEYS.includes(k));
+  const invalidKeys = Object.keys(invalidDraft).filter(k => !ALLOWED_MATCH_KEYS.includes(k));
   assert.ok(invalidKeys.length > 0);
   assert.ok(invalidKeys.includes("invalidField"));
   assert.ok(invalidKeys.includes("anotherBad"));

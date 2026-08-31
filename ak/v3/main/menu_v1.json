@@ -1,0 +1,39 @@
+{
+  "menu_list": [
+    {
+      "id": "agility",
+      "title": "어질리티",
+      "isActive": true
+    },
+    {
+      "id": "obstacle",
+      "title": "어질리티 장애물",
+      "isActive": true
+    },
+    {
+      "id": "size",
+      "title": "체고 기준",
+      "isActive": true
+    },
+    {
+      "id": "notice",
+      "title": "공지사항",
+      "isActive": true
+    },
+    {
+      "id": "competition",
+      "title": "대회일정",
+      "isActive": true
+    },
+    {
+      "id": "seminar",
+      "title": "세미나",
+      "isActive": true
+    },
+    {
+      "id": "global",
+      "title": "세계대회",
+      "isActive": true
+    }
+  ]
+}

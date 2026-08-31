@@ -16,10 +16,10 @@ function itemAutomationLabel(item) {
 }
 
 function Pipeline({ job }) {
-  const stages = ["게시판 확인", "이미지 캐시", "Codex 판독", "규칙 검증", "반영"];
+  const stages = ["게시판 확인", "이미지 캐시", "Drive 업로드", "Codex 판독", "규칙 검증", "반영"];
   const activeIndex = job?.status === "running"
-    ? Math.min(4, Math.floor((job.progress || 0) / 20))
-    : job?.status === "completed" ? 4 : 0;
+    ? Math.min(stages.length - 1, Math.floor((job.progress || 0) / (100 / stages.length)))
+    : job?.status === "completed" ? stages.length - 1 : 0;
   return (
     <div className="review-pipeline" aria-label="자동 수집 진행 단계">
       {stages.map((stage, index) => (
@@ -39,6 +39,7 @@ export function ReviewQueue({ onToast, health, onNavigate }) {
   const [checkedIds, setCheckedIds] = useState(new Set());
   const [filter, setFilter] = useState("all");
   const [previewData, setPreviewData] = useState(null);
+  const [uploadingImageId, setUploadingImageId] = useState(null);
 
   const loadQueue = useCallback(async () => {
     const data = await api.reviewQueue();
@@ -80,6 +81,7 @@ export function ReviewQueue({ onToast, health, onNavigate }) {
   const items = useMemo(() => {
     const all = queue?.items || [];
     if (filter === "needs") return all.filter(item => item.status === "pending_review");
+    if (filter === "changed") return all.filter(item => item.diffKind === "changed");
     if (filter === "done") return all.filter(item => item.status !== "pending_review");
     return all;
   }, [queue, filter]);
@@ -127,6 +129,19 @@ export function ReviewQueue({ onToast, health, onNavigate }) {
     }
   }
 
+  async function handleUploadImages(id) {
+    setUploadingImageId(id);
+    try {
+      const result = await api.reviewImageUpload({ id });
+      await loadQueue();
+      onToast(`Drive에 대회 이미지 ${result.urls.length}장을 준비했습니다.`);
+    } catch (error) {
+      onToast(error.message);
+    } finally {
+      setUploadingImageId(null);
+    }
+  }
+
   async function handlePreview() {
     const chosen = checkedIds.size ? [...checkedIds] : selectedItem ? [selectedItem.id] : [];
     const ids = chosen.filter(id => (queue?.items || []).some(item => item.id === id && item.status === "approved"));
@@ -168,7 +183,7 @@ export function ReviewQueue({ onToast, health, onNavigate }) {
           <button className="manual-tools" type="button" onClick={() => onNavigate?.("match")}>수동 데이터</button>
           <button className="refresh-posts" type="button" onClick={refreshKau} disabled={job?.status === "running"}>
             {job?.status === "running" ? <LoaderCircle className="spin" size={19} /> : <RefreshCw size={19} />}
-            새 게시물 확인
+            agility.co.kr 확인
           </button>
         </header>
 
@@ -179,6 +194,9 @@ export function ReviewQueue({ onToast, health, onNavigate }) {
             <h1>검수 큐</h1>
             <button className={filter === "all" ? "is-active" : ""} onClick={() => setFilter("all")} type="button">전체</button>
             <button className={filter === "needs" ? "is-active" : ""} onClick={() => setFilter("needs")} type="button">확인 필요</button>
+            <button className={filter === "changed" ? "is-active" : ""} onClick={() => setFilter("changed")} type="button">
+              변경 {queue?.counts?.changed || 0}
+            </button>
             <button className={filter === "done" ? "is-active" : ""} onClick={() => setFilter("done")} type="button">처리 완료</button>
           </div>
           <div className="queue-items" role="listbox">
@@ -221,11 +239,17 @@ export function ReviewQueue({ onToast, health, onNavigate }) {
         </section>
 
         {selectedItem ? (
-          <ReviewDetail item={selectedItem} onStatusChange={handleStatusChange} onItemEdit={handleItemEdit} />
+          <ReviewDetail
+            item={selectedItem}
+            onStatusChange={handleStatusChange}
+            onItemEdit={handleItemEdit}
+            onUploadImages={handleUploadImages}
+            uploadingImages={uploadingImageId === selectedItem.id}
+          />
         ) : (
           <>
             <section className="review-evidence-panel empty-panel"><Inbox size={44} /><strong>검수할 항목을 선택하세요</strong></section>
-            <section className="review-editor-panel empty-panel"><span>13필드 초안과 검증 결과가 여기에 표시됩니다.</span></section>
+            <section className="review-editor-panel empty-panel"><span>13개 core 필드와 선택 필드 검증 결과가 여기에 표시됩니다.</span></section>
           </>
         )}
 
@@ -234,7 +258,12 @@ export function ReviewQueue({ onToast, health, onNavigate }) {
           <span className={job?.status === "failed" ? "is-error" : ""}>
             <i /> {job?.message || "수집 작업 대기 중"}
           </span>
-          <span><i /> 후보 {job?.candidateCount || 0}건</span>
+          <span><i /> 확인 {job?.scannedCount || 0}건</span>
+          <span><i /> 어질리티 {job?.agilityCompetitionCount || 0}건</span>
+          <span title={`종목 외/공지 제외 ${(job?.excludedCount || 0) - (job?.historicalExcludedCount || 0)}건 · 지난 신규 ${job?.historicalExcludedCount || 0}건`}>
+            <i /> 제외 {job?.excludedCount || 0}건
+          </span>
+          <span><i /> 신규 {job?.newCount || 0} · 변경 {job?.changedCount || 0}</span>
           <span><i /> 자동 반영 {job?.autoAppliedCount || 0}건</span>
           <button type="button" onClick={handlePreview} disabled={!selectedItem || selectedItem.status !== "approved"}>반영 미리보기</button>
         </footer>

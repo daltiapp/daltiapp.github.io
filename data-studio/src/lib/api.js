@@ -35,6 +35,8 @@ export const api = {
     request("/api/review/preview", { method: "POST", body: JSON.stringify(body) }),
   reviewApply: (body) =>
     request("/api/review/apply", { method: "POST", body: JSON.stringify(body) }),
+  reviewImageUpload: (body) =>
+    request("/api/review/images/upload", { method: "POST", body: JSON.stringify(body) }),
 
   kauJob: () => request("/api/kau/job"),
   kauRefresh: () => request("/api/kau/refresh", { method: "POST" }),
