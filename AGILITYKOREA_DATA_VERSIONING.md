@@ -47,7 +47,7 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 ## 세미나 규칙
 
 - v1 세미나 JSON은 `/ak/v1/seminar/seminar.json`에 보존한다.
-- 현재 활성 v3 일정 JSON은 종료된 어질리티 대회 48건과 Drive 공개 이미지 `detailImages`를 포함한다.
+- 현재 활성 v3 일정 JSON은 기존 대회 이력 56건을 기준으로 하며, agility.co.kr 상세 URL·날짜가 일치한 10건에 Drive 공개 이미지 `detailImages` 98개를 포함한다.
 - v3는 v2와 동일한 schemaVersion 2의 호환 가능한 데이터 재생성 버전이며, rollback은 manifest만 되돌린다.
 - `listImage`는 목록에 표시할 선수 이미지 URL이다. 등록 전에는 빈 문자열로 둔다.
 - `detailImages`는 상세 화면에 표시할 이미지 URL 문자열 배열이다. 이미지가 확인되지 않은 항목은 빈 배열로 둔다.

@@ -1,990 +1,83 @@
 {
   "competitions": [
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
+      "applicationEndAt": "2025-09-10T23:59:59",
+      "applicationStartAt": "2025-08-18T00:00:00",
+      "club": "KCMC",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2022-02-20T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2022.02. 20 LEEZ Agility Championship",
-      "startAt": "2022-02-20T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=9879415&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1y582oG8-KBKtuq5ewYyQ7HTm1NgEnL2P",
-        "https://drive.google.com/uc?export=view&id=1eb60d9GYHj9XenEPZpN0A1cMxXD_-Bqu",
-        "https://drive.google.com/uc?export=view&id=1TOv3ev08w5EBlgTr2lfpw_wt-zMDc2Jl",
-        "https://drive.google.com/uc?export=view&id=1o0k5GicLKw3WnrSB9Zg_M3Jjv1GCfoJ1",
-        "https://drive.google.com/uc?export=view&id=1g5jv1qlzmtJR5TMRqOnuBvVutPZu7HWK",
-        "https://drive.google.com/uc?export=view&id=1akr-6EF9Hd0Eq_j_7fZYRos8cQeaRXh2",
-        "https://drive.google.com/uc?export=view&id=1gr0EXE3gypYYNoEgu47pIVI8AYsBWTWN",
-        "https://drive.google.com/uc?export=view&id=16iCEFre8xIQ5h4fQtMn8_JAf5C636qy9",
-        "https://drive.google.com/uc?export=view&id=16uER4Tiak8KRCtxT64ASZt5U0R-R3-Ea",
-        "https://drive.google.com/uc?export=view&id=1cOYHId7yGtckRPcDfKpQs5jZNi5lzX3O"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-04-24T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2022.04.24 LEEZ Agility Championship",
-      "startAt": "2022-04-24T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=11185260&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1oIqClZt9a7DxYr0azJuspWP0-Rdnk4Iy",
-        "https://drive.google.com/uc?export=view&id=1y1UUg7S8uU7ktxSyi6B7zZ2m6WqIvxcx",
-        "https://drive.google.com/uc?export=view&id=1vEi54UZFYLXATN59fHAdlMbKysGOFjmn",
-        "https://drive.google.com/uc?export=view&id=1n79vtYEmPLH5j4TAU4X2o7RR3tvvug6h",
-        "https://drive.google.com/uc?export=view&id=14qzlgwVgi5__XRlCfLQ0ruik1uLSBhjk"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-05-14T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2022.05. 14 LEEZ Agility Championship",
-      "startAt": "2022-05-14T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=11185211&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1lJsz8lLz4nhxcWVTtvBdxE-DuGC9sVR8",
-        "https://drive.google.com/uc?export=view&id=19ILN9UrqElErNOyWhgBn1J-sk0w1GMc3",
-        "https://drive.google.com/uc?export=view&id=1yaLSciDgOdLsVrcCkogZx0stuKkaxhOi",
-        "https://drive.google.com/uc?export=view&id=13uJDmZIMaZcujti8ke5xVp1wDosv44A2",
-        "https://drive.google.com/uc?export=view&id=14DVhIm9s5IiSMpXGsUaGFzxDomgkG8gx",
-        "https://drive.google.com/uc?export=view&id=1zfj3J-GZzPnxqfpvqtf_mMVHkBLuq24f",
-        "https://drive.google.com/uc?export=view&id=1hP56A2KtxgGTPmN3efHsXX-LXCZHX8K1",
-        "https://drive.google.com/uc?export=view&id=18sGZaSX8yMIyxzWE0A7qgUEHBPeQ_DQN",
-        "https://drive.google.com/uc?export=view&id=18TSQy_vPhb2ZBWJwUu0KAsaGiFA5ZMYl",
-        "https://drive.google.com/uc?export=view&id=1kWbozQV4foSjebevNqORbzUYdwT6_kYO"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-07-09T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2022.07.09 포춘테일xKKA LEEZ Agility Championship",
-      "startAt": "2022-07-09T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=11857124&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1LqGF8ZvUJyx8TtG7URAe1g8DmN4swhuX",
-        "https://drive.google.com/uc?export=view&id=1yW18FI-Kzd06TXAqF1IFcfbGKw20Tbqt",
-        "https://drive.google.com/uc?export=view&id=1joX8kEFdKsXQJXIULn_Hu9qmofPyJNhm",
-        "https://drive.google.com/uc?export=view&id=1ppquY6nSsP0GTz2Wk7nrUKcECU2F7nIA",
-        "https://drive.google.com/uc?export=view&id=1WmTVhSJRNj0b2y5ff7PPvtBLA7_pvjr2",
-        "https://drive.google.com/uc?export=view&id=1BS9fpfmL0V2xJyne_FsU7teV-8fiWnrt",
-        "https://drive.google.com/uc?export=view&id=1nHgRyqzk2jDz7ggts3ZO9U-ra37JavIY",
-        "https://drive.google.com/uc?export=view&id=1jcli1jedsxvQTp7DH-MT94jBovvcNZBn",
-        "https://drive.google.com/uc?export=view&id=13H6pI13-jZUBaAL80GNCwX7rLX3cQo9I",
-        "https://drive.google.com/uc?export=view&id=1Y_GR1H2idQ2xmtW3nJfi4FRn8UoRox_V"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-08-13T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "제 25회 KKF 코리아어질리티클럽 클럽전(승급)",
-      "startAt": "2022-08-13T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=12389213&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1MmlbF-WLaJo8S82OuWglXhuT7FBxarNY",
-        "https://drive.google.com/uc?export=view&id=1mNGw_JzGzzDW6f72vXojYjP3ig7jdP6T",
-        "https://drive.google.com/uc?export=view&id=1_6szlo92Ax3mnfNCnwwfVFKZkisjeyd9",
-        "https://drive.google.com/uc?export=view&id=1TrwMWAdOqCG46WkA334nulEI5p5h3qkW",
-        "https://drive.google.com/uc?export=view&id=11KjbivLDvo2eYDROuYjxLyloTNyuMTlu",
-        "https://drive.google.com/uc?export=view&id=1Za7vEr7tbay4B5w7TukW7eZ4_SzFW-ft",
-        "https://drive.google.com/uc?export=view&id=1B6UZ-sGLP46w1bCzzCey2rAixDKHBrC-"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-09-18T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2022.09.17~09.18 종근당 바이오 LEEZ Agility Championship",
-      "startAt": "2022-09-17T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=12645474&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1M4z2LOoyV2J-S3HFGUOtD5Y60vuBMok1",
-        "https://drive.google.com/uc?export=view&id=1hcQs-4lRrnRGkuG1WsUSX1-aAYLbUzP9",
-        "https://drive.google.com/uc?export=view&id=1BSf6NpdvLxGrIkLQb5jayMtRTjhGxA2A",
-        "https://drive.google.com/uc?export=view&id=10iKs8y6-fAuiWi9ZOE1jcKeWvTrPZ9bT",
-        "https://drive.google.com/uc?export=view&id=1f7MR_1MuUR9s7aR86vKkujXAd2jd4huw",
-        "https://drive.google.com/uc?export=view&id=1NzxFvA7oMinE_RCBeWn1OnYVb75NdbrI",
-        "https://drive.google.com/uc?export=view&id=1RDV4JQgp3jbrHE7buLA-3p8V1LTpuOuq",
-        "https://drive.google.com/uc?export=view&id=1YB2K2bACCtrMevu8uVMXRK7K-S5yU6Lh",
-        "https://drive.google.com/uc?export=view&id=1XTCmcgobFtOecRiCZ8Cy1_9cRH6l5r98",
-        "https://drive.google.com/uc?export=view&id=1ya2D5K3Zzzx7wYIGQY95DGT7t-FWEef2"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-10-23T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "제 26회 KKF 코리아어질리티클럽 클럽전(승급)",
-      "startAt": "2022-10-23T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=12992216&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1D9mOBG5FTD1HNAFZod1txW3IA2XLlqTl",
-        "https://drive.google.com/uc?export=view&id=19uAF0gjsJwjBJTD6hRuYZZiHiCIKrPFl",
-        "https://drive.google.com/uc?export=view&id=1NNM0bs5LtNni9clBmGL9LrU0QJUdGdeH",
-        "https://drive.google.com/uc?export=view&id=1p2V7iVQ4RBt7bELfkcoPxAhJ85cvjwER",
-        "https://drive.google.com/uc?export=view&id=1Ogy9bjuFXVm42mcM1d-Yhxxe4nym7BZ1",
-        "https://drive.google.com/uc?export=view&id=1hZEdgyMInhGCL68Zf_SPMgPJEgzkaSBl",
-        "https://drive.google.com/uc?export=view&id=1s8iU83HcUxvntuhSWHoAvgKjOIcYEHrs",
-        "https://drive.google.com/uc?export=view&id=1YvT7CgikIT7GYKUYjzBNi8mZDGnx5lRW",
-        "https://drive.google.com/uc?export=view&id=1uDSacG_ETeebxPoPxNARlxMsK51ZPLJm",
-        "https://drive.google.com/uc?export=view&id=1G2RLZuosrFVS1vU0rDyGLYPd9mmdXPUo"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-11-26T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "제 28회 KKF 코리아어질리티클럽 클럽전(승급)",
-      "startAt": "2022-11-26T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=13366674&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1e4TxYf4A5SuhB_vjkFWpqduP2evsRf1N",
-        "https://drive.google.com/uc?export=view&id=1JmOebHUyf8punStQMbfd8iYH6w73sz_M",
-        "https://drive.google.com/uc?export=view&id=1LhpjihNDdqdpbum-sPlOrirYG6T2kJj5",
-        "https://drive.google.com/uc?export=view&id=1DgO1-GD6rnHMux9DwjKd6GchDzpgTtIy",
-        "https://drive.google.com/uc?export=view&id=1pp9pOIM-TOvIT40hmZv9eIhy4UToSbfD",
-        "https://drive.google.com/uc?export=view&id=14drUPMbsH3TFwsaC3v07ZT3LrkHGTDK5",
-        "https://drive.google.com/uc?export=view&id=1hSSghkSkEpBVZ1etMmdig8CSvAEXgsfH"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-12-17T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2022.12.17 리깁슨 LEEZ 4차 어질리티 대회",
-      "startAt": "2022-12-17T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=13550997&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1eMaNqTA9VP6TyU1CjEioFjc-6hSd-Ol-",
-        "https://drive.google.com/uc?export=view&id=1Geq9JRY4gUfg_IbyZFXZuCifWVu4KJ8H",
-        "https://drive.google.com/uc?export=view&id=1qNNIUGhfNQ9A1qrZaoelkgCo00-_TIKD",
-        "https://drive.google.com/uc?export=view&id=1qjugIwCFHVjD-O7cuxHOta3mZu3RHR6I",
-        "https://drive.google.com/uc?export=view&id=1Q0LOOTdURvr28BY0UTH_goEV5BdKXIrk",
-        "https://drive.google.com/uc?export=view&id=14KTOmo92hH5dFWAliL72GCYJnUwEePMb",
-        "https://drive.google.com/uc?export=view&id=1xv_D0S4tDrXhRX9T1BvISzZyYGz3lOFu",
-        "https://drive.google.com/uc?export=view&id=1aLHkZn4bQXuGGGn8iWSo16sBGlrNVQG2",
-        "https://drive.google.com/uc?export=view&id=1JXLnbLh4fWcOwe6qwTf026i_n4769qJZ",
-        "https://drive.google.com/uc?export=view&id=1ud0H3CXo6RDmGkZDFR9hmWDz3OfaXdS0",
-        "https://drive.google.com/uc?export=view&id=1_KCBWh3JcwlDih7yfqu_WNhCRr5IKvNl"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2022-12-31T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "제 29회 KKF 코리아어질리티클럽 클럽전(승급)",
-      "startAt": "2022-12-31T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=13623668&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=19oCYxerHHtSnTdVEuXNJgtQcpjDvkXZE",
-        "https://drive.google.com/uc?export=view&id=176zmPGrqCNgE0wXfkTfYZwV6I2YjHjB8",
-        "https://drive.google.com/uc?export=view&id=10kcTS-ZuUddhHzTVwA9GD52qObF1KKkZ",
-        "https://drive.google.com/uc?export=view&id=1_DdiU05AH9B_w1481LBa2yKYJK-hr69d",
-        "https://drive.google.com/uc?export=view&id=1X3GvmehwNyW9lRxKM4nAv_2CQO5XFPj4",
-        "https://drive.google.com/uc?export=view&id=1Muj3_mqcAKTxi6434KvP_iiB5hB9PM9o",
-        "https://drive.google.com/uc?export=view&id=1zsF-1vLh7OxgTjZR1rlfB68wGWFKP_jt",
-        "https://drive.google.com/uc?export=view&id=1Svq4OTAfIHrV9F_jZR8jGY1u-EFTL8T9",
-        "https://drive.google.com/uc?export=view&id=1TJNiGqQ124x0eZsASfqq6Z_zJ2J92fyD",
-        "https://drive.google.com/uc?export=view&id=1CjXpvkStRDoU-th_uvBcRWx7nB9ujU08"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-02-18T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "제 31회 KKF 코리아어질리티클럽 클럽전(승급)",
-      "startAt": "2023-02-18T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=14094833&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=15AYJhsVP4CyrqArCkB0vvTzjpOkLy2Y_",
-        "https://drive.google.com/uc?export=view&id=1-uCYWCsZyVMgY26xrKffapnBZ2BTS8-E",
-        "https://drive.google.com/uc?export=view&id=1ZVNkxEKy4bwfsd2IFbcafTMyCIHcfA1E",
-        "https://drive.google.com/uc?export=view&id=1lWXVIVb7B2P5KSn8rgzBsXUs_3cYQ4-g",
-        "https://drive.google.com/uc?export=view&id=1jns0l__g2Gtm3ZI-v3xO1SnLMdJ-piWq",
-        "https://drive.google.com/uc?export=view&id=19lUDu8Uc0eboHGrL-q10yulQ4lF8rd7k",
-        "https://drive.google.com/uc?export=view&id=1w1mkzmqpaK8dP0m5aONELpV_mRugkJM5",
-        "https://drive.google.com/uc?export=view&id=17jW1Y_4bEBivw_fmFuklRJTurr7C-QQW",
-        "https://drive.google.com/uc?export=view&id=1ep09w17IuVz32y8d8lIevSIYpB_qa0gb"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-03-18T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2023.3.18-19 LEEZ 5차 어질리티 대회",
-      "startAt": "2023-03-18T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=14142652&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1o9jgiF4IJ_qg13tdYxH-4C7p6CFC2SdZ",
-        "https://drive.google.com/uc?export=view&id=1oQN2fsSfadIVp_HzwaQRAckCWSe0pYJ-",
-        "https://drive.google.com/uc?export=view&id=1wildN37cLHrRAuzFm5o_rNMRYMq8ujtU",
-        "https://drive.google.com/uc?export=view&id=15wJe_vOX5QjyKlEmuehC_k7MIgxW4vQv",
-        "https://drive.google.com/uc?export=view&id=16dERSFNqB7FgUeefoe5FHRHfmqSQEpUI",
-        "https://drive.google.com/uc?export=view&id=1vgiSp5K037qviq3KXtmnJ_4W8K2aXkI8",
-        "https://drive.google.com/uc?export=view&id=1rb8JxgFkZWQKv4nZwadM1cYAISrj9UHc",
-        "https://drive.google.com/uc?export=view&id=1CXZ-x204zivDa9-KFLwl89hCS0BjM0mC",
-        "https://drive.google.com/uc?export=view&id=1B-WOMnff4UfbZnga0jxAfevxL9OmkYBA",
-        "https://drive.google.com/uc?export=view&id=1wzBWh74z0G8RST4vw29HH4G6w7nj6ylU",
-        "https://drive.google.com/uc?export=view&id=1pb-cS9uue-dVmiW1GMfxgmlFtawh8ey4"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-04-23T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [
-        "비기너",
-        "노비스"
-      ],
-      "name": "KKF 코리아어질리티클럽 점어/비노 클럽전(승급)",
-      "startAt": "2023-04-23T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=14646809&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1hLOdMr8648NJG6cbgoCp42sgCx35W8ue",
-        "https://drive.google.com/uc?export=view&id=1z1j-zE0toB1_5AmG6ngTrZ0AJULwovYn",
-        "https://drive.google.com/uc?export=view&id=1_Q0FWCj2-m7H8_k6xlYnFLd0HBEZGWRu",
-        "https://drive.google.com/uc?export=view&id=1EnJMF3jh7Fw03KjJ-3QBpZl3yMbC5NFH",
-        "https://drive.google.com/uc?export=view&id=1t4f3eU_Qhlh1f56vJeQghor5SJrKXcsD",
-        "https://drive.google.com/uc?export=view&id=1AXjHnA5X6XwTwNdXRhQsTklaR7-WD3Sa",
-        "https://drive.google.com/uc?export=view&id=1YnxnHAFAA2iDJLMIkg4VNoxspiRwtJd2",
-        "https://drive.google.com/uc?export=view&id=1zEV26mDNoCJrgWoQkdQ_jcO1_faT7myQ",
-        "https://drive.google.com/uc?export=view&id=1-GWTNQl0POgpNeYDUxfRlVLmtdb4P96g",
-        "https://drive.google.com/uc?export=view&id=1A5pT6qmqniN3V-dBKX4EQJkjqEC-sTfL"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-05-14T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [
-        "비기너",
-        "노비스"
-      ],
-      "name": "KKF 코리아어질리티클럽 점어/비노 클럽전(승급)",
-      "startAt": "2023-05-14T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=14978847&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1PvauxBoklbAf-qcHFPzieSyJNANVlHzD",
-        "https://drive.google.com/uc?export=view&id=1hFIdgNd0U7sKNSzB7oVP41FCIAYPrcLo",
-        "https://drive.google.com/uc?export=view&id=1zB0tzXpfakdd-3KwIsGqjofhcDMaHLiR",
-        "https://drive.google.com/uc?export=view&id=1likgEG1hpiTNvq72ijsKlu_741nzF1yK",
-        "https://drive.google.com/uc?export=view&id=1fe12QFmOgU2al37LbHiCNfYpCnj9Al8y",
-        "https://drive.google.com/uc?export=view&id=1sceshuGgfVcgyeGsy3zr_kbz3L67ZrB8",
-        "https://drive.google.com/uc?export=view&id=1wxWbgK7ieEhCY0e3X5WZ2HL1u3dtOjV9",
-        "https://drive.google.com/uc?export=view&id=1uBq4XthNpMrkWT21YZ8FV3xqyOble-1L",
-        "https://drive.google.com/uc?export=view&id=1oP9fX_91ZfC7EnhzxvhIiJSn1SGTwl2J",
-        "https://drive.google.com/uc?export=view&id=1KQcH4HAM4M7SkZSlk0iJvQKLIta2M6Nl"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-05-28T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2023.05.27-5.28 LEEZ AGILITY CHAMPIONSHIP",
-      "startAt": "2023-05-27T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=15080486&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=173kEdZFalr7wQLXD4qmP-Xski8wLsxrQ",
-        "https://drive.google.com/uc?export=view&id=13PVtPpwFEM_1J2pXo2FJrEkMHKO28R0L",
-        "https://drive.google.com/uc?export=view&id=1RjGB4nAlVeZroqHGG8hWmUaxsS9QMyIn",
-        "https://drive.google.com/uc?export=view&id=1fH1EsMFdRu_nSXFQzWnUVI2Bxaj-tAy2",
-        "https://drive.google.com/uc?export=view&id=1BNtPWgaysH31uMuvf25PdDp1TQOKRC-u",
-        "https://drive.google.com/uc?export=view&id=1gzXvhL9bSTfP6G0k-9l8LpBDMP0RNfNm",
-        "https://drive.google.com/uc?export=view&id=1ru4L7mx3InZpa_XKlzJjJAo2dLKE9Nkn",
-        "https://drive.google.com/uc?export=view&id=1n_CgystPi_klZr_CnMNCGIlfef1l8CzB",
-        "https://drive.google.com/uc?export=view&id=1kZERe7a1onc6SfnUxtOWHGpLUzL59JjV"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-06-25T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [
-        "비기너",
-        "노비스"
-      ],
-      "name": "KKF 코리아어질리티클럽 점어/비노 클럽전(승급)",
-      "startAt": "2023-06-25T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=15367015&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1Juas0yOPsxweW5R7bst7H1iElycQs_wy",
-        "https://drive.google.com/uc?export=view&id=1LUu19mcfFxi3yMDtaHTS3etODfQyPdV-",
-        "https://drive.google.com/uc?export=view&id=1LmjW7Av_UxphQy6sSgT1d_aoKwjk5yKy",
-        "https://drive.google.com/uc?export=view&id=1tjmRElv0dmv7w_RWD8tE8PKxW8rkNS-q",
-        "https://drive.google.com/uc?export=view&id=1MGF7p734yE4y1NwA4wfGWNYrctpQTRXU",
-        "https://drive.google.com/uc?export=view&id=1u0QOPmdVkopyvTn7kNvFloy0Pd1kyMKk",
-        "https://drive.google.com/uc?export=view&id=1OLkGF5UL8wsHkfKd-P4YBIAVqm1BbhhB",
-        "https://drive.google.com/uc?export=view&id=14QXZjSXz3O9iALvFcbFJ9iRkEScoWBeG",
-        "https://drive.google.com/uc?export=view&id=1zmYedBb2OacaxZUkbwXXnxxVd88gWgqS",
-        "https://drive.google.com/uc?export=view&id=13XoDFfYMgZX-JlAKcDXqYxlWNKxY_qwl"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-07-22T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [
-        "비기너",
-        "노비스"
-      ],
-      "name": "KKF 코리아어질리티클럽 점어/비노 클럽전(승급)",
-      "startAt": "2023-07-22T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=15646092&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1mwPaGO0S-FyboLi2GFaMWVjc1mbiKE1s",
-        "https://drive.google.com/uc?export=view&id=1ktoGlgXGvjDlgOlUTyIAI2FoqCojJf5e",
-        "https://drive.google.com/uc?export=view&id=1T3gBzC0rysIlrK3NMwiBN-p_WeXbQ4aI",
-        "https://drive.google.com/uc?export=view&id=1PrFsyINwX5DkUR_fILQ4GPtqqYmpQxeq",
-        "https://drive.google.com/uc?export=view&id=1dPdAZS2czhk9J4WldyND1MsWQhC9Yo6k",
-        "https://drive.google.com/uc?export=view&id=11iVKuIxjcR4wCLwjeXwEnvDUJyoPy8RP",
-        "https://drive.google.com/uc?export=view&id=14ZM798gvB5zSFUwkeyzMSDgsI5-JlhuD",
-        "https://drive.google.com/uc?export=view&id=1-74oUnrY9m-T5StRg4VdzwYSe_Tq1GZE",
-        "https://drive.google.com/uc?export=view&id=1x8nyOlLRr2z-oIaIkCxOimG3kZecsGCL"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-09-24T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "고프로 LEEZ 어질리티 최강자전 대회",
-      "startAt": "2023-09-24T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=16438387&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1dbe6Uccx4Jy21l74eVj3T1ERVKSC0cNd",
-        "https://drive.google.com/uc?export=view&id=1A7f3XEGO0EE8wAa4O-DjKQn3RQa8DmeA",
-        "https://drive.google.com/uc?export=view&id=1RT8ObUj2G9_CFv1HC4G1LJlym_wp0QKk",
-        "https://drive.google.com/uc?export=view&id=1XTwQuhPfXSFzZXbXlWMfLjZ_qQbEn2yc",
-        "https://drive.google.com/uc?export=view&id=1sqVO2FukS4WQpoPvvDO499Cc6JKFyJ-E",
-        "https://drive.google.com/uc?export=view&id=1VSFJAIgAjf0LFkCbL94t0rbUt-KSvQy5"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-10-03T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [
-        "비기너",
-        "노비스"
-      ],
-      "name": "KKF 코리아어질리티클럽 점어/비노 클럽전(승급)",
-      "startAt": "2023-10-03T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=16438366&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1m_ke_Pn36Y_Ph5qryaFdWbMnQ-dXPDAe",
-        "https://drive.google.com/uc?export=view&id=1Bw3AOlBTHYNlDRi-xq6sQkxuulhXM-Yg",
-        "https://drive.google.com/uc?export=view&id=15pfEfLfZr26n3nijbY3aZv2gys3pVwu9",
-        "https://drive.google.com/uc?export=view&id=1Ai0r9dbCtFusPK_w9o9MckmpkHMVzHNE",
-        "https://drive.google.com/uc?export=view&id=1eQwYQ5rwdw2cdvqQPNnEMH1m2ACFnSm0",
-        "https://drive.google.com/uc?export=view&id=1FYVFPYEs7DLwRFf0ENY9ALx9ubAikHM6",
-        "https://drive.google.com/uc?export=view&id=12e0J21uJRS6FWbaps6-5axp-c1xVtn4F",
-        "https://drive.google.com/uc?export=view&id=1DbvE_3wg1PZuwOCAEwe_4BsW3Fk9OUyx",
-        "https://drive.google.com/uc?export=view&id=1sTwWnK0d7qA0t_av3arCn4uq2egkqacR"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-10-28T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2023.10.28 LEEZ AGILITY CHAMPIONSHIP",
-      "startAt": "2023-10-28T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=16534219&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1Vt7mpcsBOSLdeAHH1xbvfvpGd3cd-IUO",
-        "https://drive.google.com/uc?export=view&id=1Ohu26IH3v6eVE0GtHT7f2_td2CBzjJRn",
-        "https://drive.google.com/uc?export=view&id=1Gh6lYzNk4x6UnXo0q8bmePvwn8rCnhaB",
-        "https://drive.google.com/uc?export=view&id=1U4jl31E49WwSw5sp6lIqGXGzUg_j913s",
-        "https://drive.google.com/uc?export=view&id=1vL3gHQZQUQs3ktYc25BO2OSoH_ymp7uA",
-        "https://drive.google.com/uc?export=view&id=1cxbSReqm8nvYYFGZ8sfbykaeQq9yUrN-",
-        "https://drive.google.com/uc?export=view&id=1KLR1wNH0uqANGNQ1-e-S35zF-WiSD_DF",
-        "https://drive.google.com/uc?export=view&id=1u8BrPXvFe1W6qKunQmOsFOYmhKLxRiL2",
-        "https://drive.google.com/uc?export=view&id=1U6ZEW8kta1oQhyVAN4GM-O0gurjGUsdH",
-        "https://drive.google.com/uc?export=view&id=13In3Hf2YxJ9OWs48HSdCHO0cYzXt7BEN"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-11-26T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 비/노/어드 승급전",
-      "startAt": "2023-11-26T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=16861500&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=16fbtrlbPjV4Cbndv-giNRS6-mwIgdGBo",
-        "https://drive.google.com/uc?export=view&id=1N2EfPzP5ZvbnF-FBFi17KuS46iglDHnd",
-        "https://drive.google.com/uc?export=view&id=1PAXcT3xNRj5HgT0USjSsiTyCtA3adiap",
-        "https://drive.google.com/uc?export=view&id=1jZpiHQUlYJ8gl-JVevKn7I_6gVM2STLi",
-        "https://drive.google.com/uc?export=view&id=1bAhTmkAdlBPlxIrmk79UGPFEVGQtvNAV",
-        "https://drive.google.com/uc?export=view&id=1XrNmHvNm8nH0Wul4AkHjDLFhVJifGD55",
-        "https://drive.google.com/uc?export=view&id=1x-aHi6oOo9xkrQQLmctkgO-KlUCENohN",
-        "https://drive.google.com/uc?export=view&id=1DmuHzHZNHNh_kxmzQRl1grHEpFRlsX_h"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-12-09T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 점어 클럽전(승급)",
-      "startAt": "2023-12-09T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=16765173&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=15zfV4OOvJRTH7upgKKSF6OG0X0PAffr4",
-        "https://drive.google.com/uc?export=view&id=1LkAnrAxmfqaO5wpTDIhxDYty2XBfINLx",
-        "https://drive.google.com/uc?export=view&id=1nO6_SEa5tfj8vNckZf644l-Yc38hu2zB",
-        "https://drive.google.com/uc?export=view&id=1AsmcUoHYa1pXc0R6VrGzgQGLQWpua_bP",
-        "https://drive.google.com/uc?export=view&id=1n_B4pwNuU-A0z78ZqjMzR1eOkIJAv4rL",
-        "https://drive.google.com/uc?export=view&id=1RJzHEcvRMHL-565R3J2_F7aoGOrqs_Pd"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2023-12-09T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2023.12.9 LEEZ AGILITY CHAMPIONSHIP",
-      "startAt": "2023-12-09T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=16765168&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1zW2ANggusB7ha0cx0BjfKSm0tbOm2F0_",
-        "https://drive.google.com/uc?export=view&id=1bBwZFTGs_HPwBIFJNLq8xr26b7EZ2LBM",
-        "https://drive.google.com/uc?export=view&id=1PBWSviv0HbfDy-cC9yC24fFhEkjSlVVj",
-        "https://drive.google.com/uc?export=view&id=1I_cIvmfBcZ3Ztb9EutyoOjuDH7j9hZQ7",
-        "https://drive.google.com/uc?export=view&id=1lONvJbFfJWl8U1f1ui8UFmX4MwdmUYIH"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-01-28T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 점어 클럽전(승급)",
-      "startAt": "2024-01-28T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=17518161&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1YfGcHAJ7IfLckSJnAvw7hG50iQZJ06mC",
-        "https://drive.google.com/uc?export=view&id=1omBWgfkdSXHhx_Hmg5zn4u7LwjFnHSaD",
-        "https://drive.google.com/uc?export=view&id=1IEVHvfTvSaVCY50DkauxfvRo1fS6s5Oa",
-        "https://drive.google.com/uc?export=view&id=1mYtlR6DdADehwNZAhHr0OwvfOgyt4f__",
-        "https://drive.google.com/uc?export=view&id=1dxyc6BoEgZCYE2QO_hLraM9VpJcWiHZ8",
-        "https://drive.google.com/uc?export=view&id=1MhNMBRBVLPCnRaHHtbnEjwNVDqVwH3dE",
-        "https://drive.google.com/uc?export=view&id=1l8M3LHumNadX9AH9P29DWDn4gda03HMD"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-02-25T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 점어 클럽전(승급)",
-      "startAt": "2024-02-25T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=17900759&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1VTymkiEp0l9LIKwqzfVSbsNqJNvWoxPb",
-        "https://drive.google.com/uc?export=view&id=1cw2sHUf0ovk9KGaBhUFRUhg3okseheFh",
-        "https://drive.google.com/uc?export=view&id=1CtTb_B82sBCsZCoCTtkIHFObmkUgBQdz",
-        "https://drive.google.com/uc?export=view&id=14dC-JEvi9vLBaBVxcvqU5pdHunDWqPXe",
-        "https://drive.google.com/uc?export=view&id=1Etw_CfXTbRpsi_PROcwimzsQA86I21i3",
-        "https://drive.google.com/uc?export=view&id=1dnXkPmsxVzc9-CJMW93HQhP7oZv-QhPW",
-        "https://drive.google.com/uc?export=view&id=187-tUKEh8OhuXUs2DPhEF60AeUAL_mVA",
-        "https://drive.google.com/uc?export=view&id=1okK63jaOaxqSfn3sQJBTATBm3YncirOl"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-03-16T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 비/노/어드 클럽전(승급)",
-      "startAt": "2024-03-16T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=18176571&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1lsDSJ2o1-CQO-pcDf3VcwjkZjNpXiWbv",
-        "https://drive.google.com/uc?export=view&id=1ZZFgciX0B9HvwDY-DVzNtQJH6AdNI8W5",
-        "https://drive.google.com/uc?export=view&id=1jl2tpCrOidIaCzkaaib_0vnopgUemNGl",
-        "https://drive.google.com/uc?export=view&id=1pEvgFHardBpsGfk2_ulK901N1xiS2yBW",
-        "https://drive.google.com/uc?export=view&id=1ryg09wI0ZkVtLGHmQooBxAlF1Q2-TvLz",
-        "https://drive.google.com/uc?export=view&id=1Lm23OGd2qdLEDJO-qLEqwIzkLObALXRg",
-        "https://drive.google.com/uc?export=view&id=11UCA6ZXr_5bUprzuUxAI0IV2LrluC2UC",
-        "https://drive.google.com/uc?export=view&id=1ogvB0Q3Os7QmF4WHIEqUEjNo4rui_FWE"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-03-17T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 점/어 클럽전(승급)",
-      "startAt": "2024-03-17T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=18176584&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1FU8rGj5FgIIcrbYNkW4AWqQvbhapx-5e",
-        "https://drive.google.com/uc?export=view&id=1v56B-pDoaQKkyOmmwOWeM9n8nLj54lwG",
-        "https://drive.google.com/uc?export=view&id=1x2rQpXhhBTIgMJT2__LuUFXxuzA4mpKb",
-        "https://drive.google.com/uc?export=view&id=1sox-Epr2z_2lBcMadF_dFw3gldBuZVaq",
-        "https://drive.google.com/uc?export=view&id=1k1300t86wql4gP2ohc-xSktxSJkyEA-2",
-        "https://drive.google.com/uc?export=view&id=1mYU-wq_kowmsLfS5LBAHMIUo4y3MVfYl",
-        "https://drive.google.com/uc?export=view&id=1bZdExPXJWVNnVLBsmoC82zcfm9yshDaM",
-        "https://drive.google.com/uc?export=view&id=1jCCGIeA5RNgEhmEBGl78QBgpFAPbEFP1",
-        "https://drive.google.com/uc?export=view&id=1b9q8lsc6QQXWnNmxuKZ9qSBVR3eyKlgK"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-04-13T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 비/노/어드 클럽전(승급)",
-      "startAt": "2024-04-13T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=18905835&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1sFJkH6TANTS1iXVIJoeC0XNiQb0c3lHZ",
-        "https://drive.google.com/uc?export=view&id=1vAj9xwzO28pOTXsueAj5SCujZs8HDCyb",
-        "https://drive.google.com/uc?export=view&id=1Op5H-TGolWP30m8zN9DWM-ulJ0CsCQOa",
-        "https://drive.google.com/uc?export=view&id=1API5ySUKfgjPCSv-CoLTcdd9rELWqbBv",
-        "https://drive.google.com/uc?export=view&id=1D5ohvw5sa8YnQ1Ihgz7QB_fwLeSUYlki",
-        "https://drive.google.com/uc?export=view&id=1pT8PqcQVovzuP64PIYtlT4NoyjdQTxP8",
-        "https://drive.google.com/uc?export=view&id=12Ga_z63cbofN6RmdzRf5NXB-Wvjq_YYp",
-        "https://drive.google.com/uc?export=view&id=1HZaytK23EOlX2MUu43EgzltBM7MIInHL",
-        "https://drive.google.com/uc?export=view&id=1vAx-s-uwiajOwvZoFIkE1WHXSvujFXc3",
-        "https://drive.google.com/uc?export=view&id=1sm3B6IQPtttF4dmcyld7j2cP8tbyEkRL"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-04-21T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 점/어 클럽전(승급)",
-      "startAt": "2024-04-21T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=19180154&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1LfZsCtxZX7SocSQ1agm041mD9ZiSx63p",
-        "https://drive.google.com/uc?export=view&id=1m9g-Qp0uQId6BtMVZqFywsCqcIOHjupg",
-        "https://drive.google.com/uc?export=view&id=1ptZX3og1teycNkMj9LnNqByGdIgZ5kWa",
-        "https://drive.google.com/uc?export=view&id=1MILIE_kl47mbjgG7TSc_OZ-4Iu-tezGq",
-        "https://drive.google.com/uc?export=view&id=1D5X_eUYPjYcbyM7cFD1YP2TDtSktLACH",
-        "https://drive.google.com/uc?export=view&id=1i0uhz-kP6oN6S6ziJbSkHBPf6N-Lr48w",
-        "https://drive.google.com/uc?export=view&id=1jb-Dzc7qSKRsGOzZ2H3i_XkNMkms6SwM",
-        "https://drive.google.com/uc?export=view&id=1kK5iifDAamkUqnft0HNWb4XhudXHSk27",
-        "https://drive.google.com/uc?export=view&id=1zFYaeB8Su0Ug7tCtgAARdbdfuejIdqNL"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-05-25T00:00:00",
-      "eventType": "",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "[KKA] 2024.5.25 LEEZ AGILITY CHAMPIONSHIP",
-      "startAt": "2024-05-25T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=21138416&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1IAlOnwgU260jE7O5QG4omCIq-32P186o",
-        "https://drive.google.com/uc?export=view&id=1o4V_IiWYGd3m7wsef5p64TdaOOsl5mH8",
-        "https://drive.google.com/uc?export=view&id=1LYW7n8fe7wf0VsYuA6GRVrij432lL9bv",
-        "https://drive.google.com/uc?export=view&id=1BcsM3eTHpd609Yv0U-n9NwQsM1k3W5fN",
-        "https://drive.google.com/uc?export=view&id=1Lq_qTo09fxuVrWMKCShFrOngO_ZCMcy5",
-        "https://drive.google.com/uc?export=view&id=17u53vLHdzVcuVWn3_j7TeYjyWfSJP9zq",
-        "https://drive.google.com/uc?export=view&id=1tTFIAGL9Ahv5w4Sbs8dinRrOCwnhxBAx",
-        "https://drive.google.com/uc?export=view&id=18hQfyucQUiUaYD78bgCr_V6Fu9Lgr5IB"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-06-22T00:00:00",
+      "endAt": "2025-09-05T10:00:00",
       "eventType": "랭킹전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 비노어 랭킹전(특별 이벤트전)",
-      "startAt": "2024-06-22T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=25521091&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1r57nRV4j0EO8nhJvu3ikrE6AvHlefyZY",
-        "https://drive.google.com/uc?export=view&id=1QySFy6l4YIm9YQP3WWNlJ8fXetjGnEWD",
-        "https://drive.google.com/uc?export=view&id=1dQh4ou5lokl19BmWQimrHSM63iEbueFq",
-        "https://drive.google.com/uc?export=view&id=1UxJbPl09r4I19CsAbhM_L5qfq0nzA5OU",
-        "https://drive.google.com/uc?export=view&id=1CnsiIJc6KWfl17oBIqwIqSNJdTMqpH5k",
-        "https://drive.google.com/uc?export=view&id=1-m9AgfW1MWyWdtJUOQStclWWIuP-fyMA",
-        "https://drive.google.com/uc?export=view&id=1xPrp9Reku25UjCLzxda3tIT6fDBypsdQ"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-06-22T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 점어 승급전",
-      "startAt": "2024-06-22T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=25520903&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1q-gTpMb3qI2kDgJtbdsEyp0HIiA_llo0",
-        "https://drive.google.com/uc?export=view&id=1ux8ZzCVv7Lc7li6bchmgAeSahq6Zlzt8",
-        "https://drive.google.com/uc?export=view&id=14LjvjUQYv0JWTVtnWY-2-RVGifuotzK_",
-        "https://drive.google.com/uc?export=view&id=1zMzxMhFmNybNXNcBxwHYCygPDjqDhEp1",
-        "https://drive.google.com/uc?export=view&id=1bjrIZrqIcV47M2c18d1GLnxozArFg3vw",
-        "https://drive.google.com/uc?export=view&id=1lWodsUTPVxz5VLEWGh7X209GavEytdpK"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-09-21T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 비/노/어 승급전",
-      "startAt": "2024-09-21T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=88062223&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1SEDHu8qE0sI9r-dvt8xnLdx8frbt7Uk3",
-        "https://drive.google.com/uc?export=view&id=1G71Da_A-lK--q6ihhDIFGG8X_kOijkjs",
-        "https://drive.google.com/uc?export=view&id=1qBJl7ruuuvtEchuo5I-JYqh-0GhYh4jg",
-        "https://drive.google.com/uc?export=view&id=1rJHy2eAUQfd4pE0wE1cftHw9K64EipfQ",
-        "https://drive.google.com/uc?export=view&id=1NIX-6JSNpFygF-N96NeJ40zuIBcuVUgc",
-        "https://drive.google.com/uc?export=view&id=10ZndpUsIbvb1rIgtrEW3I_7OJZeL60qT",
-        "https://drive.google.com/uc?export=view&id=11AjAfT5ykhWEfxEW2u-ER0adzBtx2io2",
-        "https://drive.google.com/uc?export=view&id=1nrJ7ox6MyjHlw3iBerlq9i3z0zfa9MfJ",
-        "https://drive.google.com/uc?export=view&id=1eR3ZiO12Y2l4kaPMaSJWhyxU_fUA_7Ho",
-        "https://drive.google.com/uc?export=view&id=1PIcX83i5gAKxjA2UFLLeTKu94c_hWINj"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2024-12-22T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 클럽전(승급)",
-      "startAt": "2024-12-21T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=129973200&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1RG3akHZ2Itu_2UtVfdjE93D8dwmcBNRt",
-        "https://drive.google.com/uc?export=view&id=1uhAXCW-E8HTYL9-zjlNypYESHTU7uih8",
-        "https://drive.google.com/uc?export=view&id=1540lEeRXQUpNl4R5yJSfeCW9QS0JIysu",
-        "https://drive.google.com/uc?export=view&id=1VMOYVusJFT1aeNa4BoooO7OohHqiPk2X",
-        "https://drive.google.com/uc?export=view&id=14gPfnYO4hqpiw8UrVZC_xEWj516XRlu-",
-        "https://drive.google.com/uc?export=view&id=1TK2DVPHbLvC7p_CnkYQFzQD6BopnHx6o",
-        "https://drive.google.com/uc?export=view&id=16Tg-HAZGoVFudQNgRB02J04rIjkwi-qH",
-        "https://drive.google.com/uc?export=view&id=18u8L1I-Y1exLecWLLcZ1fPsLD2uDrLi-",
-        "https://drive.google.com/uc?export=view&id=198QQ3qs-8ATxkSGNlVuoi4_nIfAYEAE3"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2025-01-19T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 클럽전(승급)",
-      "startAt": "2025-01-19T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=138209246&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1HLEPzSnJx0tERiStrHZAa7eafxjAF4nn",
-        "https://drive.google.com/uc?export=view&id=1q1vyjAsXZ24-Nm_CVp68DMUpFQWk4ENO",
-        "https://drive.google.com/uc?export=view&id=1CAAo8_CB7stQ_jDMoIDgAtwegd4S8gxG",
-        "https://drive.google.com/uc?export=view&id=1THMQg1sPk-KL3ZbsP3wNPWmhRDxsBoWU",
-        "https://drive.google.com/uc?export=view&id=11ihBJOx-ciUxqDyyr8daZvtFO1Fm7J5F",
-        "https://drive.google.com/uc?export=view&id=1J43yOPHo9VC2FhlkEFch8aixYUyt3chq",
-        "https://drive.google.com/uc?export=view&id=1jzY9q00WjC-RIDS6Nq9shs-tCcv_RX47",
-        "https://drive.google.com/uc?export=view&id=17myWltSTgUDW2a5E1wpsiPyL_ZZcN4nM"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2025-06-25T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
+      "judge": [
+        "여문주"
+      ],
+      "location": "상암월드컵공원",
       "matchTypes": [
         "점핑",
-        "어질리티",
-        "비기너",
         "노비스"
       ],
-      "name": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
-      "startAt": "2025-06-24T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=164197243&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1agRaMWCeK5GD3c4vfBYO0QILDqsGa8L7",
-        "https://drive.google.com/uc?export=view&id=1aP9uyL04ud7oBeup4wzaJjA78dsraZ8q",
-        "https://drive.google.com/uc?export=view&id=1rlN6BktD5B-o6L-gTpeKSD-3QzHTXaHZ",
-        "https://drive.google.com/uc?export=view&id=1YZjZh6um8r7IAN2Yiw6lQODIUItP06RP",
-        "https://drive.google.com/uc?export=view&id=1VzB8XPONMtP2QGTW9OPfMqIfYAQknhC7",
-        "https://drive.google.com/uc?export=view&id=1Ipthq6Q5TXF77NVONZloUUKIB9Ku6r0c",
-        "https://drive.google.com/uc?export=view&id=1DwFGb8vlevbk3EFC1UDy3eu276iUf8ml",
-        "https://drive.google.com/uc?export=view&id=12Dnu-FZmYbjFUAWMg9EPeeuegq3ouHXZ",
-        "https://drive.google.com/uc?export=view&id=1Uol-1Zjh1k0VfHI_JWAAmT2P2qXlHMzc",
-        "https://drive.google.com/uc?export=view&id=1TSPfXB5NQcGX8sJqca8hkCopf8KbjBi2",
-        "https://drive.google.com/uc?export=view&id=10IHQV7EkE62LSAxjmYEPYqZJyVT-duYh",
-        "https://drive.google.com/uc?export=view&id=1QLYnsFEnDw3tVEDHsMRj0E4lgwHCGD_G"
-      ]
+      "name": "2025 서울시 도그스포츠 대회",
+      "startAt": "2025-09-05T10:00:00",
+      "url": "http://biz.onvi.co.kr/kcmc.html"
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2025-09-10T23:59:59",
+      "applicationStartAt": "2025-08-18T00:00:00",
+      "club": "KCMC",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-09-05T13:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "양은수"
+      ],
+      "location": "상암월드컵공원",
+      "matchTypes": [
+        "비기너"
+      ],
+      "name": "2025 서울시 도그스포츠 대회",
+      "startAt": "2025-09-05T13:00:00",
+      "url": "http://biz.onvi.co.kr/kcmc.html"
+    },
+    {
+      "applicationEndAt": "2025-08-17T23:59:59",
+      "applicationStartAt": "2025-08-11T00:00:00",
       "club": "코리아어질리티",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2025-07-27T00:00:00",
+      "endAt": "2025-09-13T09:00:00",
       "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 비/노/어드 승급전",
-      "startAt": "2025-07-27T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=166548017&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=14SL1M6leXjrgAmMBfv793ggeisWn4XA8",
-        "https://drive.google.com/uc?export=view&id=1nXc-_38Dl1EpvtLg2_VUh8JpVV-kHpqz",
-        "https://drive.google.com/uc?export=view&id=1TzXYXyWtBBb5S58_92LjA1MqSCAfkBqb",
-        "https://drive.google.com/uc?export=view&id=1MZ0wK1EsvgpKLSN0NR-1W65FOhBnizby",
-        "https://drive.google.com/uc?export=view&id=1nV54Lm1889XXjoTJLWv1rMrLXuRbMiZv",
-        "https://drive.google.com/uc?export=view&id=12p-M_61P1MU3NygxuTyUbk04j1PSjRSZ",
-        "https://drive.google.com/uc?export=view&id=1lTtJfHxLCZD7_bVRFTg76A6rLctTyRoV",
-        "https://drive.google.com/uc?export=view&id=1XmR_28bw2F7qONuAbATPXw26DklTfNcY",
-        "https://drive.google.com/uc?export=view&id=1z_sf_Zj-eCOtFYG0GUR9-i9ej8XIDCDy"
-      ]
+      "judge": [
+        "홍상우"
+      ],
+      "location": "춘천에니메이션 박물관",
+      "matchTypes": [
+        "LV1",
+        "LV2"
+      ],
+      "name": "제68회 점/어 승급전",
+      "startAt": "2025-09-13T09:00:00",
+      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board"
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
+      "applicationEndAt": "2025-08-17T23:59:59",
+      "applicationStartAt": "2025-08-11T00:00:00",
+      "club": "한국어질리티연합",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2025-09-13T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "KKF 코리아어질리티클럽 점/어 승급전 & 춘천시장배 어질리티 최강자전",
-      "startAt": "2025-09-13T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=167261650&t=board",
+      "endAt": "2025-09-13T13:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "김희윤"
+      ],
+      "location": "춘천에니메이션 박물관",
+      "matchTypes": [
+        "어질리티",
+        "어드밴스드"
+      ],
+      "name": "춘천시장배 어질리티 최강자전",
+      "startAt": "2025-09-13T13:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=167261650&t=board",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1Lv007J7URlQ4yhzhzuLNf9-hKUOw0SLM",
         "https://drive.google.com/uc?export=view&id=10m70CevRuQfBWmQGJkJEihEb7jbmd9lt",
@@ -996,114 +89,725 @@
       ]
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
+      "applicationEndAt": "2025-09-18T23:59:59",
+      "applicationStartAt": "2025-08-19T00:00:00",
+      "club": "반려마루",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2025-12-14T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [
-        "점핑",
-        "어질리티",
-        "비기너",
-        "노비스"
-      ],
-      "name": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
-      "startAt": "2025-12-13T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=168821840&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1W_ZTjxeXsNcHx9_8qgR2sRwatS929gyb",
-        "https://drive.google.com/uc?export=view&id=1_yc5gkp7CtpcGYd4IkaFQxKH-z0Fd4op",
-        "https://drive.google.com/uc?export=view&id=1JN_IndZN86rEEkXR7OHSc31cm2AR5D9B",
-        "https://drive.google.com/uc?export=view&id=1RdOW4OFOEH2_1C5JzDgXTPgbLm3YSUQk",
-        "https://drive.google.com/uc?export=view&id=1hW9m8ZmD5g0uqbwiNguQZUm-8-kwb_j0",
-        "https://drive.google.com/uc?export=view&id=1ijrShYZrMnIe3ARfNA7ucVojY8IrN_B3",
-        "https://drive.google.com/uc?export=view&id=1wl0SyrazgeQeNfRiLBsgkyY6dI_I_cL9",
-        "https://drive.google.com/uc?export=view&id=1ehViCs12EB5mb8k92smjVd5sAoHdYyiT",
-        "https://drive.google.com/uc?export=view&id=1uekgyU8B0pgh818zLOuzqcMx9tAJlZWE",
-        "https://drive.google.com/uc?export=view&id=113Z6KtXnRLZwauGj_yM0GFT6XR05ECbW",
-        "https://drive.google.com/uc?export=view&id=1uWglhnBC7dGpmtQRIY9S0Uaxe5ctyZHM",
-        "https://drive.google.com/uc?export=view&id=1jgF2oA1m3vgtX79IBfh41KhSNuSRlQxB"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "코리아어질리티",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2025-12-20T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [
-        "비기너",
-        "노비스"
-      ],
-      "name": "KKF 코리아어질리티클럽 비/노 클럽전(승급)",
-      "startAt": "2025-12-20T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=169031960&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=16YGl1RWLZSSk61jJoKO4vhWXrmdoh2As",
-        "https://drive.google.com/uc?export=view&id=13Vr8fJhNr5-mHl4-g8fvgaqo42DOo2AG",
-        "https://drive.google.com/uc?export=view&id=1N_aHla95rKbxesa9UfFLxrQIiVpNu-CD",
-        "https://drive.google.com/uc?export=view&id=1Zdqb6BJCERH_974R80PKyHLnOQIoN45F",
-        "https://drive.google.com/uc?export=view&id=1QOitymptZgiIvZaenwFYksnTYrmFeDmB",
-        "https://drive.google.com/uc?export=view&id=1XFQhpYWbzF1zrTGV1q0nJBfxT_5hDk2T",
-        "https://drive.google.com/uc?export=view&id=16oxgK13eCcwaibvPAigP4i-D96bVt_pK",
-        "https://drive.google.com/uc?export=view&id=1igu5WwzWX0pbBYzX1qlEJlj0x0J0vv5S",
-        "https://drive.google.com/uc?export=view&id=1JaGY1Lpbmphn6tfXg-9hMgUa5w2m6S8U",
-        "https://drive.google.com/uc?export=view&id=1cfqq72kG4Dh40obfkNpfz35Yjl4UYZaF",
-        "https://drive.google.com/uc?export=view&id=1kZs1KXg-wtt5JGxqM4-w1N1v94LuQZyt"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국어질리티연합",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2026-04-12T00:00:00",
+      "endAt": "2025-09-27T09:00:00",
       "eventType": "랭킹전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "키스포츠 LEEZ 2차 어질리티 랭킹전",
-      "startAt": "2026-04-11T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=170208836&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1zdvZvHgpZ9QHexYkU-52dJFAIlb8ahsY",
-        "https://drive.google.com/uc?export=view&id=1FxU0qMama72_EylxeZ0C82MuTXPl7c6w",
-        "https://drive.google.com/uc?export=view&id=1v-CbarVYtxGMQIztL9K4d3tuBV9LETBr",
-        "https://drive.google.com/uc?export=view&id=101-36n2qAD92pMOAUUfJNJ6DyjfCGZbT",
-        "https://drive.google.com/uc?export=view&id=10uR2kre2H2YqGAbixcP9NyhgRUX5E2HN",
-        "https://drive.google.com/uc?export=view&id=1YiXedZteonHnP14n1uFqSAObaYT8fHCc",
-        "https://drive.google.com/uc?export=view&id=1VRziPYOkL1XY2w6ohx2ZR5o59wfxBdxH",
-        "https://drive.google.com/uc?export=view&id=1AhUcj3XXbq805Y7QUc_zzrUZ8QibiSgo",
-        "https://drive.google.com/uc?export=view&id=1KK_wHXzL2FIlomX7dzdWml_47jNd6gP8",
-        "https://drive.google.com/uc?export=view&id=1wKHofDN3lFj-5NRHcfqlVXwXsK9Qgorg"
-      ]
-    },
-    {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
-      "club": "한국애견연맹",
-      "detailNotice": "",
-      "detailStatus": "detail_ready",
-      "endAt": "2026-05-17T00:00:00",
-      "eventType": "승급전",
-      "judge": [],
-      "location": "",
+      "judge": [
+        "최용석"
+      ],
+      "location": "반려마루",
       "matchTypes": [
         "점핑",
         "어질리티"
       ],
-      "name": "KKF 어질리티 위원회 승급전(점/어)",
-      "startAt": "2026-05-16T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=171129201&t=board",
+      "name": "2025 경기도지사배 제2회 전국 반려견 스포츠 대회",
+      "startAt": "2025-09-27T09:00:00",
+      "url": "https://banryeomaru.kr/notice/view?idx=77"
+    },
+    {
+      "applicationEndAt": "2025-10-05T23:59:59",
+      "applicationStartAt": "2025-09-22T00:00:00",
+      "club": "하이스트",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-10-12T09:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "김혜민"
+      ],
+      "location": "하이스트",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제 70회 KKF 하이스트 독 스포츠 클럽 어질리티 대회",
+      "startAt": "2025-10-12T09:00:00",
+      "url": "https://linktr.ee/HIGHESTAGILITY?fbclid=PAZXh0bgNhZW0CMTEAAafdye98to9GEBdQkjy_tUWEl2DLyt01Of4AoLuUa9vI_9jjpspYz-DSYY6_TQ_aem_epectWd9UzffYKmBPSi_IQ"
+    },
+    {
+      "applicationEndAt": "2025-10-09T23:59:59",
+      "applicationStartAt": "2025-09-25T00:00:00",
+      "club": "발트바우",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-10-18T09:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "모리스"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "점핑",
+        "어질리티",
+        "LV3미만"
+      ],
+      "name": "AG_Standard_Tournament",
+      "startAt": "2025-10-18T09:00:00",
+      "url": "https://waldbow.com/agilityOpen.do"
+    },
+    {
+      "applicationEndAt": "2025-10-09T23:59:59",
+      "applicationStartAt": "2025-09-25T00:00:00",
+      "club": "발트바우",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-10-18T13:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "모리스"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "점핑",
+        "어질리티"
+      ],
+      "name": "AG_Master_Tournament",
+      "startAt": "2025-10-18T13:00:00",
+      "url": "https://waldbow.com/agilityOpen.do"
+    },
+    {
+      "applicationEndAt": "2025-10-09T23:59:59",
+      "applicationStartAt": "2025-09-25T00:00:00",
+      "club": "발트바우",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-10-19T09:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "모리스"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "어드밴스드"
+      ],
+      "name": "EX_Tournament",
+      "startAt": "2025-10-19T09:00:00",
+      "url": "https://waldbow.com/agilityOpen.do"
+    },
+    {
+      "applicationEndAt": "2025-10-13T23:59:59",
+      "applicationStartAt": "2025-09-26T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-10-26T12:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "최용석"
+      ],
+      "location": "순천만생태공원",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "2025 FCI 인터내셔널 어질리티 경기대회",
+      "startAt": "2025-10-26T12:00:00",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=797"
+    },
+    {
+      "applicationEndAt": "2025-10-13T23:59:59",
+      "applicationStartAt": "2025-09-26T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-01T07:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "지미첸"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "2025 FCI 인터내셔널 어질리티 경기대회",
+      "startAt": "2025-11-01T07:00:00",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=798"
+    },
+    {
+      "applicationEndAt": "2025-10-27T23:59:59",
+      "applicationStartAt": "2025-10-15T00:00:00",
+      "club": "강아지숲",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-01T09:30:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "타마스",
+        "에슐리"
+      ],
+      "location": "강아지숲",
+      "matchTypes": [
+        "펜타슬론",
+        "바이애슬론",
+        "스누커",
+        "갬블러"
+      ],
+      "name": "2025 KAO(Korea Agility Open)",
+      "startAt": "2025-11-01T09:30:00",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice"
+    },
+    {
+      "applicationEndAt": "2025-10-19T23:59:59",
+      "applicationStartAt": "2025-10-13T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-02T07:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이재룡"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "점핑",
+        "어질리티"
+      ],
+      "name": "2025 LEEZ 4차 어질리티 대회",
+      "startAt": "2025-11-02T07:00:00",
+      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board"
+    },
+    {
+      "applicationEndAt": "2025-10-27T23:59:59",
+      "applicationStartAt": "2025-10-15T00:00:00",
+      "club": "강아지숲",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-02T09:30:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "타마스",
+        "에슐리"
+      ],
+      "location": "강아지숲",
+      "matchTypes": [
+        "펜타슬론",
+        "바이애슬론",
+        "스누커",
+        "갬블러"
+      ],
+      "name": "2025 KAO(Korea Agility Open)",
+      "startAt": "2025-11-02T09:30:00",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=221&code=notice"
+    },
+    {
+      "applicationEndAt": "2025-10-19T23:59:59",
+      "applicationStartAt": "2025-10-13T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-02T12:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이가현"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "LV2이하"
+      ],
+      "name": "2025 LEEZ 4차 어질리티 대회",
+      "startAt": "2025-11-02T12:00:00",
+      "url": "https://www.agility.co.kr/17/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=168173931&t=board"
+    },
+    {
+      "applicationEndAt": "2025-11-14T23:59:59",
+      "applicationStartAt": "2025-11-07T00:00:00",
+      "club": "발트바우",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-22T09:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이쿠미"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "어드밴스드",
+        "EM"
+      ],
+      "name": "EXCITING OPEN",
+      "startAt": "2025-11-22T09:00:00",
+      "url": "https://waldbow.com/agilityOpen.do"
+    },
+    {
+      "applicationEndAt": "2025-11-14T23:59:59",
+      "applicationStartAt": "2025-11-07T00:00:00",
+      "club": "발트바우",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-23T09:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "이쿠미"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "KKF AGILITY 승급전",
+      "startAt": "2025-11-23T09:00:00",
+      "url": "https://waldbow.com/agilityOpen.do"
+    },
+    {
+      "applicationEndAt": "2025-11-16T23:59:59",
+      "applicationStartAt": "2025-11-15T00:00:00",
+      "club": "오십케이",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-30T08:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "강현기",
+        "이지훈"
+      ],
+      "location": "초록미소마을",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑",
+        "어질리티"
+      ],
+      "name": "2025 평택 어질리티 전국대회🏆",
+      "startAt": "2025-11-30T08:00:00",
+      "url": "https://www.instagram.com/50k_doglifecenter_official"
+    },
+    {
+      "applicationEndAt": "2025-11-21T23:59:59",
+      "applicationStartAt": "2025-11-10T00:00:00",
+      "club": "하이스트",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-11-30T09:30:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "양현주"
+      ],
+      "location": "하이스트",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑제로",
+        "점핑릴레이"
+      ],
+      "name": "제4회 하이스트배 어질리티 대회",
+      "startAt": "2025-11-30T09:30:00",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=77d4ae02-714e-4502-8381-a2a474a85532"
+    },
+    {
+      "applicationEndAt": "2025-12-07T23:59:59",
+      "applicationStartAt": "2025-11-30T00:00:00",
+      "club": "코리아어질리티",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-12-13T08:30:00",
+      "eventType": "승급전",
+      "judge": [
+        "하승호"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2"
+      ],
+      "name": "제79회 점핑/어질리티 승급전",
+      "startAt": "2025-12-13T08:30:00",
+      "url": "https://www.instagram.com/korea_kennel_agility"
+    },
+    {
+      "applicationEndAt": "2025-12-07T23:59:59",
+      "applicationStartAt": "2025-11-24T00:00:00",
+      "club": "하이스트",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-12-14T09:30:00",
+      "eventType": "승급전",
+      "judge": [
+        "유선"
+      ],
+      "location": "하이스트",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제72회 KKF 어질리티 대회 클럽전",
+      "startAt": "2025-12-14T09:30:00",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=d5ebf189-200b-496a-acb9-c87ba539beaa"
+    },
+    {
+      "applicationEndAt": "2025-12-07T23:59:59",
+      "applicationStartAt": "2025-11-30T00:00:00",
+      "club": "코리아어질리티",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2025-12-20T08:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "채민수"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "노비스 오픈"
+      ],
+      "name": "제22회 비기너/노비스 승급전",
+      "startAt": "2025-12-20T08:00:00",
+      "url": "https://www.agility.co.kr"
+    },
+    {
+      "applicationEndAt": "2026-01-04T23:59:59",
+      "applicationStartAt": "2025-11-28T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-01-24T07:30:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이즈마엘"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑",
+        "어질리티"
+      ],
+      "name": "제1회 2026 LEEZ 크라운 어질리티 대회",
+      "startAt": "2026-01-24T07:30:00",
+      "url": "https://www.instagram.com/korea_kennel_agility"
+    },
+    {
+      "applicationEndAt": "2026-01-04T23:59:59",
+      "applicationStartAt": "2026-01-01T00:00:00",
+      "club": "코리아어질리티",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-01-25T08:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "고승욱"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제74회 점/어 승급전",
+      "startAt": "2026-01-25T08:00:00",
+      "url": "https://www.agility.co.kr"
+    },
+    {
+      "applicationEndAt": "2026-01-15T23:59:59",
+      "applicationStartAt": "2025-11-25T00:00:00",
+      "club": "갈리칸코리아",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-01-25T08:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "스테파니"
+      ],
+      "location": "강아지숲",
+      "matchTypes": [
+        "점핑제로",
+        "점핑1~3",
+        "어질1~3",
+        "Final"
+      ],
+      "name": "4S agility Cup in Korea🇰🇷",
+      "startAt": "2026-01-25T08:00:00",
+      "url": "https://www.instagram.com/galican_kor"
+    },
+    {
+      "applicationEndAt": "2026-02-08T23:59:59",
+      "applicationStartAt": "2026-02-02T00:00:00",
+      "club": "코리아어질리티",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-02-22T08:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "채민수"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "제23회 비기너/노비스 승급전",
+      "startAt": "2026-02-22T08:00:00",
+      "url": "https://www.instagram.com/korea_kennel_agility"
+    },
+    {
+      "applicationEndAt": "2026-02-15T23:59:59",
+      "applicationStartAt": "2026-02-09T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-03-07T08:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "하승호"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "2026 LEEZ 어질리티 리그",
+      "startAt": "2026-03-07T08:00:00",
+      "url": "https://www.agility.co.kr"
+    },
+    {
+      "applicationEndAt": "2026-02-15T23:59:59",
+      "applicationStartAt": "2026-02-09T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-03-08T08:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이민우"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "점핑",
+        "어질리티"
+      ],
+      "name": "2026 LEEZ 어질리티 리그",
+      "startAt": "2026-03-08T08:00:00",
+      "url": "https://www.agility.co.kr"
+    },
+    {
+      "applicationEndAt": "2026-02-20T23:59:59",
+      "applicationStartAt": "2026-02-06T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-03-21T08:00:00",
+      "eventType": "선발전",
+      "judge": [
+        "한국애견연맹"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "점핑",
+        "어질리티"
+      ],
+      "name": "2026년도 FCI AWC 한국대표 선발전",
+      "startAt": "2026-03-21T08:00:00",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12222"
+    },
+    {
+      "applicationEndAt": "2026-03-10T23:59:59",
+      "applicationStartAt": "2025-11-25T00:00:00",
+      "club": "갈리칸코리아",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-03-21T08:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "얀에길"
+      ],
+      "location": "갈리칸코리아",
+      "matchTypes": [
+        "점핑제로",
+        "점핑1~3",
+        "어질1~3",
+        "Final"
+      ],
+      "name": "갈리칸 코리아 어질리티 오픈",
+      "startAt": "2026-03-21T08:00:00",
+      "url": "https://www.instagram.com/galican_kor"
+    },
+    {
+      "applicationEndAt": "2026-03-15T23:59:59",
+      "applicationStartAt": "2026-02-23T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-03-22T07:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "이지훈"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "2026 홍천 FCI 인터내셔널 어질리티 경기대회",
+      "startAt": "2026-03-22T07:00:00",
+      "url": "https://www.agility.co.kr/FCI"
+    },
+    {
+      "applicationEndAt": "2026-02-28T23:59:59",
+      "applicationStartAt": "2026-02-16T00:00:00",
+      "club": "팔레드차밍",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-03-29T08:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이지은",
+        "오윤석"
+      ],
+      "location": "팔레드차밍",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑",
+        "어질리티"
+      ],
+      "name": "제3회 PDC어질리티 챔피언쉽",
+      "startAt": "2026-03-29T08:00:00",
+      "url": "https://www.instagram.com/pdc_agility"
+    },
+    {
+      "applicationEndAt": "2026-03-10T23:59:59",
+      "applicationStartAt": "2026-02-21T00:00:00",
+      "club": "킨더도기",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-03-29T08:30:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이용민",
+        "전영환"
+      ],
+      "location": "킨더도기",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "어질리티",
+        "점핑",
+        "점핑릴레이"
+      ],
+      "name": "2026 아레스 어질리티 오픈 챔피언쉽",
+      "startAt": "2026-03-29T08:30:00",
+      "url": "https://www.instagram.com/p/DUE31MFEtUB/?img_index=1"
+    },
+    {
+      "applicationEndAt": "2026-04-10T23:59:59",
+      "applicationStartAt": "2026-03-30T00:00:00",
+      "club": "하이스트",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-04-18T09:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "김희윤"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제 75회 KKF 하이스트 독 스포츠 클럽 어질리티 대회",
+      "startAt": "2026-04-18T09:00:00",
+      "url": "https://linktr.ee/HIGHESTAGILITY?utm_source=linktree_profile_share&ltsid=03a85730-9767-4f18-89e6-1c95d75f3376"
+    },
+    {
+      "applicationEndAt": "2026-04-05T23:59:59",
+      "applicationStartAt": "2026-03-29T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-04-19T08:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "강현기"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "제24회 비노 승급전",
+      "startAt": "2026-04-19T08:00:00",
+      "url": "https://www.agility.co.kr"
+    },
+    {
+      "applicationEndAt": "2026-04-19T23:59:59",
+      "applicationStartAt": "2026-04-05T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-05-02T09:30:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "홍상우"
+      ],
+      "location": "오수의견관광지",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "2026 오수 KKF 아마추어 어질리티 대회",
+      "startAt": "2026-05-02T09:30:00",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=853"
+    },
+    {
+      "applicationEndAt": "2026-04-19T23:59:59",
+      "applicationStartAt": "2026-04-05T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-05-03T08:30:00",
+      "eventType": "승급전",
+      "judge": [
+        "김혜민",
+        "이재룡"
+      ],
+      "location": "오수의견관광지",
+      "matchTypes": [
+        "AG1",
+        "AG2",
+        "AG3"
+      ],
+      "name": "2026 오수 FCI 인터내셔널 & 내셔널 어질리티 경기대회",
+      "startAt": "2026-05-03T08:30:00",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=852"
+    },
+    {
+      "applicationEndAt": "2026-05-10T18:00:00",
+      "applicationStartAt": "2026-05-03T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-05-16T08:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "이수경"
+      ],
+      "location": "팔레드차밍",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제 76회 KKF 어질리티 위원회 승급전",
+      "startAt": "2026-05-16T08:00:00",
+      "url": "https://www.agility.co.kr//?bmode=view&idx=171129201",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1W-0KVCgt8wHfcKnDLsfzXw5DqWjeMS7F",
         "https://drive.google.com/uc?export=view&id=1fXnVEsFcOOCsg-R8RAYsxwBOEGqyoOLq",
@@ -1118,31 +822,25 @@
       ]
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-05-10T18:00:00",
+      "applicationStartAt": "2026-05-03T00:00:00",
       "club": "한국어질리티연합",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-05-31T00:00:00",
-      "eventType": "랭킹전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "소노 LEEZ 3차 어질리티 랭킹전",
-      "startAt": "2026-05-30T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=171215816&t=board",
-      "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1s6DZSoQwE6rrLdbLqxC-1l7VEiOIRrfG",
-        "https://drive.google.com/uc?export=view&id=1xlT4RB-NIJAIZ7mDeVkADhbZxWsfu37m",
-        "https://drive.google.com/uc?export=view&id=1sb3LmUu5Ao4dq2-mw7npXD-myS5Q7pyk",
-        "https://drive.google.com/uc?export=view&id=1Ot4VGW8Lak7iSMraUHBy9-2S7NnNudiv",
-        "https://drive.google.com/uc?export=view&id=1eGucnPvXo7cE2SN9Imr-TjUq1qf7zv67",
-        "https://drive.google.com/uc?export=view&id=1x2ItFUP53PPePkz2dQQ-cieu4s1oVMK1",
-        "https://drive.google.com/uc?export=view&id=1ceh1TqW01elgtO1esFoVBTvRKT1_FAFA",
-        "https://drive.google.com/uc?export=view&id=1QBnmFOZxOxg6_mpZSh0hd9CEMsFM-Z3L",
-        "https://drive.google.com/uc?export=view&id=1XgV2JNk29sXxSbG7fw39aq9TtaymHH5K",
-        "https://drive.google.com/uc?export=view&id=1DoHFt-iu7IGaPbqRohEyiZYEMcGTjPdN"
-      ]
+      "endAt": "2026-05-17T08:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "이민우"
+      ],
+      "location": "팔레드차밍",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제 77회 KKF 어질리티 위원회 승급전",
+      "startAt": "2026-05-17T08:00:00",
+      "url": "https://www.agility.co.kr//?bmode=view&idx=171129201"
     },
     {
       "applicationEndAt": "2026-06-14T23:59:59",
@@ -1150,21 +848,19 @@
       "club": "코리아어질리티",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-06-21T00:00:00",
+      "endAt": "2026-06-21T06:30:00",
       "eventType": "승급전",
       "judge": [
-        "원재성"
+        "김민성"
       ],
       "location": "소노골프장",
       "matchTypes": [
-        "점핑",
-        "어질리티",
-        "비기너",
-        "노비스"
+        "LV1",
+        "LV2"
       ],
-      "name": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
-      "startAt": "2026-06-21T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=171569089&t=board",
+      "name": "제78회 점핑/어질리티 승급전",
+      "startAt": "2026-06-21T06:30:00",
+      "url": "https://www.agility.co.kr/17/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171569089&t=board",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1tagNjtyF31jMNDVbrCCgiBHe0pQJfQeB",
         "https://drive.google.com/uc?export=view&id=1d-egPsCowWdtyfxHlqdnPGk1g90F3ymx",
@@ -1181,19 +877,58 @@
       ]
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-06-14T23:59:59",
+      "applicationStartAt": "2026-06-07T00:00:00",
+      "club": "코리아어질리티",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-06-21T13:30:00",
+      "eventType": "승급전",
+      "judge": [
+        "원재성"
+      ],
+      "location": "소노골프장",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "제25회 비기너/노비스 승급전",
+      "startAt": "2026-06-21T13:30:00",
+      "url": "https://www.agility.co.kr/17/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171569089&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1tagNjtyF31jMNDVbrCCgiBHe0pQJfQeB",
+        "https://drive.google.com/uc?export=view&id=1d-egPsCowWdtyfxHlqdnPGk1g90F3ymx",
+        "https://drive.google.com/uc?export=view&id=1SAQzneaZZ4K0oE2EwjrmV5j_YZx6MbUw",
+        "https://drive.google.com/uc?export=view&id=1R_OgGBiM1BYnEgVKTzP7sSNYBFptko5T",
+        "https://drive.google.com/uc?export=view&id=1CQxIlhmQxt1r0fJcTJRwJCkHj5FnHxDI",
+        "https://drive.google.com/uc?export=view&id=1H3AEzfW4-qBA6mZsb7xwsRAcYDTrwGMS",
+        "https://drive.google.com/uc?export=view&id=1jzq1g2Xb99Bh4dz8L6HV-nvGKOkgmmzO",
+        "https://drive.google.com/uc?export=view&id=1QYHUW2zRxjpQkmCiHbDSI_7B1lZNu_9O",
+        "https://drive.google.com/uc?export=view&id=1PsA2mXfUxeFl1gSrXW9kXu_F0aG1YXyk",
+        "https://drive.google.com/uc?export=view&id=1hZT4jBmrqhXAS6YkiG8uH0UyuBhf14ns",
+        "https://drive.google.com/uc?export=view&id=1UEDPbj5OJcMZLH2OJI1EJ9zo90JoaC1c",
+        "https://drive.google.com/uc?export=view&id=1lvZlMswZgyTVBSj7Y0-HF6mSC8Daylo_"
+      ]
+    },
+    {
+      "applicationEndAt": "2026-06-21T18:00:00",
+      "applicationStartAt": "2026-06-14T10:00:00",
       "club": "한국어질리티연합",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-07-05T00:00:00",
+      "endAt": "2026-07-04T13:00:00",
       "eventType": "랭킹전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [],
-      "name": "LEEZ 4차 어질리티 랭킹전",
-      "startAt": "2026-07-04T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=171801812&t=board",
+      "judge": [
+        "마재웅"
+      ],
+      "location": "가든파이브",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "2026 가든파이브 LEEZ 어질리티 4차",
+      "startAt": "2026-07-04T13:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171801812&t=board",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1kxP8nhMBCPgFWTlteCZeJj413b2yQsGx",
         "https://drive.google.com/uc?export=view&id=1O350dpzJxCEix7AkuahjRmSrlKWHd04c",
@@ -1210,22 +945,46 @@
       ]
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-06-21T18:00:00",
+      "applicationStartAt": "2026-06-14T10:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-07-05T13:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "이상민"
+      ],
+      "location": "가든파이브",
+      "matchTypes": [
+        "점핑 ST",
+        "어질리티 ST",
+        "점핑 MS",
+        "어질리티 MS"
+      ],
+      "name": "2026 가든파이브 LEEZ 어질리티 4차",
+      "startAt": "2026-07-05T13:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=171801812&t=board"
+    },
+    {
+      "applicationEndAt": "2026-07-12T23:59:59",
+      "applicationStartAt": "2026-07-05T00:00:00",
       "club": "코리아어질리티",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-07-25T00:00:00",
+      "endAt": "2026-07-25T14:00:00",
       "eventType": "승급전",
-      "judge": [],
-      "location": "",
-      "matchTypes": [
-        "점핑",
-        "어질리티"
+      "judge": [
+        "김민성"
       ],
-      "name": "KKF 코리아어질리티클럽 승급전(점/어)",
-      "startAt": "2026-07-25T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=172214338&t=board",
+      "location": "소노골프장",
+      "matchTypes": [
+        "LV1",
+        "LV2"
+      ],
+      "name": "제79회 KKF 코리아어질리티클럽 점핑/어질리티 승급전",
+      "startAt": "2026-07-25T14:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172214338&t=board",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1R5tUJCe-20smjvIFAGI3oWSYIl8ADWqZ",
         "https://drive.google.com/uc?export=view&id=1lKQ9HHvEsxVLJfSpuKMRr9Oa5GW8Ei1f",
@@ -1244,19 +1003,21 @@
       "club": "코리아어질리티",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-08-08T00:00:00",
+      "endAt": "2026-08-08T19:00:00",
       "eventType": "승급전",
       "judge": [
         "홍상우"
       ],
       "location": "소노골프장",
       "matchTypes": [
-        "점핑",
-        "어질리티"
+        "점핑1",
+        "점핑2",
+        "어질리티1",
+        "어질리티2"
       ],
-      "name": "KKF 코리아어질리티클럽 승급전(점/어)",
-      "startAt": "2026-08-08T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=172472260&t=board",
+      "name": "제 80회 KKF 코리아어질리티클럽 점/어 승급전",
+      "startAt": "2026-08-08T14:00:00",
+      "url": "https://www.agility.co.kr/17/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172472260&t=board",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1HRtqxUDzIbs96AeloQY-4GloNGxp1Yq9",
         "https://drive.google.com/uc?export=view&id=1VC8lMYz0GkkKCfJyizUTePAjm0VLyxfC",
@@ -1273,22 +1034,25 @@
       ]
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-08-16T23:59:59",
+      "applicationStartAt": "2026-08-09T00:00:00",
       "club": "코리아어질리티",
       "detailNotice": "",
       "detailStatus": "detail_ready",
-      "endAt": "2026-08-30T00:00:00",
+      "endAt": "2026-08-30T20:00:00",
       "eventType": "승급전",
-      "judge": [],
-      "location": "",
+      "judge": [
+        "채민수"
+      ],
+      "location": "한국반려견교육센터 강동점",
       "matchTypes": [
         "비기너",
-        "노비스"
+        "노비스",
+        "어드밴스드"
       ],
-      "name": "KKF 코리아어질리티클럽 비노 승급전",
-      "startAt": "2026-08-30T00:00:00",
-      "url": "https://www.agility.co.kr/17/?bmode=view&idx=172905386&t=board",
+      "name": "KKF 코리아어질리티클럽 제26회 비/노 승급전",
+      "startAt": "2026-08-30T13:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172905386&t=board",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1sSis9mYoFu2z7Hu9h_VLlcvIVnwlUGYp",
         "https://drive.google.com/uc?export=view&id=1TPB7v9NtR42Q9W7UUcod8-Wy65NuGsrv",
@@ -1301,6 +1065,230 @@
         "https://drive.google.com/uc?export=view&id=1vtlXjtxSSq-L8vHJsfVLUkE90qPQm6K4",
         "https://drive.google.com/uc?export=view&id=1gmFfB7KueS5P2B1YwVcMlNnQubnyDvzt"
       ]
+    },
+    {
+      "applicationEndAt": "2026-08-09T23:59:59",
+      "applicationStartAt": "2026-08-02T00:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-05T17:00:00",
+      "eventType": "",
+      "judge": [
+        "김민성"
+      ],
+      "location": "꽃지해수욕장",
+      "matchTypes": [
+        "비기너",
+        "스피드 노비스",
+        "점핑",
+        "스피드 어질리티"
+      ],
+      "name": "2026 LEEZ DOGSPORTS TAEAN BEACH AGILITY CUP",
+      "startAt": "2026-09-05T09:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=172813882&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1KY73Ve5NaSk-Gq64m9Q7AOxfJTJvuWmq",
+        "https://drive.google.com/uc?export=view&id=1otw171JUrhqebUav5OldjyFcDRHBjTY7",
+        "https://drive.google.com/uc?export=view&id=16X5Wa-UuEd-4UDHN1WPHmiboOq-GqemX",
+        "https://drive.google.com/uc?export=view&id=1fcSAIbLEE74qOxnziCRMRs1iKcGBR_NL",
+        "https://drive.google.com/uc?export=view&id=1SC3qgYL4meS8trGDTaBZL-L9rmFQxh6b",
+        "https://drive.google.com/uc?export=view&id=1gOF_EgINGYbmCF2nyAwUVwtSmR9sQo_J",
+        "https://drive.google.com/uc?export=view&id=1VZReqTAOr0_j-FjVchO8glZjlqsl9XVq",
+        "https://drive.google.com/uc?export=view&id=1waXggX_AKvlyWQQJYXTvkiPRJfx2gg4w",
+        "https://drive.google.com/uc?export=view&id=1Bao9dI6bDyGaEd4s18yiqvRkd8zcnfQh"
+      ]
+    },
+    {
+      "applicationEndAt": "2026-09-10T23:59:59",
+      "applicationStartAt": "2026-08-15T00:00:00",
+      "club": "ARES",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-19T07:40:00",
+      "eventType": "대회",
+      "judge": [
+        "이용민"
+      ],
+      "location": "키녹 그린스페이스",
+      "matchTypes": [
+        "비기너",
+        "노비스1",
+        "노비스2",
+        "점핑0"
+      ],
+      "name": "ARES : GAME ON",
+      "startAt": "2026-09-19T07:40:00",
+      "url": "https://www.instagram.com/ares.agility/"
+    },
+    {
+      "applicationEndAt": "2026-09-06T23:59:59",
+      "applicationStartAt": "2026-08-23T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-19T17:00:00",
+      "eventType": "대회",
+      "judge": [
+        "이민우"
+      ],
+      "location": "홍천생활체육공원",
+      "matchTypes": [
+        "비기너1",
+        "비기너2",
+        "노비스1",
+        "노비스2"
+      ],
+      "name": "2026 홍천 KKF 아마추어 어질리티 경기대회",
+      "startAt": "2026-09-19T09:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173320506&t=board"
+    },
+    {
+      "applicationEndAt": "2026-09-10T23:59:59",
+      "applicationStartAt": "2026-08-15T00:00:00",
+      "club": "ARES",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-20T07:40:00",
+      "eventType": "대회",
+      "judge": [
+        "전영환"
+      ],
+      "location": "키녹 그린스페이스",
+      "matchTypes": [
+        "점핑스피드",
+        "점핑플로우",
+        "어질리티",
+        "어질리티오픈"
+      ],
+      "name": "ARES : GAME ON",
+      "startAt": "2026-09-20T07:40:00",
+      "url": "https://www.instagram.com/ares.agility/"
+    },
+    {
+      "applicationEndAt": "2026-09-06T23:59:59",
+      "applicationStartAt": "2026-08-23T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-20T17:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "김민성"
+      ],
+      "location": "홍천생활체육공원",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "2026 KKF 내셔널 어질리티 평가전",
+      "startAt": "2026-09-20T09:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173320506&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1kU-osMnXyKWcMcpU5Idw2g0cILt3meZQ",
+        "https://drive.google.com/uc?export=view&id=1qdy36JVuObWBHTuh53GfzS0U406EW0KC",
+        "https://drive.google.com/uc?export=view&id=1X7Wk9Hj3DOHaHVUjja1kNFvnI6sqzibD",
+        "https://drive.google.com/uc?export=view&id=1NaVCkI1d_nmyESTxCAgQPV2Q95rLq5uH",
+        "https://drive.google.com/uc?export=view&id=19qlyKeONtRdXguRo-5gC8fX1wT8jDUpS"
+      ]
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "동물과사람",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-07T00:00:00",
+      "eventType": "랭킹전",
+      "judge": [],
+      "location": "강아지숲",
+      "matchTypes": [
+        "펜타슬론",
+        "바이애슬론",
+        "스누커",
+        "갬블러"
+      ],
+      "name": "2026 Korea Agility Open (KAO)",
+      "startAt": "2026-11-07T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "동물과사람",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-08T00:00:00",
+      "eventType": "랭킹전",
+      "judge": [],
+      "location": "강아지숲",
+      "matchTypes": [
+        "펜타슬론",
+        "바이애슬론",
+        "스누커",
+        "갬블러"
+      ],
+      "name": "2026 Korea Agility Open (KAO)",
+      "startAt": "2026-11-08T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-21T00:00:00",
+      "eventType": "선발전",
+      "judge": [],
+      "location": "미정",
+      "matchTypes": [
+        "미정"
+      ],
+      "name": "2027 EO(European Open) 어질리티 대회 선발전",
+      "startAt": "2026-11-21T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "한국애견연맹",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-22T00:00:00",
+      "eventType": "선발전",
+      "judge": [],
+      "location": "미정",
+      "matchTypes": [
+        "미정"
+      ],
+      "name": "2027 EO(European Open) 어질리티 대회 선발전",
+      "startAt": "2026-11-22T00:00:00",
+      "url": ""
+    },
+    {
+      "applicationEndAt": "2026-09-14T17:00:00",
+      "applicationStartAt": "2026-08-19T10:00:00",
+      "club": "한국애견협회",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-09-19T09:00:00",
+      "eventType": "승급전",
+      "eventChair": "우아미",
+      "judge": [
+        "우아미"
+      ],
+      "location": "KKC 행사장(어린이회관 서편운동장)",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑",
+        "어질리티"
+      ],
+      "name": "2026 KKC 어질리티 경기대회",
+      "startAt": "2026-09-19T09:00:00",
+      "url": "https://www.kkc.or.kr/calendar/contest/n2ssGwp366hMSrrtRUdQ"
     }
   ]
 }
