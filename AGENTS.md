@@ -71,3 +71,12 @@ If release signing fails, debug in this order:
 - `/ak/v2`를 앱 코드·배치 코드·NAS env에 직접 고정하지 않는다.
 - rollback은 이전 버전 폴더를 삭제하지 않고 manifest를 이전 `basePath`/`forceRefreshKey`로 되돌린다.
 - 상세 운영 규칙은 [AGILITYKOREA_DATA_VERSIONING.md](/Users/sam/Documents/daltiapp/daltiapp.github.io/AGILITYKOREA_DATA_VERSIONING.md) 를 따른다.
+
+# 외부 에이전트 지침 통합
+
+아래 두 프로젝트는 목적이 겹치지 않도록 다음 범위에서만 적용한다.
+
+- [OpenWiki](https://github.com/langchain-ai/openwiki): 저장소 문서화 전용이다. 코드·테스트·운영 문서를 근거로 `openwiki/` 문서와 Claims를 생성·갱신할 때만 사용한다. 이 프로젝트의 보안·데이터·푸시 규칙을 대체하거나 자동으로 파일을 재생성하지 않는다.
+- [Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills): 작업 수행 방식 전용이다. 구현 전 가정과 성공 기준을 명시하고, 가장 단순한 해법을 선택하며, 요청과 무관한 변경을 하지 않고, 테스트·검증으로 완료를 확인한다.
+
+우선순위는 이 파일의 프로젝트·보안 규칙이 가장 높다. Karpathy 원칙은 모든 변경 작업의 실행 기준으로 적용하고, OpenWiki는 문서화 요청 또는 문서 동기화 작업에서만 적용한다. 두 지침을 중복된 문서 생성 규칙으로 합치지 않는다.
