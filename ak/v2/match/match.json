@@ -1349,6 +1349,47 @@
       "url": "https://www.agility.co.kr/17/?bmode=view&idx=173320506&t=board"
     },
     {
+      "applicationEndAt": "2026-09-20T23:59:59",
+      "applicationStartAt": "2026-09-13T00:00:00",
+      "club": "코리아어질리티",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-10-04T16:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "김민성"
+      ],
+      "location": "소노 어질리티 센터",
+      "matchTypes": [
+        "LV1",
+        "LV2",
+        "LV3"
+      ],
+      "name": "제81회 KKF 코리아어질리티클럽 점/어 승급전",
+      "startAt": "2026-10-04T08:00:00",
+      "url": "https://www.agility.co.kr/17/?bmode=list"
+    },
+    {
+      "applicationEndAt": "2026-09-20T23:59:59",
+      "applicationStartAt": "2026-09-13T00:00:00",
+      "club": "코리아어질리티",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-10-04T19:00:00",
+      "eventType": "승급전",
+      "judge": [
+        "박선영"
+      ],
+      "location": "소노 어질리티 센터",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "KKF 코리아어질리티클럽 제27회 비/노 승급전",
+      "startAt": "2026-10-04T15:00:00",
+      "url": "https://www.agility.co.kr/17/?bmode=list"
+    },
+    {
       "applicationEndAt": "2026-09-15T23:59:59",
       "applicationStartAt": "2026-08-30T00:00:00",
       "club": "발트바우",
