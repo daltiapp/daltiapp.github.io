@@ -220,8 +220,7 @@ test("대회는 13개 core 필드와 중복을 검사한다", async () => {
     "matchTypes",
     "name",
     "startAt",
-    "url",
-    "detailImages"
+    "url"
   ]);
   assert.equal(validation.blocking, true);
 });
