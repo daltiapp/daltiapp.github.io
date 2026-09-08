@@ -1391,6 +1391,30 @@
     },
     {
       "applicationEndAt": "2026-09-15T23:59:59",
+      "applicationStartAt": "2026-09-01T00:00:00",
+      "club": "팔레드차밍",
+      "detailNotice": "",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-10-03T19:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "임병주",
+        "김성한"
+      ],
+      "location": "팔레드차밍",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "어드밴스드",
+        "점핑",
+        "어질리티"
+      ],
+      "name": "제2회 오디너리독스배 어질리티 대회",
+      "startAt": "2026-10-03T08:00:00",
+      "url": "https://www.instagram.com/pdc_agility/"
+    },
+    {
+      "applicationEndAt": "2026-09-15T23:59:59",
       "applicationStartAt": "2026-08-30T00:00:00",
       "club": "발트바우",
       "detailNotice": "",
