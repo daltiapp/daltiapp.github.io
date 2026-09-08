@@ -5,6 +5,7 @@
       "registrationStartDate": "2025-06-16",
       "name": "아네타 어질리티 세미나",
       "speaker": "아네타",
+      "speakerId": "aneta-obrusnikova",
       "organizer": "갈리칸코리아",
       "url": "https://www.instagram.com/p/DK9IfOlzX_M/?img_index=1",
       "listImage": "https://drive.google.com/uc?export=view&id=1MFc7zGVebU0akFXwPO6oRhnmNdSEJ6hx",
@@ -18,6 +19,7 @@
       "registrationStartDate": "2025-06-16",
       "name": "루치에 핸들링 & 기초 훈련 세미나",
       "speaker": "루치에",
+      "speakerId": "lucie-glejdurova",
       "organizer": "갈리칸코리아",
       "url": "https://www.instagram.com/p/DLgnh0lzY0h",
       "listImage": "https://drive.google.com/uc?export=view&id=1MDCj_mVi97r-UXGDtDKnNslgJiEJ4H-k",
@@ -30,6 +32,7 @@
       "registrationStartDate": "2025-09-24",
       "name": "피터퓨픽 코스디자인 온라인 세미나",
       "speaker": "피터퓨픽",
+      "speakerId": "petr-pupik",
       "organizer": "강아지숲",
       "url": "https://www.instagram.com/p/DO-JE3gk0i4/?img_index=1",
       "listImage": "https://drive.google.com/uc?export=view&id=1ItZRrX6ff1WFgjVhonu2Yu-rpvYWNJHr",
@@ -44,6 +47,7 @@
       "registrationStartDate": "2025-09-12",
       "name": "피터퓨픽 어질리티 세미나",
       "speaker": "피터퓨픽",
+      "speakerId": "petr-pupik",
       "organizer": "강아지숲",
       "url": "https://www.instagram.com/p/DOX5IQTEye3/?img_index=1",
       "listImage": "https://drive.google.com/uc?export=view&id=1ItZRrX6ff1WFgjVhonu2Yu-rpvYWNJHr",
@@ -60,6 +64,7 @@
       "registrationStartDate": "2025-09-25",
       "name": "모리스 파운데이션 세미나",
       "speaker": "모리스",
+      "speakerId": "maurice-frenzen",
       "organizer": "발트바우",
       "url": "https://waldbow.com/program/programOpen.do",
       "listImage": "https://drive.google.com/uc?export=view&id=1yaLsbl5uma86fyrf0h1vrdAq1D3RoZwg",
@@ -70,6 +75,7 @@
       "registrationStartDate": "2025-09-25",
       "name": "모리스 파운데이션 코스러닝 세미나",
       "speaker": "모리스",
+      "speakerId": "maurice-frenzen",
       "organizer": "발트바우",
       "url": "https://waldbow.com/program/programOpen.do",
       "listImage": "https://drive.google.com/uc?export=view&id=1yaLsbl5uma86fyrf0h1vrdAq1D3RoZwg",
@@ -80,6 +86,7 @@
       "registrationStartDate": "2025-10-18",
       "name": "타마스 어질리티 세미나",
       "speaker": "타마스",
+      "speakerId": "tamas-traj",
       "organizer": "강아지숲",
       "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1",
       "listImage": "https://drive.google.com/uc?export=view&id=1mpGMZFKgnYig7T3HMAlShgcL6yA89LNC",
@@ -95,6 +102,7 @@
       "registrationStartDate": "2025-10-18",
       "name": "타마스 어질리티 코스디자인 세미나",
       "speaker": "타마스",
+      "speakerId": "tamas-traj",
       "organizer": "강아지숲",
       "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1",
       "listImage": "https://drive.google.com/uc?export=view&id=1mpGMZFKgnYig7T3HMAlShgcL6yA89LNC",
@@ -123,6 +131,7 @@
       "registrationStartDate": "2025-12-29",
       "name": "이즈마엘 어질리티 세미나",
       "speaker": "이즈마엘",
+      "speakerId": "ismael-fernandez-estevez",
       "organizer": "유에이",
       "url": "https://www.instagram.com/p/DS1iomwAE1h/?img_index=1",
       "listImage": "https://drive.google.com/uc?export=view&id=1RpRQ75H0V4R1r1ehiwgrAzSOvfgkgu0B",
@@ -153,6 +162,7 @@
       "registrationStartDate": "2026-07-20",
       "name": "미첼 프레이타스 어질리티 세미나",
       "speaker": "미첼 프레이타스",
+      "speakerId": "michel-freitas",
       "organizer": "발트바우",
       "url": "https://www.instagram.com/p/DVsv2vQkcuy/?img_index=1",
       "listImage": "https://drive.google.com/uc?export=view&id=11JDP9F8aw3vwXyRVVfVumVOh9X6bTLTr",
@@ -160,6 +170,225 @@
         "https://drive.google.com/uc?export=view&id=1wyaBSiAxpwBm2RHQNBDz2C0yhR-gxEWb",
         "https://drive.google.com/uc?export=view&id=1S2yEkCM-BC5m4LqcWdwMc0rulMPxdNmn",
         "https://drive.google.com/uc?export=view&id=1NF1Yfq9vp_oqNoHjb0Xvy7WqCgHc6vtJ"
+      ]
+    }
+  ],
+  "speakers": [
+    {
+      "id": "maurice-frenzen",
+      "displayName": "모리스",
+      "name": "모리스 프렌젠",
+      "nameEn": "Maurice Frenzen",
+      "country": "독일",
+      "instagramUrl": "https://www.instagram.com/maurice.frenzen/",
+      "summary": "독일 뒤셀도르프 인근을 기반으로 활동하는 어질리티 핸들러·트레이너·심사위원입니다.",
+      "competitionAchievements": [
+        {
+          "year": 2024,
+          "event": "FCI Agility World Championship",
+          "category": "Team Small",
+          "result": "우승",
+          "sourceUrl": "https://www.instagram.com/maurice.frenzen/reel/DBIxt6hITFw/"
+        }
+      ],
+      "judgingExperience": [],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1uyadVrymnXIr4LOtQpdhMBz8FXYpRL7j",
+      "profileImageSourceUrl": "https://www.instagram.com/maurice.frenzen/",
+      "sourceUrls": [
+        "https://www.instagram.com/maurice.frenzen/"
+      ]
+    },
+    {
+      "id": "aneta-obrusnikova",
+      "displayName": "아네타",
+      "name": "아네타 오브루스니코바",
+      "nameEn": "Aneta Obrusníková",
+      "country": "체코",
+      "instagramUrl": "https://www.instagram.com/anetka_obrusnikova/",
+      "summary": "무디와 함께 활동하는 체코의 어질리티 트레이너·국제 심사위원·선수입니다.",
+      "competitionAchievements": [
+        {
+          "year": 2024,
+          "event": "FCI Agility World Championship",
+          "category": "팀",
+          "result": "월드 챔피언",
+          "sourceUrl": "https://www.instagram.com/anetka_obrusnikova/reel/DVDtveYiEfp/"
+        },
+        {
+          "year": 2025,
+          "event": "World Agility Open",
+          "category": "Individual",
+          "result": "Pentathlon·Biathlon·Games Champion",
+          "dog": "Chilli",
+          "sourceUrl": "https://ceskeagility.cz/index.php?title=WAO_2026"
+        }
+      ],
+      "judgingExperience": [
+        {
+          "role": "국제 어질리티 심사위원",
+          "sourceUrl": "https://baddogagility.com/interview-with-aneta-obrusnikova/"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1rCKcZEGTxwOGJA3UojrstF53QJepHxVU",
+      "profileImageSourceUrl": "https://www.instagram.com/anetka_obrusnikova/",
+      "sourceUrls": [
+        "https://www.instagram.com/anetka_obrusnikova/",
+        "https://baddogagility.com/interview-with-aneta-obrusnikova/",
+        "https://ceskeagility.cz/index.php?title=WAO_2026"
+      ]
+    },
+    {
+      "id": "lucie-glejdurova",
+      "displayName": "루치에",
+      "name": "루치에 글레이두로바",
+      "nameEn": "Lucie Glejdurová",
+      "country": "체코",
+      "instagramUrl": "https://www.instagram.com/lucie.glejdurova/",
+      "summary": "브르노를 기반으로 19년 이상 어질리티를 훈련·경기하고, 2015년부터 다른 팀도 지도해 온 트레이너이자 현역 선수입니다.",
+      "competitionAchievements": [
+        {
+          "year": 2022,
+          "event": "FCI Agility World Championship",
+          "category": "Individual",
+          "result": "2위",
+          "dog": "Twix",
+          "sourceUrl": "https://lucieglejdurova.com/"
+        }
+      ],
+      "judgingExperience": [],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1vH3loLYfoI7zs1_I12cvmi0hiwr0YxLQ",
+      "profileImageSourceUrl": "https://www.instagram.com/lucie.glejdurova/",
+      "sourceUrls": [
+        "https://www.instagram.com/lucie.glejdurova/",
+        "https://lucieglejdurova.com/"
+      ]
+    },
+    {
+      "id": "petr-pupik",
+      "displayName": "피터퓨픽",
+      "name": "피터 푸픽",
+      "nameEn": "Petr Pupík",
+      "country": "체코",
+      "instagramUrl": "https://www.instagram.com/petr.agility/",
+      "summary": "체코의 국제 어질리티 심사위원으로 코스 디자인과 심사 활동을 이어가고 있습니다.",
+      "competitionAchievements": [],
+      "judgingExperience": [
+        {
+          "year": 2017,
+          "event": "FCI Agility World Championship",
+          "role": "심사위원",
+          "sourceUrl": "https://ceskeagility.cz/index.php?title=Historie_agility"
+        },
+        {
+          "year": 2023,
+          "event": "World Agility Open",
+          "role": "심사위원",
+          "sourceUrl": "https://klubagility.cz/site/assets/files/3946/zprava_o_cinnosti_klubu_agility_2023.pdf"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1_p39JMJkyxuWrgRJyrbZ2u0J6logTeuc",
+      "profileImageSourceUrl": "https://www.instagram.com/petr.agility/",
+      "sourceUrls": [
+        "https://www.instagram.com/petr.agility/",
+        "https://www.pespritelcloveka.cz/seznamte-ses-nasimi-mezinarodnimi-rozhodcimi-agility/",
+        "https://ceskeagility.cz/index.php?title=Historie_agility"
+      ]
+    },
+    {
+      "id": "tamas-traj",
+      "displayName": "타마스",
+      "name": "타마스 트라이",
+      "nameEn": "Tamás Tráj",
+      "country": "헝가리",
+      "instagramUrl": "https://www.instagram.com/tamas.traj/",
+      "summary": "헝가리의 FCI 어질리티 심사위원으로, 기술적이면서도 속도감 있는 코스 디자인을 지향합니다.",
+      "competitionAchievements": [],
+      "judgingExperience": [
+        {
+          "year": 2014,
+          "event": "European Open",
+          "role": "심사위원",
+          "sourceUrl": "https://www.ckcagilityteam.ca/documents/Biography-Tamas-Traj.pdf"
+        },
+        {
+          "event": "Hungarian Kennel Club",
+          "role": "FCI Agility Judge",
+          "sourceUrl": "https://www.ckcagilityteam.ca/documents/Biography-Tamas-Traj.pdf"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1mjP9M5dTYDS9AkMUy1v_mAOQhjIG1gAW",
+      "profileImageSourceUrl": "https://www.instagram.com/tamas.traj/",
+      "sourceUrls": [
+        "https://www.instagram.com/tamas.traj/",
+        "https://www.ckcagilityteam.ca/documents/Biography-Tamas-Traj.pdf"
+      ]
+    },
+    {
+      "id": "ismael-fernandez-estevez",
+      "displayName": "이즈마엘",
+      "name": "이즈마엘 페르난데스 에스테베스",
+      "nameEn": "Ismael Fernández Estévez",
+      "country": "스페인",
+      "instagramUrl": "https://www.instagram.com/ismaelaucanadaagility/",
+      "summary": "Aucanada Shelties와 함께 활동하며 스페인 대표팀으로 국제 어질리티 대회에 출전해 온 핸들러입니다.",
+      "competitionAchievements": [],
+      "judgingExperience": [],
+      "competitionParticipation": [
+        {
+          "year": 2023,
+          "event": "FCI European Open",
+          "category": "Spain Small 1",
+          "dog": "Time",
+          "sourceUrl": "https://eo2023.dk/wp-content/uploads/2023/07/EO2023-Team-results-Small-Combined.pdf"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1Qux9GeJOoC614mmn7pT9q0Bnc3mN0s5n",
+      "profileImageSourceUrl": "https://www.instagram.com/ismaelaucanadaagility/",
+      "sourceUrls": [
+        "https://www.instagram.com/ismaelaucanadaagility/",
+        "https://eo2023.dk/wp-content/uploads/2023/07/EO2023-Team-results-Small-Combined.pdf",
+        "https://www.rsce.es/organigrama/"
+      ]
+    },
+    {
+      "id": "michel-freitas",
+      "displayName": "미첼 프레이타스",
+      "name": "미첼 프레이타스",
+      "nameEn": "Michel Freitas",
+      "country": "스페인",
+      "instagramUrl": "https://www.instagram.com/aire_tenso/",
+      "summary": "스페인 대표 어질리티 핸들러·트레이너이자 RFEC·UKI 심사위원입니다.",
+      "competitionAchievements": [
+        {
+          "year": 2025,
+          "event": "FCI Agility World Championship",
+          "category": "팀",
+          "result": "우승",
+          "dog": "Jakka",
+          "sourceUrl": "https://michelfreitas.es/"
+        },
+        {
+          "year": 2025,
+          "event": "FCI Agility World Championship",
+          "category": "Individual Intermediate",
+          "result": "2위",
+          "dog": "Jakka",
+          "sourceUrl": "https://michelfreitas.es/"
+        }
+      ],
+      "judgingExperience": [
+        {
+          "role": "RFEC·UKI 심사위원",
+          "sourceUrl": "https://www.kraftyk9dogsports.com/michel"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1F3iCtxMrWBhVxrgjS_yKEzszXtsCDex_",
+      "profileImageSourceUrl": "https://www.instagram.com/aire_tenso/",
+      "sourceUrls": [
+        "https://www.instagram.com/aire_tenso/",
+        "https://michelfreitas.es/",
+        "https://www.kraftyk9dogsports.com/michel",
+        "https://www.agilitynow.eu/spanish-team-for-the-2025-agility-world-championship/"
       ]
     }
   ]

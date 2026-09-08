@@ -59,6 +59,10 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 - `listImage`는 목록에 표시할 선수 이미지 URL이다. 등록 전에는 빈 문자열로 둔다.
 - `detailImages`는 상세 화면에 표시할 이미지 URL 문자열 배열이다. 이미지가 확인되지 않은 항목은 빈 배열로 둔다.
 - Google Drive의 `/app/agilitykorea/seminar/list`에는 선수 목록 이미지를, `/app/agilitykorea/seminar/detail`에는 상세 이미지를 저장한다.
+- v3 `seminar.json`의 각 세미나는 선택 필드 `speakerId`로 동일 파일 루트의 `speakers[].id`를 참조할 수 있다. 이 연결은 기존 `speaker` 표시명을 대체하지 않는다.
+- `speakers`는 세미나 상세에 재사용하는 선수 프로필 목록이다. `id`, `displayName`, `name`, `nameEn`, `country`, `instagramUrl`, `summary`, `competitionAchievements`, `judgingExperience`, `profileImageSourceUrl`, `sourceUrls`를 사용한다. 수상 근거가 없는 경우 `competitionAchievements`는 빈 배열로 두고, 출전 이력은 별도 `competitionParticipation`에 기록한다.
+- `profileImage`는 선택 필드다. 저장이 완료되면 `/app/agilitykorea/seminar/speakers`의 공개 Google Drive 파일 직접보기 URL을 넣고, 원본 게시물·프로필 주소는 `profileImageSourceUrl`로 보존한다.
+- `speakers`와 `speakerId`는 v3에만 추가하는 호환 확장이다. v2 세미나 JSON은 이 구조를 추가하거나 동기화하지 않는다.
 
 ## 대회 이미지 규칙
 
