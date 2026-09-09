@@ -250,5 +250,25 @@
     "longitude": null,
     "instagram": "https://www.instagram.com/teamseoul_agility/",
     "naver": ""
+  },
+  {
+    "id": "rowoon-dog-academy",
+    "nameKo": "로운독",
+    "nameEn": "Rowoon Dog Academy",
+    "address": "경기 여주시 흥천면 시랏길 102-16 로운독아카데미",
+    "latitude": 37.3646786,
+    "longitude": 127.4919559,
+    "instagram": "https://www.instagram.com/rowoon_dog_academy/",
+    "naver": "https://naver.me/IxKWOSA1"
+  },
+  {
+    "id": "joyrun",
+    "nameKo": "조이런",
+    "nameEn": "Joyrun",
+    "address": "경기 가평군 설악면 유명로 553-10 조이런",
+    "latitude": 37.6998673,
+    "longitude": 127.4609307,
+    "instagram": "https://www.instagram.com/joyrun_ami.w/",
+    "naver": "https://naver.me/5CFrKi3B"
   }
 ]
