@@ -1,5 +1,67 @@
 [
   {
+    "id": "border_collie_village",
+    "nameKo": "보더콜리 빌리지",
+    "nameEn": "Border Collie Village",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/agility_bcv/",
+    "naver": ""
+  },
+  {
+    "id": "kinder_doggy",
+    "nameKo": "킨더도기",
+    "nameEn": "Kinder Doggy",
+    "address": "경기도 양주시 백석읍 양주산성로 903-8 창고 가동",
+    "latitude": 37.7926921,
+    "longitude": 126.9617778,
+    "instagram": "https://www.instagram.com/kinder_doggy_agility.club/",
+    "naver": "https://naver.me/5xjyLjnF"
+  },
+  {
+    "id": "hundegarten",
+    "nameKo": "훈트가르텐",
+    "nameEn": "Hundegarten",
+    "address": "인천광역시 중구 하늘대로 683 훈트가르텐",
+    "latitude": 37.4911,
+    "longitude": 126.5576,
+    "instagram": "https://www.instagram.com/hundegarten/",
+    "naver": "https://naver.me/5A3vyEsf"
+  },
+  {
+    "id": "highest",
+    "nameKo": "하이스트",
+    "nameEn": "Highest",
+    "address": "경기도 안성시 금광면 돌우길 27-128",
+    "latitude": 36.9937206,
+    "longitude": 127.2997356,
+    "instagram": "https://www.instagram.com/agility_highest/",
+    "naver": "https://naver.me/55rEKp0b"
+  },
+  {
+    "id": "rad-daegu",
+    "nameKo": "라드 (대구)",
+    "nameEn": "RAD (Daegu)",
+    "branch": "대구",
+    "address": "대구광역시 달서구 달서대로 675 (계명문화대학교)",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/club_rad_official/",
+    "naver": ""
+  },
+  {
+    "id": "rad-busan",
+    "nameKo": "라드 (부산)",
+    "nameEn": "RAD (Busan)",
+    "branch": "부산",
+    "address": "부산광역시 사상구 백양대로700번길 140 (신라대학교)",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/club_rad_official/",
+    "naver": ""
+  },
+  {
     "id": "the_wag",
     "nameKo": "더웨그",
     "nameEn": "The Wag",
@@ -30,16 +92,6 @@
     "naver": "https://naver.me/xExmjDpj"
   },
   {
-    "id": "dogcamp",
-    "nameKo": "독캠프",
-    "nameEn": "Dog Camp",
-    "address": "경기도 광주시 도척면 도척로774번길 2-27",
-    "latitude": 37.3096,
-    "longitude": 127.3306,
-    "instagram": "https://www.instagram.com/dogcamp_agility/",
-    "naver": "https://naver.me/GJTDtOFQ"
-  },
-  {
     "id": "run_and_burn",
     "nameKo": "런앤번",
     "nameEn": "Run & Burn",
@@ -57,38 +109,6 @@
     "latitude": null,
     "longitude": null,
     "instagram": "https://www.instagram.com/runz_agility/",
-    "naver": ""
-  },
-  {
-    "id": "rad-daegu",
-    "nameKo": "라드 (대구)",
-    "nameEn": "RAD (Daegu)",
-    "branch": "대구",
-    "address": "대구광역시 달서구 달서대로 675 (계명문화대학교)",
-    "latitude": null,
-    "longitude": null,
-    "instagram": "https://www.instagram.com/club_rad_official/",
-    "naver": ""
-  },
-  {
-    "id": "rad-busan",
-    "nameKo": "라드 (부산)",
-    "nameEn": "RAD (Busan)",
-    "branch": "부산",
-    "address": "부산광역시 사상구 백양대로700번길 140 (신라대학교)",
-    "latitude": null,
-    "longitude": null,
-    "instagram": "https://www.instagram.com/club_rad_official/",
-    "naver": ""
-  },
-  {
-    "id": "border_collie_village",
-    "nameKo": "보더콜리 빌리지",
-    "nameEn": "Border Collie Village",
-    "address": "",
-    "latitude": null,
-    "longitude": null,
-    "instagram": "https://www.instagram.com/agility_bcv/",
     "naver": ""
   },
   {
@@ -112,16 +132,6 @@
     "naver": "https://naver.me/xFLdNPvX"
   },
   {
-    "id": "ultimate_agility",
-    "nameKo": "유에이",
-    "nameEn": "Ultimate Agility",
-    "address": "",
-    "latitude": null,
-    "longitude": null,
-    "instagram": "https://www.instagram.com/team_ultimate_agility/",
-    "naver": ""
-  },
-  {
     "id": "aura",
     "nameKo": "아우라",
     "nameEn": "Aura",
@@ -130,16 +140,6 @@
     "longitude": 127.0304,
     "instagram": "https://www.instagram.com/agilityclubaura.official/",
     "naver": "https://naver.me/FvQF4HzP"
-  },
-  {
-    "id": "kinder_doggy",
-    "nameKo": "킨더도기",
-    "nameEn": "Kinder Doggy",
-    "address": "경기도 양주시 백석읍 양주산성로 903-8 창고 가동",
-    "latitude": 37.7926921,
-    "longitude": 126.9617778,
-    "instagram": "https://www.instagram.com/kinder_doggy_agility.club/",
-    "naver": "https://naver.me/5xjyLjnF"
   },
   {
     "id": "first_agility",
@@ -160,26 +160,6 @@
     "longitude": 127.3591784,
     "instagram": "https://www.instagram.com/feisty_dt/",
     "naver": "https://naver.me/F2nio27W"
-  },
-  {
-    "id": "hundegarten",
-    "nameKo": "훈트가르텐",
-    "nameEn": "Hundegarten",
-    "address": "인천광역시 중구 하늘대로 683 훈트가르텐",
-    "latitude": 37.4911,
-    "longitude": 126.5576,
-    "instagram": "https://www.instagram.com/hundegarten/",
-    "naver": "https://naver.me/5A3vyEsf"
-  },
-  {
-    "id": "highest",
-    "nameKo": "하이스트",
-    "nameEn": "Highest",
-    "address": "경기도 안성시 금광면 돌우길 27-128",
-    "latitude": 36.9937206,
-    "longitude": 127.2997356,
-    "instagram": "https://www.instagram.com/agility_highest/",
-    "naver": "https://naver.me/55rEKp0b"
   },
   {
     "id": "flow",
@@ -242,16 +222,6 @@
     "naver": "https://naver.me/5lfbRSL6"
   },
   {
-    "id": "team_seoul",
-    "nameKo": "팀 서울",
-    "nameEn": "Team Seoul Agility",
-    "address": "서울특별시 강동구 양재대로 1355",
-    "latitude": null,
-    "longitude": null,
-    "instagram": "https://www.instagram.com/teamseoul_agility/",
-    "naver": ""
-  },
-  {
     "id": "rowoon-dog-academy",
     "nameKo": "로운독",
     "nameEn": "Rowoon Dog Academy",
@@ -270,5 +240,35 @@
     "longitude": 127.4609307,
     "instagram": "https://www.instagram.com/joyrun_ami.w/",
     "naver": "https://naver.me/5CFrKi3B"
+  },
+  {
+    "id": "ultimate_agility",
+    "nameKo": "유에이",
+    "nameEn": "Ultimate Agility",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/team_ultimate_agility/",
+    "naver": ""
+  },
+  {
+    "id": "team_seoul",
+    "nameKo": "팀 서울",
+    "nameEn": "Team Seoul Agility",
+    "address": "서울특별시 강동구 양재대로 1355",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/teamseoul_agility/",
+    "naver": ""
+  },
+  {
+    "id": "dogcamp",
+    "nameKo": "독캠프",
+    "nameEn": "Dog Camp",
+    "address": "경기도 광주시 도척면 도척로774번길 2-27",
+    "latitude": 37.3096,
+    "longitude": 127.3306,
+    "instagram": "https://www.instagram.com/dogcamp_agility/",
+    "naver": "https://naver.me/GJTDtOFQ"
   }
 ]
