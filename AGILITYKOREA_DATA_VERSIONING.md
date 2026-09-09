@@ -64,6 +64,13 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 - `profileImage`는 선택 필드다. 저장이 완료되면 `/app/agilitykorea/seminar/speakers`의 공개 Google Drive 파일 직접보기 URL을 넣고, 원본 게시물·프로필 주소는 `profileImageSourceUrl`로 보존한다.
 - `speakers`와 `speakerId`는 v3에만 추가하는 호환 확장이다. v2 세미나 JSON은 이 구조를 추가하거나 동기화하지 않는다.
 
+## 클럽 데이터 규칙
+
+- 기존 상세 클럽 데이터는 manifest의 `files.club`(`club/club.json`)로 유지한다.
+- 통합 전 임시 클럽 디렉터리 데이터는 manifest의 `files.clubs`(`club/clubs.json`)로 별도 제공한다. 두 파일을 합치거나 기존 `club` 파일을 덮어쓰지 않는다.
+- `club`과 `clubs`는 모두 v3에서 사용할 수 있으며, 앱은 필요한 화면에 맞는 파일을 선택한다. 통합 시점에만 중복·식별자 충돌을 검토한다.
+- 동일 클럽의 복수 지점은 `clubs`에서 지점별 `id`와 `branch`로 분리한다. 현재 RAD는 `rad-daegu`(계명문화대학교)와 `rad-busan`(신라대학교)로 관리한다.
+
 ## 대회 이미지 규칙
 
 - 한국어질리티연합 게시판에서 실제 어질리티 대회로 판별된 항목만 이미지를 보관한다.

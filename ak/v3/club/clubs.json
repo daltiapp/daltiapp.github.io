@@ -1,0 +1,254 @@
+[
+  {
+    "id": "the_wag",
+    "nameKo": "더웨그",
+    "nameEn": "The Wag",
+    "address": "경기도 양평",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/agility_thewagclub/",
+    "naver": ""
+  },
+  {
+    "id": "drift",
+    "nameKo": "드리프트",
+    "nameEn": "Drift",
+    "address": "서울 마포구 동교로12안길 29 지하1층",
+    "latitude": 37.5528,
+    "longitude": 126.9133,
+    "instagram": "https://www.instagram.com/driftdog_kr/",
+    "naver": "https://naver.me/G65meihQ"
+  },
+  {
+    "id": "dog_training_on",
+    "nameKo": "독트레이닝온",
+    "nameEn": "Dog Training On",
+    "address": "경기 파주시 교하로159번길 55 4층 독트레이닝온",
+    "latitude": 37.7241163,
+    "longitude": 126.7407779,
+    "instagram": "https://www.instagram.com/dogtrainingon_official/",
+    "naver": "https://naver.me/xExmjDpj"
+  },
+  {
+    "id": "dogcamp",
+    "nameKo": "독캠프",
+    "nameEn": "Dog Camp",
+    "address": "경기 광주시 도척면 도척로774번길 2-27",
+    "latitude": 37.3096,
+    "longitude": 127.3306,
+    "instagram": "https://www.instagram.com/dogcamp_agility/",
+    "naver": "https://naver.me/GJTDtOFQ"
+  },
+  {
+    "id": "run_and_burn",
+    "nameKo": "런앤번",
+    "nameEn": "Run & Burn",
+    "address": "경기 포천시 군내면 청군로2985번길 69",
+    "latitude": 37.8848,
+    "longitude": 127.2164,
+    "instagram": "https://www.instagram.com/runandburn_agility/",
+    "naver": "https://naver.me/FIfm5RmB"
+  },
+  {
+    "id": "runz",
+    "nameKo": "런즈",
+    "nameEn": "Runz",
+    "address": "경기도 양주시 백석읍 홍죽리",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/runz_agility/",
+    "naver": ""
+  },
+  {
+    "id": "rad-daegu",
+    "nameKo": "라드 (대구)",
+    "nameEn": "RAD (Daegu)",
+    "branch": "대구",
+    "address": "대구광역시 달서구 달서대로 675 (계명문화대학교)",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/club_rad_official/",
+    "naver": ""
+  },
+  {
+    "id": "rad-busan",
+    "nameKo": "라드 (부산)",
+    "nameEn": "RAD (Busan)",
+    "branch": "부산",
+    "address": "부산광역시 사상구 백양대로700번길 140 (신라대학교)",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/club_rad_official/",
+    "naver": ""
+  },
+  {
+    "id": "border_collie_village",
+    "nameKo": "보더콜리 빌리지",
+    "nameEn": "Border Collie Village",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/agility_bcv/",
+    "naver": ""
+  },
+  {
+    "id": "waldbow",
+    "nameKo": "발트바우",
+    "nameEn": "WaldBow",
+    "address": "경기 양주시 은현면 화합로1080번길 304-16",
+    "latitude": 37.8477139,
+    "longitude": 127.0227458,
+    "instagram": "https://www.instagram.com/waldbow_dog_sports/",
+    "naver": "https://naver.me/xzx1WlIE"
+  },
+  {
+    "id": "super_agility",
+    "nameKo": "수퍼",
+    "nameEn": "Super Agility",
+    "address": "경기 양주시 은현면 화합로1169번길 72-28 1층",
+    "latitude": 37.8499,
+    "longitude": 127.0497,
+    "instagram": "https://www.instagram.com/super_agility/",
+    "naver": "https://naver.me/xFLdNPvX"
+  },
+  {
+    "id": "ultimate_agility",
+    "nameKo": "유에이",
+    "nameEn": "Ultimate Agility",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/team_ultimate_agility/",
+    "naver": ""
+  },
+  {
+    "id": "aura",
+    "nameKo": "아우라",
+    "nameEn": "Aura",
+    "address": "경기 평택시 서탄면 마두리 43-1",
+    "latitude": 37.1087,
+    "longitude": 127.0304,
+    "instagram": "https://www.instagram.com/agilityclubaura.official/",
+    "naver": "https://naver.me/FvQF4HzP"
+  },
+  {
+    "id": "kinder_doggy",
+    "nameKo": "킨더도기",
+    "nameEn": "Kinder Doggy",
+    "address": "경기 양주시 백석읍 양주산성로 903-8 창고 가동",
+    "latitude": 37.7926921,
+    "longitude": 126.9617778,
+    "instagram": "https://www.instagram.com/kinder_doggy_agility.club/",
+    "naver": "https://naver.me/5xjyLjnF"
+  },
+  {
+    "id": "first_agility",
+    "nameKo": "퍼스트",
+    "nameEn": "First Agility Ground",
+    "address": "경기도 양주시 평화로 1260-152",
+    "latitude": 37.8007853,
+    "longitude": 127.0500634,
+    "instagram": "https://www.instagram.com/first_agility_ground/",
+    "naver": ""
+  },
+  {
+    "id": "feisty",
+    "nameKo": "파이스티",
+    "nameEn": "Feisty",
+    "address": "세종 부강면 갈산산수로 128-95 노랑건물",
+    "latitude": 36.5442462,
+    "longitude": 127.3591784,
+    "instagram": "https://www.instagram.com/feisty_dt/",
+    "naver": "https://naver.me/F2nio27W"
+  },
+  {
+    "id": "hundegarten",
+    "nameKo": "훈트가르텐",
+    "nameEn": "Hundegarten",
+    "address": "인천 영종구 하늘대로 683 훈트가르텐",
+    "latitude": 37.4911,
+    "longitude": 126.5576,
+    "instagram": "https://www.instagram.com/hundegarten/",
+    "naver": "https://naver.me/5A3vyEsf"
+  },
+  {
+    "id": "highest",
+    "nameKo": "하이스트",
+    "nameEn": "Highest",
+    "address": "경기 안성시 금광면 돌우길 27-128",
+    "latitude": 36.9937206,
+    "longitude": 127.2997356,
+    "instagram": "https://www.instagram.com/agility_highest/",
+    "naver": "https://naver.me/55rEKp0b"
+  },
+  {
+    "id": "flow",
+    "nameKo": "플로우",
+    "nameEn": "Flow",
+    "address": "경기 안산시 단원구 광덕동로 61 603호",
+    "latitude": 37.3099348,
+    "longitude": 126.8325209,
+    "instagram": "https://www.instagram.com/team.flow_agility/",
+    "naver": "https://naver.me/FGoYw0ev"
+  },
+  {
+    "id": "rush",
+    "nameKo": "러쉬",
+    "nameEn": "Rush",
+    "address": "수원시 영통구",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/rush_agility_club/",
+    "naver": ""
+  },
+  {
+    "id": "wego",
+    "nameKo": "위고",
+    "nameEn": "Wego",
+    "address": "충북 충주시 노은면 감노로 764",
+    "latitude": 37.0574,
+    "longitude": 127.7498,
+    "instagram": "https://www.instagram.com/wegoagility_club/",
+    "naver": "https://naver.me/F7F13J7R"
+  },
+  {
+    "id": "balance_dog",
+    "nameKo": "밸런스독",
+    "nameEn": "Balance Dog",
+    "address": "경기도 남양주시 수동면 소래비로 375-43 1층",
+    "latitude": 37.6824028,
+    "longitude": 127.3279102,
+    "instagram": "https://www.instagram.com/balance_dog_/",
+    "naver": "https://naver.me/xdjyNDoP"
+  },
+  {
+    "id": "pdc",
+    "nameKo": "팔레드",
+    "nameEn": "PDC",
+    "address": "경기 양평군 양동면 아래배내1길 36-28 팔레드차밍",
+    "latitude": 37.3899322,
+    "longitude": 127.7822178,
+    "instagram": "https://www.instagram.com/pdc_agility/",
+    "naver": ""
+  },
+  {
+    "id": "skyrun",
+    "nameKo": "스카이",
+    "nameEn": "SkyRun Agility",
+    "address": "경기도 김포시 통진읍 마송리 471-6",
+    "latitude": 37.6819966,
+    "longitude": 126.5874578,
+    "instagram": "https://www.instagram.com/skyrun_agility/",
+    "naver": "https://naver.me/5lfbRSL6"
+  },
+  {
+    "id": "team_seoul",
+    "nameKo": "서울",
+    "nameEn": "Team Seoul Agility",
+    "address": "서울특별시 강동구",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/teamseoul_agility/",
+    "naver": ""
+  }
+]
