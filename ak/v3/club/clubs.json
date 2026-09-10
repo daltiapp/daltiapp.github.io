@@ -4,8 +4,8 @@
     "nameKo": "보더콜리 빌리지",
     "nameEn": "Border Collie Village",
     "address": "",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.8597649,
+    "longitude": 128.4909,
     "instagram": "https://www.instagram.com/agility_bcv/",
     "naver": ""
   },
@@ -45,8 +45,8 @@
     "nameEn": "RAD (Daegu)",
     "branch": "대구",
     "address": "대구광역시 달서구 달서대로 675 (계명문화대학교)",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.8597649,
+    "longitude": 128.4909,
     "instagram": "https://www.instagram.com/club_rad_official/",
     "naver": ""
   },
@@ -56,8 +56,8 @@
     "nameEn": "RAD (Busan)",
     "branch": "부산",
     "address": "부산광역시 사상구 백양대로700번길 140 (신라대학교)",
-    "latitude": null,
-    "longitude": null,
+    "latitude": 35.1678015,
+    "longitude": 128.9905786,
     "instagram": "https://www.instagram.com/club_rad_official/",
     "naver": ""
   },
@@ -240,6 +240,26 @@
     "longitude": 127.4609307,
     "instagram": "https://www.instagram.com/joyrun_ami.w/",
     "naver": "https://naver.me/5CFrKi3B"
+  },
+  {
+    "id": "gio",
+    "nameKo": "지오",
+    "nameEn": "G.O Agility Club",
+    "address": "",
+    "latitude": null,
+    "longitude": null,
+    "instagram": "https://www.instagram.com/g.o_agility_club/",
+    "naver": ""
+  },
+  {
+    "id": "mongshuland",
+    "nameKo": "몽슈랜드",
+    "nameEn": "Mongshuland",
+    "address": "경상북도 경산시 하양읍 하양유원지길 69 몽슈랜드",
+    "latitude": 35.8979568,
+    "longitude": 128.8100413,
+    "instagram": "",
+    "naver": "https://naver.me/FUhsRpHU"
   },
   {
     "id": "ultimate_agility",
