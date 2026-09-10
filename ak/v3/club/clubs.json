@@ -72,6 +72,16 @@
     "naver": ""
   },
   {
+    "id": "splendog",
+    "nameKo": "스플랜독",
+    "nameEn": "Splendog",
+    "address": "경기도 김포시 양촌읍 황금로24번길 60-2 1층",
+    "latitude": 37.6270745,
+    "longitude": 126.629899,
+    "instagram": "https://www.instagram.com/splendog_official/",
+    "naver": "https://naver.me/5pwc7BRI"
+  },
+  {
     "id": "drift",
     "nameKo": "드리프트",
     "nameEn": "Drift",
@@ -240,6 +250,16 @@
     "longitude": 127.4609307,
     "instagram": "https://www.instagram.com/joyrun_ami.w/",
     "naver": "https://naver.me/5CFrKi3B"
+  },
+  {
+    "id": "jeju-dog-training",
+    "nameKo": "제주 독트레이닝",
+    "nameEn": "Jeju Dog Training Center",
+    "address": "제주특별자치도 서귀포시 표선면 돈오름로 170",
+    "latitude": 33.3298498,
+    "longitude": 126.8148541,
+    "instagram": "https://www.instagram.com/jeju_dog_training_center/",
+    "naver": ""
   },
   {
     "id": "gio",
