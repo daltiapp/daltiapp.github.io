@@ -81,6 +81,12 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 - Drive 업로드나 공개 주소 검증이 실패한 항목은 활성 일정에 자동 반영하지 않고 검수 큐에 남긴다.
 - 한 번의 수집 후보가 3건 이상인 안전 차단 상태에서는 자동 Drive 업로드와 일정 반영을 모두 수행하지 않는다.
 
+## 한국애견협회 공지 규칙
+
+- v3 manifest의 `files.noticeKkc`는 `notice/kkc/notice_kkc.json`을 가리키며, 2024년 1월 1일 이후 제목·본문에 어질리티가 명시된 게시물만 포함한다.
+- 상세 JSON은 `notice/kkc/`에 저장하고 `body_html`은 원문 HTML을 보존한다. 본문 이미지 경로는 한국애견협회 절대 URL로 변환한다.
+- 첨부파일은 다운로드·재업로드하지 않고 `attachments[].name`, `url`, `path`, `size`, `contentType` 메타데이터만 저장해 앱 다운로드 버튼에 연결한다.
+
 ## 검증
 
 스크립트 저장소에서 아래 명령으로 실제 FCM 없이 전체 계약을 확인한다.

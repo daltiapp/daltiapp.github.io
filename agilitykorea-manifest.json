@@ -1,10 +1,10 @@
 {
   "service": "agilitykorea",
   "schemaVersion": 2,
-  "dataVersion": "20260914.1",
-  "forceRefreshKey": "v3:20260914.1",
+  "dataVersion": "20260914.2",
+  "forceRefreshKey": "v3:20260914.2",
   "basePath": "/ak/v3",
-  "updatedAt": "2026-09-14T10:00:00+09:00",
+  "updatedAt": "2026-09-14T10:30:00+09:00",
   "files": {
     "club": "club/club.json",
     "clubs": "club/clubs.json",
@@ -15,6 +15,7 @@
     "notice": "notice/notice.json",
     "noticeDongsa": "notice/dongsa/notice_dongsa.json",
     "noticeKkf": "notice/kkf/notice_kkf.json",
+    "noticeKkc": "notice/kkc/notice_kkc.json",
     "seminar": "seminar/seminar.json",
     "venue": "venue/venue.json"
   }
