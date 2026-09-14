@@ -85,9 +85,9 @@
     "id": "drift",
     "nameKo": "드리프트",
     "nameEn": "Drift",
-    "address": "서울 마포구 동교로12안길 29 지하1층",
-    "latitude": 37.5528,
-    "longitude": 126.9133,
+    "address": "",
+    "latitude": null,
+    "longitude": null,
     "instagram": "https://www.instagram.com/driftdog_kr/",
     "naver": "https://naver.me/G65meihQ"
   },
@@ -140,6 +140,16 @@
     "longitude": 127.0497,
     "instagram": "https://www.instagram.com/super_agility/",
     "naver": "https://naver.me/xFLdNPvX"
+  },
+  {
+    "id": "super-rookie",
+    "nameKo": "슈퍼루키",
+    "nameEn": "Super Rookie",
+    "address": "경기도 양주시 옥정서로 130",
+    "latitude": 37.8358529,
+    "longitude": 127.0877142,
+    "instagram": "https://www.instagram.com/super_rookie_agility/",
+    "naver": "https://naver.me/FhurkvUa"
   },
   {
     "id": "aura",
