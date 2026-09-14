@@ -83,7 +83,7 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 
 ## 한국애견협회 공지 규칙
 
-- v3 manifest의 `files.noticeKkc`는 `notice/kkc/notice_kkc.json`을 가리키며, 2024년 1월 1일 이후 제목·본문에 어질리티가 명시된 게시물만 포함한다.
+- v3 통합 `notice/notice.json`에는 기존 공지와 함께 `source: "kkc"`인 한국애견협회 항목을 포함하며, 2024년 1월 1일 이후 제목·본문에 어질리티가 명시된 게시물만 추가한다. `files.noticeKkc`의 원본 분리 목록도 호환용으로 유지한다.
 - 상세 JSON은 `notice/kkc/`에 저장하고 `body_html`은 원문 HTML을 보존한다. 본문 이미지 경로는 한국애견협회 절대 URL로 변환한다.
 - 첨부파일은 다운로드·재업로드하지 않고 `attachments[].name`, `url`, `path`, `size`, `contentType` 메타데이터만 저장해 앱 다운로드 버튼에 연결한다.
 

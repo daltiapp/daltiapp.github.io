@@ -1,7 +1,27 @@
 {
   "identity_field": "id",
-  "total_count": 129,
+  "total_count": 134,
   "items": [
+    {
+      "id": 130,
+      "source": "kkc",
+      "source_seq": "n6ZvMj5Jy0zQayGtaEkn",
+      "title": "260530_어질리티 챔피언십 출진목록",
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2026-05-27",
+      "published_at": "2026-05-27T02:19:49.043Z",
+      "detail_path": "./kkc/kkc-n6ZvMj5Jy0zQayGtaEkn.json"
+    },
+    {
+      "id": 131,
+      "source": "kkc",
+      "source_seq": "APktsPk6TfSzrDI1AbO0",
+      "title": "2026 KKC 어질리티 규정",
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2026-05-20",
+      "published_at": "2026-05-20T00:39:03.794Z",
+      "detail_path": "./kkc/kkc-APktsPk6TfSzrDI1AbO0.json"
+    },
     {
       "id": 129,
       "source": "kkf",
@@ -23,16 +43,6 @@
       "detail_path": "./kkf/128.json"
     },
     {
-      "id": 127,
-      "source": "kkf",
-      "source_seq": "12406",
-      "title": "2026 오수 KKF 내셔널 어질리티 평가전 및 2026 오수 FCI 인터내셔널 어질리티 경기대회 출진자 명단 ('26.5.3.)",
-      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12406",
-      "published_at_raw": "2026.4.28",
-      "published_at": "2026-04-28T00:00:00+09:00",
-      "detail_path": "./kkf/127.json"
-    },
-    {
       "id": 126,
       "source": "kkf",
       "source_seq": "12405",
@@ -43,6 +53,16 @@
       "detail_path": "./kkf/126.json"
     },
     {
+      "id": 127,
+      "source": "kkf",
+      "source_seq": "12406",
+      "title": "2026 오수 KKF 내셔널 어질리티 평가전 및 2026 오수 FCI 인터내셔널 어질리티 경기대회 출진자 명단 ('26.5.3.)",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12406",
+      "published_at_raw": "2026.4.28",
+      "published_at": "2026-04-28T00:00:00+09:00",
+      "detail_path": "./kkf/127.json"
+    },
+    {
       "id": 125,
       "source": "kkf",
       "source_seq": "12365",
@@ -51,6 +71,16 @@
       "published_at_raw": "2026.4.16",
       "published_at": "2026-04-16T00:00:00+09:00",
       "detail_path": "./kkf/125.json"
+    },
+    {
+      "id": 132,
+      "source": "kkc",
+      "source_seq": "oBOwbRJzlIVbtOFfNCuo",
+      "title": "260404_어질리티 챔피언십 출진목록",
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2026-04-02",
+      "published_at": "2026-04-02T00:07:11.696Z",
+      "detail_path": "./kkc/kkc-oBOwbRJzlIVbtOFfNCuo.json"
     },
     {
       "id": 85,
@@ -73,16 +103,6 @@
       "detail_path": "./kkf/84.json"
     },
     {
-      "id": 83,
-      "source": "kkf",
-      "source_seq": "12256",
-      "title": "2026년 KKF 어질리티 심사위원 모집 공고",
-      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12256",
-      "published_at_raw": "2026.3.3",
-      "published_at": "2026-03-03T00:00:00+09:00",
-      "detail_path": "./kkf/83.json"
-    },
-    {
       "id": 82,
       "source": "kkf",
       "source_seq": "12253",
@@ -93,14 +113,14 @@
       "detail_path": "./kkf/82.json"
     },
     {
-      "id": 81,
+      "id": 83,
       "source": "kkf",
-      "source_seq": "12222",
-      "title": "2026년도 FCI AWC 한국대표 선발전 안내",
-      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12222",
-      "published_at_raw": "2026.1.28",
-      "published_at": "2026-01-28T00:00:00+09:00",
-      "detail_path": "./kkf/81.json"
+      "source_seq": "12256",
+      "title": "2026년 KKF 어질리티 심사위원 모집 공고",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12256",
+      "published_at_raw": "2026.3.3",
+      "published_at": "2026-03-03T00:00:00+09:00",
+      "detail_path": "./kkf/83.json"
     },
     {
       "id": 80,
@@ -113,6 +133,16 @@
       "detail_path": "./kkf/80.json"
     },
     {
+      "id": 81,
+      "source": "kkf",
+      "source_seq": "12222",
+      "title": "2026년도 FCI AWC 한국대표 선발전 안내",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12222",
+      "published_at_raw": "2026.1.28",
+      "published_at": "2026-01-28T00:00:00+09:00",
+      "detail_path": "./kkf/81.json"
+    },
+    {
       "id": 79,
       "source": "kkf",
       "source_seq": "12200",
@@ -123,16 +153,6 @@
       "detail_path": "./kkf/79.json"
     },
     {
-      "id": 78,
-      "source": "kkf",
-      "source_seq": "12120",
-      "title": "2025 하반기 FCI 인터내셔널 어질리티 경기대회 결과 안내",
-      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12120",
-      "published_at_raw": "2025.11.19",
-      "published_at": "2025-11-19T00:00:00+09:00",
-      "detail_path": "./kkf/78.json"
-    },
-    {
       "id": 77,
       "source": "kkf",
       "source_seq": "12119",
@@ -141,6 +161,16 @@
       "published_at_raw": "2025.11.19",
       "published_at": "2025-11-19T00:00:00+09:00",
       "detail_path": "./kkf/77.json"
+    },
+    {
+      "id": 78,
+      "source": "kkf",
+      "source_seq": "12120",
+      "title": "2025 하반기 FCI 인터내셔널 어질리티 경기대회 결과 안내",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12120",
+      "published_at_raw": "2025.11.19",
+      "published_at": "2025-11-19T00:00:00+09:00",
+      "detail_path": "./kkf/78.json"
     },
     {
       "id": 76,
@@ -203,16 +233,6 @@
       "detail_path": "./dongsa/123.json"
     },
     {
-      "id": 72,
-      "source": "kkf",
-      "source_seq": "12017",
-      "title": "2025 FCI 인터내셔널 어질리티 심사위원 양성 세미나 개최 안내",
-      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12017",
-      "published_at_raw": "2025.10.1",
-      "published_at": "2025-10-01T00:00:00+09:00",
-      "detail_path": "./kkf/72.json"
-    },
-    {
       "id": 71,
       "source": "kkf",
       "source_seq": "12016",
@@ -221,6 +241,16 @@
       "published_at_raw": "2025.10.1",
       "published_at": "2025-10-01T00:00:00+09:00",
       "detail_path": "./kkf/71.json"
+    },
+    {
+      "id": 72,
+      "source": "kkf",
+      "source_seq": "12017",
+      "title": "2025 FCI 인터내셔널 어질리티 심사위원 양성 세미나 개최 안내",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12017",
+      "published_at_raw": "2025.10.1",
+      "published_at": "2025-10-01T00:00:00+09:00",
+      "detail_path": "./kkf/72.json"
     },
     {
       "id": 70,
@@ -243,16 +273,6 @@
       "detail_path": "./kkf/69.json"
     },
     {
-      "id": 68,
-      "source": "kkf",
-      "source_seq": "11700",
-      "title": "2025 상반기 FCI 인터내셔널 어질리티 경기대회 결과 안내",
-      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=11700",
-      "published_at_raw": "2025.4.4",
-      "published_at": "2025-04-04T00:00:00+09:00",
-      "detail_path": "./kkf/68.json"
-    },
-    {
       "id": 67,
       "source": "kkf",
       "source_seq": "11699",
@@ -261,6 +281,16 @@
       "published_at_raw": "2025.4.4",
       "published_at": "2025-04-04T00:00:00+09:00",
       "detail_path": "./kkf/67.json"
+    },
+    {
+      "id": 68,
+      "source": "kkf",
+      "source_seq": "11700",
+      "title": "2025 상반기 FCI 인터내셔널 어질리티 경기대회 결과 안내",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=11700",
+      "published_at_raw": "2025.4.4",
+      "published_at": "2025-04-04T00:00:00+09:00",
+      "detail_path": "./kkf/68.json"
     },
     {
       "id": 66,
@@ -383,16 +413,6 @@
       "detail_path": "./kkf/58.json"
     },
     {
-      "id": 119,
-      "source": "dongsa",
-      "source_seq": "203",
-      "title": "제3회 KAO 챔피언십 개최 및 접수 안내",
-      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=203&code=notice",
-      "published_at_raw": "2024.10.11",
-      "published_at": "2024-10-11T00:00:00+09:00",
-      "detail_path": "./dongsa/119.json"
-    },
-    {
       "id": 57,
       "source": "kkf",
       "source_seq": "11466",
@@ -401,6 +421,16 @@
       "published_at_raw": "2024.10.11",
       "published_at": "2024-10-11T00:00:00+09:00",
       "detail_path": "./kkf/57.json"
+    },
+    {
+      "id": 119,
+      "source": "dongsa",
+      "source_seq": "203",
+      "title": "제3회 KAO 챔피언십 개최 및 접수 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=203&code=notice",
+      "published_at_raw": "2024.10.11",
+      "published_at": "2024-10-11T00:00:00+09:00",
+      "detail_path": "./dongsa/119.json"
     },
     {
       "id": 56,
@@ -413,6 +443,16 @@
       "detail_path": "./kkf/56.json"
     },
     {
+      "id": 133,
+      "source": "kkc",
+      "source_seq": "eS5bUs8KEsPn04rsoNJX",
+      "title": "어질리티 한국 대표단 IFCS 챔피언십 참가차 프랑스로 출국   ",
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2024-04-24",
+      "published_at": "2024-04-24T00:53:28.000Z",
+      "detail_path": "./kkc/kkc-eS5bUs8KEsPn04rsoNJX.json"
+    },
+    {
       "id": 55,
       "source": "kkf",
       "source_seq": "11198",
@@ -421,6 +461,16 @@
       "published_at_raw": "2024.3.28",
       "published_at": "2024-03-28T00:00:00+09:00",
       "detail_path": "./kkf/55.json"
+    },
+    {
+      "id": 134,
+      "source": "kkc",
+      "source_seq": "stQQOCXnCjS36gfIDZXI",
+      "title": "2024년 2월 24일 어질리티 연기 안내",
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2024-02-22",
+      "published_at": "2024-02-22T06:29:22.000Z",
+      "detail_path": "./kkc/kkc-stQQOCXnCjS36gfIDZXI.json"
     },
     {
       "id": 54,
@@ -463,16 +513,6 @@
       "detail_path": "./dongsa/117.json"
     },
     {
-      "id": 116,
-      "source": "dongsa",
-      "source_seq": "175",
-      "title": "제2회 KAO 챔피언십 출진자 공지",
-      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=175&code=notice",
-      "published_at_raw": "2023.11.01",
-      "published_at": "2023-11-01T00:00:00+09:00",
-      "detail_path": "./dongsa/116.json"
-    },
-    {
       "id": 115,
       "source": "dongsa",
       "source_seq": "173",
@@ -481,6 +521,16 @@
       "published_at_raw": "2023.11.01",
       "published_at": "2023-11-01T00:00:00+09:00",
       "detail_path": "./dongsa/115.json"
+    },
+    {
+      "id": 116,
+      "source": "dongsa",
+      "source_seq": "175",
+      "title": "제2회 KAO 챔피언십 출진자 공지",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=175&code=notice",
+      "published_at_raw": "2023.11.01",
+      "published_at": "2023-11-01T00:00:00+09:00",
+      "detail_path": "./dongsa/116.json"
     },
     {
       "id": 114,
@@ -523,16 +573,6 @@
       "detail_path": "./dongsa/112.json"
     },
     {
-      "id": 111,
-      "source": "dongsa",
-      "source_seq": "166",
-      "title": "제2회 KAO 챔피언십 심판별 종목 안내",
-      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=166&code=notice",
-      "published_at_raw": "2023.10.13",
-      "published_at": "2023-10-13T00:00:00+09:00",
-      "detail_path": "./dongsa/111.json"
-    },
-    {
       "id": 110,
       "source": "dongsa",
       "source_seq": "164",
@@ -541,6 +581,16 @@
       "published_at_raw": "2023.10.13",
       "published_at": "2023-10-13T00:00:00+09:00",
       "detail_path": "./dongsa/110.json"
+    },
+    {
+      "id": 111,
+      "source": "dongsa",
+      "source_seq": "166",
+      "title": "제2회 KAO 챔피언십 심판별 종목 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=166&code=notice",
+      "published_at_raw": "2023.10.13",
+      "published_at": "2023-10-13T00:00:00+09:00",
+      "detail_path": "./dongsa/111.json"
     },
     {
       "id": 51,
@@ -903,16 +953,6 @@
       "detail_path": "./kkf/29.json"
     },
     {
-      "id": 28,
-      "source": "kkf",
-      "source_seq": "9769",
-      "title": "8월 22일 KKF 훈련사위원회 어질리티 경기대회 취소 안내",
-      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=9769",
-      "published_at_raw": "2020.8.18",
-      "published_at": "2020-08-18T00:00:00+09:00",
-      "detail_path": "./kkf/28.json"
-    },
-    {
       "id": 27,
       "source": "kkf",
       "source_seq": "9763",
@@ -921,6 +961,16 @@
       "published_at_raw": "2020.8.18",
       "published_at": "2020-08-18T00:00:00+09:00",
       "detail_path": "./kkf/27.json"
+    },
+    {
+      "id": 28,
+      "source": "kkf",
+      "source_seq": "9769",
+      "title": "8월 22일 KKF 훈련사위원회 어질리티 경기대회 취소 안내",
+      "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=9769",
+      "published_at_raw": "2020.8.18",
+      "published_at": "2020-08-18T00:00:00+09:00",
+      "detail_path": "./kkf/28.json"
     },
     {
       "id": 26,
@@ -973,16 +1023,6 @@
       "detail_path": "./kkf/22.json"
     },
     {
-      "id": 96,
-      "source": "dongsa",
-      "source_seq": "65",
-      "title": "2020 WAO(World Agility Open) 국가대표 선발전 대회결과 공지",
-      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=65&code=notice",
-      "published_at_raw": "2020.02.04",
-      "published_at": "2020-02-04T00:00:00+09:00",
-      "detail_path": "./dongsa/96.json"
-    },
-    {
       "id": 95,
       "source": "dongsa",
       "source_seq": "64",
@@ -991,6 +1031,16 @@
       "published_at_raw": "2020.02.04",
       "published_at": "2020-02-04T00:00:00+09:00",
       "detail_path": "./dongsa/95.json"
+    },
+    {
+      "id": 96,
+      "source": "dongsa",
+      "source_seq": "65",
+      "title": "2020 WAO(World Agility Open) 국가대표 선발전 대회결과 공지",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=65&code=notice",
+      "published_at_raw": "2020.02.04",
+      "published_at": "2020-02-04T00:00:00+09:00",
+      "detail_path": "./dongsa/96.json"
     },
     {
       "id": 94,
