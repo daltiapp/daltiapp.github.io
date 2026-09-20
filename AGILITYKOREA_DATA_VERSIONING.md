@@ -54,7 +54,7 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 ## 세미나 규칙
 
 - v1 세미나 JSON은 `/ak/v1/seminar/seminar.json`에 보존한다.
-- 현재 활성 v3 일정 JSON은 기존 대회 이력 56건을 기준으로 하며, agility.co.kr 상세 URL·대회 날짜가 일치한 17건의 canonical URL과 Drive 공개 이미지 `detailImages`를 포함한다.
+- 대회 이력과 이미지 수는 활성 `files.match`에서 확인한다. 과거 재생성 당시의 건수를 고정 계약으로 사용하지 않는다.
 - v3는 v2와 동일한 schemaVersion 2의 호환 가능한 데이터 재생성 버전이며, rollback은 manifest만 되돌린다.
 - `listImage`는 목록에 표시할 선수 이미지 URL이다. 등록 전에는 빈 문자열로 둔다.
 - `detailImages`는 상세 화면에 표시할 이미지 URL 문자열 배열이다. 이미지가 확인되지 않은 항목은 빈 배열로 둔다.
@@ -85,14 +85,16 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 
 - v3 통합 `notice/notice.json`에는 기존 공지와 함께 `source: "kkc"`인 한국애견협회 항목을 포함하며, 2024년 1월 1일 이후 제목·본문에 어질리티가 명시된 게시물만 추가한다. `files.noticeKkc`의 원본 분리 목록도 호환용으로 유지한다.
 - 상세 JSON은 `notice/kkc/`에 저장하고 `body_html`은 원문 HTML을 보존한다. 본문 이미지 경로는 한국애견협회 절대 URL로 변환한다.
-- 첨부파일은 다운로드·재업로드하지 않고 `attachments[].name`, `url`, `path`, `size`, `contentType` 메타데이터만 저장해 앱 다운로드 버튼에 연결한다.
+- 첨부파일은 다운로드·재업로드하지 않고 `attachments[]`의 `label`, `url`, `file_name`, `file_ext`, `text`를 저장한다. `file_name`은 원문 파일명이고 `url`은 원본 다운로드 주소다. 앱은 `file_name`을 우선 표시한다.
+- `image_urls`에는 본문 이미지 URL만 넣고 다운로드 링크를 섞지 않는다.
+- 소스의 문자열 원본 키는 `source_seq`, 앱/푸시의 내부 식별자는 공용 레지스트리의 양의 정수 `id`다. 같은 원본의 ID 재발급이나 다른 원본에 ID 재사용은 배포 전에 차단한다.
 
 ## 검증
 
-스크립트 저장소에서 아래 명령으로 실제 FCM 없이 전체 계약을 확인한다.
+스크립트 저장소에서 아래 명령으로 Git 변경과 실제 FCM 없이 전체 계약을 확인한다 (형제 디렉터리에 데이터 저장소가 있는 경우).
 
 ```sh
-/bin/sh /volume1/work/git/agility-scraper/active_data_check_real
+python3 scripts/active_data_harness.py --data-repo-dir ../daltiapp.github.io --scope all
 ```
 
 검증 항목:
@@ -102,3 +104,7 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 - 공지 목록의 모든 `detail_path` 연결
 - 일정 13개 core 필드와 선택 필드, ISO 날짜, 중복 대회 식별자
 - 오늘 일정 푸시 후보 수와 3건 이상 수동 확인 가드
+
+`notice` scope는 공지 트리와 모든 manifest `notice*` feed를 검사하며, `schedule` scope는 `files.match`만 검사한다. 각각의 JSON 문법/pretty 형식도 검사한다. 공지 feed 누락 때문에 일정 검사가 실패하지 않지만 전체 배포 전에는 반드시 `all` 검증이 필요하다.
+
+NAS `active_data_check_real` 래퍼는 FCM을 보내지 않지만 실행 전 Git 동기화를 한다. 자세한 절차는 [스크래퍼 하네스 문서](https://github.com/daltiapp/agility-scraper/blob/main/ACTIVE_DATA_HARNESS.md)를 따른다. 검증 통과는 실제 단말 푸시 수신을 보장하지 않는다.
