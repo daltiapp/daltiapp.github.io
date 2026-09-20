@@ -1,24 +1,16 @@
 {
   "id": 119,
   "source": "dongsa",
-  "source_seq": "203",
-  "title": "제3회 KAO 챔피언십 개최 및 접수 안내",
-  "url": "http://www.dong-sa.or.kr/board/read.jsp?id=203&code=notice",
-  "published_at_raw": "2024.10.11",
-  "published_at": "2024-10-11T00:00:00+09:00",
-  "body_html": "<p><img src=\"http://www.dong-sa.or.kr/data/file/ac6bfa5b393b71ad1f69f982e7a16893.jpg\" alt=\"\" width=\"560\" height=\"5927\" /></p>\r\n<div>&nbsp;</div>",
+  "source_seq": "172",
+  "title": "제2회 KAO 챔피언십 타임테이블 공지",
+  "url": "http://www.dong-sa.or.kr/board/read.jsp?id=172&code=notice",
+  "published_at_raw": "2023.10.31",
+  "published_at": "2023-10-31T00:00:00+09:00",
+  "body_html": "<p><img src=\"http://www.dong-sa.or.kr/data/file/285da3665aa46fd4e26ed66cba2779f7.png\" alt=\"\" width=\"560\" height=\"1726\" /></p>",
   "body_text": "",
   "image_urls": [
-    "http://www.dong-sa.or.kr/data/file/ac6bfa5b393b71ad1f69f982e7a16893.jpg"
+    "http://www.dong-sa.or.kr/data/file/285da3665aa46fd4e26ed66cba2779f7.png"
   ],
   "tables": [],
-  "attachments": [
-    {
-      "label": "2024 KAO_홈페이지.jpg",
-      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100596&ek=b15fbfaac3776e5a2ad330fbf7976da7",
-      "file_name": "2024 KAO_홈페이지.jpg",
-      "file_ext": ".jpg",
-      "text": ""
-    }
-  ]
+  "attachments": []
 }

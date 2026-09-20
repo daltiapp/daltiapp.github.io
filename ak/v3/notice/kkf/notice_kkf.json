@@ -1,6 +1,6 @@
 {
   "source_board_url": "https://www.thekkf.or.kr/new_home/news/board/list.php?board=board&code=1&intCurPage=&strSearchWord=&strSearchType==&f_word=&f_idx=&part=",
-  "crawl_mode": "incremental_update",
+  "crawl_mode": "full_board",
   "storage": "split_index_detail",
   "identity_field": "id",
   "keywords": [
@@ -861,54 +861,54 @@
       "detail_path": "./85.json"
     },
     {
-      "id": 125,
+      "id": 86,
       "source": "kkf",
       "source_seq": "12365",
       "title": "2026년 KKF 어질리티 위원회 신규위원 모집안내",
       "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12365",
       "published_at_raw": "2026.4.16",
       "published_at": "2026-04-16T00:00:00+09:00",
-      "detail_path": "./125.json"
+      "detail_path": "./86.json"
     },
     {
-      "id": 126,
+      "id": 87,
       "source": "kkf",
       "source_seq": "12405",
       "title": "2026 오수 KKF 아마추어 어질리티 경기대회 ('26.5.2.)",
       "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12405",
       "published_at_raw": "2026.4.28",
       "published_at": "2026-04-28T00:00:00+09:00",
-      "detail_path": "./126.json"
+      "detail_path": "./87.json"
     },
     {
-      "id": 127,
+      "id": 88,
       "source": "kkf",
       "source_seq": "12406",
       "title": "2026 오수 KKF 내셔널 어질리티 평가전 및 2026 오수 FCI 인터내셔널 어질리티 경기대회 출진자 명단 ('26.5.3.)",
       "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12406",
       "published_at_raw": "2026.4.28",
       "published_at": "2026-04-28T00:00:00+09:00",
-      "detail_path": "./127.json"
+      "detail_path": "./88.json"
     },
     {
-      "id": 128,
+      "id": 89,
       "source": "kkf",
       "source_seq": "12451",
       "title": "2026 오수 KKF 내셔널 어질리티 평가전 및 FCI 인터내셔널 어질리티 경기대회 결과 공고('26.5.2.)",
       "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12451",
       "published_at_raw": "2026.5.8",
       "published_at": "2026-05-08T00:00:00+09:00",
-      "detail_path": "./128.json"
+      "detail_path": "./89.json"
     },
     {
-      "id": 129,
+      "id": 90,
       "source": "kkf",
       "source_seq": "12467",
       "title": "2026년 KKF 어질리티 대회 참가 관련 안내",
       "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php?mode=view&seq=12467",
       "published_at_raw": "2026.5.20",
       "published_at": "2026-05-20T00:00:00+09:00",
-      "detail_path": "./129.json"
+      "detail_path": "./90.json"
     }
   ]
 }

@@ -1,22 +1,16 @@
 {
   "id": 108,
   "source": "dongsa",
-  "source_seq": "156",
-  "title": "2024 WAO(World Agility Open) 한글 규정집",
-  "url": "http://www.dong-sa.or.kr/board/read.jsp?id=156&code=notice",
-  "published_at_raw": "2023.10.01",
-  "published_at": "2023-10-01T00:00:00+09:00",
-  "body_html": "<p>KAO(Korea Agility Open) Championship은 WAO(World Agility Open) Championships 규정을 준수합니다.</p>\r\n<p>2024년 최신 WAO Championships 한글 규정집을 업로드 하오니, 참고 부탁드립니다.</p>\r\n<p>&nbsp;</p>\r\n<p>감사합니다.</p>",
-  "body_text": "KAO(Korea Agility Open) Championship은 WAO(World Agility Open) Championships 규정을 준수합니다.\n\n2024년 최신 WAO Championships 한글 규정집을 업로드 하오니, 참고 부탁드립니다.\n\n감사합니다.",
-  "image_urls": [],
+  "source_seq": "126",
+  "title": "제1회 KAO CHAMPIONSHIPS 심판별 종목 안내",
+  "url": "http://www.dong-sa.or.kr/board/read.jsp?id=126&code=notice",
+  "published_at_raw": "2022.11.11",
+  "published_at": "2022-11-11T00:00:00+09:00",
+  "body_html": "<p><img src=\"http://www.dong-sa.or.kr/data/file/1e697cea25303238ecd8a441c88c5769.jpg\" alt=\"\" width=\"560\" height=\"1260\" /></p>",
+  "body_text": "",
+  "image_urls": [
+    "http://www.dong-sa.or.kr/data/file/1e697cea25303238ecd8a441c88c5769.jpg"
+  ],
   "tables": [],
-  "attachments": [
-    {
-      "label": "WAO_Rules&Regulations_2024_KR.pdf",
-      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100482&ek=85d1889f0a6f4fad57e0a7092b057061",
-      "file_name": "WAO_Rules&Regulations_2024_KR.pdf",
-      "file_ext": ".pdf",
-      "text": ""
-    }
-  ]
+  "attachments": []
 }

@@ -1,35 +1,63 @@
 {
   "id": 118,
   "source": "dongsa",
-  "source_seq": "177",
-  "title": "제2회 KAO(Korea Agility Open) Championship 대회결과 공지",
-  "url": "http://www.dong-sa.or.kr/board/read.jsp?id=177&code=notice",
-  "published_at_raw": "2023.11.09",
-  "published_at": "2023-11-09T00:00:00+09:00",
-  "body_html": "<p>제2회 KAO(Korea Agility Open) Championships 대회결과와 각 종목별 코스맵을 첨부파일과 같이 공지 합니다.</p>\r\n<p>&nbsp;</p>\r\n<p>각 부문 KAO 통합챔피언 입상과 더불어, 2024 WAO 챔피언쉽 대한민국 국가대표에 선발되신 모든 분들과</p>\r\n<p>궂은 날씨에도 열정을 다해 참가해 주신 모든 여러분들께 감사의 말씀을 드립니다.</p>\r\n<p>&nbsp;</p>\r\n<p>2024 WAO 챔피언십 Team Korea 구성 및 훈련 일정은 대상 팀에게 개별적으로 통지 예정입니다.</p>\r\n<p>&nbsp;</p>\r\n<p>KAO 운영위원회는 제3회 KAO 챔피언십을 더욱 알차게 준비하여 찾아 뵙겠습니다.</p>\r\n<p>&nbsp;</p>\r\n<p>감사합니다.</p>",
-  "body_text": "제2회 KAO(Korea Agility Open) Championships 대회결과와 각 종목별 코스맵을 첨부파일과 같이 공지 합니다.\n\n각 부문 KAO 통합챔피언 입상과 더불어, 2024 WAO 챔피언쉽 대한민국 국가대표에 선발되신 모든 분들과\n\n궂은 날씨에도 열정을 다해 참가해 주신 모든 여러분들께 감사의 말씀을 드립니다.\n\n2024 WAO 챔피언십 Team Korea 구성 및 훈련 일정은 대상 팀에게 개별적으로 통지 예정입니다.\n\nKAO 운영위원회는 제3회 KAO 챔피언십을 더욱 알차게 준비하여 찾아 뵙겠습니다.\n\n감사합니다.",
-  "image_urls": [],
+  "source_seq": "169",
+  "title": "제2회 KAO 챔피언십 클럽부스 대여 안내",
+  "url": "http://www.dong-sa.or.kr/board/read.jsp?id=169&code=notice",
+  "published_at_raw": "2023.10.25",
+  "published_at": "2023-10-25T00:00:00+09:00",
+  "body_html": "<p>제2회 KAO 챔피언십 클럽부스 대여를 오픈합니다!!<br />국내 어느 어질리티 대회장에서도 볼 수 없던 클럽부스 8동을 선착순으로 대여 진행합니다.<br />이번 대회 출진팀 증가로 기존 공용 대기실의 핸들러와 파트너견 수용에 한계가 있음을 참고하시어,</p>\r\n<p>원하시는 클럽은 부스 신청을 해 주세요!!</p>\r\n<p><img src=\"http://www.dong-sa.or.kr/data/file/6d35e5c4f92d32f20d16a57c32394c18.png\" alt=\"\" width=\"560\" height=\"560\" /></p>\r\n<p><img src=\"http://www.dong-sa.or.kr/data/file/7d6a0f3e121b19b2d954228541c663bc.png\" alt=\"\" width=\"560\" height=\"560\" /></p>\r\n<p><img src=\"http://www.dong-sa.or.kr/data/file/63a99f85eea6e76416059aeaac1120aa.png\" alt=\"\" width=\"560\" height=\"560\" /></p>\r\n<p><img src=\"http://www.dong-sa.or.kr/data/file/4d3b78ba749245b58eace4a54db66106.png\" alt=\"\" width=\"560\" height=\"560\" /></p>\r\n<p><img src=\"http://www.dong-sa.or.kr/data/file/b9d6f0882609d8801e25c77d73d43ad4.png\" alt=\"\" width=\"560\" height=\"560\" /></p>\r\n<p><img src=\"http://www.dong-sa.or.kr/data/file/621c9c76471146ab1401831a8b98a399.png\" alt=\"\" width=\"560\" height=\"560\" /></p>",
+  "body_text": "제2회 KAO 챔피언십 클럽부스 대여를 오픈합니다!!\n\n국내 어느 어질리티 대회장에서도 볼 수 없던 클럽부스 8동을 선착순으로 대여 진행합니다.\n\n이번 대회 출진팀 증가로 기존 공용 대기실의 핸들러와 파트너견 수용에 한계가 있음을 참고하시어,\n\n원하시는 클럽은 부스 신청을 해 주세요!!",
+  "image_urls": [
+    "http://www.dong-sa.or.kr/data/file/6d35e5c4f92d32f20d16a57c32394c18.png",
+    "http://www.dong-sa.or.kr/data/file/7d6a0f3e121b19b2d954228541c663bc.png",
+    "http://www.dong-sa.or.kr/data/file/63a99f85eea6e76416059aeaac1120aa.png",
+    "http://www.dong-sa.or.kr/data/file/4d3b78ba749245b58eace4a54db66106.png",
+    "http://www.dong-sa.or.kr/data/file/b9d6f0882609d8801e25c77d73d43ad4.png",
+    "http://www.dong-sa.or.kr/data/file/621c9c76471146ab1401831a8b98a399.png"
+  ],
   "tables": [],
   "attachments": [
     {
-      "label": "2nd KAO Championship Results.pdf",
-      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100518&ek=630085ddaec89431e7717bfe0b6bb6e4",
-      "file_name": "2nd KAO Championship Results.pdf",
-      "file_ext": ".pdf",
+      "label": "클럽부스1@2x.png",
+      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100498&ek=4501e30ee9b84a82df3c933a92dc60af",
+      "file_name": "클럽부스1@2x.png",
+      "file_ext": ".png",
       "text": ""
     },
     {
-      "label": "KAO 2023 11_4 토요일 코스.pdf",
-      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100519&ek=f50159600a269c5e390ca491668a8506",
-      "file_name": "KAO 2023 11_4 토요일 코스.pdf",
-      "file_ext": ".pdf",
+      "label": "클럽부스2@2x.png",
+      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100499&ek=a39a2f6d0275a781c018a968abd7af43",
+      "file_name": "클럽부스2@2x.png",
+      "file_ext": ".png",
       "text": ""
     },
     {
-      "label": "KAO 2023 11_5 일요일 코스.pdf",
-      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100520&ek=7606485f7238db7862596780df19de2a",
-      "file_name": "KAO 2023 11_5 일요일 코스.pdf",
-      "file_ext": ".pdf",
+      "label": "클럽부스3@2x.png",
+      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100500&ek=e745a6bad4ffe5a1b35aac134ea148c7",
+      "file_name": "클럽부스3@2x.png",
+      "file_ext": ".png",
+      "text": ""
+    },
+    {
+      "label": "클럽부스4_1@2x.png",
+      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100501&ek=8e30032004d7744a9e3c33e8e81471ec",
+      "file_name": "클럽부스4_1@2x.png",
+      "file_ext": ".png",
+      "text": ""
+    },
+    {
+      "label": "클럽부스5@2x.png",
+      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100502&ek=40e592f4e1ef7450ddf54a124038f866",
+      "file_name": "클럽부스5@2x.png",
+      "file_ext": ".png",
+      "text": ""
+    },
+    {
+      "label": "클럽부스6_1@2x.png",
+      "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100503&ek=9015e536b1458c33bd7f595a7c832b5e",
+      "file_name": "클럽부스6_1@2x.png",
+      "file_ext": ".png",
       "text": ""
     }
   ]

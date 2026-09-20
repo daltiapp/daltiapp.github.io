@@ -1,57 +1,74 @@
 {
+  "source_board_url": "https://www.kkc.or.kr/notice",
+  "crawl_mode": "full_board",
+  "storage": "split_index_detail",
   "identity_field": "id",
-  "total_count": 5,
+  "keywords": [
+    "어질리티",
+    "agility"
+  ],
+  "total_count": 6,
+  "detail_dir": "./",
   "items": [
     {
-      "id": "kkc-n6ZvMj5Jy0zQayGtaEkn",
-      "source": "kkc",
-      "source_seq": "n6ZvMj5Jy0zQayGtaEkn",
-      "title": "260530_어질리티 챔피언십 출진목록",
-      "url": "https://www.kkc.or.kr/notice#n6ZvMj5Jy0zQayGtaEkn",
-      "published_at_raw": "2026-05-27",
-      "published_at": "2026-05-27T02:19:49.043Z",
-      "detail_path": "./kkc/kkc-n6ZvMj5Jy0zQayGtaEkn.json"
-    },
-    {
-      "id": "kkc-APktsPk6TfSzrDI1AbO0",
+      "id": 133,
       "source": "kkc",
       "source_seq": "APktsPk6TfSzrDI1AbO0",
       "title": "2026 KKC 어질리티 규정",
-      "url": "https://www.kkc.or.kr/notice#APktsPk6TfSzrDI1AbO0",
-      "published_at_raw": "2026-05-20",
-      "published_at": "2026-05-20T00:39:03.794Z",
-      "detail_path": "./kkc/kkc-APktsPk6TfSzrDI1AbO0.json"
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2026-05-20T00:39:03.794Z",
+      "published_at": "2026-05-20T00:39:03.794000+00:00",
+      "detail_path": "./133.json"
     },
     {
-      "id": "kkc-oBOwbRJzlIVbtOFfNCuo",
+      "id": 135,
+      "source": "kkc",
+      "source_seq": "YiqEDCSlX7VjVQJjxWVO",
+      "title": "260919_KKC 어질리티 챔피언십 출진목록",
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2026-09-15T08:47:00.682Z",
+      "published_at": "2026-09-15T08:47:00.682000+00:00",
+      "detail_path": "./135.json"
+    },
+    {
+      "id": 131,
+      "source": "kkc",
+      "source_seq": "eS5bUs8KEsPn04rsoNJX",
+      "title": "어질리티 한국 대표단 IFCS 챔피언십 참가차 프랑스로 출국",
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "1713920008",
+      "published_at": "2024-04-24T09:53:28+09:00",
+      "detail_path": "./131.json"
+    },
+    {
+      "id": 134,
+      "source": "kkc",
+      "source_seq": "n6ZvMj5Jy0zQayGtaEkn",
+      "title": "260530_어질리티 챔피언십 출진목록",
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2026-05-27T02:19:49.043Z",
+      "published_at": "2026-05-27T02:19:49.043000+00:00",
+      "detail_path": "./134.json"
+    },
+    {
+      "id": 132,
       "source": "kkc",
       "source_seq": "oBOwbRJzlIVbtOFfNCuo",
       "title": "260404_어질리티 챔피언십 출진목록",
-      "url": "https://www.kkc.or.kr/notice#oBOwbRJzlIVbtOFfNCuo",
-      "published_at_raw": "2026-04-02",
-      "published_at": "2026-04-02T00:07:11.696Z",
-      "detail_path": "./kkc/kkc-oBOwbRJzlIVbtOFfNCuo.json"
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "2026-04-02T00:07:11.696Z",
+      "published_at": "2026-04-02T00:07:11.696000+00:00",
+      "detail_path": "./132.json"
     },
     {
-      "id": "kkc-eS5bUs8KEsPn04rsoNJX",
-      "source": "kkc",
-      "source_seq": "eS5bUs8KEsPn04rsoNJX",
-      "title": "어질리티 한국 대표단 IFCS 챔피언십 참가차 프랑스로 출국   ",
-      "url": "https://www.kkc.or.kr/notice#eS5bUs8KEsPn04rsoNJX",
-      "published_at_raw": "2024-04-24",
-      "published_at": "2024-04-24T00:53:28.000Z",
-      "detail_path": "./kkc/kkc-eS5bUs8KEsPn04rsoNJX.json"
-    },
-    {
-      "id": "kkc-stQQOCXnCjS36gfIDZXI",
+      "id": 130,
       "source": "kkc",
       "source_seq": "stQQOCXnCjS36gfIDZXI",
       "title": "2024년 2월 24일 어질리티 연기 안내",
-      "url": "https://www.kkc.or.kr/notice#stQQOCXnCjS36gfIDZXI",
-      "published_at_raw": "2024-02-22",
-      "published_at": "2024-02-22T06:29:22.000Z",
-      "detail_path": "./kkc/kkc-stQQOCXnCjS36gfIDZXI.json"
+      "url": "https://www.kkc.or.kr/notice",
+      "published_at_raw": "1708583362",
+      "published_at": "2024-02-22T15:29:22+09:00",
+      "detail_path": "./130.json"
     }
   ]
 }
-

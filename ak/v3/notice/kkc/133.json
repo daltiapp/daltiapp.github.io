@@ -1,20 +1,22 @@
 {
-  "identity_field": "id",
-  "id": "kkc-APktsPk6TfSzrDI1AbO0",
+  "id": 133,
   "source": "kkc",
   "source_seq": "APktsPk6TfSzrDI1AbO0",
   "title": "2026 KKC 어질리티 규정",
   "url": "https://www.kkc.or.kr/notice",
-  "published_at_raw": "2026-05-20",
-  "published_at": "2026-05-20T00:39:03.794Z",
+  "published_at_raw": "2026-05-20T00:39:03.794Z",
+  "published_at": "2026-05-20T00:39:03.794000+00:00",
   "body_html": "<p>다운로드 후 확인 바랍니다.</p>",
+  "body_text": "다운로드 후 확인 바랍니다.",
+  "image_urls": [],
+  "tables": [],
   "attachments": [
     {
-      "name": "KAC 어질리티 규정_2026-02.pdf",
+      "label": "첨부파일",
       "url": "https://firebasestorage.googleapis.com/v0/b/koreankennelclub-7e102.firebasestorage.app/o/notices%2Fattachments%2F1779237541756_KAC%20%EC%96%B4%EC%A7%88%EB%A6%AC%ED%8B%B0%20%EA%B7%9C%EC%A0%95_2026-02.pdf?alt=media&token=1483d281-72c5-41bb-8f3e-cd2d718ab74d",
-      "path": "notices/attachments/1779237541756_KAC 어질리티 규정_2026-02.pdf",
-      "size": 151219,
-      "contentType": "application/pdf"
+      "file_name": "KAC 어질리티 규정_2026-02.pdf",
+      "file_ext": ".pdf",
+      "text": ""
     }
   ]
 }
