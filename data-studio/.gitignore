@@ -6,3 +6,4 @@ dist/
 .dalti-data-studio.log
 .dalti-data-studio.launcher.lock
 macos/Dalti Data Studio 가상본
+tests/.uicheck/
