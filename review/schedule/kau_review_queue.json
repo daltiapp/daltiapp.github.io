@@ -1,0 +1,1608 @@
+{
+  "schemaVersion": 1,
+  "source": "agility.co.kr",
+  "sourceLabel": "한국어질리티연합",
+  "generatedAt": "2026-09-28T06:32:00+09:00",
+  "generatedBy": "schedule_detect_kau.py",
+  "year": 2026,
+  "counts": {
+    "total": 15,
+    "pending_review": 15,
+    "approved": 0,
+    "rejected": 0,
+    "new": 0,
+    "changed": 0
+  },
+  "items": [
+    {
+      "id": "kau-167261650",
+      "sourceId": "167261650",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=167261650&t=board",
+      "sourceTitle": "25.9.13.(토) KKF 코리아어질리티클럽 점/어 승급전 & 춘천시장배 어질리티 최강자전",
+      "publishedAt": "",
+      "collectedAt": "2026-09-23T06:31:06+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "9ad97a2bd502e06b30ab552135942d0e63330d8b5a918dadd35d9b2b4ccda16e",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=167261650&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "코리아어질리티",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2025-09-13T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [],
+        "name": "KKF 코리아어질리티클럽 점/어 승급전 & 춘천시장배 어질리티 최강자전",
+        "startAt": "2025-09-13T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=167261650&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2025-09-13T00:00:00",
+          "source": "title",
+          "raw": "25.9.13.(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2025-09-13T00:00:00",
+          "source": "title",
+          "raw": "25.9.13.(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "25.9.13.(토) KKF 코리아어질리티클럽 점/어 승급전 & 춘천시장배 어질리티 최강자전",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 코리아어질리티클럽 점/어 승급전 & 춘천시장배 어질리티 최강자전",
+          "source": "title",
+          "raw": "25.9.13.(토) KKF 코리아어질리티클럽 점/어 승급전 & 춘천시장배 어질리티 최강자전",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0d5e60ee37510.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/d17aa800a0c50.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/82353525d2229.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/be841414052eb.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/f2d5f45adeef1.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/8f980b7b0f5c0.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/dd84cfce67997.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-168173931",
+      "sourceId": "168173931",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=168173931&t=board",
+      "sourceTitle": "11.2(일) 리즈 어질리티 4차 대회",
+      "publishedAt": "2025-11-28T08:32:00+09:00",
+      "collectedAt": "2026-09-23T06:30:59+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "2db8369e4d22c5347dd77d5d461ef46fe47b62bc803a1a1d07b38577c75886be",
+      "confidence": 0.15,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=168173931&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "한국어질리티연합",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "",
+        "eventType": "",
+        "judge": [],
+        "location": "",
+        "matchTypes": [],
+        "name": "11.2(일) 리즈 어질리티 4차 대회",
+        "startAt": "",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=168173931&t=board"
+      },
+      "fieldEvidence": {
+        "name": {
+          "value": "11.2(일) 리즈 어질리티 4차 대회",
+          "source": "title",
+          "raw": "11.2(일) 리즈 어질리티 4차 대회",
+          "confidence": 0.9,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "startAt",
+          "level": "required",
+          "message": "제목에서 날짜를 추출할 수 없습니다. 수동 입력이 필요합니다."
+        },
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "eventType",
+          "level": "check",
+          "message": "이벤트 유형을 제목에서 추론할 수 없습니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/1e518ffdc652a.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/635de2ce035a6.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/22ea79c649899.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/f228b578127ca.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/3b3bb2c9d6962.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/3feb8e01f9b34.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/ca3ed3d0495e8.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/d9a2624dc5282.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/594ec07752b74.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/9416321b591c8.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/781dfc0880927.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-170701408",
+      "sourceId": "170701408",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=170701408&t=board",
+      "sourceTitle": "2026 오수 FCI 인터내셔널 어질리티 경기대회 및 KKF 내셔널 어질리티 평가전",
+      "publishedAt": "",
+      "collectedAt": "2026-09-23T06:30:45+09:00",
+      "diffKind": "new",
+      "status": "pending_review",
+      "fingerprint": "5f1e44046a26e6c433bac953c0b42d524d5a9392b24941ae1a919d2d11d61afb",
+      "confidence": 0.3,
+      "matchedUrl": "",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "한국애견연맹",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "",
+        "eventType": "대회",
+        "judge": [],
+        "location": "",
+        "matchTypes": [],
+        "name": "2026 오수 FCI 인터내셔널 어질리티 경기대회 및 KKF 내셔널 어질리티 평가전",
+        "startAt": "",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=170701408&t=board"
+      },
+      "fieldEvidence": {
+        "eventType": {
+          "value": "대회",
+          "source": "title",
+          "raw": "2026 오수 FCI 인터내셔널 어질리티 경기대회 및 KKF 내셔널 어질리티 평가전",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "2026 오수 FCI 인터내셔널 어질리티 경기대회 및 KKF 내셔널 어질리티 평가전",
+          "source": "title",
+          "raw": "2026 오수 FCI 인터내셔널 어질리티 경기대회 및 KKF 내셔널 어질리티 평가전",
+          "confidence": 0.9,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "startAt",
+          "level": "required",
+          "message": "제목에서 날짜를 추출할 수 없습니다. 수동 입력이 필요합니다."
+        },
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/59951b49250c7.jpeg"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-171801812",
+      "sourceId": "171801812",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=171801812&t=board",
+      "sourceTitle": "2026.7.4(토)~7.5(일) LEEZ 4차 어질리티 랭킹전",
+      "publishedAt": "",
+      "collectedAt": "2026-09-23T06:30:34+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "07bb046b39c80623804328f08d1e019f387c38d8615cfb581a902a4037d6f7b6",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=171801812&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "한국어질리티연합",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-07-05T00:00:00",
+        "eventType": "랭킹전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [],
+        "name": "LEEZ 4차 어질리티 랭킹전",
+        "startAt": "2026-07-04T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=171801812&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-07-04T00:00:00",
+          "source": "title",
+          "raw": "2026.7.4(토)~7.5(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-07-05T00:00:00",
+          "source": "title",
+          "raw": "2026.7.4(토)~7.5(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "랭킹전",
+          "source": "title",
+          "raw": "2026.7.4(토)~7.5(일) LEEZ 4차 어질리티 랭킹전",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "LEEZ 4차 어질리티 랭킹전",
+          "source": "title",
+          "raw": "2026.7.4(토)~7.5(일) LEEZ 4차 어질리티 랭킹전",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/6be0cfb5b47af.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/ea48c42894f5a.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/9f6c31f163e4d.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/86fd998cea3a9.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/d2b259cf07343.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/97c12d6095d7a.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/7028a9f92356f.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/e0c664ba6a1b2.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/1cb8565a466ce.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/45561927053b1.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/a92f404845ff4.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/28403563902ec.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-172813882",
+      "sourceId": "172813882",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=172813882&t=board",
+      "sourceTitle": "2026.9.5(토) LEEZ TAEAN BEACH AGILITY CUP",
+      "publishedAt": "",
+      "collectedAt": "2026-09-23T06:30:25+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "a3b008211a568f0acdf325ad6237860dae329f34077ef964528e4d94e99db300",
+      "confidence": 0.55,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=172813882&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "\\bagility\\b"
+          ],
+          "competition": [
+            "\\b(?:cup|tournament|championship)\\b"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "한국어질리티연합",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-09-05T00:00:00",
+        "eventType": "",
+        "judge": [],
+        "location": "",
+        "matchTypes": [],
+        "name": "LEEZ TAEAN BEACH AGILITY CUP",
+        "startAt": "2026-09-05T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=172813882&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-09-05T00:00:00",
+          "source": "title",
+          "raw": "2026.9.5(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-09-05T00:00:00",
+          "source": "title",
+          "raw": "2026.9.5(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "name": {
+          "value": "LEEZ TAEAN BEACH AGILITY CUP",
+          "source": "title",
+          "raw": "2026.9.5(토) LEEZ TAEAN BEACH AGILITY CUP",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "eventType",
+          "level": "check",
+          "message": "이벤트 유형을 제목에서 추론할 수 없습니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/dcaa32be2fc19.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0dd66aaed8a04.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/8c6643ebb4539.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/9d3af5b1615c6.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/dac870a9c385c.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/9538be0ec1811.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/ada887c7559e3.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/78f69af0e82b4.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/16b450c4254d0.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-174083985",
+      "sourceId": "174083985",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=174083985&t=board",
+      "sourceTitle": "26.10.04.(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+      "publishedAt": "2026-09-22T23:39:00+09:00",
+      "collectedAt": "2026-09-23T06:30:16+09:00",
+      "diffKind": "new",
+      "status": "pending_review",
+      "fingerprint": "1cf3e45bbc30fb6ff7d6d5b541fd9b2eb44f3c4c3abe6d5aac41a35bbbf27286",
+      "confidence": 0.7,
+      "matchedUrl": "",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티",
+            "\\((?:점/어|비/노)\\)"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "코리아어질리티",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-10-04T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [
+          "점핑",
+          "어질리티",
+          "비기너",
+          "노비스"
+        ],
+        "name": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+        "startAt": "2026-10-04T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=174083985&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-10-04T00:00:00",
+          "source": "title",
+          "raw": "26.10.04.(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-10-04T00:00:00",
+          "source": "title",
+          "raw": "26.10.04.(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "26.10.04.(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "source": "title",
+          "raw": "26.10.04.(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        },
+        "matchTypes": {
+          "value": [
+            "점핑",
+            "어질리티",
+            "비기너",
+            "노비스"
+          ],
+          "source": "title",
+          "raw": "26.10.04.(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.85,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/402bdcf35f65e.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/4684d3ded861d.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/7afd005747f7d.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/4db77cd1fa8ec.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/343dc5dff8279.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/e814e35697376.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/abf079ba8ff19.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/a08f37e3113bc.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/3407567bb9cb0.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/b97e7c9a5c699.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/e756ce683eef1.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/5aab0ce9004c6.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-174645790",
+      "sourceId": "174645790",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=174645790&t=board",
+      "sourceTitle": "2026 익산 FCI 인터내셔널 어질리티 경기대회",
+      "publishedAt": "",
+      "collectedAt": "2026-09-23T06:30:14+09:00",
+      "diffKind": "new",
+      "status": "pending_review",
+      "fingerprint": "d57ff90bece0ee00fa7bbac0d8fcd2f7d3b59bfe19eed73fa5d80ab54ed5298d",
+      "confidence": 0.3,
+      "matchedUrl": "",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "한국애견연맹",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "",
+        "eventType": "대회",
+        "judge": [],
+        "location": "",
+        "matchTypes": [],
+        "name": "2026 익산 FCI 인터내셔널 어질리티 경기대회",
+        "startAt": "",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=174645790&t=board"
+      },
+      "fieldEvidence": {
+        "eventType": {
+          "value": "대회",
+          "source": "title",
+          "raw": "2026 익산 FCI 인터내셔널 어질리티 경기대회",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "2026 익산 FCI 인터내셔널 어질리티 경기대회",
+          "source": "title",
+          "raw": "2026 익산 FCI 인터내셔널 어질리티 경기대회",
+          "confidence": 0.9,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "startAt",
+          "level": "required",
+          "message": "제목에서 날짜를 추출할 수 없습니다. 수동 입력이 필요합니다."
+        },
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/ab0f35a5969e5.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-168821840",
+      "sourceId": "168821840",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=168821840&t=board",
+      "sourceTitle": "25. 12. 13(토)~14(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+      "publishedAt": "2025-12-15T00:00:00+09:00",
+      "collectedAt": "2026-09-21T06:30:52+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "d0b9c7d0ddaa1635023853a24be6c6ee3ae5a5141e6f71c4f54f8bbf445ba649",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=168821840&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티",
+            "\\((?:점/어|비/노)\\)"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "코리아어질리티",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2025-12-14T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [
+          "점핑",
+          "어질리티",
+          "비기너",
+          "노비스"
+        ],
+        "name": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+        "startAt": "2025-12-13T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=168821840&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2025-12-13T00:00:00",
+          "source": "title",
+          "raw": "25. 12. 13(토)~14(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2025-12-14T00:00:00",
+          "source": "title",
+          "raw": "25. 12. 13(토)~14(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "25. 12. 13(토)~14(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "source": "title",
+          "raw": "25. 12. 13(토)~14(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        },
+        "matchTypes": {
+          "value": [
+            "점핑",
+            "어질리티",
+            "비기너",
+            "노비스"
+          ],
+          "source": "title",
+          "raw": "25. 12. 13(토)~14(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.85,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/8eb7f3bc02627.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/82aff256e6169.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/a6c6ced6f6106.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/51576297b11e5.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/53af54a5155f6.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/2c8d9aaf07fef.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/e89884710688f.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/5e1762b4cd656.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0baaf100bae78.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/975cd738fe6cb.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/16a0ce1e28da5.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/640d9519419f0.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-169031960",
+      "sourceId": "169031960",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=169031960&t=board",
+      "sourceTitle": "25. 12. 20(토) KKF 코리아어질리티클럽 비/노 클럽전(승급)",
+      "publishedAt": "2026-02-09T00:18:00+09:00",
+      "collectedAt": "2026-09-21T06:30:50+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "3e7bba72c9a746b50a9aa850af00c683225c28b662666e28b9416db81742cebc",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=169031960&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "코리아어질리티",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2025-12-20T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [
+          "비기너",
+          "노비스"
+        ],
+        "name": "KKF 코리아어질리티클럽 비/노 클럽전(승급)",
+        "startAt": "2025-12-20T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=169031960&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2025-12-20T00:00:00",
+          "source": "title",
+          "raw": "25. 12. 20(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2025-12-20T00:00:00",
+          "source": "title",
+          "raw": "25. 12. 20(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "25. 12. 20(토) KKF 코리아어질리티클럽 비/노 클럽전(승급)",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 코리아어질리티클럽 비/노 클럽전(승급)",
+          "source": "title",
+          "raw": "25. 12. 20(토) KKF 코리아어질리티클럽 비/노 클럽전(승급)",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        },
+        "matchTypes": {
+          "value": [
+            "비기너",
+            "노비스"
+          ],
+          "source": "title",
+          "raw": "25. 12. 20(토) KKF 코리아어질리티클럽 비/노 클럽전(승급)",
+          "confidence": 0.85,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/03b51bbd24045.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/fd781020edbd5.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/a2105a316423e.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0a5cb39827e78.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/c4fc8da6348ca.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/56f7c2306760f.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0b3ef5cd394f5.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/354bfe20481e5.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/53ed436abfa84.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/eaed11553eb8c.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/2e4f9cfb1a717.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-171129201",
+      "sourceId": "171129201",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=171129201&t=board",
+      "sourceTitle": "26. 5. 16(토)~17(일) KKF 어질리티 위원회 승급전(점/어)",
+      "publishedAt": "2026-05-10T17:56:00+09:00",
+      "collectedAt": "2026-09-21T06:30:39+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "0fa65d7dda5d57b6b00780b26747ad9fc82a9aec6e530e87fb50e5ba624c2a78",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=171129201&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티",
+            "\\((?:점/어|비/노)\\)"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "한국애견연맹",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-05-17T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [
+          "점핑",
+          "어질리티"
+        ],
+        "name": "KKF 어질리티 위원회 승급전(점/어)",
+        "startAt": "2026-05-16T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=171129201&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-05-16T00:00:00",
+          "source": "title",
+          "raw": "26. 5. 16(토)~17(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-05-17T00:00:00",
+          "source": "title",
+          "raw": "26. 5. 16(토)~17(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "26. 5. 16(토)~17(일) KKF 어질리티 위원회 승급전(점/어)",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 어질리티 위원회 승급전(점/어)",
+          "source": "title",
+          "raw": "26. 5. 16(토)~17(일) KKF 어질리티 위원회 승급전(점/어)",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        },
+        "matchTypes": {
+          "value": [
+            "점핑",
+            "어질리티"
+          ],
+          "source": "title",
+          "raw": "26. 5. 16(토)~17(일) KKF 어질리티 위원회 승급전(점/어)",
+          "confidence": 0.85,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/8d78f86bd1160.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/3a6b7d0f486ce.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/1b1bf702c39c0.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/5ee1ef568a720.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/80a7411f7a071.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/da126fbc0edcb.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/8138ab77614c0.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/7a395a99809b6.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/453cb2750594c.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/5abfbf2facd41.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-171569089",
+      "sourceId": "171569089",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=171569089&t=board",
+      "sourceTitle": "26.06.21.(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+      "publishedAt": "2026-06-07T12:14:00+09:00",
+      "collectedAt": "2026-09-21T06:30:34+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "6139379e0756326a4cfa0d2da9fedb4ee14246e7c648623b51169f1b3c5ae6ac",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=171569089&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티",
+            "\\((?:점/어|비/노)\\)"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "코리아어질리티",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-06-21T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [
+          "점핑",
+          "어질리티",
+          "비기너",
+          "노비스"
+        ],
+        "name": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+        "startAt": "2026-06-21T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=171569089&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-06-21T00:00:00",
+          "source": "title",
+          "raw": "26.06.21.(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-06-21T00:00:00",
+          "source": "title",
+          "raw": "26.06.21.(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "26.06.21.(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "source": "title",
+          "raw": "26.06.21.(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        },
+        "matchTypes": {
+          "value": [
+            "점핑",
+            "어질리티",
+            "비기너",
+            "노비스"
+          ],
+          "source": "title",
+          "raw": "26.06.21.(일) KKF 코리아어질리티클럽 승급전(점/어)(비/노)",
+          "confidence": 0.85,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/d533e52563a9f.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/f6847a5cc0ddd.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/c92cb2d4d4b65.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/8782d5b9c1d31.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/a9574b0bfb407.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/4e9cd52947f3d.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/e3704b75665c7.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/b1b610990972f.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0b1775df5045e.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/434674eadf361.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/91b1e69901956.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/b4ea804eaef00.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-172214338",
+      "sourceId": "172214338",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=172214338&t=board",
+      "sourceTitle": "26.07.25.(토) KKF 코리아어질리티클럽 승급전(점/어)",
+      "publishedAt": "2026-07-16T12:47:00+09:00",
+      "collectedAt": "2026-09-21T06:30:27+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "cec4c918f711da2f7e936e27a41306862beea74d5d706ca1bc62709676166399",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=172214338&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티",
+            "\\((?:점/어|비/노)\\)"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "코리아어질리티",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-07-25T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [
+          "점핑",
+          "어질리티"
+        ],
+        "name": "KKF 코리아어질리티클럽 승급전(점/어)",
+        "startAt": "2026-07-25T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=172214338&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-07-25T00:00:00",
+          "source": "title",
+          "raw": "26.07.25.(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-07-25T00:00:00",
+          "source": "title",
+          "raw": "26.07.25.(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "26.07.25.(토) KKF 코리아어질리티클럽 승급전(점/어)",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 코리아어질리티클럽 승급전(점/어)",
+          "source": "title",
+          "raw": "26.07.25.(토) KKF 코리아어질리티클럽 승급전(점/어)",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        },
+        "matchTypes": {
+          "value": [
+            "점핑",
+            "어질리티"
+          ],
+          "source": "title",
+          "raw": "26.07.25.(토) KKF 코리아어질리티클럽 승급전(점/어)",
+          "confidence": 0.85,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/c429e2e38ad10.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/dc6e6290a7107.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0d7444224b4dc.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/50b630b2627d4.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/9523d5ff729e5.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/8729a2ef25e3d.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/6da72a839ff02.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/e60a6adcec7ec.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/5658e51b77970.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-172472260",
+      "sourceId": "172472260",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=172472260&t=board",
+      "sourceTitle": "26.08.08.(토) KKF 코리아어질리티클럽 승급전(점/어)",
+      "publishedAt": "2026-08-01T20:43:00+09:00",
+      "collectedAt": "2026-09-21T06:30:25+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "5a4b5945ae7d5c451fc59302ae352ab01181f8f6112779e53248305a43024b4d",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=172472260&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티",
+            "\\((?:점/어|비/노)\\)"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "코리아어질리티",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-08-08T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [
+          "점핑",
+          "어질리티"
+        ],
+        "name": "KKF 코리아어질리티클럽 승급전(점/어)",
+        "startAt": "2026-08-08T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=172472260&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-08-08T00:00:00",
+          "source": "title",
+          "raw": "26.08.08.(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-08-08T00:00:00",
+          "source": "title",
+          "raw": "26.08.08.(토)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "26.08.08.(토) KKF 코리아어질리티클럽 승급전(점/어)",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 코리아어질리티클럽 승급전(점/어)",
+          "source": "title",
+          "raw": "26.08.08.(토) KKF 코리아어질리티클럽 승급전(점/어)",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        },
+        "matchTypes": {
+          "value": [
+            "점핑",
+            "어질리티"
+          ],
+          "source": "title",
+          "raw": "26.08.08.(토) KKF 코리아어질리티클럽 승급전(점/어)",
+          "confidence": 0.85,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/7299c5ebc8756.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/65c41750c51d8.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0c3a8920f04ce.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/89a6b62eefe1f.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/27231545d28d2.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/99f26ada8656c.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/17511a0ca6c43.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/cd3be7bb06fa3.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/576758e11f4e3.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/bd8316e2e7519.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/05e2a0e465737.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/f3bf4b44059b0.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-172905386",
+      "sourceId": "172905386",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=172905386&t=board",
+      "sourceTitle": "26.08.30(일) KKF 코리아어질리티클럽 비노 승급전",
+      "publishedAt": "2026-08-22T17:41:00+09:00",
+      "collectedAt": "2026-09-21T06:30:18+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "c206712f960201cc724cb62baf29fb29532acd2f46e0ae2691549eee8a530fba",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/17/?bmode=view&idx=172905386&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "코리아어질리티",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-08-30T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [
+          "비기너",
+          "노비스"
+        ],
+        "name": "KKF 코리아어질리티클럽 비노 승급전",
+        "startAt": "2026-08-30T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=172905386&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-08-30T00:00:00",
+          "source": "title",
+          "raw": "26.08.30(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-08-30T00:00:00",
+          "source": "title",
+          "raw": "26.08.30(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "26.08.30(일) KKF 코리아어질리티클럽 비노 승급전",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "KKF 코리아어질리티클럽 비노 승급전",
+          "source": "title",
+          "raw": "26.08.30(일) KKF 코리아어질리티클럽 비노 승급전",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        },
+        "matchTypes": {
+          "value": [
+            "비기너",
+            "노비스"
+          ],
+          "source": "title",
+          "raw": "26.08.30(일) KKF 코리아어질리티클럽 비노 승급전",
+          "confidence": 0.85,
+          "note": ""
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/2a7b46f237257.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/7780094d2e6da.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/214bfdc14e36e.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/3a840d255d972.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/6fb56bbff1b03.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/06dfe2ac8e20f.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/fe04f0e91e99d.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/3ff8e2cd38569.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/435f8b9c76206.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/42e110a884c58.png"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    },
+    {
+      "id": "kau-173320506",
+      "sourceId": "173320506",
+      "sourceUrl": "https://www.agility.co.kr/17/?bmode=view&idx=173320506&t=board",
+      "sourceTitle": "26.09.20(일) 홍천 KKF 내셔널 어질리티 평가전(승급전)",
+      "publishedAt": "2026-08-27T00:55:00+09:00",
+      "collectedAt": "2026-09-21T06:30:16+09:00",
+      "diffKind": "changed",
+      "status": "pending_review",
+      "fingerprint": "4315c7427322ae0c4e3030984e10e1687d6c7e388b12f49f1726b7e4163ff04d",
+      "confidence": 0.7,
+      "matchedUrl": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=173320506&t=board",
+      "sourceClassification": {
+        "isAgilityCompetition": true,
+        "kind": "agility_competition",
+        "reason": "제목의 어질리티 종목과 대회 유형을 모두 확인했습니다.",
+        "basis": {
+          "agility": [
+            "어질리티"
+          ],
+          "competition": [
+            "승급(?:전)?|랭킹전|평가전|선발전|경기대회|클럽전|(?<![가-힣A-Za-z0-9])대회(?![가-힣A-Za-z0-9])"
+          ]
+        }
+      },
+      "draft": {
+        "applicationEndAt": "",
+        "applicationStartAt": "",
+        "club": "한국애견연맹",
+        "detailNotice": "",
+        "detailStatus": "detail_pending",
+        "endAt": "2026-09-20T00:00:00",
+        "eventType": "승급전",
+        "judge": [],
+        "location": "",
+        "matchTypes": [],
+        "name": "홍천 KKF 내셔널 어질리티 평가전(승급전)",
+        "startAt": "2026-09-20T00:00:00",
+        "url": "https://www.agility.co.kr/17/?bmode=view&idx=173320506&t=board"
+      },
+      "fieldEvidence": {
+        "startAt": {
+          "value": "2026-09-20T00:00:00",
+          "source": "title",
+          "raw": "26.09.20(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "endAt": {
+          "value": "2026-09-20T00:00:00",
+          "source": "title",
+          "raw": "26.09.20(일)",
+          "confidence": 0.95,
+          "note": ""
+        },
+        "eventType": {
+          "value": "승급전",
+          "source": "title",
+          "raw": "26.09.20(일) 홍천 KKF 내셔널 어질리티 평가전(승급전)",
+          "confidence": 0.9,
+          "note": ""
+        },
+        "name": {
+          "value": "홍천 KKF 내셔널 어질리티 평가전(승급전)",
+          "source": "title",
+          "raw": "26.09.20(일) 홍천 KKF 내셔널 어질리티 평가전(승급전)",
+          "confidence": 0.8,
+          "note": "게시판 제목에서 앞쪽 날짜 표기를 제거했습니다."
+        }
+      },
+      "warnings": [
+        {
+          "field": "location",
+          "level": "required",
+          "message": "장소를 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        },
+        {
+          "field": "judge",
+          "level": "required",
+          "message": "심사위원을 본문 이미지에서만 확인할 수 있어 수동 입력이 필요합니다."
+        }
+      ],
+      "images": [
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/434e78d7e86cf.png",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/cd44870e7e4d0.jpg",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/93d34983c4848.jpg",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/507d1831ab04e.jpg",
+        "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/78348b2a3cde1.jpg"
+      ],
+      "review": {
+        "reviewedAt": "",
+        "reviewer": "",
+        "note": "",
+        "editedFields": []
+      }
+    }
+  ]
+}
