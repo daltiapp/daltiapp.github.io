@@ -207,6 +207,16 @@
         "longitude": 127.0782155
       },
       "photos": []
+    },
+    {
+      "name": "원광대학교",
+      "location": {
+        "name": "원광대학교",
+        "address": "전북특별자치도 익산시 익산대로 460",
+        "latitude": 35.96783,
+        "longitude": 126.9557171
+      },
+      "photos": []
     }
   ]
 }

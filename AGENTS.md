@@ -45,12 +45,20 @@ If release signing fails, debug in this order:
 - `notice_auto_*`, `notice_manual_push_*`, `schedule_send_*` 를 포함한 모든 앱 푸시 배치 스크립트는 **스크립트 하나의 1회 실행 기준**으로 발송 대상이 `3건 이상`이면 앱 푸시를 보내지 않고 운영자 텔레그램 확인 요청만 보내야 한다.
 - 최근 실제 사고는 `수집 신규 0건인데 푸시 발송 대상이 대량으로 잡힌 상태 오염`이었다. 이런 패턴을 만들 수 있는 수동 데이터 수정은 매우 보수적으로 다룬다.
 - 공지 전체재생성 또는 구스키마 자동 전환에서는 이전 활성 공지 queue를 종료하고 앱 푸시를 보내지 않는다.
-- 상세 기준 문서는 `/Users/sam/Documents/dalti-script/agility-scraper/PUSH_SAFETY_POLICY.md` 이다.
+- 상세 기준 문서는 [PUSH_SAFETY_POLICY.md](../agility-scraper/PUSH_SAFETY_POLICY.md) 이다.
+
+# 프로젝트 작업 범위 분리
+
+- 이 저장소의 어질리티 일정·장소 JSON 수동 관리와 앱 데이터 작업은 스크래퍼 개발과 독립적으로 진행한다.
+- `agility-scraper`는 달티웹 프로젝트의 미완성·보류 중인 수집·자동화 도구다. 달티웹 작업 진입점은 `/Users/sam/Documents/DaltiWeb/agility-scraper`이며, 기존 외장 SSD 저장소를 가리키는 심볼릭 링크다.
+- 수동 일정·장소 수정, 이미지 URL 반영, 데이터 검증, 데이터 저장소 commit/push의 선행 조건으로 스크래퍼 fetch/pull 또는 개발 재개를 요구하지 않는다.
+- 스크래퍼·NAS 배치·자동 수집 코드를 수정하거나 재개하는 작업은 사용자가 명시적으로 요청할 때 달티웹 범위에서 진행하고 해당 저장소 지침을 따른다.
+- 로컬 Python 데이터 하네스는 수집·Git 동기화·푸시 없이 데이터 계약을 확인하는 검증 도구로 사용할 수 있다. 하네스 사용은 스크래퍼 개발 재개를 뜻하지 않는다.
 
 # 출력 저장소 작업 규칙
 
 - 이 저장소는 서비스에 배포되는 정적 데이터/파일 저장소로 취급한다.
-- 수동 작업 전에는 관련 스크립트 저장소에서 먼저 최신 코드를 반영한 뒤 작업을 시작한다.
+- 수동 작업 전에는 이 데이터 저장소의 원격 상태와 작업 트리를 확인하고 기존 사용자 변경을 보존한다. 스크래퍼 원격 동기화는 수동 데이터 작업의 선행 조건이 아니다.
 - 공지 산출물(`manifest basePath + files.notice`)은 수동 수정하지 않고 스크립트 재생성 결과로만 갱신한다.
 - `match.json`, `venue.json` 같이 사람이 직접 수정하는 JSON은 pretty JSON(`ensure_ascii=False`, `indent=2`, 마지막 개행 포함) 형식으로 유지한다.
 - 일정 판별 기준으로 쓰는 `match.json.url` 은 제목 추정 링크가 아니라 실제 상세에서 복사한 주소를 유지한다.

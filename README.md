@@ -1,6 +1,8 @@
 # AgilityKorea 정적 데이터 저장소
 
-앱에 배포하는 JSON과 정적 파일, 로컬 검수 도구 Data Studio를 관리한다. 수집·NAS 배치·푸시 구현은 [agility-scraper](https://github.com/daltiapp/agility-scraper)에서 관리한다.
+앱에 배포하는 JSON과 정적 파일, 로컬 검수 도구 Data Studio를 관리한다. 수집·NAS 배치·푸시 구현은 [agility-scraper](https://github.com/daltiapp/agility-scraper)에서 관리하며, 달티웹의 미완성·보류 중인 자동화 도구로 분류한다.
+
+일정·장소 JSON 수동 관리, 이미지 URL 반영, 이 저장소의 commit/push는 스크래퍼 최신화와 독립적이다. 스크래퍼 작업은 `/Users/sam/Documents/DaltiWeb/agility-scraper`에서 사용자의 명시적 재개 요청에 따라 진행한다. 이 경로는 기존 외장 SSD 작업본을 가리키므로 Git 이력과 작업본을 복제하지 않는다.
 
 ## 구조와 소유권
 
@@ -18,7 +20,7 @@
 
 ## 변경 전후 검증
 
-먼저 스크래퍼 최신 코드를 확인한다. 아래 명령은 두 저장소가 형제 디렉터리에 있을 때 데이터 저장소 루트에서 실행한다.
+먼저 이 데이터 저장소의 원격 상태와 작업 트리를 확인하고 기존 변경을 보존한다. 스크래퍼 fetch/pull은 수동 데이터 작업의 선행 조건이 아니다. 아래 검증은 기존 로컬 하네스를 사용하며 수집·Git 동기화·푸시를 실행하지 않는다. 두 실제 저장소가 형제 디렉터리에 있을 때 데이터 저장소 루트에서 실행한다.
 
 ```sh
 python3 ../agility-scraper/scripts/active_data_harness.py --data-repo-dir . --scope all

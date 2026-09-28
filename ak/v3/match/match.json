@@ -1684,6 +1684,35 @@
       "url": "https://waldbow.com/agilityOpen.do"
     },
     {
+      "applicationEndAt": "2026-10-04T23:59:59",
+      "applicationStartAt": "2026-09-21T00:00:00",
+      "club": "한국애견연맹",
+      "detailNotice": "경기 시작 09:00. 종료 시간은 원문에 공지되지 않았습니다.",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-10-18T00:00:00",
+      "eventType": "대회",
+      "judge": [
+        "유선"
+      ],
+      "location": "원광대학교",
+      "matchTypes": [
+        "점핑1",
+        "점핑2",
+        "점핑3",
+        "AG1",
+        "AG2",
+        "AG3"
+      ],
+      "name": "2026 익산 FCI 인터내셔널 어질리티 경기대회",
+      "startAt": "2026-10-18T00:00:00",
+      "url": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174645790&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1tdnCClivJiTdtpbjog1U-O4t1_7H_5TL",
+        "https://drive.google.com/uc?export=view&id=1FyevT82IfnnHXnwCpEyCAOPq8S0p6luE",
+        "https://drive.google.com/uc?export=view&id=1GyUGAuOfPYDkYQgzxrqnGh_-_JIa6IiC"
+      ]
+    },
+    {
       "applicationEndAt": "",
       "applicationStartAt": "",
       "club": "동물과사람",
