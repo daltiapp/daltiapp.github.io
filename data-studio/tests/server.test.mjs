@@ -13,6 +13,7 @@ import {
   repositoryHealth,
   resolveWarnings,
   reviewQueueDir,
+  startKauRefresh,
   validateMatch,
   validateVenue
 } from "../server.mjs";
@@ -158,10 +159,29 @@ test("상태 확인 응답이 실행 중인 Data Studio 서버를 식별한다",
   assert.match(health.repoRoot, /daltiapp\.github\.io$/);
 });
 
-test("KAU 작업 상태는 앱 시작 전 안전한 대기 상태다", () => {
+test("대회 수집은 보류 상태이며 이전 자동 실행 설정으로 재개되지 않는다", async () => {
+  const previousAutorun = process.env.DALTI_KAU_AUTORUN;
+  const previousAutoApply = process.env.DALTI_KAU_AUTO_APPLY;
   const job = currentKauJob();
-  assert.equal(job.status, "idle");
+  assert.equal(job.status, "paused");
   assert.equal(job.autoAppliedCount, 0);
+  const active = await loadActiveData();
+  const paths = [active.matchPath, active.manifestPath];
+  const before = await Promise.all(paths.map(file => fs.readFile(file, "utf8")));
+  try {
+    process.env.DALTI_KAU_AUTORUN = "1";
+    process.env.DALTI_KAU_AUTO_APPLY = "1";
+    assert.deepEqual(startKauRefresh("startup"), job);
+    assert.deepEqual(startKauRefresh("manual"), job);
+    await new Promise(resolve => setImmediate(resolve));
+    assert.deepEqual(currentKauJob(), job);
+    assert.deepEqual(await Promise.all(paths.map(file => fs.readFile(file, "utf8"))), before);
+  } finally {
+    if (previousAutorun === undefined) delete process.env.DALTI_KAU_AUTORUN;
+    else process.env.DALTI_KAU_AUTORUN = previousAutorun;
+    if (previousAutoApply === undefined) delete process.env.DALTI_KAU_AUTO_APPLY;
+    else process.env.DALTI_KAU_AUTO_APPLY = previousAutoApply;
+  }
 });
 
 test("검수 큐 자체 변경은 허용하되 다른 산출물 변경은 차단한다", () => {

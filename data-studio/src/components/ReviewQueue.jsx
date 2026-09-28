@@ -181,9 +181,9 @@ export function ReviewQueue({ onToast, health, onNavigate }) {
             <button type="button" onClick={loadAll} aria-label="화면 새로고침"><RefreshCw size={16} /></button>
           </div>
           <button className="manual-tools" type="button" onClick={() => onNavigate?.("match")}>수동 데이터</button>
-          <button className="refresh-posts" type="button" onClick={refreshKau} disabled={job?.status === "running"}>
+          <button className="refresh-posts" type="button" onClick={refreshKau} disabled={job?.status === "running" || job?.status === "paused"} title={job?.message}>
             {job?.status === "running" ? <LoaderCircle className="spin" size={19} /> : <RefreshCw size={19} />}
-            agility.co.kr 확인
+            {job?.status === "paused" ? "대회 수집 중지" : "agility.co.kr 확인"}
           </button>
         </header>
 

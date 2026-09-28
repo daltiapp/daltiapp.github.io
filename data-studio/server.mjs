@@ -48,9 +48,9 @@ const previews = new Map();
 const reviewPreviews = new Map();
 let kauJob = {
   id: "",
-  status: "idle",
-  stage: "대기",
-  message: "앱을 열거나 새 게시물 확인을 누르면 수집합니다.",
+  status: "paused",
+  stage: "수집 중지",
+  message: "대회 일정 수집은 중지했습니다. 기존 검수 큐와 수동 데이터 편집은 사용할 수 있습니다.",
   progress: 0,
   startedAt: "",
   finishedAt: "",
@@ -733,33 +733,8 @@ async function runKauRefresh(jobId) {
   }
 }
 
-export function startKauRefresh(trigger = "manual") {
-  if (kauJob.status === "running") return currentKauJob();
-  const id = crypto.randomUUID();
-  kauJob = {
-    id,
-    trigger,
-    status: "running",
-    stage: "시작",
-    message: "KAU 게시물 확인을 시작합니다.",
-    progress: 2,
-    startedAt: new Date().toISOString(),
-    finishedAt: "",
-    candidateCount: 0,
-    scannedCount: 0,
-    agilityCompetitionCount: 0,
-    excludedCount: 0,
-    historicalExcludedCount: 0,
-    newCount: 0,
-    changedCount: 0,
-    autoAppliedCount: 0,
-    reviewRequiredCount: 0,
-    commit: "",
-    error: ""
-  };
-  runKauRefresh(id).catch(error => {
-    updateKauJob({ status: "failed", stage: "확인 필요", message: error.message, error: error.message });
-  });
+export function startKauRefresh() {
+  // Owner paused collection. Legacy autorun/auto-apply settings must not resume it.
   return currentKauJob();
 }
 
@@ -1700,7 +1675,8 @@ async function apiHandler(req, res) {
     }
 
     if (req.method === "POST" && req.url === "/api/kau/refresh") {
-      sendJson(res, 202, startKauRefresh("manual"));
+      const job = startKauRefresh("manual");
+      sendJson(res, 409, { ...job, error: job.message });
       return;
     }
 
@@ -2316,9 +2292,6 @@ async function start() {
   server.listen(PORT, HOST, () => {
     console.log(`Dalti Data Studio: http://${HOST}:${PORT}`);
     console.log(`Repository: ${REPO_ROOT}`);
-    if (!development && process.env.DALTI_KAU_AUTORUN !== "0") {
-      startKauRefresh("startup");
-    }
   });
 }
 
