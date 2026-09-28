@@ -1,1 +1,4 @@
 .DS_Store
+
+# Local compatibility link; Data Studio is an independent repository.
+/data-studio

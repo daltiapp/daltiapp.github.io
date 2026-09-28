@@ -1,9 +1,0 @@
-node_modules/
-dist/
-.DS_Store
-.dalti-data-studio.pid
-.dalti-data-studio.port
-.dalti-data-studio.log
-.dalti-data-studio.launcher.lock
-macos/Dalti Data Studio 가상본
-tests/.uicheck/

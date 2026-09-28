@@ -1,8 +1,8 @@
 # AgilityKorea 정적 데이터 저장소
 
-앱에 배포하는 JSON과 정적 파일, 로컬 검수 도구 Data Studio를 관리한다. [agility-scraper](https://github.com/daltiapp/agility-scraper)의 NAS 공지 자동화와 확정 일정 알림은 기존 운영 기능으로 유지한다. 신규 대회 수집·사전 검수 기능만 보류 상태다.
+앱에 배포하는 JSON과 정적 파일을 관리한다. Data Studio 소스는 별도 저장소로 분리했다. [agility-scraper](https://github.com/daltiapp/agility-scraper)의 NAS 공지 자동화와 확정 일정 알림은 기존 운영 기능으로 유지한다. 신규 대회 수집·사전 검수 기능만 보류 상태다.
 
-일정·장소 JSON 수동 관리, 이미지 URL 반영, 이 저장소의 commit/push는 스크래퍼 최신화와 독립적이다. NAS 운영 코드는 `/Users/sam/Documents/DaltiWeb/agility-scraper`, 검수 도구는 `/Users/sam/Documents/DaltiWeb/data-studio`에서 관리한다. 두 경로는 기존 작업본을 가리킨다. Data Studio의 대회 수집은 중지했으며 기존 큐 검수·수동 데이터 편집만 유지한다. 새 수집·사전 검수 기능은 사용자의 별도 재개 요청으로 다룬다.
+일정·장소 JSON 수동 관리, 이미지 URL 반영, 이 저장소의 commit/push는 스크래퍼 최신화와 독립적이다. NAS 운영 코드는 `/Users/sam/Documents/DaltiWeb/agility-scraper`, 검수 도구는 `/Users/sam/Documents/DaltiWeb/data-studio`에서 관리한다. 스크래퍼 연결은 기존 SSD 저장소를 가리키며, Data Studio는 달티웹에 실제 독립 저장소로 있다. Data Studio의 대회 수집은 중지했으며 기존 큐 검수·수동 데이터 편집만 유지한다. 새 수집·사전 검수 기능은 사용자의 별도 재개 요청으로 다룬다.
 
 ## 구조와 소유권
 
@@ -13,7 +13,7 @@
 | manifest의 `files.notice` 디렉터리 | 생성된 공지 목록·상세 | 스크래퍼 재생성만 허용, 수동 편집 금지 |
 | manifest의 `files.match`, `files.venue` 등 | 승인된 서비스 데이터 | 기존 필드·이미지·날짜 계약과 pretty JSON 유지 |
 | `review/schedule/` | 수집 후보·검수 상태 | 사람이 승인/거절한 내용과 원문 근거 보존 |
-| `data-studio/` | 로컬 수집·검수·승인 도구 | [도구 설명](data-studio/README.md) 참고 |
+| 외부 `DaltiWeb/data-studio` 저장소 | 로컬 검수·승인 도구 | 데이터 저장소 경로를 설정해 사용; 소스는 이 저장소에 포함하지 않음 |
 | `docs/tickets/` | 구조 변경 제안과 구현 티켓 | 제안과 배포 완료 상태를 구분 |
 
 현재 경로는 문서에 적힌 번호가 아니라 manifest의 `basePath`로 결정한다. 구버전 폴더, 푸시 이력, 검수 큐를 불필요한 파일로 간주해 지우지 않는다. 새 스키마/경로 전환은 사용자의 명시적 지시에 따른다.
@@ -24,7 +24,7 @@
 
 ```sh
 python3 ../agility-scraper/scripts/active_data_harness.py --data-repo-dir . --scope all
-npm --prefix data-studio test
+npm --prefix /Users/sam/Documents/DaltiWeb/data-studio test
 git diff --check
 ```
 
