@@ -39,6 +39,8 @@
 
 ## 현재 진행 (2026-09-30)
 
+> 이어서 작업할 때는 [RESUME.md](RESUME.md)부터 본다(상태·다음 명령·주의사항).
+
 - 트랙: 포스터 판독·신규 장소 조회는 NAS Codex(ChatGPT 로그인, API 키 없음). 지도 API(카카오·Google) 미사용. 상세는 설계 문서 “트랙 변경”.
 - 코드: scraper `feat/schedule-auto` — `c69be2c`(SA-10~17), `c3e5a64`(Codex·카카오 제거). 테스트 243개 통과. main 미병합.
 - 남은 준비: SA-00 결정 4건, SA-01 테스트 자원, SA-03 NAS 설치·로그인(SSH에서 직접 실행).
