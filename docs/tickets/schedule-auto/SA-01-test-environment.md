@@ -19,7 +19,7 @@
    - 섀도 운영(SA-22): 시작 시점 운영 스냅샷으로 고정하고 기간 중 갱신하지 않는다.
 3. **테스트 Drive 폴더**: `dalti.app@gmail.com` Drive에 테스트 전용 폴더. 검증이 끝나면 비울 수 있다.
 4. **테스트 텔레그램**: 테스트 봇·채팅. 이 봇을 `getUpdates`·webhook으로 쓰는 다른 프로그램이 없는지 확인한다.
-5. **키**: 카카오 REST API 키(운영과 같은 앱이어도 됨, 사용량 하루 수 건), LLM API 키(테스트 전용, 사용 한도 설정).
+5. **Codex**: 테스트 프로필 전용 `CODEX_HOME`에 NAS에서 따로 로그인(SA-03). 지도 API 키·LLM API 키는 필요 없다.
 6. **NAS 비밀파일**: `/volume1/work/secrets/agility.schedule-auto-test.env`(권한 600). 기존 `agility.test.env`는 건드리지 않는다.
 7. **운영 오염 방지 가드**(SA-17에서 구현, 여기서는 규칙 확정): 테스트 프로필은 아래 중 하나라도 해당하면 즉시 종료한다.
    - `AGILITY_DATA_REPO_DIR`의 `origin`이 운영 저장소(`daltiapp/daltiapp.github.io`)

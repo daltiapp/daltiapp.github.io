@@ -1,19 +1,31 @@
 # AK-SCHEDULE-002 · agility.co.kr 대회일정 자동 수집·장소·이미지 반영 설계
 
-- 상태: 제안 / 구현 전 검토
-- 작성·자료 확인일: 2026-09-29
+- 상태: 격리 개발 진행 중 (scraper `feat/schedule-auto`, 테스트 프로필 전용)
+- 작성·자료 확인일: 2026-09-29, 트랙 변경 2026-09-30
 - 대상: `agility-scraper`(주 구현, NAS 배치), 이 데이터 저장소(계약 문서·데이터), `data-studio`(선택: 큐 표시 호환)
-- 이번 산출물: 티켓 문서만 작성. 코드·NAS 예약·Drive·JSON·manifest 변경 및 배포 없음.
+- 운영 데이터·NAS 운영 예약·manifest는 운영 적용(SA-31) 전까지 바꾸지 않는다.
+
+### 트랙 변경 (2026-09-30)
+
+| 항목 | 처음 설계 | 현재 트랙 |
+| --- | --- | --- |
+| 포스터 판독 | 외부 LLM API 키(제공자 선택) | **NAS Codex CLI**, ChatGPT 로그인, API 키 없음 |
+| 신규 장소 주소·좌표 | 카카오 로컬 API | **Codex 웹검색 제안 + 사람 승인**. 지도 API(카카오·Google) 미사용 |
+| 승인 메시지 지도 링크 | 카카오맵 | Google Maps URL(키 불필요한 링크) |
+| 큐·배치·캐시 위치 | 데이터 저장소 `review/schedule/` | 저장소 밖 상태 디렉터리 |
+| Drive 파일명 | `kau-<idx>-<순번>-<sha16>` | `kau-<idx>-<원본 sha16>`(순서가 바뀌어도 중복 없음) |
+
+Google 좌표 변환(Maps JavaScript Geocoder 포함)을 쓰지 않는 이유: 결제 등록된 API 키가 필요하고, Google Maps Platform 약관(Geocoding API 6.3)은 위도·경도 저장을 최대 30일로 제한한다. 모든 앱 사용자가 쓰는 `venue.json`에 좌표를 계속 저장하는 용도와 맞지 않는다.
 
 ## 1. 결론
 
 NAS 일 1회 배치 `schedule_auto_real` 하나가 수동으로 하던 작업 전체를 대신한다.
 
 ```text
-agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미지 판독(비전 LLM)
-→ 장소 매칭 / 없으면 카카오 로컬 API로 주소·좌표 찾아 venue 생성
+agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미지 판독(NAS Codex)
+→ 장소 매칭 / 없으면 Codex 웹검색으로 주소·좌표 제안(근거 URL 필수, 승인 필요)
 → 이미지 Google Drive 업로드 → detailImages 공개 URL
-→ match.json + venue.json + manifest 변경안 → 하네스 검증 → 반영 → 텔레그램 보고
+→ match.json + venue.json + manifest 변경안 → 하네스 검증 → 텔레그램 승인 → 반영
 ```
 
 - 목표 산출물은 최근 수동 커밋 `da2d7b8`과 같은 형태다: `match.json` 대회 추가 + `venue.json` 신규 장소 + manifest `dataVersion` 갱신을 한 커밋으로.
@@ -75,9 +87,9 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
   1 sync      scraper·데이터 저장소 동기화, 배치 잠금
   2 detect    /17 목록 N페이지 → 대회글 판별 → source_state 지문 비교 → new/changed 게시물
   3 fetch     상세 HTML·이미지(최대 12장)·신청 페이지 텍스트 → 로컬 캐시(SHA-256)
-  4 extract   비전 LLM 구조화 출력 → competitions[] + 필드별 근거 + 장소 원문(이름/주소)
+  4 extract   NAS Codex 구조화 출력(웹검색 끔) → competitions[] + 필드별 근거 + 장소 원문(이름/주소)
   5 normalize 정규화표(주최·eventType·matchTypes·장소 별칭) + 결정적 교차검증
-  6 venue     venue.json 매칭 → 없으면 카카오 로컬 API → 신규 venue 초안
+  6 venue     venue.json 매칭(이름·별칭·도로명 주소) → 없으면 Codex 웹검색 → 신규 venue 제안
   7 images    Drive 멱등 업로드 → 비로그인 공개 접근 검증 → detailImages
   8 stage     배치(batch) 생성: match/venue/manifest 변경안 + 큐·상태 파일
   9 gate      임시 사본에 적용 → 하네스 --scope all → 게이트 판정
@@ -127,8 +139,11 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
 
 - 입력: 제목, 게시일, 신청 페이지 텍스트(접근 가능 시), 순서가 있는 이미지, 활성 JSON에서 만든 정규화표, `AGILITYKOREA_DATA_VERSIONING.md`의 `matchTypes` 규칙.
 - 출력(엄격 JSON schema): `competitions[]`(13개 필드), `evidence[]`(field, competitionIndex, imageIndex, rawText, certainty=`exact|uncertain|missing`), `venue`(nameRaw, addressRaw, imageIndex), `warnings[]`.
-- 제공자는 인터페이스로 분리하고 스파이크에서 하나를 고른다(OpenAI / Gemini / Claude API 중 구조화 출력 지원 모델). NAS에 API 키가 필요하다. Codex CLI(ChatGPT 로그인)는 무인 NAS 실행에 부적합하다. 비용은 신규·변경 게시물에서만 호출하므로 게시물 수에 비례한다. 단가는 각 제공자 가격 페이지로 확인한다.
-- LLM 결과는 코드로 교차검증한다(LLM이 최종 판정하지 않음).
+- 판독기는 **NAS Codex CLI**(`codex exec`, ChatGPT 로그인)다. API 키가 필요 없다. 인터페이스로 분리해 두어 필요하면 OpenAI 호환 API로 바꿀 수 있다.
+  - 호출마다 `--ephemeral --ignore-user-config --sandbox read-only`, `features.shell_tool=false`, `features.apps=false`, `web_search="disabled"`, `--output-schema`(엄격 JSON). 명령 실행·외부 연동·웹 접근이 없어 포스터 속 문구로 인한 지시 주입 영향이 JSON 출력으로 한정된다.
+  - 최소 환경변수로 실행한다(텔레그램·Drive 비밀값 미전달). 로그인 정보는 프로필 전용 `CODEX_HOME`에만 있다.
+  - 사용량은 ChatGPT 요금제 한도에 포함된다. 신규·변경 게시물에서만 호출한다.
+- 판독 결과는 코드로 교차검증한다(Codex가 최종 판정하지 않음).
   - 제목에 날짜가 있으면 `startAt` 날짜와 일치해야 한다.
   - `applicationStartAt ≤ applicationEndAt ≤ startAt ≤ endAt`, ISO 초 단위 형식.
   - 시간이 원문에 없으면 `00:00:00` + `detailNotice`에 사유 기록(익산 대회 수동 입력 방식과 동일).
@@ -137,17 +152,16 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
 
 ### 5.4 장소 해석
 
-1. 판독한 장소명을 정규화(공백·괄호 제거)해 `venue.json`의 `name`과 비교 → 없으면 별칭표 `review/venue/venue_aliases.json`(예: 골프장 정식 명칭 → `소노골프장`) 조회. 찾으면 기존 이름을 `location`에 쓴다.
-2. 없으면 카카오 로컬 API:
-   - 포스터에 주소가 있으면 `GET /v2/local/search/address.json` → 도로명 주소·좌표.
-   - 장소명으로 `GET /v2/local/search/keyword.json`(주소의 시·군으로 후보를 좁힘) → `place_name`, `road_address_name`, `x`, `y`.
-   - 두 결과가 모두 있으면 거리 2km 이내일 때만 확정한다. 후보가 여러 개이거나 불일치하면 `required` 경고.
-3. 신규 venue: `{name, location: {name, address(도로명 우선, 없으면 지번), latitude: y, longitude: x}, photos: []}`. 좌표는 한국 범위(위도 33~39, 경도 124~132) 검사.
-4. 신규 장소는 모드와 관계없이 승인 필요. 텔레그램에 주소와 `https://map.kakao.com/link/map/<이름>,<위도>,<경도>` 링크를 보여준다.
+1. 판독한 장소명을 정규화(공백·괄호 제거)해 `venue.json`의 `name`과 비교 → 별칭표 `review/venue/venue_aliases.json`(예: 골프장 정식 명칭 → `소노골프장`) → 포스터 도로명 주소가 기존 장소 주소와 같으면 그 장소. 찾으면 기존 이름을 `location`에 쓰고 외부 호출은 하지 않는다.
+2. 없으면 **Codex 웹검색**(`web_search="live"`)으로 정식 명칭·도로명 주소·좌표를 찾는다.
+   - 좌표는 공식 홈페이지·공공기관 페이지·위키백과처럼 글로 적힌 공개 페이지에서만 가져오고, 좌표 근거 URL과 주소 근거 URL이 필수다. 지도 앱 화면을 추정하지 않는다.
+   - `certainty=exact`가 아니거나, 근거 URL이 없거나, 포스터 주소(도로명+번호, 시·군·구)와 다르거나, 좌표가 국내 범위(위도 33~39, 경도 124~132) 밖이면 `required`로 막는다.
+3. 신규 venue: `{name, location: {name, address(도로명 우선, 없으면 지번), latitude, longitude}, photos: []}`.
+4. 좌표를 코드로 다시 확인할 수단이 없으므로 신규 장소는 모드와 관계없이 승인 필요. 텔레그램에 주소, 근거 URL, Google Maps URL(`https://www.google.com/maps/search/?api=1&query=<위도>,<경도>`)을 붙인다. 틀리면 보류하고 `venue.json`에 직접 넣는다.
 5. `미정`은 venue를 만들지 않는다(기존 관행).
 
-- 쿼터: 카카오 “키워드로 장소 검색”, “주소로 좌표 변환” 무료 일 100,000건(2026-09-29 문서 확인, 개발자 계정의 첫 번째 카카오맵 활성 앱에만 무료 제공). 예상 사용량은 하루 수 건이다.
-- 키: `KAKAO_REST_API_KEY`(NAS 비밀파일).
+- 지도 API(카카오 로컬, Google Geocoding)는 쓰지 않는다. 이유는 문서 앞 “트랙 변경” 참고.
+- `AGILITY_VENUE_LOOKUP=none`이면 신규 장소 게시물은 “venue.json에 직접 추가” 경고로 막히고, 추가 후 다음 실행에서 기존 장소로 연결된다.
 
 ### 5.5 Drive 업로드 (무인)
 
@@ -155,7 +169,7 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
 - OAuth 클라이언트는 데스크톱 앱 유형, 범위는 최소 권한 `drive.file`. Mac에서 1회 동의 후 refresh token을 NAS 비밀파일(권한 600)에 저장한다. 토큰·access token은 로그·Git에 남기지 않는다.
 - OAuth 동의 화면이 “테스트” 상태면 refresh token이 7일 후 만료된다 → “프로덕션”으로 게시해야 한다.
 - `drive.file`은 앱이 만든 파일·폴더만 접근하므로 기존 수동 폴더(`DALTI_KAU_DRIVE_FOLDER_ID`)에 쓰지 못할 수 있다. 스파이크에서 확인하고, 안 되면 앱이 만든 전용 폴더(예: `app/agilitykorea/match/<연도>`)를 쓴다.
-- 파일명 `kau-<idx>-<순번>-<sha256 앞 16자>.webp`. 같은 이름이 있으면 재사용(멱등). WebP 변환은 NAS에서 Pillow 사용(기존 규칙: 긴 변 2400px, q88, 실패 시 원본 형식).
+- 파일명 `kau-<idx>-<원본 이미지 sha256 앞 16자>.<확장자>`. 같은 이름이 있으면 재사용(멱등). 원본 SHA 기준이라 이미지 순서가 바뀌거나 재인코딩돼도 중복 업로드하지 않는다. WebP 변환은 Pillow가 있을 때만(긴 변 2400px, q88), 없으면 원본 형식.
 - 파일별 `anyone/reader` 권한 → 비로그인 요청으로 이미지 응답 확인 → `https://drive.google.com/uc?export=view&id=<fileId>`.
 - 실행 초기에 토큰 헬스체크. 업로드·검증 실패 시 해당 게시물은 반영하지 않고 경고와 함께 남긴다.
 
@@ -174,7 +188,8 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
 
 ### 5.7 반영 (커밋)
 
-- 데이터 저장소에 한 커밋: `match.json`(+`venue.json`) + manifest(`dataVersion` 같은 날 순번, `forceRefreshKey`, `updatedAt`) + 큐·상태 파일. 메시지 예: `data(schedule): add <대회명> (kau-<idx>)`.
+- 데이터 저장소에 한 커밋: `match.json`(+`venue.json`) + manifest(`dataVersion` 같은 날 순번, `forceRefreshKey`, `updatedAt`)만. 메시지 예: `data(schedule): <대회명> 반영 (kau-<idx>)`.
+- 큐·배치·원본 지문·이미지 캐시·텔레그램 offset은 데이터 저장소 밖 상태 디렉터리(`AGILITY_SCHEDULE_AUTO_STATE_DIR`)에 둔다. 실패한 실행이 저장소에 파일을 남겨 다른 배치 커밋에 섞이는 일(2026-09-28 `b42a6e9` 사례)을 막는다.
 - pretty JSON(`ensure_ascii=False`, `indent=2`, 마지막 개행). 삽입 위치는 구현 시 기존 파일의 정렬 방식을 확인해 맞춘다.
 - push 전 `pull --rebase`. manifest 충돌(공지 배치와 겹침)이면 manifest만 다시 올리고 1회 재시도, 그래도 실패하면 중단하고 텔레그램 경보.
 - 데이터 저장소 쓰기 잠금을 공지 배치와 공유해 동시 커밋을 막는다.
@@ -194,7 +209,8 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
 ### 5.9 결정 사항
 
 - 2026-09-29 사용자 동의: 격리 개발 → 테스트 검증 → 운영 적용 순서, 운영 초기 반영 모드 `approve`.
-- 남은 결정(제공자, 이미지 상한, Drive 폴더, 실행 시각, 테스트 저장소 위치)은 [SA-00](schedule-auto/SA-00-decisions.md)에서 확정한다.
+- 2026-09-30 사용자 결정: 포스터 판독·신규 장소 조회는 NAS Codex, 카카오 사용 안 함. Google 좌표 변환도 약관상 저장 제한으로 쓰지 않는다.
+- 남은 결정(이미지 상한, Drive 폴더, 실행 시각, 테스트 저장소 위치)은 [SA-00](schedule-auto/SA-00-decisions.md)에서 확정한다.
 
 ## 6. 구현 티켓
 
@@ -202,7 +218,7 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
 
 | 단계 | 티켓 | 요지 |
 | --- | --- | --- |
-| 0 준비 | SA-00~02 | 결정 확정, 테스트 데이터 저장소·Drive·텔레그램 분리, 기능 브랜치·NAS 테스트 체크아웃 분리 |
+| 0 준비 | SA-00~03 | 결정 확정, 테스트 데이터 저장소·Drive·텔레그램 분리, 기능 브랜치·NAS 테스트 체크아웃 분리, NAS Codex 설치·로그인 |
 | 1 개발 | SA-10~17 | 큐 v2, 감지기·fixture, 판독기, 장소 해석기, Drive 업로더, 스테이징·게이트·반영, 승인 봇, NAS 테스트 배선 |
 | 2 검증 | SA-20~22 | 과거 게시물 재현 정확도(G2), E2E 16개 시나리오(G3), 섀도 운영 최소 2주(G4, 사용자 승인) |
 | 3 적용 | SA-30~32 | 운영 데이터 선행 정리, 승인 모드 운영 적용·롤백, 안정화·`auto` 전환 판단 |
@@ -213,8 +229,12 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
 | --- | --- |
 | `AGILITY_SCHEDULE_PUBLISH_MODE` | `approve` / `auto` / `queue` |
 | `AGILITY_SCHEDULE_AUTO_MAX_ITEMS` | 자동 반영 상한(기본 2) |
-| `AGILITY_VISION_PROVIDER`, 제공자 API 키 | 포스터 판독 |
-| `KAKAO_REST_API_KEY` | 장소 주소·좌표 |
+| `AGILITY_VISION_PROVIDER` | `codex-cli`(기본) / `openai-compatible`(대안) |
+| `AGILITY_VENUE_LOOKUP` | `codex`(기본) / `none` |
+| `AGILITY_CODEX_BIN`, `AGILITY_CODEX_HOME` | Codex 실행 파일, 프로필 전용 로그인 폴더(700, `auth.json` 600) |
+| `AGILITY_CODEX_MODEL`, `AGILITY_CODEX_REASONING_EFFORT`, `AGILITY_CODEX_TIMEOUT` | 선택. 비우면 Codex 기본값 |
+| `AGILITY_SCHEDULE_AUTO_STATE_DIR` | 큐·배치·캐시 상태 디렉터리(데이터 저장소 밖) |
+| `AGILITY_PROD_TELEGRAM_CHAT_IDS`, `AGILITY_PROD_DRIVE_FOLDER_IDS` | 테스트 프로필 격리 가드용 운영 값 목록 |
 | `AGILITY_GDRIVE_OAUTH_FILE`, `AGILITY_KAU_DRIVE_FOLDER_ID` | Drive 업로드(refresh token 파일 권한 600) |
 | `TELEGRAM_APPROVER_IDS` | 승인 허용 사용자 |
 
@@ -228,11 +248,14 @@ agility.co.kr/17 확인 → 신규·변경 대회글 감지 → 포스터 이미
 | Drive 토큰 만료·권한 오류 | 실행 초기 헬스체크, 실패 시 반영 중단·경보 |
 | 공지 배치와 manifest 충돌 | 공용 쓰기 잠금 + rebase·재bump 1회 |
 | 승인 버튼 오남용 | chat/user 허용 목록, 배치 SHA 검증, 48시간 만료 |
-| 판독 비용 증가 | 신규·변경 게시물만 호출, 지문 같으면 재판독 없음 |
+| 판독 사용량 증가 | 신규·변경 게시물만 호출, 지문 같으면 재판독 없음, 1회 최대 5게시물 |
+| Codex 로그인 만료·토큰 충돌 | 실행 시작 시 `codex login status`, 실패하면 판독 건너뛰고 경보·다음 실행 재시도. 프로필별 전용 `CODEX_HOME`, Mac `auth.json` 복사 금지, 같은 `CODEX_HOME` 동시 실행 금지(배치 잠금) |
+| Codex 신규 장소 좌표 오류 | 근거 URL·포스터 주소 대조 필수, 신규 장소는 항상 승인, Google Maps 링크로 사람이 확인 |
+| 포스터 속 지시 주입 | 판독 시 웹검색·명령 실행·외부 연동 끔, 엄격 schema, 코드 교차검증 |
 
 ## 9. 검증 계획
 
-- 단위·회귀: scraper `tests/`에 fixture(HTML·이미지 스냅샷)와 mock(카카오·Drive·텔레그램·LLM)으로 작성. 실제 수집·Drive·FCM·텔레그램은 호출하지 않는다(ARCHITECTURE.md의 `tests/` 경계).
+- 단위·회귀: scraper `tests/`에 fixture(HTML·이미지 스냅샷)와 가짜 서비스(Drive·텔레그램·가짜 `codex` 실행 파일)로 작성. 실제 수집·Drive·FCM·텔레그램·Codex는 호출하지 않는다(ARCHITECTURE.md의 `tests/` 경계).
 - 정확도: [SA-20](schedule-auto/SA-20-offline-accuracy.md) 과거 게시물 재현.
 - 통합: [SA-21](schedule-auto/SA-21-e2e-scenarios.md) 테스트 환경 E2E 시나리오.
 - 운영 전: [SA-22](schedule-auto/SA-22-shadow-run.md) 섀도 운영.

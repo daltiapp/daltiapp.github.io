@@ -16,7 +16,7 @@ NAS에서 사람 로그인 없이 포스터 이미지를 `dalti.app@gmail.com` D
 1. **OAuth 설정(1회, 수동)**: Google Cloud에서 데스크톱 앱 OAuth 클라이언트 생성, 범위 `drive.file`. 동의 화면을 “프로덕션”으로 게시한다(“테스트” 상태의 refresh token은 7일 후 만료). Mac에서 1회 동의 후 refresh token을 NAS 비밀파일(권한 600)에 저장. 절차를 런북에 기록.
 2. **스파이크**: `drive.file`로 기존 수동 폴더에 파일을 만들 수 있는지 확인. 불가하면 앱이 만든 폴더를 쓴다. 결과를 SA-00 3번에 기록.
 3. **Python 포팅**(`google-drive-upload.mjs` 규칙 유지):
-   - 파일명 `kau-<idx>-<순번>-<sha256 앞 16자>.webp`, 같은 이름이 폴더에 있으면 재사용(멱등)
+   - 파일명 `kau-<idx>-<원본 sha256 앞 16자>.<확장자>`, 같은 이름이 폴더에 있으면 재사용(멱등). 원본 SHA 기준이라 순서 변경·재인코딩에도 중복이 생기지 않는다.
    - Pillow로 긴 변 2400px·WebP q88, 실패 시 원본 형식
    - 파일별 `anyone/reader` 권한 확인·생성
    - 비로그인 GET으로 이미지 응답 확인

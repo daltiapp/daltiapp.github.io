@@ -14,7 +14,7 @@
 
 - `schemaVersion: 2`, item의 `draft` → `drafts[]`(각각 정확히 13개 core 필드).
 - `fieldEvidence`에 `competitionIndex` 추가.
-- item 최상위: `detailImages`(게시물 공유), `venueResolution`(matched/new, 원문 이름·주소, 카카오 후보·거리), `possibleDuplicate`, `batchId`.
+- item 최상위: `detailImages`(게시물 공유), `venueResolution`(matched/new/undecided/unresolved, 방법, 제안 venue, 근거 URL, 지도 링크), `possibleDuplicate`, `batchId`.
 - 기존 대회 대응 키: 정규화 URL idx + `startAt` 날짜. 검증기 식별자 `(name, startAt, url)`와 충돌하지 않아야 한다.
 - v1 파일 읽기 호환: 단일 `draft` → 길이 1 `drafts`.
 - `shared/review_queue.py` 병합: 사람이 처리한 `status`·`review`·수정한 draft 보존, 원본 지문이 바뀐 경우에만 `pending_review`로 되돌림(기존 규칙 유지).

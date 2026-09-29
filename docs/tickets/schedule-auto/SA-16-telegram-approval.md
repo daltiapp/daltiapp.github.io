@@ -8,7 +8,7 @@
 
 ## 범위
 
-1. **요청 메시지**: 대회별 이름·날짜·장소·심사위원·접수기간·종목, 이미지 수, 근거 `exact` 비율, 원문 링크. 신규 venue는 주소와 카카오맵 링크. 변경 건은 필드별 이전 → 새 값. 첫 포스터 이미지 1장 첨부.
+1. **요청 메시지**: 대회별 이름·날짜·장소·심사위원·접수기간·종목, 이미지 수, 근거 `exact` 비율, 원문 링크. 신규 venue는 주소, 근거 URL, Google Maps 링크. 변경 건은 필드별 이전 → 새 값. 첫 포스터 이미지 1장 첨부.
 2. **버튼**: inline keyboard, `callback_data = sa:<batchId>:approve|hold` (64바이트 이내).
 3. **폴러** `schedule_approve_*`: `getUpdates`로 callback을 읽어 처리 후 `answerCallbackQuery`, 원본 메시지를 결과로 수정. offset을 상태 파일에 저장해 중복 처리 방지.
 4. **검증**: `chat.id`·`from.id`가 허용 목록(`TELEGRAM_APPROVER_IDS`)에 있을 때만 처리. 배치 만료·이미 처리됨·대상 파일 SHA 불일치·원본 지문 변경이면 적용하지 않고 이유를 답한다.

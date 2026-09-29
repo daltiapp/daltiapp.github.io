@@ -9,7 +9,7 @@
 1. 운영 데이터 저장소(`daltiapp.github.io`)의 `match.json`·`venue.json`·manifest를 새 파이프라인이 쓰지 않는다. 테스트 쓰기는 테스트 데이터 저장소에만 한다.
 2. 새 코드는 scraper `feat/schedule-auto` 브랜치의 `schedule/auto/`와 `_test` 래퍼에만 둔다. 기존 배치 파일·래퍼·NAS 예약은 수정하지 않는다.
 3. 운영 NAS 체크아웃은 매 실행 전에 `origin/main`으로 자동 동기화된다(`scripts/update_scraper_before_run.sh`). 그래서 **운영 적용 전에는 main에 병합하지 않는다.** NAS 테스트는 별도 체크아웃에서 실행한다.
-4. 테스트 Drive 폴더, 테스트 텔레그램 봇·채팅, 한도를 건 LLM API 키를 쓴다.
+4. 테스트 Drive 폴더, 테스트 텔레그램 봇·채팅, 테스트 프로필 전용 Codex 로그인(`CODEX_HOME`)을 쓴다.
 5. 새 파이프라인은 어떤 모드에서도 FCM을 호출하지 않는다.
 6. 운영 수동 입력(Data Studio·직접 편집)은 Phase 3 적용 전까지 그대로 계속한다.
 
@@ -20,10 +20,11 @@
 | 0 준비 | [SA-00](SA-00-decisions.md) | 결정 사항 확정 | — |
 | | [SA-01](SA-01-test-environment.md) | 테스트 환경 구축(데이터 저장소·Drive·텔레그램·키) | SA-00 |
 | | [SA-02](SA-02-code-isolation.md) | 개발 브랜치·NAS 테스트 체크아웃 분리 | SA-00 |
+| | [SA-03](SA-03-nas-codex.md) | NAS Codex 설치·로그인(API 키 없음) | SA-02 |
 | 1 개발 | [SA-10](SA-10-queue-contract-v2.md) | 큐 계약 v2(1게시물→N대회) | SA-02 |
 | | [SA-11](SA-11-detector-and-fixtures.md) | 감지기 확장 + 검증용 fixture 수집 | SA-10 |
 | | [SA-12](SA-12-vision-extractor.md) | 포스터 판독기 + 교차검증 | SA-10, SA-11 |
-| | [SA-13](SA-13-venue-resolver.md) | 장소 해석기(별칭·카카오) | SA-10 |
+| | [SA-13](SA-13-venue-resolver.md) | 장소 해석기(기존 장소·별칭·Codex 제안) | SA-10, SA-03 |
 | | [SA-14](SA-14-drive-uploader.md) | 무인 Drive 업로더 | SA-01, SA-02 |
 | | [SA-15](SA-15-stage-gate-apply.md) | 스테이징·게이트·반영 | SA-12~14 |
 | | [SA-16](SA-16-telegram-approval.md) | 텔레그램 승인 봇 | SA-15 |
@@ -35,6 +36,12 @@
 | | [SA-31](SA-31-prod-cutover.md) | 운영 적용(승인 모드)·롤백 계획 | SA-30 |
 | | [SA-32](SA-32-stabilize.md) | 안정화·자동 반영 전환 판단 | SA-31 |
 | 선택 | [SA-40](SA-40-data-studio-v2.md) | Data Studio 큐 v2 표시 | SA-10 |
+
+## 현재 진행 (2026-09-30)
+
+- 트랙: 포스터 판독·신규 장소 조회는 NAS Codex(ChatGPT 로그인, API 키 없음). 지도 API(카카오·Google) 미사용. 상세는 설계 문서 “트랙 변경”.
+- 코드: scraper `feat/schedule-auto` — `c69be2c`(SA-10~17), `c3e5a64`(Codex·카카오 제거). 테스트 243개 통과. main 미병합.
+- 남은 준비: SA-00 결정 4건, SA-01 테스트 자원, SA-03 NAS 설치·로그인(SSH에서 직접 실행).
 
 ## 단계 전환 게이트 (Go / No-Go)
 
