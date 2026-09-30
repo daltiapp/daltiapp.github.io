@@ -1,8 +1,8 @@
 # AgilityKorea 정적 데이터 저장소
 
-앱에 배포하는 JSON과 정적 파일을 관리한다. Data Studio 소스는 별도 저장소로 분리했다. [agility-scraper](https://github.com/daltiapp/agility-scraper)의 NAS 공지 자동화와 확정 일정 알림은 기존 운영 기능으로 유지한다. 신규 대회 수집·사전 검수 기능만 보류 상태다.
+앱에 배포하는 JSON과 정적 파일을 관리한다. Data Studio 소스는 별도 저장소로 분리했다. [agility-scraper](https://github.com/daltiapp/agility-scraper)의 NAS 공지 자동화와 확정 일정 알림은 기존 운영 기능으로 유지한다. 신규 대회 일정은 2026-09-30 사용자 요청으로 NAS에서 수집·검증 후 승인 없이 JSON을 커밋·푸시하는 흐름으로 전환한다. [현행 설계](docs/tickets/2026-09-29-schedule-auto-collection.md)를 따른다.
 
-일정·장소 JSON 수동 관리, 이미지 URL 반영, 이 저장소의 commit/push는 스크래퍼 최신화와 독립적이다. NAS 운영 코드는 `/Users/sam/Documents/DaltiWeb/agility-scraper`, 검수 도구는 `/Users/sam/Documents/DaltiWeb/data-studio`에서 관리한다. 스크래퍼 연결은 기존 SSD 저장소를 가리키며, Data Studio는 달티웹에 실제 독립 저장소로 있다. Data Studio의 대회 수집은 중지했으며 기존 큐 검수·수동 데이터 편집만 유지한다. 새 수집·사전 검수 기능은 사용자의 별도 재개 요청으로 다룬다.
+일정·장소 JSON 수동 관리, 이미지 URL 반영, 이 저장소의 commit/push는 스크래퍼 최신화와 독립적이다. NAS 운영 코드는 `/Users/sam/Documents/DaltiWeb/agility-scraper`, 검수 도구는 `/Users/sam/Documents/DaltiWeb/data-studio`에서 관리한다. 스크래퍼 연결은 기존 SSD 저장소를 가리키며, Data Studio는 달티웹에 실제 독립 저장소로 있다. Data Studio의 대회 수집은 중지했으며 기존 큐 검수·수동 데이터 편집만 유지한다. 새 수집은 NAS의 `schedule_auto_real`만 담당하며, 별도 웹은 후속 조회·편집 기능이다.
 
 ## 구조와 소유권
 
