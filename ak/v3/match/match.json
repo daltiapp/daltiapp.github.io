@@ -1684,6 +1684,28 @@
       "url": "https://waldbow.com/agilityOpen.do"
     },
     {
+      "applicationEndAt": "2026-10-10T23:59:59",
+      "applicationStartAt": "2026-10-02T00:00:00",
+      "club": "동물과사람",
+      "detailNotice": "경기 시작 09:30. 종료 시간은 게시물에 공지되지 않았습니다. 세부 장소: 네이처풀 운동장.",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-10-17T23:59:59",
+      "eventType": "랭킹전",
+      "judge": [
+        "양현주"
+      ],
+      "location": "강아지숲",
+      "matchTypes": [
+        "스타터",
+        "점핑",
+        "어질리티",
+        "갬블러"
+      ],
+      "name": "2026 어질리티 시리즈 Vol.1",
+      "startAt": "2026-10-17T09:30:00",
+      "url": "https://www.instagram.com/p/Dd-wl3SE208/?img_index=1"
+    },
+    {
       "applicationEndAt": "2026-10-04T23:59:59",
       "applicationStartAt": "2026-09-21T00:00:00",
       "club": "한국애견연맹",
