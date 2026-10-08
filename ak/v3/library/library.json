@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261009.2",
-  "updatedAt": "2026-10-09T04:29:36+09:00",
+  "dataVersion": "20261009.3",
+  "updatedAt": "2026-10-09T05:56:04+09:00",
   "mapCategories": [
     {
       "id": "ranking",
@@ -36,6 +36,14 @@
       "endDate": "2026-10-04",
       "competitionGroup": "UNOFFICIAL_PROMOTION_EVENT",
       "organizer": "코리아어질리티클럽"
+    },
+    {
+      "id": "event-pdc-odogs2-20261003",
+      "name": "제2회 오디너리독스배 어질리티 대회",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-03",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "오디너리독스"
     },
     {
       "id": "event-leez-taean-20260905",
@@ -86,6 +94,22 @@
       "organizer": "리즈 독스포츠"
     },
     {
+      "id": "event-pdc-sony-20260620",
+      "name": "SONY & PDC 어질리티 이벤트",
+      "startDate": "2026-06-20",
+      "endDate": "2026-06-20",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "SONY & PDC"
+    },
+    {
+      "id": "event-pdc-odogs1-20260607",
+      "name": "제1회 오디너리독스배 어질리티 대회",
+      "startDate": "2026-06-07",
+      "endDate": "2026-06-07",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "오디너리독스"
+    },
+    {
       "id": "event-leez-league3-jpag-20260531",
       "name": "LEEZ 3차 어질리티 챔피언쉽 점핑·어질리티",
       "startDate": "2026-05-31",
@@ -100,6 +124,14 @@
       "endDate": "2026-04-18",
       "competitionGroup": "OFFICIAL_PROMOTION",
       "organizer": "하이스트 독스포츠 클럽"
+    },
+    {
+      "id": "event-pdc-championship3-20260329",
+      "name": "제3회 PDC 어질리티 챔피언쉽",
+      "startDate": "2026-03-29",
+      "endDate": "2026-03-29",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "팔레드차밍 PDC"
     },
     {
       "id": "event-heist-kkf72",
@@ -10149,6 +10181,3574 @@
         "postUrl": "https://pf.kakao.com/_BfHUb/114414537",
         "publishedAt": "2026-08-30T14:16:24+09:00",
         "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651408",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 1",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bxPvt2/dJMcahzmZ0s/hmtoUhwsrWwNtWC5vdwHXK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bxPvt2/dJMcahzmZ0s/hmtoUhwsrWwNtWC5vdwHXK/img_s.jpg",
+        "width": 1273,
+        "height": 522,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651408",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651412",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 2",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bX02Yt/dJMcahzmZ0x/c8KHsgIVJf4fROYGFkJFw1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bX02Yt/dJMcahzmZ0x/c8KHsgIVJf4fROYGFkJFw1/img_s.jpg",
+        "width": 1273,
+        "height": 470,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651412",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651411",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 3",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/PbKn3/dJMcag8cIhy/qsLePTlVtFyRFqmcbkfWKk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/PbKn3/dJMcag8cIhy/qsLePTlVtFyRFqmcbkfWKk/img_s.jpg",
+        "width": 1273,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651411",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651410",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 4",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cCU86R/dJMcaiLIzMQ/Zd7BbgsnLg9kX52131rDX0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cCU86R/dJMcaiLIzMQ/Zd7BbgsnLg9kX52131rDX0/img_s.jpg",
+        "width": 1273,
+        "height": 366,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651410",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651413",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 5",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/WjxW2/dJMcaiLIzMT/X9BHsxPltQ4NJuOVd0B7C0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/WjxW2/dJMcaiLIzMT/X9BHsxPltQ4NJuOVd0B7C0/img_s.jpg",
+        "width": 1273,
+        "height": 548,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651413",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651414",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 6",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/814AN/dJMcagHlVOU/3N0aKc1mPfkHAEQzENJu3K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/814AN/dJMcagHlVOU/3N0aKc1mPfkHAEQzENJu3K/img_s.jpg",
+        "width": 1273,
+        "height": 522,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651414",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651415",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 7",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cbNf8x/dJMcahzmZ0z/0nKSxmuvkki4rAoUw1qYBk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cbNf8x/dJMcahzmZ0z/0nKSxmuvkki4rAoUw1qYBk/img_s.jpg",
+        "width": 1273,
+        "height": 470,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651415",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651419",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 8",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/btNfnU/dJMcah0lg0m/qPJQVtdB0h9nNd8bONHaik/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/btNfnU/dJMcah0lg0m/qPJQVtdB0h9nNd8bONHaik/img_s.jpg",
+        "width": 1273,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651419",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651416",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 9",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dk5niF/dJMcag8cIhB/j4mc9NjMVoeg1kTLcw781K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dk5niF/dJMcag8cIhB/j4mc9NjMVoeg1kTLcw781K/img_s.jpg",
+        "width": 1273,
+        "height": 366,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651416",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651421",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 10",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/xpGnT/dJMcagHlVOX/faOohNm0fFpl1wxiEYtgyk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/xpGnT/dJMcagHlVOX/faOohNm0fFpl1wxiEYtgyk/img_s.jpg",
+        "width": 1273,
+        "height": 548,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651421",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651417",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 11",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cj9UCF/dJMcacx3axq/4p1SQnO0NYChXT4kgKBrgK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cj9UCF/dJMcacx3axq/4p1SQnO0NYChXT4kgKBrgK/img_s.jpg",
+        "width": 1273,
+        "height": 470,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651417",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651420",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 12",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/kpCEY/dJMcaiLIzMW/oNbNHjYi50Ic7EBagdgww0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kpCEY/dJMcaiLIzMW/oNbNHjYi50Ic7EBagdgww0/img_s.jpg",
+        "width": 1273,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651420",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651418",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 13",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bwzBjb/dJMcah0lg0n/hWaFIsOOUZAE5l6gGcUXmK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bwzBjb/dJMcah0lg0n/hWaFIsOOUZAE5l6gGcUXmK/img_s.jpg",
+        "width": 1273,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651418",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651422",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 14",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bXCWMe/dJMcagHlVOY/sMGK1LmOEulQhy4drkMw3k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bXCWMe/dJMcagHlVOY/sMGK1LmOEulQhy4drkMw3k/img_s.jpg",
+        "width": 1272,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651422",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 14
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651423",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 15",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/TML1q/dJMcacx3axs/IB2NSB6HmsfdKLrKsJGLK1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/TML1q/dJMcacx3axs/IB2NSB6HmsfdKLrKsJGLK1/img_s.jpg",
+        "width": 1273,
+        "height": 496,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651423",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 15
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651424",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 16",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bE3f5L/dJMcacx3axt/1ql42mInSJmX8qZHb73Pl0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bE3f5L/dJMcacx3axt/1ql42mInSJmX8qZHb73Pl0/img_s.jpg",
+        "width": 1273,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651424",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 16
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651425",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 17",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/kx3Ii/dJMcacx3axv/RHpeE5wSfIQxkxmsynoFJk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kx3Ii/dJMcacx3axv/RHpeE5wSfIQxkxmsynoFJk/img_s.jpg",
+        "width": 1273,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651425",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 17
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651428",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 18",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/xpCww/dJMcahe94O8/6cu3j3IKLgQkAzJOcOyjm0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/xpCww/dJMcahe94O8/6cu3j3IKLgQkAzJOcOyjm0/img_s.jpg",
+        "width": 1273,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651428",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 18
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651426",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 19",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bg9bWd/dJMcag8cIhF/SMz4lS0Mg74MOXaiQu0MBK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bg9bWd/dJMcag8cIhF/SMz4lS0Mg74MOXaiQu0MBK/img_s.jpg",
+        "width": 1272,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651426",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 19
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651427",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 20",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ZjePD/dJMcag8cIhG/ttBLBwYmpPprYgiL2rdox0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ZjePD/dJMcag8cIhG/ttBLBwYmpPprYgiL2rdox0/img_s.jpg",
+        "width": 1273,
+        "height": 470,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651427",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 20
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651429",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 21",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bqhd1c/dJMcahe94O9/kMQwsMYuOqFKbe9X8pSA7k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bqhd1c/dJMcahe94O9/kMQwsMYuOqFKbe9X8pSA7k/img_s.jpg",
+        "width": 1273,
+        "height": 418,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651429",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 21
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651430",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 22",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hSGZv/dJMcagHlVO1/TuD6cPuSrfvv0YipF6xZ8k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hSGZv/dJMcagHlVO1/TuD6cPuSrfvv0YipF6xZ8k/img_s.jpg",
+        "width": 1272,
+        "height": 314,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651430",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 22
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651431",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 23",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Hjkv3/dJMcagHlVO3/lbqsnOAdalDBdqtaI7fdh1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Hjkv3/dJMcagHlVO3/lbqsnOAdalDBdqtaI7fdh1/img_s.jpg",
+        "width": 1272,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651431",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 23
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651432",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 24",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Ra8Mo/dJMcagHlVO4/Rtjw5hHaF87AEU659Pl8l0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Ra8Mo/dJMcagHlVO4/Rtjw5hHaF87AEU659Pl8l0/img_s.jpg",
+        "width": 1272,
+        "height": 288,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651432",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 24
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651434",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 25",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cb9O5G/dJMcag8cIhJ/Wu8xIpsF0zAqaKE16KTUa0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cb9O5G/dJMcag8cIhJ/Wu8xIpsF0zAqaKE16KTUa0/img_s.jpg",
+        "width": 1273,
+        "height": 522,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651434",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 25
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651437",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 26",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/biOVn7/dJMcaiLIzMZ/KKkkfHBkdM3m0GHxBa8Ng1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/biOVn7/dJMcaiLIzMZ/KKkkfHBkdM3m0GHxBa8Ng1/img_s.jpg",
+        "width": 1273,
+        "height": 418,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651437",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 26
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651435",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 27",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bmJxpv/dJMcagHlVO6/1TTLVC55zOBISFToCDPmK0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bmJxpv/dJMcagHlVO6/1TTLVC55zOBISFToCDPmK0/img_s.jpg",
+        "width": 1272,
+        "height": 236,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651435",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 27
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651436",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 28",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/7hmmG/dJMcaiLIzM0/koZKry9WKpZl5dBwclotOK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/7hmmG/dJMcaiLIzM0/koZKry9WKpZl5dBwclotOK/img_s.jpg",
+        "width": 1272,
+        "height": 262,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651436",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 28
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651438",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 29",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bENRdX/dJMcagHlVO7/ks3pCxOgBk4DcHsWeVKiGk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bENRdX/dJMcagHlVO7/ks3pCxOgBk4DcHsWeVKiGk/img_s.jpg",
+        "width": 1272,
+        "height": 288,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651438",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 29
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651444",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 30",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dfmrSh/dJMcahzmZ0J/1RBn2uyyL46SUauHKZKbAK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dfmrSh/dJMcahzmZ0J/1RBn2uyyL46SUauHKZKbAK/img_s.jpg",
+        "width": 1273,
+        "height": 470,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651444",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 30
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651442",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 31",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bfzxOu/dJMcahe94Pb/gTeBhLjqrDQktw8wwnvvm1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bfzxOu/dJMcahe94Pb/gTeBhLjqrDQktw8wwnvvm1/img_s.jpg",
+        "width": 1273,
+        "height": 418,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651442",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 31
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651439",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 32",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bz5CMG/dJMcag8cIhN/trhfewkzzyDqYKPxbWy7lk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bz5CMG/dJMcag8cIhN/trhfewkzzyDqYKPxbWy7lk/img_s.jpg",
+        "width": 1272,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651439",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 32
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651441",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 33",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Z4Ij4/dJMcagHlVPa/sfHkG6KCitSl4nvYQwarr0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Z4Ij4/dJMcagHlVPa/sfHkG6KCitSl4nvYQwarr0/img_s.jpg",
+        "width": 1273,
+        "height": 392,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651441",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 33
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651440",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 34",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hMwGm/dJMcagHlVO9/k02AMqTbtznNaucPEpob61/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hMwGm/dJMcagHlVO9/k02AMqTbtznNaucPEpob61/img_s.jpg",
+        "width": 1272,
+        "height": 236,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651440",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 34
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194651445",
+      "kind": "entry_list",
+      "title": "제2회 오디너리독스배 어질리티 대회 출진표 35",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": "2026.10.03. 오디너리독스 최종 출진표 입니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/gWWJF/dJMcaiLIzM1/kgkFe22D0YX5zoIYPWJwyk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/gWWJF/dJMcaiLIzM1/kgkFe22D0YX5zoIYPWJwyk/img_s.jpg",
+        "width": 1272,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114777839",
+        "mediaId": "194651445",
+        "postTitle": "26.10.3 오독스 “최종” 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+        "publishedAt": "2026-10-02T15:37:33+09:00",
+        "imageOrder": 35
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194662486",
+      "kind": "course_map",
+      "title": "제2회 오디너리독스배 어질리티 대회 코스맵 1",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": "비기너 노비스 코스",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/buRDfI/dJMcagAq55Q/Wmsd8SeCbdDD7NmCmJefCk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/buRDfI/dJMcagAq55Q/Wmsd8SeCbdDD7NmCmJefCk/img_s.jpg",
+        "width": 1972,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784258",
+        "mediaId": "194662486",
+        "postTitle": "비기너 노비스 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784258",
+        "publishedAt": "2026-10-03T09:02:42+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194662487",
+      "kind": "course_map",
+      "title": "제2회 오디너리독스배 어질리티 대회 코스맵 2",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": "비기너 노비스 코스",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cneyeL/dJMcaaf0S2t/z4t0MzCM3ovQqnlCpfz3VK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cneyeL/dJMcaaf0S2t/z4t0MzCM3ovQqnlCpfz3VK/img_s.jpg",
+        "width": 1972,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784258",
+        "mediaId": "194662487",
+        "postTitle": "비기너 노비스 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784258",
+        "publishedAt": "2026-10-03T09:02:42+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194662489",
+      "kind": "course_map",
+      "title": "제2회 오디너리독스배 어질리티 대회 코스맵 3",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": "비기너 노비스 코스",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bzmpJP/dJMb99VA4dp/Xy5LmxO57u5ZUgXXIUUYck/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bzmpJP/dJMb99VA4dp/Xy5LmxO57u5ZUgXXIUUYck/img_s.jpg",
+        "width": 1972,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784258",
+        "mediaId": "194662489",
+        "postTitle": "비기너 노비스 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784258",
+        "publishedAt": "2026-10-03T09:02:42+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194662490",
+      "kind": "course_map",
+      "title": "제2회 오디너리독스배 어질리티 대회 코스맵 4",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": "비기너 노비스 코스",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/mOGOl/dJMcajjIIbp/T01S1yNzY70ni9NhLJKgR0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/mOGOl/dJMcajjIIbp/T01S1yNzY70ni9NhLJKgR0/img_s.jpg",
+        "width": 1972,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784258",
+        "mediaId": "194662490",
+        "postTitle": "비기너 노비스 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784258",
+        "publishedAt": "2026-10-03T09:02:42+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194678510",
+      "kind": "course_map",
+      "title": "제2회 오디너리독스배 어질리티 대회 코스맵 5",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/GB4RG/dJMcabsmYK0/iSCdDRKtMdMkeymukKr3uk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/GB4RG/dJMcabsmYK0/iSCdDRKtMdMkeymukKr3uk/img_s.jpg",
+        "width": 1865,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114788695",
+        "mediaId": "194678510",
+        "postTitle": "점핑/어질리티/어드밴스드 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114788695",
+        "publishedAt": "2026-10-03T15:32:56+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194678511",
+      "kind": "course_map",
+      "title": "제2회 오디너리독스배 어질리티 대회 코스맵 6",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bEsoKr/dJMcaa1iiNM/23S4UPOdwlFGxUNi2xSLWk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bEsoKr/dJMcaa1iiNM/23S4UPOdwlFGxUNi2xSLWk/img_s.jpg",
+        "width": 1865,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114788695",
+        "mediaId": "194678511",
+        "postTitle": "점핑/어질리티/어드밴스드 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114788695",
+        "publishedAt": "2026-10-03T15:32:56+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194678512",
+      "kind": "course_map",
+      "title": "제2회 오디너리독스배 어질리티 대회 코스맵 7",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cBSygt/dJMcaa1iiNN/iyhDQX1JT9KwJNglaycQx0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cBSygt/dJMcaa1iiNN/iyhDQX1JT9KwJNglaycQx0/img_s.jpg",
+        "width": 1865,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114788695",
+        "mediaId": "194678512",
+        "postTitle": "점핑/어질리티/어드밴스드 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114788695",
+        "publishedAt": "2026-10-03T15:32:56+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194664200",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 1",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/OxRIg/dJMcaiZb1dq/KWTyOOQcmt7ouUO1Azv0n0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/OxRIg/dJMcaiZb1dq/KWTyOOQcmt7ouUO1Azv0n0/img_s.jpg",
+        "width": 1204,
+        "height": 1017,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194664200",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194665632",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 2",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bdN9gg/dJMcafIq6Sv/0A9vEyFST9oTvW7HF2qRQ0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bdN9gg/dJMcafIq6Sv/0A9vEyFST9oTvW7HF2qRQ0/img_s.jpg",
+        "width": 1204,
+        "height": 418,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194665632",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194666553",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 3",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cwn42Q/dJMcahsIzeP/MsVk1XX9944eLEweCwVdo1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cwn42Q/dJMcahsIzeP/MsVk1XX9944eLEweCwVdo1/img_s.jpg",
+        "width": 1204,
+        "height": 366,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194666553",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194667148",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 4",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hQiHt/dJMcaaG74ar/LsgrOxtuMern6XAXVNnNwk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hQiHt/dJMcaaG74ar/LsgrOxtuMern6XAXVNnNwk/img_s.jpg",
+        "width": 1204,
+        "height": 522,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194667148",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194668760",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 5",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bqWiFz/dJMb99VA7mP/62AYN5JDRqNrkySwHP0uc1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bqWiFz/dJMb99VA7mP/62AYN5JDRqNrkySwHP0uc1/img_s.jpg",
+        "width": 1204,
+        "height": 522,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194668760",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194674145",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 6",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/8Mhsa/dJMb99861Ox/kxFbGKSWPmYBgv2POM2Ve1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/8Mhsa/dJMb99861Ox/kxFbGKSWPmYBgv2POM2Ve1/img_s.jpg",
+        "width": 1204,
+        "height": 496,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194674145",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194669810",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 7",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bcewjI/dJMcaatxHHa/8aVjkEoCN0ktD0ssa1m8N1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bcewjI/dJMcaatxHHa/8aVjkEoCN0ktD0ssa1m8N1/img_s.jpg",
+        "width": 1204,
+        "height": 418,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194669810",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194670243",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 8",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/n9B1z/dJMcafIrain/kbWvvc09a2AetoErumchY0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/n9B1z/dJMcafIrain/kbWvvc09a2AetoErumchY0/img_s.jpg",
+        "width": 1204,
+        "height": 366,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194670243",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194671216",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 9",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/c21tiF/dJMcablIjyd/4hKSkqNKPHPd5Q7mm8fMo1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/c21tiF/dJMcablIjyd/4hKSkqNKPHPd5Q7mm8fMo1/img_s.jpg",
+        "width": 1204,
+        "height": 522,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194671216",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194673285",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 10",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bNe8fx/dJMcajxgx5N/b9HIPws6n05lSD9ZRuXxH0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bNe8fx/dJMcajxgx5N/b9HIPws6n05lSD9ZRuXxH0/img_s.jpg",
+        "width": 1204,
+        "height": 470,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194673285",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194673742",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 11",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/GV0SU/dJMcai50nPo/AZBUIqFtRno39QCXcla0v0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/GV0SU/dJMcai50nPo/AZBUIqFtRno39QCXcla0v0/img_s.jpg",
+        "width": 1204,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194673742",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194674176",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 12",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dujFi4/dJMcah0lDnL/ngSJ3p0IKa8qAHeHW85X0K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dujFi4/dJMcah0lDnL/ngSJ3p0IKa8qAHeHW85X0K/img_s.jpg",
+        "width": 1204,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194674176",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194674512",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 13",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/smbP7/dJMcaaf01sX/OkCB65ZjdO16q3cbpDTtdK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/smbP7/dJMcaaf01sX/OkCB65ZjdO16q3cbpDTtdK/img_s.jpg",
+        "width": 1204,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194674512",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194675859",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 14",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/SELFd/dJMcahfawlh/5FWjNdq5klsTzlZHoFuW7K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/SELFd/dJMcahfawlh/5FWjNdq5klsTzlZHoFuW7K/img_s.jpg",
+        "width": 1204,
+        "height": 496,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194675859",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 14
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194676655",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 15",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/2EqY9/dJMcabsmXxf/DIATX3KnoBMmXt0CtHTBe1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/2EqY9/dJMcabsmXxf/DIATX3KnoBMmXt0CtHTBe1/img_s.jpg",
+        "width": 1204,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194676655",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 15
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194677033",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 16",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bjHRXm/dJMcahlXn8q/K3KMz6n4fjBzjC0DZ4x7L1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bjHRXm/dJMcahlXn8q/K3KMz6n4fjBzjC0DZ4x7L1/img_s.jpg",
+        "width": 1204,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194677033",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 16
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194677443",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 17",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/nePhC/dJMcaaNSgV5/aJvAPiMcMGzO8IJdVpaj11/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/nePhC/dJMcaaNSgV5/aJvAPiMcMGzO8IJdVpaj11/img_s.jpg",
+        "width": 1204,
+        "height": 444,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194677443",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 17
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194677744",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 18",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/2OPbO/dJMcacx3ChW/uoaOKu1XZKuPcQ7gdl61Xk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/2OPbO/dJMcacx3ChW/uoaOKu1XZKuPcQ7gdl61Xk/img_s.jpg",
+        "width": 1204,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194677744",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 18
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194678456",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 19",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bebbhV/dJMcafuK13n/kikOOfTVabpFbD7COVPvX0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bebbhV/dJMcafuK13n/kikOOfTVabpFbD7COVPvX0/img_s.jpg",
+        "width": 1204,
+        "height": 470,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114784448",
+        "mediaId": "194678456",
+        "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+        "publishedAt": "2026-10-03T09:31:47+09:00",
+        "imageOrder": 19
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194679903",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 20",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/CkuLT/dJMcacEYLCj/qLSdSRL4sxcFzkVRMZgw50/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/CkuLT/dJMcacEYLCj/qLSdSRL4sxcFzkVRMZgw50/img_s.jpg",
+        "width": 1204,
+        "height": 418,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194679903",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194680095",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 21",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cWsP8l/dJMcadqaZ4L/cKgdPf837ALCJUKQU1wb41/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cWsP8l/dJMcadqaZ4L/cKgdPf837ALCJUKQU1wb41/img_s.jpg",
+        "width": 1204,
+        "height": 236,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194680095",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194680380",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 22",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ccHdre/dJMcacrpNzy/TMyaQ8Fa50oi7r7jqNknOk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ccHdre/dJMcacrpNzy/TMyaQ8Fa50oi7r7jqNknOk/img_s.jpg",
+        "width": 1204,
+        "height": 262,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194680380",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194680568",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 23",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cFPpfh/dJMcacx3El1/M5IMPGnBTA51EZrpA95i9k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cFPpfh/dJMcacx3El1/M5IMPGnBTA51EZrpA95i9k/img_s.jpg",
+        "width": 1204,
+        "height": 288,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194680568",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194681010",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 24",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bki3Nd/dJMcaatxRn1/lrporrGWLwUkzbcSyklZ60/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bki3Nd/dJMcaatxRn1/lrporrGWLwUkzbcSyklZ60/img_s.jpg",
+        "width": 1204,
+        "height": 470,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194681010",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194681759",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 25",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cae58F/dJMcafn7P8b/H9HzkdY5X7BhssNvLDkrOk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cae58F/dJMcafn7P8b/H9HzkdY5X7BhssNvLDkrOk/img_s.jpg",
+        "width": 1204,
+        "height": 418,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194681759",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194682498",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 26",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bXDP6n/dJMcahfaBro/OwK0B4e5kyLXMKpaggf0O0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bXDP6n/dJMcahfaBro/OwK0B4e5kyLXMKpaggf0O0/img_s.jpg",
+        "width": 1204,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194682498",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194682706",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 27",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/p1cNd/dJMcab6034Y/O2y8b329UFnlYuqWJFdWek/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/p1cNd/dJMcab6034Y/O2y8b329UFnlYuqWJFdWek/img_s.jpg",
+        "width": 1204,
+        "height": 288,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194682706",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194683120",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 28",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/6PuZV/dJMcadX45g1/mBTuJQsntXYuW2skYdjqk1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/6PuZV/dJMcadX45g1/mBTuJQsntXYuW2skYdjqk1/img_s.jpg",
+        "width": 1204,
+        "height": 522,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194683120",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194683670",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 29",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/HqcQt/dJMcagArlrD/FWDoi6eFioQkpsmCbNcn91/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/HqcQt/dJMcagArlrD/FWDoi6eFioQkpsmCbNcn91/img_s.jpg",
+        "width": 1204,
+        "height": 418,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194683670",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194683809",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 30",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bmmtlJ/dJMcaaf09Nt/9B7dOBp8csCxILDRj7IKlk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bmmtlJ/dJMcaaf09Nt/9B7dOBp8csCxILDRj7IKlk/img_s.jpg",
+        "width": 1204,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194683809",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194683998",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 31",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/g61s1/dJMcad4JSAJ/LMpof3VdrBkqqulALWzq90/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/g61s1/dJMcad4JSAJ/LMpof3VdrBkqqulALWzq90/img_s.jpg",
+        "width": 1204,
+        "height": 392,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194683998",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194684135",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 32",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b7JyHA/dJMcablIuOs/6Uq0vCSEchdm9zyFNvaBuK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b7JyHA/dJMcablIuOs/6Uq0vCSEchdm9zyFNvaBuK/img_s.jpg",
+        "width": 1204,
+        "height": 236,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194684135",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 14
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-194684294",
+      "kind": "result",
+      "title": "제2회 오디너리독스배 어질리티 대회 대회결과 33",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bkErnt/dJMcaiSE6OD/AfGH0BRQ04HOxDa4jsnHjk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bkErnt/dJMcaiSE6OD/AfGH0BRQ04HOxDa4jsnHjk/img_s.jpg",
+        "width": 1204,
+        "height": 340,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "114789041",
+        "mediaId": "194684294",
+        "postTitle": "26.10.3 오독스 점/어/어드 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+        "publishedAt": "2026-10-03T16:23:06+09:00",
+        "imageOrder": 15
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-189228685",
+      "kind": "course_map",
+      "title": "SONY & PDC 어질리티 이벤트 코스맵 1 · 점핑",
+      "eventIds": [
+        "event-pdc-sony-20260620"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ogO4L/dJMcadvADbv/BsXIpTX8k2pxOH2iTkDeB0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ogO4L/dJMcadvADbv/BsXIpTX8k2pxOH2iTkDeB0/img_s.jpg",
+        "width": 1808,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113713694",
+        "mediaId": "189228685",
+        "postTitle": "SONY 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113713694",
+        "publishedAt": "2026-06-20T08:00:24+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-189228686",
+      "kind": "course_map",
+      "title": "SONY & PDC 어질리티 이벤트 코스맵 2 · 노비스",
+      "eventIds": [
+        "event-pdc-sony-20260620"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/M6Uui/dJMcaa6P7ua/Bg5gRmtJgu1YkCiuaFBnU0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/M6Uui/dJMcaa6P7ua/Bg5gRmtJgu1YkCiuaFBnU0/img_s.jpg",
+        "width": 1808,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113713694",
+        "mediaId": "189228686",
+        "postTitle": "SONY 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113713694",
+        "publishedAt": "2026-06-20T08:00:24+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-189228687",
+      "kind": "course_map",
+      "title": "SONY & PDC 어질리티 이벤트 코스맵 3 · 비기너",
+      "eventIds": [
+        "event-pdc-sony-20260620"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bKsSJC/dJMcafmL2du/HLfvsIKV1j4HylzHilxac0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bKsSJC/dJMcafmL2du/HLfvsIKV1j4HylzHilxac0/img_s.jpg",
+        "width": 1808,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113713694",
+        "mediaId": "189228687",
+        "postTitle": "SONY 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113713694",
+        "publishedAt": "2026-06-20T08:00:24+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-189250082",
+      "kind": "result",
+      "title": "SONY & PDC 어질리티 이벤트 대회결과 1 · 비기너",
+      "eventIds": [
+        "event-pdc-sony-20260620"
+      ],
+      "mapCategories": [],
+      "notice": "26.06.20 비기너 / 노비스 / 점핑 1,2\n기록표 입니다",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bI9OEb/dJMcaff0Jmp/J2mPNVH1SNbkAbPJxrM5k1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bI9OEb/dJMcaff0Jmp/J2mPNVH1SNbkAbPJxrM5k1/img_s.jpg",
+        "width": 1080,
+        "height": 1549,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113717255",
+        "mediaId": "189250082",
+        "postTitle": "SONY 기록표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113717255",
+        "publishedAt": "2026-06-20T20:01:25+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-189250083",
+      "kind": "result",
+      "title": "SONY & PDC 어질리티 이벤트 대회결과 2 · 노비스",
+      "eventIds": [
+        "event-pdc-sony-20260620"
+      ],
+      "mapCategories": [],
+      "notice": "26.06.20 비기너 / 노비스 / 점핑 1,2\n기록표 입니다",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/YmVQa/dJMcafG4LsY/uwhSP6kulhVbzkP1oUbN8k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/YmVQa/dJMcafG4LsY/uwhSP6kulhVbzkP1oUbN8k/img_s.jpg",
+        "width": 1080,
+        "height": 1799,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113717255",
+        "mediaId": "189250083",
+        "postTitle": "SONY 기록표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113717255",
+        "publishedAt": "2026-06-20T20:01:25+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-189250084",
+      "kind": "result",
+      "title": "SONY & PDC 어질리티 이벤트 대회결과 3 · 점핑 1",
+      "eventIds": [
+        "event-pdc-sony-20260620"
+      ],
+      "mapCategories": [],
+      "notice": "26.06.20 비기너 / 노비스 / 점핑 1,2\n기록표 입니다",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bpGbgh/dJMcafG4LsZ/mUbKM7IEPGCBRYAtqk3DTk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bpGbgh/dJMcafG4LsZ/mUbKM7IEPGCBRYAtqk3DTk/img_s.jpg",
+        "width": 1080,
+        "height": 1695,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113717255",
+        "mediaId": "189250084",
+        "postTitle": "SONY 기록표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113717255",
+        "publishedAt": "2026-06-20T20:01:25+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-189250085",
+      "kind": "result",
+      "title": "SONY & PDC 어질리티 이벤트 대회결과 4 · 점핑 2",
+      "eventIds": [
+        "event-pdc-sony-20260620"
+      ],
+      "mapCategories": [],
+      "notice": "26.06.20 비기너 / 노비스 / 점핑 1,2\n기록표 입니다",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/PUKtd/dJMcaf1ivsl/IkcwkpTcoEl1zlTJkaOpy0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/PUKtd/dJMcaf1ivsl/IkcwkpTcoEl1zlTJkaOpy0/img_s.jpg",
+        "width": 1080,
+        "height": 1671,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113717255",
+        "mediaId": "189250085",
+        "postTitle": "SONY 기록표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113717255",
+        "publishedAt": "2026-06-20T20:01:25+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188519415",
+      "kind": "entry_list",
+      "title": "제1회 오디너리독스배 어질리티 대회 출진표 1",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": "오디너리독스배 \n비기너 노비스 어드밴스드 \n출진표 수정되었습니다 \n확인후 추가 수정은 댓글주세요",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/4YvJz/dJMcadPKAxp/XT3O48Pg6LPCym6GkkHSf0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/4YvJz/dJMcadPKAxp/XT3O48Pg6LPCym6GkkHSf0/img_s.jpg",
+        "width": 1080,
+        "height": 2034,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113579781",
+        "mediaId": "188519415",
+        "postTitle": "오디너리독스배 출진표 최종",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113579781",
+        "publishedAt": "2026-06-06T13:42:20+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188519416",
+      "kind": "entry_list",
+      "title": "제1회 오디너리독스배 어질리티 대회 출진표 2",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": "오디너리독스배 \n비기너 노비스 어드밴스드 \n출진표 수정되었습니다 \n확인후 추가 수정은 댓글주세요",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/o4RL7/dJMcahEDH4d/R8YfI44FYHTsJL3PkT40ck/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/o4RL7/dJMcahEDH4d/R8YfI44FYHTsJL3PkT40ck/img_s.jpg",
+        "width": 1080,
+        "height": 1880,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113579781",
+        "mediaId": "188519416",
+        "postTitle": "오디너리독스배 출진표 최종",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113579781",
+        "publishedAt": "2026-06-06T13:42:20+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188519420",
+      "kind": "entry_list",
+      "title": "제1회 오디너리독스배 어질리티 대회 출진표 3",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": "오디너리독스배 \n비기너 노비스 어드밴스드 \n출진표 수정되었습니다 \n확인후 추가 수정은 댓글주세요",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/kKkZI/dJMcaiwOTxI/7Bi4COEfKlesA2LDOGgOW1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kKkZI/dJMcaiwOTxI/7Bi4COEfKlesA2LDOGgOW1/img_s.jpg",
+        "width": 1080,
+        "height": 2110,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113579781",
+        "mediaId": "188519420",
+        "postTitle": "오디너리독스배 출진표 최종",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113579781",
+        "publishedAt": "2026-06-06T13:42:20+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188519421",
+      "kind": "entry_list",
+      "title": "제1회 오디너리독스배 어질리티 대회 출진표 4",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": "오디너리독스배 \n비기너 노비스 어드밴스드 \n출진표 수정되었습니다 \n확인후 추가 수정은 댓글주세요",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/pGpt4/dJMcaaS6fvs/MPPcfv0m1uZKtutD7U4VmK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/pGpt4/dJMcaaS6fvs/MPPcfv0m1uZKtutD7U4VmK/img_s.jpg",
+        "width": 1080,
+        "height": 1781,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113579781",
+        "mediaId": "188519421",
+        "postTitle": "오디너리독스배 출진표 최종",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113579781",
+        "publishedAt": "2026-06-06T13:42:20+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188519424",
+      "kind": "entry_list",
+      "title": "제1회 오디너리독스배 어질리티 대회 출진표 5",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": "오디너리독스배 \n비기너 노비스 어드밴스드 \n출진표 수정되었습니다 \n확인후 추가 수정은 댓글주세요",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/vGaIC/dJMcabLivzq/FD4yx0fROlXWaZENScXBEK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/vGaIC/dJMcabLivzq/FD4yx0fROlXWaZENScXBEK/img_s.jpg",
+        "width": 1080,
+        "height": 1293,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113579781",
+        "mediaId": "188519424",
+        "postTitle": "오디너리독스배 출진표 최종",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113579781",
+        "publishedAt": "2026-06-06T13:42:20+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188519427",
+      "kind": "entry_list",
+      "title": "제1회 오디너리독스배 어질리티 대회 출진표 6",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": "오디너리독스배 \n비기너 노비스 어드밴스드 \n출진표 수정되었습니다 \n확인후 추가 수정은 댓글주세요",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bbR6F2/dJMcaaS6fvu/Lb07JAS7veLfjAmRUQwNyK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bbR6F2/dJMcaaS6fvu/Lb07JAS7veLfjAmRUQwNyK/img_s.jpg",
+        "width": 1080,
+        "height": 1270,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113579781",
+        "mediaId": "188519427",
+        "postTitle": "오디너리독스배 출진표 최종",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113579781",
+        "publishedAt": "2026-06-06T13:42:20+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188536886",
+      "kind": "course_map",
+      "title": "제1회 오디너리독스배 어질리티 대회 코스맵 1",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bxpJqS/dJMcah5NqrC/4AuAvsBbLqzQCLK3rQqFJK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bxpJqS/dJMcah5NqrC/4AuAvsBbLqzQCLK3rQqFJK/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113582931",
+        "mediaId": "188536886",
+        "postTitle": "6/7 오디너리독스배 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113582931",
+        "publishedAt": "2026-06-07T08:27:26+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188536887",
+      "kind": "course_map",
+      "title": "제1회 오디너리독스배 어질리티 대회 코스맵 2",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/deMDWh/dJMcaiDARdv/c0Gxq5T585ILZ3W7DUfDkk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/deMDWh/dJMcaiDARdv/c0Gxq5T585ILZ3W7DUfDkk/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113582931",
+        "mediaId": "188536887",
+        "postTitle": "6/7 오디너리독스배 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113582931",
+        "publishedAt": "2026-06-07T08:27:26+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188536888",
+      "kind": "course_map",
+      "title": "제1회 오디너리독스배 어질리티 대회 코스맵 3",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bjuAo1/dJMcaayOTvX/lXiIDy77SPTpsZ5qDkcrgK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bjuAo1/dJMcaayOTvX/lXiIDy77SPTpsZ5qDkcrgK/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113582931",
+        "mediaId": "188536888",
+        "postTitle": "6/7 오디너리독스배 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113582931",
+        "publishedAt": "2026-06-07T08:27:26+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188536890",
+      "kind": "course_map",
+      "title": "제1회 오디너리독스배 어질리티 대회 코스맵 4",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/79FwD/dJMcah5NqrD/2ncjwvwqBKz8pPGcYkX0s0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/79FwD/dJMcah5NqrD/2ncjwvwqBKz8pPGcYkX0s0/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113582931",
+        "mediaId": "188536890",
+        "postTitle": "6/7 오디너리독스배 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113582931",
+        "publishedAt": "2026-06-07T08:27:26+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188536891",
+      "kind": "course_map",
+      "title": "제1회 오디너리독스배 어질리티 대회 코스맵 5",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cdJmkE/dJMcah5NqrE/Q3aigklLpf4E0J8qt4zqw0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cdJmkE/dJMcah5NqrE/Q3aigklLpf4E0J8qt4zqw0/img_s.jpg",
+        "width": 1808,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113582931",
+        "mediaId": "188536891",
+        "postTitle": "6/7 오디너리독스배 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113582931",
+        "publishedAt": "2026-06-07T08:27:26+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188536892",
+      "kind": "course_map",
+      "title": "제1회 오디너리독스배 어질리티 대회 코스맵 6",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bfRK0s/dJMcacpRYtk/K3uAx6mOtyXrg25bjOsG7k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bfRK0s/dJMcacpRYtk/K3uAx6mOtyXrg25bjOsG7k/img_s.jpg",
+        "width": 1808,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113582931",
+        "mediaId": "188536892",
+        "postTitle": "6/7 오디너리독스배 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113582931",
+        "publishedAt": "2026-06-07T08:27:26+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188549968",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 1",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/toQaJ/dJMcabEsn9f/nh85VUD4EGXv8TOYmquRqK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/toQaJ/dJMcabEsn9f/nh85VUD4EGXv8TOYmquRqK/img_s.jpg",
+        "width": 796,
+        "height": 639,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188549968",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188549969",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 2",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/MRFWf/dJMcaglsn4z/EWUJC4wbcxgFWegBUZT80k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/MRFWf/dJMcaglsn4z/EWUJC4wbcxgFWegBUZT80k/img_s.jpg",
+        "width": 808,
+        "height": 553,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188549969",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188549970",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 3",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ze3TO/dJMcahLsmZi/IxyfzNaQSB13IMrxBzFFD1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ze3TO/dJMcahLsmZi/IxyfzNaQSB13IMrxBzFFD1/img_s.jpg",
+        "width": 806,
+        "height": 344,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188549970",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550008",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 4",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/yXKWG/dJMcac4qtpi/kcOtDEK663JIAbQtJioQJ0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/yXKWG/dJMcac4qtpi/kcOtDEK663JIAbQtJioQJ0/img_s.jpg",
+        "width": 893,
+        "height": 662,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550008",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550009",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 5",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/c9vJqu/dJMcah5ND9W/MQmODQhr1dmK3kDco795HK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/c9vJqu/dJMcah5ND9W/MQmODQhr1dmK3kDco795HK/img_s.jpg",
+        "width": 892,
+        "height": 534,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550009",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550011",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 6",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/lFuq3/dJMcagFPord/cXkjwVIK7B4p7JqQuxXloK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/lFuq3/dJMcagFPord/cXkjwVIK7B4p7JqQuxXloK/img_s.jpg",
+        "width": 893,
+        "height": 350,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550011",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550016",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 7",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/eLKteQ/dJMcagMATSO/OjjZkDjqwkqPR5Sb9kFYo1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/eLKteQ/dJMcagMATSO/OjjZkDjqwkqPR5Sb9kFYo1/img_s.jpg",
+        "width": 1000,
+        "height": 625,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550016",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550017",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 8",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dcv40j/dJMcahkrgS0/FujF6lqYmFQEqqW0JHhwHK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dcv40j/dJMcahkrgS0/FujF6lqYmFQEqqW0JHhwHK/img_s.jpg",
+        "width": 1002,
+        "height": 577,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550017",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550018",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 9",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/J2KTV/dJMcajoSmiV/VxaihKSxgc6xlgKhGj6JpK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/J2KTV/dJMcajoSmiV/VxaihKSxgc6xlgKhGj6JpK/img_s.jpg",
+        "width": 978,
+        "height": 558,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550018",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550019",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 10",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/sliAs/dJMcaf7TMWD/RmXBhznTKJjKhSDEGq3Bt0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/sliAs/dJMcaf7TMWD/RmXBhznTKJjKhSDEGq3Bt0/img_s.jpg",
+        "width": 984,
+        "height": 572,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550019",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550020",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 11",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cXKVvy/dJMcajoSmiW/iS4jhd9N7XpCwFc6dGRpr1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cXKVvy/dJMcajoSmiW/iS4jhd9N7XpCwFc6dGRpr1/img_s.jpg",
+        "width": 1001,
+        "height": 646,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550020",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550021",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 12",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/g9LfU/dJMcajoSmiX/mrED84A8n8649mOgXhn99K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/g9LfU/dJMcajoSmiX/mrED84A8n8649mOgXhn99K/img_s.jpg",
+        "width": 1005,
+        "height": 469,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550021",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550022",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 13",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/1z4CT/dJMcaayO6lP/4fXuWrdJKnZN4FyNcHv791/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/1z4CT/dJMcaayO6lP/4fXuWrdJKnZN4FyNcHv791/img_s.jpg",
+        "width": 752,
+        "height": 664,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550022",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550023",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 14",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/I2Vtw/dJMcaf7TMWG/2y4JZOkRHYRZEYa3rM9n7k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/I2Vtw/dJMcaf7TMWG/2y4JZOkRHYRZEYa3rM9n7k/img_s.jpg",
+        "width": 913,
+        "height": 529,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550023",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 14
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550024",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 15",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cqB1gg/dJMcaayO6lR/w8AiORKyNzRJUx7AQiuMGk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cqB1gg/dJMcaayO6lR/w8AiORKyNzRJUx7AQiuMGk/img_s.jpg",
+        "width": 835,
+        "height": 588,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550024",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 15
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-188550025",
+      "kind": "result",
+      "title": "제1회 오디너리독스배 어질리티 대회 대회결과 16",
+      "eventIds": [
+        "event-pdc-odogs1-20260607"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dK0c78/dJMcagsePBs/Rqf2crbJTWeKNxIiIx4Lg0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dK0c78/dJMcagsePBs/Rqf2crbJTWeKNxIiIx4Lg0/img_s.jpg",
+        "width": 834,
+        "height": 353,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "113583699",
+        "mediaId": "188550025",
+        "postTitle": "6/7 제 1회 오디너리독스배 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+        "publishedAt": "2026-06-07T12:00:22+09:00",
+        "imageOrder": 16
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184781312",
+      "kind": "entry_list",
+      "title": "제3회 PDC 어질리티 챔피언쉽 출진표 1",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": "3.27 수정완료",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bblnbX/dJMcafsuoHq/4gCTnYcd2GPlZthxOSBv5k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bblnbX/dJMcafsuoHq/4gCTnYcd2GPlZthxOSBv5k/img_s.jpg",
+        "width": 1273,
+        "height": 3048,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112743768",
+        "mediaId": "184781312",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112743768",
+        "publishedAt": "2026-03-17T01:43:15+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184781313",
+      "kind": "entry_list",
+      "title": "제3회 PDC 어질리티 챔피언쉽 출진표 2",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": "3.27 수정완료",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/vnj8L/dJMcaadFLq8/Hd7BdcEL322hGkwkkRESwK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/vnj8L/dJMcaadFLq8/Hd7BdcEL322hGkwkkRESwK/img_s.jpg",
+        "width": 1265,
+        "height": 3022,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112743768",
+        "mediaId": "184781313",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112743768",
+        "publishedAt": "2026-03-17T01:43:15+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184781315",
+      "kind": "entry_list",
+      "title": "제3회 PDC 어질리티 챔피언쉽 출진표 3",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": "3.27 수정완료",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/GedYM/dJMcacifn0M/kIcY4itcEj9ocKXx0G6zUK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/GedYM/dJMcacifn0M/kIcY4itcEj9ocKXx0G6zUK/img_s.jpg",
+        "width": 1265,
+        "height": 2502,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112743768",
+        "mediaId": "184781315",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112743768",
+        "publishedAt": "2026-03-17T01:43:15+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184781316",
+      "kind": "entry_list",
+      "title": "제3회 PDC 어질리티 챔피언쉽 출진표 4",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": "3.27 수정완료",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cFaJeO/dJMcacifn0Q/yVJtjjI1YcFCToHsbNVTrK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cFaJeO/dJMcacifn0Q/yVJtjjI1YcFCToHsbNVTrK/img_s.jpg",
+        "width": 1265,
+        "height": 2320,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112743768",
+        "mediaId": "184781316",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112743768",
+        "publishedAt": "2026-03-17T01:43:15+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184802545",
+      "kind": "course_map",
+      "title": "제3회 PDC 어질리티 챔피언쉽 코스맵 1 · 비기너",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bWltrI/dJMcagZeHMo/maa08UKH2lKUdvXWhfeBE0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bWltrI/dJMcagZeHMo/maa08UKH2lKUdvXWhfeBE0/img_s.jpg",
+        "width": 2141,
+        "height": 1280,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112867941",
+        "mediaId": "184802545",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 코스 맵",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112867941",
+        "publishedAt": "2026-03-29T08:04:01+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184802568",
+      "kind": "course_map",
+      "title": "제3회 PDC 어질리티 챔피언쉽 코스맵 2 · 노비스",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bqGOKf/dJMcaarcYU5/ebbuLeH6GAK7bXs2MMhgD0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bqGOKf/dJMcaarcYU5/ebbuLeH6GAK7bXs2MMhgD0/img_s.jpg",
+        "width": 2141,
+        "height": 1280,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112867941",
+        "mediaId": "184802568",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 코스 맵",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112867941",
+        "publishedAt": "2026-03-29T08:04:01+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184803991",
+      "kind": "course_map",
+      "title": "제3회 PDC 어질리티 챔피언쉽 코스맵 3",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/d9JqRz/dJMcai3MefT/PkE6FK5PzlkoO86qGURNa1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/d9JqRz/dJMcai3MefT/PkE6FK5PzlkoO86qGURNa1/img_s.jpg",
+        "width": 1080,
+        "height": 1783,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868180",
+        "mediaId": "184803991",
+        "postTitle": "점핑,어질리티 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868180",
+        "publishedAt": "2026-03-29T09:32:58+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184803992",
+      "kind": "course_map",
+      "title": "제3회 PDC 어질리티 챔피언쉽 코스맵 4",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/SB96F/dJMb99TlPKf/ceHKF953kdHuwPiqO4FHOK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/SB96F/dJMb99TlPKf/ceHKF953kdHuwPiqO4FHOK/img_s.jpg",
+        "width": 1080,
+        "height": 1783,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868180",
+        "mediaId": "184803992",
+        "postTitle": "점핑,어질리티 코스",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868180",
+        "publishedAt": "2026-03-29T09:32:58+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184805401",
+      "kind": "result",
+      "title": "제3회 PDC 어질리티 챔피언쉽 대회결과 1",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/YBl87/dJMcahDPTmL/taOs0LJndPHkLFa5k0xsGK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/YBl87/dJMcahDPTmL/taOs0LJndPHkLFa5k0xsGK/img_s.jpg",
+        "width": 865,
+        "height": 950,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868421",
+        "mediaId": "184805401",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+        "publishedAt": "2026-03-29T10:46:35+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184805398",
+      "kind": "result",
+      "title": "제3회 PDC 어질리티 챔피언쉽 대회결과 2",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/36o0E/dJMcagkDh4E/GKSNETARXQd0yspvyKMYc0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/36o0E/dJMcagkDh4E/GKSNETARXQd0yspvyKMYc0/img_s.jpg",
+        "width": 610,
+        "height": 789,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868421",
+        "mediaId": "184805398",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+        "publishedAt": "2026-03-29T10:46:35+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184812510",
+      "kind": "result",
+      "title": "제3회 PDC 어질리티 챔피언쉽 대회결과 3",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/gZ08m/dJMcaiQf7HK/QKyl2WhomkkKfEQevOsPbk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/gZ08m/dJMcaiQf7HK/QKyl2WhomkkKfEQevOsPbk/img_s.jpg",
+        "width": 1137,
+        "height": 1450,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868421",
+        "mediaId": "184812510",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+        "publishedAt": "2026-03-29T10:46:35+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184812511",
+      "kind": "result",
+      "title": "제3회 PDC 어질리티 챔피언쉽 대회결과 4",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bEU3OB/dJMcab4HUTV/BZlNpNuCR5jN6AgJ1X8tHk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bEU3OB/dJMcab4HUTV/BZlNpNuCR5jN6AgJ1X8tHk/img_s.jpg",
+        "width": 1140,
+        "height": 1696,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868421",
+        "mediaId": "184812511",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+        "publishedAt": "2026-03-29T10:46:35+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184809475",
+      "kind": "result",
+      "title": "제3회 PDC 어질리티 챔피언쉽 대회결과 5",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dOURkj/dJMcafzh9Bx/bVupRU3puypLdMmuZdyY5k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dOURkj/dJMcafzh9Bx/bVupRU3puypLdMmuZdyY5k/img_s.jpg",
+        "width": 1137,
+        "height": 1350,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868421",
+        "mediaId": "184809475",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+        "publishedAt": "2026-03-29T10:46:35+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184809474",
+      "kind": "result",
+      "title": "제3회 PDC 어질리티 챔피언쉽 대회결과 6",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/TYotl/dJMcacifRmR/5dYWXWWOMBoMoT80mAkDqk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/TYotl/dJMcacifRmR/5dYWXWWOMBoMoT80mAkDqk/img_s.jpg",
+        "width": 1143,
+        "height": 1162,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868421",
+        "mediaId": "184809474",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+        "publishedAt": "2026-03-29T10:46:35+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184815733",
+      "kind": "result",
+      "title": "제3회 PDC 어질리티 챔피언쉽 대회결과 7",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/vrgPz/dJMcaaELbH5/dO4BuiLxe22whmK2LhsYtK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/vrgPz/dJMcaaELbH5/dO4BuiLxe22whmK2LhsYtK/img_s.jpg",
+        "width": 1138,
+        "height": 1253,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868421",
+        "mediaId": "184815733",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+        "publishedAt": "2026-03-29T10:46:35+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-MPeBn-184815732",
+      "kind": "result",
+      "title": "제3회 PDC 어질리티 챔피언쉽 대회결과 8",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ZRuW2/dJMcahKD3DM/VMcsvRwMCkd8LjMD6GookK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ZRuW2/dJMcahKD3DM/VMcsvRwMCkd8LjMD6GookK/img_s.jpg",
+        "width": 1141,
+        "height": 1131,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_MPeBn",
+        "channelName": "PDC어질리티",
+        "postId": "112868421",
+        "mediaId": "184815732",
+        "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+        "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+        "publishedAt": "2026-03-29T10:46:35+09:00",
+        "imageOrder": 8
       }
     }
   ]

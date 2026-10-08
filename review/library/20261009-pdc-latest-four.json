@@ -1,0 +1,463 @@
+{
+  "auditVersion": 1,
+  "checkedAt": "2026-10-09T05:56:04+09:00",
+  "dataVersion": "20261009.3",
+  "libraryManifest": "https://daltiapp.github.io/agilitykorea-manifest.json",
+  "channel": {
+    "id": "_MPeBn",
+    "name": "PDC어질리티",
+    "alsoKnownAs": "팔레드차밍",
+    "url": "https://pf.kakao.com/_MPeBn",
+    "description": "반려가족 리조트 팔레드차밍 소속 어질리티클럽 P.D.C 어질리티 입니다."
+  },
+  "selection": {
+    "basis": "공개 채널의 개최일 기준 최근 어질리티 대회·이벤트 4개. 수정본이 여러 개면 최종 출진표를 사용하며, 행사 포스터와 바이트가 동일한 중복 첨부는 제외한다.",
+    "eventCount": 4,
+    "imageCount": 126,
+    "imageCounts": {
+      "entry_list": 45,
+      "course_map": 20,
+      "result": 61
+    },
+    "inspectedPostCount": 32,
+    "selectedUniqueSourcePostCount": 14
+  },
+  "events": [
+    {
+      "eventId": "event-pdc-odogs2-20261003",
+      "name": "제2회 오디너리독스배 어질리티 대회",
+      "startDate": "2026-10-03",
+      "competitionGroup": "RANKING_EVENT",
+      "imageCounts": {
+        "entry_list": 35,
+        "course_map": 7,
+        "result": 33
+      },
+      "totalImages": 75,
+      "sourcePosts": [
+        {
+          "kind": "entry_list",
+          "postId": "114777839",
+          "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+          "postTitle": "26.10.3 오독스 “최종” 출진표",
+          "publishedAt": "2026-10-02T15:37:33+09:00",
+          "originalImageCount": 35,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        },
+        {
+          "kind": "course_map",
+          "postId": "114784258",
+          "postUrl": "https://pf.kakao.com/_MPeBn/114784258",
+          "postTitle": "비기너 노비스 코스",
+          "publishedAt": "2026-10-03T09:02:42+09:00",
+          "originalImageCount": 4,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "kind": "course_map",
+          "postId": "114788695",
+          "postUrl": "https://pf.kakao.com/_MPeBn/114788695",
+          "postTitle": "점핑/어질리티/어드밴스드 코스",
+          "publishedAt": "2026-10-03T15:32:56+09:00",
+          "originalImageCount": 3,
+          "selectedImageOrders": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "kind": "result",
+          "postId": "114784448",
+          "postUrl": "https://pf.kakao.com/_MPeBn/114784448",
+          "postTitle": "26.10.3 오독스 비기너/노비스 기록",
+          "publishedAt": "2026-10-03T09:31:47+09:00",
+          "originalImageCount": 19,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "kind": "result",
+          "postId": "114789041",
+          "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+          "postTitle": "26.10.3 오독스 점/어/어드 기록",
+          "publishedAt": "2026-10-03T16:23:06+09:00",
+          "originalImageCount": 15,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "event-pdc-sony-20260620",
+      "name": "SONY & PDC 어질리티 이벤트",
+      "startDate": "2026-06-20",
+      "competitionGroup": "RANKING_EVENT",
+      "imageCounts": {
+        "entry_list": 0,
+        "course_map": 3,
+        "result": 4
+      },
+      "totalImages": 7,
+      "sourcePosts": [
+        {
+          "kind": "course_map",
+          "postId": "113713694",
+          "postUrl": "https://pf.kakao.com/_MPeBn/113713694",
+          "postTitle": "SONY 코스",
+          "publishedAt": "2026-06-20T08:00:24+09:00",
+          "originalImageCount": 3,
+          "selectedImageOrders": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "kind": "result",
+          "postId": "113717255",
+          "postUrl": "https://pf.kakao.com/_MPeBn/113717255",
+          "postTitle": "SONY 기록표",
+          "publishedAt": "2026-06-20T20:01:25+09:00",
+          "originalImageCount": 4,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "event-pdc-odogs1-20260607",
+      "name": "제1회 오디너리독스배 어질리티 대회",
+      "startDate": "2026-06-07",
+      "competitionGroup": "RANKING_EVENT",
+      "imageCounts": {
+        "entry_list": 6,
+        "course_map": 6,
+        "result": 16
+      },
+      "totalImages": 28,
+      "sourcePosts": [
+        {
+          "kind": "entry_list",
+          "postId": "113579781",
+          "postUrl": "https://pf.kakao.com/_MPeBn/113579781",
+          "postTitle": "오디너리독스배 출진표 최종",
+          "publishedAt": "2026-06-06T13:42:20+09:00",
+          "originalImageCount": 6,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "kind": "course_map",
+          "postId": "113582931",
+          "postUrl": "https://pf.kakao.com/_MPeBn/113582931",
+          "postTitle": "6/7 오디너리독스배 코스",
+          "publishedAt": "2026-06-07T08:27:26+09:00",
+          "originalImageCount": 6,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "kind": "result",
+          "postId": "113583699",
+          "postUrl": "https://pf.kakao.com/_MPeBn/113583699",
+          "postTitle": "6/7 제 1회 오디너리독스배 기록",
+          "publishedAt": "2026-06-07T12:00:22+09:00",
+          "originalImageCount": 16,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "event-pdc-championship3-20260329",
+      "name": "제3회 PDC 어질리티 챔피언쉽",
+      "startDate": "2026-03-29",
+      "competitionGroup": "RANKING_EVENT",
+      "imageCounts": {
+        "entry_list": 4,
+        "course_map": 4,
+        "result": 8
+      },
+      "totalImages": 16,
+      "sourcePosts": [
+        {
+          "kind": "entry_list",
+          "postId": "112743768",
+          "postUrl": "https://pf.kakao.com/_MPeBn/112743768",
+          "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
+          "publishedAt": "2026-03-17T01:43:15+09:00",
+          "originalImageCount": 4,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "kind": "course_map",
+          "postId": "112867941",
+          "postUrl": "https://pf.kakao.com/_MPeBn/112867941",
+          "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 코스 맵",
+          "publishedAt": "2026-03-29T08:04:01+09:00",
+          "originalImageCount": 2,
+          "selectedImageOrders": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "course_map",
+          "postId": "112868180",
+          "postUrl": "https://pf.kakao.com/_MPeBn/112868180",
+          "postTitle": "점핑,어질리티 코스",
+          "publishedAt": "2026-03-29T09:32:58+09:00",
+          "originalImageCount": 2,
+          "selectedImageOrders": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "result",
+          "postId": "112868421",
+          "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+          "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
+          "publishedAt": "2026-03-29T10:46:35+09:00",
+          "originalImageCount": 8,
+          "selectedImageOrders": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "excluded": {
+    "supersededEntryPosts": [
+      {
+        "postId": "114742159",
+        "postUrl": "https://pf.kakao.com/_MPeBn/114742159",
+        "postTitle": "10.3 제2회 오독스 출진표 ”수정본“",
+        "reason": "2026-10-02 최종 출진표 114777839로 대체"
+      },
+      {
+        "postId": "113553339",
+        "postUrl": "https://pf.kakao.com/_MPeBn/113553339",
+        "postTitle": "제1회 오디너리독스배 출진표",
+        "reason": "2026-06-06 최종 출진표 113579781로 대체"
+      }
+    ],
+    "poster": {
+      "postId": "113713693",
+      "postUrl": "https://pf.kakao.com/_MPeBn/113713693",
+      "postTitle": "SONY KOREA",
+      "mediaId": "189228679",
+      "imageOrder": 1,
+      "reason": "SONY 촬영 행사 안내 포스터이며 출진표가 아니다."
+    },
+    "duplicateAttachment": {
+      "postId": "114789041",
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "postTitle": "26.10.3 오독스 점/어/어드 기록",
+      "mediaId": "194682134",
+      "imageOrder": 7,
+      "keptMediaId": "194681759",
+      "keptImageOrder": 6,
+      "keptAssetId": "asset-kakao-MPeBn-194681759",
+      "sha256": "4cbc60ee8e8835956659e22092640fb13f432235be8e91759548965ffd8a5959",
+      "reason": "원문 6·7번째 첨부의 이미지 바이트가 완전히 같아 점핑 Tiny 결과를 한 번만 제공한다."
+    }
+  },
+  "preserved": {
+    "existingEventRecordsUnchanged": 13,
+    "existingAssetRecordsUnchanged": 354
+  },
+  "publishedTotals": {
+    "events": 17,
+    "images": 480,
+    "imageCounts": {
+      "entry_list": 162,
+      "course_map": 76,
+      "result": 242
+    }
+  },
+  "validation": {
+    "status": "passed_with_source_warnings",
+    "httpGet": {
+      "authentication": "none",
+      "cookies": "none",
+      "referer": "none",
+      "candidateImages": 128,
+      "candidateThumbnails": 128,
+      "requests": 256,
+      "http200": 256,
+      "imageMimeVerified": 256,
+      "nativeImageDecodePassed": 256,
+      "acceptedImages": 126,
+      "acceptedThumbnails": 126,
+      "acceptedRequests": 252,
+      "responseBytes": 29469591
+    },
+    "contentCheck": {
+      "headerOcrCompleted": 128,
+      "fullCourseMapOcrCompleted": 20,
+      "visualReview": "행사 포스터, 10월 3일 원문의 날짜·대회명 불일치, 합쳐진 비기너 Tiny/Small 결과, 중복 점핑 Tiny 결과와 대표 코스맵을 원본으로 대조했다.",
+      "notes": [
+        "출진표·코스맵·결과 원문 첨부 수와 순서를 대조하고, 동일 이미지 중복을 제외한 연속 결과 페이지를 보존했다.",
+        "게시일 대신 원문 본문·게시물 제목·이미지 내용을 함께 대조해 개최일을 연결했다.",
+        "원본 이미지의 표기나 내용을 수정하지 않았다. 결과표의 참가 기록을 텍스트 데이터로 변환하지 않았다."
+      ]
+    },
+    "actualImageDimensionsUsed": true,
+    "cdnResizedImageCount": 2,
+    "cdnResizedAssetIds": [
+      "asset-kakao-MPeBn-184802545",
+      "asset-kakao-MPeBn-184802568"
+    ],
+    "sourceAttachmentCoverage": "선택한 14개 게시물의 이미지 127장 중 바이트 동일 중복 첨부 1장을 제외한 126장을 제공한다. 제외한 첨부의 원문 순서와 중복 근거를 보존했다."
+  },
+  "sourceWarnings": [
+    {
+      "code": "SOURCE_ENTRY_LIST_NOT_FOUND",
+      "eventId": "event-pdc-sony-20260620",
+      "kind": "entry_list",
+      "postUrl": "https://pf.kakao.com/_MPeBn/113713693",
+      "message": "SONY & PDC 이벤트의 공개 코스 3장과 기록표 4장은 확인했으나 출진표는 공개 채널에서 찾지 못했다. SONY KOREA 게시물의 행사 안내 포스터를 출진표로 분류하지 않았다."
+    },
+    {
+      "code": "SOURCE_EVENT_HEADER_CONFLICT",
+      "eventId": "event-pdc-odogs2-20261003",
+      "postIds": [
+        "114777839",
+        "114784448",
+        "114789041"
+      ],
+      "assetIdsWithConflictingDate": [
+        "asset-kakao-MPeBn-194651414",
+        "asset-kakao-MPeBn-194668760"
+      ],
+      "message": "10월 3일 오독스 게시물의 여러 출진표·결과 이미지에 제3회 PDC 어질리티 챔피언쉽이 표기돼 있고, 비기너2 Tiny 출진표와 결과에는 2026.3.29가 표기돼 있다. 게시물 제목·최종 출진표 본문과 당일 코스는 2026.10.03을 가리킨다. 게시물 기준 제2회 오디너리독스배로 연결하고 이미지 원문은 보존했다."
+    },
+    {
+      "code": "SOURCE_DUPLICATE_RESULT_AND_SMALL_NOT_FOUND",
+      "eventId": "event-pdc-odogs2-20261003",
+      "kind": "result",
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "message": "점핑·어질리티·어드밴스드 결과 게시물의 6·7번째 첨부는 같은 점핑 Tiny 결과 이미지다. 해당 게시물에서 점핑 Small 결과 이미지는 확인되지 않았다. 바이트 동일 중복은 한 번만 제공했다."
+    }
+  ]
+}
