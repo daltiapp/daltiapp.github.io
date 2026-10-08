@@ -15,6 +15,7 @@
 | manifest의 `files.library` | 대회 출진표·코스맵·결과 및 독립 코스맵 자료실 | [자료실 계약과 추가 절차](docs/AGILITY_LIBRARY.md)에 따라 이미지별 등록·검증 |
 | `schemas/agility-library-v1.schema.json` | 자료실 JSON의 필드·타입 검증 계약 | 자료실 필드 변경과 함께 확인 |
 | `review/schedule/` | 수집 후보·검수 상태 | 사람이 승인/거절한 내용과 원문 근거 보존 |
+| `review/library/` | 자료실 수집 범위·검증 기록 | 대회별 원문 이미지 수·연결·누락 확인 근거 보존 |
 | 외부 `DaltiWeb/data-studio` 저장소 | 로컬 검수·승인 도구 | 데이터 저장소 경로를 설정해 사용; 소스는 이 저장소에 포함하지 않음 |
 | `docs/tickets/` | 구조 변경 제안과 구현 티켓 | 제안과 배포 완료 상태를 구분 |
 
