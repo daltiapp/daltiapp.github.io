@@ -1,7 +1,33 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261009.3",
-  "updatedAt": "2026-10-09T05:56:04+09:00",
+  "dataVersion": "20261009.4",
+  "updatedAt": "2026-10-09T06:40:55+09:00",
+  "channels": [
+    {
+      "id": "_BfHUb",
+      "name": "코리아 채널",
+      "provider": "kakao",
+      "url": "https://pf.kakao.com/_BfHUb"
+    },
+    {
+      "id": "_HlJFG",
+      "name": "리즈 채널",
+      "provider": "kakao",
+      "url": "https://pf.kakao.com/_HlJFG"
+    },
+    {
+      "id": "_cNjMG",
+      "name": "하이스트 채널",
+      "provider": "kakao",
+      "url": "https://pf.kakao.com/_cNjMG"
+    },
+    {
+      "id": "_MPeBn",
+      "name": "PDC 어질리티",
+      "provider": "kakao",
+      "url": "https://pf.kakao.com/_MPeBn"
+    }
+  ],
   "mapCategories": [
     {
       "id": "ranking",
@@ -10202,7 +10228,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651408",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10230,7 +10256,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651412",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10258,7 +10284,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651411",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10286,7 +10312,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651410",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10314,7 +10340,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651413",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10342,7 +10368,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651414",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10370,7 +10396,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651415",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10398,7 +10424,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651419",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10426,7 +10452,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651416",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10454,7 +10480,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651421",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10482,7 +10508,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651417",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10510,7 +10536,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651420",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10538,7 +10564,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651418",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10566,7 +10592,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651422",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10594,7 +10620,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651423",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10622,7 +10648,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651424",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10650,7 +10676,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651425",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10678,7 +10704,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651428",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10706,7 +10732,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651426",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10734,7 +10760,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651427",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10762,7 +10788,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651429",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10790,7 +10816,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651430",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10818,7 +10844,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651431",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10846,7 +10872,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651432",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10874,7 +10900,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651434",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10902,7 +10928,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651437",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10930,7 +10956,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651435",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10958,7 +10984,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651436",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -10986,7 +11012,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651438",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -11014,7 +11040,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651444",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -11042,7 +11068,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651442",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -11070,7 +11096,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651439",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -11098,7 +11124,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651441",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -11126,7 +11152,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651440",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -11154,7 +11180,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114777839",
         "mediaId": "194651445",
         "postTitle": "26.10.3 오독스 “최종” 출진표",
@@ -11184,7 +11210,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784258",
         "mediaId": "194662486",
         "postTitle": "비기너 노비스 코스",
@@ -11214,7 +11240,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784258",
         "mediaId": "194662487",
         "postTitle": "비기너 노비스 코스",
@@ -11244,7 +11270,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784258",
         "mediaId": "194662489",
         "postTitle": "비기너 노비스 코스",
@@ -11274,7 +11300,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784258",
         "mediaId": "194662490",
         "postTitle": "비기너 노비스 코스",
@@ -11304,7 +11330,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114788695",
         "mediaId": "194678510",
         "postTitle": "점핑/어질리티/어드밴스드 코스",
@@ -11334,7 +11360,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114788695",
         "mediaId": "194678511",
         "postTitle": "점핑/어질리티/어드밴스드 코스",
@@ -11364,7 +11390,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114788695",
         "mediaId": "194678512",
         "postTitle": "점핑/어질리티/어드밴스드 코스",
@@ -11392,7 +11418,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194664200",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11420,7 +11446,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194665632",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11448,7 +11474,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194666553",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11476,7 +11502,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194667148",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11504,7 +11530,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194668760",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11532,7 +11558,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194674145",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11560,7 +11586,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194669810",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11588,7 +11614,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194670243",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11616,7 +11642,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194671216",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11644,7 +11670,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194673285",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11672,7 +11698,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194673742",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11700,7 +11726,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194674176",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11728,7 +11754,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194674512",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11756,7 +11782,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194675859",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11784,7 +11810,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194676655",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11812,7 +11838,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194677033",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11840,7 +11866,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194677443",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11868,7 +11894,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194677744",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11896,7 +11922,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114784448",
         "mediaId": "194678456",
         "postTitle": "26.10.3 오독스 비기너/노비스 기록",
@@ -11924,7 +11950,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194679903",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -11952,7 +11978,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194680095",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -11980,7 +12006,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194680380",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12008,7 +12034,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194680568",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12036,7 +12062,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194681010",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12064,7 +12090,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194681759",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12092,7 +12118,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194682498",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12120,7 +12146,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194682706",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12148,7 +12174,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194683120",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12176,7 +12202,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194683670",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12204,7 +12230,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194683809",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12232,7 +12258,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194683998",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12260,7 +12286,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194684135",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12288,7 +12314,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "114789041",
         "mediaId": "194684294",
         "postTitle": "26.10.3 오독스 점/어/어드 기록",
@@ -12318,7 +12344,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113713694",
         "mediaId": "189228685",
         "postTitle": "SONY 코스",
@@ -12348,7 +12374,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113713694",
         "mediaId": "189228686",
         "postTitle": "SONY 코스",
@@ -12378,7 +12404,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113713694",
         "mediaId": "189228687",
         "postTitle": "SONY 코스",
@@ -12406,7 +12432,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113717255",
         "mediaId": "189250082",
         "postTitle": "SONY 기록표",
@@ -12434,7 +12460,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113717255",
         "mediaId": "189250083",
         "postTitle": "SONY 기록표",
@@ -12462,7 +12488,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113717255",
         "mediaId": "189250084",
         "postTitle": "SONY 기록표",
@@ -12490,7 +12516,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113717255",
         "mediaId": "189250085",
         "postTitle": "SONY 기록표",
@@ -12518,7 +12544,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113579781",
         "mediaId": "188519415",
         "postTitle": "오디너리독스배 출진표 최종",
@@ -12546,7 +12572,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113579781",
         "mediaId": "188519416",
         "postTitle": "오디너리독스배 출진표 최종",
@@ -12574,7 +12600,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113579781",
         "mediaId": "188519420",
         "postTitle": "오디너리독스배 출진표 최종",
@@ -12602,7 +12628,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113579781",
         "mediaId": "188519421",
         "postTitle": "오디너리독스배 출진표 최종",
@@ -12630,7 +12656,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113579781",
         "mediaId": "188519424",
         "postTitle": "오디너리독스배 출진표 최종",
@@ -12658,7 +12684,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113579781",
         "mediaId": "188519427",
         "postTitle": "오디너리독스배 출진표 최종",
@@ -12688,7 +12714,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113582931",
         "mediaId": "188536886",
         "postTitle": "6/7 오디너리독스배 코스",
@@ -12718,7 +12744,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113582931",
         "mediaId": "188536887",
         "postTitle": "6/7 오디너리독스배 코스",
@@ -12748,7 +12774,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113582931",
         "mediaId": "188536888",
         "postTitle": "6/7 오디너리독스배 코스",
@@ -12778,7 +12804,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113582931",
         "mediaId": "188536890",
         "postTitle": "6/7 오디너리독스배 코스",
@@ -12808,7 +12834,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113582931",
         "mediaId": "188536891",
         "postTitle": "6/7 오디너리독스배 코스",
@@ -12838,7 +12864,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113582931",
         "mediaId": "188536892",
         "postTitle": "6/7 오디너리독스배 코스",
@@ -12866,7 +12892,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188549968",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -12894,7 +12920,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188549969",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -12922,7 +12948,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188549970",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -12950,7 +12976,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550008",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -12978,7 +13004,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550009",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13006,7 +13032,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550011",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13034,7 +13060,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550016",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13062,7 +13088,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550017",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13090,7 +13116,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550018",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13118,7 +13144,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550019",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13146,7 +13172,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550020",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13174,7 +13200,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550021",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13202,7 +13228,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550022",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13230,7 +13256,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550023",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13258,7 +13284,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550024",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13286,7 +13312,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "113583699",
         "mediaId": "188550025",
         "postTitle": "6/7 제 1회 오디너리독스배 기록",
@@ -13314,7 +13340,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112743768",
         "mediaId": "184781312",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
@@ -13342,7 +13368,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112743768",
         "mediaId": "184781313",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
@@ -13370,7 +13396,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112743768",
         "mediaId": "184781315",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
@@ -13398,7 +13424,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112743768",
         "mediaId": "184781316",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 출진표",
@@ -13428,7 +13454,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112867941",
         "mediaId": "184802545",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 코스 맵",
@@ -13458,7 +13484,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112867941",
         "mediaId": "184802568",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 코스 맵",
@@ -13488,7 +13514,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868180",
         "mediaId": "184803991",
         "postTitle": "점핑,어질리티 코스",
@@ -13518,7 +13544,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868180",
         "mediaId": "184803992",
         "postTitle": "점핑,어질리티 코스",
@@ -13546,7 +13572,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868421",
         "mediaId": "184805401",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
@@ -13574,7 +13600,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868421",
         "mediaId": "184805398",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
@@ -13602,7 +13628,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868421",
         "mediaId": "184812510",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
@@ -13630,7 +13656,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868421",
         "mediaId": "184812511",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
@@ -13658,7 +13684,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868421",
         "mediaId": "184809475",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
@@ -13686,7 +13712,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868421",
         "mediaId": "184809474",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
@@ -13714,7 +13740,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868421",
         "mediaId": "184815733",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",
@@ -13742,7 +13768,7 @@
       "source": {
         "provider": "kakao",
         "channelId": "_MPeBn",
-        "channelName": "PDC어질리티",
+        "channelName": "PDC 어질리티",
         "postId": "112868421",
         "mediaId": "184815732",
         "postTitle": "2026년 3월 29일 제3회 PDC 어질리티 챔피언쉽 기록",

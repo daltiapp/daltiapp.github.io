@@ -44,6 +44,13 @@
       "items": {
         "$ref": "#/$defs/asset"
       }
+    },
+    "channels": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/channel"
+      }
     }
   },
   "additionalProperties": false,
@@ -350,6 +357,40 @@
           }
         }
       ]
+    },
+    "channel": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "provider",
+        "url"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provider": {
+          "enum": [
+            "kakao",
+            "manual"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "pattern": "^https://"
+        }
+      },
+      "additionalProperties": false
     }
   }
 }
