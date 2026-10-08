@@ -1,0 +1,473 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "20261009.1",
+  "updatedAt": "2026-10-09T03:13:02+09:00",
+  "mapCategories": [
+    {
+      "id": "ranking",
+      "name": "랭킹전"
+    },
+    {
+      "id": "promotion",
+      "name": "승급전"
+    },
+    {
+      "id": "awc",
+      "name": "AWC"
+    },
+    {
+      "id": "training",
+      "name": "트레이닝맵"
+    }
+  ],
+  "events": [
+    {
+      "id": "event-koreaagility-kac80",
+      "name": "제80회 KKF KAC 승급전",
+      "startDate": "2026-08-08",
+      "endDate": "2026-08-08",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": "코리아어질리티클럽"
+    },
+    {
+      "id": "event-koreaagility-advanced-20260830",
+      "name": "KKF 어질리티 위원장배 어드밴스드 랭킹전",
+      "startDate": "2026-08-30",
+      "endDate": "2026-08-30",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "코리아어질리티클럽"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-kakao-BfHUb-191555930",
+      "kind": "entry_list",
+      "title": "제80회 KKF KAC 승급전 출진표 1",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [],
+      "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다🫡\n\n*해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b7NdBx/dJMcacRv9a5/jmq8gel8O82gn93pjt0Do0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b7NdBx/dJMcacRv9a5/jmq8gel8O82gn93pjt0Do0/img_s.jpg",
+        "width": 1179,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114141097",
+        "mediaId": "191555930",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 출진표",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114141097",
+        "publishedAt": "2026-08-01T08:36:57+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191555933",
+      "kind": "entry_list",
+      "title": "제80회 KKF KAC 승급전 출진표 2",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [],
+      "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다🫡\n\n*해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Ap7zj/dJMcahk8LNE/glW1NVWKV4yppW25ESNhZ0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Ap7zj/dJMcahk8LNE/glW1NVWKV4yppW25ESNhZ0/img_s.jpg",
+        "width": 1289,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114141097",
+        "mediaId": "191555933",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 출진표",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114141097",
+        "publishedAt": "2026-08-01T08:36:57+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191555942",
+      "kind": "entry_list",
+      "title": "제80회 KKF KAC 승급전 출진표 3",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [],
+      "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다🫡\n\n*해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/X8Vo3/dJMcaftZGSv/KbclpfSIVwoJ7EXbbarsk0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/X8Vo3/dJMcaftZGSv/KbclpfSIVwoJ7EXbbarsk0/img_s.jpg",
+        "width": 1080,
+        "height": 1123,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114141097",
+        "mediaId": "191555942",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 출진표",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114141097",
+        "publishedAt": "2026-08-01T08:36:57+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191555944",
+      "kind": "entry_list",
+      "title": "제80회 KKF KAC 승급전 출진표 4",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [],
+      "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다🫡\n\n*해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/beFBg5/dJMcaalRyRS/8kLbBJgO1zHbnfXZKwcgQ1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/beFBg5/dJMcaalRyRS/8kLbBJgO1zHbnfXZKwcgQ1/img_s.jpg",
+        "width": 883,
+        "height": 1021,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114141097",
+        "mediaId": "191555944",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 출진표",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114141097",
+        "publishedAt": "2026-08-01T08:36:57+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191797212",
+      "kind": "course_map",
+      "title": "제80회 KKF KAC 승급전 코스맵 1",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dFAr9J/dJMcagGAvIy/CIFtZm1vzQ7wgX6SUskvA0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dFAr9J/dJMcagGAvIy/CIFtZm1vzQ7wgX6SUskvA0/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114213123",
+        "mediaId": "191797212",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114213123",
+        "publishedAt": "2026-08-08T13:25:39+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191797213",
+      "kind": "course_map",
+      "title": "제80회 KKF KAC 승급전 코스맵 2",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/tnqff/dJMcacYpioc/aft7Loh78AUrWORXv9u29k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/tnqff/dJMcacYpioc/aft7Loh78AUrWORXv9u29k/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114213123",
+        "mediaId": "191797213",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114213123",
+        "publishedAt": "2026-08-08T13:25:39+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191802159",
+      "kind": "course_map",
+      "title": "제80회 KKF KAC 승급전 코스맵 3",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bduP8P/dJMcaasNFQ5/7v2nLaikbADvZttugGDXZ1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bduP8P/dJMcaasNFQ5/7v2nLaikbADvZttugGDXZ1/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114213123",
+        "mediaId": "191802159",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114213123",
+        "publishedAt": "2026-08-08T13:25:39+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191802160",
+      "kind": "course_map",
+      "title": "제80회 KKF KAC 승급전 코스맵 4",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bDhMbq/dJMcacKXonk/DUm2wTU0jKyuC8KrI6S941/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bDhMbq/dJMcacKXonk/DUm2wTU0jKyuC8KrI6S941/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114213123",
+        "mediaId": "191802160",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114213123",
+        "publishedAt": "2026-08-08T13:25:39+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191806431",
+      "kind": "result",
+      "title": "제80회 KKF KAC 승급전 대회결과 1",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/k9YxC/dJMcadJHdRm/pqYt5Od2oIFCUZZknIuXPk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/k9YxC/dJMcadJHdRm/pqYt5Od2oIFCUZZknIuXPk/img_s.jpg",
+        "width": 975,
+        "height": 821,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114214772",
+        "mediaId": "191806431",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 기록지",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114214772",
+        "publishedAt": "2026-08-08T18:34:08+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191806432",
+      "kind": "result",
+      "title": "제80회 KKF KAC 승급전 대회결과 2",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/RWFjd/dJMcaa7q4GC/075kGzXFmzFOCM4D6SSSS1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/RWFjd/dJMcaa7q4GC/075kGzXFmzFOCM4D6SSSS1/img_s.jpg",
+        "width": 930,
+        "height": 871,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114214772",
+        "mediaId": "191806432",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 기록지",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114214772",
+        "publishedAt": "2026-08-08T18:34:08+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191806433",
+      "kind": "result",
+      "title": "제80회 KKF KAC 승급전 대회결과 3",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bNLK8M/dJMcahyEREp/j49Eatg7HNIWk4dQTNUVE1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bNLK8M/dJMcahyEREp/j49Eatg7HNIWk4dQTNUVE1/img_s.jpg",
+        "width": 908,
+        "height": 1052,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114214772",
+        "mediaId": "191806433",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 기록지",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114214772",
+        "publishedAt": "2026-08-08T18:34:08+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-191806435",
+      "kind": "result",
+      "title": "제80회 KKF KAC 승급전 대회결과 4",
+      "eventIds": [
+        "event-koreaagility-kac80"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bqRKf3/dJMcadJHdR5/6gBCKUiQ9v57ssNwo3pr3K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bqRKf3/dJMcadJHdR5/6gBCKUiQ9v57ssNwo3pr3K/img_s.jpg",
+        "width": 871,
+        "height": 961,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114214772",
+        "mediaId": "191806435",
+        "postTitle": "8.8(토) 제 80회 KKF KAC 승급전 기록지",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114214772",
+        "publishedAt": "2026-08-08T18:34:08+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-192282475",
+      "kind": "entry_list",
+      "title": "KKF 어질리티 위원장배 어드밴스드 랭킹전 출진표",
+      "eventIds": [
+        "event-koreaagility-advanced-20260830"
+      ],
+      "mapCategories": [],
+      "notice": "수정사항은 8월 23일(일)까지 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bqaNZY/dJMcajccXry/iPfxCS7W0kwchVbltwQ031/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bqaNZY/dJMcajccXry/iPfxCS7W0kwchVbltwQ031/img_s.jpg",
+        "width": 954,
+        "height": 954,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114306930",
+        "mediaId": "192282475",
+        "postTitle": "8.30(일) 제 26회 KKF KAC 비노 승급전 출진표",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114306930",
+        "publishedAt": "2026-08-19T13:29:55+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-192836905",
+      "kind": "course_map",
+      "title": "KKF 어질리티 위원장배 어드밴스드 랭킹전 코스맵",
+      "eventIds": [
+        "event-koreaagility-advanced-20260830"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/TDND1/dJMcab6xCSx/Qw83k01pLAF0cqeYAjt8Dk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/TDND1/dJMcab6xCSx/Qw83k01pLAF0cqeYAjt8Dk/img_s.jpg",
+        "width": 1080,
+        "height": 1396,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114414029",
+        "mediaId": "192836905",
+        "postTitle": "8.30(일) 제 26회 KKF KAC비노 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114414029",
+        "publishedAt": "2026-08-30T12:17:06+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-BfHUb-192840063",
+      "kind": "result",
+      "title": "KKF 어질리티 위원장배 어드밴스드 랭킹전 대회결과",
+      "eventIds": [
+        "event-koreaagility-advanced-20260830"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ciGwuA/dJMcaiYLVKq/br9xpPrmuGJkzmFOxTUFyk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ciGwuA/dJMcaiYLVKq/br9xpPrmuGJkzmFOxTUFyk/img_s.jpg",
+        "width": 1085,
+        "height": 1143,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_BfHUb",
+        "channelName": "코리아어질리티",
+        "postId": "114414689",
+        "mediaId": "192840063",
+        "postTitle": "8.30 (일) KKF 어질리티 위원장배 어드밴스 랭킹전 기록",
+        "postUrl": "https://pf.kakao.com/_BfHUb/114414689",
+        "publishedAt": "2026-08-30T14:52:07+09:00",
+        "imageOrder": 1
+      }
+    }
+  ]
+}

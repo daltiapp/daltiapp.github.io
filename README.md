@@ -12,6 +12,8 @@
 | `ak/vN/` | 활성 및 rollback용 JSON | JSON-only, 버전 폴더 임의 이동/삭제 금지 |
 | manifest의 `files.notice` 디렉터리 | 생성된 공지 목록·상세 | 스크래퍼 재생성만 허용, 수동 편집 금지 |
 | manifest의 `files.match`, `files.venue` 등 | 승인된 서비스 데이터 | 기존 필드·이미지·날짜 계약과 pretty JSON 유지 |
+| manifest의 `files.library` | 대회 출진표·코스맵·결과 및 독립 코스맵 자료실 | [자료실 계약과 추가 절차](docs/AGILITY_LIBRARY.md)에 따라 이미지별 등록·검증 |
+| `schemas/agility-library-v1.schema.json` | 자료실 JSON의 필드·타입 검증 계약 | 자료실 필드 변경과 함께 확인 |
 | `review/schedule/` | 수집 후보·검수 상태 | 사람이 승인/거절한 내용과 원문 근거 보존 |
 | 외부 `DaltiWeb/data-studio` 저장소 | 로컬 검수·승인 도구 | 데이터 저장소 경로를 설정해 사용; 소스는 이 저장소에 포함하지 않음 |
 | `docs/tickets/` | 구조 변경 제안과 구현 티켓 | 제안과 배포 완료 상태를 구분 |
@@ -36,5 +38,6 @@ Python 하네스는 네트워크·Git·푸시 상태를 변경하지 않는다. 
 
 - [AGENTS.md](AGENTS.md): 보안·푸시 안전·변경 규칙
 - [AGILITYKOREA_DATA_VERSIONING.md](AGILITYKOREA_DATA_VERSIONING.md): manifest, JSON, 이미지, 공지 첨부파일 계약
+- [docs/AGILITY_LIBRARY.md](docs/AGILITY_LIBRARY.md): 자료실 앱 조회, 맵 카테고리, 자료 추가·검증 절차
 - 모든 앱 푸시는 1회 실행의 실제 대상이 3건 이상이면 차단한다. 리팩토링 검증을 위해 실제 발송을 실행하지 않는다.
 - 공지의 `source + source_seq → id` 매핑은 보존하며, 충돌 시 수동 JSON 수정이나 레지스트리 초기화로 우회하지 않는다.

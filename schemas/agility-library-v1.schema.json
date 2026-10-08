@@ -1,0 +1,355 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daltiapp.github.io/schemas/agility-library-v1.schema.json",
+  "title": "AgilityKorea image library v1",
+  "description": "대회 출진표·코스맵·결과 이미지와 독립 코스맵 자료실의 앱 배포 계약.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "dataVersion",
+    "updatedAt",
+    "mapCategories",
+    "events",
+    "assets"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "dataVersion": {
+      "type": "string",
+      "pattern": "^\\d{8}\\.[1-9]\\d*$"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "mapCategories": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/mapCategory"
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "mapCategory": {
+      "type": "object",
+      "required": [
+        "id",
+        "name"
+      ],
+      "properties": {
+        "id": {
+          "enum": [
+            "ranking",
+            "promotion",
+            "awc",
+            "training"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "startDate",
+        "endDate",
+        "competitionGroup",
+        "organizer"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "startDate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "endDate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "competitionGroup": {
+          "enum": [
+            "OFFICIAL_PROMOTION",
+            "UNOFFICIAL_PROMOTION_EVENT",
+            "RANKING_EVENT",
+            "INTERNATIONAL_EVENT",
+            "OTHER_EVENT"
+          ]
+        },
+        "organizer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "image": {
+      "type": "object",
+      "required": [
+        "url",
+        "thumbnailUrl",
+        "width",
+        "height",
+        "mimeType"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "thumbnailUrl": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "width": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "height": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "mimeType": {
+          "type": "string",
+          "pattern": "^image/"
+        }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "provider",
+        "postUrl"
+      ],
+      "properties": {
+        "provider": {
+          "enum": [
+            "kakao",
+            "manual"
+          ]
+        },
+        "channelId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "channelName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "postId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mediaId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "postTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "postUrl": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "publishedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "imageOrder": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "provider": {
+                "const": "kakao"
+              }
+            },
+            "required": [
+              "provider"
+            ]
+          },
+          "then": {
+            "required": [
+              "channelId",
+              "channelName",
+              "postId",
+              "mediaId",
+              "postTitle",
+              "publishedAt",
+              "imageOrder"
+            ],
+            "properties": {
+              "postUrl": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://"
+              },
+              "publishedAt": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "asset": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "title",
+        "eventIds",
+        "mapCategories",
+        "notice",
+        "image",
+        "source"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "entry_list",
+            "course_map",
+            "result"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "eventIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "mapCategories": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "ranking",
+              "promotion",
+              "awc",
+              "training"
+            ]
+          }
+        },
+        "notice": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "image": {
+          "$ref": "#/$defs/image"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "course_map"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "properties": {
+              "mapCategories": {
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "mapCategories": {
+                "maxItems": 0
+              },
+              "eventIds": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

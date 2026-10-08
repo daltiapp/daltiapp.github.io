@@ -61,6 +61,17 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 - 원문에 레벨이 없는 점핑·어질리티 대회는 `점핑`, `어질리티`를 사용한다. 원문에 별도 종목명이 명확히 적힌 경우에만 그 명칭을 그대로 보존한다.
 - 이 규칙은 기존 일정의 표기와 다음 Instagram·공식 게시판 수집 결과를 v2·v3에 반영할 때 모두 적용한다.
 
+## 자료실 규칙
+
+- 자료실은 manifest의 `files.library`로 제공하며 앱은 `basePath + files.library`로 로드한다. 최초 경로는 `library/library.json`이다.
+- `events`는 대회 정보, `assets`는 이미지별 자료다. 출진표·코스맵·결과는 `kind`로 구분하고, 대회 연결은 `eventIds`, 맵 조회는 `mapCategories`로 판별한다.
+- 맵 카테고리는 `ranking`, `promotion`, `awc`, `training`이다. 대회 없이 등록하는 코스맵은 `eventIds: []`를 사용한다.
+- 원문 이미지의 직접 URL과 출처·첨부 순서를 보존한다. 원문 이미지가 여러 대회의 자료를 포함하면 이미지 내용으로 각각 분류하고, 게시물 제목만으로 전부 같은 대회에 연결하지 않는다.
+- 자료실 이미지는 `image.url`과 `image.thumbnailUrl`에서 직접 로드한다. 일정용 `match.json.detailImages`의 Drive URL 계약과 별도인 자료실 계약이다.
+- `files.library` 추가는 기존 데이터 형식을 바꾸지 않는 호환 확장이다. manifest의 기존 `schemaVersion`과 `basePath`를 유지하고 `dataVersion`·`forceRefreshKey`를 갱신한다.
+- 자료실 내부 `schemaVersion: 1`은 자료실 전용 스키마 버전이다. 데이터 추가 시 자료실 `dataVersion`·`updatedAt`과 manifest를 같은 커밋에서 갱신한다.
+- 필드와 타입은 [자료실 JSON Schema](schemas/agility-library-v1.schema.json), 앱 조회와 추가·검증 절차는 [자료실 계약](docs/AGILITY_LIBRARY.md)을 따른다.
+
 ## 세미나 규칙
 
 - v1 세미나 JSON은 `/ak/v1/seminar/seminar.json`에 보존한다.
