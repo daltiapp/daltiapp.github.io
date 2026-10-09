@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261010.2",
-  "updatedAt": "2026-10-10T01:19:45+09:00",
+  "dataVersion": "20261010.3",
+  "updatedAt": "2026-10-10T01:32:09+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -1365,6 +1365,14 @@
       "startDate": null,
       "endDate": null,
       "competitionGroup": "INTERNATIONAL_EVENT",
+      "organizer": null
+    },
+    {
+      "id": "event-waldbow-801",
+      "name": "2026년 10월 10일 토요일 WALDBOW OPEN",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "competitionGroup": "RANKING_EVENT",
       "organizer": null
     }
   ],
@@ -84128,9 +84136,575 @@
         "postUrl": "https://pcmtuno.wordpress.com/2009/02/20/wc-1996",
         "imageOrder": 4
       }
+    },
+    {
+      "id": "asset-waldbow-801-course_map-6a2dac53b1b2ec8c",
+      "kind": "course_map",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 마스터 코스",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=16SSmWI5KvBHx7G8Q8oCYSusRGB-Si7Me",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=12CO25A461B1V9p5rrkALRSSwskcpt2En",
+        "width": 1501,
+        "height": 1057,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "course_map-6a2dac53b1b2ec8c",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-waldbow-801-course_map-63379f29dc09ee00",
+      "kind": "course_map",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 스텐다드 코스",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1hFt8_zNNZov-E8qsu7cs-RvVrCuB5cKU",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1UcWd4Ujw0wIE9zJfLKSpkuKEW_ax6HLi",
+        "width": 1501,
+        "height": 1057,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "course_map-63379f29dc09ee00",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-waldbow-801-course_map-ea2a7e4482d2a6f0",
+      "kind": "course_map",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 마스터 코스",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=12W7QG14vAcJGTRxmhO_lnnnb1JQHJ86-",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1J1OUtPXxcnvCpQVB-RwyyIlx5l-UclLL",
+        "width": 1501,
+        "height": 1057,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "course_map-ea2a7e4482d2a6f0",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-waldbow-801-course_map-75c8b2c01475a5fe",
+      "kind": "course_map",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 스텐다드 코스",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1jSpP50iMkplAMBVn7rE5C4AZCvAx8HIz",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=14cQ49I33fUf_MkYAsoi9uYxfNkzoF-nc",
+        "width": 1501,
+        "height": 1057,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "course_map-75c8b2c01475a5fe",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-waldbow-801-course_map-a3ab18c2dcb22df7",
+      "kind": "course_map",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 1 코스",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1sIU5vfQEy10HBoFkkg0daRaD69ILkib3",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1EFcgICGxEcWTsyIugy6tNkUi7maYQfaZ",
+        "width": 1501,
+        "height": 1057,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "course_map-a3ab18c2dcb22df7",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-waldbow-801-course_map-8fa8962da8c02736",
+      "kind": "course_map",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 2 코스",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1bi95o4ED7qhBlQQQPbotlkUBHOremO2n",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1auXf_Zxt9MqAUcu94uo3rG4i7bVHd0I6",
+        "width": 1501,
+        "height": 1057,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "course_map-8fa8962da8c02736",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-waldbow-801-course_map-e78d4f972ddd7acb",
+      "kind": "course_map",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 3 코스",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1_4Os8_eH7o-8s1PTvNK5Aj_mFOdHst97",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1cYApkS0YevLp_0MIInWI2vD7mrSFCtO6",
+        "width": 1501,
+        "height": 1057,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "course_map-e78d4f972ddd7acb",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-waldbow-288-course_map-cbb50921dcf9037a",
+      "kind": "course_map",
+      "title": "2025.11.23(일) KKF AGILITY 승급전 · Jumping 1 코스",
+      "eventIds": [
+        "event-waldbow-288"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1ilwMUNwpM4z4ATsiPp0URSTQm_qrOey6",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1JDdeWOzPEWy5Q1AAErZLxi24zNo3eGAv",
+        "width": 1319,
+        "height": 989,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "288",
+        "mediaId": "course_map-cbb50921dcf9037a",
+        "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-waldbow-288-course_map-cecd567e4c608cac",
+      "kind": "course_map",
+      "title": "2025.11.23(일) KKF AGILITY 승급전 · Jumping 2 코스",
+      "eventIds": [
+        "event-waldbow-288"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1xFS94cuuyCInSL9jZoRdzL7Ho8v4GRUN",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1N06h7J2vw-4oWfXXPFsId8sapCcmmT3x",
+        "width": 1050,
+        "height": 1725,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "288",
+        "mediaId": "course_map-cecd567e4c608cac",
+        "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-waldbow-288-course_map-88bfa49aa3b4f69a",
+      "kind": "course_map",
+      "title": "2025.11.23(일) KKF AGILITY 승급전 · Jumping 3 코스",
+      "eventIds": [
+        "event-waldbow-288"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1yUNFZQQR8aOmoLZyuweuSnBhEfaydw6a",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1FyNrrtMxifncBIcVqfbW8lGLs1-kIwvx",
+        "width": 1050,
+        "height": 1725,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "288",
+        "mediaId": "course_map-88bfa49aa3b4f69a",
+        "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-waldbow-288-course_map-bd879db52d16b229",
+      "kind": "course_map",
+      "title": "2025.11.23(일) KKF AGILITY 승급전 · Agility 1 코스",
+      "eventIds": [
+        "event-waldbow-288"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1gz-RaRSZXFxB_6BBAlImcM2hYpHp_NFD",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1hThEmT5tgCkJOP0mIM2wTge9X0mWjDLk",
+        "width": 1050,
+        "height": 1725,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "288",
+        "mediaId": "course_map-bd879db52d16b229",
+        "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-waldbow-288-course_map-bc66a22983db32a1",
+      "kind": "course_map",
+      "title": "2025.11.23(일) KKF AGILITY 승급전 · Agility 2 코스",
+      "eventIds": [
+        "event-waldbow-288"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=16qhCB_pQsOrpKa1Uh0CTy9TMvwkvIwP1",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=16OaGgiR-4booEyfslOlqpSa5UT_U2M9i",
+        "width": 1050,
+        "height": 1725,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "288",
+        "mediaId": "course_map-bc66a22983db32a1",
+        "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-waldbow-288-course_map-86f74f574afd2449",
+      "kind": "course_map",
+      "title": "2025.11.23(일) KKF AGILITY 승급전 · Agility 3 코스",
+      "eventIds": [
+        "event-waldbow-288"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1VGDbEo6_ZUObLhOF_DMWFUN5rD4qkewz",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1oYV2P0DUFZRr6Ys5V_pYRl-8KSR1C_QQ",
+        "width": 1050,
+        "height": 1725,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "288",
+        "mediaId": "course_map-86f74f574afd2449",
+        "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+        "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+        "imageOrder": 6
+      }
     }
   ],
   "courseMapGroups": [
+    {
+      "id": "event:event-waldbow-801",
+      "eventId": "event-waldbow-801",
+      "maps": [
+        {
+          "id": "asset-waldbow-801-course_map-6a2dac53b1b2ec8c",
+          "kind": "course_map",
+          "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 마스터 코스",
+          "eventIds": [
+            "event-waldbow-801"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=16SSmWI5KvBHx7G8Q8oCYSusRGB-Si7Me",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=12CO25A461B1V9p5rrkALRSSwskcpt2En",
+            "width": 1501,
+            "height": 1057,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "801",
+            "mediaId": "course_map-6a2dac53b1b2ec8c",
+            "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-waldbow-801-course_map-63379f29dc09ee00",
+          "kind": "course_map",
+          "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 스텐다드 코스",
+          "eventIds": [
+            "event-waldbow-801"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1hFt8_zNNZov-E8qsu7cs-RvVrCuB5cKU",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1UcWd4Ujw0wIE9zJfLKSpkuKEW_ax6HLi",
+            "width": 1501,
+            "height": 1057,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "801",
+            "mediaId": "course_map-63379f29dc09ee00",
+            "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-waldbow-801-course_map-ea2a7e4482d2a6f0",
+          "kind": "course_map",
+          "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 마스터 코스",
+          "eventIds": [
+            "event-waldbow-801"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=12W7QG14vAcJGTRxmhO_lnnnb1JQHJ86-",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1J1OUtPXxcnvCpQVB-RwyyIlx5l-UclLL",
+            "width": 1501,
+            "height": 1057,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "801",
+            "mediaId": "course_map-ea2a7e4482d2a6f0",
+            "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 3
+          }
+        },
+        {
+          "id": "asset-waldbow-801-course_map-75c8b2c01475a5fe",
+          "kind": "course_map",
+          "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 스텐다드 코스",
+          "eventIds": [
+            "event-waldbow-801"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1jSpP50iMkplAMBVn7rE5C4AZCvAx8HIz",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=14cQ49I33fUf_MkYAsoi9uYxfNkzoF-nc",
+            "width": 1501,
+            "height": 1057,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "801",
+            "mediaId": "course_map-75c8b2c01475a5fe",
+            "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 4
+          }
+        },
+        {
+          "id": "asset-waldbow-801-course_map-a3ab18c2dcb22df7",
+          "kind": "course_map",
+          "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 1 코스",
+          "eventIds": [
+            "event-waldbow-801"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1sIU5vfQEy10HBoFkkg0daRaD69ILkib3",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1EFcgICGxEcWTsyIugy6tNkUi7maYQfaZ",
+            "width": 1501,
+            "height": 1057,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "801",
+            "mediaId": "course_map-a3ab18c2dcb22df7",
+            "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 5
+          }
+        },
+        {
+          "id": "asset-waldbow-801-course_map-8fa8962da8c02736",
+          "kind": "course_map",
+          "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 2 코스",
+          "eventIds": [
+            "event-waldbow-801"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1bi95o4ED7qhBlQQQPbotlkUBHOremO2n",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1auXf_Zxt9MqAUcu94uo3rG4i7bVHd0I6",
+            "width": 1501,
+            "height": 1057,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "801",
+            "mediaId": "course_map-8fa8962da8c02736",
+            "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 6
+          }
+        },
+        {
+          "id": "asset-waldbow-801-course_map-e78d4f972ddd7acb",
+          "kind": "course_map",
+          "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 3 코스",
+          "eventIds": [
+            "event-waldbow-801"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1_4Os8_eH7o-8s1PTvNK5Aj_mFOdHst97",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1cYApkS0YevLp_0MIInWI2vD7mrSFCtO6",
+            "width": 1501,
+            "height": 1057,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "801",
+            "mediaId": "course_map-e78d4f972ddd7acb",
+            "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 7
+          }
+        }
+      ]
+    },
     {
       "id": "event:event-koreaagility-beno27",
       "eventId": "event-koreaagility-beno27",
@@ -88429,6 +89003,180 @@
             "postUrl": "https://pf.kakao.com/_cNjMG/111500662",
             "publishedAt": "2025-11-25T21:07:11+09:00",
             "imageOrder": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "event:event-waldbow-288",
+      "eventId": "event-waldbow-288",
+      "maps": [
+        {
+          "id": "asset-waldbow-288-course_map-cbb50921dcf9037a",
+          "kind": "course_map",
+          "title": "2025.11.23(일) KKF AGILITY 승급전 · Jumping 1 코스",
+          "eventIds": [
+            "event-waldbow-288"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1ilwMUNwpM4z4ATsiPp0URSTQm_qrOey6",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1JDdeWOzPEWy5Q1AAErZLxi24zNo3eGAv",
+            "width": 1319,
+            "height": 989,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "288",
+            "mediaId": "course_map-cbb50921dcf9037a",
+            "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-waldbow-288-course_map-cecd567e4c608cac",
+          "kind": "course_map",
+          "title": "2025.11.23(일) KKF AGILITY 승급전 · Jumping 2 코스",
+          "eventIds": [
+            "event-waldbow-288"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1xFS94cuuyCInSL9jZoRdzL7Ho8v4GRUN",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1N06h7J2vw-4oWfXXPFsId8sapCcmmT3x",
+            "width": 1050,
+            "height": 1725,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "288",
+            "mediaId": "course_map-cecd567e4c608cac",
+            "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-waldbow-288-course_map-88bfa49aa3b4f69a",
+          "kind": "course_map",
+          "title": "2025.11.23(일) KKF AGILITY 승급전 · Jumping 3 코스",
+          "eventIds": [
+            "event-waldbow-288"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1yUNFZQQR8aOmoLZyuweuSnBhEfaydw6a",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1FyNrrtMxifncBIcVqfbW8lGLs1-kIwvx",
+            "width": 1050,
+            "height": 1725,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "288",
+            "mediaId": "course_map-88bfa49aa3b4f69a",
+            "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 3
+          }
+        },
+        {
+          "id": "asset-waldbow-288-course_map-bd879db52d16b229",
+          "kind": "course_map",
+          "title": "2025.11.23(일) KKF AGILITY 승급전 · Agility 1 코스",
+          "eventIds": [
+            "event-waldbow-288"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1gz-RaRSZXFxB_6BBAlImcM2hYpHp_NFD",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1hThEmT5tgCkJOP0mIM2wTge9X0mWjDLk",
+            "width": 1050,
+            "height": 1725,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "288",
+            "mediaId": "course_map-bd879db52d16b229",
+            "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 4
+          }
+        },
+        {
+          "id": "asset-waldbow-288-course_map-bc66a22983db32a1",
+          "kind": "course_map",
+          "title": "2025.11.23(일) KKF AGILITY 승급전 · Agility 2 코스",
+          "eventIds": [
+            "event-waldbow-288"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=16qhCB_pQsOrpKa1Uh0CTy9TMvwkvIwP1",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=16OaGgiR-4booEyfslOlqpSa5UT_U2M9i",
+            "width": 1050,
+            "height": 1725,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "288",
+            "mediaId": "course_map-bc66a22983db32a1",
+            "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 5
+          }
+        },
+        {
+          "id": "asset-waldbow-288-course_map-86f74f574afd2449",
+          "kind": "course_map",
+          "title": "2025.11.23(일) KKF AGILITY 승급전 · Agility 3 코스",
+          "eventIds": [
+            "event-waldbow-288"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "notice": null,
+          "image": {
+            "url": "https://drive.google.com/uc?export=view&id=1VGDbEo6_ZUObLhOF_DMWFUN5rD4qkewz",
+            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1oYV2P0DUFZRr6Ys5V_pYRl-8KSR1C_QQ",
+            "width": 1050,
+            "height": 1725,
+            "mimeType": "image/png"
+          },
+          "source": {
+            "provider": "manual",
+            "channelName": "발트바우",
+            "postId": "288",
+            "mediaId": "course_map-86f74f574afd2449",
+            "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
+            "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
+            "imageOrder": 6
           }
         }
       ]
