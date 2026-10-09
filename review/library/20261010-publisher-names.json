@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-10T01:06:34+09:00",
+  "dataVersion": "20261010.1",
+  "channelNames": {
+    "_BfHUb": "코리아어질리티",
+    "_HlJFG": "리즈",
+    "_MPeBn": "PDC",
+    "_cNjMG": "하이스트"
+  },
+  "siteDisplayNames": {
+    "website:waldbow.com": "발트바우",
+    "website:agility.co.kr": "코리아어질리티"
+  },
+  "changes": "display names only; known provider/IDs and original channel order preserved",
+  "preservation": {
+    "assets": 2892,
+    "events": 165,
+    "courseMapGroups": 154,
+    "courseMaps": 885,
+    "waldbowEvents": 19,
+    "allNonNameAssetFieldsUnchanged": true,
+    "allEventFieldsUnchanged": true
+  },
+  "verification": {
+    "activeDataHarnessScopeAll": "passed",
+    "pythonLibraryTests": 31,
+    "appFilterViewMapperTests": 78,
+    "actualAppParserAndPublisherNames": "passed",
+    "communityContractTests": 384,
+    "documentationAndRegressionGuards": "passed",
+    "flutterAnalyze": "passed"
+  }
+}

@@ -87,14 +87,16 @@ PDC 출진표 4장과 코스맵 2장은 원문 응답의 PNG 원본 주소·MIME
 
 ## 동적 채널
 
-`channels`의 각 항목은 `id`, `name`, `provider`, `url`을 갖는다. `id`는 변경하지 않는 채널 식별자이며 카카오에서는 원문의 프로필 ID를 그대로 사용한다. `name`은 앱 표시명이다. 현재 팔레드차밍의 채널 ID는 `_MPeBn`, 앱 표시명은 `PDC 어질리티`다. `provider`는 `kakao` 또는 `manual`, `url`은 확인한 공식 HTTPS 주소 또는 `null`이다.
+2026-10-10 사용자 지정 표시명은 `코리아어질리티`, `리즈`, `PDC`, `하이스트`, `발트바우`다. `channels[].name`과 `source.channelName`에 알려진 이름의 채널·사이트 접미사를 붙이지 않는다. 발트바우는 별도 카카오 채널을 만들지 않고 앱의 정확한 사이트 host 분류에서 같은 표시명을 사용한다. ID·기존 순서·대회 및 이미지 연결은 유지한다.
+
+`channels`의 각 항목은 `id`, `name`, `provider`, `url`을 갖는다. `id`는 변경하지 않는 채널 식별자이며 카카오에서는 원문의 프로필 ID를 그대로 사용한다. `name`은 앱 표시명이다. 현재 팔레드차밍의 채널 ID는 `_MPeBn`, 앱 표시명은 `PDC`다. `provider`는 `kakao` 또는 `manual`, `url`은 확인한 공식 HTTPS 주소 또는 `null`이다.
 
 채널 정의 예시:
 
 ```json
 {
   "id": "_MPeBn",
-  "name": "PDC 어질리티",
+  "name": "PDC",
   "provider": "kakao",
   "url": "https://pf.kakao.com/_MPeBn"
 }
