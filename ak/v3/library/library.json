@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261010.1",
-  "updatedAt": "2026-10-10T01:03:22+09:00",
+  "dataVersion": "20261010.2",
+  "updatedAt": "2026-10-10T01:19:45+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -68216,7 +68216,8 @@
         "mediaId": "course_map-55b66b5f4041693f",
         "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68243,7 +68244,8 @@
         "mediaId": "course_map-da12f95a6fb51ffd",
         "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68270,7 +68272,8 @@
         "mediaId": "course_map-307f08616bd4fd1f",
         "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68297,7 +68300,8 @@
         "mediaId": "course_map-f886e1532e7ccb35",
         "postTitle": "18일 토요일 오후 AG_Master_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68324,7 +68328,8 @@
         "mediaId": "course_map-a16f6cbc103e8132",
         "postTitle": "18일 토요일 오후 AG_Master_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68351,7 +68356,8 @@
         "mediaId": "course_map-89488d0b62c8eca0",
         "postTitle": "18일 토요일 오후 AG_Master_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68378,7 +68384,8 @@
         "mediaId": "course_map-cbb50921dcf9037a",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68405,7 +68412,8 @@
         "mediaId": "course_map-cecd567e4c608cac",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68432,7 +68440,8 @@
         "mediaId": "course_map-88bfa49aa3b4f69a",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68459,7 +68468,8 @@
         "mediaId": "course_map-bd879db52d16b229",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68486,7 +68496,8 @@
         "mediaId": "course_map-bc66a22983db32a1",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68513,7 +68524,8 @@
         "mediaId": "course_map-86f74f574afd2449",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68540,7 +68552,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68567,7 +68580,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68594,7 +68608,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68621,7 +68636,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68648,7 +68664,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68675,7 +68692,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68702,7 +68720,8 @@
         "mediaId": "course_map-2fdbb39f1f0a6e5e",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68729,7 +68748,8 @@
         "mediaId": "course_map-ebd8ff6aa77ecbf1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68756,7 +68776,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68783,7 +68804,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68810,7 +68832,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68837,7 +68860,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68864,7 +68888,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68891,7 +68916,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68918,7 +68944,8 @@
         "mediaId": "course_map-2fdbb39f1f0a6e5e",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68945,7 +68972,8 @@
         "mediaId": "course_map-ebd8ff6aa77ecbf1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68972,7 +69000,8 @@
         "mediaId": "course_map-cbb50921dcf9037a",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -68999,7 +69028,8 @@
         "mediaId": "course_map-cecd567e4c608cac",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69026,7 +69056,8 @@
         "mediaId": "course_map-88bfa49aa3b4f69a",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69053,7 +69084,8 @@
         "mediaId": "course_map-bd879db52d16b229",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69080,7 +69112,8 @@
         "mediaId": "course_map-bc66a22983db32a1",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69107,7 +69140,8 @@
         "mediaId": "course_map-86f74f574afd2449",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69134,7 +69168,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69161,7 +69196,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69188,7 +69224,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69215,7 +69252,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69242,7 +69280,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69269,7 +69308,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69296,7 +69336,8 @@
         "mediaId": "course_map-2fdbb39f1f0a6e5e",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69323,7 +69364,8 @@
         "mediaId": "course_map-ebd8ff6aa77ecbf1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69350,7 +69392,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69377,7 +69420,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69404,7 +69448,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69431,7 +69476,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69458,7 +69504,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69485,7 +69532,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69512,7 +69560,8 @@
         "mediaId": "course_map-2fdbb39f1f0a6e5e",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69539,7 +69588,8 @@
         "mediaId": "course_map-ebd8ff6aa77ecbf1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69566,7 +69616,8 @@
         "mediaId": "course_map-cbb50921dcf9037a",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69593,7 +69644,8 @@
         "mediaId": "course_map-cecd567e4c608cac",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69620,7 +69672,8 @@
         "mediaId": "course_map-88bfa49aa3b4f69a",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69647,7 +69700,8 @@
         "mediaId": "course_map-bd879db52d16b229",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69674,7 +69728,8 @@
         "mediaId": "course_map-bc66a22983db32a1",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69701,7 +69756,8 @@
         "mediaId": "course_map-86f74f574afd2449",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69728,7 +69784,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69755,7 +69812,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69782,7 +69840,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69809,7 +69868,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69836,7 +69896,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69863,7 +69924,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69890,7 +69952,8 @@
         "mediaId": "course_map-a0f987d7e30ad60d",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69917,7 +69980,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69944,7 +70008,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69971,7 +70036,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -69998,7 +70064,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70025,7 +70092,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70052,7 +70120,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70079,7 +70148,8 @@
         "mediaId": "course_map-a0f987d7e30ad60d",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70106,7 +70176,8 @@
         "mediaId": "course_map-cbb50921dcf9037a",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70133,7 +70204,8 @@
         "mediaId": "course_map-cecd567e4c608cac",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70160,7 +70232,8 @@
         "mediaId": "course_map-88bfa49aa3b4f69a",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70187,7 +70260,8 @@
         "mediaId": "course_map-bd879db52d16b229",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70214,7 +70288,8 @@
         "mediaId": "course_map-bc66a22983db32a1",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70241,7 +70316,8 @@
         "mediaId": "course_map-86f74f574afd2449",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70268,7 +70344,8 @@
         "mediaId": "course_map-cbb50921dcf9037a",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70295,7 +70372,8 @@
         "mediaId": "course_map-cecd567e4c608cac",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70322,7 +70400,8 @@
         "mediaId": "course_map-88bfa49aa3b4f69a",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70349,7 +70428,8 @@
         "mediaId": "course_map-bd879db52d16b229",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70376,7 +70456,8 @@
         "mediaId": "course_map-bc66a22983db32a1",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70403,7 +70484,8 @@
         "mediaId": "course_map-86f74f574afd2449",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70430,7 +70512,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70457,7 +70540,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70484,7 +70568,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70511,7 +70596,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70538,7 +70624,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70565,7 +70652,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70592,7 +70680,8 @@
         "mediaId": "course_map-a0f987d7e30ad60d",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70619,7 +70708,8 @@
         "mediaId": "course_map-cbb50921dcf9037a",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70646,7 +70736,8 @@
         "mediaId": "course_map-cecd567e4c608cac",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70673,7 +70764,8 @@
         "mediaId": "course_map-88bfa49aa3b4f69a",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70700,7 +70792,8 @@
         "mediaId": "course_map-bd879db52d16b229",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70727,7 +70820,8 @@
         "mediaId": "course_map-bc66a22983db32a1",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70754,7 +70848,8 @@
         "mediaId": "course_map-86f74f574afd2449",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70781,7 +70876,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70808,7 +70904,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70835,7 +70932,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70862,7 +70960,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70889,7 +70988,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70916,7 +71016,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70943,7 +71044,8 @@
         "mediaId": "course_map-901c6d58be477fc6",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70970,7 +71072,8 @@
         "mediaId": "course_map-15fe63a873514d7b",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -70997,7 +71100,8 @@
         "mediaId": "course_map-1633e451996d0bcb",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71024,7 +71128,8 @@
         "mediaId": "course_map-b653f7b11e773d60",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71051,7 +71156,8 @@
         "mediaId": "course_map-163073ee6f49db7b",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71078,7 +71184,8 @@
         "mediaId": "course_map-014aa54dbb4809ca",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71105,7 +71212,8 @@
         "mediaId": "course_map-2fdbb39f1f0a6e5e",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71132,7 +71240,8 @@
         "mediaId": "course_map-ebd8ff6aa77ecbf1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71159,7 +71268,8 @@
         "mediaId": "course_map-7d5807a2dd9fedae",
         "postTitle": "19일 일요일 EX_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71186,7 +71296,8 @@
         "mediaId": "course_map-6748505622675f4f",
         "postTitle": "19일 일요일 EX_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71213,7 +71324,8 @@
         "mediaId": "course_map-780581f377467483",
         "postTitle": "19일 일요일 EX_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71240,7 +71352,8 @@
         "mediaId": "course_map-e0a05af2a727baf1",
         "postTitle": "19일 일요일 EX_Tournament",
         "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       }
     },
     {
@@ -71265,7 +71378,8 @@
         "mediaId": "result-6e505da24f602fc8-1",
         "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-288.json"
@@ -71292,7 +71406,8 @@
         "mediaId": "result-6e505da24f602fc8-2",
         "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-288.json"
@@ -71319,7 +71434,8 @@
         "mediaId": "result-b8ff516df7815fab-1",
         "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-288.json"
@@ -71346,7 +71462,8 @@
         "mediaId": "result-049138e038926ed4-1",
         "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-288.json"
@@ -71373,7 +71490,8 @@
         "mediaId": "result-91c5cfc79ab67867-1",
         "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-288.json"
@@ -71400,7 +71518,8 @@
         "mediaId": "result-91c5cfc79ab67867-2",
         "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-288.json"
@@ -71427,7 +71546,8 @@
         "mediaId": "result-cb525617f1c772b1-1",
         "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-288.json"
@@ -71454,7 +71574,8 @@
         "mediaId": "result-b5f7aac66d7a2484-1",
         "postTitle": "2025.11.23(일) KKF AGILITY 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-288.json"
@@ -71481,7 +71602,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71508,7 +71630,8 @@
         "mediaId": "result-768c3b5f8ebebd33-2",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71535,7 +71658,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71562,7 +71686,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-2",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71589,7 +71714,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71616,7 +71742,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71643,7 +71770,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71670,7 +71798,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71697,7 +71826,8 @@
         "mediaId": "result-09b60bf094d980fa-1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 9
+        "imageOrder": 9,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71724,7 +71854,8 @@
         "mediaId": "result-20704ee7486aecc0-1",
         "postTitle": "2025.11.22(토) EXCITING OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 10
+        "imageOrder": 10,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-287.json"
@@ -71751,7 +71882,8 @@
         "mediaId": "result-f16c758ba54534d8-1",
         "postTitle": "19일 일요일 EX_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-274.json"
@@ -71778,7 +71910,8 @@
         "mediaId": "result-defb89cd2789e182-1",
         "postTitle": "19일 일요일 EX_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-274.json"
@@ -71805,7 +71938,8 @@
         "mediaId": "result-e691c257e3972a3a-1",
         "postTitle": "19일 일요일 EX_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-274.json"
@@ -71832,7 +71966,8 @@
         "mediaId": "result-53267766fe3e4f6d-1",
         "postTitle": "19일 일요일 EX_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-274.json"
@@ -71859,7 +71994,8 @@
         "mediaId": "result-d2a5f8fb16afb879-1",
         "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-272.json"
@@ -71886,7 +72022,8 @@
         "mediaId": "result-bcb7b49a8a3d293d-1",
         "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-272.json"
@@ -71913,7 +72050,8 @@
         "mediaId": "result-7d4edb0a492db909-1",
         "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-272.json"
@@ -71940,7 +72078,8 @@
         "mediaId": "result-56df5160577c3d6b-1",
         "postTitle": "18일 토요일 오후 AG_Master_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-273.json"
@@ -71967,7 +72106,8 @@
         "mediaId": "result-659e357311a551d2-1",
         "postTitle": "18일 토요일 오후 AG_Master_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-273.json"
@@ -71994,7 +72134,8 @@
         "mediaId": "result-5dfe75534afc50c0-1",
         "postTitle": "18일 토요일 오후 AG_Master_Tournament",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-273.json"
@@ -72021,7 +72162,8 @@
         "mediaId": "result-6e505da24f602fc8-1",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-229.json"
@@ -72048,7 +72190,8 @@
         "mediaId": "result-b8ff516df7815fab-1",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-229.json"
@@ -72075,7 +72218,8 @@
         "mediaId": "result-049138e038926ed4-1",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-229.json"
@@ -72102,7 +72246,8 @@
         "mediaId": "result-91c5cfc79ab67867-1",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-229.json"
@@ -72129,7 +72274,8 @@
         "mediaId": "result-cb525617f1c772b1-1",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-229.json"
@@ -72156,7 +72302,8 @@
         "mediaId": "result-b5f7aac66d7a2484-1",
         "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-229.json"
@@ -72183,7 +72330,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-228.json"
@@ -72210,7 +72358,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-228.json"
@@ -72237,7 +72386,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-228.json"
@@ -72264,7 +72414,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-228.json"
@@ -72291,7 +72442,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-228.json"
@@ -72318,7 +72470,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-228.json"
@@ -72345,7 +72498,8 @@
         "mediaId": "result-09b60bf094d980fa-1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-228.json"
@@ -72372,7 +72526,8 @@
         "mediaId": "result-20704ee7486aecc0-1",
         "postTitle": "제24회 WALD BOW EXCITING 야간대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-228.json"
@@ -72399,7 +72554,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-225.json"
@@ -72426,7 +72582,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-225.json"
@@ -72453,7 +72610,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-225.json"
@@ -72480,7 +72638,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-225.json"
@@ -72507,7 +72666,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-225.json"
@@ -72534,7 +72694,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-225.json"
@@ -72561,7 +72722,8 @@
         "mediaId": "result-09b60bf094d980fa-1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-225.json"
@@ -72588,7 +72750,8 @@
         "mediaId": "result-20704ee7486aecc0-1",
         "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-225.json"
@@ -72615,7 +72778,8 @@
         "mediaId": "result-6e505da24f602fc8-1",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-224.json"
@@ -72642,7 +72806,8 @@
         "mediaId": "result-b8ff516df7815fab-1",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-224.json"
@@ -72669,7 +72834,8 @@
         "mediaId": "result-049138e038926ed4-1",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-224.json"
@@ -72696,7 +72862,8 @@
         "mediaId": "result-91c5cfc79ab67867-1",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-224.json"
@@ -72723,7 +72890,8 @@
         "mediaId": "result-cb525617f1c772b1-1",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-224.json"
@@ -72750,7 +72918,8 @@
         "mediaId": "result-b5f7aac66d7a2484-1",
         "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-224.json"
@@ -72777,7 +72946,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-222.json"
@@ -72804,7 +72974,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-222.json"
@@ -72831,7 +73002,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-222.json"
@@ -72858,7 +73030,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-222.json"
@@ -72885,7 +73058,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-222.json"
@@ -72912,7 +73086,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-222.json"
@@ -72939,7 +73114,8 @@
         "mediaId": "result-09b60bf094d980fa-1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-222.json"
@@ -72966,7 +73142,8 @@
         "mediaId": "result-20704ee7486aecc0-1",
         "postTitle": "제 22회 waldbow exciting open (일요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-222.json"
@@ -72993,7 +73170,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73020,7 +73198,8 @@
         "mediaId": "result-768c3b5f8ebebd33-2",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73047,7 +73226,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73074,7 +73254,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-2",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73101,7 +73282,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73128,7 +73310,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73155,7 +73338,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73182,7 +73366,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73209,7 +73394,8 @@
         "mediaId": "result-09b60bf094d980fa-1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 9
+        "imageOrder": 9,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73236,7 +73422,8 @@
         "mediaId": "result-20704ee7486aecc0-1",
         "postTitle": "제 21회 waldbow exciting open (토요일)",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 10
+        "imageOrder": 10,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-221.json"
@@ -73263,7 +73450,8 @@
         "mediaId": "result-6e505da24f602fc8-1",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-114.json"
@@ -73290,7 +73478,8 @@
         "mediaId": "result-6e505da24f602fc8-2",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-114.json"
@@ -73317,7 +73506,8 @@
         "mediaId": "result-b8ff516df7815fab-1",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-114.json"
@@ -73344,7 +73534,8 @@
         "mediaId": "result-049138e038926ed4-1",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-114.json"
@@ -73371,7 +73562,8 @@
         "mediaId": "result-91c5cfc79ab67867-1",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-114.json"
@@ -73398,7 +73590,8 @@
         "mediaId": "result-91c5cfc79ab67867-2",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-114.json"
@@ -73425,7 +73618,8 @@
         "mediaId": "result-cb525617f1c772b1-1",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-114.json"
@@ -73452,7 +73646,8 @@
         "mediaId": "result-b5f7aac66d7a2484-1",
         "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-114.json"
@@ -73479,7 +73674,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73506,7 +73702,8 @@
         "mediaId": "result-768c3b5f8ebebd33-2",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73533,7 +73730,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73560,7 +73758,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-2",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73587,7 +73786,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73614,7 +73814,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-2",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73641,7 +73842,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73668,7 +73870,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73695,7 +73898,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 9
+        "imageOrder": 9,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73722,7 +73926,8 @@
         "mediaId": "result-50693e78abb9832a-1",
         "postTitle": "제 20회 발트바우 익사이팅 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 10
+        "imageOrder": 10,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-113.json"
@@ -73749,7 +73954,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73776,7 +73982,8 @@
         "mediaId": "result-768c3b5f8ebebd33-2",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73803,7 +74010,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73830,7 +74038,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-2",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73857,7 +74066,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73884,7 +74094,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73911,7 +74122,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73938,7 +74150,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73965,7 +74178,8 @@
         "mediaId": "result-50693e78abb9832a-1",
         "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 9
+        "imageOrder": 9,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-66.json"
@@ -73992,7 +74206,8 @@
         "mediaId": "result-6e505da24f602fc8-1",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-65.json"
@@ -74019,7 +74234,8 @@
         "mediaId": "result-b8ff516df7815fab-1",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-65.json"
@@ -74046,7 +74262,8 @@
         "mediaId": "result-049138e038926ed4-1",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-65.json"
@@ -74073,7 +74290,8 @@
         "mediaId": "result-91c5cfc79ab67867-1",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-65.json"
@@ -74100,7 +74318,8 @@
         "mediaId": "result-cb525617f1c772b1-1",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-65.json"
@@ -74127,7 +74346,8 @@
         "mediaId": "result-b5f7aac66d7a2484-1",
         "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-65.json"
@@ -74154,7 +74374,8 @@
         "mediaId": "result-6e505da24f602fc8-1",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-26.json"
@@ -74181,7 +74402,8 @@
         "mediaId": "result-b8ff516df7815fab-1",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-26.json"
@@ -74208,7 +74430,8 @@
         "mediaId": "result-049138e038926ed4-1",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-26.json"
@@ -74235,7 +74458,8 @@
         "mediaId": "result-91c5cfc79ab67867-1",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-26.json"
@@ -74262,7 +74486,8 @@
         "mediaId": "result-cb525617f1c772b1-1",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-26.json"
@@ -74289,7 +74514,8 @@
         "mediaId": "result-b5f7aac66d7a2484-1",
         "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-26.json"
@@ -74316,7 +74542,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74343,7 +74570,8 @@
         "mediaId": "result-768c3b5f8ebebd33-2",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74370,7 +74598,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74397,7 +74626,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-2",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74424,7 +74654,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74451,7 +74682,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74478,7 +74710,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74505,7 +74738,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74532,7 +74766,8 @@
         "mediaId": "result-50693e78abb9832a-1",
         "postTitle": "제 18회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 9
+        "imageOrder": 9,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-28.json"
@@ -74559,7 +74794,8 @@
         "mediaId": "result-6e505da24f602fc8-1",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-10.json"
@@ -74586,7 +74822,8 @@
         "mediaId": "result-6e505da24f602fc8-2",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-10.json"
@@ -74613,7 +74850,8 @@
         "mediaId": "result-b8ff516df7815fab-1",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-10.json"
@@ -74640,7 +74878,8 @@
         "mediaId": "result-049138e038926ed4-1",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-10.json"
@@ -74667,7 +74906,8 @@
         "mediaId": "result-91c5cfc79ab67867-1",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-10.json"
@@ -74694,7 +74934,8 @@
         "mediaId": "result-cb525617f1c772b1-1",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-10.json"
@@ -74721,7 +74962,8 @@
         "mediaId": "result-b5f7aac66d7a2484-1",
         "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-10.json"
@@ -74748,7 +74990,8 @@
         "mediaId": "result-768c3b5f8ebebd33-1",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 1
+        "imageOrder": 1,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-9.json"
@@ -74775,7 +75018,8 @@
         "mediaId": "result-768c3b5f8ebebd33-2",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 2
+        "imageOrder": 2,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-9.json"
@@ -74802,7 +75046,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-1",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 3
+        "imageOrder": 3,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-9.json"
@@ -74829,7 +75074,8 @@
         "mediaId": "result-11f19ad3ea34b0d0-2",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 4
+        "imageOrder": 4,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-9.json"
@@ -74856,7 +75102,8 @@
         "mediaId": "result-f03d4f8fa9dd581c-1",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 5
+        "imageOrder": 5,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-9.json"
@@ -74883,7 +75130,8 @@
         "mediaId": "result-b52cd169edcc4fe7-1",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 6
+        "imageOrder": 6,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-9.json"
@@ -74910,7 +75158,8 @@
         "mediaId": "result-96f37b6ef0a458a6-1",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 7
+        "imageOrder": 7,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-9.json"
@@ -74937,7 +75186,8 @@
         "mediaId": "result-cb78317d91c2aa35-1",
         "postTitle": "제 17회 발트바우 익사이팅 승급전",
         "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
-        "imageOrder": 8
+        "imageOrder": 8,
+        "channelName": "발트바우"
       },
       "resultType": "site",
       "recordPath": "./records/waldbow-9.json"
@@ -88211,7 +88461,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "2025.11.22(토) EXCITING OPEN",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88238,7 +88489,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "2025.11.22(토) EXCITING OPEN",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88265,7 +88517,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "2025.11.22(토) EXCITING OPEN",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88292,7 +88545,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "2025.11.22(토) EXCITING OPEN",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88319,7 +88573,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "2025.11.22(토) EXCITING OPEN",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88346,7 +88601,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "2025.11.22(토) EXCITING OPEN",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88373,7 +88629,8 @@
             "mediaId": "course_map-2fdbb39f1f0a6e5e",
             "postTitle": "2025.11.22(토) EXCITING OPEN",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 7
+            "imageOrder": 7,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88400,7 +88657,8 @@
             "mediaId": "course_map-ebd8ff6aa77ecbf1",
             "postTitle": "2025.11.22(토) EXCITING OPEN",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 8
+            "imageOrder": 8,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -88625,7 +88883,8 @@
             "mediaId": "course_map-7d5807a2dd9fedae",
             "postTitle": "19일 일요일 EX_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88652,7 +88911,8 @@
             "mediaId": "course_map-6748505622675f4f",
             "postTitle": "19일 일요일 EX_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88679,7 +88939,8 @@
             "mediaId": "course_map-780581f377467483",
             "postTitle": "19일 일요일 EX_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88706,7 +88967,8 @@
             "mediaId": "course_map-e0a05af2a727baf1",
             "postTitle": "19일 일요일 EX_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -88739,7 +89001,8 @@
             "mediaId": "course_map-55b66b5f4041693f",
             "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88766,7 +89029,8 @@
             "mediaId": "course_map-da12f95a6fb51ffd",
             "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88793,7 +89057,8 @@
             "mediaId": "course_map-307f08616bd4fd1f",
             "postTitle": "18일 토요일 오전 AG_Standard_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -88826,7 +89091,8 @@
             "mediaId": "course_map-f886e1532e7ccb35",
             "postTitle": "18일 토요일 오후 AG_Master_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88853,7 +89119,8 @@
             "mediaId": "course_map-a16f6cbc103e8132",
             "postTitle": "18일 토요일 오후 AG_Master_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -88880,7 +89147,8 @@
             "mediaId": "course_map-89488d0b62c8eca0",
             "postTitle": "18일 토요일 오후 AG_Master_Tournament",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -91391,7 +91659,8 @@
             "mediaId": "course_map-cbb50921dcf9037a",
             "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91418,7 +91687,8 @@
             "mediaId": "course_map-cecd567e4c608cac",
             "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91445,7 +91715,8 @@
             "mediaId": "course_map-88bfa49aa3b4f69a",
             "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91472,7 +91743,8 @@
             "mediaId": "course_map-bd879db52d16b229",
             "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91499,7 +91771,8 @@
             "mediaId": "course_map-bc66a22983db32a1",
             "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91526,7 +91799,8 @@
             "mediaId": "course_map-86f74f574afd2449",
             "postTitle": "제 63회 KKF WALD BOW AGILITY 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -91559,7 +91833,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "제24회 WALD BOW EXCITING 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91586,7 +91861,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "제24회 WALD BOW EXCITING 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91613,7 +91889,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "제24회 WALD BOW EXCITING 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91640,7 +91917,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "제24회 WALD BOW EXCITING 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91667,7 +91945,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "제24회 WALD BOW EXCITING 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91694,7 +91973,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "제24회 WALD BOW EXCITING 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91721,7 +92001,8 @@
             "mediaId": "course_map-2fdbb39f1f0a6e5e",
             "postTitle": "제24회 WALD BOW EXCITING 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 7
+            "imageOrder": 7,
+            "channelName": "발트바우"
           }
         },
         {
@@ -91748,7 +92029,8 @@
             "mediaId": "course_map-ebd8ff6aa77ecbf1",
             "postTitle": "제24회 WALD BOW EXCITING 야간대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 8
+            "imageOrder": 8,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -92543,7 +92825,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92570,7 +92853,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92597,7 +92881,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92624,7 +92909,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92651,7 +92937,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92678,7 +92965,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92705,7 +92993,8 @@
             "mediaId": "course_map-2fdbb39f1f0a6e5e",
             "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 7
+            "imageOrder": 7,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92732,7 +93021,8 @@
             "mediaId": "course_map-ebd8ff6aa77ecbf1",
             "postTitle": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 8
+            "imageOrder": 8,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -92765,7 +93055,8 @@
             "mediaId": "course_map-cbb50921dcf9037a",
             "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92792,7 +93083,8 @@
             "mediaId": "course_map-cecd567e4c608cac",
             "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92819,7 +93111,8 @@
             "mediaId": "course_map-88bfa49aa3b4f69a",
             "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92846,7 +93139,8 @@
             "mediaId": "course_map-bd879db52d16b229",
             "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92873,7 +93167,8 @@
             "mediaId": "course_map-bc66a22983db32a1",
             "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92900,7 +93195,8 @@
             "mediaId": "course_map-86f74f574afd2449",
             "postTitle": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -92933,7 +93229,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "제 22회 waldbow exciting open (일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92960,7 +93257,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "제 22회 waldbow exciting open (일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -92987,7 +93285,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "제 22회 waldbow exciting open (일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93014,7 +93313,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "제 22회 waldbow exciting open (일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93041,7 +93341,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "제 22회 waldbow exciting open (일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93068,7 +93369,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "제 22회 waldbow exciting open (일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93095,7 +93397,8 @@
             "mediaId": "course_map-2fdbb39f1f0a6e5e",
             "postTitle": "제 22회 waldbow exciting open (일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 7
+            "imageOrder": 7,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93122,7 +93425,8 @@
             "mediaId": "course_map-ebd8ff6aa77ecbf1",
             "postTitle": "제 22회 waldbow exciting open (일요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 8
+            "imageOrder": 8,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -93155,7 +93459,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "제 21회 waldbow exciting open (토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93182,7 +93487,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "제 21회 waldbow exciting open (토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93209,7 +93515,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "제 21회 waldbow exciting open (토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93236,7 +93543,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "제 21회 waldbow exciting open (토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93263,7 +93571,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "제 21회 waldbow exciting open (토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93290,7 +93599,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "제 21회 waldbow exciting open (토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93317,7 +93627,8 @@
             "mediaId": "course_map-2fdbb39f1f0a6e5e",
             "postTitle": "제 21회 waldbow exciting open (토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 7
+            "imageOrder": 7,
+            "channelName": "발트바우"
           }
         },
         {
@@ -93344,7 +93655,8 @@
             "mediaId": "course_map-ebd8ff6aa77ecbf1",
             "postTitle": "제 21회 waldbow exciting open (토요일)",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 8
+            "imageOrder": 8,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -94595,7 +94907,8 @@
             "mediaId": "course_map-cbb50921dcf9037a",
             "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94622,7 +94935,8 @@
             "mediaId": "course_map-cecd567e4c608cac",
             "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94649,7 +94963,8 @@
             "mediaId": "course_map-88bfa49aa3b4f69a",
             "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94676,7 +94991,8 @@
             "mediaId": "course_map-bd879db52d16b229",
             "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94703,7 +95019,8 @@
             "mediaId": "course_map-bc66a22983db32a1",
             "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94730,7 +95047,8 @@
             "mediaId": "course_map-86f74f574afd2449",
             "postTitle": "제 54회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -94763,7 +95081,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "제 20회 발트바우 익사이팅 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94790,7 +95109,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "제 20회 발트바우 익사이팅 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94817,7 +95137,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "제 20회 발트바우 익사이팅 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94844,7 +95165,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "제 20회 발트바우 익사이팅 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94871,7 +95193,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "제 20회 발트바우 익사이팅 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94898,7 +95221,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "제 20회 발트바우 익사이팅 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         },
         {
@@ -94925,7 +95249,8 @@
             "mediaId": "course_map-a0f987d7e30ad60d",
             "postTitle": "제 20회 발트바우 익사이팅 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 7
+            "imageOrder": 7,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -95900,7 +96225,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -95927,7 +96253,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -95954,7 +96281,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -95981,7 +96309,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96008,7 +96337,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96035,7 +96365,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96062,7 +96393,8 @@
             "mediaId": "course_map-a0f987d7e30ad60d",
             "postTitle": "제 19회 발트바우 익사이팅 어질리티 대회",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 7
+            "imageOrder": 7,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -96095,7 +96427,8 @@
             "mediaId": "course_map-cbb50921dcf9037a",
             "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96122,7 +96455,8 @@
             "mediaId": "course_map-cecd567e4c608cac",
             "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96149,7 +96483,8 @@
             "mediaId": "course_map-88bfa49aa3b4f69a",
             "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96176,7 +96511,8 @@
             "mediaId": "course_map-bd879db52d16b229",
             "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96203,7 +96539,8 @@
             "mediaId": "course_map-bc66a22983db32a1",
             "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96230,7 +96567,8 @@
             "mediaId": "course_map-86f74f574afd2449",
             "postTitle": "제 52 회 KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -96611,7 +96949,8 @@
             "mediaId": "course_map-cbb50921dcf9037a",
             "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96638,7 +96977,8 @@
             "mediaId": "course_map-cecd567e4c608cac",
             "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96665,7 +97005,8 @@
             "mediaId": "course_map-88bfa49aa3b4f69a",
             "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96692,7 +97033,8 @@
             "mediaId": "course_map-bd879db52d16b229",
             "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96719,7 +97061,8 @@
             "mediaId": "course_map-bc66a22983db32a1",
             "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96746,7 +97089,8 @@
             "mediaId": "course_map-86f74f574afd2449",
             "postTitle": "제 49회  KKF 발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -96779,7 +97123,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "제 18회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96806,7 +97151,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "제 18회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96833,7 +97179,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "제 18회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96860,7 +97207,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "제 18회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96887,7 +97235,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "제 18회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96914,7 +97263,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "제 18회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         },
         {
@@ -96941,7 +97291,8 @@
             "mediaId": "course_map-a0f987d7e30ad60d",
             "postTitle": "제 18회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 7
+            "imageOrder": 7,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -97130,7 +97481,8 @@
             "mediaId": "course_map-cbb50921dcf9037a",
             "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97157,7 +97509,8 @@
             "mediaId": "course_map-cecd567e4c608cac",
             "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97184,7 +97537,8 @@
             "mediaId": "course_map-88bfa49aa3b4f69a",
             "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97211,7 +97565,8 @@
             "mediaId": "course_map-bd879db52d16b229",
             "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97238,7 +97593,8 @@
             "mediaId": "course_map-bc66a22983db32a1",
             "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97265,7 +97621,8 @@
             "mediaId": "course_map-86f74f574afd2449",
             "postTitle": "제 48회 KKF발트바우 어질리티 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         }
       ]
@@ -97298,7 +97655,8 @@
             "mediaId": "course_map-901c6d58be477fc6",
             "postTitle": "제 17회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 1
+            "imageOrder": 1,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97325,7 +97683,8 @@
             "mediaId": "course_map-15fe63a873514d7b",
             "postTitle": "제 17회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 2
+            "imageOrder": 2,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97352,7 +97711,8 @@
             "mediaId": "course_map-1633e451996d0bcb",
             "postTitle": "제 17회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 3
+            "imageOrder": 3,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97379,7 +97739,8 @@
             "mediaId": "course_map-b653f7b11e773d60",
             "postTitle": "제 17회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 4
+            "imageOrder": 4,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97406,7 +97767,8 @@
             "mediaId": "course_map-163073ee6f49db7b",
             "postTitle": "제 17회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 5
+            "imageOrder": 5,
+            "channelName": "발트바우"
           }
         },
         {
@@ -97433,7 +97795,8 @@
             "mediaId": "course_map-014aa54dbb4809ca",
             "postTitle": "제 17회 발트바우 익사이팅 승급전",
             "postUrl": "https://waldbow.com/agilityOpen/openCourse.do",
-            "imageOrder": 6
+            "imageOrder": 6,
+            "channelName": "발트바우"
           }
         }
       ]
