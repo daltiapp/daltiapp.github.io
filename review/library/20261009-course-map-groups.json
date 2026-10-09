@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-09T18:34:08+09:00",
+  "dataVersion": "20261009.11",
+  "field": "courseMapGroups",
+  "groupShape": {
+    "id": "event:<eventId>",
+    "eventId": "<eventId>",
+    "maps": "full course_map assets"
+  },
+  "courseMaps": 885,
+  "eventCollections": 154,
+  "awcCollections": 29,
+  "awc2026Maps": 16,
+  "compatibility": {
+    "schemaVersion": 1,
+    "basePath": "/ak/v3",
+    "originalAssetsEventsAndChannelsPreserved": true,
+    "legacyParser": "passed",
+    "currentParser": "passed"
+  },
+  "payloadBytes": {
+    "before": 3021812,
+    "after": 3954656,
+    "gzipBefore": 202670,
+    "gzipAfter": 259815
+  },
+  "verification": {
+    "pythonLibraryTests": 31,
+    "focusedAppTests": 55,
+    "activeDataHarnessScopeAll": "passed",
+    "appLibraryTests": 127,
+    "communityContractTests": 384,
+    "pythonActiveDataTests": 22,
+    "regressionAndDocumentationGuards": "passed",
+    "flutterAnalyze": "passed"
+  }
+}
