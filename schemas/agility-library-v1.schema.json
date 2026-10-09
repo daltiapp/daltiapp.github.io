@@ -323,6 +323,18 @@
         },
         "source": {
           "$ref": "#/$defs/source"
+        },
+        "resultType": {
+          "enum": [
+            "image",
+            "site"
+          ],
+          "description": "결과의 원문 형식. 생략한 기존 자료는 image로 읽는다."
+        },
+        "recordPath": {
+          "type": "string",
+          "pattern": "^\\./records/[A-Za-z0-9][A-Za-z0-9_-]*\\.json$",
+          "description": "site 결과의 공개 기록 JSON. 자료실 JSON 파일 위치 기준 상대 경로."
         }
       },
       "additionalProperties": false,
@@ -353,6 +365,50 @@
               "eventIds": {
                 "minItems": 1
               }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "result"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "resultType": {
+                      "const": "site"
+                    }
+                  },
+                  "required": [
+                    "resultType"
+                  ]
+                },
+                "then": {
+                  "required": [
+                    "recordPath"
+                  ]
+                },
+                "else": {
+                  "properties": {
+                    "recordPath": false
+                  }
+                }
+              }
+            ]
+          },
+          "else": {
+            "properties": {
+              "resultType": false,
+              "recordPath": false
             }
           }
         }

@@ -24,6 +24,12 @@
 저장하고, 같은 값으로 만든 Drive PNG를 기존 `result` 이미지로 연결한다. 점수·순위를
 재계산하지 않고 userId·dogNo·seq 등 내부 식별자와 사진/영상 설정은 내보내지 않는다.
 결과 JSON의 `columns`/`courseInfoColumns` 순서에 맞춰 `groups[].rows`/`courseInfo`를 읽는다.
+`kind: result`의 원문 형식은 선택 필드 `resultType`으로 구분한다. `image`는 원문
+결과 이미지이고, `site`는 사이트에서 수집한 기록 데이터다. `site`는 반드시 자료실
+JSON 위치 기준 `recordPath: ./records/waldbow-<대회번호>.json`을 함께 제공한다.
+기존 데이터의 `resultType` 생략은 `image`로 읽는다. 코스맵·출진표에는 이 필드를 쓰지 않는다.
+두 종류 모두 `image`를 유지하므로 이전 앱에서도 이미지 보기와 확대가 동작한다.
+새 앱은 결과 상세에 ‘이미지 결과’ 또는 ‘사이트 기록’을 표시하고 JSON 경로를 모델에 보존한다.
 과거 행별 코스 설정이 다르면 사이트와 같은 마지막 행 설정을 머리글에 표시하고 원문
 설정은 `rowCourseInfo`에 함께 보존한다. 참가자만 있고 결과가 없는 페이지는 배포하지 않는다.
 
