@@ -1,6 +1,6 @@
 {
   "auditVersion": 1,
-  "checkedAt": "2026-10-09T15:57:59+09:00",
+  "checkedAt": "2026-10-09T16:14:42+09:00",
   "dataVersion": "20261009.8",
   "priorAudit": "20261009-agility-only.json",
   "nasInstallationVerified": true,
@@ -85,8 +85,33 @@
     "time": "11:00",
     "timezone": "Asia/Seoul",
     "command": "/bin/sh /volume1/work/git/agility-scraper/library_auto_real",
-    "registrationVerified": false,
-    "status": "awaiting_dsm_command_save_authentication"
+    "registrationVerified": true,
+    "status": "enabled",
+    "enabled": true,
+    "nextRun": "2026-10-10T11:00:00+09:00",
+    "verifiedAt": "2026-10-09T16:14:42+09:00",
+    "savedCommandRun": {
+      "startedAt": "2026-10-09T16:14:18+09:00",
+      "finishedAt": "2026-10-09T16:14:42+09:00",
+      "exitCode": 0,
+      "checkedAt": "2026-10-09T16:14:26+09:00",
+      "published": false,
+      "kakao": {
+        "posts": 382,
+        "changed": 0,
+        "pending": [],
+        "errors": []
+      },
+      "waldbow": {
+        "events": 38,
+        "changed": 0,
+        "upcomingResults": [
+          "801"
+        ],
+        "unpublishedResults": [],
+        "errors": []
+      }
+    }
   },
   "scope": {
     "kakaoChannels": [
