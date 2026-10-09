@@ -1,0 +1,109 @@
+{
+  "auditVersion": 1,
+  "checkedAt": "2026-10-09T15:57:59+09:00",
+  "dataVersion": "20261009.8",
+  "priorAudit": "20261009-agility-only.json",
+  "nasInstallationVerified": true,
+  "runtime": {
+    "python": "3.11.17",
+    "pillow": "11.3.0",
+    "jsonschema": "4.26.0",
+    "pythonPath": "/volume1/work/venvs/agility-library/bin/python",
+    "systemPythonUnchanged": "3.8.15",
+    "fontPath": "/volume1/work/fonts/NotoSansKR-Regular.ttf",
+    "fontSha256": "84e2b8acadd0a01af9f0de6b0a2d29117fb5b0eabd7c2f8353d9d2da0461d5fa"
+  },
+  "storage": {
+    "dataCheckout": "/volume1/work/git/daltiapp-library-data",
+    "stateDirectory": "/volume1/work/state/library-real",
+    "driveFolderName": "Library NAS",
+    "driveFolderId": "1iFU0iF3gJGh9i4UdKQICv2IRIP0Z5QxZ",
+    "existingNasOAuthReused": true,
+    "oauthScopeExpanded": false,
+    "credentialsOutsideGit": true,
+    "environmentPermissions": "600",
+    "waldbowCredentialPermissions": "600",
+    "gitIdentityConfigured": true,
+    "gitFileMode": false,
+    "gitCheckoutClean": true
+  },
+  "verification": {
+    "nasLibraryTestsPassed": 27,
+    "activeDataHarness": {
+      "ok": true,
+      "scope": "all",
+      "jsonFileCount": 167
+    },
+    "publicMapProbe": {
+      "originalUrl": "https://drive.google.com/uc?export=view&id=1saxTkrO2U48YbTa0GVDCMZaCEjIOcs04",
+      "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1RsnOjsjH4t2s0EoXwLWm7Vc4RjWNO1G2",
+      "anyoneReaderVerified": true,
+      "anonymousGetVerified": true,
+      "originalBytesMatched": true,
+      "originalMimeType": "image/png",
+      "originalWidth": 1050,
+      "originalHeight": 1725
+    },
+    "koreanRecordPng": {
+      "ok": true,
+      "width": 1968,
+      "height": 412,
+      "mimeType": "image/png"
+    },
+    "unchangedActiveJsonIncludingManifest": 168
+  },
+  "firstRealRun": {
+    "startedAt": "2026-10-09T15:57:51+09:00",
+    "finishedAt": "2026-10-09T15:58:18+09:00",
+    "exitCode": 0,
+    "checkedAt": "2026-10-09T15:57:59+09:00",
+    "published": false,
+    "kakao": {
+      "posts": 382,
+      "changed": 0,
+      "pending": [],
+      "errors": []
+    },
+    "waldbow": {
+      "events": 38,
+      "changed": 0,
+      "upcomingResults": [
+        "801"
+      ],
+      "unpublishedResults": [],
+      "errors": []
+    },
+    "nasPythonVersion": "3.11.17",
+    "nasDataHead": "6799d9ef9399ae12cb0e13aef1a9c27d420950d7",
+    "allScopeHarness": "passed",
+    "unchangedActiveJsonCount": 168
+  },
+  "scheduler": {
+    "taskName": "AgilityLibraryAuto",
+    "owner": "root",
+    "recurrence": "daily",
+    "time": "11:00",
+    "timezone": "Asia/Seoul",
+    "command": "/bin/sh /volume1/work/git/agility-scraper/library_auto_real",
+    "registrationVerified": false,
+    "status": "awaiting_dsm_command_save_authentication"
+  },
+  "scope": {
+    "kakaoChannels": [
+      "리즈",
+      "하이스트",
+      "코리아",
+      "PDC"
+    ],
+    "waldbowSite": true,
+    "discipline": "agility",
+    "noticeAndScheduleTasksChanged": false,
+    "fcmInvoked": false,
+    "telegramInvoked": false
+  },
+  "nasEvidenceFiles": [
+    "nas-install-verification.json",
+    "nas-before-publish-hashes.json",
+    "nas-first-real-verification.json"
+  ]
+}
