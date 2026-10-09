@@ -1,0 +1,102 @@
+{
+  "dataVersion": "20261010.4",
+  "events": 166,
+  "assets": 3058,
+  "eventGroups": 166,
+  "waldbowEntryEvents": 20,
+  "waldbowEntryPages": 153,
+  "waldbowEntryRows": 3097,
+  "publicImagesAndThumbnailsVerified": 306,
+  "publicEntryJsonVerified": 20,
+  "preservedExistingAssets": 2905,
+  "preservedExistingEvents": 166,
+  "todayGroup": {
+    "eventId": "event-waldbow-801",
+    "entryListIds": [
+      "asset-waldbow-801-entry_list-049138e038926ed4-1",
+      "asset-waldbow-801-entry_list-049138e038926ed4-2",
+      "asset-waldbow-801-entry_list-11f19ad3ea34b0d0-1",
+      "asset-waldbow-801-entry_list-11f19ad3ea34b0d0-2",
+      "asset-waldbow-801-entry_list-6e505da24f602fc8-1",
+      "asset-waldbow-801-entry_list-6e505da24f602fc8-2",
+      "asset-waldbow-801-entry_list-768c3b5f8ebebd33-1",
+      "asset-waldbow-801-entry_list-768c3b5f8ebebd33-2",
+      "asset-waldbow-801-entry_list-91c5cfc79ab67867-1",
+      "asset-waldbow-801-entry_list-91c5cfc79ab67867-2",
+      "asset-waldbow-801-entry_list-b5f7aac66d7a2484-1",
+      "asset-waldbow-801-entry_list-b5f7aac66d7a2484-2",
+      "asset-waldbow-801-entry_list-f03d4f8fa9dd581c-1",
+      "asset-waldbow-801-entry_list-f03d4f8fa9dd581c-2"
+    ],
+    "courseMapIds": [
+      "asset-waldbow-801-course_map-63379f29dc09ee00",
+      "asset-waldbow-801-course_map-6a2dac53b1b2ec8c",
+      "asset-waldbow-801-course_map-75c8b2c01475a5fe",
+      "asset-waldbow-801-course_map-8fa8962da8c02736",
+      "asset-waldbow-801-course_map-a3ab18c2dcb22df7",
+      "asset-waldbow-801-course_map-e78d4f972ddd7acb",
+      "asset-waldbow-801-course_map-ea2a7e4482d2a6f0"
+    ],
+    "resultIds": []
+  },
+  "verification": [
+    "anonymous HTTP 200",
+    "deployed JSON byte equality",
+    "image MIME and decode",
+    "image SHA256",
+    "masked public fields only",
+    "complete event grouping",
+    "all original assets/events unchanged"
+  ],
+  "recollection": {
+    "checkedAt": "2026-10-10T02:09:28+09:00",
+    "published": false,
+    "kakao": {
+      "posts": 382,
+      "changed": 0,
+      "pending": [],
+      "errors": []
+    },
+    "waldbow": {
+      "events": 60,
+      "changed": 0,
+      "courseEventsFromResults": [
+        "801",
+        "288"
+      ],
+      "unpublishedCourseMaps": [],
+      "upcomingResults": [],
+      "unpublishedResults": [
+        "801"
+      ],
+      "unpublishedEntryLists": [],
+      "errors": []
+    }
+  },
+  "recollectionUnchangedLibrary": true,
+  "tests": {
+    "scraper": 39,
+    "appLibrary": 142,
+    "sharedContracts": 384,
+    "flutterAnalyze": "passed",
+    "activeDataHarness": {
+      "scope": "all",
+      "jsonFiles": 187,
+      "passed": true
+    },
+    "actualAppParser": "passed",
+    "pagesDeployment": "success"
+  },
+  "commits": {
+    "collector": "a710ae7",
+    "app": "ac935c13",
+    "schema": "6e02779",
+    "data": "e4e3c80"
+  },
+  "nas": {
+    "schedule": "daily 21:00 Asia/Seoul",
+    "entrypoint": "library_auto_real",
+    "delivery": "Existing wrapper fetches main and re-executes before collection. Updated collector applies at the next scheduled run.",
+    "nasManualRunThisChange": false
+  }
+}
