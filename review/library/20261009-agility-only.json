@@ -97,7 +97,176 @@
       "scope": "all",
       "jsonFileCount": 167
     },
-    "publicDeployment": "pending"
+    "publicDeployment": {
+      "checkedAt": "2026-10-09T05:54:18.457291+00:00",
+      "dataVersion": "20261009.8",
+      "ok": true,
+      "filesVerified": 22,
+      "files": [
+        {
+          "path": "agilitykorea-manifest.json",
+          "url": "https://daltiapp.github.io/agilitykorea-manifest.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "dee962fbb1744540bc89ea527ce6b45caa49136bfad70eb129624f93dcdba4a7"
+        },
+        {
+          "path": "ak/v3/library/library.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/library.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "090878db9fd135b00a41766c41900fb7391f771ec782698aaf2d0d50c0e25282"
+        },
+        {
+          "path": "schemas/agility-library-v1.schema.json",
+          "url": "https://daltiapp.github.io/schemas/agility-library-v1.schema.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "83afcc800684036f7bba25fde4a31a0f7ab77298497c82993c6020d91fda892a"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-10.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-10.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "cd5375dcce2ad8b53250cff1cc956981a1a4dc806b5888690d105cb16f154cff"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-113.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-113.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "db5c778631c9abfd14920367cb98b829e77aacf15d2cc70ec928a22dda606cbe"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-114.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-114.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "798189b123e55bdf3603ca7053ddbcbd25ff9744f4ca1be1af335b78db1b3322"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-221.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-221.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "5af1e12b52ce8e542b0ae0c3d328432ed2c81d18fa9cb3a6f1c7d6f6a2504133"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-222.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-222.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "ed6ca713bf3818555f9bc9c2a71f4b2c69dccabbbd4685cd360178135249933a"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-224.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-224.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "b6242482959b598ff2d753e18eb6c91196baaddffd5cf7490c38199b26051afd"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-225.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-225.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "d318043fafaa4392bb618830f01caf3af2f64e060f824d4e5e736c0f76e6f47e"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-228.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-228.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "e1b3956a50504cdbcfb6ea3984ad79a83b1650c471f8e4c7227660f10799a022"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-229.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-229.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "8230ddc97bd063b66f0292b38ec2a98c0068e01f420c218d1e91da1c00e5122c"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-26.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-26.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "4ed14926ef8cf73d1b63c66dc36de15f3650d64f3cb480762235f220e165069b"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-272.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-272.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "966b2b2c0c46fc98929bf79f479264737c2ea30daa4ead7f7116914b97db7932"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-273.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-273.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "8d77408c69c3f7481e63a0f6a155113c78d04c3dc2bcfac8966abcae21288da4"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-274.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-274.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "564dfb26e64d566f2a571481d0bbe716618510b7ed9291b58f510497b3ce5dec"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-28.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-28.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "d5f7870f14af94010c6e65b35a9e4f7cac9b026522ef13539a8c8ca97fcda6b8"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-287.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-287.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "0d0936e2ee56f3e20483b2a2b7428eb349c69c4fc175c44c108b73a4a2373f08"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-288.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-288.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "0cbefe4d3a6e08227188dcbed1fff7f41c63a918072a1d96456fce64a4543fe9"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-65.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-65.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "220492a0fc4af2dbdce84d2e3085871796989ca51ac79cf474df5eaa6c7150cc"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-66.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-66.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "24c55be6386a6310f2cc7b40646c5e4f1a604a1fb8afffcd83f754aff1c1645a"
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-9.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-9.json",
+          "httpStatus": 200,
+          "matchesCommittedBytes": true,
+          "sha256": "c9cb00fa5283395b224207ce620ca40995fad118141cfbb4ec4b79d5d0a3d1bb"
+        }
+      ]
+    },
+    "documentationLocalLinks": {
+      "checked": 8,
+      "passed": true
+    }
   },
-  "nasInstallationVerified": false
+  "nasInstallationVerified": false,
+  "commits": {
+    "collector": "f409b90ea37c5069c77030cc980e61adffdee41b",
+    "libraryCorrection": "10e4a8be4962affee0d48f986405a818805df658"
+  }
 }
