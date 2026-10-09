@@ -14,6 +14,24 @@
 
 ## 앱 진입점과 파일
 
+발트바우 사이트의 코스맵과 기록표도 같은 자료실 계약으로 저장한다. 사용자 요청에 따라
+별도 발트바우 채널 정의나 출처 필터를 추가하지 않는다. 내부 추적에는 `provider: manual`,
+실제 코스/기록 목록 주소와 대회 번호인 `postId`를 남긴다. 상세 페이지는 POST로 열리므로
+대회 제목을 이용해 직접 링크를 추측하지 않는다.
+
+맵 원본과 작은 썸네일은 Drive에 저장하며 원본을 재압축하지 않는다. 기록표는 사이트의
+마스킹된 표시 셀과 공개 코스 정보만 `library.json` 옆 `records/waldbow-<대회번호>.json`에
+저장하고, 같은 값으로 만든 Drive PNG를 기존 `result` 이미지로 연결한다. 점수·순위를
+재계산하지 않고 userId·dogNo·seq 등 내부 식별자와 사진/영상 설정은 내보내지 않는다.
+결과 JSON의 `columns`/`courseInfoColumns` 순서에 맞춰 `groups[].rows`/`courseInfo`를 읽는다.
+과거 행별 코스 설정이 다르면 사이트와 같은 마지막 행 설정을 머리글에 표시하고 원문
+설정은 `rowCourseInfo`에 함께 보존한다. 참가자만 있고 결과가 없는 페이지는 배포하지 않는다.
+
+매일 수집하는 코드는 별도 스크래퍼 저장소의 `library_auto_real`이 담당한다.
+카카오 전체 메타데이터를 재확인해 과거 게시물 수정도 감지하고, 불명확한 이미지 분류나
+공개 접근 실패는 해당 자료의 기존 데이터를 보존한다. NAS 인증/실행 설정은 스크래퍼의
+`LIBRARY_AUTO.md`를 따르며 이 데이터 저장소에는 수집 코드를 넣지 않는다.
+
 앱은 [agilitykorea-manifest.json](https://daltiapp.github.io/agilitykorea-manifest.json)을 먼저 읽고 사이트 origin에 `basePath + files.library`를 붙여 자료실을 요청한다. 버전 폴더를 앱에 고정하지 않는다. `files.library`가 없는 이전 manifest를 받으면 자료실 미제공 상태로 처리하고, 구버전 경로를 추측해 요청하지 않는다.
 
 최초 배포 경로는 `ak/v3/library/library.json`이다. 구조는 [library.json](../ak/v3/library/library.json), 필드·타입 계약은 [agility-library-v1.schema.json](../schemas/agility-library-v1.schema.json)을 참고한다. 버전 폴더에는 JSON만 두고 문서는 `docs/`, 검증 계약은 `schemas/`에서 관리한다.
