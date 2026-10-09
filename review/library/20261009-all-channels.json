@@ -40673,5 +40673,10 @@
       ],
       "notes": null
     }
-  ]
+  ],
+  "correction": {
+    "checkedAt": "2026-10-09T14:51:37+09:00",
+    "audit": "20261009-agility-only.json",
+    "message": "훈련경기대회 출진표를 OTHER_EVENT로 포함한 과거 판정은 잘못됐으며, 원문 CD1~CD4 확인 후 현재 자료실에서 제외했다. 이 파일의 수량과 포함 목록은 당시 감사 기록이다."
+  }
 }

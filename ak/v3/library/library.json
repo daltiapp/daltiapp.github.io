@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261009.7",
-  "updatedAt": "2026-10-09T14:23:01+09:00",
+  "dataVersion": "20261009.8",
+  "updatedAt": "2026-10-09T14:50:23+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -413,14 +413,6 @@
       "startDate": "2025-09-20",
       "endDate": "2025-09-20",
       "competitionGroup": "RANKING_EVENT",
-      "organizer": null
-    },
-    {
-      "id": "event-koreaagility-training-event-20250920",
-      "name": "훈련경기대회",
-      "startDate": "2025-09-20",
-      "endDate": "2025-09-20",
-      "competitionGroup": "OTHER_EVENT",
       "organizer": null
     },
     {
@@ -29265,34 +29257,6 @@
         "postUrl": "https://pf.kakao.com/_HlJFG/110839915",
         "publishedAt": "2025-09-20T06:55:32+09:00",
         "imageOrder": 6
-      }
-    },
-    {
-      "id": "asset-kakao-BfHUb-174774212",
-      "kind": "entry_list",
-      "title": "9월 20일 훈련경기대회 출진표입니다. · 1",
-      "eventIds": [
-        "event-koreaagility-training-event-20250920"
-      ],
-      "mapCategories": [],
-      "notice": null,
-      "image": {
-        "url": "https://k.kakaocdn.net/dn/bmNuKp/btsQEmSO9CV/RmMlWd2AmJay8WBXWfShlK/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/bmNuKp/btsQEmSO9CV/RmMlWd2AmJay8WBXWfShlK/img_s.jpg",
-        "width": 1509,
-        "height": 336,
-        "mimeType": "image/jpeg"
-      },
-      "source": {
-        "provider": "kakao",
-        "channelId": "_BfHUb",
-        "channelName": "코리아어질리티",
-        "postId": "110824263",
-        "mediaId": "174774212",
-        "postTitle": "9월 20일 훈련경기대회 출진표입니다.",
-        "postUrl": "https://pf.kakao.com/_BfHUb/110824263",
-        "publishedAt": "2025-09-18T21:01:03+09:00",
-        "imageOrder": 1
       }
     },
     {

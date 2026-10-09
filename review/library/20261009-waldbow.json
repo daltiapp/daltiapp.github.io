@@ -7009,5 +7009,10 @@
     "appPushSent": false,
     "telegramSent": false,
     "scheduleOrNoticeJsonModified": false
+  },
+  "correction": {
+    "checkedAt": "2026-10-09T14:51:37+09:00",
+    "audit": "20261009-agility-only.json",
+    "message": "2026-10-10 대회는 2026-10-09 확인 시점에 내일 예정된 경기로 결과 없음이 정상이다. 현재 배치는 upcomingResults로 구분하고 경기일부터 다시 확인한다. 이 파일의 수량은 정정 전 감사 기록이다."
   }
 }

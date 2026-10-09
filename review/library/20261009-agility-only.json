@@ -1,0 +1,103 @@
+{
+  "auditVersion": 1,
+  "checkedAt": "2026-10-09T14:51:37+09:00",
+  "dataVersion": "20261009.8",
+  "scope": "어질리티 자료만 포함; 오비디언스 훈련경기 제외 및 예정 경기 상태 정정",
+  "priorAudits": [
+    "20261009-all-channels.json",
+    "20261009-waldbow.json",
+    "20261009-result-types.json"
+  ],
+  "removed": {
+    "assetId": "asset-kakao-BfHUb-174774212",
+    "eventId": "event-koreaagility-training-event-20250920",
+    "postUrl": "https://pf.kakao.com/_BfHUb/110824263",
+    "originalTitle": "9월 20일 훈련경기대회 출진표입니다.",
+    "reason": "원본 이미지가 KKF 코리아 오비디언스클럽 CD1~CD4 훈련경기 응시자명단이며 어질리티가 아님",
+    "originalImageSha256": "c4ef21ad0e1ee25e55906dac0213a897240d5412d3db7d213851bfe12cd85c8a",
+    "removedAssets": 1,
+    "removedEvents": 1
+  },
+  "catalog": {
+    "events": 136,
+    "assets": 2561,
+    "assetKinds": {
+      "entry_list": 638,
+      "course_map": 554,
+      "result": 1369
+    },
+    "resultTypes": {
+      "image": 1232,
+      "site": 137
+    },
+    "siteRecordFiles": 19
+  },
+  "authentication": {
+    "privateStorageReady": true,
+    "sourcePermissions600": true,
+    "runtimePermissions600": true,
+    "actualCredentialsConfigured": true,
+    "liveLoginVerified": true,
+    "courseEvents": 18,
+    "resultEvents": 20
+  },
+  "nativeReplay": {
+    "checkedAt": "2026-10-09T14:51:37+09:00",
+    "published": false,
+    "kakao": {
+      "posts": 382,
+      "changed": 0,
+      "pending": [],
+      "errors": []
+    },
+    "waldbow": {
+      "events": 38,
+      "changed": 0,
+      "upcomingResults": [
+        "801"
+      ],
+      "unpublishedResults": [],
+      "errors": []
+    }
+  },
+  "sourceCompatibility": {
+    "courseMapOriginalsMatched": 113,
+    "completedRecordEventsMatched": 19,
+    "appliedWaldbowFingerprintsMatched": 37,
+    "upcomingEventHasNoAppliedFingerprint": true,
+    "courseLabels": "원문 alt 라벨 유지",
+    "tournamentOrder": "사이트의 종목 순서와 라운드 숫자 순서; 272·274의 점수와 코스 정보는 기존 데이터와 동일"
+  },
+  "upcomingResults": [
+    {
+      "no": "801",
+      "date": "2026-10-10",
+      "status": "upcoming",
+      "reason": "2026-10-09 확인 시점에는 내일 예정된 경기이므로 결과가 없는 정상 상태",
+      "recheck": "경기일부터 매 실행 재확인, 완료 기록이 게시된 뒤 반영"
+    }
+  ],
+  "verification": {
+    "pythonTests": {
+      "passed": 312
+    },
+    "appCompatibility": {
+      "currentAppParser": "passed",
+      "previousAppParser": "passed",
+      "events": 136,
+      "assets": 2561,
+      "imageResults": 1232,
+      "siteResults": 137,
+      "recordFiles": 19,
+      "otherActiveJsonUnchanged": 166,
+      "remainingAssetsAndEventsExact": true
+    },
+    "activeDataHarness": {
+      "ok": true,
+      "scope": "all",
+      "jsonFileCount": 167
+    },
+    "publicDeployment": "pending"
+  },
+  "nasInstallationVerified": false
+}
