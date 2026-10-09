@@ -1,0 +1,220 @@
+{
+  "status": "code_and_data_verification_passed",
+  "checkedAt": "2026-10-09T14:26:20+09:00",
+  "dataVersion": "20261009.7",
+  "commits": {
+    "app": "cd6611ee3cf17007281bc49c2cf2b6a791bb3fe3",
+    "scraper": "604b822032dea6b904ed48579e186c6ed2cdd6a2",
+    "data": "5a56f02a3b4a5eb1bd4d0311b5c62e579fd591f7"
+  },
+  "contract": {
+    "kind": "result",
+    "resultTypeValues": [
+      "image",
+      "site"
+    ],
+    "defaultWhenOmitted": "image",
+    "siteRecordPath": "./records/<filename>.json",
+    "oldImageAndSourceFieldsPreserved": true,
+    "siteRecordDisplay": "existing PNG preview and original-image gallery",
+    "dedicatedWaldbowSourceFilterAdded": false,
+    "credentialsInPublicData": false
+  },
+  "catalog": {
+    "dataVersion": "20261009.7",
+    "resultTypes": {
+      "image": 1232,
+      "site": 137
+    },
+    "recordFiles": 19,
+    "events": 137,
+    "assets": 2562,
+    "protectedJson": 166
+  },
+  "verification": {
+    "scraperTestsPassed": 308,
+    "appLibraryTestsPassed": 76,
+    "flutterAnalyze": "no issues",
+    "appDocumentationCheck": "passed",
+    "siteRecordJsonReferences": 19,
+    "protectedJsonUnchanged": 166,
+    "actualAppMapper": "passed",
+    "previousAppMapperCompatibility": "passed",
+    "fullActiveDataHarness": {
+      "ok": true,
+      "scope": "all",
+      "jsonFiles": 167
+    },
+    "replay": {
+      "checkedAt": "2026-10-09T14:24:20+09:00",
+      "published": false,
+      "kakao": {
+        "posts": 382,
+        "changed": 0,
+        "pending": [],
+        "errors": []
+      },
+      "waldbow": {
+        "events": 38,
+        "changed": 0,
+        "unpublishedResults": [
+          "801"
+        ],
+        "errors": []
+      }
+    },
+    "publicDeployment": {
+      "dataVersion": "20261009.7",
+      "verifiedFiles": [
+        {
+          "path": "agilitykorea-manifest.json",
+          "url": "https://daltiapp.github.io/agilitykorea-manifest.json",
+          "sha256": "529aa3f4867a7ab1b85d5fd79646dc8bcc5b1d66c570c476e2ea03f2cf724055",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/library.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/library.json",
+          "sha256": "c8747e598b0328e4a20d6dd0a24b8c2e096d09147441b319e88ad26344f9f208",
+          "status": 200
+        },
+        {
+          "path": "schemas/agility-library-v1.schema.json",
+          "url": "https://daltiapp.github.io/schemas/agility-library-v1.schema.json",
+          "sha256": "83afcc800684036f7bba25fde4a31a0f7ab77298497c82993c6020d91fda892a",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-10.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-10.json",
+          "sha256": "cd5375dcce2ad8b53250cff1cc956981a1a4dc806b5888690d105cb16f154cff",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-113.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-113.json",
+          "sha256": "db5c778631c9abfd14920367cb98b829e77aacf15d2cc70ec928a22dda606cbe",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-114.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-114.json",
+          "sha256": "798189b123e55bdf3603ca7053ddbcbd25ff9744f4ca1be1af335b78db1b3322",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-221.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-221.json",
+          "sha256": "5af1e12b52ce8e542b0ae0c3d328432ed2c81d18fa9cb3a6f1c7d6f6a2504133",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-222.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-222.json",
+          "sha256": "ed6ca713bf3818555f9bc9c2a71f4b2c69dccabbbd4685cd360178135249933a",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-224.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-224.json",
+          "sha256": "b6242482959b598ff2d753e18eb6c91196baaddffd5cf7490c38199b26051afd",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-225.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-225.json",
+          "sha256": "d318043fafaa4392bb618830f01caf3af2f64e060f824d4e5e736c0f76e6f47e",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-228.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-228.json",
+          "sha256": "e1b3956a50504cdbcfb6ea3984ad79a83b1650c471f8e4c7227660f10799a022",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-229.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-229.json",
+          "sha256": "8230ddc97bd063b66f0292b38ec2a98c0068e01f420c218d1e91da1c00e5122c",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-26.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-26.json",
+          "sha256": "4ed14926ef8cf73d1b63c66dc36de15f3650d64f3cb480762235f220e165069b",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-272.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-272.json",
+          "sha256": "966b2b2c0c46fc98929bf79f479264737c2ea30daa4ead7f7116914b97db7932",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-273.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-273.json",
+          "sha256": "8d77408c69c3f7481e63a0f6a155113c78d04c3dc2bcfac8966abcae21288da4",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-274.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-274.json",
+          "sha256": "564dfb26e64d566f2a571481d0bbe716618510b7ed9291b58f510497b3ce5dec",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-28.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-28.json",
+          "sha256": "d5f7870f14af94010c6e65b35a9e4f7cac9b026522ef13539a8c8ca97fcda6b8",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-287.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-287.json",
+          "sha256": "0d0936e2ee56f3e20483b2a2b7428eb349c69c4fc175c44c108b73a4a2373f08",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-288.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-288.json",
+          "sha256": "0cbefe4d3a6e08227188dcbed1fff7f41c63a918072a1d96456fce64a4543fe9",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-65.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-65.json",
+          "sha256": "220492a0fc4af2dbdce84d2e3085871796989ca51ac79cf474df5eaa6c7150cc",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-66.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-66.json",
+          "sha256": "24c55be6386a6310f2cc7b40646c5e4f1a604a1fb8afffcd83f754aff1c1645a",
+          "status": 200
+        },
+        {
+          "path": "ak/v3/library/records/waldbow-9.json",
+          "url": "https://daltiapp.github.io/ak/v3/library/records/waldbow-9.json",
+          "sha256": "c9cb00fa5283395b224207ce620ca40995fad118141cfbb4ec4b79d5d0a3d1bb",
+          "status": 200
+        }
+      ]
+    }
+  },
+  "credentials": {
+    "storage": "private JSON outside Git",
+    "permissions600": true,
+    "interactivePasswordInput": "hidden",
+    "saveLoadAndLoginPostUnitTests": "passed",
+    "actualCredentialsConfigured": false,
+    "liveLoginVerified": false,
+    "pending": "user must enter actual userID and userPw"
+  },
+  "sideEffects": {
+    "appPushSent": false,
+    "telegramSent": false,
+    "nasInstalled": false,
+    "nasScheduled": false,
+    "newDriveUploads": 0
+  }
+}
