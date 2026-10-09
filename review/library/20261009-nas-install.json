@@ -1,6 +1,6 @@
 {
   "auditVersion": 1,
-  "checkedAt": "2026-10-09T16:14:42+09:00",
+  "checkedAt": "2026-10-09T16:30:44+09:00",
   "dataVersion": "20261009.8",
   "priorAudit": "20261009-agility-only.json",
   "nasInstallationVerified": true,
@@ -82,14 +82,14 @@
     "taskName": "AgilityLibraryAuto",
     "owner": "root",
     "recurrence": "daily",
-    "time": "11:00",
+    "time": "21:00",
     "timezone": "Asia/Seoul",
     "command": "/bin/sh /volume1/work/git/agility-scraper/library_auto_real",
     "registrationVerified": true,
     "status": "enabled",
     "enabled": true,
-    "nextRun": "2026-10-10T11:00:00+09:00",
-    "verifiedAt": "2026-10-09T16:14:42+09:00",
+    "nextRun": "2026-10-09T21:00:00+09:00",
+    "verifiedAt": "2026-10-09T16:30:44+09:00",
     "savedCommandRun": {
       "startedAt": "2026-10-09T16:14:18+09:00",
       "finishedAt": "2026-10-09T16:14:42+09:00",
@@ -111,7 +111,16 @@
         "unpublishedResults": [],
         "errors": []
       }
-    }
+    },
+    "scheduleChanges": [
+      {
+        "verifiedAt": "2026-10-09T16:30:44+09:00",
+        "from": "11:00",
+        "to": "21:00",
+        "reason": "사용자 요청: 밤 9시",
+        "nextRun": "2026-10-09T21:00:00+09:00"
+      }
+    ]
   },
   "scope": {
     "kakaoChannels": [
