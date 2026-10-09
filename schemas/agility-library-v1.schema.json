@@ -58,6 +58,13 @@
       "items": {
         "$ref": "#/$defs/courseMapGroup"
       }
+    },
+    "eventGroups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/eventGroup"
+      },
+      "description": "대회별 출진표·코스맵·결과 asset ID 참조. 결과 공개 전후 동일 eventId를 유지한다."
     }
   },
   "additionalProperties": false,
@@ -342,6 +349,11 @@
           "type": "string",
           "pattern": "^\\./records/[A-Za-z0-9][A-Za-z0-9_-]*\\.json$",
           "description": "site 결과의 공개 기록 JSON. 자료실 JSON 파일 위치 기준 상대 경로."
+        },
+        "entryListPath": {
+          "type": "string",
+          "pattern": "^\\./records/waldbow-\\d+-entries\\.json$",
+          "description": "사이트 출진표의 마스킹된 표 JSON. 자료실 JSON 파일 위치 기준 상대 경로."
         }
       },
       "additionalProperties": false,
@@ -418,6 +430,20 @@
               "recordPath": false
             }
           }
+        },
+        {
+          "if": {
+            "required": [
+              "entryListPath"
+            ]
+          },
+          "then": {
+            "properties": {
+              "kind": {
+                "const": "entry_list"
+              }
+            }
+          }
         }
       ]
     },
@@ -490,6 +516,46 @@
                 }
               }
             ]
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "eventGroup": {
+      "type": "object",
+      "required": [
+        "eventId",
+        "entryListIds",
+        "courseMapIds",
+        "resultIds"
+      ],
+      "properties": {
+        "eventId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entryListIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "courseMapIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "resultIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
           }
         }
       },

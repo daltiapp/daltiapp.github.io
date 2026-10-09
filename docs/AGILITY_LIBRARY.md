@@ -34,7 +34,7 @@ JSON 위치 기준 `recordPath: ./records/waldbow-<대회번호>.json`을 함께
 구분했다. 사이트 기록은 19개 JSON에 연결하며 기존 이미지 URL과 모든 자료 ID를 유지했다.
 앱·배치 테스트, 이전 앱 호환, 공개 배포 검증은 [결과 타입 검증 JSON](../review/library/20261009-result-types.json)에 기록했다.
 과거 행별 코스 설정이 다르면 사이트와 같은 마지막 행 설정을 머리글에 표시하고 원문
-설정은 `rowCourseInfo`에 함께 보존한다. 참가자만 있고 결과가 없는 페이지는 배포하지 않는다.
+설정은 `rowCourseInfo`에 함께 보존한다. 참가자만 있는 페이지는 결과로 배포하지 않고 출진표 종류로 따로 수집한다.
 
 2026-10-09 발트바우 전체 공개 이력에서 코스맵 113장과 기록표 PNG 137장을 추가했다.
 기록 JSON은 19개 대회, 2,717행이다. 원본·썸네일 500개 Drive 파일의 공개 권한과
@@ -155,11 +155,39 @@ ID는 한 번 발급하면 제목·날짜·분류·URL을 수정해도 유지한
 
 일일 배치는 자료 수집 후와 배포 직전에 묶음을 다시 생성한다. `assets`와 묶음은 함께 검증·커밋하며 변경 없는 재실행은 새 버전을 만들지 않는다. 채널 전체 JSON과 AWC 전체 JSON에도 같은 필드를 제공한다. 검증은 [대회별 응답 검증 기록](../review/library/20261009-course-map-groups.json)에 남긴다.
 
+## 출진표부터 시작하는 대회별 묶음
+
+`eventGroups`는 `events`의 모든 대회에 대해 `eventId`, `entryListIds`, `courseMapIds`,
+`resultIds`를 제공한다. 각 ID 배열은 사전순이며 `assets`의 해당 종류·eventIds와 정확히
+대응한다. 화면 자료 순서는 기존 source 게시물·imageOrder 규칙을 사용한다.
+출진표만 먼저 공개되면 `resultIds`는 비어 있고, 결과가 공개되면 동일 eventId의 resultIds가
+추가된다. 출진표는 결과로 대체하거나 삭제하지 않는다. 별도의 대회 행을 만들지 않는다.
+이전 앱용 assets/eventIds와 courseMapGroups도 함께 유지한다.
+
+발트바우는 대회번호를 event ID로 사용한다. 출진표 목록·코스 목록·기록 목록 전체를 읽어
+대회번호를 대조하고, 아직 개최 전인 대회도 출진표는 수집한다. 기록은 개최일 이후 실제
+시간/결과가 공개됐을 때 추가한다. 빈 결과와 일시적인 빈 출진표는 기존 자료 삭제 근거가 아니다.
+카카오는 분류기가 확인한 동일 대회명·시작일·종료일·분류의 고유 기존 대회를 재사용한다.
+날짜 미확인이나 후보가 모호하면 서로 다른 대회를 추측으로 합치지 않는다.
+
+발트바우 출진표 asset은 `kind: entry_list`와 선택 필드
+`entryListPath: ./records/waldbow-<대회번호>-entries.json`을 제공한다. 표 JSON은
+`columns: [순서, 견명, 견종, 핸들러, 비고]`, `groups`의 종목·체급·rows로 구성된다.
+이름 마스킹을 유지하고 내부 계정·견체 ID, 사진/영상 설정은 저장하지 않는다.
+순서는 종목·체급 안에서 원문처럼 1부터 매긴다. 결과의 점수나 순위를 출진표에서 추정하지 않는다.
+
+표 PNG와 작은 WebP는 GitHub의 `library-media/waldbow/entry-lists/<번호>/<SHA256>.*`에
+보관한다. JSON과 이미지를 같은 커밋으로 배포하고 실제 이미지 디코딩·MIME·SHA256을
+검증한다. `/ak/vN`에는 JSON만 둔다. 앱은 로그인 없이 image URL을 열고,
+결과가 없으면 출진표 탭부터 보여 준다. 결과가 있으면 결과 탭을 기본으로 하되 출진표도 유지한다.
+출진표가 0개인 대회에는 출진표 버튼이 나타나지 않는다.
+
 ## 이미지와 출처
 
 | 필드 | 의미 |
 | --- | --- |
 | `resultType` | 결과의 원문 형식 `image`/`site`. 결과에만 사용하며 생략은 `image`. |
+| `entryListPath` | 사이트 출진표의 선택 공개 표 JSON. 자료실 JSON 기준 `./records/waldbow-<번호>-entries.json`. |
 | `recordPath` | `site` 결과의 필수 공개 기록 JSON 경로. 자료실 JSON 기준 `./records/<파일명>.json`. |
 | `image.url` | 로그인 없이 열리는 실제 이미지의 HTTPS 직접 URL. 앱 상세 이미지 뷰어에서 사용한다. |
 | `image.thumbnailUrl` | 목록용 HTTPS 썸네일 URL. 없으면 `null`이며 앱은 `image.url`을 사용할 수 있다. |
