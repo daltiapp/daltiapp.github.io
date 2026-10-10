@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-10T11:58:33+09:00",
+  "dataVersion": "20261010.6",
+  "sortRule": "confirmed startDate descending; undated named year descending; unknown last; ID ascending ties",
+  "unchangedContent": {
+    "events": 166,
+    "assets": 3058,
+    "courseMapGroups": 156,
+    "eventGroups": 166
+  },
+  "awcYears": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014",
+    "2013",
+    "2012",
+    "2011",
+    "2010",
+    "2009",
+    "2008",
+    "2007",
+    "2006",
+    "2005",
+    "2004",
+    "2003",
+    "2002",
+    "2001",
+    "2000",
+    "1999",
+    "1998",
+    "1997",
+    "1996"
+  ],
+  "validation": {
+    "jsonSchema": true,
+    "latestFirstOrder": true,
+    "completeGroupMembershipAndImageOrder": true,
+    "fullActiveHarness": true,
+    "activeJsonFiles": 187,
+    "pythonRegressionTests": 334,
+    "appRegressionTests": 41,
+    "actualAppParser": true,
+    "channelFilters": 6
+  },
+  "inputSha256": {
+    "library": "c341eee8fc9369790ac24e21de59b51b33761d278c44b8c3e44afb5cac7ecac5",
+    "manifest": "49d50f2952bd7c4f899ac3528c3d2ff47a031f16adbbc6ff5694382801e5cca3"
+  }
+}

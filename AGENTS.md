@@ -80,6 +80,8 @@ If release signing fails, debug in this order:
 
 # AgilityKorea 활성 JSON 규칙
 
+- 자료실의 `events`·`eventGroups`·`courseMapGroups`는 채널·사이트·AWC 모두 확인된 개최일 최신순, 개최일 미확인은 대회명에 명시된 연도 최신순, 둘 다 없으면 마지막으로 제공한다. 동률은 ID 오름차순이며 가짜 개최일을 만들지 않는다. 상세 정렬·첨부 순서와 NAS 검증 기준은 [자료실 계약](docs/AGILITY_LIBRARY.md)의 최신순 정렬 기준을 따른다.
+
 - 구버전 `/agilitykorea` JSON 경로는 사용하지 않는다. 앱과 모든 배치는 `/agilitykorea-manifest.json`만 진입점으로 사용한다.
 - JSON 구조가 바뀌는 강제 업데이트는 `/ak/vN` 폴더를 새로 만들고 manifest의 `basePath`를 전환한다.
 - 현재 활성 경로는 manifest의 `basePath`를 기준으로 한다 (2026-09-20 확인값 `/ak/v3`). 다음 버전 전환은 사용자가 명시할 때만 진행한다.
