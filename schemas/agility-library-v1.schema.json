@@ -65,6 +65,35 @@
         "$ref": "#/$defs/eventGroup"
       },
       "description": "대회별 출진표·코스맵·결과 asset ID 참조. 결과 공개 전후 동일 eventId를 유지한다."
+    },
+    "courseMapCategories": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "jpag_promotion",
+              "jpag_ranking",
+              "benov_promotion",
+              "benov_ranking",
+              "awc"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false,
@@ -354,6 +383,9 @@
           "type": "string",
           "pattern": "^\\./records/waldbow-\\d+-entries\\.json$",
           "description": "사이트 출진표의 마스킹된 표 JSON. 자료실 JSON 파일 위치 기준 상대 경로."
+        },
+        "courseMapCategoryIds": {
+          "$ref": "#/$defs/courseMapCategoryIds"
         }
       },
       "additionalProperties": false,
@@ -517,6 +549,9 @@
               }
             ]
           }
+        },
+        "categoryIds": {
+          "$ref": "#/$defs/courseMapCategoryIds"
         }
       },
       "additionalProperties": false
@@ -560,6 +595,19 @@
         }
       },
       "additionalProperties": false
+    },
+    "courseMapCategoryIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "jpag_promotion",
+          "jpag_ranking",
+          "benov_promotion",
+          "benov_ranking",
+          "awc"
+        ]
+      }
     }
   }
 }
