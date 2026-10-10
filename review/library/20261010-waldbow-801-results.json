@@ -1,6 +1,4 @@
 {
-  "checkedAt": "2026-10-10T19:37:46+09:00",
-  "dataVersion": "20261010.10",
   "event": {
     "date": "2026-10-10",
     "no": "801",
@@ -189,159 +187,251 @@
       "rows": 14
     }
   ],
-  "resultAssetCount": 14,
-  "media": [
-    {
-      "path": "library-media/waldbow/results/801/cb86fd2a0595b77c3fbea81d7a07af84cbb156a2fa1691c1130516e51cfa4404.png",
-      "sha256": "cb86fd2a0595b77c3fbea81d7a07af84cbb156a2fa1691c1130516e51cfa4404",
-      "bytes": 518453
-    },
-    {
-      "path": "library-media/waldbow/results/801/58f58246ca2e24c42eba0dccd568f42e47a89c2b815e825c50558d6f67529ec9.webp",
-      "sha256": "58f58246ca2e24c42eba0dccd568f42e47a89c2b815e825c50558d6f67529ec9",
-      "bytes": 29376
-    },
-    {
-      "path": "library-media/waldbow/results/801/2f705c84f5b1e327d727d8097a6c80ab922c7da719e78a414e3b9d64f18269e4.png",
-      "sha256": "2f705c84f5b1e327d727d8097a6c80ab922c7da719e78a414e3b9d64f18269e4",
-      "bytes": 261921
-    },
-    {
-      "path": "library-media/waldbow/results/801/6694df6f24b7377df5486d551b734e5cd3e2ccdc57ae36df4ef0f9e1830c6de7.webp",
-      "sha256": "6694df6f24b7377df5486d551b734e5cd3e2ccdc57ae36df4ef0f9e1830c6de7",
-      "bytes": 29626
-    },
-    {
-      "path": "library-media/waldbow/results/801/c2b71d24169d603534905d6bf2fa842cdda648776fdefd8db205a35243aeede1.png",
-      "sha256": "c2b71d24169d603534905d6bf2fa842cdda648776fdefd8db205a35243aeede1",
-      "bytes": 491573
-    },
-    {
-      "path": "library-media/waldbow/results/801/835e94b8d11df5380fa8ad47a1d4f45c4ef95479f94d5bb2ed1c6ef6badb405e.webp",
-      "sha256": "835e94b8d11df5380fa8ad47a1d4f45c4ef95479f94d5bb2ed1c6ef6badb405e",
-      "bytes": 28042
-    },
-    {
-      "path": "library-media/waldbow/results/801/6c1ffbd0628d4adcbac1c197b60398963648521386d9e8bac494a33f10f555ab.png",
-      "sha256": "6c1ffbd0628d4adcbac1c197b60398963648521386d9e8bac494a33f10f555ab",
-      "bytes": 234979
-    },
-    {
-      "path": "library-media/waldbow/results/801/b1111713ca603b4bb19f6ed05406c7231330e1650857145ee637cad2167957b5.webp",
-      "sha256": "b1111713ca603b4bb19f6ed05406c7231330e1650857145ee637cad2167957b5",
-      "bytes": 27452
-    },
-    {
-      "path": "library-media/waldbow/results/801/a148578b038dec79d32ce1a1e714495187e7108d607d612f6fe63bc1b658cf59.png",
-      "sha256": "a148578b038dec79d32ce1a1e714495187e7108d607d612f6fe63bc1b658cf59",
-      "bytes": 497768
-    },
-    {
-      "path": "library-media/waldbow/results/801/aa9c868eb5d9ed6355f64fa4dab79d0893317350cee4f103eddfa0b492a08f72.webp",
-      "sha256": "aa9c868eb5d9ed6355f64fa4dab79d0893317350cee4f103eddfa0b492a08f72",
-      "bytes": 28868
-    },
-    {
-      "path": "library-media/waldbow/results/801/18c8051c608e0a7d65a77cf94f980a6d4b17337caffb8eee9da7ed2135439f9b.png",
-      "sha256": "18c8051c608e0a7d65a77cf94f980a6d4b17337caffb8eee9da7ed2135439f9b",
-      "bytes": 253237
-    },
-    {
-      "path": "library-media/waldbow/results/801/741310a67c849baa591d7dbde9535267592ec568bb40fa6efe3a031e51378f2b.webp",
-      "sha256": "741310a67c849baa591d7dbde9535267592ec568bb40fa6efe3a031e51378f2b",
-      "bytes": 29198
-    },
-    {
-      "path": "library-media/waldbow/results/801/daa412cdab9059ca7bcdbce6b498f475a0189b853c7a9e9fa46d461ae8a71f47.png",
-      "sha256": "daa412cdab9059ca7bcdbce6b498f475a0189b853c7a9e9fa46d461ae8a71f47",
-      "bytes": 540055
-    },
-    {
-      "path": "library-media/waldbow/results/801/e5208a1d862f308f70e86128750dfcef7f1f6bf9029b6a256748b6ebcff28202.webp",
-      "sha256": "e5208a1d862f308f70e86128750dfcef7f1f6bf9029b6a256748b6ebcff28202",
-      "bytes": 28444
-    },
-    {
-      "path": "library-media/waldbow/results/801/711d52b3cec80c611a474579cceb386fd5b45a702e47ff95814c851a7aed63f3.png",
-      "sha256": "711d52b3cec80c611a474579cceb386fd5b45a702e47ff95814c851a7aed63f3",
-      "bytes": 115860
-    },
-    {
-      "path": "library-media/waldbow/results/801/01b2a30af8c90a820303c6edd4fa3f44ab9031ffdfaef52426147f817fe5521e.webp",
-      "sha256": "01b2a30af8c90a820303c6edd4fa3f44ab9031ffdfaef52426147f817fe5521e",
-      "bytes": 13864
-    },
-    {
-      "path": "library-media/waldbow/results/801/717897b7cb6f823b6796ba2e740383e43f6b12c6586505db98f3b717a150678e.png",
-      "sha256": "717897b7cb6f823b6796ba2e740383e43f6b12c6586505db98f3b717a150678e",
-      "bytes": 546225
-    },
-    {
-      "path": "library-media/waldbow/results/801/c64b65812dffebe58fae7cb304848c6882c632397e53085194e3ea572ce23a2d.webp",
-      "sha256": "c64b65812dffebe58fae7cb304848c6882c632397e53085194e3ea572ce23a2d",
-      "bytes": 28144
-    },
-    {
-      "path": "library-media/waldbow/results/801/d773d736d7c955ac551141d8905443ff82ec9b51b4b9ce71eb63cb35840f41be.png",
-      "sha256": "d773d736d7c955ac551141d8905443ff82ec9b51b4b9ce71eb63cb35840f41be",
-      "bytes": 112611
-    },
-    {
-      "path": "library-media/waldbow/results/801/1beb852bfd200201ccfbf010f33ace2437e9c9bd5b8a8e76832aa7b7d06b3dcc.webp",
-      "sha256": "1beb852bfd200201ccfbf010f33ace2437e9c9bd5b8a8e76832aa7b7d06b3dcc",
-      "bytes": 13594
-    },
-    {
-      "path": "library-media/waldbow/results/801/51abc0a6a4a1b4d797f61b61cc6822bceff07909f52c98a5aa851c051051ae07.png",
-      "sha256": "51abc0a6a4a1b4d797f61b61cc6822bceff07909f52c98a5aa851c051051ae07",
-      "bytes": 507846
-    },
-    {
-      "path": "library-media/waldbow/results/801/798941e1351c1c3ce99c7773df9e0101fc3844fdbd872dfebb8c3e1c48a1851a.webp",
-      "sha256": "798941e1351c1c3ce99c7773df9e0101fc3844fdbd872dfebb8c3e1c48a1851a",
-      "bytes": 29554
-    },
-    {
-      "path": "library-media/waldbow/results/801/38d32f5ea4db23cc6f3e3b56f3dea4474cbb0022c9dd49a847c4b63b31f39015.png",
-      "sha256": "38d32f5ea4db23cc6f3e3b56f3dea4474cbb0022c9dd49a847c4b63b31f39015",
-      "bytes": 74504
-    },
-    {
-      "path": "library-media/waldbow/results/801/0aef420be9f15da88409a2a146931f781adc6742911af9bc28436dc6496f06d1.webp",
-      "sha256": "0aef420be9f15da88409a2a146931f781adc6742911af9bc28436dc6496f06d1",
-      "bytes": 8856
-    },
-    {
-      "path": "library-media/waldbow/results/801/f78bb16679285cd38bf251a64bfcbfc37f0c0d15dd17e4399120b4559ea81a58.png",
-      "sha256": "f78bb16679285cd38bf251a64bfcbfc37f0c0d15dd17e4399120b4559ea81a58",
-      "bytes": 513265
-    },
-    {
-      "path": "library-media/waldbow/results/801/2e9fbc4dff5b7aa1e85756900c8710d9fbbab78571914dcdc5569554fb760453.webp",
-      "sha256": "2e9fbc4dff5b7aa1e85756900c8710d9fbbab78571914dcdc5569554fb760453",
-      "bytes": 29626
-    },
-    {
-      "path": "library-media/waldbow/results/801/6c3e40eb029663d1035839fbecbe5eee8360b116150727b9ff782d3a5824a1bc.png",
-      "sha256": "6c3e40eb029663d1035839fbecbe5eee8360b116150727b9ff782d3a5824a1bc",
-      "bytes": 73069
-    },
-    {
-      "path": "library-media/waldbow/results/801/2d45f4eb6d718c6c3a71bc29b7cf7f1bd917d95ff43522e85edb8a5fc01c791f.webp",
-      "sha256": "2d45f4eb6d718c6c3a71bc29b7cf7f1bd917d95ff43522e85edb8a5fc01c791f",
-      "bytes": 8660
-    }
-  ],
   "privacyChecks": {
     "handlerNamesMasked": true,
     "internalIdentifiersExcluded": true,
     "scoreOrRankRecalculated": false
   },
+  "checkedAt": "2026-10-10T19:44:31+09:00",
+  "dataVersion": "20261010.11",
+  "priorResultAssetCount": 14,
+  "resultAssetCount": 10,
+  "paginationStrategy": "Keep every course-grade group together; target 35 rows per image.",
+  "pagination": [
+    {
+      "key": "768c3b5f8ebebd33-1",
+      "course": "BE-1",
+      "page": 1,
+      "rows": 36,
+      "grades": [
+        "T",
+        "S",
+        "M",
+        "IN"
+      ],
+      "groupCount": 4
+    },
+    {
+      "key": "768c3b5f8ebebd33-2",
+      "course": "BE-1",
+      "page": 2,
+      "rows": 17,
+      "grades": [
+        "L"
+      ],
+      "groupCount": 1
+    },
+    {
+      "key": "11f19ad3ea34b0d0-1",
+      "course": "BE-2",
+      "page": 1,
+      "rows": 36,
+      "grades": [
+        "T",
+        "S",
+        "M",
+        "IN"
+      ],
+      "groupCount": 4
+    },
+    {
+      "key": "11f19ad3ea34b0d0-2",
+      "course": "BE-2",
+      "page": 2,
+      "rows": 17,
+      "grades": [
+        "L"
+      ],
+      "groupCount": 1
+    },
+    {
+      "key": "f03d4f8fa9dd581c-1",
+      "course": "NV-1",
+      "page": 1,
+      "rows": 36,
+      "grades": [
+        "T",
+        "S",
+        "M",
+        "IN"
+      ],
+      "groupCount": 4
+    },
+    {
+      "key": "f03d4f8fa9dd581c-2",
+      "course": "NV-1",
+      "page": 2,
+      "rows": 17,
+      "grades": [
+        "L"
+      ],
+      "groupCount": 1
+    },
+    {
+      "key": "6e505da24f602fc8-1",
+      "course": "JP-1",
+      "page": 1,
+      "rows": 42,
+      "grades": [
+        "T",
+        "S",
+        "M",
+        "IN",
+        "L"
+      ],
+      "groupCount": 5
+    },
+    {
+      "key": "91c5cfc79ab67867-1",
+      "course": "AG-1",
+      "page": 1,
+      "rows": 42,
+      "grades": [
+        "T",
+        "S",
+        "M",
+        "IN",
+        "L"
+      ],
+      "groupCount": 5
+    },
+    {
+      "key": "049138e038926ed4-1",
+      "course": "JP-3",
+      "page": 1,
+      "rows": 37,
+      "grades": [
+        "T",
+        "S",
+        "M",
+        "IN",
+        "L"
+      ],
+      "groupCount": 5
+    },
+    {
+      "key": "b5f7aac66d7a2484-1",
+      "course": "AG-3",
+      "page": 1,
+      "rows": 37,
+      "grades": [
+        "T",
+        "S",
+        "M",
+        "IN",
+        "L"
+      ],
+      "groupCount": 5
+    }
+  ],
+  "media": [
+    {
+      "path": "library-media/waldbow/results/801/a39787976257f3d8e0efa8c14ed10525a0c2e3055a2915ed232a3d5f05fc2824.png",
+      "sha256": "a39787976257f3d8e0efa8c14ed10525a0c2e3055a2915ed232a3d5f05fc2824",
+      "bytes": 529386
+    },
+    {
+      "path": "library-media/waldbow/results/801/3166cf0dcee3c620d2d876c95cbd8fbabbd50929c26c0d287a4999d48cb4ae1c.webp",
+      "sha256": "3166cf0dcee3c620d2d876c95cbd8fbabbd50929c26c0d287a4999d48cb4ae1c",
+      "bytes": 27612
+    },
+    {
+      "path": "library-media/waldbow/results/801/b42ada204bd5f2a58fb6be69dd2f42005512b432bf0baf47c53deae10284978e.png",
+      "sha256": "b42ada204bd5f2a58fb6be69dd2f42005512b432bf0baf47c53deae10284978e",
+      "bytes": 217174
+    },
+    {
+      "path": "library-media/waldbow/results/801/a08f509690497b5ed907eea6133c61ae4292450ac15fd0cd7c3a9add70722ba9.webp",
+      "sha256": "a08f509690497b5ed907eea6133c61ae4292450ac15fd0cd7c3a9add70722ba9",
+      "bytes": 24430
+    },
+    {
+      "path": "library-media/waldbow/results/801/f8d8b7a3510ff7f50d530cd4f345fe010a1beba682e728e7a48b9e558ae3c968.png",
+      "sha256": "f8d8b7a3510ff7f50d530cd4f345fe010a1beba682e728e7a48b9e558ae3c968",
+      "bytes": 500632
+    },
+    {
+      "path": "library-media/waldbow/results/801/13930b112b371e7e62ecd907405be159174c3008fc0c2dc252546b87989a67c2.webp",
+      "sha256": "13930b112b371e7e62ecd907405be159174c3008fc0c2dc252546b87989a67c2",
+      "bytes": 27714
+    },
+    {
+      "path": "library-media/waldbow/results/801/238ade007a5b80fad003884a9a40a8954bd2e2919cc85d3a1bb183f35724d607.png",
+      "sha256": "238ade007a5b80fad003884a9a40a8954bd2e2919cc85d3a1bb183f35724d607",
+      "bytes": 191422
+    },
+    {
+      "path": "library-media/waldbow/results/801/979c3efcdbfeca4d96373530c835583ff2db095a3d6d263d7d5677ca4f9c5e9f.webp",
+      "sha256": "979c3efcdbfeca4d96373530c835583ff2db095a3d6d263d7d5677ca4f9c5e9f",
+      "bytes": 22256
+    },
+    {
+      "path": "library-media/waldbow/results/801/f93eeb0d21bbd6518b953bd2b4a80a4c6fd61eaaaecbbe47373a7f4eb251e4c2.png",
+      "sha256": "f93eeb0d21bbd6518b953bd2b4a80a4c6fd61eaaaecbbe47373a7f4eb251e4c2",
+      "bytes": 506759
+    },
+    {
+      "path": "library-media/waldbow/results/801/a70e40090f4b8ab62ee6ada0dc275d3a25158554f99494396b77e82e5d97fd70.webp",
+      "sha256": "a70e40090f4b8ab62ee6ada0dc275d3a25158554f99494396b77e82e5d97fd70",
+      "bytes": 28006
+    },
+    {
+      "path": "library-media/waldbow/results/801/006fbf849df10c713a22455e6131b8ed7374b0c320ce69e7a0ed5717efb9f5ec.png",
+      "sha256": "006fbf849df10c713a22455e6131b8ed7374b0c320ce69e7a0ed5717efb9f5ec",
+      "bytes": 209477
+    },
+    {
+      "path": "library-media/waldbow/results/801/199c3f647611e4179146ec7ca812d3e28f3ede980c23abf1953f8a2a180ded10.webp",
+      "sha256": "199c3f647611e4179146ec7ca812d3e28f3ede980c23abf1953f8a2a180ded10",
+      "bytes": 23866
+    },
+    {
+      "path": "library-media/waldbow/results/801/735d9c2f4eead3c77d651d06b4d438811b08aa8bf770896bbfde5ecaefb7086f.png",
+      "sha256": "735d9c2f4eead3c77d651d06b4d438811b08aa8bf770896bbfde5ecaefb7086f",
+      "bytes": 602575
+    },
+    {
+      "path": "library-media/waldbow/results/801/23e8955696bd2d313186de304a06d98a4a33f44b73cf489d010d575efba444a8.webp",
+      "sha256": "23e8955696bd2d313186de304a06d98a4a33f44b73cf489d010d575efba444a8",
+      "bytes": 27288
+    },
+    {
+      "path": "library-media/waldbow/results/801/bcafebb849adea2397b124eb5e970e23bbda89b7837bb7329f2ed14162969883.png",
+      "sha256": "bcafebb849adea2397b124eb5e970e23bbda89b7837bb7329f2ed14162969883",
+      "bytes": 605601
+    },
+    {
+      "path": "library-media/waldbow/results/801/f1f2105ce70d3ed46bbeb09f32a4cf6ae00ab05faf0412e42a7aa6ef5780835f.webp",
+      "sha256": "f1f2105ce70d3ed46bbeb09f32a4cf6ae00ab05faf0412e42a7aa6ef5780835f",
+      "bytes": 27322
+    },
+    {
+      "path": "library-media/waldbow/results/801/98464544fe2b16d7e1a05c66650c80b72834a42ab8a9020a653fc9528ac0446b.png",
+      "sha256": "98464544fe2b16d7e1a05c66650c80b72834a42ab8a9020a653fc9528ac0446b",
+      "bytes": 530576
+    },
+    {
+      "path": "library-media/waldbow/results/801/4533979c655fc5ff6e4216490ce3300ffdfb99455e7634ae853cf81a85f2fcf7.webp",
+      "sha256": "4533979c655fc5ff6e4216490ce3300ffdfb99455e7634ae853cf81a85f2fcf7",
+      "bytes": 27864
+    },
+    {
+      "path": "library-media/waldbow/results/801/911c662c0759de32b8b23c6ea728e2821030f16619d607ad0c1ab4e9a95e8c37.png",
+      "sha256": "911c662c0759de32b8b23c6ea728e2821030f16619d607ad0c1ab4e9a95e8c37",
+      "bytes": 532214
+    },
+    {
+      "path": "library-media/waldbow/results/801/4d8174c808650afc16b1da4dd862d701f5890b92f3f930373908d1c72ea721f3.webp",
+      "sha256": "4d8174c808650afc16b1da4dd862d701f5890b92f3f930373908d1c72ea721f3",
+      "bytes": 28118
+    }
+  ],
   "validation": {
     "jsonSyntax": "PASS",
     "references": "PASS",
     "eventGroups": "PASS",
     "courseMapGroupsPreserved": "PASS",
-    "imageBytesDecoded": "PASS"
+    "imageBytesDecoded": "PASS",
+    "gradeGroupsSplit": 0
   }
 }
