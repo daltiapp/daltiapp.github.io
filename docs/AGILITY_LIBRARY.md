@@ -95,6 +95,8 @@ PDC 출진표 4장과 코스맵 2장은 원문 응답의 PNG 원본 주소·MIME
 | `channels` | 채널 ID·표시명·제공자·공식 주소 목록. 순서대로 채널 필터를 만들며 채널 수와 ID를 앱에 고정하지 않는다. 과거 응답과의 호환을 위한 선택 필드다. |
 | `mapCategories` | 맵 카테고리 ID와 앱 표시명. 자료가 없는 카테고리도 유지한다. |
 | `competitionCategories` | 출진표·결과·코스맵 공통 분류 ID·표시명. 새 앱은 이 목록으로 필터와 이름을 표시한다. |
+| `competitionGroups` | 대회 ID × 단일 분류의 자료 ID 목록과 사이트 표 선택 범위. 분류별 목록·상세에서 사용한다. |
+| `dateGroups` | 개최 시작일별 전체 자료와 대회·분류 묶음 참조. 날짜별 보기에서 사용한다. |
 | `events` | 자료가 연결된 대회 정보 목록. 현재 4개 채널의 공개 기록을 전수 확인했으며, 미게시·삭제·비공개 대회까지 포함하는 전체 대회 명부는 아니다. |
 | `assets` | 대회 상세 및 구버전 앱 호환용 이미지 목록. |
 | `courseMapGroups` | 대회별 코스맵 묶음. 각 `maps` 배열에 해당 대회의 전체 코스맵 정보를 담는다. 기존 응답과 호환되는 선택 필드다. |
@@ -165,7 +167,7 @@ ID는 한 번 발급하면 제목·날짜·분류·URL을 수정해도 유지한
 
 `maps`는 ID 목록이 아니라 `image`·`source`·분류를 포함한 완전한 `course_map` 항목이다. 구버전 앱의 호환성과 대회 상세를 위해 `assets`의 기존 항목도 그대로 보존한다. 새 앱은 서버 묶음을 읽고, 묶음 누락·중복·다른 대회 연결·이미지 내용 차이·원문 순서 변경을 로드 오류로 처리한다. 필드가 없는 이전 응답만 기존 `eventIds`로 묶는다. JSON 구조의 호환 확장이므로 자료실 schemaVersion 1과 manifest basePath를 유지한다.
 
-공용 코스맵은 실제 연결된 각 대회에 한 번씩 포함한다. 대회명이 같다는 이유로 합치지 않는다. 대회에 연결되지 않은 연습맵은 `eventId: null`로 두고 알려진 원문 게시물의 `post:<source postKey>` 또는 명시적 `unassigned` 묶음에 담으며 가짜 대회를 만들지 않는다. 카테고리·검색은 대회 묶음에서 적용하고, 해당 분류의 이미지 전체와 원문 순서를 유지한다.
+공용 코스맵은 실제 연결된 각 대회에 한 번씩 포함한다. 대회명이 같다는 이유로 합치지 않는다. 대회에 연결되지 않은 연습맵은 `eventId: null`로 두고 알려진 원문 게시물의 `post:<source postKey>` 또는 명시적 `unassigned` 묶음에 담으며 가짜 대회를 만들지 않는다. 이 묶음은 대회 전체 맵 보기용이다. 분류별 상세는 `competitionGroups`를 사용하며 해당 부문 이미지의 원문 순서를 유지한다.
 
 일일 배치는 자료 수집 후와 배포 직전에 묶음을 다시 생성한다. `assets`와 묶음은 함께 검증·커밋하며 변경 없는 재실행은 새 버전을 만들지 않는다. 채널 전체 JSON과 AWC 전체 JSON에도 같은 필드를 제공한다. 검증은 [대회별 응답 검증 기록](../review/library/20261009-course-map-groups.json)에 남긴다.
 
@@ -249,8 +251,9 @@ ID는 한 번 발급하면 제목·날짜·분류·URL을 수정해도 유지한
 - 대회 상세: `asset.eventIds`에 대회 ID가 있는 항목을 찾고 `kind`로 출진표·코스맵·결과를 나눈다.
 - 전체 맵: `kind == "course_map"`인 항목을 사용한다. 대회 연결이 없는 맵도 포함한다.
 - 새 대회 분류: `competitionCategories`의 `id`로 참조를 연결하고 `name`을 그대로 표시한다. 대회명·채널·사이트·`competitionGroup`을 앱에서 다시 판별하지 않는다.
-- 분류별 결과: `eventGroups` 중 `resultIds`가 있고 `resultCategoryIds`에 선택 ID가 있는 대회를 사용한다.
-- 분류별 맵: `courseMapGroups[].categoryIds`에 선택 ID가 있는 대회를 사용한다. 개별 이미지 필터에는 `assets[].categoryIds`를 사용한다. 기존 4종 `mapCategories`는 구버전 앱의 호환 필드다.
+- 분류별 결과·맵·출진표: `competitionGroups[].categoryId`가 선택 ID이고 해당 종류의 ID 배열이 비어 있지 않은 묶음을 사용한다. 그 배열의 자료만 상세에 표시한다. 사이트 표는 같은 묶음의 `recordSelections`를 적용한다.
+- 날짜별 전체 보기: `dateGroups`를 순서대로 표시하고 종류별 ID 배열로 전체 자료를 연다. 날짜 안에서 다시 분류할 때는 `competitionGroupIds`로 연결한다.
+- `eventGroups`·`courseMapGroups`는 대회 전체 보기용이다. 분류 합집합으로 이 묶음을 고른 후 전체 자료를 열면 다른 부문이 섞이므로 분류별 상세에 사용하지 않는다. 기존 4종 `mapCategories`는 구버전 앱의 호환 필드다.
 - 같은 게시물의 자료는 `source.imageOrder` 오름차순으로 보여준다. 게시물이 여러 개면 `source.publishedAt`으로 묶어 정렬하고 게시물별 첨부 순서를 유지한다.
 - 자료 목록이 비어 있으면 자료 없음 상태를 표시한다. 배열이 비었다는 이유만으로 원문에 자료가 게시되지 않았다고 단정하지 않는다.
 
@@ -358,8 +361,8 @@ JSON에서 `id`와 `name`은 서로 다른 용도다. AWC는 항상 소문자 �
 허용 조합을 검증한다.
 
 `assets[].courseMapCategoryIds`와 대회 묶음의 `maps[].courseMapCategoryIds`는 동일하다.
-`courseMapGroups[].categoryIds`는 해당 대회 맵의 분류 합집합이다. 앱은 이 필드로
-대회 목록을 필터링하고, 상세에서는 개별 맵의 분류를 사용할 수 있다.
+`courseMapGroups[].categoryIds`는 해당 대회 맵의 분류 합집합이다. 대회 전체 보기의
+메타데이터이며, 분류별 목록·상세에는 아래 `competitionGroups`의 실제 자료 목록을 사용한다.
 혼합 대회는 점어·비노 양쪽 목록에 같은 대회 ID로 표시하며 대회 묶음을 분해하지 않는다.
 AWC 코스맵 331개는 `courseMapCategoryIds: ["awc"]`를 가지며, AWC 그룹 29개의
 `categoryIds`에도 `"awc"`가 포함된다. 그룹 안의 331개 맵은 각각 대회 `eventId`에
@@ -395,15 +398,14 @@ NAS 재수집 시 유지할 종목은 스크래퍼의 `library/course-divisions.
 | `assets[].categoryIds` | 모든 종류에 공통인 자료 분류 ID. 맵은 `courseMapCategoryIds`와 동일하다. |
 | `assets[].categoryScope` | 분류 근거 범위: `asset`(이미지/종목), `post`(원문 게시물), `event`(확인된 대회 부문), `unclassified`(미확인). |
 | `eventGroups[].categoryIds` | 같은 eventId의 대회 전체 부문. 대회를 여러 개로 분할하지 않는다. |
-| `eventGroups[].resultCategoryIds` | 실제 결과 자료가 제공하는 분류 합집합. 결과 목록 필터에 사용한다. |
+| `eventGroups[].resultCategoryIds` | 실제 결과 자료가 제공하는 분류 합집합. 전체 대회의 메타데이터이며 분류별 상세 자료 목록은 아니다. |
 | `eventGroups[].courseMapCategoryIds` | 실제 맵 자료의 분류 합집합. `courseMapGroups[].categoryIds`와 동일하다. |
 | `eventGroups[].entryListCategoryIds` | 실제 출진표 자료의 분류 합집합. |
 
-앱은 선택한 `competitionCategories[].id`가 `resultCategoryIds`에 있고 `resultIds`가
-비어 있지 않은 묶음을 결과 목록에 표시한다. 맵 목록은 `courseMapGroups[].categoryIds`로
-필터링한다. 분류별 이름과 건수는 공통 목록과 이 참조만으로 계산하며, 결과가 없는 AWC를
-앱 코드에서 특별히 제외할 필요가 없다. 해당 종류의 자료가 없으면 종류별 분류 배열도 `[]`다.
-코스맵에만 있는 부문을 결과 필터로 복사하지 않는다.
+`20261010.14`부터 앱의 분류별 목록·상세는 `competitionGroups`를 사용한다.
+선택한 ID와 `categoryId`가 같고 해당 종류의 자료 ID 배열이 비어 있지 않은 묶음을
+표시한다. 이름은 공통 목록에서, 건수는 그 자료 배열에서 읽는다. 결과가 없는 AWC를
+앱 코드에서 특별히 제외할 필요가 없다. 코스맵에만 있는 부문을 결과 필터로 복사하지 않는다.
 
 10월 10일 WALDBOW OPEN은 같은 `event-waldbow-801` 묶음에
 `resultCategoryIds: ["jpag_ranking", "benov_ranking"]`와
@@ -418,7 +420,9 @@ NAS 재수집 시 유지할 종목은 스크래퍼의 `library/course-divisions.
 `courseInfoColumns`, 마스킹 셀, 점수·순위·행별 코스 설정과 원문 순서는 유지한다.
 확인된 BE/NV/AD/EM·익사이팅은 비노, JP/AG는 점어로 내려간다.
 
-대회 166개·결과 1,379개·코스맵 898개·출진표 774개를 전수 확인했으며 분류 미확인은 0개다.
+대회 166개·결과 1,379개·코스맵 898개·출진표 774개에 분류 ID가 연결되어 있다.
+이는 혼합 대회에서 상속한 복수 분류까지 포함한 수치이며 개별 이미지 부문이 전부
+확정됐다는 뜻은 아니다. 단일 분류가 미확정인 자료는 아래 날짜별 보기에서 보존한다.
 결과가 있는 106개 대회와 맵이 있는 156개 대회를 각 종류의 분류로 조회할 수 있다.
 코스맵이 없는 제2회 하이스트는 원본 결과 4장의 비기너1·2, 노비스1·2를 확인해
 비노랭킹전으로 제공한다. 사용자 지정 AMA→비노랭킹전, PRO→점어랭킹전도 유지한다.
@@ -451,3 +455,52 @@ AWC는 별도 응답으로 합칠 필요 없이 같은 `courseMapGroups` 안의 
 ‘이벤트 종목’으로만 남은 1장도 부문을 새로 추정하지 않았다. 이 3건은 참조 데이터의
 제약으로 따로 기록했으며 AgilityDB 파일과 DB는 수정하지 않았다.
 대조 근거·수정 16장·보존 검증은 [AgilityDB 분류 대조 기록](../review/library/20261010-agilitydb-classification.json)에 남긴다.
+
+### 분류별 보기와 날짜별 전체 보기
+
+`20261010.14`는 `competitionGroups` 184개와 `dateGroups` 134개를 함께 제공한다.
+기존 대회·자료 ID, 이미지, 기록, `eventGroups`, `courseMapGroups`의 전체 자료 연결은 유지한다.
+두 새 필드는 함께 제공하며 자료실 schemaVersion 1과 manifest 활성 경로는 변경하지 않는다.
+
+| 보기 | 목록 선택 | 상세에서 읽을 자료 |
+| --- | --- | --- |
+| 분류별 | `competitionGroups[].categoryId`와 선택 ID 일치 | 그 묶음의 `entryListIds`·`courseMapIds`·`resultIds`만 `assets[].id`로 조회 |
+| 날짜별 | 최신순 `dateGroups` | 날짜 묶음의 종류별 ID 배열 전체 |
+| 날짜 안의 분류 | `dateGroups[].competitionGroupIds` | 참조한 분류 묶음의 자료만 조회 |
+
+분류 묶음의 `id`는 `event:<eventId>:category:<categoryId>`이고 `eventId`로
+`events`의 대회명·시작일·종료일을 읽는다. 출진표 뒤에 결과가 추가돼도 같은 묶음을
+갱신한다. 같은 날 다른 대회·주최자가 있으면 별도 eventId를 유지한다.
+목록은 대회 최신순, 같은 대회는 `competitionCategories`의 순서다. 자료 ID 배열은
+`assets`의 게시물·첨부 순서를 따르며 앱에서 ID 사전순으로 다시 정렬하지 않는다.
+
+사이트 표를 여는 경우 `recordSelections`의 `kind`, `path`, `groupIndexes`를 사용한다.
+`path`는 library.json 위치 기준 상대 경로이며 `groupIndexes`는 해당 표 JSON의
+`groups` 배열에서 표시할 **0부터 시작하는 인덱스**다. 선택 인덱스의 그룹을 원래
+순서대로 표시하고 표 전체를 열지 않는다. `columns`와 셀은 원본 그대로 사용한다.
+manifest 버전 갱신 시 자료실과 표 캐시를 함께 갱신하고 다른 버전의 인덱스를 재사용하지 않는다.
+이미지 자료는 `recordSelections: []`일 수 있으며 기존 `resultType`으로 표시 방식을 읽는다.
+
+예를 들어 10월 10일 발트바우(`event-waldbow-801`)는 다음처럼 분리된다.
+
+| 분류 | 출진표 이미지 | 코스맵 | 결과 이미지 | 결과 표 범위 |
+| --- | ---: | ---: | ---: | --- |
+| 점어랭킹전 | 4 | 4 | 4 | groups[15]부터 groups[34], 158행 |
+| 비노랭킹전 | 6 | 3 | 6 | groups[0]부터 groups[14], 159행 |
+
+날짜별 보기에서는 위 자료 27개를 모두 보여준다. `dateGroups[].date`는 확인된 개최
+시작일이고 여러 날 대회는 시작일 아래에 묶으며 원래 종료일을 유지한다. 날짜 미확인은
+`date: null`과 대회 이름 `label`을 사용해 대회별로 나눈다. AWC처럼 연도만 확인된
+대회도 서로 합치지 않으며 같은 자료실에서 29개 대회·331개 맵을 최신순으로 제공한다.
+대회 연결이 없는 자료는 마지막 `id: "unassigned"` 묶음에 보존한다.
+
+혼합 대회에서 물려받은 복수 분류를 개별 이미지의 확정 분류로 취급하지 않는다.
+이번에 보관 원본의 SHA-256과 로컬 OCR 종목 제목을 대조해 113장의 부문을 보완했다.
+전체 3,051개 중 2,916개는 단일 분류 묶음에 연결된다. 나머지 135개(결과 82·출진표 53)는
+종목 제목 없는 후속 페이지 등으로 아직 분리 근거가 부족하다. 날짜별 종류 배열에 그대로
+포함하고 `unassignedAssetIds`에도 명시한다. 이 참조는 별도 복제 자료가 아니며 앱은
+이를 통해 미분류 자료가 남아 있음을 알릴 수 있다. 임의로 여러 분류에 복제하지 않는다.
+
+NAS는 수집 후·배포 전 두 보기를 재생성하고 분류 간 자료 혼입, 날짜 보기 누락·중복,
+사이트 표의 다른 부문 인덱스와 오래된 인덱스를 차단한다. 검증·원본 근거·보존 결과는
+[분류별·날짜별 검증 기록](../review/library/20261010-category-date-views.json)에 남긴다.
