@@ -100,7 +100,7 @@
         "oneOf": [
           { "properties": { "id": { "const": "jpag_promotion" }, "name": { "const": "점어승급전" } } },
           { "properties": { "id": { "const": "jpag_ranking" }, "name": { "const": "점어랭킹전" } } },
-          { "properties": { "id": { "const": "benov_promotion" }, "name": { "const": "비노승급전" } } },
+          { "properties": { "id": { "const": "benov_promotion" }, "name": { "const": "비노어승급전" } } },
           { "properties": { "id": { "const": "benov_ranking" }, "name": { "const": "비노랭킹전" } } },
           { "properties": { "id": { "const": "awc" }, "name": { "const": "AWC" } } }
         ],

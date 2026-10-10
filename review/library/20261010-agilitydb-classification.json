@@ -1,0 +1,549 @@
+{
+  "auditVersion": 1,
+  "checkedAt": "2026-10-10T21:11:31+09:00",
+  "dataVersion": "20261010.13",
+  "referenceProject": "agilitydb",
+  "userDecision": "점어승급전·점어랭킹전·비노어승급전·비노랭킹전·AWC 5개; 참고 프로젝트 UI의 3개 분류로 합치지 않음",
+  "categories": [
+    {
+      "id": "jpag_promotion",
+      "name": "점어승급전"
+    },
+    {
+      "id": "jpag_ranking",
+      "name": "점어랭킹전"
+    },
+    {
+      "id": "benov_promotion",
+      "name": "비노어승급전"
+    },
+    {
+      "id": "benov_ranking",
+      "name": "비노랭킹전"
+    },
+    {
+      "id": "awc",
+      "name": "AWC"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "app/competition_identity.py",
+      "sha256": "4e5e3da082488e903c19c1a4978baef7f5d604642bfec1fbeb567a657f21627b"
+    },
+    {
+      "path": "app/public/app.js",
+      "sha256": "dcb0d1205a34964dab3f0dc8b6f35c164a317c1f6f01241b3a7943c8882bb2b3"
+    },
+    {
+      "path": "DB/schema.sql",
+      "sha256": "21fc6c0c1c35827f550702edc98791847ed99e358698a6a45e74c2e7798721da"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "2bf5ab81e20b99ac7ef4cd706529b3236b8460ebe968806274f7e3d01a074791"
+    },
+    {
+      "path": "tests/test_competition_identity.py",
+      "sha256": "8e4e8bc65eb92de21a64c5370e923c72ddd76a3d0164d10e34dc43373da85037"
+    },
+    {
+      "path": "pipeline/table_parser.py",
+      "sha256": "1a62feea64d36f1e1901716ee7f89ed3badf642919396bc6b3429cc96ac5c953"
+    }
+  ],
+  "comparison": {
+    "sameSourcePostMatchedEvents": 46,
+    "sha256MatchedReviewedResultImages": 375,
+    "consistentAfterCorrections": 372,
+    "correctedImages": 16,
+    "referenceExceptions": 3,
+    "scope": "로컬 AgilityDB 검수 완료 결과와 원본 URL·SHA-256이 대응되는 이미지. 자료실 전체를 새로 OCR한 검증은 아님"
+  },
+  "summary": {
+    "events": 166,
+    "assets": 3051,
+    "results": 1379,
+    "courseMaps": 898,
+    "courseMapGroups": 156,
+    "awcCourseMaps": 331,
+    "awcEventGroups": 29
+  },
+  "corrections": [
+    {
+      "assetId": "asset-kakao-cNjMG-178513940",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/bvd01M/dJMcaiPg2VW/hQLdCKzsR6SZnfbjBYZBaK/img_xl.jpg",
+      "sha256": [
+        "332d2913346c29f7a52474fa0e7f333bee61368b9c0e81ab9ee9e689dc3511a9"
+      ],
+      "courseLabels": [
+        "비기너"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178513938",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/bnNfyU/dJMcahplEke/TyqfTQstHSWIPu0BkLk9v1/img_xl.jpg",
+      "sha256": [
+        "c3923a74117c9777c435d9f98255d9998d3606b29e13b8cec06a467a19653374"
+      ],
+      "courseLabels": [
+        "비기너"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178513939",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/NIYv1/dJMcaaX3m8W/ztkLb8sjLJRoaY11pCvXWK/img_xl.jpg",
+      "sha256": [
+        "2ae15f8bef74847b04877e485231fd32188ff4626201a338291e8797a115eff4"
+      ],
+      "courseLabels": [
+        "비기너"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178514662",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/bhPCfL/dJMcaawY6O5/Kwp1UWp34Sz4WbvrlNRcIK/img_xl.jpg",
+      "sha256": [
+        "0c56df27474d6ed11b9764e080d131cdd01241b64c52317f8fd3aee40e667b93"
+      ],
+      "courseLabels": [
+        "비기너"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178517145",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/kRU4q/dJMcahJEBAZ/ZtxlG62iBRtQayIKlBirGK/img_xl.jpg",
+      "sha256": [
+        "8a416dd232adc21fb1677fb01afd21d8379159dfb2979b8d3b0037c1992941d9"
+      ],
+      "courseLabels": [
+        "노비스"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178517144",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/eafJyF/dJMcaacF3ji/SS1bENLKK6qYWoBEnAhet1/img_xl.jpg",
+      "sha256": [
+        "b3c50417e71ea5c90bdaf02907cd07daa7c20091db68c69e827b41465c93334e"
+      ],
+      "courseLabels": [
+        "노비스"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178518476",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/O9xTp/dJMcadUI7CX/NUKbThknTF18bq40UIt7kK/img_xl.jpg",
+      "sha256": [
+        "cfceda356f9091b80280934430f7c38df39c80c6a0bc7dd8e2f406cca7546a98"
+      ],
+      "courseLabels": [
+        "노비스"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178518477",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/44GsT/dJMcaiPg43U/YpSiVKUGm4oD2uYTZxstxK/img_xl.jpg",
+      "sha256": [
+        "c9458da4a25caca1a77f944d1db4560a7839f5937757c58adc94c3eb36a1af56"
+      ],
+      "courseLabels": [
+        "노비스"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178521083",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/TKcft/dJMcafrwFYa/XqzwtwKWFWski6MikRpo1K/img_xl.jpg",
+      "sha256": [
+        "3cc163359b607b860dd0b408bb7d291c4e5aab969ff5fb7fcd18a7a558a1a1a2"
+      ],
+      "courseLabels": [
+        "점핑 0"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178521082",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/cCouQF/dJMcagRuUyW/1y3FkB1xmdWdgIfLMlnoq0/img_xl.jpg",
+      "sha256": [
+        "28abe796ff2f418309b36af08162e81e81cd0ad2f79343da3f47b84a5f6d21a8"
+      ],
+      "courseLabels": [
+        "점핑 0"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178521229",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/bfQOrs/dJMcadHckro/cfolZqXei5GZZSVGccnM81/img_xl.jpg",
+      "sha256": [
+        "02e5b66a1e10887b76974eefd3cf3d533b4a9c63266632ece06cb1d7322efce6"
+      ],
+      "courseLabels": [
+        "점핑 0"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178521634",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/111500665",
+      "imageUrl": "https://k.kakaocdn.net/dn/zy2WP/dJMcadHckK2/6zlwvgg1pVVKNPyLZVMzg1/img_xl.jpg",
+      "sha256": [
+        "c3f9e8e1380a8ec9d81e1e2f58bd2f25fe5f61e8edf084f1447fd4f849111fa2"
+      ],
+      "courseLabels": [
+        "점핑 0"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-149442907",
+      "eventIds": [
+        "event-heist-ranking1"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/105822184",
+      "imageUrl": "https://k.kakaocdn.net/dn/go8um/btsIhhFFoHC/XOFdwv11TUU6YSnMdQWHp1/img_xl.jpg",
+      "sha256": [
+        "51879be6809d4f53c39704b0718eb739da583bd6ee7a5d3917135e474a7e27f2"
+      ],
+      "courseLabels": [
+        "비기너 1"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-149442910",
+      "eventIds": [
+        "event-heist-ranking1"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/105822184",
+      "imageUrl": "https://k.kakaocdn.net/dn/c8wNjP/btsIinSpdYo/Z5ArvtK4HxmYG99k1hmiZk/img_xl.jpg",
+      "sha256": [
+        "e0cda7163237c3ff876e69e77dd3a8bf8a6de169a5e85c6dba6da84b73469160"
+      ],
+      "courseLabels": [
+        "비기너 2"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-149442909",
+      "eventIds": [
+        "event-heist-ranking1"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/105822184",
+      "imageUrl": "https://k.kakaocdn.net/dn/dlCsRx/btsIiijtm99/HPkVKmNIVRHod2KxM01vJ1/img_xl.jpg",
+      "sha256": [
+        "2212b0ab59ca8251e727f99ce847d6c368366cae031b04a45da3ab40518b46f4"
+      ],
+      "courseLabels": [
+        "노비스 1"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-149442908",
+      "eventIds": [
+        "event-heist-ranking1"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_cNjMG/105822184",
+      "imageUrl": "https://k.kakaocdn.net/dn/r0O3w/btsIgZS1yS8/dffChDQRwWE4f8RYIRddVK/img_xl.jpg",
+      "sha256": [
+        "a3c246cda02592f13a046cbcc24c78712e688f6ea53464a139d257f088af4bb1"
+      ],
+      "courseLabels": [
+        "노비스 2"
+      ],
+      "previousCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset"
+    }
+  ],
+  "referenceExceptions": [
+    {
+      "assetId": "asset-kakao-BfHUb-155141789",
+      "categoryIds": [
+        "benov_promotion"
+      ],
+      "referenceCategoryIds": [
+        "benov_ranking"
+      ],
+      "referenceLabels": [
+        "어드밴스드 1"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_BfHUb/106978398",
+      "decision": "preserve_source_verified_classification",
+      "reason": "사용자가 비노어승급전으로 확인. 원본 이미지 표제에 2024.09.21 제14회 KAC 비노어드 승급전이 명시되고 승급 평가가 확인됨; 참고 DB RANKING_EVENT를 복사하지 않음"
+    },
+    {
+      "assetId": "asset-kakao-BfHUb-155141790",
+      "categoryIds": [
+        "benov_promotion"
+      ],
+      "referenceCategoryIds": [
+        "benov_ranking"
+      ],
+      "referenceLabels": [
+        "어드밴스드 2"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_BfHUb/106978398",
+      "decision": "preserve_source_verified_classification",
+      "reason": "사용자가 비노어승급전으로 확인. 원본 이미지 표제에 2024.09.21 제14회 KAC 비노어드 승급전이 명시되고 승급 평가가 확인됨; 참고 DB RANKING_EVENT를 복사하지 않음"
+    },
+    {
+      "assetId": "asset-kakao-BfHUb-154269647",
+      "categoryIds": [
+        "benov_promotion"
+      ],
+      "referenceCategoryIds": [],
+      "referenceLabels": [
+        "이벤트 종목"
+      ],
+      "sourceUrl": "https://pf.kakao.com/_BfHUb/106804493",
+      "decision": "preserve_source_verified_classification",
+      "reason": "참고 DB 종목이 이벤트 종목으로만 남아 있어 부문을 추정하지 않음"
+    }
+  ],
+  "preservation": {
+    "allImageUrlsAndAssetIds": true,
+    "allCourseMapsAndGroups": true,
+    "allSiteRecordFilesUnchanged": true,
+    "referenceProjectReadOnly": true,
+    "normalizationIdempotent": true,
+    "newPushCandidates": 0,
+    "allEventRecordsUnchanged": true,
+    "eventGroupMaterialMembershipUnchanged": true,
+    "correctedResultGroupIds": [
+      "event-heist-ranking1"
+    ]
+  },
+  "displayNameCorrection": {
+    "id": "benov_promotion",
+    "previousName": "비노승급전",
+    "name": "비노어승급전",
+    "reason": "사용자 확인: 어드밴스드를 포함한 승급전"
+  },
+  "categoryCounts": [
+    {
+      "id": "jpag_promotion",
+      "name": "점어승급전",
+      "resultEvents": 21,
+      "resultImages": 264,
+      "courseMapEvents": 42,
+      "courseMaps": 215
+    },
+    {
+      "id": "jpag_ranking",
+      "name": "점어랭킹전",
+      "resultEvents": 30,
+      "resultImages": 392,
+      "courseMapEvents": 32,
+      "courseMaps": 76
+    },
+    {
+      "id": "benov_promotion",
+      "name": "비노어승급전",
+      "resultEvents": 24,
+      "resultImages": 157,
+      "courseMapEvents": 24,
+      "courseMaps": 108
+    },
+    {
+      "id": "benov_ranking",
+      "name": "비노랭킹전",
+      "resultEvents": 47,
+      "resultImages": 715,
+      "courseMapEvents": 46,
+      "courseMaps": 168
+    },
+    {
+      "id": "awc",
+      "name": "AWC",
+      "resultEvents": 0,
+      "resultImages": 0,
+      "courseMapEvents": 29,
+      "courseMaps": 331
+    }
+  ],
+  "verification": {
+    "localSourceImageSha256Matches": 375,
+    "localSourceImageUnavailable": [],
+    "schemaAndReferences": "PASS",
+    "normalizationIdempotent": true,
+    "newPushCandidates": 0,
+    "unitTests": {
+      "count": 405,
+      "result": "PASS"
+    },
+    "activeDataHarness": {
+      "scope": "all",
+      "jsonFiles": 188,
+      "result": "PASS"
+    }
+  },
+  "collectorCommit": "8970c31a8a8252eca22ffb9877e13b8f09ae783e"
+}
