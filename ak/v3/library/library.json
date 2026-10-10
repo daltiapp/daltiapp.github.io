@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261010.9",
-  "updatedAt": "2026-10-10T14:30:04+09:00",
+  "dataVersion": "20261010.10",
+  "updatedAt": "2026-10-10T19:37:46+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -1436,6 +1436,34 @@
       }
     },
     {
+      "id": "asset-waldbow-801-result-768c3b5f8ebebd33-1",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 1 · 1",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/cb86fd2a0595b77c3fbea81d7a07af84cbb156a2fa1691c1130516e51cfa4404.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/58f58246ca2e24c42eba0dccd568f42e47a89c2b815e825c50558d6f67529ec9.webp",
+        "width": 2128,
+        "height": 3366,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-768c3b5f8ebebd33-1",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 1
+      }
+    },
+    {
       "id": "asset-waldbow-801-course_map-63379f29dc09ee00",
       "kind": "course_map",
       "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 스텐다드 코스",
@@ -1490,6 +1518,34 @@
         "mediaId": "entry_list-768c3b5f8ebebd33-2",
         "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-768c3b5f8ebebd33-2",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 1 · 2",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/2f705c84f5b1e327d727d8097a6c80ab922c7da719e78a414e3b9d64f18269e4.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/6694df6f24b7377df5486d551b734e5cd3e2ccdc57ae36df4ef0f9e1830c6de7.webp",
+        "width": 2128,
+        "height": 1710,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-768c3b5f8ebebd33-2",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
         "imageOrder": 2
       }
     },
@@ -1552,6 +1608,34 @@
       }
     },
     {
+      "id": "asset-waldbow-801-result-11f19ad3ea34b0d0-1",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 2 · 1",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/c2b71d24169d603534905d6bf2fa842cdda648776fdefd8db205a35243aeede1.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/835e94b8d11df5380fa8ad47a1d4f45c4ef95479f94d5bb2ed1c6ef6badb405e.webp",
+        "width": 2128,
+        "height": 3328,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-11f19ad3ea34b0d0-1",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 3
+      }
+    },
+    {
       "id": "asset-waldbow-801-course_map-75c8b2c01475a5fe",
       "kind": "course_map",
       "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 스텐다드 코스",
@@ -1606,6 +1690,34 @@
         "mediaId": "entry_list-11f19ad3ea34b0d0-2",
         "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-11f19ad3ea34b0d0-2",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 2 · 2",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/6c1ffbd0628d4adcbac1c197b60398963648521386d9e8bac494a33f10f555ab.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/b1111713ca603b4bb19f6ed05406c7231330e1650857145ee637cad2167957b5.webp",
+        "width": 2128,
+        "height": 1710,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-11f19ad3ea34b0d0-2",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
         "imageOrder": 4
       }
     },
@@ -1668,6 +1780,34 @@
       }
     },
     {
+      "id": "asset-waldbow-801-result-f03d4f8fa9dd581c-1",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 3 · 1",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/a148578b038dec79d32ce1a1e714495187e7108d607d612f6fe63bc1b658cf59.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/aa9c868eb5d9ed6355f64fa4dab79d0893317350cee4f103eddfa0b492a08f72.webp",
+        "width": 2128,
+        "height": 3328,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-f03d4f8fa9dd581c-1",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 5
+      }
+    },
+    {
       "id": "asset-waldbow-801-course_map-8fa8962da8c02736",
       "kind": "course_map",
       "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 2 코스",
@@ -1722,6 +1862,34 @@
         "mediaId": "entry_list-f03d4f8fa9dd581c-2",
         "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-f03d4f8fa9dd581c-2",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · 익사이팅 3 · 2",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/18c8051c608e0a7d65a77cf94f980a6d4b17337caffb8eee9da7ed2135439f9b.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/741310a67c849baa591d7dbde9535267592ec568bb40fa6efe3a031e51378f2b.webp",
+        "width": 2128,
+        "height": 1710,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-f03d4f8fa9dd581c-2",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
         "imageOrder": 6
       }
     },
@@ -1784,6 +1952,34 @@
       }
     },
     {
+      "id": "asset-waldbow-801-result-6e505da24f602fc8-1",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 스텐다드 · 1",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/daa412cdab9059ca7bcdbce6b498f475a0189b853c7a9e9fa46d461ae8a71f47.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/e5208a1d862f308f70e86128750dfcef7f1f6bf9029b6a256748b6ebcff28202.webp",
+        "width": 2128,
+        "height": 3534,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-6e505da24f602fc8-1",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 7
+      }
+    },
+    {
       "id": "asset-waldbow-801-entry_list-91c5cfc79ab67867-1",
       "kind": "entry_list",
       "entryListPath": "./records/waldbow-801-entries.json",
@@ -1807,6 +2003,34 @@
         "mediaId": "entry_list-91c5cfc79ab67867-1",
         "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-6e505da24f602fc8-2",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 스텐다드 · 2",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/711d52b3cec80c611a474579cceb386fd5b45a702e47ff95814c851a7aed63f3.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/01b2a30af8c90a820303c6edd4fa3f44ab9031ffdfaef52426147f817fe5521e.webp",
+        "width": 2128,
+        "height": 822,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-6e505da24f602fc8-2",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
         "imageOrder": 8
       }
     },
@@ -1838,6 +2062,34 @@
       }
     },
     {
+      "id": "asset-waldbow-801-result-91c5cfc79ab67867-1",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 스텐다드 · 1",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/717897b7cb6f823b6796ba2e740383e43f6b12c6586505db98f3b717a150678e.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/c64b65812dffebe58fae7cb304848c6882c632397e53085194e3ea572ce23a2d.webp",
+        "width": 2128,
+        "height": 3534,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-91c5cfc79ab67867-1",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 9
+      }
+    },
+    {
       "id": "asset-waldbow-801-entry_list-b5f7aac66d7a2484-1",
       "kind": "entry_list",
       "entryListPath": "./records/waldbow-801-entries.json",
@@ -1862,6 +2114,146 @@
         "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
         "postUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
         "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-91c5cfc79ab67867-2",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 스텐다드 · 2",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/d773d736d7c955ac551141d8905443ff82ec9b51b4b9ce71eb63cb35840f41be.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/1beb852bfd200201ccfbf010f33ace2437e9c9bd5b8a8e76832aa7b7d06b3dcc.webp",
+        "width": 2128,
+        "height": 822,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-91c5cfc79ab67867-2",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-049138e038926ed4-1",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 마스터 · 1",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/51abc0a6a4a1b4d797f61b61cc6822bceff07909f52c98a5aa851c051051ae07.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/798941e1351c1c3ce99c7773df9e0101fc3844fdbd872dfebb8c3e1c48a1851a.webp",
+        "width": 2128,
+        "height": 3382,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-049138e038926ed4-1",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-049138e038926ed4-2",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · JP 마스터 · 2",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/38d32f5ea4db23cc6f3e3b56f3dea4474cbb0022c9dd49a847c4b63b31f39015.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/0aef420be9f15da88409a2a146931f781adc6742911af9bc28436dc6496f06d1.webp",
+        "width": 2128,
+        "height": 550,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-049138e038926ed4-2",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-b5f7aac66d7a2484-1",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 마스터 · 1",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/f78bb16679285cd38bf251a64bfcbfc37f0c0d15dd17e4399120b4559ea81a58.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/2e9fbc4dff5b7aa1e85756900c8710d9fbbab78571914dcdc5569554fb760453.webp",
+        "width": 2128,
+        "height": 3382,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-b5f7aac66d7a2484-1",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-waldbow-801-result-b5f7aac66d7a2484-2",
+      "kind": "result",
+      "resultType": "site",
+      "recordPath": "./records/waldbow-801.json",
+      "title": "2026년 10월 10일 토요일 WALDBOW OPEN · AG 마스터 · 2",
+      "eventIds": [
+        "event-waldbow-801"
+      ],
+      "mapCategories": [],
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/waldbow/results/801/6c3e40eb029663d1035839fbecbe5eee8360b116150727b9ff782d3a5824a1bc.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/waldbow/results/801/2d45f4eb6d718c6c3a71bc29b7cf7f1bd917d95ff43522e85edb8a5fc01c791f.webp",
+        "width": 2128,
+        "height": 550,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "발트바우",
+        "postId": "801",
+        "mediaId": "result-b5f7aac66d7a2484-2",
+        "postTitle": "2026년 10월 10일 토요일 WALDBOW OPEN",
+        "postUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+        "imageOrder": 14
       }
     },
     {
@@ -120704,7 +121096,22 @@
         "asset-waldbow-801-course_map-e78d4f972ddd7acb",
         "asset-waldbow-801-course_map-ea2a7e4482d2a6f0"
       ],
-      "resultIds": []
+      "resultIds": [
+        "asset-waldbow-801-result-049138e038926ed4-1",
+        "asset-waldbow-801-result-049138e038926ed4-2",
+        "asset-waldbow-801-result-11f19ad3ea34b0d0-1",
+        "asset-waldbow-801-result-11f19ad3ea34b0d0-2",
+        "asset-waldbow-801-result-6e505da24f602fc8-1",
+        "asset-waldbow-801-result-6e505da24f602fc8-2",
+        "asset-waldbow-801-result-768c3b5f8ebebd33-1",
+        "asset-waldbow-801-result-768c3b5f8ebebd33-2",
+        "asset-waldbow-801-result-91c5cfc79ab67867-1",
+        "asset-waldbow-801-result-91c5cfc79ab67867-2",
+        "asset-waldbow-801-result-b5f7aac66d7a2484-1",
+        "asset-waldbow-801-result-b5f7aac66d7a2484-2",
+        "asset-waldbow-801-result-f03d4f8fa9dd581c-1",
+        "asset-waldbow-801-result-f03d4f8fa9dd581c-2"
+      ]
     },
     {
       "eventId": "event-koreaagility-beno27",
