@@ -1,0 +1,239 @@
+{
+  "checkedAt": "2026-10-10T12:19:24+09:00",
+  "dataVersion": "20261010.7",
+  "classificationBasis": [
+    "owner confirmation on 2026-10-10",
+    "authenticated live result pages and unchanged published result records"
+  ],
+  "confirmedExcitingEvents": 9,
+  "confirmed63rdEventNo": "229",
+  "liveEvents": [
+    {
+      "no": "287",
+      "title": "2025.11.22(토) EXCITING OPEN",
+      "date": "2025-11-22",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "EM-1",
+        "EM-2",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 122
+    },
+    {
+      "no": "229",
+      "title": "제 63회 KKF WALD BOW AGILITY 야간대회",
+      "date": "2025-05-25",
+      "resultLabels": [
+        "AG-1",
+        "AG-2",
+        "AG-3",
+        "JP-1",
+        "JP-2",
+        "JP-3"
+      ],
+      "resultRowCount": 150
+    },
+    {
+      "no": "228",
+      "title": "제24회 WALD BOW EXCITING 야간대회",
+      "date": "2025-05-24",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "EM-1",
+        "EM-2",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 144
+    },
+    {
+      "no": "225",
+      "title": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
+      "date": "2025-04-20",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "EM-1",
+        "EM-2",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 58
+    },
+    {
+      "no": "222",
+      "title": "제 22회 waldbow exciting open (일요일)",
+      "date": "2025-03-23",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "EM-1",
+        "EM-2",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 81
+    },
+    {
+      "no": "221",
+      "title": "제 21회 waldbow exciting open (토요일)",
+      "date": "2025-03-22",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "EM-1",
+        "EM-2",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 175
+    },
+    {
+      "no": "113",
+      "title": "제 20회 발트바우 익사이팅 대회",
+      "date": "2024-11-23",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "EM",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 233
+    },
+    {
+      "no": "66",
+      "title": "제 19회 발트바우 익사이팅 어질리티 대회",
+      "date": "2024-09-08",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "EM",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 159
+    },
+    {
+      "no": "28",
+      "title": "제 18회 발트바우 익사이팅 승급전",
+      "date": "2024-06-01",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "EM",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 197
+    },
+    {
+      "no": "9",
+      "title": "제 17회 발트바우 익사이팅 승급전",
+      "date": "2024-05-04",
+      "resultLabels": [
+        "AD-1",
+        "AD-2",
+        "BE-1",
+        "BE-2",
+        "NV-1",
+        "NV-2"
+      ],
+      "resultRowCount": 199
+    }
+  ],
+  "corrections": {
+    "events": [
+      {
+        "eventId": "event-waldbow-229",
+        "before": "OTHER_EVENT",
+        "after": "OFFICIAL_PROMOTION"
+      },
+      {
+        "eventId": "event-waldbow-228",
+        "before": "OTHER_EVENT",
+        "after": "RANKING_EVENT"
+      },
+      {
+        "eventId": "event-waldbow-113",
+        "before": "OTHER_EVENT",
+        "after": "RANKING_EVENT"
+      },
+      {
+        "eventId": "event-waldbow-66",
+        "before": "OTHER_EVENT",
+        "after": "RANKING_EVENT"
+      },
+      {
+        "eventId": "event-waldbow-28",
+        "before": "UNOFFICIAL_PROMOTION_EVENT",
+        "after": "RANKING_EVENT"
+      },
+      {
+        "eventId": "event-waldbow-9",
+        "before": "UNOFFICIAL_PROMOTION_EVENT",
+        "after": "RANKING_EVENT"
+      }
+    ],
+    "courseMapIds": [
+      "asset-waldbow-229-course_map-cbb50921dcf9037a",
+      "asset-waldbow-229-course_map-cecd567e4c608cac",
+      "asset-waldbow-229-course_map-88bfa49aa3b4f69a",
+      "asset-waldbow-229-course_map-bd879db52d16b229",
+      "asset-waldbow-229-course_map-bc66a22983db32a1",
+      "asset-waldbow-229-course_map-86f74f574afd2449",
+      "asset-waldbow-28-course_map-901c6d58be477fc6",
+      "asset-waldbow-28-course_map-15fe63a873514d7b",
+      "asset-waldbow-28-course_map-1633e451996d0bcb",
+      "asset-waldbow-28-course_map-b653f7b11e773d60",
+      "asset-waldbow-28-course_map-163073ee6f49db7b",
+      "asset-waldbow-28-course_map-014aa54dbb4809ca",
+      "asset-waldbow-28-course_map-a0f987d7e30ad60d",
+      "asset-waldbow-9-course_map-901c6d58be477fc6",
+      "asset-waldbow-9-course_map-15fe63a873514d7b",
+      "asset-waldbow-9-course_map-1633e451996d0bcb",
+      "asset-waldbow-9-course_map-b653f7b11e773d60",
+      "asset-waldbow-9-course_map-163073ee6f49db7b",
+      "asset-waldbow-9-course_map-014aa54dbb4809ca"
+    ]
+  },
+  "preservedEvents": 166,
+  "preservedAssets": 3058,
+  "validation": {
+    "jsonSchema": true,
+    "latestFirstOrder": true,
+    "sameEventGroupMembership": true,
+    "imagesTitlesIdsDatesAndResultsUnchanged": true,
+    "fullActiveHarness": true,
+    "activeJsonFiles": 187,
+    "actualAppParser": true,
+    "excitingRankingEvents": 9,
+    "correct63rdPromotionFilter": true,
+    "wrongOtherEvents": 0,
+    "pythonRegressionTests": 338
+  },
+  "inputSha256": {
+    "library": "b95b9e4225567e3d65ec55794c2df072eb0ceab9dc3eb721710e0ea95009c10a",
+    "manifest": "f9d2c57fcf494512381bc396a1cf1c4119c76f83a483637344a3a2aa68951e47"
+  }
+}

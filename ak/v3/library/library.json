@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261010.6",
-  "updatedAt": "2026-10-10T11:58:33+09:00",
+  "dataVersion": "20261010.7",
+  "updatedAt": "2026-10-10T12:19:24+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -564,7 +564,7 @@
       "name": "제 63회 KKF WALD BOW AGILITY 야간대회",
       "startDate": "2025-05-25",
       "endDate": "2025-05-25",
-      "competitionGroup": "OTHER_EVENT",
+      "competitionGroup": "OFFICIAL_PROMOTION",
       "organizer": null
     },
     {
@@ -572,7 +572,7 @@
       "name": "제24회 WALD BOW EXCITING 야간대회",
       "startDate": "2025-05-24",
       "endDate": "2025-05-24",
-      "competitionGroup": "OTHER_EVENT",
+      "competitionGroup": "RANKING_EVENT",
       "organizer": null
     },
     {
@@ -756,7 +756,7 @@
       "name": "제 20회 발트바우 익사이팅 대회",
       "startDate": "2024-11-23",
       "endDate": "2024-11-23",
-      "competitionGroup": "OTHER_EVENT",
+      "competitionGroup": "RANKING_EVENT",
       "organizer": null
     },
     {
@@ -820,7 +820,7 @@
       "name": "제 19회 발트바우 익사이팅 어질리티 대회",
       "startDate": "2024-09-08",
       "endDate": "2024-09-08",
-      "competitionGroup": "OTHER_EVENT",
+      "competitionGroup": "RANKING_EVENT",
       "organizer": null
     },
     {
@@ -876,7 +876,7 @@
       "name": "제 18회 발트바우 익사이팅 승급전",
       "startDate": "2024-06-01",
       "endDate": "2024-06-01",
-      "competitionGroup": "UNOFFICIAL_PROMOTION_EVENT",
+      "competitionGroup": "RANKING_EVENT",
       "organizer": null
     },
     {
@@ -908,7 +908,7 @@
       "name": "제 17회 발트바우 익사이팅 승급전",
       "startDate": "2024-05-04",
       "endDate": "2024-05-04",
-      "competitionGroup": "UNOFFICIAL_PROMOTION_EVENT",
+      "competitionGroup": "RANKING_EVENT",
       "organizer": null
     },
     {
@@ -40402,7 +40402,7 @@
         "event-waldbow-229"
       ],
       "mapCategories": [
-        "ranking"
+        "promotion"
       ],
       "notice": null,
       "image": {
@@ -40485,7 +40485,7 @@
         "event-waldbow-229"
       ],
       "mapCategories": [
-        "ranking"
+        "promotion"
       ],
       "notice": null,
       "image": {
@@ -40568,7 +40568,7 @@
         "event-waldbow-229"
       ],
       "mapCategories": [
-        "ranking"
+        "promotion"
       ],
       "notice": null,
       "image": {
@@ -40651,7 +40651,7 @@
         "event-waldbow-229"
       ],
       "mapCategories": [
-        "ranking"
+        "promotion"
       ],
       "notice": null,
       "image": {
@@ -40734,7 +40734,7 @@
         "event-waldbow-229"
       ],
       "mapCategories": [
-        "ranking"
+        "promotion"
       ],
       "notice": null,
       "image": {
@@ -40817,7 +40817,7 @@
         "event-waldbow-229"
       ],
       "mapCategories": [
-        "ranking"
+        "promotion"
       ],
       "notice": null,
       "image": {
@@ -66125,7 +66125,7 @@
         "event-waldbow-28"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -66208,7 +66208,7 @@
         "event-waldbow-28"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -66291,7 +66291,7 @@
         "event-waldbow-28"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -66374,7 +66374,7 @@
         "event-waldbow-28"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -66457,7 +66457,7 @@
         "event-waldbow-28"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -66540,7 +66540,7 @@
         "event-waldbow-28"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -66623,7 +66623,7 @@
         "event-waldbow-28"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -70064,7 +70064,7 @@
         "event-waldbow-9"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -70147,7 +70147,7 @@
         "event-waldbow-9"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -70230,7 +70230,7 @@
         "event-waldbow-9"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -70313,7 +70313,7 @@
         "event-waldbow-9"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -70396,7 +70396,7 @@
         "event-waldbow-9"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -70479,7 +70479,7 @@
         "event-waldbow-9"
       ],
       "mapCategories": [
-        "promotion"
+        "ranking"
       ],
       "notice": null,
       "image": {
@@ -96522,7 +96522,7 @@
             "event-waldbow-229"
           ],
           "mapCategories": [
-            "ranking"
+            "promotion"
           ],
           "notice": null,
           "image": {
@@ -96550,7 +96550,7 @@
             "event-waldbow-229"
           ],
           "mapCategories": [
-            "ranking"
+            "promotion"
           ],
           "notice": null,
           "image": {
@@ -96578,7 +96578,7 @@
             "event-waldbow-229"
           ],
           "mapCategories": [
-            "ranking"
+            "promotion"
           ],
           "notice": null,
           "image": {
@@ -96606,7 +96606,7 @@
             "event-waldbow-229"
           ],
           "mapCategories": [
-            "ranking"
+            "promotion"
           ],
           "notice": null,
           "image": {
@@ -96634,7 +96634,7 @@
             "event-waldbow-229"
           ],
           "mapCategories": [
-            "ranking"
+            "promotion"
           ],
           "notice": null,
           "image": {
@@ -96662,7 +96662,7 @@
             "event-waldbow-229"
           ],
           "mapCategories": [
-            "ranking"
+            "promotion"
           ],
           "notice": null,
           "image": {
@@ -101986,7 +101986,7 @@
             "event-waldbow-28"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102014,7 +102014,7 @@
             "event-waldbow-28"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102042,7 +102042,7 @@
             "event-waldbow-28"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102070,7 +102070,7 @@
             "event-waldbow-28"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102098,7 +102098,7 @@
             "event-waldbow-28"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102126,7 +102126,7 @@
             "event-waldbow-28"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102154,7 +102154,7 @@
             "event-waldbow-28"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102518,7 +102518,7 @@
             "event-waldbow-9"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102546,7 +102546,7 @@
             "event-waldbow-9"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102574,7 +102574,7 @@
             "event-waldbow-9"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102602,7 +102602,7 @@
             "event-waldbow-9"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102630,7 +102630,7 @@
             "event-waldbow-9"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
@@ -102658,7 +102658,7 @@
             "event-waldbow-9"
           ],
           "mapCategories": [
-            "promotion"
+            "ranking"
           ],
           "notice": null,
           "image": {
