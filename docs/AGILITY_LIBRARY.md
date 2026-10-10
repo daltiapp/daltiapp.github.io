@@ -160,7 +160,7 @@ ID는 한 번 발급하면 제목·날짜·분류·URL을 수정해도 유지한
 
 ## 대회별 코스맵 응답
 
-`20261009.11`부터 앱에 전달하는 JSON은 `courseMapGroups`를 포함한다. 대회는 `id: event:<대회 ID>`, `eventId: <대회 ID>`, `maps: [전체 코스맵 항목]` 한 묶음으로 내려간다. `eventId`는 같은 응답의 `events[].id`로 대회명·개최일 등과 연결한다. 예를 들어 AWC 2026은 한 묶음의 `maps`에 16개 코스맵을 담는다. 현재 코스맵 885개를 154개 대회로 묶었다.
+`20261009.11`부터 앱에 전달하는 JSON은 `courseMapGroups`를 포함한다. 대회는 `id: event:<대회 ID>`, `eventId: <대회 ID>`, `maps: [전체 코스맵 항목]` 한 묶음으로 내려간다. `eventId`는 같은 응답의 `events[].id`로 대회명·개최일 등과 연결한다. 예를 들어 AWC 2026은 한 묶음의 `maps`에 16개 코스맵을 담는다. 2026-10-10 현재 코스맵 898개를 156개 대회 그룹에 묶었다.
 
 `maps`는 ID 목록이 아니라 `image`·`source`·분류를 포함한 완전한 `course_map` 항목이다. 구버전 앱의 호환성과 대회 상세를 위해 `assets`의 기존 항목도 그대로 보존한다. 새 앱은 서버 묶음을 읽고, 묶음 누락·중복·다른 대회 연결·이미지 내용 차이·원문 순서 변경을 로드 오류로 처리한다. 필드가 없는 이전 응답만 기존 `eventIds`로 묶는다. JSON 구조의 호환 확장이므로 자료실 schemaVersion 1과 manifest basePath를 유지한다.
 
@@ -348,10 +348,19 @@ AWC 전체 JSON은 [20261009-awc-full.json](../review/library/20261009-awc-full.
 | `benov_ranking` | 비노랭킹전 |
 | `awc` | AWC |
 
+JSON에서 `id`와 `name`은 서로 다른 용도다. AWC는 항상 소문자 기계 식별자 `awc`로 저장하고,
+앱에 보이는 이름은 `name: "AWC"`로 표시한다. `courseMapCategoryIds`, 대회 묶음의
+`categoryIds`, 호환 필드 `mapCategories`에도 표시명 `AWC` 대신 ID `awc`를 넣는다.
+대소문자를 무시해 비교하거나 `AWC`를 별도 ID로 취급하지 않는다. 스키마는 ID와 표시명의
+허용 조합을 검증한다.
+
 `assets[].courseMapCategoryIds`와 대회 묶음의 `maps[].courseMapCategoryIds`는 동일하다.
 `courseMapGroups[].categoryIds`는 해당 대회 맵의 분류 합집합이다. 앱은 이 필드로
 대회 목록을 필터링하고, 상세에서는 개별 맵의 분류를 사용할 수 있다.
 혼합 대회는 점어·비노 양쪽 목록에 같은 대회 ID로 표시하며 대회 묶음을 분해하지 않는다.
+AWC 코스맵 331개는 `courseMapCategoryIds: ["awc"]`를 가지며, AWC 그룹 29개의
+`categoryIds`에도 `"awc"`가 포함된다. 그룹 안의 331개 맵은 각각 대회 `eventId`에
+연결되고, `assets`의 ID·분류·이미지 정보와 일치해야 한다.
 
 JP·AG·점핑·어질리티와 해당 부문의 스타터·스탠다드·마스터는 점어,
 비기너·노비스·어드밴스드·익사이팅(Exciting Master 포함)은 비노다.

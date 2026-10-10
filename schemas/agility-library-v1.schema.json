@@ -67,6 +67,7 @@
       "description": "대회별 출진표·코스맵·결과 asset ID 참조. 결과 공개 전후 동일 eventId를 유지한다."
     },
     "courseMapCategories": {
+      "description": "카테고리 id는 소문자 기계 식별자이며, 앱 표시에는 name을 사용한다. AWC의 id는 awc, 표시명은 AWC다.",
       "type": "array",
       "minItems": 5,
       "maxItems": 5,
@@ -92,6 +93,13 @@
             "minLength": 1
           }
         },
+        "oneOf": [
+          { "properties": { "id": { "const": "jpag_promotion" }, "name": { "const": "점어승급전" } } },
+          { "properties": { "id": { "const": "jpag_ranking" }, "name": { "const": "점어랭킹전" } } },
+          { "properties": { "id": { "const": "benov_promotion" }, "name": { "const": "비노승급전" } } },
+          { "properties": { "id": { "const": "benov_ranking" }, "name": { "const": "비노랭킹전" } } },
+          { "properties": { "id": { "const": "awc" }, "name": { "const": "AWC" } } }
+        ],
         "additionalProperties": false
       }
     }
@@ -100,6 +108,7 @@
   "$defs": {
     "mapCategory": {
       "type": "object",
+      "description": "id는 소문자 기계 식별자이며 name은 앱 표시명이다. AWC는 id=awc, name=AWC로 기록한다.",
       "required": [
         "id",
         "name"
@@ -118,6 +127,12 @@
           "minLength": 1
         }
       },
+      "oneOf": [
+        { "properties": { "id": { "const": "ranking" }, "name": { "const": "랭킹전" } } },
+        { "properties": { "id": { "const": "promotion" }, "name": { "const": "승급전" } } },
+        { "properties": { "id": { "const": "awc" }, "name": { "const": "AWC" } } },
+        { "properties": { "id": { "const": "training" }, "name": { "const": "트레이닝맵" } } }
+      ],
       "additionalProperties": false
     },
     "event": {
@@ -597,6 +612,7 @@
       "additionalProperties": false
     },
     "courseMapCategoryIds": {
+      "description": "표시명이 아닌 courseMapCategories[].id 기계 식별자만 저장한다. AWC 값은 소문자 awc다.",
       "type": "array",
       "uniqueItems": true,
       "items": {
