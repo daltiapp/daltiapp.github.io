@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261010.14",
-  "updatedAt": "2026-10-10T21:56:26+09:00",
+  "dataVersion": "20261010.15",
+  "updatedAt": "2026-10-10T22:31:57+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -3817,10 +3817,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194680380",
@@ -3851,10 +3850,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194680568",
@@ -3885,10 +3883,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194681010",
@@ -3919,10 +3916,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194681759",
@@ -3986,10 +3982,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194682706",
@@ -4020,10 +4015,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194683120",
@@ -4054,10 +4048,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194683670",
@@ -4121,10 +4114,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194683998",
@@ -4155,10 +4147,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194684135",
@@ -4189,10 +4180,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194684294",
@@ -4223,10 +4213,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194678510",
@@ -5142,10 +5131,9 @@
         "imageOrder": 1
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651412",
@@ -5175,10 +5163,9 @@
         "imageOrder": 2
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651411",
@@ -5208,10 +5195,9 @@
         "imageOrder": 3
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651410",
@@ -5241,10 +5227,9 @@
         "imageOrder": 4
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651413",
@@ -5274,10 +5259,9 @@
         "imageOrder": 5
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651414",
@@ -5307,10 +5291,9 @@
         "imageOrder": 6
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651415",
@@ -5340,10 +5323,9 @@
         "imageOrder": 7
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651419",
@@ -5373,10 +5355,9 @@
         "imageOrder": 8
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651416",
@@ -5406,10 +5387,9 @@
         "imageOrder": 9
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651421",
@@ -5439,10 +5419,9 @@
         "imageOrder": 10
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651417",
@@ -5504,10 +5483,9 @@
         "imageOrder": 12
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651418",
@@ -5537,10 +5515,9 @@
         "imageOrder": 13
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651422",
@@ -5570,10 +5547,9 @@
         "imageOrder": 14
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651423",
@@ -5603,10 +5579,9 @@
         "imageOrder": 15
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651424",
@@ -5668,10 +5643,9 @@
         "imageOrder": 17
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651428",
@@ -5701,10 +5675,9 @@
         "imageOrder": 18
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651426",
@@ -5734,10 +5707,9 @@
         "imageOrder": 19
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651427",
@@ -5767,10 +5739,9 @@
         "imageOrder": 20
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651429",
@@ -5832,10 +5803,9 @@
         "imageOrder": 22
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651431",
@@ -5865,10 +5835,9 @@
         "imageOrder": 23
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651432",
@@ -5898,10 +5867,9 @@
         "imageOrder": 24
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651434",
@@ -5931,10 +5899,9 @@
         "imageOrder": 25
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651437",
@@ -5996,10 +5963,9 @@
         "imageOrder": 27
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651436",
@@ -6029,10 +5995,9 @@
         "imageOrder": 28
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651438",
@@ -6062,10 +6027,9 @@
         "imageOrder": 29
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651444",
@@ -6095,10 +6059,9 @@
         "imageOrder": 30
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651442",
@@ -6160,10 +6123,9 @@
         "imageOrder": 32
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651441",
@@ -6193,10 +6155,9 @@
         "imageOrder": 33
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651440",
@@ -6226,10 +6187,9 @@
         "imageOrder": 34
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-194651445",
@@ -6259,10 +6219,9 @@
         "imageOrder": 35
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-193221747",
@@ -15323,10 +15282,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-188151488",
@@ -19961,10 +19919,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-184805398",
@@ -19995,10 +19952,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-184812510",
@@ -20029,10 +19985,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-184812511",
@@ -20063,10 +20018,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-184809475",
@@ -20130,10 +20084,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-184815733",
@@ -20197,10 +20150,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-184803991",
@@ -24431,7 +24383,8 @@
         "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset",
+      "sharedCover": true
     },
     {
       "id": "asset-kakao-HlJFG-181800361",
@@ -24462,10 +24415,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181800362",
@@ -24562,10 +24514,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181565960",
@@ -24629,10 +24580,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181565965",
@@ -24663,10 +24613,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181565962",
@@ -24697,10 +24646,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181565964",
@@ -24764,10 +24712,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181569627",
@@ -24798,10 +24745,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181569626",
@@ -24832,10 +24778,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181551042",
@@ -25045,10 +24990,9 @@
         "imageOrder": 2
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-181326178",
@@ -25110,10 +25054,9 @@
         "imageOrder": 4
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-BfHUb-179843659",
@@ -28353,10 +28296,9 @@
         "imageOrder": 1
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-cNjMG-178511733",
@@ -28418,10 +28360,9 @@
         "imageOrder": 3
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-cNjMG-178511680",
@@ -28515,10 +28456,9 @@
         "imageOrder": 6
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-cNjMG-178511816",
@@ -28548,10 +28488,9 @@
         "imageOrder": 7
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-cNjMG-178511692",
@@ -28613,10 +28552,9 @@
         "imageOrder": 9
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-cNjMG-178235461",
@@ -28646,10 +28584,9 @@
         "imageOrder": 10
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-cNjMG-178232924",
@@ -28711,10 +28648,9 @@
         "imageOrder": 12
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-waldbow-288-course_map-cbb50921dcf9037a",
@@ -30492,10 +30428,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-177032070",
@@ -30559,10 +30494,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-177035078",
@@ -30626,10 +30560,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-177035080",
@@ -30660,10 +30593,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-177038718",
@@ -30694,10 +30626,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-177038719",
@@ -30728,10 +30659,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-177038720",
@@ -30762,10 +30692,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-177024664",
@@ -33825,7 +33754,8 @@
         "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset",
+      "sharedCover": true
     },
     {
       "id": "asset-kakao-MPeBn-175902571",
@@ -39188,10 +39118,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-174100819",
@@ -39288,10 +39217,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-174107194",
@@ -39322,10 +39250,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-174138820",
@@ -39610,10 +39537,9 @@
         "imageOrder": 1
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-174094375",
@@ -39707,10 +39633,9 @@
         "imageOrder": 4
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-174094378",
@@ -39740,10 +39665,9 @@
         "imageOrder": 5
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-174094379",
@@ -39773,10 +39697,9 @@
         "imageOrder": 6
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-174160576",
@@ -48643,7 +48566,8 @@
         "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset",
+      "sharedCover": true
     },
     {
       "id": "asset-kakao-MPeBn-167856812",
@@ -48674,10 +48598,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-167856813",
@@ -48708,10 +48631,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-167856814",
@@ -48775,10 +48697,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-167856816",
@@ -48842,10 +48763,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-167856818",
@@ -48909,10 +48829,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-167744404",
@@ -49386,10 +49305,9 @@
         "imageOrder": 2
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-167594600",
@@ -49451,10 +49369,9 @@
         "imageOrder": 4
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-167594602",
@@ -49516,10 +49433,9 @@
         "imageOrder": 6
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-MPeBn-167594604",
@@ -49581,10 +49497,9 @@
         "imageOrder": 8
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-BfHUb-167068344",
@@ -50158,10 +50073,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167454545",
@@ -50225,10 +50139,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "post"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167454547",
@@ -50399,10 +50312,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167046893",
@@ -50466,10 +50378,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167046895",
@@ -50533,10 +50444,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167046918",
@@ -50567,10 +50477,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167047376",
@@ -50634,10 +50543,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167048569",
@@ -50701,10 +50609,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167049897",
@@ -50768,10 +50675,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167049894",
@@ -50835,10 +50741,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167049956",
@@ -50902,10 +50807,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167049957",
@@ -50936,10 +50840,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167052677",
@@ -51003,10 +50906,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167052823",
@@ -51070,10 +50972,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167053437",
@@ -51137,10 +51038,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167053973",
@@ -51204,10 +51104,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167055021",
@@ -51238,10 +51137,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167055023",
@@ -51272,10 +51170,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167055022",
@@ -51306,10 +51203,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167057682",
@@ -51373,10 +51269,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167057918",
@@ -51473,10 +51368,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167059091",
@@ -51540,10 +51434,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167060167",
@@ -51607,10 +51500,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-167045530",
@@ -67491,10 +67383,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-156369356",
@@ -67525,10 +67416,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-156369358",
@@ -67559,10 +67449,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-156369359",
@@ -67946,10 +67835,9 @@
         "imageOrder": 1
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-156351937",
@@ -67979,10 +67867,9 @@
         "imageOrder": 2
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-156351938",
@@ -68012,10 +67899,9 @@
         "imageOrder": 3
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-156351939",
@@ -68045,10 +67931,9 @@
         "imageOrder": 4
       },
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-156351941",
@@ -68174,10 +68059,9 @@
         "imageOrder": 8
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-156351945",
@@ -68239,10 +68123,9 @@
         "imageOrder": 10
       },
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-155146182",
@@ -77768,10 +77651,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234860",
@@ -77835,10 +77717,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234859",
@@ -77869,10 +77750,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234520",
@@ -77936,10 +77816,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234513",
@@ -77970,10 +77849,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234524",
@@ -78037,10 +77915,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
         "benov_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234515",
@@ -78071,10 +77948,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234523",
@@ -78105,10 +77981,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234526",
@@ -78139,10 +78014,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234512",
@@ -78173,10 +78047,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234522",
@@ -78240,10 +78113,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-148234525",
@@ -78307,10 +78179,9 @@
       },
       "resultType": "image",
       "categoryIds": [
-        "jpag_ranking",
-        "benov_ranking"
+        "jpag_ranking"
       ],
-      "categoryScope": "event"
+      "categoryScope": "asset"
     },
     {
       "id": "asset-kakao-HlJFG-147316918",
@@ -143954,7 +143825,15 @@
       "categoryId": "jpag_ranking",
       "entryListIds": [
         "asset-kakao-MPeBn-194651429",
-        "asset-kakao-MPeBn-194651437"
+        "asset-kakao-MPeBn-194651430",
+        "asset-kakao-MPeBn-194651431",
+        "asset-kakao-MPeBn-194651432",
+        "asset-kakao-MPeBn-194651434",
+        "asset-kakao-MPeBn-194651437",
+        "asset-kakao-MPeBn-194651435",
+        "asset-kakao-MPeBn-194651436",
+        "asset-kakao-MPeBn-194651438",
+        "asset-kakao-MPeBn-194651444"
       ],
       "courseMapIds": [
         "asset-kakao-MPeBn-194678510",
@@ -143962,7 +143841,14 @@
       ],
       "resultIds": [
         "asset-kakao-MPeBn-194679903",
-        "asset-kakao-MPeBn-194681759"
+        "asset-kakao-MPeBn-194680095",
+        "asset-kakao-MPeBn-194680380",
+        "asset-kakao-MPeBn-194680568",
+        "asset-kakao-MPeBn-194681010",
+        "asset-kakao-MPeBn-194681759",
+        "asset-kakao-MPeBn-194682498",
+        "asset-kakao-MPeBn-194682706",
+        "asset-kakao-MPeBn-194683120"
       ],
       "recordSelections": []
     },
@@ -143971,9 +143857,31 @@
       "eventId": "event-pdc-odogs2-20261003",
       "categoryId": "benov_ranking",
       "entryListIds": [
+        "asset-kakao-MPeBn-194651408",
+        "asset-kakao-MPeBn-194651412",
+        "asset-kakao-MPeBn-194651411",
+        "asset-kakao-MPeBn-194651410",
+        "asset-kakao-MPeBn-194651413",
+        "asset-kakao-MPeBn-194651414",
+        "asset-kakao-MPeBn-194651415",
+        "asset-kakao-MPeBn-194651419",
+        "asset-kakao-MPeBn-194651416",
+        "asset-kakao-MPeBn-194651421",
         "asset-kakao-MPeBn-194651417",
+        "asset-kakao-MPeBn-194651420",
+        "asset-kakao-MPeBn-194651418",
+        "asset-kakao-MPeBn-194651422",
+        "asset-kakao-MPeBn-194651423",
         "asset-kakao-MPeBn-194651424",
-        "asset-kakao-MPeBn-194651442"
+        "asset-kakao-MPeBn-194651425",
+        "asset-kakao-MPeBn-194651428",
+        "asset-kakao-MPeBn-194651426",
+        "asset-kakao-MPeBn-194651427",
+        "asset-kakao-MPeBn-194651442",
+        "asset-kakao-MPeBn-194651439",
+        "asset-kakao-MPeBn-194651441",
+        "asset-kakao-MPeBn-194651440",
+        "asset-kakao-MPeBn-194651445"
       ],
       "courseMapIds": [
         "asset-kakao-MPeBn-194678512",
@@ -143984,6 +143892,10 @@
       ],
       "resultIds": [
         "asset-kakao-MPeBn-194683670",
+        "asset-kakao-MPeBn-194683809",
+        "asset-kakao-MPeBn-194683998",
+        "asset-kakao-MPeBn-194684135",
+        "asset-kakao-MPeBn-194684294",
         "asset-kakao-MPeBn-194664200",
         "asset-kakao-MPeBn-194665632",
         "asset-kakao-MPeBn-194666553",
@@ -144478,6 +144390,7 @@
         "asset-kakao-HlJFG-188151486",
         "asset-kakao-HlJFG-188151485",
         "asset-kakao-HlJFG-188151487",
+        "asset-kakao-HlJFG-188151489",
         "asset-kakao-HlJFG-188151488"
       ],
       "recordSelections": []
@@ -144700,7 +144613,9 @@
       ],
       "resultIds": [
         "asset-kakao-MPeBn-184809475",
-        "asset-kakao-MPeBn-184815733"
+        "asset-kakao-MPeBn-184809474",
+        "asset-kakao-MPeBn-184815733",
+        "asset-kakao-MPeBn-184815732"
       ],
       "recordSelections": []
     },
@@ -144716,7 +144631,12 @@
         "asset-kakao-MPeBn-184802545",
         "asset-kakao-MPeBn-184802568"
       ],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-MPeBn-184805401",
+        "asset-kakao-MPeBn-184805398",
+        "asset-kakao-MPeBn-184812510",
+        "asset-kakao-MPeBn-184812511"
+      ],
       "recordSelections": []
     },
     {
@@ -144912,16 +144832,21 @@
       "eventId": "event-leez-crown-20260124",
       "categoryId": "jpag_ranking",
       "entryListIds": [
-        "asset-kakao-HlJFG-181326178"
+        "asset-kakao-HlJFG-181326178",
+        "asset-kakao-HlJFG-181326183"
       ],
       "courseMapIds": [
         "asset-kakao-HlJFG-181551042",
         "asset-kakao-HlJFG-181558175"
       ],
       "resultIds": [
+        "asset-kakao-HlJFG-181800351",
         "asset-kakao-HlJFG-181800365",
+        "asset-kakao-HlJFG-181800379",
         "asset-kakao-HlJFG-181565960",
-        "asset-kakao-HlJFG-181565964"
+        "asset-kakao-HlJFG-181565961",
+        "asset-kakao-HlJFG-181565964",
+        "asset-kakao-HlJFG-181565963"
       ],
       "recordSelections": []
     },
@@ -144930,14 +144855,21 @@
       "eventId": "event-leez-crown-20260124",
       "categoryId": "benov_ranking",
       "entryListIds": [
-        "asset-kakao-HlJFG-181326171"
+        "asset-kakao-HlJFG-181326171",
+        "asset-kakao-HlJFG-181326176"
       ],
       "courseMapIds": [
         "asset-kakao-HlJFG-181551043",
         "asset-kakao-HlJFG-181558178"
       ],
       "resultIds": [
-        "asset-kakao-HlJFG-181800362"
+        "asset-kakao-HlJFG-181800351",
+        "asset-kakao-HlJFG-181800361",
+        "asset-kakao-HlJFG-181800362",
+        "asset-kakao-HlJFG-181565965",
+        "asset-kakao-HlJFG-181565962",
+        "asset-kakao-HlJFG-181569627",
+        "asset-kakao-HlJFG-181569626"
       ],
       "recordSelections": []
     },
@@ -145095,7 +145027,10 @@
       "eventId": "event-heist-ranking4",
       "categoryId": "jpag_ranking",
       "entryListIds": [
-        "asset-kakao-cNjMG-178232924"
+        "asset-kakao-cNjMG-178223156",
+        "asset-kakao-cNjMG-178235461",
+        "asset-kakao-cNjMG-178232924",
+        "asset-kakao-cNjMG-178510797"
       ],
       "courseMapIds": [
         "asset-kakao-cNjMG-178518511"
@@ -145113,9 +145048,13 @@
       "eventId": "event-heist-ranking4",
       "categoryId": "benov_ranking",
       "entryListIds": [
+        "asset-kakao-cNjMG-178234520",
         "asset-kakao-cNjMG-178511733",
+        "asset-kakao-cNjMG-178511812",
         "asset-kakao-cNjMG-178511680",
         "asset-kakao-cNjMG-178232925",
+        "asset-kakao-cNjMG-178511689",
+        "asset-kakao-cNjMG-178511816",
         "asset-kakao-cNjMG-178511692"
       ],
       "courseMapIds": [
@@ -145363,7 +145302,9 @@
       ],
       "resultIds": [
         "asset-kakao-HlJFG-177028306",
-        "asset-kakao-HlJFG-177032070"
+        "asset-kakao-HlJFG-177028308",
+        "asset-kakao-HlJFG-177032070",
+        "asset-kakao-HlJFG-177032071"
       ],
       "recordSelections": []
     },
@@ -145380,7 +145321,12 @@
         "asset-kakao-HlJFG-177031353"
       ],
       "resultIds": [
-        "asset-kakao-HlJFG-177035078"
+        "asset-kakao-HlJFG-177035078",
+        "asset-kakao-HlJFG-177035079",
+        "asset-kakao-HlJFG-177035080",
+        "asset-kakao-HlJFG-177038718",
+        "asset-kakao-HlJFG-177038719",
+        "asset-kakao-HlJFG-177038720"
       ],
       "recordSelections": []
     },
@@ -145673,6 +145619,7 @@
         "asset-kakao-MPeBn-175866156"
       ],
       "resultIds": [
+        "asset-kakao-MPeBn-175903072",
         "asset-kakao-MPeBn-175902571",
         "asset-kakao-MPeBn-175902574"
       ],
@@ -145691,6 +145638,7 @@
         "asset-kakao-MPeBn-175857553"
       ],
       "resultIds": [
+        "asset-kakao-MPeBn-175903072",
         "asset-kakao-MPeBn-175902577",
         "asset-kakao-MPeBn-175902579"
       ],
@@ -145921,7 +145869,10 @@
       "eventId": "event-leez-crown-20250907",
       "categoryId": "jpag_ranking",
       "entryListIds": [
-        "asset-kakao-HlJFG-174094376"
+        "asset-kakao-HlJFG-174094376",
+        "asset-kakao-HlJFG-174094377",
+        "asset-kakao-HlJFG-174094378",
+        "asset-kakao-HlJFG-174094379"
       ],
       "courseMapIds": [
         "asset-kakao-HlJFG-174097327",
@@ -145936,6 +145887,8 @@
         "asset-kakao-HlJFG-174160622",
         "asset-kakao-HlJFG-174160624",
         "asset-kakao-HlJFG-174100683",
+        "asset-kakao-HlJFG-174103596",
+        "asset-kakao-HlJFG-174107194",
         "asset-kakao-HlJFG-174138820"
       ],
       "recordSelections": []
@@ -145945,6 +145898,7 @@
       "eventId": "event-leez-crown-20250907",
       "categoryId": "benov_ranking",
       "entryListIds": [
+        "asset-kakao-HlJFG-174094374",
         "asset-kakao-HlJFG-174094375"
       ],
       "courseMapIds": [
@@ -145955,6 +145909,7 @@
         "asset-kakao-HlJFG-174160568",
         "asset-kakao-HlJFG-174160569",
         "asset-kakao-HlJFG-174160574",
+        "asset-kakao-HlJFG-174100472",
         "asset-kakao-HlJFG-174100819"
       ],
       "recordSelections": []
@@ -146498,15 +146453,20 @@
       "categoryId": "jpag_ranking",
       "entryListIds": [
         "asset-kakao-MPeBn-167594602",
-        "asset-kakao-MPeBn-167594604"
+        "asset-kakao-MPeBn-167594603",
+        "asset-kakao-MPeBn-167594604",
+        "asset-kakao-MPeBn-167594605"
       ],
       "courseMapIds": [
         "asset-kakao-MPeBn-167739861",
         "asset-kakao-MPeBn-167739862"
       ],
       "resultIds": [
+        "asset-kakao-MPeBn-167856811",
         "asset-kakao-MPeBn-167856816",
+        "asset-kakao-MPeBn-167856817",
         "asset-kakao-MPeBn-167856818",
+        "asset-kakao-MPeBn-167856819",
         "asset-kakao-MPeBn-167754200",
         "asset-kakao-MPeBn-167754207",
         "asset-kakao-MPeBn-167759653",
@@ -146520,14 +146480,20 @@
       "categoryId": "benov_ranking",
       "entryListIds": [
         "asset-kakao-MPeBn-167594598",
-        "asset-kakao-MPeBn-167594600"
+        "asset-kakao-MPeBn-167594599",
+        "asset-kakao-MPeBn-167594600",
+        "asset-kakao-MPeBn-167594601"
       ],
       "courseMapIds": [
         "asset-kakao-MPeBn-167739855",
         "asset-kakao-MPeBn-167739859"
       ],
       "resultIds": [
+        "asset-kakao-MPeBn-167856811",
+        "asset-kakao-MPeBn-167856812",
+        "asset-kakao-MPeBn-167856813",
         "asset-kakao-MPeBn-167856814",
+        "asset-kakao-MPeBn-167856815",
         "asset-kakao-MPeBn-167744404",
         "asset-kakao-MPeBn-167756213",
         "asset-kakao-MPeBn-167749020",
@@ -146586,17 +146552,30 @@
       "resultIds": [
         "asset-kakao-HlJFG-167454542",
         "asset-kakao-HlJFG-167454543",
+        "asset-kakao-HlJFG-167454544",
         "asset-kakao-HlJFG-167454545",
+        "asset-kakao-HlJFG-167454546",
         "asset-kakao-HlJFG-167454547",
         "asset-kakao-HlJFG-167052677",
+        "asset-kakao-HlJFG-167052676",
         "asset-kakao-HlJFG-167052823",
+        "asset-kakao-HlJFG-167052822",
         "asset-kakao-HlJFG-167053437",
+        "asset-kakao-HlJFG-167053438",
         "asset-kakao-HlJFG-167053973",
+        "asset-kakao-HlJFG-167053974",
+        "asset-kakao-HlJFG-167055021",
+        "asset-kakao-HlJFG-167055023",
+        "asset-kakao-HlJFG-167055022",
         "asset-kakao-HlJFG-167057682",
+        "asset-kakao-HlJFG-167057681",
         "asset-kakao-HlJFG-167057918",
         "asset-kakao-HlJFG-167058507",
+        "asset-kakao-HlJFG-167058508",
         "asset-kakao-HlJFG-167059091",
-        "asset-kakao-HlJFG-167060167"
+        "asset-kakao-HlJFG-167059092",
+        "asset-kakao-HlJFG-167060167",
+        "asset-kakao-HlJFG-167060168"
       ],
       "recordSelections": []
     },
@@ -146617,13 +146596,23 @@
         "asset-kakao-HlJFG-167454540",
         "asset-kakao-HlJFG-167454541",
         "asset-kakao-HlJFG-167046484",
+        "asset-kakao-HlJFG-167046483",
         "asset-kakao-HlJFG-167046893",
+        "asset-kakao-HlJFG-167046896",
         "asset-kakao-HlJFG-167046895",
+        "asset-kakao-HlJFG-167046892",
+        "asset-kakao-HlJFG-167046918",
         "asset-kakao-HlJFG-167047376",
+        "asset-kakao-HlJFG-167047377",
         "asset-kakao-HlJFG-167048569",
+        "asset-kakao-HlJFG-167048568",
         "asset-kakao-HlJFG-167049897",
+        "asset-kakao-HlJFG-167049895",
         "asset-kakao-HlJFG-167049894",
-        "asset-kakao-HlJFG-167049956"
+        "asset-kakao-HlJFG-167049896",
+        "asset-kakao-HlJFG-167049956",
+        "asset-kakao-HlJFG-167049958",
+        "asset-kakao-HlJFG-167049957"
       ],
       "recordSelections": []
     },
@@ -147715,7 +147704,9 @@
       "categoryId": "jpag_ranking",
       "entryListIds": [
         "asset-kakao-HlJFG-156351943",
-        "asset-kakao-HlJFG-156351945"
+        "asset-kakao-HlJFG-156351944",
+        "asset-kakao-HlJFG-156351945",
+        "asset-kakao-HlJFG-156351947"
       ],
       "courseMapIds": [
         "asset-kakao-HlJFG-156357003",
@@ -147732,6 +147723,10 @@
       "eventId": "event-leez-gopro-20241026",
       "categoryId": "benov_ranking",
       "entryListIds": [
+        "asset-kakao-HlJFG-156351936",
+        "asset-kakao-HlJFG-156351937",
+        "asset-kakao-HlJFG-156351938",
+        "asset-kakao-HlJFG-156351939",
         "asset-kakao-HlJFG-156351941",
         "asset-kakao-HlJFG-156351942"
       ],
@@ -147743,6 +147738,9 @@
       ],
       "resultIds": [
         "asset-kakao-HlJFG-156369354",
+        "asset-kakao-HlJFG-156369355",
+        "asset-kakao-HlJFG-156369356",
+        "asset-kakao-HlJFG-156369358",
         "asset-kakao-HlJFG-156369359",
         "asset-kakao-HlJFG-156369360"
       ],
@@ -148478,8 +148476,14 @@
         "asset-kakao-HlJFG-147224936"
       ],
       "resultIds": [
+        "asset-kakao-HlJFG-148234515",
+        "asset-kakao-HlJFG-148234523",
+        "asset-kakao-HlJFG-148234526",
+        "asset-kakao-HlJFG-148234512",
         "asset-kakao-HlJFG-148234522",
+        "asset-kakao-HlJFG-148234519",
         "asset-kakao-HlJFG-148234525",
+        "asset-kakao-HlJFG-148234516",
         "asset-kakao-HlJFG-147316918",
         "asset-kakao-HlJFG-147226628",
         "asset-kakao-HlJFG-147227247",
@@ -148515,9 +148519,15 @@
         "asset-kakao-HlJFG-147202669"
       ],
       "resultIds": [
+        "asset-kakao-HlJFG-148234514",
         "asset-kakao-HlJFG-148234860",
+        "asset-kakao-HlJFG-148234861",
+        "asset-kakao-HlJFG-148234859",
         "asset-kakao-HlJFG-148234520",
+        "asset-kakao-HlJFG-148234518",
+        "asset-kakao-HlJFG-148234513",
         "asset-kakao-HlJFG-148234524",
+        "asset-kakao-HlJFG-148234521",
         "asset-kakao-HlJFG-147205467",
         "asset-kakao-HlJFG-147205468",
         "asset-kakao-HlJFG-147205466",
@@ -150213,49 +150223,7 @@
         "asset-kakao-MPeBn-194677744",
         "asset-kakao-MPeBn-194678456"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-MPeBn-194680095",
-        "asset-kakao-MPeBn-194680380",
-        "asset-kakao-MPeBn-194680568",
-        "asset-kakao-MPeBn-194681010",
-        "asset-kakao-MPeBn-194682498",
-        "asset-kakao-MPeBn-194682706",
-        "asset-kakao-MPeBn-194683120",
-        "asset-kakao-MPeBn-194683809",
-        "asset-kakao-MPeBn-194683998",
-        "asset-kakao-MPeBn-194684135",
-        "asset-kakao-MPeBn-194684294",
-        "asset-kakao-MPeBn-194651408",
-        "asset-kakao-MPeBn-194651412",
-        "asset-kakao-MPeBn-194651411",
-        "asset-kakao-MPeBn-194651410",
-        "asset-kakao-MPeBn-194651413",
-        "asset-kakao-MPeBn-194651414",
-        "asset-kakao-MPeBn-194651415",
-        "asset-kakao-MPeBn-194651419",
-        "asset-kakao-MPeBn-194651416",
-        "asset-kakao-MPeBn-194651421",
-        "asset-kakao-MPeBn-194651420",
-        "asset-kakao-MPeBn-194651418",
-        "asset-kakao-MPeBn-194651422",
-        "asset-kakao-MPeBn-194651423",
-        "asset-kakao-MPeBn-194651425",
-        "asset-kakao-MPeBn-194651428",
-        "asset-kakao-MPeBn-194651426",
-        "asset-kakao-MPeBn-194651427",
-        "asset-kakao-MPeBn-194651430",
-        "asset-kakao-MPeBn-194651431",
-        "asset-kakao-MPeBn-194651432",
-        "asset-kakao-MPeBn-194651434",
-        "asset-kakao-MPeBn-194651435",
-        "asset-kakao-MPeBn-194651436",
-        "asset-kakao-MPeBn-194651438",
-        "asset-kakao-MPeBn-194651444",
-        "asset-kakao-MPeBn-194651439",
-        "asset-kakao-MPeBn-194651441",
-        "asset-kakao-MPeBn-194651440",
-        "asset-kakao-MPeBn-194651445"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2026-09-05",
@@ -150736,9 +150704,7 @@
         "asset-kakao-HlJFG-188151489",
         "asset-kakao-HlJFG-188151488"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-HlJFG-188151489"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2026-04-19",
@@ -150982,14 +150948,7 @@
         "asset-kakao-MPeBn-184815733",
         "asset-kakao-MPeBn-184815732"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-MPeBn-184805401",
-        "asset-kakao-MPeBn-184805398",
-        "asset-kakao-MPeBn-184812510",
-        "asset-kakao-MPeBn-184812511",
-        "asset-kakao-MPeBn-184809474",
-        "asset-kakao-MPeBn-184815732"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2026-03-08",
@@ -151221,19 +151180,7 @@
         "asset-kakao-HlJFG-181569627",
         "asset-kakao-HlJFG-181569626"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-HlJFG-181800351",
-        "asset-kakao-HlJFG-181800361",
-        "asset-kakao-HlJFG-181800379",
-        "asset-kakao-HlJFG-181565961",
-        "asset-kakao-HlJFG-181565965",
-        "asset-kakao-HlJFG-181565962",
-        "asset-kakao-HlJFG-181565963",
-        "asset-kakao-HlJFG-181569627",
-        "asset-kakao-HlJFG-181569626",
-        "asset-kakao-HlJFG-181326176",
-        "asset-kakao-HlJFG-181326183"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2025-12-20",
@@ -151420,15 +151367,7 @@
         "asset-kakao-cNjMG-178521229",
         "asset-kakao-cNjMG-178521634"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-cNjMG-178234520",
-        "asset-kakao-cNjMG-178511812",
-        "asset-kakao-cNjMG-178511689",
-        "asset-kakao-cNjMG-178511816",
-        "asset-kakao-cNjMG-178223156",
-        "asset-kakao-cNjMG-178235461",
-        "asset-kakao-cNjMG-178510797"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2025-11-23",
@@ -151568,15 +151507,7 @@
         "asset-kakao-HlJFG-177038719",
         "asset-kakao-HlJFG-177038720"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-HlJFG-177028308",
-        "asset-kakao-HlJFG-177032071",
-        "asset-kakao-HlJFG-177035079",
-        "asset-kakao-HlJFG-177035080",
-        "asset-kakao-HlJFG-177038718",
-        "asset-kakao-HlJFG-177038719",
-        "asset-kakao-HlJFG-177038720"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2025-10-19",
@@ -151750,9 +151681,7 @@
         "asset-kakao-MPeBn-175902577",
         "asset-kakao-MPeBn-175902579"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-MPeBn-175903072"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2025-09-21",
@@ -152002,15 +151931,7 @@
         "asset-kakao-HlJFG-174160576",
         "asset-kakao-HlJFG-174104740"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-HlJFG-174100472",
-        "asset-kakao-HlJFG-174103596",
-        "asset-kakao-HlJFG-174107194",
-        "asset-kakao-HlJFG-174094374",
-        "asset-kakao-HlJFG-174094377",
-        "asset-kakao-HlJFG-174094378",
-        "asset-kakao-HlJFG-174094379"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2025-08-23",
@@ -152468,18 +152389,7 @@
         "asset-kakao-MPeBn-167759653",
         "asset-kakao-MPeBn-167759654"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-MPeBn-167856811",
-        "asset-kakao-MPeBn-167856812",
-        "asset-kakao-MPeBn-167856813",
-        "asset-kakao-MPeBn-167856815",
-        "asset-kakao-MPeBn-167856817",
-        "asset-kakao-MPeBn-167856819",
-        "asset-kakao-MPeBn-167594599",
-        "asset-kakao-MPeBn-167594601",
-        "asset-kakao-MPeBn-167594603",
-        "asset-kakao-MPeBn-167594605"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2025-05-05",
@@ -152585,31 +152495,7 @@
         "asset-kakao-HlJFG-167060167",
         "asset-kakao-HlJFG-167060168"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-HlJFG-167454544",
-        "asset-kakao-HlJFG-167454546",
-        "asset-kakao-HlJFG-167046483",
-        "asset-kakao-HlJFG-167046896",
-        "asset-kakao-HlJFG-167046892",
-        "asset-kakao-HlJFG-167046918",
-        "asset-kakao-HlJFG-167047377",
-        "asset-kakao-HlJFG-167048568",
-        "asset-kakao-HlJFG-167049895",
-        "asset-kakao-HlJFG-167049896",
-        "asset-kakao-HlJFG-167049958",
-        "asset-kakao-HlJFG-167049957",
-        "asset-kakao-HlJFG-167052676",
-        "asset-kakao-HlJFG-167052822",
-        "asset-kakao-HlJFG-167053438",
-        "asset-kakao-HlJFG-167053974",
-        "asset-kakao-HlJFG-167055021",
-        "asset-kakao-HlJFG-167055023",
-        "asset-kakao-HlJFG-167055022",
-        "asset-kakao-HlJFG-167057681",
-        "asset-kakao-HlJFG-167058508",
-        "asset-kakao-HlJFG-167059092",
-        "asset-kakao-HlJFG-167060168"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2025-05-03",
@@ -153411,17 +153297,7 @@
         "asset-kakao-HlJFG-156374012",
         "asset-kakao-HlJFG-156378369"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-HlJFG-156369355",
-        "asset-kakao-HlJFG-156369356",
-        "asset-kakao-HlJFG-156369358",
-        "asset-kakao-HlJFG-156351936",
-        "asset-kakao-HlJFG-156351937",
-        "asset-kakao-HlJFG-156351938",
-        "asset-kakao-HlJFG-156351939",
-        "asset-kakao-HlJFG-156351944",
-        "asset-kakao-HlJFG-156351947"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2024-10-06",
@@ -153991,20 +153867,7 @@
         "asset-kakao-HlJFG-147250111",
         "asset-kakao-HlJFG-147250110"
       ],
-      "unassignedAssetIds": [
-        "asset-kakao-HlJFG-148234514",
-        "asset-kakao-HlJFG-148234861",
-        "asset-kakao-HlJFG-148234859",
-        "asset-kakao-HlJFG-148234518",
-        "asset-kakao-HlJFG-148234513",
-        "asset-kakao-HlJFG-148234521",
-        "asset-kakao-HlJFG-148234515",
-        "asset-kakao-HlJFG-148234523",
-        "asset-kakao-HlJFG-148234526",
-        "asset-kakao-HlJFG-148234512",
-        "asset-kakao-HlJFG-148234519",
-        "asset-kakao-HlJFG-148234516"
-      ]
+      "unassignedAssetIds": []
     },
     {
       "id": "date:2024-05-18",

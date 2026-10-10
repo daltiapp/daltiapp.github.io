@@ -498,10 +498,28 @@
         "categoryScope": {
           "enum": ["asset", "post", "event", "unclassified"],
           "description": "분류 근거 범위: 이미지/종목, 원문 게시물, 확인된 대회 부문, 미확인. 미확인은 categoryIds가 빈 배열이다."
+        },
+        "sharedCover": {
+          "const": true,
+          "description": "원본에서 확인한 공통 기록확인서 표지. 실제 점수표를 포함하지 않으며 명시된 부문들에 함께 연결한다. 일반 자료는 이 필드를 생략한다."
         }
       },
       "additionalProperties": false,
       "allOf": [
+        {
+          "if": { "required": ["sharedCover"] },
+          "then": {
+            "required": ["categoryScope", "categoryIds"],
+            "properties": {
+              "kind": { "const": "result" },
+              "resultType": { "const": "image" },
+              "categoryScope": { "const": "asset" },
+              "categoryIds": { "minItems": 2 },
+              "recordPath": false,
+              "entryListPath": false
+            }
+          }
+        },
         {
           "if": {
             "properties": {

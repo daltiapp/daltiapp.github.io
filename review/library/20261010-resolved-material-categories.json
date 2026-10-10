@@ -1,0 +1,4685 @@
+{
+  "auditVersion": 1,
+  "checkedAt": "2026-10-10T22:31:57+09:00",
+  "dataVersion": "20261010.15",
+  "previousDataVersion": "20261010.14",
+  "summary": {
+    "previouslyUnassigned": 135,
+    "resolved": 135,
+    "remainingUnassigned": 0,
+    "singleCategoryResolved": 132,
+    "sharedCovers": 3,
+    "resolutionMethods": {
+      "continuation": 94,
+      "image_heading": 35,
+      "shared_cover": 3,
+      "section_cover": 3
+    },
+    "events": 166,
+    "assets": 3051,
+    "competitionGroups": 184,
+    "dateGroups": 134,
+    "awcMaps": 331,
+    "newPushCandidates": 0
+  },
+  "rootCauses": [
+    "이미지 하나의 제목만 보는 방식이 문서의 후속 페이지를 대회 전체 부문으로 되돌림",
+    "명확한 제목도 OCR 신뢰도 0.99 기준, 일반 Agility 로고·점수 토큰 충돌로 제외됨",
+    "부문별 표지와 대회 공통 기록확인서 표지를 단일 부문 미확정 이미지로 취급함"
+  ],
+  "verificationMethod": "보관된 19개 원문 게시물의 media.id·URL·첨부 순서, 원본 SHA-256 및 로컬 OCR을 전수 대조. 제목·체급 진행·표 순번의 연속성, 부문별 표지 경계를 확인하고 원본 대표 이미지를 직접 대조. 외부 유료 API 호출 없음.",
+  "preservation": {
+    "idsImagesDatesSourceOrderUnchanged": true,
+    "allEventAndCourseMapGroupsUnchanged": true,
+    "dateViewAllMaterialMembershipUnchanged": true,
+    "noScoreTableSharedAcrossCategories": true,
+    "normalizationIdempotent": true,
+    "allAssetsInCategoryAndDateViews": true,
+    "sharedCoversOncePerDate": true,
+    "newPushCandidates": 0
+  },
+  "siteTableSha256": {
+    "waldbow-10-entries.json": "a80b9fe111cd61966820cb1e31d3aefda7e1836764f531a7efd27c45d910ca03",
+    "waldbow-10.json": "44fc592b92263ef5e815355ecbe1562f02ed342498e78f0f65134d84690d3a74",
+    "waldbow-113-entries.json": "2ccb1fca1ac505ef807dc4111d73949ccfad72d1235557a251613f9ef2f7bc0a",
+    "waldbow-113.json": "0a0a4f6548a471e28991507eccf261705566755ac28821eb736383c7b6ff1e99",
+    "waldbow-114-entries.json": "5412a7e4c26844bfd3b843c9f392f3da44800d3bdfe3915f535db269818ecda3",
+    "waldbow-114.json": "fefa45ec653bdf214ab0b733cfabad274a8c2941cad1befea7723388a80e1a37",
+    "waldbow-221-entries.json": "c19c20f7b45fd9d406f814b2e08f30419b7540ce6c9af3fdda81f14dbc11bd7c",
+    "waldbow-221.json": "30df75d87e786bb40a88f0d0dd26be7a01c75a90a53f41085d6b0907a820de6b",
+    "waldbow-222-entries.json": "05541d3eb5566af85491c5b864a2fc021bfba60ad071a4fe7a12e35ffe616cd0",
+    "waldbow-222.json": "56bc6264e08b97b300f827437f90d7442c00bb05d4b03a992a0b2e32a86a2d67",
+    "waldbow-224-entries.json": "22ac10a23dcf5572a92b32cc1a7f6ea4b0a1b5da9b464a95ad45d0888738cfd3",
+    "waldbow-224.json": "a58cc52cec41be9e593cf1215bd39677aadfadf33802d7b8da41e56eaea807f2",
+    "waldbow-225-entries.json": "76adbeeceb4ee990efadc14708fba6341ac639e7a6a02f51655307f348cff132",
+    "waldbow-225.json": "6f8fb252a46c8821b1fb97102e3264829b6b4c3c7c86fe96c6d0f8eb03061765",
+    "waldbow-228-entries.json": "dca62a15c6b6ad13bf3de8f5cc8730f8b7133dadb4ef089bf5acf9434085437e",
+    "waldbow-228.json": "6e8c264a5d537d7b189365be0cf9d7d04190c12dcdc54c8b4ca4035ee97f50dc",
+    "waldbow-229-entries.json": "a37a2e4cfa4e0839bd370074cb5401401dd5167af5abf31cb78c1fb672561776",
+    "waldbow-229.json": "48b3949394471993491e46e7dfac11cd25d14bc7dd3cac3eaf81089868279ebf",
+    "waldbow-26-entries.json": "247a7b28cff3cf669daa17f393c2e82c6fd05f6d9a5a7e97f08c8a4f7213ecf1",
+    "waldbow-26.json": "8cda0de940d883e7eab93cf2ca0597c5d89437833769cb4e9529f58177fb3faf",
+    "waldbow-272-entries.json": "01e306ba49cfdd0668a2d668f7815906cd0cf4b73ae7d43092e5a81824155ff7",
+    "waldbow-272.json": "2770375995accb168eec88ec0f89e16dcb28408ee84657c2f8e22c98bf97dc33",
+    "waldbow-273-entries.json": "02c91b06bb5055d839e2987bf499c96519aad566a7d9c31d1134258d1a4aea23",
+    "waldbow-273.json": "0d4a741d531fab524d238d3c61a05e9f25654ae38a5ca8632ea7de861a770e21",
+    "waldbow-274-entries.json": "e6ea281d6206311b3efa3af3e9d42d667cf51e3c6d6561b7504567303dd23a32",
+    "waldbow-274.json": "437888f886b6064d9d0387a14cc2f8ac53082fb358554982e7402599a515f6fe",
+    "waldbow-28-entries.json": "c0fd591bb4468e950b7bb3943aa3181aea5398d4d8ba1343c96eb289f880373d",
+    "waldbow-28.json": "38b7055b38f3dabe9db879247809accd226d9464e5e69ea7ee1c84fabd0eaa28",
+    "waldbow-287-entries.json": "f109489601969faf0ea89de7788eb81978a90921df5fb337920886b945568f74",
+    "waldbow-287.json": "979baca461e75d5755b2db3c44304a67d7fee4618eebe9e2dee345f5c00e0b27",
+    "waldbow-288-entries.json": "41d111812dc6bb4e5ed1ea9d2d056416f7b807e3fcb2138451029f0230345b2c",
+    "waldbow-288.json": "122e28139c05638d44c097d9b0e963c668afb013fd713f9cda44bf1b3be14243",
+    "waldbow-65-entries.json": "0ea19f2986dc0c7a8cebeebba9c1cc144ff36d9ee0540d0f9759895815a67265",
+    "waldbow-65.json": "66f6ece1d67f1b9949e5b1e379ce20f9a3a21790b18803d20eade68145d08ba9",
+    "waldbow-66-entries.json": "6cd63d002e7f6aa4ef3a976cc846fe70e023bde0dbcfff0c5e5c59e56ea80502",
+    "waldbow-66.json": "6fe6da6bb01b9df75be98838b97c2dc26764530c5b320f9058527534d03b9c99",
+    "waldbow-801-entries.json": "9f426cb2b21b88c6ffee694f4a68d5c449c29aeb0e425366f615a6324e44d98d",
+    "waldbow-801.json": "edbc25ea320fb3de9529411730ff9b2347016424642acc9e692b238db7110fcb",
+    "waldbow-9-entries.json": "f8ee8929dca106406193da77d1575b5c553793309c8069d6bef2feb3cac1c079",
+    "waldbow-9.json": "da349f888e95a9c3788d8620d9efdfe3af61c382aa3cb95bb10e6ac2fe7a65ea"
+  },
+  "resolutions": [
+    {
+      "assetId": "asset-kakao-MPeBn-194680095",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/cWsP8l/dJMcadqaZ4L/cKgdPf837ALCJUKQU1wb41/img_xl.jpg",
+      "sha256": "e1a23678434a87d2a32fbfe73d68203123458c13b78222bc991efc461e8aa58d",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194679903",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/CkuLT/dJMcacEYLCj/qLSdSRL4sxcFzkVRMZgw50/img_xl.jpg",
+          "sha256": "03e692e048879da6ed0de0b5241901d683b91d2d35ee1f76b32e2ac072110cdd"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194680380",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/ccHdre/dJMcacrpNzy/TMyaQ8Fa50oi7r7jqNknOk/img_xl.jpg",
+      "sha256": "84af5fb038050f196d4c16049dc33c66216896f307e2ae234f58f2b6699558a7",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194679903",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/CkuLT/dJMcacEYLCj/qLSdSRL4sxcFzkVRMZgw50/img_xl.jpg",
+          "sha256": "03e692e048879da6ed0de0b5241901d683b91d2d35ee1f76b32e2ac072110cdd"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194680568",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/cFPpfh/dJMcacx3El1/M5IMPGnBTA51EZrpA95i9k/img_xl.jpg",
+      "sha256": "eff49fa895d5178217ab4f39af998c53a4ab7b8e8b9ced1060436024675dd4bf",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194679903",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/CkuLT/dJMcacEYLCj/qLSdSRL4sxcFzkVRMZgw50/img_xl.jpg",
+          "sha256": "03e692e048879da6ed0de0b5241901d683b91d2d35ee1f76b32e2ac072110cdd"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194681010",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 5,
+      "imageUrl": "https://k.kakaocdn.net/dn/bki3Nd/dJMcaatxRn1/lrporrGWLwUkzbcSyklZ60/img_xl.jpg",
+      "sha256": "5e9a81e5a894d1bdaa594eeeb796ef0f0ae7ae732e3547aedfacc961bdfd7d8d",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194679903",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/CkuLT/dJMcacEYLCj/qLSdSRL4sxcFzkVRMZgw50/img_xl.jpg",
+          "sha256": "03e692e048879da6ed0de0b5241901d683b91d2d35ee1f76b32e2ac072110cdd"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194682498",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 8,
+      "imageUrl": "https://k.kakaocdn.net/dn/bXDP6n/dJMcahfaBro/OwK0B4e5kyLXMKpaggf0O0/img_xl.jpg",
+      "sha256": "211079b156b645914531f8f1031c7924dd3788a4c2111b779b89782bbf308ed6",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194681759",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/cae58F/dJMcafn7P8b/H9HzkdY5X7BhssNvLDkrOk/img_xl.jpg",
+          "sha256": "4cbc60ee8e8835956659e22092640fb13f432235be8e91759548965ffd8a5959"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194682706",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 9,
+      "imageUrl": "https://k.kakaocdn.net/dn/p1cNd/dJMcab6034Y/O2y8b329UFnlYuqWJFdWek/img_xl.jpg",
+      "sha256": "3afba3f6b6486b1dfb7018559f549fb089127a0f0cb35cf2897b89040250c46c",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194681759",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/cae58F/dJMcafn7P8b/H9HzkdY5X7BhssNvLDkrOk/img_xl.jpg",
+          "sha256": "4cbc60ee8e8835956659e22092640fb13f432235be8e91759548965ffd8a5959"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194683120",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 10,
+      "imageUrl": "https://k.kakaocdn.net/dn/6PuZV/dJMcadX45g1/mBTuJQsntXYuW2skYdjqk1/img_xl.jpg",
+      "sha256": "4e90f48f69295b126fe21e5c625302cb4e8a7f1ab5a9bf8caa7039933810f0ec",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194681759",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/cae58F/dJMcafn7P8b/H9HzkdY5X7BhssNvLDkrOk/img_xl.jpg",
+          "sha256": "4cbc60ee8e8835956659e22092640fb13f432235be8e91759548965ffd8a5959"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194683809",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 12,
+      "imageUrl": "https://k.kakaocdn.net/dn/bmmtlJ/dJMcaaf09Nt/9B7dOBp8csCxILDRj7IKlk/img_xl.jpg",
+      "sha256": "07a6efb52f6dcbc8ddacd8d40d5756f16f56abb9988d07692a260bcc790bf39c",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194683670",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/HqcQt/dJMcagArlrD/FWDoi6eFioQkpsmCbNcn91/img_xl.jpg",
+          "sha256": "a0fc0933720f52703d6ed8a517fa1fc6b25e4b3da0ef8866fc9d2f29d106ad0e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194683998",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 13,
+      "imageUrl": "https://k.kakaocdn.net/dn/g61s1/dJMcad4JSAJ/LMpof3VdrBkqqulALWzq90/img_xl.jpg",
+      "sha256": "59b95deea3364e1a9daf3af47620d61b4a67fee79da4e3257704ed1f91468fd1",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194683670",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/HqcQt/dJMcagArlrD/FWDoi6eFioQkpsmCbNcn91/img_xl.jpg",
+          "sha256": "a0fc0933720f52703d6ed8a517fa1fc6b25e4b3da0ef8866fc9d2f29d106ad0e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194684135",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 14,
+      "imageUrl": "https://k.kakaocdn.net/dn/b7JyHA/dJMcablIuOs/6Uq0vCSEchdm9zyFNvaBuK/img_xl.jpg",
+      "sha256": "aab3425c1271b0d44d2363838f256d1f514b51e7dafa2d3a6a4ffeae12591cd4",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194683670",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/HqcQt/dJMcagArlrD/FWDoi6eFioQkpsmCbNcn91/img_xl.jpg",
+          "sha256": "a0fc0933720f52703d6ed8a517fa1fc6b25e4b3da0ef8866fc9d2f29d106ad0e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194684294",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114789041",
+      "imageOrder": 15,
+      "imageUrl": "https://k.kakaocdn.net/dn/bkErnt/dJMcaiSE6OD/AfGH0BRQ04HOxDa4jsnHjk/img_xl.jpg",
+      "sha256": "d320c8fe3704b59f484118bf00ca6749ac6e179a753a5dfc3b610780d3f813e0",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194683670",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/HqcQt/dJMcagArlrD/FWDoi6eFioQkpsmCbNcn91/img_xl.jpg",
+          "sha256": "a0fc0933720f52703d6ed8a517fa1fc6b25e4b3da0ef8866fc9d2f29d106ad0e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651408",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/bxPvt2/dJMcahzmZ0s/hmtoUhwsrWwNtWC5vdwHXK/img_xl.jpg",
+      "sha256": "43e2db8d1ea275d27c5eb3df8f2a0f5ec112a1f269e1fc5bc078b81d18343147",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651408",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/bxPvt2/dJMcahzmZ0s/hmtoUhwsrWwNtWC5vdwHXK/img_xl.jpg",
+          "sha256": "43e2db8d1ea275d27c5eb3df8f2a0f5ec112a1f269e1fc5bc078b81d18343147"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651412",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/bX02Yt/dJMcahzmZ0x/c8KHsgIVJf4fROYGFkJFw1/img_xl.jpg",
+      "sha256": "ccf7276eb49c82432be644364216acaf1559fa6c4d52df49ae9ca317cb903786",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651408",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/bxPvt2/dJMcahzmZ0s/hmtoUhwsrWwNtWC5vdwHXK/img_xl.jpg",
+          "sha256": "43e2db8d1ea275d27c5eb3df8f2a0f5ec112a1f269e1fc5bc078b81d18343147"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651411",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/PbKn3/dJMcag8cIhy/qsLePTlVtFyRFqmcbkfWKk/img_xl.jpg",
+      "sha256": "588b68b933607832c40ba6941e421dfb882bebabf0a090ebb7666f88e39b5e6b",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651408",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/bxPvt2/dJMcahzmZ0s/hmtoUhwsrWwNtWC5vdwHXK/img_xl.jpg",
+          "sha256": "43e2db8d1ea275d27c5eb3df8f2a0f5ec112a1f269e1fc5bc078b81d18343147"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651410",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/cCU86R/dJMcaiLIzMQ/Zd7BbgsnLg9kX52131rDX0/img_xl.jpg",
+      "sha256": "34c9ccb7ea1e01b473fcf89eb4360ff61c8bee92899039c0f3026fd3298f9f4f",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651408",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/bxPvt2/dJMcahzmZ0s/hmtoUhwsrWwNtWC5vdwHXK/img_xl.jpg",
+          "sha256": "43e2db8d1ea275d27c5eb3df8f2a0f5ec112a1f269e1fc5bc078b81d18343147"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651413",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 5,
+      "imageUrl": "https://k.kakaocdn.net/dn/WjxW2/dJMcaiLIzMT/X9BHsxPltQ4NJuOVd0B7C0/img_xl.jpg",
+      "sha256": "8fdc2214437926d05d03ff1ac4e1eb1b6596b7d155b611e3056f2b5cd85ca3b7",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651408",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/bxPvt2/dJMcahzmZ0s/hmtoUhwsrWwNtWC5vdwHXK/img_xl.jpg",
+          "sha256": "43e2db8d1ea275d27c5eb3df8f2a0f5ec112a1f269e1fc5bc078b81d18343147"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651414",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/814AN/dJMcagHlVOU/3N0aKc1mPfkHAEQzENJu3K/img_xl.jpg",
+      "sha256": "e54505473bca68ea572e6afe5ddc8c751d34fc7b905b338ef13db4ee6d17abab",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너 2",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651414",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/814AN/dJMcagHlVOU/3N0aKc1mPfkHAEQzENJu3K/img_xl.jpg",
+          "sha256": "e54505473bca68ea572e6afe5ddc8c751d34fc7b905b338ef13db4ee6d17abab"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651415",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 7,
+      "imageUrl": "https://k.kakaocdn.net/dn/cbNf8x/dJMcahzmZ0z/0nKSxmuvkki4rAoUw1qYBk/img_xl.jpg",
+      "sha256": "a8452ee0841d275f4cbe342b7d9bd22d68ad33404ea68cd745245aae836b2e39",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651414",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/814AN/dJMcagHlVOU/3N0aKc1mPfkHAEQzENJu3K/img_xl.jpg",
+          "sha256": "e54505473bca68ea572e6afe5ddc8c751d34fc7b905b338ef13db4ee6d17abab"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651419",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 8,
+      "imageUrl": "https://k.kakaocdn.net/dn/btNfnU/dJMcah0lg0m/qPJQVtdB0h9nNd8bONHaik/img_xl.jpg",
+      "sha256": "c529c664990da074905c4f94a5e1af9e88bc1763bc18a71d85a61105d974fe05",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651414",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/814AN/dJMcagHlVOU/3N0aKc1mPfkHAEQzENJu3K/img_xl.jpg",
+          "sha256": "e54505473bca68ea572e6afe5ddc8c751d34fc7b905b338ef13db4ee6d17abab"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651416",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 9,
+      "imageUrl": "https://k.kakaocdn.net/dn/dk5niF/dJMcag8cIhB/j4mc9NjMVoeg1kTLcw781K/img_xl.jpg",
+      "sha256": "2138f2a1ff1086038bd4c29851254066218dda5a184fd8ea6392f098e96a56a3",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651414",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/814AN/dJMcagHlVOU/3N0aKc1mPfkHAEQzENJu3K/img_xl.jpg",
+          "sha256": "e54505473bca68ea572e6afe5ddc8c751d34fc7b905b338ef13db4ee6d17abab"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651421",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 10,
+      "imageUrl": "https://k.kakaocdn.net/dn/xpGnT/dJMcagHlVOX/faOohNm0fFpl1wxiEYtgyk/img_xl.jpg",
+      "sha256": "7bd983f09261fff17407826a4e6cb83b4e1fcbf9b32d8a7ea260f2c2c9399881",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651414",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/814AN/dJMcagHlVOU/3N0aKc1mPfkHAEQzENJu3K/img_xl.jpg",
+          "sha256": "e54505473bca68ea572e6afe5ddc8c751d34fc7b905b338ef13db4ee6d17abab"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651420",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 12,
+      "imageUrl": "https://k.kakaocdn.net/dn/kpCEY/dJMcaiLIzMW/oNbNHjYi50Ic7EBagdgww0/img_xl.jpg",
+      "sha256": "57c00c322631c3689f59c9174c558241b4dee3319650cc3103f22a9b2a1e6263",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스 1",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651417",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/cj9UCF/dJMcacx3axq/4p1SQnO0NYChXT4kgKBrgK/img_xl.jpg",
+          "sha256": "9ed1f51e9b04f071b91735a92271859545e5eb9ddd90891dfab74205366614c6"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651418",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 13,
+      "imageUrl": "https://k.kakaocdn.net/dn/bwzBjb/dJMcah0lg0n/hWaFIsOOUZAE5l6gGcUXmK/img_xl.jpg",
+      "sha256": "0f18dc4513ba35e33f20074a21c356f5f85310bd07bde27e5a13a56141bca6da",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스 1",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651417",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/cj9UCF/dJMcacx3axq/4p1SQnO0NYChXT4kgKBrgK/img_xl.jpg",
+          "sha256": "9ed1f51e9b04f071b91735a92271859545e5eb9ddd90891dfab74205366614c6"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651422",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 14,
+      "imageUrl": "https://k.kakaocdn.net/dn/bXCWMe/dJMcagHlVOY/sMGK1LmOEulQhy4drkMw3k/img_xl.jpg",
+      "sha256": "6638498fd0e9019232b97837548154e3e4511dc82416ae402ce8af462c0c64c6",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스 1",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651417",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/cj9UCF/dJMcacx3axq/4p1SQnO0NYChXT4kgKBrgK/img_xl.jpg",
+          "sha256": "9ed1f51e9b04f071b91735a92271859545e5eb9ddd90891dfab74205366614c6"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651423",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 15,
+      "imageUrl": "https://k.kakaocdn.net/dn/TML1q/dJMcacx3axs/IB2NSB6HmsfdKLrKsJGLK1/img_xl.jpg",
+      "sha256": "63d20a5eb118f944457b29255c068a5936cb958995705d25cedde24ee067393d",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스 1",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651417",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/cj9UCF/dJMcacx3axq/4p1SQnO0NYChXT4kgKBrgK/img_xl.jpg",
+          "sha256": "9ed1f51e9b04f071b91735a92271859545e5eb9ddd90891dfab74205366614c6"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651425",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 17,
+      "imageUrl": "https://k.kakaocdn.net/dn/kx3Ii/dJMcacx3axv/RHpeE5wSfIQxkxmsynoFJk/img_xl.jpg",
+      "sha256": "9bf217686c4c21bced0ac2e238643d7befcc014a8dba0c8e561e7d0dd0d26914",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651424",
+          "imageOrder": 16,
+          "imageUrl": "https://k.kakaocdn.net/dn/bE3f5L/dJMcacx3axt/1ql42mInSJmX8qZHb73Pl0/img_xl.jpg",
+          "sha256": "3d3fb7f542d772bd0fdd0b005708c3ed46ab5da5f7b89694b461bbf840c97861"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651428",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 18,
+      "imageUrl": "https://k.kakaocdn.net/dn/xpCww/dJMcahe94O8/6cu3j3IKLgQkAzJOcOyjm0/img_xl.jpg",
+      "sha256": "79dc355cd31997e761b9571b473873071326b936d1def507f7fb6650a1cc9aa6",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651424",
+          "imageOrder": 16,
+          "imageUrl": "https://k.kakaocdn.net/dn/bE3f5L/dJMcacx3axt/1ql42mInSJmX8qZHb73Pl0/img_xl.jpg",
+          "sha256": "3d3fb7f542d772bd0fdd0b005708c3ed46ab5da5f7b89694b461bbf840c97861"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651426",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 19,
+      "imageUrl": "https://k.kakaocdn.net/dn/bg9bWd/dJMcag8cIhF/SMz4lS0Mg74MOXaiQu0MBK/img_xl.jpg",
+      "sha256": "3c9d1b0fc7835aa7481c7041112d2b868829861b3870e0f9a50dda9069aa17c6",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651424",
+          "imageOrder": 16,
+          "imageUrl": "https://k.kakaocdn.net/dn/bE3f5L/dJMcacx3axt/1ql42mInSJmX8qZHb73Pl0/img_xl.jpg",
+          "sha256": "3d3fb7f542d772bd0fdd0b005708c3ed46ab5da5f7b89694b461bbf840c97861"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651427",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 20,
+      "imageUrl": "https://k.kakaocdn.net/dn/ZjePD/dJMcag8cIhG/ttBLBwYmpPprYgiL2rdox0/img_xl.jpg",
+      "sha256": "33c24b9692a8bc123f33cd3218e90cacd87c2df0df89f38bcd5dc9a79707519a",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651424",
+          "imageOrder": 16,
+          "imageUrl": "https://k.kakaocdn.net/dn/bE3f5L/dJMcacx3axt/1ql42mInSJmX8qZHb73Pl0/img_xl.jpg",
+          "sha256": "3d3fb7f542d772bd0fdd0b005708c3ed46ab5da5f7b89694b461bbf840c97861"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651430",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 22,
+      "imageUrl": "https://k.kakaocdn.net/dn/hSGZv/dJMcagHlVO1/TuD6cPuSrfvv0YipF6xZ8k/img_xl.jpg",
+      "sha256": "236c1564dae453a5ed112db2cee4edd01c0c3f48a5b6b01531d00f268bcbac0d",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651429",
+          "imageOrder": 21,
+          "imageUrl": "https://k.kakaocdn.net/dn/bqhd1c/dJMcahe94O9/kMQwsMYuOqFKbe9X8pSA7k/img_xl.jpg",
+          "sha256": "b11a502d1406f331422d4ed555326cdd804d65fa515111e3c4faa7c4cba2444f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651431",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 23,
+      "imageUrl": "https://k.kakaocdn.net/dn/Hjkv3/dJMcagHlVO3/lbqsnOAdalDBdqtaI7fdh1/img_xl.jpg",
+      "sha256": "950202bcdf17c9a9a111004029e7cb45734f9ff92b92ff8266ffe16a214c5795",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651429",
+          "imageOrder": 21,
+          "imageUrl": "https://k.kakaocdn.net/dn/bqhd1c/dJMcahe94O9/kMQwsMYuOqFKbe9X8pSA7k/img_xl.jpg",
+          "sha256": "b11a502d1406f331422d4ed555326cdd804d65fa515111e3c4faa7c4cba2444f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651432",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 24,
+      "imageUrl": "https://k.kakaocdn.net/dn/Ra8Mo/dJMcagHlVO4/Rtjw5hHaF87AEU659Pl8l0/img_xl.jpg",
+      "sha256": "aacce11de29120d8e946ff89ac5f29bf4ce99092e9795ad57357c33b59c6e382",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651429",
+          "imageOrder": 21,
+          "imageUrl": "https://k.kakaocdn.net/dn/bqhd1c/dJMcahe94O9/kMQwsMYuOqFKbe9X8pSA7k/img_xl.jpg",
+          "sha256": "b11a502d1406f331422d4ed555326cdd804d65fa515111e3c4faa7c4cba2444f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651434",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 25,
+      "imageUrl": "https://k.kakaocdn.net/dn/cb9O5G/dJMcag8cIhJ/Wu8xIpsF0zAqaKE16KTUa0/img_xl.jpg",
+      "sha256": "797126b6a9f264ffac6d08a921f1670c5c5637713f9c9040640e301c37fef5b7",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651429",
+          "imageOrder": 21,
+          "imageUrl": "https://k.kakaocdn.net/dn/bqhd1c/dJMcahe94O9/kMQwsMYuOqFKbe9X8pSA7k/img_xl.jpg",
+          "sha256": "b11a502d1406f331422d4ed555326cdd804d65fa515111e3c4faa7c4cba2444f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651435",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 27,
+      "imageUrl": "https://k.kakaocdn.net/dn/bmJxpv/dJMcagHlVO6/1TTLVC55zOBISFToCDPmK0/img_xl.jpg",
+      "sha256": "5069bbb2066c838260da2a310951ddd41cfea14cd2b325200fbb4091b6ecaee6",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651437",
+          "imageOrder": 26,
+          "imageUrl": "https://k.kakaocdn.net/dn/biOVn7/dJMcaiLIzMZ/KKkkfHBkdM3m0GHxBa8Ng1/img_xl.jpg",
+          "sha256": "a1e00d1511ed445c966074f5b2c609e3d2b785ccae9cf8ea274fe67707038b9b"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651436",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 28,
+      "imageUrl": "https://k.kakaocdn.net/dn/7hmmG/dJMcaiLIzM0/koZKry9WKpZl5dBwclotOK/img_xl.jpg",
+      "sha256": "03a0a69d4b5e90e2867e7dda53bbb5af930c163d7c6a24d2837143f4bac30379",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651437",
+          "imageOrder": 26,
+          "imageUrl": "https://k.kakaocdn.net/dn/biOVn7/dJMcaiLIzMZ/KKkkfHBkdM3m0GHxBa8Ng1/img_xl.jpg",
+          "sha256": "a1e00d1511ed445c966074f5b2c609e3d2b785ccae9cf8ea274fe67707038b9b"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651438",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 29,
+      "imageUrl": "https://k.kakaocdn.net/dn/bENRdX/dJMcagHlVO7/ks3pCxOgBk4DcHsWeVKiGk/img_xl.jpg",
+      "sha256": "850f0e21fd9366b6d8ae0751c0d7d199f6ad2f333a274933466dbf8058eeba38",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651437",
+          "imageOrder": 26,
+          "imageUrl": "https://k.kakaocdn.net/dn/biOVn7/dJMcaiLIzMZ/KKkkfHBkdM3m0GHxBa8Ng1/img_xl.jpg",
+          "sha256": "a1e00d1511ed445c966074f5b2c609e3d2b785ccae9cf8ea274fe67707038b9b"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651444",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 30,
+      "imageUrl": "https://k.kakaocdn.net/dn/dfmrSh/dJMcahzmZ0J/1RBn2uyyL46SUauHKZKbAK/img_xl.jpg",
+      "sha256": "61a8c05ddabacef859b09c99000556bd8e80431e9295e9f4f1906819d214c131",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651437",
+          "imageOrder": 26,
+          "imageUrl": "https://k.kakaocdn.net/dn/biOVn7/dJMcaiLIzMZ/KKkkfHBkdM3m0GHxBa8Ng1/img_xl.jpg",
+          "sha256": "a1e00d1511ed445c966074f5b2c609e3d2b785ccae9cf8ea274fe67707038b9b"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651439",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 32,
+      "imageUrl": "https://k.kakaocdn.net/dn/bz5CMG/dJMcag8cIhN/trhfewkzzyDqYKPxbWy7lk/img_xl.jpg",
+      "sha256": "29e89cb23c2f634b387e5819dd34d46e1d67ffeb4944189332acbcdd599c9705",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651442",
+          "imageOrder": 31,
+          "imageUrl": "https://k.kakaocdn.net/dn/bfzxOu/dJMcahe94Pb/gTeBhLjqrDQktw8wwnvvm1/img_xl.jpg",
+          "sha256": "a23777d48eef696447006c17beb20ecab0e9164fa36b114808719e4b1d60b6f2"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651441",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 33,
+      "imageUrl": "https://k.kakaocdn.net/dn/Z4Ij4/dJMcagHlVPa/sfHkG6KCitSl4nvYQwarr0/img_xl.jpg",
+      "sha256": "a805be239287974a02ded7bdcb1507e7d1ab62c13cf60925415f22c0f8aad800",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651442",
+          "imageOrder": 31,
+          "imageUrl": "https://k.kakaocdn.net/dn/bfzxOu/dJMcahe94Pb/gTeBhLjqrDQktw8wwnvvm1/img_xl.jpg",
+          "sha256": "a23777d48eef696447006c17beb20ecab0e9164fa36b114808719e4b1d60b6f2"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651440",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 34,
+      "imageUrl": "https://k.kakaocdn.net/dn/hMwGm/dJMcagHlVO9/k02AMqTbtznNaucPEpob61/img_xl.jpg",
+      "sha256": "449d915272ad42cd60e7332bb448ddcecfd61172467a587bb87ee08c7c21dc3b",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651442",
+          "imageOrder": 31,
+          "imageUrl": "https://k.kakaocdn.net/dn/bfzxOu/dJMcahe94Pb/gTeBhLjqrDQktw8wwnvvm1/img_xl.jpg",
+          "sha256": "a23777d48eef696447006c17beb20ecab0e9164fa36b114808719e4b1d60b6f2"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-194651445",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-odogs2-20261003"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/114777839",
+      "imageOrder": 35,
+      "imageUrl": "https://k.kakaocdn.net/dn/gWWJF/dJMcaiLIzM1/kgkFe22D0YX5zoIYPWJwyk/img_xl.jpg",
+      "sha256": "79dd0f1c9b7c06f8ea0659fbf00ff2263e0db4169e79675a44d5fb5366f61225",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-194651442",
+          "imageOrder": 31,
+          "imageUrl": "https://k.kakaocdn.net/dn/bfzxOu/dJMcahe94Pb/gTeBhLjqrDQktw8wwnvvm1/img_xl.jpg",
+          "sha256": "a23777d48eef696447006c17beb20ecab0e9164fa36b114808719e4b1d60b6f2"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-188151489",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-league3-selection-20260530"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/113508462",
+      "imageOrder": 9,
+      "imageUrl": "https://k.kakaocdn.net/dn/zQNAj/dJMcadoAUQ3/wwLExcaTsQEJZMV6a5yNsk/img_xl.jpg",
+      "sha256": "486856c9925a303c6fa0444463fa88d6dfa98bf8800d94b715caec12b9cb55ab",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비노대표팀 결정전",
+      "recognizedHeading": [
+        "RANKING BOARD - 비노대표팀 결정전"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-188151489",
+          "imageOrder": 9,
+          "imageUrl": "https://k.kakaocdn.net/dn/zQNAj/dJMcadoAUQ3/wwLExcaTsQEJZMV6a5yNsk/img_xl.jpg",
+          "sha256": "486856c9925a303c6fa0444463fa88d6dfa98bf8800d94b715caec12b9cb55ab"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-184805401",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/YBl87/dJMcahDPTmL/taOs0LJndPHkLFa5k0xsGK/img_xl.jpg",
+      "sha256": "8c245728f0b38ff55c0a8ac78c0529268024553f3be17acbc5cac3260e44c77a",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-184805401",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/YBl87/dJMcahDPTmL/taOs0LJndPHkLFa5k0xsGK/img_xl.jpg",
+          "sha256": "8c245728f0b38ff55c0a8ac78c0529268024553f3be17acbc5cac3260e44c77a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-184805398",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/36o0E/dJMcagkDh4E/GKSNETARXQd0yspvyKMYc0/img_xl.jpg",
+      "sha256": "908236a6037315c1cd7468282d1cb67425dd38e07a2aea0f6565e026b95af32a",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-184805401",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/YBl87/dJMcahDPTmL/taOs0LJndPHkLFa5k0xsGK/img_xl.jpg",
+          "sha256": "8c245728f0b38ff55c0a8ac78c0529268024553f3be17acbc5cac3260e44c77a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-184812510",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/gZ08m/dJMcaiQf7HK/QKyl2WhomkkKfEQevOsPbk/img_xl.jpg",
+      "sha256": "1c2e3031ef8a6f9e2d4eb74555b2378dbaffa51f285041a70c4f5dfeb3f6b8e1",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [
+        "노비스"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-184812510",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/gZ08m/dJMcaiQf7HK/QKyl2WhomkkKfEQevOsPbk/img_xl.jpg",
+          "sha256": "1c2e3031ef8a6f9e2d4eb74555b2378dbaffa51f285041a70c4f5dfeb3f6b8e1"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-184812511",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/bEU3OB/dJMcab4HUTV/BZlNpNuCR5jN6AgJ1X8tHk/img_xl.jpg",
+      "sha256": "8dbf637e729f7cb677f3ea221de40d383502b5f150e536ff1dcb10e7c84c34a7",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-184812510",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/gZ08m/dJMcaiQf7HK/QKyl2WhomkkKfEQevOsPbk/img_xl.jpg",
+          "sha256": "1c2e3031ef8a6f9e2d4eb74555b2378dbaffa51f285041a70c4f5dfeb3f6b8e1"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-184809474",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/TYotl/dJMcacifRmR/5dYWXWWOMBoMoT80mAkDqk/img_xl.jpg",
+      "sha256": "12e38096b9fdd7b31c610cc23da2d79780400564eef55360b884c715e23b3d0c",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-184809475",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/dOURkj/dJMcafzh9Bx/bVupRU3puypLdMmuZdyY5k/img_xl.jpg",
+          "sha256": "97e09ceea5dbf106eee86f620420d3fae3e12adac473c1e2eb530591d7451739"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-184815732",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship3-20260329"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/112868421",
+      "imageOrder": 8,
+      "imageUrl": "https://k.kakaocdn.net/dn/ZRuW2/dJMcahKD3DM/VMcsvRwMCkd8LjMD6GookK/img_xl.jpg",
+      "sha256": "e343e05f484ff36b55d01bbf3af1f3f904859702847205805ffd1a508af3fd47",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-184815733",
+          "imageOrder": 7,
+          "imageUrl": "https://k.kakaocdn.net/dn/vrgPz/dJMcaaELbH5/dO4BuiLxe22whmK2LhsYtK/img_xl.jpg",
+          "sha256": "045362398c9f286fba03caf07d713c2908b4ab073e17da7992bc28ad11235998"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181800351",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112283234",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/dyGnWR/dJMcacoo7PG/sHquhVHdnY4QdflTZhpeMK/img_xl.jpg",
+      "sha256": "ba3d6ced9c1c5ac8eec6e6c1359cc476359079332a150639e5ee5609e18de494",
+      "divisions": [
+        "jpag",
+        "benov"
+      ],
+      "method": "shared_cover",
+      "courseOrDocumentTitle": "점어·비노 결과에 공통으로 적용되는 서명된 기록확인서 표지",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181800361",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/c2MNkj/dJMb99Zxe4p/Tu070FddwZ7d2DEKQMSkn0/img_xl.jpg",
+          "sha256": "193fb47310eefd3fa5eede292c2710f8ce9826dd8e740f7faa54c4360a42f2e4"
+        },
+        {
+          "assetId": "asset-kakao-HlJFG-181800362",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/TKyAI/dJMcabJPqAI/WjUcFOA0zGxIEH4EiZqQg0/img_xl.jpg",
+          "sha256": "85838db157f543ef5c3d46f746f82504af2a933998c34f65f881bcd5e140c7ba"
+        },
+        {
+          "assetId": "asset-kakao-HlJFG-181800365",
+          "imageOrder": 4,
+          "imageUrl": "https://k.kakaocdn.net/dn/dc0hkF/dJMb99Zxe4r/LUIOKwDyjFQZkAEpv65pF0/img_xl.jpg",
+          "sha256": "57a9198bd8bd5249e39f96ebf3df0f0771b9d8006b5366d4c75a94f75c2f5014"
+        },
+        {
+          "assetId": "asset-kakao-HlJFG-181800379",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/bXkDfz/dJMcabpvjCb/HgEPwdODkTRfe730AmuC20/img_xl.jpg",
+          "sha256": "60343cb070521f8fc2f3afb815cffc88c08ef3646b32d3866a6e4fd8330d1928"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "sharedCover": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181800361",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112283234",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/c2MNkj/dJMb99Zxe4p/Tu070FddwZ7d2DEKQMSkn0/img_xl.jpg",
+      "sha256": "193fb47310eefd3fa5eede292c2710f8ce9826dd8e740f7faa54c4360a42f2e4",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181800361",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/c2MNkj/dJMb99Zxe4p/Tu070FddwZ7d2DEKQMSkn0/img_xl.jpg",
+          "sha256": "193fb47310eefd3fa5eede292c2710f8ce9826dd8e740f7faa54c4360a42f2e4"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181800379",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112283234",
+      "imageOrder": 5,
+      "imageUrl": "https://k.kakaocdn.net/dn/bXkDfz/dJMcabpvjCb/HgEPwdODkTRfe730AmuC20/img_xl.jpg",
+      "sha256": "60343cb070521f8fc2f3afb815cffc88c08ef3646b32d3866a6e4fd8330d1928",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [
+        "어질리티"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181800379",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/bXkDfz/dJMcabpvjCb/HgEPwdODkTRfe730AmuC20/img_xl.jpg",
+          "sha256": "60343cb070521f8fc2f3afb815cffc88c08ef3646b32d3866a6e4fd8330d1928"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181565961",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112237033",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/bieYj9/dJMcabiHCKL/mwYhCZ0FNnk0PCDhwUWsr1/img_xl.jpg",
+      "sha256": "94de7ddb5e8a65c833ad4fe98f513c236520372c39fe20dd18325513bfc35e6d",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181565960",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/iy9qU/dJMcaac1naX/8KrroKdF38Cib55Q0SU03k/img_xl.jpg",
+          "sha256": "93cbb9a4fe49946c3ab907ef25a9f5f229b7815202a5fc8c30a71930841ea885"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181565965",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112237033",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/XUHMW/dJMcabiHCKM/3JX3vYFXKwfXK5Og6OoIm0/img_xl.jpg",
+      "sha256": "55171fe7c5149f0ef8b821ea79b9f19ea8150aea85051483d4caeec559f0803b",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181565965",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/XUHMW/dJMcabiHCKM/3JX3vYFXKwfXK5Og6OoIm0/img_xl.jpg",
+          "sha256": "55171fe7c5149f0ef8b821ea79b9f19ea8150aea85051483d4caeec559f0803b"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181565962",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112237033",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/rzU2r/dJMcafMa68q/jkKHIjkKLaBlXq9yLkGL70/img_xl.jpg",
+      "sha256": "06ff8cd7c0ef125a0d4020cdf8d821151cb698be04ec35e99e006370522030d4",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181565965",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/XUHMW/dJMcabiHCKM/3JX3vYFXKwfXK5Og6OoIm0/img_xl.jpg",
+          "sha256": "55171fe7c5149f0ef8b821ea79b9f19ea8150aea85051483d4caeec559f0803b"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181565963",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112237033",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/Mg9Ke/dJMcadOhsrq/MplN3n3h2x7ERkxfJrWbX0/img_xl.jpg",
+      "sha256": "c89c95fe7241435841b6e32fe8497e2248d759e02e3024a911a1f3729ad57181",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181565964",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/bse8Ai/dJMcaac1naZ/3BKxD5GUcjXjWOKl2IXhC0/img_xl.jpg",
+          "sha256": "1f9813f1b241d2a6bcd3a297b6ba8bd1eef7bc6cc557223adb392299773b0050"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181569627",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112237033",
+      "imageOrder": 7,
+      "imageUrl": "https://k.kakaocdn.net/dn/AgNMx/dJMcai28EEJ/OTczlNOzCMpDgKxP6nJax1/img_xl.jpg",
+      "sha256": "6da1c940e5237530b43fc919bc27972236ac7aacf232b6a9e419acb8663fa4d0",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [
+        "노비스"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181569627",
+          "imageOrder": 7,
+          "imageUrl": "https://k.kakaocdn.net/dn/AgNMx/dJMcai28EEJ/OTczlNOzCMpDgKxP6nJax1/img_xl.jpg",
+          "sha256": "6da1c940e5237530b43fc919bc27972236ac7aacf232b6a9e419acb8663fa4d0"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181569626",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112237033",
+      "imageOrder": 8,
+      "imageUrl": "https://k.kakaocdn.net/dn/3O2Y1/dJMcacaRibA/M3W0CfwP7e07SEBKorKaQk/img_xl.jpg",
+      "sha256": "309778b884d6f26d97e6a06b5ebfc1b023e85a18ff35d11c4c52d993f4cd4aef",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181569627",
+          "imageOrder": 7,
+          "imageUrl": "https://k.kakaocdn.net/dn/AgNMx/dJMcai28EEJ/OTczlNOzCMpDgKxP6nJax1/img_xl.jpg",
+          "sha256": "6da1c940e5237530b43fc919bc27972236ac7aacf232b6a9e419acb8663fa4d0"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181326176",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112003820",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/GGyrx/dJMcacWatRZ/7KrnlwklXfTKZu6FWSrZ01/img_xl.jpg",
+      "sha256": "5638f97ee0e32b7677cfd0fe845c63304485f06b38c0c581cd69e1ce71930c5b",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [
+        "노비스"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181326176",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/GGyrx/dJMcacWatRZ/7KrnlwklXfTKZu6FWSrZ01/img_xl.jpg",
+          "sha256": "5638f97ee0e32b7677cfd0fe845c63304485f06b38c0c581cd69e1ce71930c5b"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-181326183",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-crown-20260124"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/112003820",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/NnIeA/dJMcafrPCGd/AFXORdNSnRNf7PYZZ6ZZUK/img_xl.jpg",
+      "sha256": "7b0cab933902de58ab05acb17a2b06ba7b9b06245d11f4613476b119853fcfc0",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [
+        "어질리티"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-181326183",
+          "imageOrder": 4,
+          "imageUrl": "https://k.kakaocdn.net/dn/NnIeA/dJMcafrPCGd/AFXORdNSnRNf7PYZZ6ZZUK/img_xl.jpg",
+          "sha256": "7b0cab933902de58ab05acb17a2b06ba7b9b06245d11f4613476b119853fcfc0"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178234520",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "postUrl": "https://pf.kakao.com/_cNjMG/111491558",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/qVRuN/dJMcadtDoAV/FmL2QufDhIBv3sdc2EPi30/img_xl.jpg",
+      "sha256": "006ce3e57e1b51e4e964758039e428a7c43232fe38afe7ae96e78bbb1aae4170",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-cNjMG-178234520",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/qVRuN/dJMcadtDoAV/FmL2QufDhIBv3sdc2EPi30/img_xl.jpg",
+          "sha256": "006ce3e57e1b51e4e964758039e428a7c43232fe38afe7ae96e78bbb1aae4170"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178511812",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "postUrl": "https://pf.kakao.com/_cNjMG/111491558",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/F6jPF/dJMcaiIvyEz/eRxnLYs5koKlqPYiXWhohK/img_xl.jpg",
+      "sha256": "aaa32b8d2fd155e10cbfc1a0b8d29c8f36697775f3d3a1346d05609107ff7ab1",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-cNjMG-178511812",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/F6jPF/dJMcaiIvyEz/eRxnLYs5koKlqPYiXWhohK/img_xl.jpg",
+          "sha256": "aaa32b8d2fd155e10cbfc1a0b8d29c8f36697775f3d3a1346d05609107ff7ab1"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178511689",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "postUrl": "https://pf.kakao.com/_cNjMG/111491558",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/f7NCd/dJMcacuNIIZ/dJN9BDA1K1IFr6CvdYZ8QK/img_xl.jpg",
+      "sha256": "53667caa043229fb0e647b364c24b12f2aad00f2e154d3f49ba35120287dff1c",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [
+        "노비스"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-cNjMG-178511689",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/f7NCd/dJMcacuNIIZ/dJN9BDA1K1IFr6CvdYZ8QK/img_xl.jpg",
+          "sha256": "53667caa043229fb0e647b364c24b12f2aad00f2e154d3f49ba35120287dff1c"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178511816",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "postUrl": "https://pf.kakao.com/_cNjMG/111491558",
+      "imageOrder": 7,
+      "imageUrl": "https://k.kakaocdn.net/dn/jjAJN/dJMcaaDKf2f/Ikcn8jKSC8eZQKAMlM4yUK/img_xl.jpg",
+      "sha256": "151b496705e7cd3ff53665d882502171ff03cb979ca55543a24f65b1aa5513e5",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [
+        "노비스"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-cNjMG-178511816",
+          "imageOrder": 7,
+          "imageUrl": "https://k.kakaocdn.net/dn/jjAJN/dJMcaaDKf2f/Ikcn8jKSC8eZQKAMlM4yUK/img_xl.jpg",
+          "sha256": "151b496705e7cd3ff53665d882502171ff03cb979ca55543a24f65b1aa5513e5"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178223156",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "postUrl": "https://pf.kakao.com/_cNjMG/111491558",
+      "imageOrder": 9,
+      "imageUrl": "https://k.kakaocdn.net/dn/hsW5o/dJMcac2yScA/C4nXGyGeJddctPDhuPOrSk/img_xl.jpg",
+      "sha256": "5f536eb912502eb619664847fb7d484806915c2ab6eddd39ccdcb342898eca66",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "점핑 0",
+      "recognizedHeading": [
+        "점핑 0"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-cNjMG-178223156",
+          "imageOrder": 9,
+          "imageUrl": "https://k.kakaocdn.net/dn/hsW5o/dJMcac2yScA/C4nXGyGeJddctPDhuPOrSk/img_xl.jpg",
+          "sha256": "5f536eb912502eb619664847fb7d484806915c2ab6eddd39ccdcb342898eca66"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178235461",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "postUrl": "https://pf.kakao.com/_cNjMG/111491558",
+      "imageOrder": 10,
+      "imageUrl": "https://k.kakaocdn.net/dn/hpkJs/dJMcaiPfeL8/idFue7iGYzUaPKpDcS1V8K/img_xl.jpg",
+      "sha256": "ed9bf303afea5b978217740b42e6e171cd0eef0d92e4fc2d5b3c4f8b99b699d6",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "점핑 0",
+      "recognizedHeading": [
+        "점핑 0"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-cNjMG-178235461",
+          "imageOrder": 10,
+          "imageUrl": "https://k.kakaocdn.net/dn/hpkJs/dJMcaiPfeL8/idFue7iGYzUaPKpDcS1V8K/img_xl.jpg",
+          "sha256": "ed9bf303afea5b978217740b42e6e171cd0eef0d92e4fc2d5b3c4f8b99b699d6"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-cNjMG-178510797",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-heist-ranking4"
+      ],
+      "postUrl": "https://pf.kakao.com/_cNjMG/111491558",
+      "imageOrder": 12,
+      "imageUrl": "https://k.kakaocdn.net/dn/buXGK6/dJMcai9zqNa/IerlGotTazwNL5MgzqN6K1/img_xl.jpg",
+      "sha256": "a7e18ed1c80c58db0e88b684ebe3f6fb8b98186561b228e28f169fdac724fdf9",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "점핑 0",
+      "recognizedHeading": [
+        "점핑 0"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-cNjMG-178510797",
+          "imageOrder": 12,
+          "imageUrl": "https://k.kakaocdn.net/dn/buXGK6/dJMcai9zqNa/IerlGotTazwNL5MgzqN6K1/img_xl.jpg",
+          "sha256": "a7e18ed1c80c58db0e88b684ebe3f6fb8b98186561b228e28f169fdac724fdf9"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-177028308",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-league4-20251102"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/111261179",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/Gy4ph/dJMcabP1IiP/40altZZ78eMn9gq84nSzN0/img_xl.jpg",
+      "sha256": "cab98aed06c7899e2a769b259d5f519e2362467971818d9b26d42200f3b6b3eb",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-177028306",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/duHJWA/dJMcabP1IiO/iqCcX4bLitqPWNzHR8G2vk/img_xl.jpg",
+          "sha256": "97251783e4bab8413ee48281fed57bb8dfeb710396e89b579369aca5784a7f3a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-177032071",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-league4-20251102"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/111261179",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/d3aLBL/dJMcajtK2c9/Vzlq9zkdBlAdjGLvw7nEqk/img_xl.jpg",
+      "sha256": "4fddf89fa1a8ff1d4a1814d6e28a64d0baef67084a13c353c9bd4b43e75ee326",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-177032070",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/dED6Bw/dJMcafLEV0d/OQosOU0HtoEhIod3mrAZX0/img_xl.jpg",
+          "sha256": "e5bfd06b7c42a02a009dea73d96fcfcb8aee2588db312525fa2dc2692d8fedd2"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-177035079",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-league4-20251102"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/111261179",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/wjDFi/dJMcab3yV4c/ZPMY6KbYAPwRbHIZ6FkmEK/img_xl.jpg",
+      "sha256": "f926b366f0ffe6bcdb2c393807b661d43f527f0d145537a104912023d08ff5d9",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-177035078",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/cXrmjy/dJMcafx7PQO/fPsKIJi4k24rZ6AnW3ZRdk/img_xl.jpg",
+          "sha256": "c8eeb9fc96ef0e62cdd3018d5e3bee0a7ce555d97411bb8dfa4961f26d3f2ad0"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-177035080",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-league4-20251102"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/111261179",
+      "imageOrder": 7,
+      "imageUrl": "https://k.kakaocdn.net/dn/STvTX/dJMcafx7PQQ/0KtD55kCcv9MHwpmpFyd1k/img_xl.jpg",
+      "sha256": "2ae5c78556c262e6dafbcd0b09f56f0d998dd460d7c87d04febe7468ccca5bad",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-177035078",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/cXrmjy/dJMcafx7PQO/fPsKIJi4k24rZ6AnW3ZRdk/img_xl.jpg",
+          "sha256": "c8eeb9fc96ef0e62cdd3018d5e3bee0a7ce555d97411bb8dfa4961f26d3f2ad0"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-177038718",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-league4-20251102"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/111261179",
+      "imageOrder": 8,
+      "imageUrl": "https://k.kakaocdn.net/dn/bnp9df/dJMcadUB0zH/kKZRHgdP9egQX4uQzBFxJ1/img_xl.jpg",
+      "sha256": "334c9a3b6287e75ef0805022800ffc07339cbbce34adb5086d3b6f6af936085a",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [
+        "노비스"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-177038718",
+          "imageOrder": 8,
+          "imageUrl": "https://k.kakaocdn.net/dn/bnp9df/dJMcadUB0zH/kKZRHgdP9egQX4uQzBFxJ1/img_xl.jpg",
+          "sha256": "334c9a3b6287e75ef0805022800ffc07339cbbce34adb5086d3b6f6af936085a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-177038719",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-league4-20251102"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/111261179",
+      "imageOrder": 9,
+      "imageUrl": "https://k.kakaocdn.net/dn/bIOGGT/dJMcad1nzQh/QcqZzhkwwKG6xtRXEIap8k/img_xl.jpg",
+      "sha256": "8f91a12d4c81d8487f939bd59db7aff242973e449cba8785017bc703606a4e3c",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-177038718",
+          "imageOrder": 8,
+          "imageUrl": "https://k.kakaocdn.net/dn/bnp9df/dJMcadUB0zH/kKZRHgdP9egQX4uQzBFxJ1/img_xl.jpg",
+          "sha256": "334c9a3b6287e75ef0805022800ffc07339cbbce34adb5086d3b6f6af936085a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-177038720",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-league4-20251102"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/111261179",
+      "imageOrder": 10,
+      "imageUrl": "https://k.kakaocdn.net/dn/cz3PJD/dJMcadUB0zJ/eaA5Ic5y1saDckIKvNA6I0/img_xl.jpg",
+      "sha256": "b42f3af5b58199ef633723210b3af1384e4f9a6c48dd49c3c16a9eda53c79ed3",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-177038718",
+          "imageOrder": 8,
+          "imageUrl": "https://k.kakaocdn.net/dn/bnp9df/dJMcadUB0zH/kKZRHgdP9egQX4uQzBFxJ1/img_xl.jpg",
+          "sha256": "334c9a3b6287e75ef0805022800ffc07339cbbce34adb5086d3b6f6af936085a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-175903072",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship2-20251011"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/111045119",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/FE9CE/btsQ7wsUDu7/tfMo2uRX8mRcWOkzBEQ8w1/img.png",
+      "sha256": "8fe3fb018b54cf7f4ee3334adb09c29531ad815073dca5c2c9920cc64c0dd8c9",
+      "divisions": [
+        "jpag",
+        "benov"
+      ],
+      "method": "shared_cover",
+      "courseOrDocumentTitle": "점어·비노 결과에 공통으로 적용되는 서명된 기록확인서 표지",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-175902571",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/bF1UE4/btsQ7xZz2Ck/uplA7CtefNfHnL8ZBKYSW0/img.png",
+          "sha256": "a06c371552dc0cc0d0d51a539c403717955bd29bc80d3052c33ddff70e169d57"
+        },
+        {
+          "assetId": "asset-kakao-MPeBn-175902574",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/dpq1YE/btsQ7NgRs8D/IUFah0t9F8XlLQKydQk4q0/img.png",
+          "sha256": "2b4e03769b349b8917ac495a9adfeb82c332ba9035ee205d4fc02420dca7c35c"
+        },
+        {
+          "assetId": "asset-kakao-MPeBn-175902577",
+          "imageOrder": 4,
+          "imageUrl": "https://k.kakaocdn.net/dn/OXMf6/btsQ4WUurMF/K47PF7JtddNb9YbBZ51Udk/img.png",
+          "sha256": "33b6238cc85dd72db7f4f241f0a654754ad49fb5a3f1e617b69323c6c13fed05"
+        },
+        {
+          "assetId": "asset-kakao-MPeBn-175902579",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/Je27t/btsQ50BYgvX/uFdwX9WqKS3Fw1YWvWXPJk/img.png",
+          "sha256": "8fa423bc5b9e6402818d6513c4e47a94a3e52f86855f7e2397c2c05d882c3d2d"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "sharedCover": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-174100472",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20250907"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/110694963",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/vSsLs/btsQomSrcpO/8y2R9jqPfRaaTnnasS3Z20/img_xl.jpg",
+      "sha256": "99a4e1942a5189a832ddf2ebca263ad623fca4799402cf2a4461c973929644fc",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-174100472",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/vSsLs/btsQomSrcpO/8y2R9jqPfRaaTnnasS3Z20/img_xl.jpg",
+          "sha256": "99a4e1942a5189a832ddf2ebca263ad623fca4799402cf2a4461c973929644fc"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-174103596",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20250907"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/110694963",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/zmKIw/btsQmqn2dNP/80YtxQlmtzqv84SRCPTtoK/img_xl.jpg",
+      "sha256": "a04362819c0faa7b592e7f6209fdc9117979ba2652c5b4f2616add65d5c45b2b",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "점핑 스탠다드·마스터",
+      "recognizedHeading": [
+        "점핑MS"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-174103596",
+          "imageOrder": 4,
+          "imageUrl": "https://k.kakaocdn.net/dn/zmKIw/btsQmqn2dNP/80YtxQlmtzqv84SRCPTtoK/img_xl.jpg",
+          "sha256": "a04362819c0faa7b592e7f6209fdc9117979ba2652c5b4f2616add65d5c45b2b"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-174107194",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-crown-20250907"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/110694963",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/EaaC2/btsQopaxTAq/ZKomV723TnKXbgK9abnyXK/img_xl.jpg",
+      "sha256": "2221651d4f7e1cdee91146ae86e597d43cc7c292ba3734248a3efd08e4821f72",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "어질리티 스탠다드·마스터",
+      "recognizedHeading": [
+        "어질S"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-174107194",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/EaaC2/btsQopaxTAq/ZKomV723TnKXbgK9abnyXK/img_xl.jpg",
+          "sha256": "2221651d4f7e1cdee91146ae86e597d43cc7c292ba3734248a3efd08e4821f72"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-174094374",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-crown-20250907"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/110167576",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/gP1Wu/btsQoQFInMV/TpSoRSeWdQ5t38pRfoZKc0/img_xl.jpg",
+      "sha256": "1590d3ade4ae1937cd97df062889a1b587fb0cba6061098abf7b4e39a9af9bce",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-174094374",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/gP1Wu/btsQoQFInMV/TpSoRSeWdQ5t38pRfoZKc0/img_xl.jpg",
+          "sha256": "1590d3ade4ae1937cd97df062889a1b587fb0cba6061098abf7b4e39a9af9bce"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-174094377",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-crown-20250907"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/110167576",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/cGuaRa/btsQmfmOQWu/18gG8NXCxSuKNz95T1cvj1/img_xl.jpg",
+      "sha256": "174016fe5db2e164c2c439a23de3c13c578036a128cd4fa67bc4c4e6d350ad12",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "어질S",
+      "recognizedHeading": [
+        "어질S"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-174094377",
+          "imageOrder": 4,
+          "imageUrl": "https://k.kakaocdn.net/dn/cGuaRa/btsQmfmOQWu/18gG8NXCxSuKNz95T1cvj1/img_xl.jpg",
+          "sha256": "174016fe5db2e164c2c439a23de3c13c578036a128cd4fa67bc4c4e6d350ad12"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-174094378",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-crown-20250907"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/110167576",
+      "imageOrder": 5,
+      "imageUrl": "https://k.kakaocdn.net/dn/mGrWN/btsQl8A9znF/myWvQNAU0Ox53OihfX8FuK/img_xl.jpg",
+      "sha256": "7232ac339593081136494d78c64f6c349b2ef68cffa2116383cc91a9f5320762",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "점핑M",
+      "recognizedHeading": [
+        "점핑M"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-174094378",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/mGrWN/btsQl8A9znF/myWvQNAU0Ox53OihfX8FuK/img_xl.jpg",
+          "sha256": "7232ac339593081136494d78c64f6c349b2ef68cffa2116383cc91a9f5320762"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-174094379",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-crown-20250907"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/110167576",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/bFp8Me/btsQmalkv86/zTaSigPTCQQnnZkTUWYML1/img_xl.jpg",
+      "sha256": "f214e351e23530306c292d08de8929c8a878f2e9bf312bce003955caf67189e0",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "어질M",
+      "recognizedHeading": [
+        "어질M"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-174094379",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/bFp8Me/btsQmalkv86/zTaSigPTCQQnnZkTUWYML1/img_xl.jpg",
+          "sha256": "f214e351e23530306c292d08de8929c8a878f2e9bf312bce003955caf67189e0"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167856811",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109444493",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/RJN0t/btsN4gUBCug/gx09hD1lb9SpDfsGsY4pJ1/img_xl.jpg",
+      "sha256": "e7746331c406f5a4e8f257c8960e200f41276ed232a8c8676c480ac9086dfda6",
+      "divisions": [
+        "jpag",
+        "benov"
+      ],
+      "method": "shared_cover",
+      "courseOrDocumentTitle": "점어·비노 결과에 공통으로 적용되는 서명된 기록확인서 표지",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167856812",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/75uhU/btsN47bqgDg/gtaMxnjGJTCkzSXcdktYTK/img_xl.jpg",
+          "sha256": "8aecc1ea08721e7d3f28928046e2bbc1c88ce54aae88cb239c2f7293d3bb8b06"
+        },
+        {
+          "assetId": "asset-kakao-MPeBn-167856814",
+          "imageOrder": 4,
+          "imageUrl": "https://k.kakaocdn.net/dn/Gew7V/btsN43UtGID/LhFw7WXqW5hK0NxpOddEk1/img_xl.jpg",
+          "sha256": "94d21687e0d2fc14614f4237b89dc6ce7536d4c50e40088ac97b144cf462c688"
+        },
+        {
+          "assetId": "asset-kakao-MPeBn-167856816",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/wRrnB/btsN3ggJd47/KklgmhOd0hA6YZkvOfu12K/img_xl.jpg",
+          "sha256": "ff9abc2968b3342af73884bbaf0fed523ae659bd2947ed9b9567d608287ce072"
+        },
+        {
+          "assetId": "asset-kakao-MPeBn-167856818",
+          "imageOrder": 8,
+          "imageUrl": "https://k.kakaocdn.net/dn/bU51ro/btsN4t0q9Wk/XKKn3P3BF7er7nq9H8e2OK/img_xl.jpg",
+          "sha256": "02bcebedee4a2f8d335e442195d190217ffc7371d5f967bd825e050d6543f731"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "sharedCover": true
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167856812",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109444493",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/75uhU/btsN47bqgDg/gtaMxnjGJTCkzSXcdktYTK/img_xl.jpg",
+      "sha256": "8aecc1ea08721e7d3f28928046e2bbc1c88ce54aae88cb239c2f7293d3bb8b06",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167856812",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/75uhU/btsN47bqgDg/gtaMxnjGJTCkzSXcdktYTK/img_xl.jpg",
+          "sha256": "8aecc1ea08721e7d3f28928046e2bbc1c88ce54aae88cb239c2f7293d3bb8b06"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167856813",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109444493",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/cHtbUh/btsN2O5WNZz/X9bHEeYoZjUHMw9Kmg8jq0/img_xl.jpg",
+      "sha256": "99df455cbcd4a0f97062caddd50f5d82b3816a540512adfb25e6d9aa7d013329",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167856812",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/75uhU/btsN47bqgDg/gtaMxnjGJTCkzSXcdktYTK/img_xl.jpg",
+          "sha256": "8aecc1ea08721e7d3f28928046e2bbc1c88ce54aae88cb239c2f7293d3bb8b06"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167856815",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109444493",
+      "imageOrder": 5,
+      "imageUrl": "https://k.kakaocdn.net/dn/c9XMa1/btsN36Y1k5J/EkRAs1okS3CO9EKDNoU7i0/img_xl.jpg",
+      "sha256": "74bb3e3388980c16758b74f5c39b689e16105a0afdbb726e3e843ee03e45811f",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167856814",
+          "imageOrder": 4,
+          "imageUrl": "https://k.kakaocdn.net/dn/Gew7V/btsN43UtGID/LhFw7WXqW5hK0NxpOddEk1/img_xl.jpg",
+          "sha256": "94d21687e0d2fc14614f4237b89dc6ce7536d4c50e40088ac97b144cf462c688"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167856817",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109444493",
+      "imageOrder": 7,
+      "imageUrl": "https://k.kakaocdn.net/dn/HhmA3/btsN40XLuXR/dtf2d3mcJhe6ltzBbU36K0/img_xl.jpg",
+      "sha256": "d10e644c5bed528a4acc4001c693e2b91bc271ec4c57726ac7a03686ddfbc36e",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167856816",
+          "imageOrder": 6,
+          "imageUrl": "https://k.kakaocdn.net/dn/wRrnB/btsN3ggJd47/KklgmhOd0hA6YZkvOfu12K/img_xl.jpg",
+          "sha256": "ff9abc2968b3342af73884bbaf0fed523ae659bd2947ed9b9567d608287ce072"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167856819",
+      "kind": "result",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109444493",
+      "imageOrder": 9,
+      "imageUrl": "https://k.kakaocdn.net/dn/D9IYD/btsN4gtwcrK/e9sjfWqzDsRdB3T4TkRyH1/img_xl.jpg",
+      "sha256": "93741b845ee34df4e076f592e60f73eb62da7c475fa1e114b24c6087cbba6056",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167856818",
+          "imageOrder": 8,
+          "imageUrl": "https://k.kakaocdn.net/dn/bU51ro/btsN4t0q9Wk/XKKn3P3BF7er7nq9H8e2OK/img_xl.jpg",
+          "sha256": "02bcebedee4a2f8d335e442195d190217ffc7371d5f967bd825e050d6543f731"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167594599",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109394239",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/3osFb/btsNWKbcKaN/8c3l7OXeWuktGk8bNwkL51/img_xl.jpg",
+      "sha256": "35c504ba2cec0ecd0c687babfcf8f784aa303a15afd551a1e957d1d7f9cbbe86",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167594598",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/50fzB/btsNYlg8S25/9iShUtKbWSpDk5DqDLB6b0/img_xl.jpg",
+          "sha256": "6ab8888115856660122fb13b5f2d061aee6f12f82c19b0adaa367e55a3e64ea5"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167594601",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109394239",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/uG0Vw/btsNWlCIKK5/Kexhrv2FGfSNR7k5gSKBe0/img_xl.jpg",
+      "sha256": "aa182e43cd6911d4f3567dbd498bd24ffc465b520a2e81e27c6e9aa3db4882a4",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167594600",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/gqERP/btsNYgz9MTg/FZVTNeJRz67KlVZC5s7Vy0/img_xl.jpg",
+          "sha256": "ffaa056f4f0fecb5e5936d8656e71dcdd727503b15e4b046c1cb7fdc5bf08667"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167594603",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109394239",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/qamw1/btsNYkieqX7/jBm8szPzHkKymv0lKd6kE0/img_xl.jpg",
+      "sha256": "ef5226f5b19fed6bab097f2d323f5f48a5277d6b700e08a45d50ed7cc6e0ffcc",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167594602",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/deK38m/btsNYkP6ZLu/0YN9Z9KFH8de64t9vdRYh1/img_xl.jpg",
+          "sha256": "cf89ead36e3aebf3bdccccf3b5fc08ef0a6fe60188a8b67dcdc47ac9f285c855"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-MPeBn-167594605",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-pdc-championship1-20250517"
+      ],
+      "postUrl": "https://pf.kakao.com/_MPeBn/109394239",
+      "imageOrder": 8,
+      "imageUrl": "https://k.kakaocdn.net/dn/cZUi2q/btsNYZxTwpe/u3TKbyfMZBxZnoJ2wqw3W1/img_xl.jpg",
+      "sha256": "d0eea7730a566057318e5d6b8e8f3f93198a0da09b1966756c7819324a28ed5b",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-MPeBn-167594604",
+          "imageOrder": 7,
+          "imageUrl": "https://k.kakaocdn.net/dn/XksL8/btsNWSf6KlM/LHBq4RlygbYZwZsptfMAr1/img_xl.jpg",
+          "sha256": "fa07c703c8bd0b20b49dea14c9c38486ec1bc4064975493957550f2e81bed1da"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167454544",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109367922",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/d6ZQFR/btsNTCxDgGl/AiUVcVbVcvD7VJAZWzV2Sk/img_xl.jpg",
+      "sha256": "14efcdb9a3d00fa9fb752c6bc421995bc910aa7f5f08a7f0fbcbb80920c9d337",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167454543",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/bdIlat/btsNSKW85Vv/rP4Y7NZSiXTXItKcd8f480/img_xl.jpg",
+          "sha256": "cdd9b48b2c02255b5cc40c1afd1c658e02dbd77e67ac266e013532d06f5d31c7"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167454546",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109367922",
+      "imageOrder": 8,
+      "imageUrl": "https://k.kakaocdn.net/dn/drdKqZ/btsNVluoRGj/zKTaqRvvkGFJVPuFlMKYf1/img_xl.jpg",
+      "sha256": "7ec35eb8d34b0f869f636f7cfb7104646a0c9e13dc400c73b90854aaaa1f8064",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167454545",
+          "imageOrder": 7,
+          "imageUrl": "https://k.kakaocdn.net/dn/bt7FAw/btsNUGsfSOw/6jm9TkshdhaKz6MZxfOz4K/img_xl.jpg",
+          "sha256": "8540aa482ce1ceb8b5bdc17d4cecb030cfc4006a1d991ab5a8ff2f07c6874121"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167046483",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/loYLB/btsNLUcubLO/hzDa0kAR2BD3exFUfJ2jH0/img_xl.jpg",
+      "sha256": "6c099e85204f9efc4ffc98f9ed74bb8935971598cebdb961fa6b99319b647c4b",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드 1",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167046484",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/uBaTx/btsNKWoxmAS/29RdwHaOaPY0SgHR7iuiN1/img_xl.jpg",
+          "sha256": "44fb22020e4a7aca41a465b22b211b98934e898054a6c344db168c9c8d60304f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167046896",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/bckGrQ/btsNJTF62j1/W00bKTz8r43M4oQ9Uzqq51/img_xl.jpg",
+      "sha256": "d5b7e8c3718cd5fe5eedb5de9336e8505b53ced43e742869dc4e60add8455d01",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드 1",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167046893",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/hE459/btsNLorxPtT/JaoQIeJj1OyGBHK5MmvvX1/img_xl.jpg",
+          "sha256": "63da8e13e688cf29539db7002aab3ec8fbe421ea4b91551f04a0580b0680157e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167046892",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/lI9bL/btsNJKo8UXM/lp1yjMZI9ZZSfpZT4MhCSK/img_xl.jpg",
+      "sha256": "b85702c79476196d2221d9426bdd044fa69e5fc83a9a90350f7c381c348bbf8d",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드 1",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167046895",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/b9LKtl/btsNL1ii1CR/8T7Ap6I7sD6xlnT0wObI9k/img_xl.jpg",
+          "sha256": "daf53f4c2926aabbf2efaa6093b18e0910580c3ef8063f4be8776295d2a8deec"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167046918",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 7,
+      "imageUrl": "https://k.kakaocdn.net/dn/diJzFT/btsNLdp0ybt/wnEHCHRp19YcWBYrzPkX41/img_xl.jpg",
+      "sha256": "f68a5fe5f99d6d59a6c351338ae561ced971283f5e25991478c5e69afb383a91",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "어드밴스드 1",
+      "recognizedHeading": [
+        "RANKING BOARD - 어드밴스드 1INTERMEDIATE 코스길이(M) : 1531/ 선회지수: 4.8 / SCT(초) : 31.90/MCT(초) : 76.55"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167046918",
+          "imageOrder": 7,
+          "imageUrl": "https://k.kakaocdn.net/dn/diJzFT/btsNLdp0ybt/wnEHCHRp19YcWBYrzPkX41/img_xl.jpg",
+          "sha256": "f68a5fe5f99d6d59a6c351338ae561ced971283f5e25991478c5e69afb383a91"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167047377",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 9,
+      "imageUrl": "https://k.kakaocdn.net/dn/bi7zCU/btsNLruQ3Kp/AREAlpmricAr8S1nXXjmp1/img_xl.jpg",
+      "sha256": "924e636f02e4c655379adb966fff17920c1f4c50cd9258acb878e3736244ab1d",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드 1",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167047376",
+          "imageOrder": 8,
+          "imageUrl": "https://k.kakaocdn.net/dn/MaETo/btsNJZ7mgjO/uTZBF88f0NvP9kfUT3HD41/img_xl.jpg",
+          "sha256": "3e23a709de221e3ecfde904b420e677045edb8a1dedaf23f2b73d418517f6b28"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167048568",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 11,
+      "imageUrl": "https://k.kakaocdn.net/dn/bnO4av/btsNJGAfkPb/mKLceChqbNO2pI87YkIJqK/img_xl.jpg",
+      "sha256": "2eb119a3816d1604681884dfedf806635f5b19fe549df5c4e2535a8af08b9280",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167048569",
+          "imageOrder": 10,
+          "imageUrl": "https://k.kakaocdn.net/dn/hQ0ya/btsNKaU7fTe/bT0pE4x6jKnUrgKP8I6aUk/img_xl.jpg",
+          "sha256": "0541af556f3d9e3104dd9644623252e6991661c91bfe223283f220cf7565ab4a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167049895",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 13,
+      "imageUrl": "https://k.kakaocdn.net/dn/b8wA1a/btsNLqQft4G/JrZd1hsNyBiCyvJ72Pgbjk/img_xl.jpg",
+      "sha256": "0c39d40d2a7941051613c3bde3e2efde481c2b938c64fd238cafab1675a3dbc3",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167049897",
+          "imageOrder": 12,
+          "imageUrl": "https://k.kakaocdn.net/dn/jjqNF/btsNKueLXqo/0UZBX40ZyntHp0ZEzLhX2k/img_xl.jpg",
+          "sha256": "71a99fb45a2caf69595f034214ab8acacf82d8818e341c95204b4de684a86c4e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167049896",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 15,
+      "imageUrl": "https://k.kakaocdn.net/dn/bsbl6K/btsNKwp6hae/F4qm9HIOD5kEikkAfP6z4K/img_xl.jpg",
+      "sha256": "472c60cc95f74fdcc343f97626b0ac53f6ab886dc0f64257babfebba5682314e",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167049894",
+          "imageOrder": 14,
+          "imageUrl": "https://k.kakaocdn.net/dn/dhFUMd/btsNLcrb3BB/sl3DQUwMHPNmPGk3T1w280/img_xl.jpg",
+          "sha256": "7d77f77bd85cae5f879834ad452b91ce1d6a2f266f7298ab086923a09191802f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167049958",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 17,
+      "imageUrl": "https://k.kakaocdn.net/dn/Apiic/btsNKuFOiYG/QoF7ItjlE2YarL2PYnVHGk/img_xl.jpg",
+      "sha256": "b7266f7922e6a37e10ca562e91390a376120b1da03438d1fb02f47e7f17fbe37",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "어드밴스드 2",
+      "recognizedHeading": [
+        "RANKING BOARD - 어드밴스드 2 LARGE"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167049958",
+          "imageOrder": 17,
+          "imageUrl": "https://k.kakaocdn.net/dn/Apiic/btsNKuFOiYG/QoF7ItjlE2YarL2PYnVHGk/img_xl.jpg",
+          "sha256": "b7266f7922e6a37e10ca562e91390a376120b1da03438d1fb02f47e7f17fbe37"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167049957",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 18,
+      "imageUrl": "https://k.kakaocdn.net/dn/b3eMoc/btsNLQVw65C/bDsiOdeBhEDxFLljXHqOM1/img_xl.jpg",
+      "sha256": "1ec54dc0e02b1c4b80f1a5fc044038658db418d36ac73ac3007915176d7d4dfd",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드 2",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167049958",
+          "imageOrder": 17,
+          "imageUrl": "https://k.kakaocdn.net/dn/Apiic/btsNKuFOiYG/QoF7ItjlE2YarL2PYnVHGk/img_xl.jpg",
+          "sha256": "b7266f7922e6a37e10ca562e91390a376120b1da03438d1fb02f47e7f17fbe37"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167052676",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 20,
+      "imageUrl": "https://k.kakaocdn.net/dn/bpeSmG/btsNLVbsvGK/fWV3tc19yPngAAYeNyLBk1/img_xl.jpg",
+      "sha256": "ce044c0301e3bc398e8d3004b9c97f8fc60566bf3327d5f93a6dc5f7fb1ec803",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167052677",
+          "imageOrder": 19,
+          "imageUrl": "https://k.kakaocdn.net/dn/iowAO/btsNK3nFzPH/ZYKSUccNDk7vGajgjJgFr1/img_xl.jpg",
+          "sha256": "2cef8740544e9eac6f8b54b7b57e2ccf67af221a26ac2d765e1f65618272fb18"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167052822",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 22,
+      "imageUrl": "https://k.kakaocdn.net/dn/bfF1Zj/btsNKYmoTuN/ur6japUneXiETmHAfloRT0/img_xl.jpg",
+      "sha256": "53afe1793ca7fcca7bfc2ae73bc2cf46b281d3da757c35dbcf85ff763d42b4aa",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167052823",
+          "imageOrder": 21,
+          "imageUrl": "https://k.kakaocdn.net/dn/iffsh/btsNK9Bedxx/C92VTbmK2KGdvOujTSQu00/img_xl.jpg",
+          "sha256": "bef38258e22e37af055534a7b17330a49bd3f1263002c363f5c2d1f410f243ee"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167053438",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 24,
+      "imageUrl": "https://k.kakaocdn.net/dn/N0FNA/btsNJVD1MWU/POWHLel4vX05zYe0imsmPk/img_xl.jpg",
+      "sha256": "758c4c998e2a77fe2bebf27c5dc47a0c609fe24a9d47ad4cb4156077ef06ce8f",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167053437",
+          "imageOrder": 23,
+          "imageUrl": "https://k.kakaocdn.net/dn/b0aTdY/btsNLqW2VCw/b8vLVT0rFXiFMBtyyWu0Z0/img_xl.jpg",
+          "sha256": "19e7ad70466697bb563740da259f3a0658d0e71d60052593bf736daf68cc3fd7"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167053974",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 26,
+      "imageUrl": "https://k.kakaocdn.net/dn/gZnYm/btsNJ6eqVys/7SZCUPm3xFZQGU6kSjtoG1/img_xl.jpg",
+      "sha256": "cc8f3e45aba0a31d8eaa2b93477bebeeb8a07b62f3c92b6897ce8aa164c69022",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167053973",
+          "imageOrder": 25,
+          "imageUrl": "https://k.kakaocdn.net/dn/jME5E/btsNLmtMxVO/WqsuwSSuYQpPe7LetPoh90/img_xl.jpg",
+          "sha256": "ec9820e6002a890aa59346c306e1577586410aebc56af7981ef1639b2818ebc6"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167055021",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 27,
+      "imageUrl": "https://k.kakaocdn.net/dn/eG50vz/btsNLuZsw3F/O7gmz8EAHGfLScIQ5QQZuK/img_xl.jpg",
+      "sha256": "9672819282128873026a2f9e07931358c7a8c952c50db0407938ea2c4c86828e",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [
+        "RANKING BOARD -점핑 LARGE"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167055021",
+          "imageOrder": 27,
+          "imageUrl": "https://k.kakaocdn.net/dn/eG50vz/btsNLuZsw3F/O7gmz8EAHGfLScIQ5QQZuK/img_xl.jpg",
+          "sha256": "9672819282128873026a2f9e07931358c7a8c952c50db0407938ea2c4c86828e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167055023",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 28,
+      "imageUrl": "https://k.kakaocdn.net/dn/hBXt1/btsNJ2iM4qP/FlN2vQRNVufjEZh7tE3M5k/img_xl.jpg",
+      "sha256": "3d0604017eb5182be3969e4b1097fa523112a75f941573cff858a81df9686707",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167055021",
+          "imageOrder": 27,
+          "imageUrl": "https://k.kakaocdn.net/dn/eG50vz/btsNLuZsw3F/O7gmz8EAHGfLScIQ5QQZuK/img_xl.jpg",
+          "sha256": "9672819282128873026a2f9e07931358c7a8c952c50db0407938ea2c4c86828e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167055022",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 29,
+      "imageUrl": "https://k.kakaocdn.net/dn/byk19i/btsNLrIqOyS/kkEubPXZbCgk6DioeKziSK/img_xl.jpg",
+      "sha256": "a6975edc0f7bdafce7b2e8c7506df8eff62901b4a911b55adda36c191c9b073b",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167055021",
+          "imageOrder": 27,
+          "imageUrl": "https://k.kakaocdn.net/dn/eG50vz/btsNLuZsw3F/O7gmz8EAHGfLScIQ5QQZuK/img_xl.jpg",
+          "sha256": "9672819282128873026a2f9e07931358c7a8c952c50db0407938ea2c4c86828e"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167057681",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 31,
+      "imageUrl": "https://k.kakaocdn.net/dn/bV2c6t/btsNKeDkV92/DXgyvBhhQRCA1My6jSSFT1/img_xl.jpg",
+      "sha256": "b070dc6fb7b7c3769f8f60909c77ad2d4be24bd22c16a5925a503b62a7cc01c3",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167057682",
+          "imageOrder": 30,
+          "imageUrl": "https://k.kakaocdn.net/dn/bwnokY/btsNJ6ldC2S/BVbYd5Rg2ZHbfnXVpCS9Z0/img_xl.jpg",
+          "sha256": "6403ca6d8cf0342caf63e3144d321d8b459d59a9996ce0ca264576a75192b438"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167058508",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 34,
+      "imageUrl": "https://k.kakaocdn.net/dn/ogfr9/btsNLqppKXG/mH2FmygYknJTKsh6pJ2E10/img_xl.jpg",
+      "sha256": "efd508abd79764e0db5b1a79afb6ef4008bdae22ac5aaba626962e40d79783dc",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167058507",
+          "imageOrder": 33,
+          "imageUrl": "https://k.kakaocdn.net/dn/bHXu6o/btsNKcyJBsg/dNpMjc5NHovK4DLqzAdcbK/img_xl.jpg",
+          "sha256": "c4eb94a272ad8fc2af5d2e8d71141bb61ba82af806e6078dc7cb0976064d484d"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167059092",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 36,
+      "imageUrl": "https://k.kakaocdn.net/dn/Arszw/btsNL0jwoae/2Zu9r2VaJyCuMGBLG7iuNk/img_xl.jpg",
+      "sha256": "3f0d8b8203cc33b78a834c4a63e499c3e67aa8b40f937e80a9a00a01e956186e",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167059091",
+          "imageOrder": 35,
+          "imageUrl": "https://k.kakaocdn.net/dn/bigrnJ/btsNKsH7Rs1/cYJO7iYuSYJw0kXky9BYLk/img_xl.jpg",
+          "sha256": "c06159fb23a0ef557fc136f7ec87fc10fc9b298f2c2360587e0f974aa52bc815"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-167060168",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-adjpag-20250504"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/109288551",
+      "imageOrder": 38,
+      "imageUrl": "https://k.kakaocdn.net/dn/dou7sy/btsNKsg4wbX/tHjOJSdjDZlcerxkrceWzK/img_xl.jpg",
+      "sha256": "fcfffe38462f84bed2314a23cb6bbfb2738af0e3464d112a42ef9a28dd411a24",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-167060167",
+          "imageOrder": 37,
+          "imageUrl": "https://k.kakaocdn.net/dn/bodQCc/btsNLtsLIwS/2CFW5tBuCkx4Atu3qYKEa1/img_xl.jpg",
+          "sha256": "6c8b6465e25082cb28cb45c38ad139aaee9a3efe23e7e7d0141456856dcd741f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156369355",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107212097",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/ldW7w/btsKluII8LE/JdnXBOSIH4BBK4HUHd3Nl1/img_xl.jpg",
+      "sha256": "9cf7e5316bef903ee71d99c0bc474f50411d4cf75b84388d91344d706dd08c24",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156369354",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/cv2N7Z/btsKkuvZWrT/oWrVHKzc263T5QN57X3pr0/img_xl.jpg",
+          "sha256": "32f07dd3c4135bb702d5b7f541f279c42e20ee9f3d008af2dfffddfc57454a25"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156369356",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107212097",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/be7sHC/btsKkcikqQJ/lpHLdK7jxjcoNiReHnube0/img_xl.jpg",
+      "sha256": "d65857d5ee7ef9e5b8e8f9ad321f6dce19fd74940f98d8b409a2fdb842041a0f",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [
+        "노비스"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156369356",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/be7sHC/btsKkcikqQJ/lpHLdK7jxjcoNiReHnube0/img_xl.jpg",
+          "sha256": "d65857d5ee7ef9e5b8e8f9ad321f6dce19fd74940f98d8b409a2fdb842041a0f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156369358",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107212097",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/c8UjCK/btsKl252nRd/O2db5hVZOc9mmSjRzBUyik/img_xl.jpg",
+      "sha256": "f430282a8446259111ceea99fb7c79175707f32ab7a89423a84da30ad4032a36",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156369356",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/be7sHC/btsKkcikqQJ/lpHLdK7jxjcoNiReHnube0/img_xl.jpg",
+          "sha256": "d65857d5ee7ef9e5b8e8f9ad321f6dce19fd74940f98d8b409a2fdb842041a0f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156351936",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107182156",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/bm9oVC/btsKljHglno/XoKDIQy2bHWU06FqFhkVN1/img_xl.jpg",
+      "sha256": "7a78c1a4381cd18aee4663691b3236982407eaeeb5b4154c3e3631965e6947a4",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [
+        "비기너"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156351936",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/bm9oVC/btsKljHglno/XoKDIQy2bHWU06FqFhkVN1/img_xl.jpg",
+          "sha256": "7a78c1a4381cd18aee4663691b3236982407eaeeb5b4154c3e3631965e6947a4"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156351937",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107182156",
+      "imageOrder": 2,
+      "imageUrl": "https://k.kakaocdn.net/dn/HK9U2/btsKlHARtmh/MsE1K4wmuoJ6stHm8h7Sq0/img_xl.jpg",
+      "sha256": "df19660b79ad7a3b821e2493d33985fd080e6d26520f72352cdc6ba1e1d76984",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156351936",
+          "imageOrder": 1,
+          "imageUrl": "https://k.kakaocdn.net/dn/bm9oVC/btsKljHglno/XoKDIQy2bHWU06FqFhkVN1/img_xl.jpg",
+          "sha256": "7a78c1a4381cd18aee4663691b3236982407eaeeb5b4154c3e3631965e6947a4"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156351938",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107182156",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/mqUzF/btsKlVZX20P/ssspTj1JpglGpt6d8rP491/img_xl.jpg",
+      "sha256": "2068042e0ec3ba59327ff078dff5ac25f381c778a3e2b87ce662c9a03b9867fa",
+      "divisions": [
+        "benov"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [
+        "노비스"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156351938",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/mqUzF/btsKlVZX20P/ssspTj1JpglGpt6d8rP491/img_xl.jpg",
+          "sha256": "2068042e0ec3ba59327ff078dff5ac25f381c778a3e2b87ce662c9a03b9867fa"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156351939",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107182156",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/ghDLK/btsKkpuvIVg/8rXA9vFUxZDd9oudCmDH91/img_xl.jpg",
+      "sha256": "034fe1bdecfa289b31e5ca2cf5e84e8bcd3847e826fbfc539048c4a430cacfdf",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156351938",
+          "imageOrder": 3,
+          "imageUrl": "https://k.kakaocdn.net/dn/mqUzF/btsKlVZX20P/ssspTj1JpglGpt6d8rP491/img_xl.jpg",
+          "sha256": "2068042e0ec3ba59327ff078dff5ac25f381c778a3e2b87ce662c9a03b9867fa"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156351944",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107182156",
+      "imageOrder": 8,
+      "imageUrl": "https://k.kakaocdn.net/dn/bley8I/btsKjHpmKSu/9aNPXCkQ2I15x7f7PIBTck/img_xl.jpg",
+      "sha256": "df9a80a3130335fb09be88f11905b4e71372b5fdd4ed675c83d27e1cd0971e6d",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156351943",
+          "imageOrder": 7,
+          "imageUrl": "https://k.kakaocdn.net/dn/bYzSWy/btsKlke7u8I/OOFvm7vVsDt77hePG7NnNk/img_xl.jpg",
+          "sha256": "025925dfa21e3ace152f003f661ab1f860fb8b65b9db9dcbd8ff0d67fecc32b6"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-156351947",
+      "kind": "entry_list",
+      "eventIds": [
+        "event-leez-gopro-20241026"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/107182156",
+      "imageOrder": 10,
+      "imageUrl": "https://k.kakaocdn.net/dn/bR9m2J/btsKkk1czOT/J7AeDl5dFCVdxwiIVDrjOk/img_xl.jpg",
+      "sha256": "fcf27e712ac1054d94e4efc1f138521cec036940217c7d1bc4cfbbfad9e89960",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-156351945",
+          "imageOrder": 9,
+          "imageUrl": "https://k.kakaocdn.net/dn/b5U2BT/btsKlGIKOh6/SlHkFW5xMB2nsp5p2kJ2u0/img_xl.jpg",
+          "sha256": "6fb7aadb9a4cb57eafa19448e1bb5c1a366b5a1c61408c838d4ad8fcca3348c8"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234514",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 1,
+      "imageUrl": "https://k.kakaocdn.net/dn/gGs5L/btsHUCvLvs1/kowY04sUhomhadjpkeVcJk/img_xl.jpg",
+      "sha256": "b091aeb7fcf1db5f9564f3e21f70c9e18e20799215fe62c917ff309efc571071",
+      "divisions": [
+        "benov"
+      ],
+      "method": "section_cover",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234860",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/HSfTA/btsHTAS9Ega/SGNmV0BEkiBQTkh3k49mO0/img_xl.jpg",
+          "sha256": "46e7b36e1765cef99f70fc0551975a19ab9d11efac0409e96f523ff386c34b6a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234861",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 3,
+      "imageUrl": "https://k.kakaocdn.net/dn/PjAkZ/btsHTDPWmA5/6NLJML74K1qKFZKVTDqfjK/img_xl.jpg",
+      "sha256": "16371076f4a6fa5f24327ebbf7926331d5a7bae476f6b11b992347179ac68b40",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234860",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/HSfTA/btsHTAS9Ega/SGNmV0BEkiBQTkh3k49mO0/img_xl.jpg",
+          "sha256": "46e7b36e1765cef99f70fc0551975a19ab9d11efac0409e96f523ff386c34b6a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234859",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 4,
+      "imageUrl": "https://k.kakaocdn.net/dn/bSPX0m/btsHUgNtsK5/UEYIQeksd82BxAM4AwQugK/img_xl.jpg",
+      "sha256": "ee8f6e99e04156d653764e50db0d0ab202a44ffd55716a33a8949bd17a540b36",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "비기너",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234860",
+          "imageOrder": 2,
+          "imageUrl": "https://k.kakaocdn.net/dn/HSfTA/btsHTAS9Ega/SGNmV0BEkiBQTkh3k49mO0/img_xl.jpg",
+          "sha256": "46e7b36e1765cef99f70fc0551975a19ab9d11efac0409e96f523ff386c34b6a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234518",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 6,
+      "imageUrl": "https://k.kakaocdn.net/dn/bBRg0h/btsHS7cCJLk/v3FX4gTHBlt1gk8AvOvP9K/img_xl.jpg",
+      "sha256": "d5610a68a26dd3e95331f4d49bee79264112b498ef9d852f67bffb75bd9fb981",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234520",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/bHm71L/btsHUSSABBk/z0t4bKdwX5bktU9b0Q70f1/img_xl.jpg",
+          "sha256": "fa4203c938d785883da09f5a305f2e59e1d3fcfdac357c233ba96d996752e4ff"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234513",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 7,
+      "imageUrl": "https://k.kakaocdn.net/dn/c30NQr/btsHVx8hsUX/8GkrdzlL5RuTzvxKqPgYFk/img_xl.jpg",
+      "sha256": "a37d800885e51f2aebac997f8802504825459691015dda126307cd65fe34f6ee",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "노비스",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234520",
+          "imageOrder": 5,
+          "imageUrl": "https://k.kakaocdn.net/dn/bHm71L/btsHUSSABBk/z0t4bKdwX5bktU9b0Q70f1/img_xl.jpg",
+          "sha256": "fa4203c938d785883da09f5a305f2e59e1d3fcfdac357c233ba96d996752e4ff"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234521",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 9,
+      "imageUrl": "https://k.kakaocdn.net/dn/epUbLr/btsHUFlE5yr/TakTnbkMoR412EdSlaVtZK/img_xl.jpg",
+      "sha256": "2eb01a14ec47cb45f33872114cdde3b936c0c37795347eec77a4a102399349bf",
+      "divisions": [
+        "benov"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어드밴스드",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234524",
+          "imageOrder": 8,
+          "imageUrl": "https://k.kakaocdn.net/dn/xNDyF/btsHUDg6usH/jbJN77dbV4aorVfcqngE20/img_xl.jpg",
+          "sha256": "4ebcc02dfbc91027d0e0d11e5f6f31c609c033df273df24c9a63bff6311e3b55"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234515",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 10,
+      "imageUrl": "https://k.kakaocdn.net/dn/pU6p3/btsHUhr5Ah1/Q6YaIytoKJzGCvQzFjFvzk/img_xl.jpg",
+      "sha256": "03a372016c5e064805c66f705c0f605673bb553ebfda53d8c63ff43f0ccc2e30",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "section_cover",
+      "courseOrDocumentTitle": "AAC 점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234523",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/dd9cAt/btsHVtY9kXx/7zaDbkPeEKL88KlcIrPoHk/img_xl.jpg",
+          "sha256": "6f5a5d0ab58a92b23a3c5e67cb376b2c388ce7359bcf14525d5b191cbd1a874f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234523",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 11,
+      "imageUrl": "https://k.kakaocdn.net/dn/dd9cAt/btsHVtY9kXx/7zaDbkPeEKL88KlcIrPoHk/img_xl.jpg",
+      "sha256": "6f5a5d0ab58a92b23a3c5e67cb376b2c388ce7359bcf14525d5b191cbd1a874f",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "AAC 점핑",
+      "recognizedHeading": [
+        "AAC 점핑"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234523",
+          "imageOrder": 11,
+          "imageUrl": "https://k.kakaocdn.net/dn/dd9cAt/btsHVtY9kXx/7zaDbkPeEKL88KlcIrPoHk/img_xl.jpg",
+          "sha256": "6f5a5d0ab58a92b23a3c5e67cb376b2c388ce7359bcf14525d5b191cbd1a874f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234526",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 12,
+      "imageUrl": "https://k.kakaocdn.net/dn/cdW8Eq/btsHUEfZ4nD/AWzTZdUsEootJZRyekUZk1/img_xl.jpg",
+      "sha256": "d24dda69c7238a157b893e5ee31ef36bf7b912f87c6c573b1183e38b63dcc08a",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "image_heading",
+      "courseOrDocumentTitle": "AAC 어질리티",
+      "recognizedHeading": [
+        "AAC 어질리티"
+      ],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234526",
+          "imageOrder": 12,
+          "imageUrl": "https://k.kakaocdn.net/dn/cdW8Eq/btsHUEfZ4nD/AWzTZdUsEootJZRyekUZk1/img_xl.jpg",
+          "sha256": "d24dda69c7238a157b893e5ee31ef36bf7b912f87c6c573b1183e38b63dcc08a"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234512",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 13,
+      "imageUrl": "https://k.kakaocdn.net/dn/8AB2E/btsHURTHdNA/wqQxmPvi2krNO37UB0w1j0/img_xl.jpg",
+      "sha256": "32ec4d0d416e40dd945b8fb815b33a5f7a9fa7cc7a27bf87c6d5ab0e2ebf6217",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "section_cover",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234522",
+          "imageOrder": 14,
+          "imageUrl": "https://k.kakaocdn.net/dn/Udfj2/btsHVslC4px/N56NFZxOiGhNUq2puKFZKK/img_xl.jpg",
+          "sha256": "49fff8b1796757527ec3d647f9c4b36150f41381202081123e4afa1080495ec0"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234519",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 15,
+      "imageUrl": "https://k.kakaocdn.net/dn/cm0Mrr/btsHUAY2yA1/mOE4EeOs3k2A12G67ymnLk/img_xl.jpg",
+      "sha256": "f4aa6634c4ada0f0853f57e3f8d5affaf1806aa93e60865358f22cd7524fc8a4",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "어질리티",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234522",
+          "imageOrder": 14,
+          "imageUrl": "https://k.kakaocdn.net/dn/Udfj2/btsHVslC4px/N56NFZxOiGhNUq2puKFZKK/img_xl.jpg",
+          "sha256": "49fff8b1796757527ec3d647f9c4b36150f41381202081123e4afa1080495ec0"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-148234516",
+      "kind": "result",
+      "eventIds": [
+        "event-leez-sonoleague-20240525"
+      ],
+      "postUrl": "https://pf.kakao.com/_HlJFG/105588294",
+      "imageOrder": 17,
+      "imageUrl": "https://k.kakaocdn.net/dn/bWPSc7/btsHUnS81N7/96cSRTKjTjylu19hTqkrLK/img_xl.jpg",
+      "sha256": "589c5aa315f32a3733ba8e2c878cf64b40be7c6264508fa6da42e1ecff7ecc03",
+      "divisions": [
+        "jpag"
+      ],
+      "method": "continuation",
+      "courseOrDocumentTitle": "점핑",
+      "recognizedHeading": [],
+      "evidenceImages": [
+        {
+          "assetId": "asset-kakao-HlJFG-148234525",
+          "imageOrder": 16,
+          "imageUrl": "https://k.kakaocdn.net/dn/bDeREt/btsHSUxQnlR/gFKSRAAmzugJf4MIT8iHvk/img_xl.jpg",
+          "sha256": "2d40bda8769ae7641ac98dd5cb5213bc8840c4f65ea837093e63124b0911e30f"
+        }
+      ],
+      "beforeCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "sharedCover": false
+    }
+  ],
+  "validation": {
+    "unitAndRegressionTests": 421,
+    "unitAndRegressionTestsPassed": true,
+    "categoryEvidenceTests": 8,
+    "categoryEvidenceTestsPassed": true,
+    "activeDataHarnessScope": "all",
+    "activeJsonFiles": 188,
+    "activeDataHarnessPassed": true,
+    "librarySchemaAndAllSiteReferencesPassed": true,
+    "siteTableFilesPreserved": 40,
+    "classificationRefreshIdempotent": true,
+    "unassignedAssetsAfterRefresh": 0,
+    "realPushSent": false,
+    "paidApiCalled": false
+  }
+}
