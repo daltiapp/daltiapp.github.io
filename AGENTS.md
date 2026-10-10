@@ -49,6 +49,12 @@ If release signing fails, debug in this order:
 
 # 프로젝트 작업 범위 분리
 
+## 유료 API 호출 금지
+
+- 사용자가 정책을 명시적으로 바꾸기 전까지 외부 유료 또는 사용량 과금형 API를 절대 호출하지 않는다. 실제 운영, 테스트·스모크, 연결 확인, 진단, dry-run 호출을 모두 포함한다.
+- OpenAI API 등 유료 모델 API에 요청을 보내거나 유료 API 키·토큰을 사용하지 않는다. GPT 작업은 현재 NAS에 로그인된 Codex CLI 경로만 사용한다.
+- 비용이 발생하지 않는다고 확인되지 않은 외부 API는 호출 전에 사용을 중단하고 로컬 자료나 승인된 비과금 경로를 사용한다.
+
 - 이 저장소의 어질리티 일정·장소 JSON 수동 관리와 앱 데이터 작업은 스크래퍼 개발과 독립적으로 진행한다.
 - `agility-scraper`의 NAS 공지 자동 수집·반영과 확정 일정 알림은 기존 운영 기능이다. 2026-09-30 사용자 지시로 신규 대회 일정은 NAS에서 승인 없이 검증·자동 반영하도록 전환한다. 달티웹 작업 진입점은 `/Users/sam/Documents/DaltiWeb/agility-scraper`이며 기존 외장 SSD 저장소를 가리킨다.
 - Data Studio는 달티웹의 사전 검수 도구이며 독립 저장소는 `/Users/sam/Documents/DaltiWeb/data-studio`다. 이 데이터 저장소에 도구 소스를 다시 넣지 않는다. NAS 신규 일정 수집은 `schedule_auto_real`에서 담당한다. Data Studio 앱 시작·수집 버튼·API에서는 중복 수집을 재개하지 않는다. 기존 큐 검수와 일정·장소 수동 편집은 유지한다.
