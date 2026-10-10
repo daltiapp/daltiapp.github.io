@@ -65,6 +65,7 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 
 - 자료실은 manifest의 `files.library`로 제공하며 앱은 `basePath + files.library`로 로드한다. 최초 경로는 `library/library.json`이다.
 - `kind: result`의 선택 `resultType`은 `image`/`site`다. 생략한 기존 결과는 `image`로 읽는다. `site`는 자료실 파일 위치 기준 `recordPath: ./records/<파일명>.json`을 필수로 제공한다. 코스맵·출진표에는 두 필드를 넣지 않는다. 기존 `image`와 ID·종류를 보존하는 호환 확장이므로 서비스/자료실 schemaVersion과 활성 basePath는 유지한다.
+- 자료실 `competitionCategories`와 대회·자료의 `categoryIds`, 종류별 묶음의 분류 배열, 사이트 표의 그룹별 분류는 앱 분류를 JSON으로 제공하는 호환 확장이다. 기존 필드를 보존하고 dataVersion·forceRefreshKey를 갱신한다. 상세 계약은 [AGILITY_LIBRARY.md](docs/AGILITY_LIBRARY.md)의 결과·코스맵 공통 분류를 따른다.
 - `events`는 대회 정보, `assets`는 이미지별 자료다. 출진표·코스맵·결과는 `kind`로 구분하고, 대회 연결은 `eventIds`, 맵 조회는 `mapCategories`로 판별한다.
 - 선택 `channels`는 게시 채널 ID·앱 표시명·제공자·공식 주소의 동적 목록이다. 이미지 `source.channelId`를 `channels[].id`와 연결하고 앱 채널 필터를 이 목록으로 생성한다. 새 채널 때문에 앱의 고정 채널 코드를 추가하지 않는다. 기존 자료실 v1을 유지하는 호환 확장이다.
 - 맵 카테고리는 `ranking`, `promotion`, `awc`, `training`이다. 대회 없이 등록하는 코스맵은 `eventIds: []`를 사용한다.

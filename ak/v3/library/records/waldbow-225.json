@@ -107,6 +107,9 @@
           "-",
           "1.41"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -173,6 +176,9 @@
           "번외",
           "7.08"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -273,6 +279,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -356,6 +365,9 @@
           "3",
           "2.71"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -422,6 +434,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -522,6 +537,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -571,6 +589,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -637,6 +658,9 @@
           "1",
           "3.98"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -703,6 +727,9 @@
           "번외",
           ""
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -735,6 +762,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -784,6 +814,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -850,6 +883,9 @@
           "1",
           "4.67"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -916,6 +952,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -948,6 +987,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -997,6 +1039,9 @@
           "1",
           "3.58"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1046,6 +1091,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1095,6 +1143,9 @@
           "1",
           "3.32"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1144,6 +1195,9 @@
           "2",
           "2.45"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1227,6 +1281,9 @@
           "2",
           "3.98"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1310,6 +1367,9 @@
           "2",
           "2.49"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     }
   ],
@@ -1318,5 +1378,9 @@
     "no": "225",
     "title": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+  "eventId": "event-waldbow-225",
+  "categoryIds": [
+    "benov_ranking"
+  ]
 }

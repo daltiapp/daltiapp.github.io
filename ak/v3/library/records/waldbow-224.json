@@ -141,6 +141,9 @@
           "-",
           "2.57"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -309,6 +312,9 @@
           "4",
           "4.16"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -426,6 +432,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -458,6 +467,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -507,6 +519,9 @@
           "1",
           "4.90"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -590,6 +605,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -639,6 +657,9 @@
           "1",
           "6.20"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -705,6 +726,9 @@
           "1",
           "5.50"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -822,6 +846,9 @@
           "1",
           "3.63"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -871,6 +898,9 @@
           "1",
           "4.42"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -920,6 +950,9 @@
           "1",
           "4.13"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1020,6 +1053,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1171,6 +1207,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1322,6 +1361,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1473,6 +1515,9 @@
           "2",
           "4.05"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1556,6 +1601,9 @@
           "2",
           "3.20"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1605,6 +1653,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1688,6 +1739,9 @@
           "1",
           "3.64"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1805,6 +1859,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -2007,6 +2064,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -2158,6 +2218,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -2224,6 +2287,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -2324,6 +2390,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -2458,6 +2527,9 @@
           "번외",
           "3.58"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     }
   ],
@@ -2466,5 +2538,9 @@
     "no": "224",
     "title": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+  "eventId": "event-waldbow-224",
+  "categoryIds": [
+    "jpag_ranking"
+  ]
 }

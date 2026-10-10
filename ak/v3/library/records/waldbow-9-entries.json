@@ -148,6 +148,9 @@
           "조*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -219,6 +222,9 @@
           "김*랑",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -262,6 +268,9 @@
           "김*민",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -389,6 +398,9 @@
           "이*지",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -537,6 +549,9 @@
           "임*은",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -608,6 +623,9 @@
           "장*미",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -658,6 +676,9 @@
           "홍*균",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -778,6 +799,9 @@
           "이*지",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -849,6 +873,9 @@
           "임*현",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -885,6 +912,9 @@
           "김*경",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -935,6 +965,9 @@
           "안*희",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1020,6 +1053,9 @@
           "이*지",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1091,6 +1127,9 @@
           "조*영",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1106,6 +1145,9 @@
           "김*경",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1156,6 +1198,9 @@
           "이*인",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1255,6 +1300,9 @@
           "이*지",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1319,6 +1367,9 @@
           "김*선",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1334,6 +1385,9 @@
           "양*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1384,6 +1438,9 @@
           "이*인",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1441,6 +1498,9 @@
           "박*수",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1498,6 +1558,9 @@
           "지*지",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1513,6 +1576,9 @@
           "양*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1556,6 +1622,9 @@
           "이*인",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1592,6 +1661,9 @@
           "김*섭",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     }
   ],
@@ -1600,5 +1672,9 @@
     "title": "제 17회 발트바우 익사이팅 승급전",
     "date": "2024-05-04"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+  "eventId": "event-waldbow-9",
+  "categoryIds": [
+    "benov_ranking"
+  ]
 }

@@ -71,6 +71,9 @@
           "오*기",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -107,6 +110,9 @@
           "김*연",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -157,6 +163,9 @@
           "박*순",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -235,6 +244,9 @@
           "차*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -306,6 +318,9 @@
           "김*은",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -342,6 +357,9 @@
           "이*선",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -371,6 +389,9 @@
           "이*진",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -407,6 +428,9 @@
           "김*란",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -457,6 +481,9 @@
           "전*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -472,6 +499,9 @@
           "S************I",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -508,6 +538,9 @@
           "이*나",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -537,6 +570,9 @@
           "차*호",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -594,6 +630,9 @@
           "오*기",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -623,6 +662,9 @@
           "김*연",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -694,6 +736,9 @@
           "이*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -751,6 +796,9 @@
           "차*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -801,6 +849,9 @@
           "임*미",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -830,6 +881,9 @@
           "이*연",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -866,6 +920,9 @@
           "이*진",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -909,6 +966,9 @@
           "이*구",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -966,6 +1026,9 @@
           "임*미",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -981,6 +1044,9 @@
           "S************I",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1017,6 +1083,9 @@
           "김*찬",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1039,6 +1108,9 @@
           "차*호",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     }
   ],
@@ -1047,5 +1119,9 @@
     "title": "제 49회  KKF 발트바우 어질리티 승급전",
     "date": "2024-06-02"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+  "eventId": "event-waldbow-26",
+  "categoryIds": [
+    "jpag_promotion"
+  ]
 }

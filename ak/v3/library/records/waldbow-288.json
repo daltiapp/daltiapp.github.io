@@ -243,6 +243,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -411,6 +414,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -579,6 +585,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -747,6 +756,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -864,6 +876,9 @@
           "3",
           "4.30"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -947,6 +962,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1030,6 +1048,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1232,6 +1253,9 @@
           "번외",
           "4.61"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1332,6 +1356,9 @@
           "-",
           ""
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1381,6 +1408,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1532,6 +1562,9 @@
           "2",
           "4.47"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1666,6 +1699,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1953,6 +1989,9 @@
           "-",
           "1.92"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2104,6 +2143,9 @@
           "3",
           "2.83"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2272,6 +2314,9 @@
           "3",
           "3.87"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2423,6 +2468,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2557,6 +2605,9 @@
           "2",
           "4.28"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2657,6 +2708,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2791,6 +2845,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3010,6 +3067,9 @@
           "2",
           "5.02"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3127,6 +3187,9 @@
           "3",
           "2.92"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3193,6 +3256,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3344,6 +3410,9 @@
           "1",
           "4.50"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3427,6 +3496,9 @@
           "1",
           "4.79"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     }
   ],
@@ -3435,5 +3507,9 @@
     "no": "288",
     "title": "2025.11.23(일) KKF AGILITY 승급전"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+  "eventId": "event-waldbow-288",
+  "categoryIds": [
+    "jpag_promotion"
+  ]
 }

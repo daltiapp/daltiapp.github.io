@@ -50,6 +50,9 @@
           "허*서",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -86,6 +89,9 @@
           "전*환",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -157,6 +163,9 @@
           "홍*우",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -221,6 +230,9 @@
           "오*석",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -278,6 +290,9 @@
           "오*석",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -321,6 +336,9 @@
           "허*서",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -357,6 +375,9 @@
           "채*라",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -428,6 +449,9 @@
           "홍*우",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -492,6 +516,9 @@
           "오*석",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -549,6 +576,9 @@
           "오*석",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -592,6 +622,9 @@
           "허*서",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -628,6 +661,9 @@
           "전*환",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -699,6 +735,9 @@
           "홍*우",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -763,6 +802,9 @@
           "오*석",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -820,6 +862,9 @@
           "오*석",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -863,6 +908,9 @@
           "허*서",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -899,6 +947,9 @@
           "전*환",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -970,6 +1021,9 @@
           "홍*우",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1034,6 +1088,9 @@
           "오*석",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1091,6 +1148,9 @@
           "오*석",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     }
   ],
@@ -1099,5 +1159,9 @@
     "title": "18일 토요일 오후 AG_Master_Tournament",
     "date": "2025-10-18"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+  "eventId": "event-waldbow-273",
+  "categoryIds": [
+    "jpag_ranking"
+  ]
 }

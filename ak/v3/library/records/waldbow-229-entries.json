@@ -113,6 +113,9 @@
           "유*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -156,6 +159,9 @@
           "남*름",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -192,6 +198,9 @@
           "이*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -256,6 +265,9 @@
           "이*진",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -285,6 +297,9 @@
           "김*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -314,6 +329,9 @@
           "S************I",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -343,6 +361,9 @@
           "김*찬",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -428,6 +449,9 @@
           "이*진",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -464,6 +488,9 @@
           "박*연",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -479,6 +506,9 @@
           "하*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -508,6 +538,9 @@
           "정*훈",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -558,6 +591,9 @@
           "이*진",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -657,6 +693,9 @@
           "강*하",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -700,6 +739,9 @@
           "김*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -736,6 +778,9 @@
           "이*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -807,6 +852,9 @@
           "이*진",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -864,6 +912,9 @@
           "이*민",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -893,6 +944,9 @@
           "양*수",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -950,6 +1004,9 @@
           "권*우",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1056,6 +1113,9 @@
           "이*진",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1099,6 +1159,9 @@
           "전*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1121,6 +1184,9 @@
           "이*영",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1178,6 +1244,9 @@
           "이*현",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1249,6 +1318,9 @@
           "이*진",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     }
   ],
@@ -1257,5 +1329,9 @@
     "title": "제 63회 KKF WALD BOW AGILITY 야간대회",
     "date": "2025-05-25"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+  "eventId": "event-waldbow-229",
+  "categoryIds": [
+    "jpag_promotion"
+  ]
 }

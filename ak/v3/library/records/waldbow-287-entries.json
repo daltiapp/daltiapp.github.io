@@ -99,6 +99,9 @@
           "이*",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -191,6 +194,9 @@
           "하*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -220,6 +226,9 @@
           "김*진",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -305,6 +314,9 @@
           "차*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -390,6 +402,9 @@
           "이*",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -475,6 +490,9 @@
           "하*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -504,6 +522,9 @@
           "김*진",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -589,6 +610,9 @@
           "차*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -632,6 +656,9 @@
           "이*",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -675,6 +702,9 @@
           "오*라",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -690,6 +720,9 @@
           "조*정",
           "발정"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -726,6 +759,9 @@
           "최*현",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -769,6 +805,9 @@
           "이*",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -812,6 +851,9 @@
           "주*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -841,6 +883,9 @@
           "조*정",
           "발정"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -870,6 +915,9 @@
           "이*진",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -892,6 +940,9 @@
           "박*민",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -907,6 +958,9 @@
           "주*영",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -922,6 +976,9 @@
           "김*하",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -944,6 +1001,9 @@
           "김*섭",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -959,6 +1019,9 @@
           "강*헌",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -981,6 +1044,9 @@
           "김*섭",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -996,6 +1062,9 @@
           "최*석",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1018,6 +1087,9 @@
           "정*진",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1033,6 +1105,9 @@
           "강*형",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1048,6 +1123,9 @@
           "최*석",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1070,6 +1148,9 @@
           "김*준",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1085,6 +1166,9 @@
           "강*형",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     }
   ],
@@ -1093,5 +1177,9 @@
     "title": "2025.11.22(토) EXCITING OPEN",
     "date": "2025-11-22"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+  "eventId": "event-waldbow-287",
+  "categoryIds": [
+    "benov_ranking"
+  ]
 }

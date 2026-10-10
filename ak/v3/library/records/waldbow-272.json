@@ -192,6 +192,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -394,6 +397,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -477,6 +483,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -594,6 +603,9 @@
           "1",
           "6.80"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -762,6 +774,9 @@
           "번외",
           "3.70"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -964,6 +979,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1047,6 +1065,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1164,6 +1185,9 @@
           "1",
           "5.71"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1332,6 +1356,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1534,6 +1561,9 @@
           "번외",
           "3.30"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1617,6 +1647,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1734,6 +1767,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     }
   ],
@@ -1742,5 +1778,9 @@
     "no": "272",
     "title": "18일 토요일 오전 AG_Standard_Tournament"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+  "eventId": "event-waldbow-272",
+  "categoryIds": [
+    "jpag_ranking"
+  ]
 }

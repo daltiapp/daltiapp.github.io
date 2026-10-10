@@ -158,6 +158,9 @@
           "2",
           "2.50"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -207,6 +210,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -460,6 +466,9 @@
           "3",
           "3.66"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -543,6 +552,9 @@
           "-",
           ""
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -660,6 +672,9 @@
           "4",
           "2.97"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -794,6 +809,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -843,6 +861,9 @@
           "2",
           "3.56"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1096,6 +1117,9 @@
           "4",
           "3.45"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1179,6 +1203,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1296,6 +1323,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1430,6 +1460,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1479,6 +1512,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1732,6 +1768,9 @@
           "1",
           "3.31"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1815,6 +1854,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1932,6 +1974,9 @@
           "번외",
           ""
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2049,6 +2094,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2098,6 +2146,9 @@
           "번외",
           ""
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2351,6 +2402,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2434,6 +2488,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2551,6 +2608,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     }
   ],
@@ -2559,5 +2619,9 @@
     "no": "274",
     "title": "19일 일요일 EX_Tournament"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+  "eventId": "event-waldbow-274",
+  "categoryIds": [
+    "benov_ranking"
+  ]
 }

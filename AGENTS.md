@@ -87,6 +87,7 @@ If release signing fails, debug in this order:
 # AgilityKorea 활성 JSON 규칙
 
 - 자료실의 `events`·`eventGroups`·`courseMapGroups`는 채널·사이트·AWC 모두 확인된 개최일 최신순, 개최일 미확인은 대회명에 명시된 연도 최신순, 둘 다 없으면 마지막으로 제공한다. 동률은 ID 오름차순이며 가짜 개최일을 만들지 않는다. 상세 정렬·첨부 순서와 NAS 검증 기준은 [자료실 계약](docs/AGILITY_LIBRARY.md)의 최신순 정렬 기준을 따른다.
+- 자료실 결과·코스맵 분류는 `competitionCategories`의 ID·표시명과 대회·자료·종류별 묶음의 분류 참조를 함께 제공한다. 앱이 대회명·채널·사이트 host로 점어/비노·승급/랭킹을 추정하게 만들지 않는다. 혼합 대회는 같은 ID로 여러 분류에 연결하고, 해당 종류의 자료가 없으면 종류별 분류 배열도 빈 배열로 유지한다.
 
 - 구버전 `/agilitykorea` JSON 경로는 사용하지 않는다. 앱과 모든 배치는 `/agilitykorea-manifest.json`만 진입점으로 사용한다.
 - JSON 구조가 바뀌는 강제 업데이트는 `/ak/vN` 폴더를 새로 만들고 manifest의 `basePath`를 전환한다.

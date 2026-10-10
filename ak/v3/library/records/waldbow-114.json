@@ -277,6 +277,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -462,6 +465,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -732,6 +738,9 @@
           "4",
           "5.30"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1053,6 +1062,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1272,6 +1284,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1440,6 +1455,9 @@
           "번외",
           "3.58"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1523,6 +1541,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1674,6 +1695,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1791,6 +1815,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1857,6 +1884,9 @@
           "3",
           "3.74"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -1923,6 +1953,9 @@
           "2",
           "4.17"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2006,6 +2039,9 @@
           "2",
           "4.83"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2259,6 +2295,9 @@
           "4",
           "2.89"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2427,6 +2466,9 @@
           "1",
           "4.90"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -2663,6 +2705,9 @@
           "4",
           "4.39"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3001,6 +3046,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3169,6 +3217,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3286,6 +3337,9 @@
           "4",
           "4.73"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3369,6 +3423,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3554,6 +3611,9 @@
           "2",
           "5.74"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3654,6 +3714,9 @@
           "1",
           "5.32"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3737,6 +3800,9 @@
           "1",
           "5.34"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3820,6 +3886,9 @@
           "1",
           "4.30"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     },
     {
@@ -3903,6 +3972,9 @@
           "1",
           "5.44"
         ]
+      ],
+      "categoryIds": [
+        "jpag_promotion"
       ]
     }
   ],
@@ -3911,5 +3983,9 @@
     "no": "114",
     "title": "제 54회 KKF 발트바우 어질리티 승급전"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+  "eventId": "event-waldbow-114",
+  "categoryIds": [
+    "jpag_promotion"
+  ]
 }

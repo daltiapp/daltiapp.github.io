@@ -192,6 +192,9 @@
           "-",
           ""
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -309,6 +312,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -375,6 +381,9 @@
           "1",
           "3.44"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -543,6 +552,9 @@
           "3",
           "2.99"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -711,6 +723,9 @@
           "4",
           "2.05"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -828,6 +843,9 @@
           "1",
           "4.44"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -894,6 +912,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1062,6 +1083,9 @@
           "4",
           "2.54"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1196,6 +1220,9 @@
           "2",
           "2.69"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1262,6 +1289,9 @@
           "번외",
           "3.79"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1294,6 +1324,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1462,6 +1495,9 @@
           "1",
           "5.70"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1630,6 +1666,9 @@
           "2",
           "2.92"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1696,6 +1735,9 @@
           "1",
           "3.54"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1762,6 +1804,9 @@
           "번외",
           "4.49"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1913,6 +1958,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -1996,6 +2044,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2045,6 +2096,9 @@
           "1",
           "4.24"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2077,6 +2131,9 @@
           "1",
           "3.75"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2143,6 +2200,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2226,6 +2286,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2275,6 +2338,9 @@
           "2",
           "3.83"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2307,6 +2373,9 @@
           "1",
           "3.88"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2407,6 +2476,9 @@
           "2",
           "3.99"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2507,6 +2579,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2556,6 +2631,9 @@
           "번외",
           "3.91"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2588,6 +2666,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2671,6 +2752,9 @@
           "2",
           "4.48"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2788,6 +2872,9 @@
           "2",
           "2.75"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2837,6 +2924,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2937,6 +3027,9 @@
           "1",
           "4.55"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     }
   ],
@@ -2945,5 +3038,9 @@
     "no": "228",
     "title": "제24회 WALD BOW EXCITING 야간대회"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+  "eventId": "event-waldbow-228",
+  "categoryIds": [
+    "benov_ranking"
+  ]
 }

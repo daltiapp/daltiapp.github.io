@@ -43,6 +43,9 @@
           "김*기",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -72,6 +75,9 @@
           "이*영",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -115,6 +121,9 @@
           "박*주",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -151,6 +160,9 @@
           "이*아",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -180,6 +192,9 @@
           "최*빈",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -223,6 +238,9 @@
           "구*회",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -245,6 +263,9 @@
           "채*혜",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -274,6 +295,9 @@
           "조*희",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -303,6 +327,9 @@
           "한*훈",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -318,6 +345,9 @@
           "정*향",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -340,6 +370,9 @@
           "채*혜",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -369,6 +402,9 @@
           "오*준",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -398,6 +434,9 @@
           "한*훈",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -413,6 +452,9 @@
           "정*향",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -435,6 +477,9 @@
           "오*리",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -457,6 +502,9 @@
           "정*진",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -479,6 +527,9 @@
           "오*리",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -501,6 +552,9 @@
           "이*연",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -537,6 +591,9 @@
           "조*규",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -573,6 +630,9 @@
           "이*연",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "benov_ranking"
       ]
     }
   ],
@@ -581,5 +641,9 @@
     "title": "제 23회 WALDBOW EXCITING OPEN (4월20일 일요일)",
     "date": "2025-04-20"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+  "eventId": "event-waldbow-225",
+  "categoryIds": [
+    "benov_ranking"
+  ]
 }

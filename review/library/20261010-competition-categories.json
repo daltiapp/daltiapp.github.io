@@ -1,0 +1,215 @@
+{
+  "auditVersion": 1,
+  "checkedAt": "2026-10-10T20:30:51+09:00",
+  "dataVersion": "20261010.12",
+  "libraryManifest": "https://daltiapp.github.io/agilitykorea-manifest.json",
+  "summary": {
+    "eventCount": 166,
+    "assetCount": 3051,
+    "resultCount": 1379,
+    "courseMapCount": 898,
+    "resultGroupCount": 106,
+    "courseMapGroupCount": 156,
+    "siteRecordFileCount": 40,
+    "siteRecordGroupCount": 987,
+    "siteResultRows": 3034,
+    "siteEntryRows": 3097,
+    "unclassifiedAssetCount": 0
+  },
+  "categories": [
+    {
+      "id": "jpag_promotion",
+      "name": "점어승급전"
+    },
+    {
+      "id": "jpag_ranking",
+      "name": "점어랭킹전"
+    },
+    {
+      "id": "benov_promotion",
+      "name": "비노승급전"
+    },
+    {
+      "id": "benov_ranking",
+      "name": "비노랭킹전"
+    },
+    {
+      "id": "awc",
+      "name": "AWC"
+    }
+  ],
+  "byKind": {
+    "result": {
+      "categoryAssetCounts": {
+        "benov_ranking": 719,
+        "jpag_ranking": 404,
+        "benov_promotion": 157,
+        "jpag_promotion": 264
+      },
+      "categoryEventCounts": {
+        "jpag_ranking": 31,
+        "benov_ranking": 47,
+        "benov_promotion": 24,
+        "jpag_promotion": 21
+      },
+      "scopeCounts": {
+        "asset": 202,
+        "post": 711,
+        "event": 466
+      }
+    },
+    "course_map": {
+      "categoryAssetCounts": {
+        "jpag_ranking": 76,
+        "benov_ranking": 168,
+        "benov_promotion": 108,
+        "jpag_promotion": 215,
+        "awc": 331
+      },
+      "categoryEventCounts": {
+        "jpag_ranking": 32,
+        "benov_ranking": 46,
+        "benov_promotion": 24,
+        "jpag_promotion": 42,
+        "awc": 29
+      },
+      "scopeCounts": {
+        "asset": 898
+      }
+    },
+    "entry_list": {
+      "categoryAssetCounts": {
+        "benov_ranking": 275,
+        "jpag_ranking": 155,
+        "benov_promotion": 108,
+        "jpag_promotion": 335
+      },
+      "categoryEventCounts": {
+        "jpag_ranking": 31,
+        "benov_ranking": 46,
+        "benov_promotion": 24,
+        "jpag_promotion": 48
+      },
+      "scopeCounts": {
+        "asset": 313,
+        "post": 136,
+        "event": 325
+      }
+    }
+  },
+  "preservation": {
+    "eventIdsAndCoreFields": true,
+    "assetIdsAndCoreFields": true,
+    "imageUrlsAndMetadata": true,
+    "siteCellsAndOrder": true,
+    "oldCourseMapCategories": true,
+    "latestFirstOrder": true
+  },
+  "validation": {
+    "jsonSchema": "passed",
+    "libraryReferencesAndCategoryUnions": "passed",
+    "idempotentRebuild": "passed",
+    "metadataOnlyNewPushCandidates": 0,
+    "fullRegressionTests": {
+      "passed": 402,
+      "failed": 0,
+      "externalModelApiCalls": 0,
+      "actualPushCalls": 0
+    },
+    "activeDataHarness": {
+      "scope": "all",
+      "ok": true,
+      "jsonFileCount": 188
+    },
+    "jsonOnlyCategoryLookup": "passed"
+  },
+  "classificationScope": "asset=confirmed course/image; post=source post; event=verified competition divisions; mixed event scope does not assert the division of each image row",
+  "siteRecordContentHashesBeforeMetadata": {
+    "waldbow-10-entries.json": "2618dfe20cd256fae95d494b65fda09f8417014beb1e2d8214ac0c27e0ca4ad6",
+    "waldbow-10.json": "c62fbb029c74ecec9be68dde449725d14db36ddabbdd660e933796cb5ef68268",
+    "waldbow-113-entries.json": "b10507fef82109807a45d591c42652a31e6464a9ac5592efce62840da58ebb8a",
+    "waldbow-113.json": "37bcb6b57071d85444316df2d2bc2dd32e495c9fd5bcf2b0a9840e85413d91ca",
+    "waldbow-114-entries.json": "4ced304e3bf3b6dbe44e8202d4aec44d1b98263959b3ee93e5ecf800f048798a",
+    "waldbow-114.json": "3c9d049544f17dbcbb455dc6d20b3bee41356fdfdbf16620b15e8bfa3e85b26c",
+    "waldbow-221-entries.json": "3f1b9e0a08b834f7f09b89dc1b595c1e324acc866928676d44293fc94d401463",
+    "waldbow-221.json": "a7f7c62d59ff504fc45975615b601d1bf6db95c6a837f2eece7b63f145d70bc5",
+    "waldbow-222-entries.json": "f706ada35fb0a8e64c2ca62aa5f1574d6c3f4faceb002a3318799da71f01d705",
+    "waldbow-222.json": "cfe59f445caf63db55d550117cfa70a80178dbeb9fdd46b0e471ddd360e6ea09",
+    "waldbow-224-entries.json": "cbc737e9fa3ffa21405b5016fa587bdbf77e407e85b6e41551916ad36cc5c35b",
+    "waldbow-224.json": "63cfd5794183edb57a558f40704fc86c5fb929bb8bb8ef6a6a1446ffdc800409",
+    "waldbow-225-entries.json": "e2215920ad4b3843d2af9f454354c4874d5b23aaa52c5e90ccd995b0d73d5093",
+    "waldbow-225.json": "ab1fdc8e126ba2413f39ad0bf2f60aeb34df7a454ac699101bfd89d50e5ef425",
+    "waldbow-228-entries.json": "0d30f27cbf524accbc355e86fccc38eee0307878d64f9a625434193a7f673fe1",
+    "waldbow-228.json": "44940941b6c0c12c4a764eb053bab55aeb7b41bc2b7a749cee90bbd6b6faba4a",
+    "waldbow-229-entries.json": "7305ac6c602c737aa1c51e802e4fcff53d19e0cdf03c45a7b48507ada31d861f",
+    "waldbow-229.json": "07ce746aec746f9753833e27576ebccf96ee98cf65198a70d07ff5aa6b70f3c4",
+    "waldbow-26-entries.json": "a93d256b636307c662501080fa1adbfb2e549bb0c8f968762b7b50190c5bdd9b",
+    "waldbow-26.json": "ab6ff588d1aae78406715720f43e64d379a9b86dc1bdba9e53b752f4f1145c4b",
+    "waldbow-272-entries.json": "80d422e00b79b7a582f5278ed76aeaa7dcc7627fc93e2a41774bf80a83197cef",
+    "waldbow-272.json": "1ee8576429fef5c83668cd5b2adb329cb544f12f8e47d442c4a1991a36f898c8",
+    "waldbow-273-entries.json": "72451ef096c183e55d3e4bc7f56d6c6540c470c0674d93810b2a56468617fc63",
+    "waldbow-273.json": "d409cfad3cef8950616fe2e99fde290530dcaaad812d213da9eca62b9ee3b39e",
+    "waldbow-274-entries.json": "3ca8cafc51011564cddfde8a9c4cb5581d8ebef1e24ded4368673b3f60042826",
+    "waldbow-274.json": "641e9be779cdb6e3699bef264d11f3fb08cbfee25f0addac0cc7a383214a491a",
+    "waldbow-28-entries.json": "0ae14b4c696fb44bfedf6a2a4fceecf563e5be0cc590947a21f427725227a13e",
+    "waldbow-28.json": "1ed669a723668c1396e9c1f07bbf0a3308988ede53f5a0dd5d218bbdf29e2560",
+    "waldbow-287-entries.json": "c2ecccfa42b5023bdd9610ef28786b86fa5a9701a54b254899a10ebbc888679d",
+    "waldbow-287.json": "03ad706aaa4425d5022bf39516daa89b618c0a8538ce1da71616542def7c90fa",
+    "waldbow-288-entries.json": "36f5bc622fda9aa23c36cfb70d82d3f7a3f3ae4697342e897296371ae5090bd3",
+    "waldbow-288.json": "59a05e2833a59f978280055e2e11c4001067ff466fd1f9efdbae4dd7c6263a0a",
+    "waldbow-65-entries.json": "00085d58651382bfc2496a5a64bec072afd9c28ce06bf2f3221733f3c28a1e32",
+    "waldbow-65.json": "ef161869f716fad5e475a5fc95e47f8b2361500f551748c5f6050d9db46a9f7f",
+    "waldbow-66-entries.json": "a22f906ad0d43976146d984898ae5b832dc2b12b89c218e80190be8886df6a12",
+    "waldbow-66.json": "e37d7bbff7db4df71f276d659941672bfded7ca95b178cbe45e4dc31ae439414",
+    "waldbow-801-entries.json": "ca71feaf916b599b37b518dd959840db5e713cadf110f7492c7f3bf034c2991a",
+    "waldbow-801.json": "36e1afe8133363023f7f67ddbf71ccb3d40e02c9b024958766fa57f126412bd0",
+    "waldbow-9-entries.json": "e6a45474b24880e5d8eda331cb1952e3e32d4814cd482c87ce861d8fcebf843d",
+    "waldbow-9.json": "6f60ddf96f2dcb9ec716155b1cea5ace4a75219d6a190a03cd45c2a0b5a62151"
+  },
+  "sourceEvidence": [
+    {
+      "eventId": "event-heist-ranking2",
+      "sourcePostUrl": "https://pf.kakao.com/_cNjMG/108521006",
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "images": [
+        {
+          "assetId": "asset-kakao-cNjMG-163124265",
+          "observedCourseLabel": "비기너1",
+          "url": "https://k.kakaocdn.net/dn/DwimA/btsMvMugVKv/IyHO6W9pCf3OtZRC3BsFF1/img_xl.jpg",
+          "sha256": "aa5185f6512fb3d6db60298a8c30959762a7198e155f414b5ce1028a40503b2c"
+        },
+        {
+          "assetId": "asset-kakao-cNjMG-163124266",
+          "observedCourseLabel": "비기너2",
+          "url": "https://k.kakaocdn.net/dn/cGCJUy/btsMxmH06fe/PgWh2aT54jCkGFzmalCrU0/img_xl.jpg",
+          "sha256": "0c77d4e977bb9cfc56299ecf7f3cada5845ae1e24757ea3b91de3ad6f70aacc4"
+        },
+        {
+          "assetId": "asset-kakao-cNjMG-163124267",
+          "observedCourseLabel": "노비스1",
+          "url": "https://k.kakaocdn.net/dn/34o2X/btsMt8LUJNe/HsoRv9SzjQvHwIYnR2TrJ0/img_xl.jpg",
+          "sha256": "7e35ae5379bb375b19a1065819e7188d4cce06c8a28fd15d40d07a76301f604c"
+        },
+        {
+          "assetId": "asset-kakao-cNjMG-163124268",
+          "observedCourseLabel": "노비스2",
+          "url": "https://k.kakaocdn.net/dn/xTypC/btsMv4VDgoO/E0kzMPekTRkIkzGvpl5yb1/img_xl.jpg",
+          "sha256": "8cce638195eb42088add676f27b1f0adc485e660f6407b701069db12b75808f8"
+        }
+      ]
+    }
+  ],
+  "sourceWarnings": [
+    {
+      "eventId": "event-heist-ranking2",
+      "assetId": "asset-kakao-cNjMG-163124265",
+      "code": "source_image_date_differs",
+      "message": "비기너1 결과표에 2025.02.25가 적혀 있어 기존 개최일 2025-02-23과 다릅니다. 기존 출진표와 나머지 결과표의 확인된 개최일을 유지하고 원본 이미지는 수정하지 않습니다."
+    }
+  ],
+  "validatedAt": "2026-10-10T20:38:09+09:00",
+  "scraperCommit": "7ae4fb7819dc3c12f71822d23dd26177c7d30248",
+  "scraperBranch": "main"
+}

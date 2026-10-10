@@ -124,6 +124,9 @@
           "1",
           "5.06"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -207,6 +210,9 @@
           "2",
           "5.21"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -375,6 +381,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -526,6 +535,9 @@
           "2",
           "5.81"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -660,6 +672,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -760,6 +775,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -843,6 +861,9 @@
           "-",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1011,6 +1032,9 @@
           "번외",
           "4.73"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1162,6 +1186,9 @@
           "1",
           "5.77"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1296,6 +1323,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1396,6 +1426,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1479,6 +1512,9 @@
           "1",
           "5.18"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1647,6 +1683,9 @@
           "번외",
           "4.67"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1798,6 +1837,9 @@
           "2",
           "5.48"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1932,6 +1974,9 @@
           "번외",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     }
   ],
@@ -1940,5 +1985,9 @@
     "no": "273",
     "title": "18일 토요일 오후 AG_Master_Tournament"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leagureRecord.do",
+  "eventId": "event-waldbow-273",
+  "categoryIds": [
+    "jpag_ranking"
+  ]
 }

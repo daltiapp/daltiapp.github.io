@@ -57,6 +57,9 @@
           "황*환",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -128,6 +131,9 @@
           "S************I",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -178,6 +184,9 @@
           "이*화",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -193,6 +202,9 @@
           "김*연",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -215,6 +227,9 @@
           "김*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -251,6 +266,9 @@
           "박*윤",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -273,6 +291,9 @@
           "김*찬",
           "발정"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -302,6 +323,9 @@
           "권*우",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -352,6 +376,9 @@
           "이*기",
           "발정"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -374,6 +401,9 @@
           "하*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -396,6 +426,9 @@
           "남*현",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -439,6 +472,9 @@
           "허*빈",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -503,6 +539,9 @@
           "황*환",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -567,6 +606,9 @@
           "김*윤",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -631,6 +673,9 @@
           "이*영",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -667,6 +712,9 @@
           "이*구",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -689,6 +737,9 @@
           "김*주",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -725,6 +776,9 @@
           "정*현",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -775,6 +829,9 @@
           "김*찬",
           "발정"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -860,6 +917,9 @@
           "양*수",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -924,6 +984,9 @@
           "이*기",
           "발정"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -953,6 +1016,9 @@
           "하*호",
           "-"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -996,6 +1062,9 @@
           "김*찬",
           "번외 / 발정"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -1053,6 +1122,9 @@
           "전*중",
           "번외"
         ]
+      ],
+      "categoryIds": [
+        "jpag_ranking"
       ]
     }
   ],
@@ -1061,5 +1133,9 @@
     "title": "제 60회 KKF WALDBOW AGILITY OPEN (4월12일 토요일)",
     "date": "2025-04-12"
   },
-  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do"
+  "sourceUrl": "https://waldbow.com/leaguePer/leaguePerList.do",
+  "eventId": "event-waldbow-224",
+  "categoryIds": [
+    "jpag_ranking"
+  ]
 }

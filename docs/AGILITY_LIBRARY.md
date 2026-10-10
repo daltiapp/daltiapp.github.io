@@ -94,6 +94,7 @@ PDC 출진표 4장과 코스맵 2장은 원문 응답의 PNG 원본 주소·MIME
 | `updatedAt` | 시간대가 포함된 ISO 8601 수정 시각. |
 | `channels` | 채널 ID·표시명·제공자·공식 주소 목록. 순서대로 채널 필터를 만들며 채널 수와 ID를 앱에 고정하지 않는다. 과거 응답과의 호환을 위한 선택 필드다. |
 | `mapCategories` | 맵 카테고리 ID와 앱 표시명. 자료가 없는 카테고리도 유지한다. |
+| `competitionCategories` | 출진표·결과·코스맵 공통 분류 ID·표시명. 새 앱은 이 목록으로 필터와 이름을 표시한다. |
 | `events` | 자료가 연결된 대회 정보 목록. 현재 4개 채널의 공개 기록을 전수 확인했으며, 미게시·삭제·비공개 대회까지 포함하는 전체 대회 명부는 아니다. |
 | `assets` | 대회 상세 및 구버전 앱 호환용 이미지 목록. |
 | `courseMapGroups` | 대회별 코스맵 묶음. 각 `maps` 배열에 해당 대회의 전체 코스맵 정보를 담는다. 기존 응답과 호환되는 선택 필드다. |
@@ -247,7 +248,9 @@ ID는 한 번 발급하면 제목·날짜·분류·URL을 수정해도 유지한
 - 채널 목록: `channels`의 순서와 `name`을 사용하며, 이미지의 `source.channelId`와 `provider`로 대회를 연결한다. 고정 채널 코드 목록을 사용하지 않는다.
 - 대회 상세: `asset.eventIds`에 대회 ID가 있는 항목을 찾고 `kind`로 출진표·코스맵·결과를 나눈다.
 - 전체 맵: `kind == "course_map"`인 항목을 사용한다. 대회 연결이 없는 맵도 포함한다.
-- 카테고리별 맵: 전체 맵 중 `mapCategories`에 선택한 카테고리 ID가 있는 항목을 사용한다.
+- 새 대회 분류: `competitionCategories`의 `id`로 참조를 연결하고 `name`을 그대로 표시한다. 대회명·채널·사이트·`competitionGroup`을 앱에서 다시 판별하지 않는다.
+- 분류별 결과: `eventGroups` 중 `resultIds`가 있고 `resultCategoryIds`에 선택 ID가 있는 대회를 사용한다.
+- 분류별 맵: `courseMapGroups[].categoryIds`에 선택 ID가 있는 대회를 사용한다. 개별 이미지 필터에는 `assets[].categoryIds`를 사용한다. 기존 4종 `mapCategories`는 구버전 앱의 호환 필드다.
 - 같은 게시물의 자료는 `source.imageOrder` 오름차순으로 보여준다. 게시물이 여러 개면 `source.publishedAt`으로 묶어 정렬하고 게시물별 첨부 순서를 유지한다.
 - 자료 목록이 비어 있으면 자료 없음 상태를 표시한다. 배열이 비었다는 이유만으로 원문에 자료가 게시되지 않았다고 단정하지 않는다.
 
@@ -378,3 +381,50 @@ NAS 재수집 시 유지할 종목은 스크래퍼의 `library/course-divisions.
 리즈의 AMA 코스 2장은 사용자 확인에 따라 비노랭킹전, PRO FINAL 코스 1장은
 점어랭킹전으로 분류한다. 현재 대회 코스맵 898장 모두 분류되었으며,
 점어승급전 215장·점어랭킹전 76장·비노승급전 108장·비노랭킹전 168장·AWC 331장이다.
+
+## 결과·코스맵 공통 분류 (2026-10-10)
+
+`20261010.12`부터 `competitionCategories`가 공통 분류 목록이다. ID·표시명·순서는
+위 5종과 동일하며, 앱은 JSON의 `id`로 연결하고 `name`을 그대로 표시한다.
+대회명·채널·사이트 host·`competitionGroup`을 이용한 앱의 분류 enum/switch 또는 문자열
+추론은 사용하지 않는다. 기존 `courseMapCategories`와 4종 `mapCategories`는 호환용으로 유지한다.
+
+| 필드 | 앱에서의 용도 |
+| --- | --- |
+| `events[].categoryIds` | 확인된 대회 전체 부문. 혼합 대회에는 여러 ID를 제공한다. |
+| `assets[].categoryIds` | 모든 종류에 공통인 자료 분류 ID. 맵은 `courseMapCategoryIds`와 동일하다. |
+| `assets[].categoryScope` | 분류 근거 범위: `asset`(이미지/종목), `post`(원문 게시물), `event`(확인된 대회 부문), `unclassified`(미확인). |
+| `eventGroups[].categoryIds` | 같은 eventId의 대회 전체 부문. 대회를 여러 개로 분할하지 않는다. |
+| `eventGroups[].resultCategoryIds` | 실제 결과 자료가 제공하는 분류 합집합. 결과 목록 필터에 사용한다. |
+| `eventGroups[].courseMapCategoryIds` | 실제 맵 자료의 분류 합집합. `courseMapGroups[].categoryIds`와 동일하다. |
+| `eventGroups[].entryListCategoryIds` | 실제 출진표 자료의 분류 합집합. |
+
+앱은 선택한 `competitionCategories[].id`가 `resultCategoryIds`에 있고 `resultIds`가
+비어 있지 않은 묶음을 결과 목록에 표시한다. 맵 목록은 `courseMapGroups[].categoryIds`로
+필터링한다. 분류별 이름과 건수는 공통 목록과 이 참조만으로 계산하며, 결과가 없는 AWC를
+앱 코드에서 특별히 제외할 필요가 없다. 해당 종류의 자료가 없으면 종류별 분류 배열도 `[]`다.
+코스맵에만 있는 부문을 결과 필터로 복사하지 않는다.
+
+10월 10일 WALDBOW OPEN은 같은 `event-waldbow-801` 묶음에
+`resultCategoryIds: ["jpag_ranking", "benov_ranking"]`와
+`courseMapCategoryIds: ["jpag_ranking", "benov_ranking"]`를 제공한다.
+개별 JP/AG 결과는 점어랭킹전, 익사이팅 결과는 비노랭킹전으로 제공하므로 앱에서 종목명을
+읽어 다시 분류하지 않는다. 원문 이미지에 부문이 없는 혼합 대회 결과는 확인된 대회 부문을
+모두 연결하고 `categoryScope: "event"`를 명시한다. 이는 각 행의 종목을 판독했다는 뜻이 아니다.
+근거가 없으면 빈 분류 배열을 유지하며 점어·비노 또는 랭킹전으로 임의 지정하지 않는다.
+
+사이트 표 40개에는 `eventId`, `categoryIds`, `groups[].categoryIds`를 추가한다.
+앱은 표의 각 그룹도 같은 공통 목록으로 표시·필터링할 수 있다. 기존 `columns`,
+`courseInfoColumns`, 마스킹 셀, 점수·순위·행별 코스 설정과 원문 순서는 유지한다.
+확인된 BE/NV/AD/EM·익사이팅은 비노, JP/AG는 점어로 내려간다.
+
+대회 166개·결과 1,379개·코스맵 898개·출진표 774개를 전수 확인했으며 분류 미확인은 0개다.
+결과가 있는 106개 대회와 맵이 있는 156개 대회를 각 종류의 분류로 조회할 수 있다.
+코스맵이 없는 제2회 하이스트는 원본 결과 4장의 비기너1·2, 노비스1·2를 확인해
+비노랭킹전으로 제공한다. 사용자 지정 AMA→비노랭킹전, PRO→점어랭킹전도 유지한다.
+기존 ID·이미지·기록을 보존하고 분류 수정의 신규 푸시 후보는 0건이다.
+검증 범위와 근거는 [공통 분류 검증 JSON](../review/library/20261010-competition-categories.json)에 기록한다.
+
+선택 필드 추가이므로 자료실·manifest의 schemaVersion과 활성 basePath는 유지한다.
+공통 목록을 제공하는 새 응답에서는 분류 필드 누락·ID 오타·중복·종류별 합집합 불일치를
+배포 오류로 처리한다. NAS는 수집 후와 배포 전에 동일한 필드를 다시 생성·검증한다.

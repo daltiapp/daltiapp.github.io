@@ -66,6 +66,10 @@
       },
       "description": "대회별 출진표·코스맵·결과 asset ID 참조. 결과 공개 전후 동일 eventId를 유지한다."
     },
+    "competitionCategories": {
+      "$ref": "#/properties/courseMapCategories",
+      "description": "출진표·대회결과·코스맵 공통 필터. 앱은 id로 연결하고 name을 그대로 표시한다."
+    },
     "courseMapCategories": {
       "description": "카테고리 id는 소문자 기계 식별자이며, 앱 표시에는 name을 사용한다. AWC의 id는 awc, 표시명은 AWC다.",
       "type": "array",
@@ -105,6 +109,21 @@
     }
   },
   "additionalProperties": false,
+  "allOf": [
+    {
+      "if": { "required": ["competitionCategories"] },
+      "then": {
+        "required": ["courseMapCategories", "courseMapGroups", "eventGroups"],
+        "properties": {
+          "events": { "items": { "required": ["categoryIds"] } },
+          "assets": { "items": { "required": ["categoryIds", "categoryScope"] } },
+          "eventGroups": {
+            "items": { "required": ["categoryIds", "entryListCategoryIds", "courseMapCategoryIds", "resultCategoryIds"] }
+          }
+        }
+      }
+    }
+  ],
   "$defs": {
     "mapCategory": {
       "type": "object",
@@ -183,6 +202,9 @@
             "null"
           ],
           "minLength": 1
+        },
+        "categoryIds": {
+          "$ref": "#/$defs/courseMapCategoryIds"
         }
       },
       "additionalProperties": false
@@ -401,6 +423,13 @@
         },
         "courseMapCategoryIds": {
           "$ref": "#/$defs/courseMapCategoryIds"
+        },
+        "categoryIds": {
+          "$ref": "#/$defs/courseMapCategoryIds"
+        },
+        "categoryScope": {
+          "enum": ["asset", "post", "event", "unclassified"],
+          "description": "분류 근거 범위: 이미지/종목, 원문 게시물, 확인된 대회 부문, 미확인. 미확인은 categoryIds가 빈 배열이다."
         }
       },
       "additionalProperties": false,
@@ -599,6 +628,18 @@
             "type": "string",
             "minLength": 1
           }
+        },
+        "categoryIds": {
+          "$ref": "#/$defs/courseMapCategoryIds"
+        },
+        "entryListCategoryIds": {
+          "$ref": "#/$defs/courseMapCategoryIds"
+        },
+        "courseMapCategoryIds": {
+          "$ref": "#/$defs/courseMapCategoryIds"
+        },
+        "resultCategoryIds": {
+          "$ref": "#/$defs/courseMapCategoryIds"
         },
         "resultIds": {
           "type": "array",
