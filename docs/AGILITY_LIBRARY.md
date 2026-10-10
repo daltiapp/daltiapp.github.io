@@ -314,3 +314,39 @@ AWC 전체 JSON은 [20261009-awc-full.json](../review/library/20261009-awc-full.
 생성 이미지 273장의 글자 경계, 공개 원본·썸네일 546개의 익명 GET·MIME·디코딩·
 해시와 신규 알림 후보 0건 검증은
 [표 가독성·체급 경계 검증](../review/library/20261010-waldbow-readable-tables.json)에 기록했다.
+
+## 코스맵 대회 분류 5종 (2026-10-10)
+
+앱의 새 코스맵 필터는 `courseMapCategories`를 순서대로 읽는다.
+기존 `mapCategories`와 `assets[].mapCategories`는 이전 앱의 4종 계약을 보존한다.
+새 필드는 선택적 추가이며 manifest의 `basePath`와 schemaVersion은 유지한다.
+
+| ID | 표시명 |
+| --- | --- |
+| `jpag_promotion` | 점어승급전 |
+| `jpag_ranking` | 점어랭킹전 |
+| `benov_promotion` | 비노승급전 |
+| `benov_ranking` | 비노랭킹전 |
+| `awc` | AWC |
+
+`assets[].courseMapCategoryIds`와 대회 묶음의 `maps[].courseMapCategoryIds`는 동일하다.
+`courseMapGroups[].categoryIds`는 해당 대회 맵의 분류 합집합이다. 앱은 이 필드로
+대회 목록을 필터링하고, 상세에서는 개별 맵의 분류를 사용할 수 있다.
+혼합 대회는 점어·비노 양쪽 목록에 같은 대회 ID로 표시하며 대회 묶음을 분해하지 않는다.
+
+JP·AG·점핑·어질리티와 해당 부문의 스타터·스탠다드·마스터는 점어,
+비기너·노비스·어드밴스드·익사이팅(Exciting Master 포함)은 비노다.
+승급/랭킹은 확인된 `events[].competitionGroup`을 우선하며 과거 원문에 ‘익사이팅 승급전’이라고
+적혀 있어도 확인된 랭킹전 종류를 적용한다. 발트바우 OPEN의 JP·AG 마스터는 점어랭킹전,
+익사이팅 코스는 비노랭킹전이다. AWC는 종목과 무관하게 AWC 한 분류에 포함한다.
+트레이닝맵은 대회가 아니므로 이 5종의 필터에 넣지 않으며 기존 자료는 보존한다.
+
+자료 제목·원문 게시물·확인된 대회 부문·원본 이미지의 종목 표기를 사용한다.
+숫자 제목 코스맵의 원본 확인 근거는 [분류 검증 기록](../review/library/20261010-course-categories.json)에,
+NAS 재수집 시 유지할 종목은 스크래퍼의 `library/course-divisions.json`에 저장한다.
+확인되지 않은 부문은 빈 배열로 보존하며 임의로 점어 또는 비노를 지정하지 않는다.
+새 카카오 코스맵은 실제 이미지에서 종목을 판독하고, 판독되지 않으면 기존 자료를 보존한다.
+
+리즈의 AMA 코스 2장은 사용자 확인에 따라 비노랭킹전, PRO FINAL 코스 1장은
+점어랭킹전으로 분류한다. 현재 대회 코스맵 898장 모두 분류되었으며,
+점어승급전 215장·점어랭킹전 76장·비노승급전 108장·비노랭킹전 168장·AWC 331장이다.
