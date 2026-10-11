@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "kind": "kkf-qa-review",
+  "environment": "qa",
+  "version": "e5abb94c88302669",
+  "noticeCount": 23,
+  "imageCount": 205,
+  "uniqueImageCount": 212,
+  "files": {
+    "records": {
+      "path": "kkf-results.json",
+      "sha256": "8d2643938c91a956ed045a493fb8f5cf4a01e623874a70e57819b9dce7e77fcb"
+    },
+    "gallery": {
+      "path": "gallery.json",
+      "sha256": "e5e66aa8b31a546d857e58ef0d9b355b3112ee339fe4551ea596c80a2e8ca7bb"
+    }
+  }
+}
