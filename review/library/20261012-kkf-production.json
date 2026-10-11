@@ -1,0 +1,3167 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-10-12T02:24:58.982163+09:00",
+  "scope": "KKF production static data and normal Android QA app",
+  "dataVersion": "20261012.1",
+  "manifestUrl": "https://daltiapp.github.io/agilitykorea-manifest.json",
+  "dataCommit": "139e5a96402d80d22b1fd2bc2f4fd175c7fe1aff",
+  "appCommit": "22c974eb6d827a85fe8c9be54ed5e4fa036d164b",
+  "dataset": {
+    "existingAssetsPreserved": 3051,
+    "existingEventsPreserved": 166,
+    "kkfNotices": 23,
+    "kkfImages": 207,
+    "htmlRecordFiles": 12,
+    "htmlRecordRows": 1295,
+    "unconfirmedRowsPublished": 0,
+    "imageOnly11007": 9,
+    "totalEvents": 189,
+    "totalAssets": 3258
+  },
+  "categoryEventCounts": {
+    "점어승급전": 15,
+    "점어랭킹전": 8,
+    "비노어승급전": 0,
+    "비노랭킹전": 8,
+    "AWC": 0
+  },
+  "categoryImageCounts": {
+    "jpag_promotion": 119,
+    "jpag_ranking": 27,
+    "benov_promotion": 0,
+    "benov_ranking": 61,
+    "awc": 0
+  },
+  "checks": {
+    "activeHarnessScopeAll": true,
+    "activeJsonFiles": 200,
+    "publicJsonFiles": 201,
+    "publicImages": 207,
+    "publicGetHashMimeDecode": "PASS",
+    "unrelatedActiveJsonHashes": 187,
+    "libraryViewsRecordSelectionsAndOrder": "PASS",
+    "flutterTestsCommittedSources": 1232,
+    "flutterSkippedFixtureTests": 3,
+    "communityContractsWorkingTree": 384,
+    "sharedContractTests": 6,
+    "nodeDocumentationRegressionTests": 10,
+    "scraperFocusedTests": 35,
+    "categoryReviewSourceGuards": 4,
+    "analyzeCommittedSources": "PASS",
+    "qaAppCheckCurrentDevice": "PASS"
+  },
+  "android": {
+    "package": "com.dalti.agilitykorea.qa",
+    "serial": "T813128GB25314473005",
+    "model": "iPlay 70 mini Pro",
+    "androidVersion": 15,
+    "versionName": "1.2.2-qa",
+    "versionCode": 45,
+    "entrypoint": "lib/main.dart",
+    "buildMode": "release",
+    "isolatedQaRootOverride": false,
+    "apkSha256": "e75907573e44458bd02f3a05bdae2ccb68d498d7f38071b65fa0f6028a7c26d4",
+    "checks": {
+      "productionManifestAndLibraryDownload": "PASS",
+      "kkfDateList23": "PASS",
+      "categoryLists15_8_0_8_0": "PASS",
+      "html9055RecordTableAndList": "PASS",
+      "recordReentryNotModified": "PASS",
+      "imageOnly11007NoRecordButton": "PASS",
+      "imageFullScreenAndSwipe1to2": "PASS",
+      "pdf10749SevenPageImages": "PASS"
+    }
+  },
+  "deployment": {
+    "pages": "success",
+    "pagesRun": "https://github.com/daltiapp/daltiapp.github.io/actions/runs/38158660393",
+    "appCi": "NOT_STARTED_ACCOUNT_BILLING_LIMIT",
+    "appCiRun": "https://github.com/neukdori/agilitykorea/actions/runs/38159232849",
+    "appCiReason": "Jobs did not start because recent account payments failed or the spending limit must be increased."
+  },
+  "limitations": [
+    "Physical UI sampled representative images and tables; all 207 images independently passed public GET/hash/decode.",
+    "11007 uses original low-resolution images; two deleted source PDFs remain unavailable and unconfirmed rows are not published.",
+    "APK includes existing unrelated working-tree changes; library and QA code match committed sources. No store release or production FCM broadcast performed.",
+    "App CI jobs did not execute due to the account billing/spending limit; local committed-source tests passed."
+  ],
+  "publicFiles": [
+    {
+      "path": "agilitykorea-manifest.json",
+      "status": 200,
+      "sha256": "1ef0020e6e47134404d25eb22bedabebfeea23f25a74b977f14d32ed7d81f77a"
+    },
+    {
+      "path": "ak/v3/club/club.json",
+      "status": 200,
+      "sha256": "fd60d4c8d5ef1bb92dc5693315bae1c6ae3053c734ccd6fd0ae65c7d0b4c9a2f"
+    },
+    {
+      "path": "ak/v3/club/clubs.json",
+      "status": 200,
+      "sha256": "4ef14b8e59538daa4b50f22278d91c2a8c3e7a5e6972a7f7f8ab7c7c948c15b5"
+    },
+    {
+      "path": "ak/v3/global/globalmatch.json",
+      "status": 200,
+      "sha256": "2a5cf7e437fb4efcb1c49dc55e10c63f7c2d68e25ebd7fe4808733e71853dee9"
+    },
+    {
+      "path": "ak/v3/library/library.json",
+      "status": 200,
+      "sha256": "f655aeaeda132d2410fb9b4d818bef9d5f969beeb4ea1112d36948120d190b95"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-10426.json",
+      "status": 200,
+      "sha256": "e43cf494e8f0e2e4822c02358f4ae9567d6eafac4bd50ad6edf0e7954521a5c5"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-8392.json",
+      "status": 200,
+      "sha256": "3ab18c19b6994fa1d22042a896a6e5b2a35c4d5f8c3d4de17ae2d9b1d3cc0db1"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-8491.json",
+      "status": 200,
+      "sha256": "95e9068de0564e25c42c79bc72c55a44b0864e8ab25bbbc80e2266375b5303cb"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-8642.json",
+      "status": 200,
+      "sha256": "1922ae76487ca4219f4116376f2afcce2e5864f65911e09877a9bd69a8460cc8"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-9055.json",
+      "status": 200,
+      "sha256": "b301621c8620435e36525e02a772dedbf85cc36258c596626972144ac44d1a6a"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-9302.json",
+      "status": 200,
+      "sha256": "56801976d8ef21be43aae2d295ffa22814c350e75cd174cb548140b077576074"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-9395.json",
+      "status": 200,
+      "sha256": "0c190ad26eb34ee316e3c543a526c461224a93ecf1c7a58f8db8cdf095855acc"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-9410.json",
+      "status": 200,
+      "sha256": "c0d97ef982548d97d54d490dc624a94021be913720cb39b121a87719d884005d"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-9532.json",
+      "status": 200,
+      "sha256": "a60b1e3d05dcba2033a2d468017b6d3d2b6fca59a05f44d7f37d695bb5a1379a"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-9590.json",
+      "status": 200,
+      "sha256": "4dbc5ed2817c2c33504cf5b46a2c7ed39d7a55c257ce0512409b86c6392f39fa"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-9708.json",
+      "status": 200,
+      "sha256": "0d63850fccc4d2360510dce13011607012eeca86a2484e8df33e75597dea1e87"
+    },
+    {
+      "path": "ak/v3/library/records/kkf-9763.json",
+      "status": 200,
+      "sha256": "f89bd7c09ff5241eeb07b438d6d692ecf9942a2e9e52caecb29af8ce3902d4e3"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-10-entries.json",
+      "status": 200,
+      "sha256": "a80b9fe111cd61966820cb1e31d3aefda7e1836764f531a7efd27c45d910ca03"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-10.json",
+      "status": 200,
+      "sha256": "44fc592b92263ef5e815355ecbe1562f02ed342498e78f0f65134d84690d3a74"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-113-entries.json",
+      "status": 200,
+      "sha256": "2ccb1fca1ac505ef807dc4111d73949ccfad72d1235557a251613f9ef2f7bc0a"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-113.json",
+      "status": 200,
+      "sha256": "0a0a4f6548a471e28991507eccf261705566755ac28821eb736383c7b6ff1e99"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-114-entries.json",
+      "status": 200,
+      "sha256": "5412a7e4c26844bfd3b843c9f392f3da44800d3bdfe3915f535db269818ecda3"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-114.json",
+      "status": 200,
+      "sha256": "fefa45ec653bdf214ab0b733cfabad274a8c2941cad1befea7723388a80e1a37"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-221-entries.json",
+      "status": 200,
+      "sha256": "c19c20f7b45fd9d406f814b2e08f30419b7540ce6c9af3fdda81f14dbc11bd7c"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-221.json",
+      "status": 200,
+      "sha256": "30df75d87e786bb40a88f0d0dd26be7a01c75a90a53f41085d6b0907a820de6b"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-222-entries.json",
+      "status": 200,
+      "sha256": "05541d3eb5566af85491c5b864a2fc021bfba60ad071a4fe7a12e35ffe616cd0"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-222.json",
+      "status": 200,
+      "sha256": "56bc6264e08b97b300f827437f90d7442c00bb05d4b03a992a0b2e32a86a2d67"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-224-entries.json",
+      "status": 200,
+      "sha256": "22ac10a23dcf5572a92b32cc1a7f6ea4b0a1b5da9b464a95ad45d0888738cfd3"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-224.json",
+      "status": 200,
+      "sha256": "a58cc52cec41be9e593cf1215bd39677aadfadf33802d7b8da41e56eaea807f2"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-225-entries.json",
+      "status": 200,
+      "sha256": "76adbeeceb4ee990efadc14708fba6341ac639e7a6a02f51655307f348cff132"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-225.json",
+      "status": 200,
+      "sha256": "6f8fb252a46c8821b1fb97102e3264829b6b4c3c7c86fe96c6d0f8eb03061765"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-228-entries.json",
+      "status": 200,
+      "sha256": "dca62a15c6b6ad13bf3de8f5cc8730f8b7133dadb4ef089bf5acf9434085437e"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-228.json",
+      "status": 200,
+      "sha256": "6e8c264a5d537d7b189365be0cf9d7d04190c12dcdc54c8b4ca4035ee97f50dc"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-229-entries.json",
+      "status": 200,
+      "sha256": "a37a2e4cfa4e0839bd370074cb5401401dd5167af5abf31cb78c1fb672561776"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-229.json",
+      "status": 200,
+      "sha256": "48b3949394471993491e46e7dfac11cd25d14bc7dd3cac3eaf81089868279ebf"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-26-entries.json",
+      "status": 200,
+      "sha256": "247a7b28cff3cf669daa17f393c2e82c6fd05f6d9a5a7e97f08c8a4f7213ecf1"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-26.json",
+      "status": 200,
+      "sha256": "8cda0de940d883e7eab93cf2ca0597c5d89437833769cb4e9529f58177fb3faf"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-272-entries.json",
+      "status": 200,
+      "sha256": "01e306ba49cfdd0668a2d668f7815906cd0cf4b73ae7d43092e5a81824155ff7"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-272.json",
+      "status": 200,
+      "sha256": "2770375995accb168eec88ec0f89e16dcb28408ee84657c2f8e22c98bf97dc33"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-273-entries.json",
+      "status": 200,
+      "sha256": "02c91b06bb5055d839e2987bf499c96519aad566a7d9c31d1134258d1a4aea23"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-273.json",
+      "status": 200,
+      "sha256": "0d4a741d531fab524d238d3c61a05e9f25654ae38a5ca8632ea7de861a770e21"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-274-entries.json",
+      "status": 200,
+      "sha256": "e6ea281d6206311b3efa3af3e9d42d667cf51e3c6d6561b7504567303dd23a32"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-274.json",
+      "status": 200,
+      "sha256": "437888f886b6064d9d0387a14cc2f8ac53082fb358554982e7402599a515f6fe"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-28-entries.json",
+      "status": 200,
+      "sha256": "c0fd591bb4468e950b7bb3943aa3181aea5398d4d8ba1343c96eb289f880373d"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-28.json",
+      "status": 200,
+      "sha256": "38b7055b38f3dabe9db879247809accd226d9464e5e69ea7ee1c84fabd0eaa28"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-287-entries.json",
+      "status": 200,
+      "sha256": "f109489601969faf0ea89de7788eb81978a90921df5fb337920886b945568f74"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-287.json",
+      "status": 200,
+      "sha256": "979baca461e75d5755b2db3c44304a67d7fee4618eebe9e2dee345f5c00e0b27"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-288-entries.json",
+      "status": 200,
+      "sha256": "41d111812dc6bb4e5ed1ea9d2d056416f7b807e3fcb2138451029f0230345b2c"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-288.json",
+      "status": 200,
+      "sha256": "122e28139c05638d44c097d9b0e963c668afb013fd713f9cda44bf1b3be14243"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-65-entries.json",
+      "status": 200,
+      "sha256": "0ea19f2986dc0c7a8cebeebba9c1cc144ff36d9ee0540d0f9759895815a67265"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-65.json",
+      "status": 200,
+      "sha256": "66f6ece1d67f1b9949e5b1e379ce20f9a3a21790b18803d20eade68145d08ba9"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-66-entries.json",
+      "status": 200,
+      "sha256": "6cd63d002e7f6aa4ef3a976cc846fe70e023bde0dbcfff0c5e5c59e56ea80502"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-66.json",
+      "status": 200,
+      "sha256": "6fe6da6bb01b9df75be98838b97c2dc26764530c5b320f9058527534d03b9c99"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-801-entries.json",
+      "status": 200,
+      "sha256": "9f426cb2b21b88c6ffee694f4a68d5c449c29aeb0e425366f615a6324e44d98d"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-801.json",
+      "status": 200,
+      "sha256": "edbc25ea320fb3de9529411730ff9b2347016424642acc9e692b238db7110fcb"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-9-entries.json",
+      "status": 200,
+      "sha256": "f8ee8929dca106406193da77d1575b5c553793309c8069d6bef2feb3cac1c079"
+    },
+    {
+      "path": "ak/v3/library/records/waldbow-9.json",
+      "status": 200,
+      "sha256": "da349f888e95a9c3788d8620d9efdfe3af61c382aa3cb95bb10e6ac2fe7a65ea"
+    },
+    {
+      "path": "ak/v3/main/menu.json",
+      "status": 200,
+      "sha256": "3c5ccefa4e763a2b41043bd10ab04f3104457ef33ed1b0be54a6fa7707932de4"
+    },
+    {
+      "path": "ak/v3/main/menu_v1.json",
+      "status": 200,
+      "sha256": "fb66d6fe405e25be829aa26747cddceec6b464a7432b689e8ac8cddb3e2a441f"
+    },
+    {
+      "path": "ak/v3/match/match.json",
+      "status": 200,
+      "sha256": "a9b11661469686bc31becf85a4a8adfe22783d0d3f01e85943ea68574fbc6851"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/100.json",
+      "status": 200,
+      "sha256": "6214f3b25ecf220890191a3796530a0defc3da4584bd4b27cee29626cc3e493a"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/101.json",
+      "status": 200,
+      "sha256": "65f34c01fb03c45a304bdf4a9ff281db1083cdbc0aca6fd1ff5b98a25e0ed412"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/102.json",
+      "status": 200,
+      "sha256": "8d90b1985b6be366cadcd070d672a61f73034735335943b0decac45b665b11e3"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/103.json",
+      "status": 200,
+      "sha256": "8a067c4f386977ee4f7de9347284282348ccf6c9510e81f1e300c0c2acdec5ae"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/104.json",
+      "status": 200,
+      "sha256": "7180ce6a1079ad08ea7bd0ecd2b1e19e1e411d4ef60aad05184cf3f2a5a9a239"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/105.json",
+      "status": 200,
+      "sha256": "057d063e515eb2b3231542dac611838f398ab9788be0d144a58d1fb885db4e89"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/106.json",
+      "status": 200,
+      "sha256": "649e7666a4052006982a30acf61aa7fd44cfadcb68d512a915a871e36453dc9e"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/107.json",
+      "status": 200,
+      "sha256": "887bd0178a3a73d31143524b15460494a54be4665b6e7e7d6862b814110ae328"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/108.json",
+      "status": 200,
+      "sha256": "6826834f13af0d2dc462da52c48f5bc64db0759cfd858b1fea8a57367a0b96de"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/109.json",
+      "status": 200,
+      "sha256": "8b9f8053aebd3658703107fdbebaf11470c7001450f249e427587de436a9370e"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/110.json",
+      "status": 200,
+      "sha256": "e1e97fafb86ffb54859796942b539c07b96546187cf9a1c8b443b8d5fe63725a"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/111.json",
+      "status": 200,
+      "sha256": "c0cd21dd4f0aa84545166ffdeefd5b543357170777e39e6d104f918d1bc3252c"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/112.json",
+      "status": 200,
+      "sha256": "565b4985b89b3ce8ba0d16d652f5c48a4cebb7683fe4ca103350e70aad7a3504"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/113.json",
+      "status": 200,
+      "sha256": "ffeec7c90ebff265bc68d6e0c39317e4471dfb3a5c0d0a196bb129e02832e814"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/114.json",
+      "status": 200,
+      "sha256": "cfb48ca395ef641154cffccb92e6166d52d47e22278bb4a5f457771386a07251"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/115.json",
+      "status": 200,
+      "sha256": "e11bb27e8e7a4514431d7a087350b69780b3af39627959c8ac3862931b6918b2"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/116.json",
+      "status": 200,
+      "sha256": "765478784b9ed96c629269cad7ea2bcd49c1f8dc8f2c389aac36517142616b38"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/117.json",
+      "status": 200,
+      "sha256": "0c51c8bf189ab64048510168048fb8f4a47983c2c661653f72bc64a9c96476b4"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/118.json",
+      "status": 200,
+      "sha256": "2692614f145d96865cf4293adf65db774d7ee1e4e1496dc56dd5920f051ab66c"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/119.json",
+      "status": 200,
+      "sha256": "d3a93501932e5a24adc4b46186d3da6a140b18a9c644716b0518a493fa86c4fa"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/120.json",
+      "status": 200,
+      "sha256": "a65bb8d958e33870ac57addda2d67428db1f7e3e3394dac6b3d6ff12889a6d74"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/121.json",
+      "status": 200,
+      "sha256": "f605576a8bf1509046fba1b32b868eeca002ac6aacd7ed14604e7e5e9fe1a980"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/122.json",
+      "status": 200,
+      "sha256": "7c2dbcfae7ac3477cfd3f542c50a17c98f84eeab0a14562fa0305854123ef73e"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/123.json",
+      "status": 200,
+      "sha256": "a2ec30223b3572abebec248c36ffd7f653c69559b325b78d50e8881a9e5a2f38"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/124.json",
+      "status": 200,
+      "sha256": "04fb9c342c2ca6ddabf7ae5dd6a2c5294056a59c91ed908de871b69f3d36c9a6"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/125.json",
+      "status": 200,
+      "sha256": "a0aa9fd29525af9ef44b06b2b7fcc4e8fc47d4ee772402c278d94fe8e28572d9"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/126.json",
+      "status": 200,
+      "sha256": "24b0dc5a2ac08f0bedf38dbfe8d8927db2627102c6ab606976fa4c5f9ddb3bdf"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/127.json",
+      "status": 200,
+      "sha256": "1aa21af1f2b4a5e82ab2af142eb5d840460c167da832a25590653d4bb166e474"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/128.json",
+      "status": 200,
+      "sha256": "8c83544fb9037d932f2c993ab242b546ca444bf49ee845514c8aeb40dc3704fb"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/129.json",
+      "status": 200,
+      "sha256": "239ed026da965018f52b04041cf2efdd2bf197810a67692dac95611df3100d87"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/91.json",
+      "status": 200,
+      "sha256": "dfd60f4b740859895185217920e35dd43a6f735c6197e7a6da0375d578fb6905"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/92.json",
+      "status": 200,
+      "sha256": "4b439e8f22f033546c55aeb599596bbd874359ee330187e363c8e0360cad92e5"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/93.json",
+      "status": 200,
+      "sha256": "7ec0a532e9301ae8190e08d67be18681d51cf17ac932c9a4084bbed665bf5fec"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/94.json",
+      "status": 200,
+      "sha256": "c987b4dab5446549e62e3329c6c795f830dc535a73372270c3d27cbd5bb5284a"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/95.json",
+      "status": 200,
+      "sha256": "f11ff76373a2b88399efc221e54c24a01e24d11a28a64b60943cc97dd925a08f"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/96.json",
+      "status": 200,
+      "sha256": "a067242e3d5716825ca540f502ac9bb2dd7fa2ee18854b1404aca1ec81607a57"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/97.json",
+      "status": 200,
+      "sha256": "92b12be8068695c5cc25dbb4e5f3b836b885c4f392fd1b6107857c66764e254f"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/98.json",
+      "status": 200,
+      "sha256": "06ffb5df8001f80187281c74da4b2b7970fc04ca33448b92ca844fa1ede29801"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/99.json",
+      "status": 200,
+      "sha256": "cd25e603cd1a7cc0982709e4f91f9c4eea0b7186851468ea403c0d07ac6641d1"
+    },
+    {
+      "path": "ak/v3/notice/dongsa/notice_dongsa.json",
+      "status": 200,
+      "sha256": "abcb2570e2566cbed9ab5b8c21a59e8dda2244204f3c16dec424b6ec26a6bdd5"
+    },
+    {
+      "path": "ak/v3/notice/kkc/130.json",
+      "status": 200,
+      "sha256": "7062f0ff680b6d347862b47faabe6efa845d3f7cfa8bf4131d6d05c8a69f6f89"
+    },
+    {
+      "path": "ak/v3/notice/kkc/131.json",
+      "status": 200,
+      "sha256": "f1da82d546bc37426ee9ad55671c0ab806a87df95d5a578d4bc27119a80568d3"
+    },
+    {
+      "path": "ak/v3/notice/kkc/132.json",
+      "status": 200,
+      "sha256": "865bf91bae6947d40cf219a2bcf152655f1033ba17ccdfd9739d5953378a2125"
+    },
+    {
+      "path": "ak/v3/notice/kkc/133.json",
+      "status": 200,
+      "sha256": "d6f9948494d1d098c5d2c846ea213ff281af89237531d573fce88aff5daff557"
+    },
+    {
+      "path": "ak/v3/notice/kkc/134.json",
+      "status": 200,
+      "sha256": "eecedcd63de5d1404717be024b17d6210a63a6e92f77137be7d205a616ce987e"
+    },
+    {
+      "path": "ak/v3/notice/kkc/135.json",
+      "status": 200,
+      "sha256": "1553df70f06c11d6d0b765a8cf0fe3916f8595476c63a64febd3293c0709d255"
+    },
+    {
+      "path": "ak/v3/notice/kkc/notice_kkc.json",
+      "status": 200,
+      "sha256": "99e53ba28a49acbe92830202eab392a0a240a903ed4f9564149e1119b3b27662"
+    },
+    {
+      "path": "ak/v3/notice/kkf/1.json",
+      "status": 200,
+      "sha256": "f6ec09365ec6d805545e3bd44ebea6bf5d143c027e50fa4689aa2051288ed0e2"
+    },
+    {
+      "path": "ak/v3/notice/kkf/10.json",
+      "status": 200,
+      "sha256": "f2d769475598ec67ce249efef36151d421640a2b0fd5b0a547d96dc351409023"
+    },
+    {
+      "path": "ak/v3/notice/kkf/11.json",
+      "status": 200,
+      "sha256": "fb17a1132eb5c37a0897936a465d2b58d8dda9b81410f8346ac891be6d10779a"
+    },
+    {
+      "path": "ak/v3/notice/kkf/12.json",
+      "status": 200,
+      "sha256": "a332e5d437ae9cf058bdda4611c6b01e919ed6825bbe4cae97cae3df96d46eab"
+    },
+    {
+      "path": "ak/v3/notice/kkf/13.json",
+      "status": 200,
+      "sha256": "042a5b49e8d869863b4f72622ecd1b7c83e84c840e5820eae2dda9855c7af0fe"
+    },
+    {
+      "path": "ak/v3/notice/kkf/14.json",
+      "status": 200,
+      "sha256": "d34d67ec4c0a4e4a72d4c1b55afce7b622989dd493951e0a6f86811e1ca37aef"
+    },
+    {
+      "path": "ak/v3/notice/kkf/15.json",
+      "status": 200,
+      "sha256": "982cb425faaf1258015e1ebea2bf52bbfde003324020d037fa85030bdf305310"
+    },
+    {
+      "path": "ak/v3/notice/kkf/16.json",
+      "status": 200,
+      "sha256": "b0d839f228d9fd3569c0ff6b0edeb02734956558c9373c45f9c2ac7159031a8e"
+    },
+    {
+      "path": "ak/v3/notice/kkf/17.json",
+      "status": 200,
+      "sha256": "b3b7d172672636070c551ea7ad90c80a3faef1d5f603b401eeeba57c5b950cb0"
+    },
+    {
+      "path": "ak/v3/notice/kkf/18.json",
+      "status": 200,
+      "sha256": "d89098809d9e3d2f2fd03b82379414e7dade761cb9b15e397d3753b0e845a3a2"
+    },
+    {
+      "path": "ak/v3/notice/kkf/19.json",
+      "status": 200,
+      "sha256": "c0b98407ce46482da3e5e79183d8e73eefda6dcf39ccdf032165bf97d752f271"
+    },
+    {
+      "path": "ak/v3/notice/kkf/2.json",
+      "status": 200,
+      "sha256": "25ae14f7a1d316c99ab30f46a4ca8d89126c7fd4c62bbed22b03ee6be7aad7a9"
+    },
+    {
+      "path": "ak/v3/notice/kkf/20.json",
+      "status": 200,
+      "sha256": "fceb57476378c818779ba13742380d9c9240409c5b4452f008e755c944f03b6f"
+    },
+    {
+      "path": "ak/v3/notice/kkf/21.json",
+      "status": 200,
+      "sha256": "4f9738012396dbc80d587a7da057d871af85e0d48de165a78564aa8c77d51b93"
+    },
+    {
+      "path": "ak/v3/notice/kkf/22.json",
+      "status": 200,
+      "sha256": "bd0d6bbe9216234883b7b252ce4b4344867f052b0ba48356cdd0cd65c0b9004e"
+    },
+    {
+      "path": "ak/v3/notice/kkf/23.json",
+      "status": 200,
+      "sha256": "8bcc42090425242a352ee04bcd338879068dba6adbdced121eae3dea24c5b0c7"
+    },
+    {
+      "path": "ak/v3/notice/kkf/24.json",
+      "status": 200,
+      "sha256": "21e3330d2601be7142e3c24c637859529f7fb52bb2507dc1fcf79d98b1837b32"
+    },
+    {
+      "path": "ak/v3/notice/kkf/25.json",
+      "status": 200,
+      "sha256": "0d9c32b5b57bc0ad3bdc2ff7859c92de2e1c951875376877f5e5c7721aa656e8"
+    },
+    {
+      "path": "ak/v3/notice/kkf/26.json",
+      "status": 200,
+      "sha256": "6f35892fc5c09dcc403e3a4e9ba5f029e0b3e1de4b1a7c30e28e1626c4fff534"
+    },
+    {
+      "path": "ak/v3/notice/kkf/27.json",
+      "status": 200,
+      "sha256": "e048aacdfde06f5599842e12b0cf2c788abdec3aed63d624639e97ce1fc33b79"
+    },
+    {
+      "path": "ak/v3/notice/kkf/28.json",
+      "status": 200,
+      "sha256": "ff2989ba76eb0db2bdfbfac664310b32ded61dd4be88da1f9bcf5c944b8d3d34"
+    },
+    {
+      "path": "ak/v3/notice/kkf/29.json",
+      "status": 200,
+      "sha256": "2082beb8e30c999e0dc533979504a0f9895e5f609a75794028022b6f180b62d1"
+    },
+    {
+      "path": "ak/v3/notice/kkf/3.json",
+      "status": 200,
+      "sha256": "d491e3bee6c332e02469572dc0b49525c39edaafa5dde335c5af4afdece2fe3e"
+    },
+    {
+      "path": "ak/v3/notice/kkf/30.json",
+      "status": 200,
+      "sha256": "0d2fbec2e5779156852d36b7778135e1c64e15eb24f244d8de037e25213b2013"
+    },
+    {
+      "path": "ak/v3/notice/kkf/31.json",
+      "status": 200,
+      "sha256": "de632e26aa7b413e05576dccba7e4f274ca3d7ea690ec943d7581927dd207490"
+    },
+    {
+      "path": "ak/v3/notice/kkf/32.json",
+      "status": 200,
+      "sha256": "b7e7be8d49325318563b7c2c60dcbf5e1e2451c999e22957db6f7c9c9fdfcb22"
+    },
+    {
+      "path": "ak/v3/notice/kkf/33.json",
+      "status": 200,
+      "sha256": "fedfa1659f232c48fa7ee0cd0560c4ff5f5a53ed06fcf4efd1c9e575396f7daf"
+    },
+    {
+      "path": "ak/v3/notice/kkf/34.json",
+      "status": 200,
+      "sha256": "ba1422a580face46f39ddd5bfb76dd74f0de0ad2932c5a30d2a5d633b37268ce"
+    },
+    {
+      "path": "ak/v3/notice/kkf/35.json",
+      "status": 200,
+      "sha256": "5aae7da94e3e9df318f9ad31a0e053bbf69c76a43d2370d58b80ded684c0cf2d"
+    },
+    {
+      "path": "ak/v3/notice/kkf/36.json",
+      "status": 200,
+      "sha256": "d11f1670c5bee89aef45506bd20b1f45119aa0ce0fcf2ff4152b39caf5aa402a"
+    },
+    {
+      "path": "ak/v3/notice/kkf/37.json",
+      "status": 200,
+      "sha256": "d588da1cd37ee292a6d92505a3859fbabe3a1110e1128c7ec815c9a0603456fe"
+    },
+    {
+      "path": "ak/v3/notice/kkf/38.json",
+      "status": 200,
+      "sha256": "1268a559e5a082e54d68584c68435d58044102a5052b679d09289828fef22718"
+    },
+    {
+      "path": "ak/v3/notice/kkf/39.json",
+      "status": 200,
+      "sha256": "0def967eadaa27df70d796afdd0336fdda92ff65202abe78345e4ff579c3712e"
+    },
+    {
+      "path": "ak/v3/notice/kkf/4.json",
+      "status": 200,
+      "sha256": "6f63ce3ab8b71d2cf9ae783d8204790896050c3c959a4bbb8321ffb354d357a9"
+    },
+    {
+      "path": "ak/v3/notice/kkf/40.json",
+      "status": 200,
+      "sha256": "31fa1ea7aaf9d8fb17e15074c2d5dd5848255e3b4212b6fdbbc0e891f1a5aa3b"
+    },
+    {
+      "path": "ak/v3/notice/kkf/41.json",
+      "status": 200,
+      "sha256": "36c792cd6408b53fa496af9db3c439112a1984fc0b4d034e718dd9a691aa7dc6"
+    },
+    {
+      "path": "ak/v3/notice/kkf/42.json",
+      "status": 200,
+      "sha256": "33d4991002427f99aed0d2288d6557ca8e5691e146973b7d2ce6865f86fa8172"
+    },
+    {
+      "path": "ak/v3/notice/kkf/43.json",
+      "status": 200,
+      "sha256": "4ed19cf30dceaf17cc327a873743634dedae4fcf4ee250db12cf668c324a2a34"
+    },
+    {
+      "path": "ak/v3/notice/kkf/44.json",
+      "status": 200,
+      "sha256": "63e6f49545838d22d70db851110eb9106243a285e265452ad8056b2d75c1a569"
+    },
+    {
+      "path": "ak/v3/notice/kkf/45.json",
+      "status": 200,
+      "sha256": "9c0b5cc54372904a8267060972e4c5250cbf05b8b9318282255ee56a288b150b"
+    },
+    {
+      "path": "ak/v3/notice/kkf/46.json",
+      "status": 200,
+      "sha256": "a1eecb2dc86b78fcd7ada90ae96432c36c2b208e3c264594cf0af3b19a5221eb"
+    },
+    {
+      "path": "ak/v3/notice/kkf/47.json",
+      "status": 200,
+      "sha256": "fcf09c0aca43b82cef988ff4e086347670fba63782699eee84e67f944b50dec9"
+    },
+    {
+      "path": "ak/v3/notice/kkf/48.json",
+      "status": 200,
+      "sha256": "ab9b730249e48e568a3119e08f399f017b595d12713560301929d737374ccda7"
+    },
+    {
+      "path": "ak/v3/notice/kkf/49.json",
+      "status": 200,
+      "sha256": "8d8f5cf294559a8918325f214d422b1718f0a0689a03397fc6e75584d7755480"
+    },
+    {
+      "path": "ak/v3/notice/kkf/5.json",
+      "status": 200,
+      "sha256": "46d34c1857301142dc68674d010763fe6444df9de8a8f38f360ddcb5fc859f31"
+    },
+    {
+      "path": "ak/v3/notice/kkf/50.json",
+      "status": 200,
+      "sha256": "02b63b326c1b5c2f1dcf8675548d50c409109cca2ab7037560e1321cefe2ddfc"
+    },
+    {
+      "path": "ak/v3/notice/kkf/51.json",
+      "status": 200,
+      "sha256": "636e3b86dc080fef7fea7ba78c0653305c561c7e6f53f13d6d8ae9db541f6ff8"
+    },
+    {
+      "path": "ak/v3/notice/kkf/52.json",
+      "status": 200,
+      "sha256": "8b6b4f754cba9d8f38628ca864ecbb17c42304d8bf92b7fdcbfdad3edc230e28"
+    },
+    {
+      "path": "ak/v3/notice/kkf/53.json",
+      "status": 200,
+      "sha256": "ffd7913f42797ff562e6211b38b7500fad497cee2fa4eb0913c63e67f7ed55c1"
+    },
+    {
+      "path": "ak/v3/notice/kkf/54.json",
+      "status": 200,
+      "sha256": "e2ac3cd75f2658c5d4496ac89dbd357ecc9aa2037ea83713bdd7f99f34c45f1d"
+    },
+    {
+      "path": "ak/v3/notice/kkf/55.json",
+      "status": 200,
+      "sha256": "837fff29f2a3166fe72d26aacb0a04f645ccdb6cda07721a89ce78a3825253f3"
+    },
+    {
+      "path": "ak/v3/notice/kkf/56.json",
+      "status": 200,
+      "sha256": "6af8365637f6024d585b912083184f8667d3ef268170bfc1a9fd44d0e4c0fce9"
+    },
+    {
+      "path": "ak/v3/notice/kkf/57.json",
+      "status": 200,
+      "sha256": "ae5e9b15ebec8ec956d547a8ffaa2b295b07b4d11dee53420bd827c7880a0ad0"
+    },
+    {
+      "path": "ak/v3/notice/kkf/58.json",
+      "status": 200,
+      "sha256": "107ccc2cb141e6ba304ff2523fc83f29d48d38b42ea01091182cfe3bf5f110fb"
+    },
+    {
+      "path": "ak/v3/notice/kkf/59.json",
+      "status": 200,
+      "sha256": "f15287ac35182638434a97b3cf2c02ca8ba095c970a4c146ec3fb0db71fb5bcd"
+    },
+    {
+      "path": "ak/v3/notice/kkf/6.json",
+      "status": 200,
+      "sha256": "322db3c152b8e84bcb82f30e7d6f419230753ca7a0649504edc6da32dd1151cd"
+    },
+    {
+      "path": "ak/v3/notice/kkf/60.json",
+      "status": 200,
+      "sha256": "85ff118a6c7adcdaa62fe27798a04c087e354205983ccdc5721d06d2725637ca"
+    },
+    {
+      "path": "ak/v3/notice/kkf/61.json",
+      "status": 200,
+      "sha256": "781e14dd5fd5512cd7e326977521d5f6f8deaa79eb9e524b755406adc1f27bd3"
+    },
+    {
+      "path": "ak/v3/notice/kkf/62.json",
+      "status": 200,
+      "sha256": "7388c7cf26fecdba6ddf07e1178afbd2bcc73bd764ce3ab504005cf10efd4274"
+    },
+    {
+      "path": "ak/v3/notice/kkf/63.json",
+      "status": 200,
+      "sha256": "ee5dddb20321aed2923cc98f5c09c92e48e4082e7ee8ab799a0a2606d85f7261"
+    },
+    {
+      "path": "ak/v3/notice/kkf/64.json",
+      "status": 200,
+      "sha256": "3260d57131b555735519f060d3f1e67ba42d618377332b46a589a2ba3967d032"
+    },
+    {
+      "path": "ak/v3/notice/kkf/65.json",
+      "status": 200,
+      "sha256": "c705ea9607e1cd991b27f88088aa9cca98bf3905ea1874a9b84f5dcb31891b1d"
+    },
+    {
+      "path": "ak/v3/notice/kkf/66.json",
+      "status": 200,
+      "sha256": "0f08fb7573b3f4a50083d5f0c33616d17a398ada24b7b9dc92c4632fb4bb2a24"
+    },
+    {
+      "path": "ak/v3/notice/kkf/67.json",
+      "status": 200,
+      "sha256": "fae365265d645c59c4a4f0ec7b5cf56f19aad4cd7efef2423168339374484f53"
+    },
+    {
+      "path": "ak/v3/notice/kkf/68.json",
+      "status": 200,
+      "sha256": "0d8b584c7f35a5c9b0f6da903b83d16391dd965a922f8b76755c6619b11abd9f"
+    },
+    {
+      "path": "ak/v3/notice/kkf/69.json",
+      "status": 200,
+      "sha256": "ab8beb6ae86d0a82091a3b35481180764c3ebfe92ef1f8ec8696911d49b7a666"
+    },
+    {
+      "path": "ak/v3/notice/kkf/7.json",
+      "status": 200,
+      "sha256": "42f28940681bafea372940252442878adba6945fddfcdd76da91bc53e941757f"
+    },
+    {
+      "path": "ak/v3/notice/kkf/70.json",
+      "status": 200,
+      "sha256": "323e9bb318a385edb1ecc9f1bb610b9f623dae46eee295f7357057b11fcf76f7"
+    },
+    {
+      "path": "ak/v3/notice/kkf/71.json",
+      "status": 200,
+      "sha256": "ad424c6bd975accf6ef2007559a1f34ec321bf08b4a53d5265d95729236be7c7"
+    },
+    {
+      "path": "ak/v3/notice/kkf/72.json",
+      "status": 200,
+      "sha256": "b4a4418cdc4214ae0b0983e814738f90d8a50b21343163a4ba49af2b9579900a"
+    },
+    {
+      "path": "ak/v3/notice/kkf/73.json",
+      "status": 200,
+      "sha256": "dbc2fbb28c62eba30cc3c520c5da707f453a84852a6cedfc47a4ec28775afb2f"
+    },
+    {
+      "path": "ak/v3/notice/kkf/74.json",
+      "status": 200,
+      "sha256": "13f3942d63cacef30e406e2b2df2043d363d1bdbe1fd32212797eb79ea436baa"
+    },
+    {
+      "path": "ak/v3/notice/kkf/75.json",
+      "status": 200,
+      "sha256": "86f545dd1347ed3348a8efc84a08ef6d4ffdd4b145b461017708f1ec0319b3da"
+    },
+    {
+      "path": "ak/v3/notice/kkf/76.json",
+      "status": 200,
+      "sha256": "e81dd7c9f20e309cf242a6a0ec02c13f597ce753fa3a8e49e29a3f2f26a9a2ee"
+    },
+    {
+      "path": "ak/v3/notice/kkf/77.json",
+      "status": 200,
+      "sha256": "ec204fee4a083152e5a613c5d89aba57db7c0eeffe6c073672b2ba78a5d5a0ea"
+    },
+    {
+      "path": "ak/v3/notice/kkf/78.json",
+      "status": 200,
+      "sha256": "f536a505e5ece45c2a782ae3ac00d862c8a41524b281dbfc740bec77dc60cd99"
+    },
+    {
+      "path": "ak/v3/notice/kkf/79.json",
+      "status": 200,
+      "sha256": "5f7ab62b500f49b2d27d30671115ef94b98df59749574f0e8d7081456ed04137"
+    },
+    {
+      "path": "ak/v3/notice/kkf/8.json",
+      "status": 200,
+      "sha256": "87d659ece5c9410c533873ae7fe09f62cddea19ba21eca8edd33440d65723e8e"
+    },
+    {
+      "path": "ak/v3/notice/kkf/80.json",
+      "status": 200,
+      "sha256": "9b7b2a958d5f4567fc2b43ac0fe67ba3807da788b1a2ba4af5e2c10802431933"
+    },
+    {
+      "path": "ak/v3/notice/kkf/81.json",
+      "status": 200,
+      "sha256": "c39a84bfcd32796160c8662fb7a20c18b6f68e76b470c688dc77fd9f89592e62"
+    },
+    {
+      "path": "ak/v3/notice/kkf/82.json",
+      "status": 200,
+      "sha256": "d2a91258a3fd560c4ec4b290e119bc3b9fe717a6b8973d20dc1e100e2f9db267"
+    },
+    {
+      "path": "ak/v3/notice/kkf/83.json",
+      "status": 200,
+      "sha256": "408cdf78fc2e040ef688aa183a2cff66402b2ba7c11b68fab2cb067891fcfa23"
+    },
+    {
+      "path": "ak/v3/notice/kkf/84.json",
+      "status": 200,
+      "sha256": "3ac954cef8c9f2da32f0a2aa126c7c41919eed24e81c7bf7ff4c05dde06f7ebe"
+    },
+    {
+      "path": "ak/v3/notice/kkf/85.json",
+      "status": 200,
+      "sha256": "e1219c9296d8af14e466136dedb8fb289f9123b379f30c3095a3a9186c7cae86"
+    },
+    {
+      "path": "ak/v3/notice/kkf/86.json",
+      "status": 200,
+      "sha256": "b2e879551673b0522b8f51a1eceb9ce2d591abe5fe78e28f2fb4425817a0939e"
+    },
+    {
+      "path": "ak/v3/notice/kkf/87.json",
+      "status": 200,
+      "sha256": "fe38ea9bf6d1c2ae043e5690b1c1fc327604843424d68533513a9bb5d67f4272"
+    },
+    {
+      "path": "ak/v3/notice/kkf/88.json",
+      "status": 200,
+      "sha256": "4666b362e1195a54088657db1444ab3ae4bb9d424626be6d425be6bcda0d2ea1"
+    },
+    {
+      "path": "ak/v3/notice/kkf/89.json",
+      "status": 200,
+      "sha256": "f1663e0faece2520eb6902f6b137d02c896e99cf61db527dd5e888862c10a98b"
+    },
+    {
+      "path": "ak/v3/notice/kkf/9.json",
+      "status": 200,
+      "sha256": "bf02b4a90dd37c98050b5343f023a726b3f07fb974979edb9d2351c34e13665f"
+    },
+    {
+      "path": "ak/v3/notice/kkf/90.json",
+      "status": 200,
+      "sha256": "d0f1ffa1fcbdb6f57ea2544e623d60a13b8c0faf1ba01eadb861dca4934b0587"
+    },
+    {
+      "path": "ak/v3/notice/kkf/notice_kkf.json",
+      "status": 200,
+      "sha256": "5e4d1cf65c9ea3c3141f23f29d74f570fe279121d49b514def9b00defe955af1"
+    },
+    {
+      "path": "ak/v3/notice/notice.json",
+      "status": 200,
+      "sha256": "795bc0291bde35eca6022b744aa631277ce007d24f5091fb57d31a9099390f6d"
+    },
+    {
+      "path": "ak/v3/seminar/seminar.json",
+      "status": 200,
+      "sha256": "52c896e1bf8b5b9f2ef7fe32cb9fa7aac0811fe429e9951cb7751e1809b6750a"
+    },
+    {
+      "path": "ak/v3/venue/venue.json",
+      "status": 200,
+      "sha256": "85e955caf5a48863795ddd52ab642f172e1cd4f80fe08906e203fa0c1a028f61"
+    }
+  ],
+  "publicMedia": [
+    {
+      "assetId": "kkf-12451-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12451-001.png",
+      "sha256": "98409b65de123d9b2fc6c35bec30b94967bc31b29d69239786854f66e1d5f3e6",
+      "mimeType": "image/png",
+      "width": 958,
+      "height": 1055,
+      "status": 200,
+      "bytes": 103994
+    },
+    {
+      "assetId": "kkf-12451-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12451-002.png",
+      "sha256": "03020b7de6225a831d4dbd1dcbfdd932cbeea4d4df66e75be077681e5d579834",
+      "mimeType": "image/png",
+      "width": 1000,
+      "height": 1243,
+      "status": 200,
+      "bytes": 573434
+    },
+    {
+      "assetId": "kkf-12451-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12451-003.png",
+      "sha256": "ece099d0e7dd12873c6e733e7d16ac69e38e7ea63c9d47ad30fece0e26a225d8",
+      "mimeType": "image/png",
+      "width": 949,
+      "height": 926,
+      "status": 200,
+      "bytes": 90839
+    },
+    {
+      "assetId": "kkf-12451-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12451-004.png",
+      "sha256": "77167e9e473f39bd87f0858495b6fd3a0771df61e6c1866253abedcbaca487d7",
+      "mimeType": "image/png",
+      "width": 949,
+      "height": 970,
+      "status": 200,
+      "bytes": 92929
+    },
+    {
+      "assetId": "kkf-12451-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12451-005.png",
+      "sha256": "db8c13cd31c9f2cabbd8752705dba0e7c9c20577ae80513d5c46acde0714392f",
+      "mimeType": "image/png",
+      "width": 1000,
+      "height": 1209,
+      "status": 200,
+      "bytes": 533677
+    },
+    {
+      "assetId": "kkf-12451-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12451-006.png",
+      "sha256": "5dc3ccbb43e0ac3a35c413dadad93cefed3e0d0d810a82ae324e905ee7ad2faa",
+      "mimeType": "image/png",
+      "width": 936,
+      "height": 1014,
+      "status": 200,
+      "bytes": 98953
+    },
+    {
+      "assetId": "kkf-12120-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12120-001.jpg",
+      "sha256": "a94c2e0978aa51f954369db6de340b5c50316934ef4152f0c1b3752f6d23785f",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 378273
+    },
+    {
+      "assetId": "kkf-12120-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12120-002.jpg",
+      "sha256": "be758a2a3655abb515fce4e0ca45c21535dddfd6bfe2148d701d3c9e893f7061",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 478487
+    },
+    {
+      "assetId": "kkf-12120-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12120-003.jpg",
+      "sha256": "8bc508e6c80a6796493803901e8f6e45b7665ff309bee9f577a38c9894446d40",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 407224
+    },
+    {
+      "assetId": "kkf-12120-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12120-004.jpg",
+      "sha256": "2feaa2a4560528e173ceb5ae14024452225c4ab6d4c6bf14afcebba26de96da1",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 436198
+    },
+    {
+      "assetId": "kkf-12120-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12120-005.jpg",
+      "sha256": "3af9b151c380185fb3bbc6c36d4641c73e4283acbf51e551234b5d70819e88eb",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 406866
+    },
+    {
+      "assetId": "kkf-12120-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12120-006.jpg",
+      "sha256": "798a84e69341644b0442f2631a260406d8bea75dd56388df29b063f0f8da282e",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 407487
+    },
+    {
+      "assetId": "kkf-12120-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12120-007.jpg",
+      "sha256": "c3be634e5b8cf21c7e58d18bc4af75a161d6c370b27f1dd3cd22eb55b888f32e",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 281882
+    },
+    {
+      "assetId": "kkf-12119-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12119-001.jpg",
+      "sha256": "0d733f01528529e6b921be54827a43e09259cb9bf3e54c890181813b303caa5e",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 345488
+    },
+    {
+      "assetId": "kkf-12119-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12119-002.jpg",
+      "sha256": "7fca6bfa78d6dbc01b45e0f01d580fa3790be0ea1942c1f69417b2510428b971",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 454458
+    },
+    {
+      "assetId": "kkf-12119-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-12119-003.jpg",
+      "sha256": "0d48c65952bd7483f3eb4b960ce33d2dec4065dea05bbd94810e0f45ca7e258b",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 390254
+    },
+    {
+      "assetId": "kkf-11700-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11700-001.jpg",
+      "sha256": "1189ba03143e83ee16ae9b084f65c78b9f455815beaf6502b7c019d161312a8d",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 879,
+      "status": 200,
+      "bytes": 237526
+    },
+    {
+      "assetId": "kkf-11700-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11700-002.jpg",
+      "sha256": "b250e5f19955b71270a0812c76de7596287758b4a433f7b4df7e4d195651de8a",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1171,
+      "status": 200,
+      "bytes": 344459
+    },
+    {
+      "assetId": "kkf-11700-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11700-003.jpg",
+      "sha256": "c7de9e3c05d468c4b25f516a01c8522b458a893ba22cbdff32c84ee26dcfedc6",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1197,
+      "status": 200,
+      "bytes": 344839
+    },
+    {
+      "assetId": "kkf-11700-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11700-004.jpg",
+      "sha256": "d2882e84ec88f7286ddb61a1b247803307baaf671b9f001af2ae30deb90e604a",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1191,
+      "status": 200,
+      "bytes": 334342
+    },
+    {
+      "assetId": "kkf-11700-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11700-005.jpg",
+      "sha256": "b9c6b152559c6f8a1844edcfa311535cfd5bb82cc8c8ff6a80ba647a3b9558ca",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1057,
+      "status": 200,
+      "bytes": 320300
+    },
+    {
+      "assetId": "kkf-11700-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11700-006.jpg",
+      "sha256": "68ddb8bf78c741fd6e15d17ee700976a17cb8322249b6b0d1fde24651c5ef2c0",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1168,
+      "status": 200,
+      "bytes": 390412
+    },
+    {
+      "assetId": "kkf-11700-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11700-007.jpg",
+      "sha256": "f14075e6856ee103cfa1f03b89b081c3f3b6bdb045584888b266713d49253a5f",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1212,
+      "status": 200,
+      "bytes": 405104
+    },
+    {
+      "assetId": "kkf-11700-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11700-008.jpg",
+      "sha256": "cd62889ba26e480d27adba2d0a89e529f5aa68584d944cf9d96ae6838c8a1a2a",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 628,
+      "status": 200,
+      "bytes": 186604
+    },
+    {
+      "assetId": "kkf-11007-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-001.jpg",
+      "sha256": "0af71e09833290b94cbe3357deff302cf427dc18765f1bc7122df654c9763cbe",
+      "mimeType": "image/jpeg",
+      "width": 644,
+      "height": 684,
+      "status": 200,
+      "bytes": 96050
+    },
+    {
+      "assetId": "kkf-11007-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-002.jpg",
+      "sha256": "90ed3df9eaca52200278b0679bae215031ee82a80ea8af45075dfa7c86312303",
+      "mimeType": "image/jpeg",
+      "width": 632,
+      "height": 829,
+      "status": 200,
+      "bytes": 181633
+    },
+    {
+      "assetId": "kkf-11007-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-003.jpg",
+      "sha256": "ed853d77dce70009692c14a60adc7eed40e762aaabdaa544f7a2586b466c9790",
+      "mimeType": "image/jpeg",
+      "width": 636,
+      "height": 859,
+      "status": 200,
+      "bytes": 164070
+    },
+    {
+      "assetId": "kkf-11007-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-004.jpg",
+      "sha256": "e6e230e4075cfce5ca96fe3df0f18f50145d8426ae357b3695292b130d9f7b32",
+      "mimeType": "image/jpeg",
+      "width": 637,
+      "height": 812,
+      "status": 200,
+      "bytes": 173775
+    },
+    {
+      "assetId": "kkf-11007-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-005.jpg",
+      "sha256": "47a7ed37691a18784b2720d8806d8890eae3b5c4a41d4b92e01d715d31544a25",
+      "mimeType": "image/jpeg",
+      "width": 636,
+      "height": 806,
+      "status": 200,
+      "bytes": 184259
+    },
+    {
+      "assetId": "kkf-11007-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-006.jpg",
+      "sha256": "4cfc81e2183a2cf43941fb469f018008714ef0f0bdf5f05bc0bd913b69878d31",
+      "mimeType": "image/jpeg",
+      "width": 639,
+      "height": 818,
+      "status": 200,
+      "bytes": 197404
+    },
+    {
+      "assetId": "kkf-11007-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-007.jpg",
+      "sha256": "5b21b421a4d3a1dcf3daf59a2835c3ebe9ed99741e3b8c453646f8a9cac8ef64",
+      "mimeType": "image/jpeg",
+      "width": 638,
+      "height": 783,
+      "status": 200,
+      "bytes": 196298
+    },
+    {
+      "assetId": "kkf-11007-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-008.jpg",
+      "sha256": "e0dc9210123206414d85b68a13cae248e911ddda041b0bf41b8e61ea713e7e0e",
+      "mimeType": "image/jpeg",
+      "width": 635,
+      "height": 772,
+      "status": 200,
+      "bytes": 188592
+    },
+    {
+      "assetId": "kkf-11007-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11007-009.jpg",
+      "sha256": "a34544495ebe4942688f1ce934d93084cd7a4a73486a18e9a603c6366b78cea3",
+      "mimeType": "image/jpeg",
+      "width": 700,
+      "height": 593,
+      "status": 200,
+      "bytes": 303192
+    },
+    {
+      "assetId": "kkf-10749-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10749-001.png",
+      "sha256": "2520bd59fb707656cdaf6563dc5651ae537e01d738ab3700f317f1872c76cea3",
+      "mimeType": "image/png",
+      "width": 1819,
+      "height": 2314,
+      "status": 200,
+      "bytes": 1408327
+    },
+    {
+      "assetId": "kkf-10749-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10749-002.png",
+      "sha256": "a8d33e4e61416c9c61e0b5bd8580faf435114ed2025dcf3eaf058753bef98c26",
+      "mimeType": "image/png",
+      "width": 1819,
+      "height": 2833,
+      "status": 200,
+      "bytes": 1741335
+    },
+    {
+      "assetId": "kkf-10749-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10749-003.png",
+      "sha256": "945671aa68accfe4a17b2a98e3680b0583500c288751711af4a997490f9356b3",
+      "mimeType": "image/png",
+      "width": 1819,
+      "height": 2915,
+      "status": 200,
+      "bytes": 1853381
+    },
+    {
+      "assetId": "kkf-10749-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10749-004.png",
+      "sha256": "f5f6bc9870ac40acd01d7543203edd7be1cd49c187699d72e32112a10354a6c9",
+      "mimeType": "image/png",
+      "width": 1819,
+      "height": 2154,
+      "status": 200,
+      "bytes": 1296061
+    },
+    {
+      "assetId": "kkf-10749-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10749-005.png",
+      "sha256": "1aa8b039fc78e73c2498db39be42b8c6c04f9766205f571df0af3e07d2bf7064",
+      "mimeType": "image/png",
+      "width": 1819,
+      "height": 2824,
+      "status": 200,
+      "bytes": 1836324
+    },
+    {
+      "assetId": "kkf-10749-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10749-006.png",
+      "sha256": "c6763811e6a17bc63dd1d3ca6c8969f863fe143406d2291fccf80594c36824e4",
+      "mimeType": "image/png",
+      "width": 1819,
+      "height": 2973,
+      "status": 200,
+      "bytes": 1891839
+    },
+    {
+      "assetId": "kkf-10749-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10749-007.png",
+      "sha256": "d9a56b3cbeadeecc4492edba0c77ee092444a85343d47cb823a1c2c5d7038c87",
+      "mimeType": "image/png",
+      "width": 1819,
+      "height": 2210,
+      "status": 200,
+      "bytes": 1328003
+    },
+    {
+      "assetId": "kkf-10426-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10426-001.png",
+      "sha256": "c374e4f64001416a66fbeae20f487885ca9033beb59624b5c0ea45dde726f9e6",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2114,
+      "status": 200,
+      "bytes": 239961
+    },
+    {
+      "assetId": "kkf-10426-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10426-002.png",
+      "sha256": "8034e000002ddc0771d65a267ca200e71b63248ed8fa58f38711c88574d05396",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1866,
+      "status": 200,
+      "bytes": 202370
+    },
+    {
+      "assetId": "kkf-10426-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10426-003.png",
+      "sha256": "e6f43bd2d80b54ab79dab45c2b0c78a7942acbfa4d3b92bc0cfe32ac6e0b59b5",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1556,
+      "status": 200,
+      "bytes": 173204
+    },
+    {
+      "assetId": "kkf-10426-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10426-004.png",
+      "sha256": "d7a306be1bf903714387e919c8aac07f3fd817d50cf2f66e1c6b6110fd82c2de",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 664,
+      "status": 200,
+      "bytes": 77561
+    },
+    {
+      "assetId": "kkf-10426-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10426-005.png",
+      "sha256": "defeb69939abd69739e66ede075446f193dce669a0d4f89d101106880b836476",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1742,
+      "status": 200,
+      "bytes": 195613
+    },
+    {
+      "assetId": "kkf-10426-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10426-006.png",
+      "sha256": "3889410d89855612ab6d0f93a3f2c0d12568b65d78ce543eb4b32e4567de1e34",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1308,
+      "status": 200,
+      "bytes": 148623
+    },
+    {
+      "assetId": "kkf-10426-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10426-007.png",
+      "sha256": "a7f90ca0ef88caed0b88b893c820fb5738f461f4f70dd31100147e5184da5bf1",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 664,
+      "status": 200,
+      "bytes": 79221
+    },
+    {
+      "assetId": "kkf-9302-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9302-001.png",
+      "sha256": "25423e0edc56ec2df91f2dd84d3116dce85c124428e506b8490d0d8d522cf853",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 760,
+      "status": 200,
+      "bytes": 99722
+    },
+    {
+      "assetId": "kkf-9302-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9302-002.png",
+      "sha256": "65a832e6ff13ebca8b238ff9ba23465c6c1b87b6ab0fc4b43f36b3027faaad99",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1442,
+      "status": 200,
+      "bytes": 194876
+    },
+    {
+      "assetId": "kkf-9302-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9302-003.png",
+      "sha256": "eda29e9d42a65846e32ce85ba65b4200c7bd14325e1def258d1ba004928b6dd7",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1194,
+      "status": 200,
+      "bytes": 138589
+    },
+    {
+      "assetId": "kkf-9302-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9302-004.png",
+      "sha256": "c29855540e7b9bb63b67867870bc805e295f77f44fbf69de8941ee4bcb7eedfb",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 84488
+    },
+    {
+      "assetId": "kkf-9302-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9302-005.png",
+      "sha256": "53600523d083ffe385bb9d6d19323e9ee3af0d1a728993396941915eff2844aa",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1194,
+      "status": 200,
+      "bytes": 159079
+    },
+    {
+      "assetId": "kkf-9302-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9302-006.png",
+      "sha256": "042c49e5b666cdce87ca907d269b0d111a775c10cf44a67370b89395b267a051",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1070,
+      "status": 200,
+      "bytes": 128139
+    },
+    {
+      "assetId": "kkf-9055-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-001.png",
+      "sha256": "2288fec462e0c600d099afe51833d8138504f586af7f854a0303af2d355c6f8e",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2602,
+      "status": 200,
+      "bytes": 265963
+    },
+    {
+      "assetId": "kkf-9055-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-002.png",
+      "sha256": "5c7247f8feb217e1964e7e6f3abf281f4b4e671a6e32d27c463b1ec585a50fc6",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2734,
+      "status": 200,
+      "bytes": 248861
+    },
+    {
+      "assetId": "kkf-9055-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-003.png",
+      "sha256": "da0cf3e98a811128fcab3c83cf70ad1e5eabc06cdffbd132abefde85a2f752cc",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 756,
+      "status": 200,
+      "bytes": 80532
+    },
+    {
+      "assetId": "kkf-9055-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-004.png",
+      "sha256": "bec2b679b6f1b0be77580403aa90cf7fb7205761ec69a079ac10e085be07de00",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1396,
+      "status": 200,
+      "bytes": 158719
+    },
+    {
+      "assetId": "kkf-9055-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-005.png",
+      "sha256": "746a90ca20174851f36ffa58669c6eee6b2d6bf1ad9b995160bc6a77e90b1cc9",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1290,
+      "status": 200,
+      "bytes": 145967
+    },
+    {
+      "assetId": "kkf-9055-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-006.png",
+      "sha256": "bd17984e619cd24fa6a6893e93627f3c438ef3c2a1a3341bf489145f97bad941",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1820,
+      "status": 200,
+      "bytes": 195277
+    },
+    {
+      "assetId": "kkf-9055-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-007.png",
+      "sha256": "b52403917864df9e599484716655983aa12e8d01cc362755b0969410ac2ccf8f",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1286,
+      "status": 200,
+      "bytes": 142491
+    },
+    {
+      "assetId": "kkf-9055-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-008.png",
+      "sha256": "1689bac2c53a37fbaf188cc40ade7607f3a3b858fc41dab61ebe4b2e07b7a37e",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1186,
+      "status": 200,
+      "bytes": 131245
+    },
+    {
+      "assetId": "kkf-9055-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-009.png",
+      "sha256": "1b0a8056e4aeb02b3a94422bac9f5dcb18e237fe6ea4894be91ad7dc57369559",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1362,
+      "status": 200,
+      "bytes": 153660
+    },
+    {
+      "assetId": "kkf-9055-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-010.png",
+      "sha256": "6ae826048111a2d102d225758a9680d6c1a11f90b979f30ce4c86e3c954e518a",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1248,
+      "status": 200,
+      "bytes": 133567
+    },
+    {
+      "assetId": "kkf-9055-011",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-011.png",
+      "sha256": "13220213c49b4f30476a2dd598f2093bc006f7de3384a6b41db07451b2ee2c2c",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1224,
+      "status": 200,
+      "bytes": 136555
+    },
+    {
+      "assetId": "kkf-9055-012",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9055-012.png",
+      "sha256": "112a0f01eaea1452c9e1aa1bad37494d56b4c6f4ff7afbf49fd6f72b1684fd1f",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1286,
+      "status": 200,
+      "bytes": 143030
+    },
+    {
+      "assetId": "kkf-8894-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8894-001.jpg",
+      "sha256": "0e3fb4c41c62875ce1649c7567cce77226dc118a0c8073d1c756a57c2862c39a",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 171277
+    },
+    {
+      "assetId": "kkf-8894-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8894-002.jpg",
+      "sha256": "b2ff640aff8f05ad1c41206d88614019ebb69056611580d6bd47876f79a87fdb",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 230508
+    },
+    {
+      "assetId": "kkf-8894-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8894-003.jpg",
+      "sha256": "841f5e7b0227a08a1a328961a3f361ac9e175e874d94b0a0c74ff8535f0333b6",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 157805
+    },
+    {
+      "assetId": "kkf-8894-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8894-004.jpg",
+      "sha256": "63f824de2c214b6da6f9b08ca12a593402e2f43c2ec3e0bc03b090ac8cff6e7b",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 149223
+    },
+    {
+      "assetId": "kkf-8894-005-1-jpag-relay",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8894-005-1-jpag-relay.png",
+      "sha256": "4ea6831471f1dc1d422ccb8da01dda5a3766a0301ab52ea58629a6481f744a2d",
+      "mimeType": "image/png",
+      "width": 880,
+      "height": 570,
+      "status": 200,
+      "bytes": 105871
+    },
+    {
+      "assetId": "kkf-8894-005-2-benov-award",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8894-005-2-benov-award.png",
+      "sha256": "07d8400dac594ccaa64bf7e354cb2670c4aed66631695162d84211c3c21068fe",
+      "mimeType": "image/png",
+      "width": 880,
+      "height": 159,
+      "status": 200,
+      "bytes": 22434
+    },
+    {
+      "assetId": "kkf-8894-005-3-jpag-award",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8894-005-3-jpag-award.png",
+      "sha256": "30a8367ba8df3569afec38e89b67004b91ef1c9f06a816a0618e0c5869098446",
+      "mimeType": "image/png",
+      "width": 880,
+      "height": 304,
+      "status": 200,
+      "bytes": 37809
+    },
+    {
+      "assetId": "kkf-8710-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8710-001.jpg",
+      "sha256": "bb12e89bfe107cb9a835e1595b42da261dbe03cec3b4ac44e421ef951304f86f",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 140553
+    },
+    {
+      "assetId": "kkf-8710-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8710-002.jpg",
+      "sha256": "1047ec1959a03eae7a0f442bf33aeb70d4d0ff5b5928fa7901b23744a602a0f7",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 189003
+    },
+    {
+      "assetId": "kkf-8710-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8710-003.jpg",
+      "sha256": "d929d4c2f28b484782e5a00cfe853de33552003cb9821e9efb48d1c027672e90",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 116033
+    },
+    {
+      "assetId": "kkf-8710-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8710-004.jpg",
+      "sha256": "720eddfd0a115dde7ae9076fbe3dff3bf56038a9620d4e74e91dfea3b6a7a6fc",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 114866
+    },
+    {
+      "assetId": "kkf-8710-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8710-005.jpg",
+      "sha256": "d9af3228761130b80df7d72441497be4b7f547b33cffda0aba2a7ecb7c14bf82",
+      "mimeType": "image/jpeg",
+      "width": 992,
+      "height": 1403,
+      "status": 200,
+      "bytes": 66645
+    },
+    {
+      "assetId": "kkf-8642-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8642-001.png",
+      "sha256": "be5218a7db53c14932866530461a17aa5467d2dd229d8ca6fbe8ff2822b03015",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2314,
+      "status": 200,
+      "bytes": 237984
+    },
+    {
+      "assetId": "kkf-8642-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8642-002.png",
+      "sha256": "78a51cfab1dab183b849beff30ef5600f09da68f259ddd8d96e8818a6a240e88",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 7146,
+      "status": 200,
+      "bytes": 432593
+    },
+    {
+      "assetId": "kkf-8642-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8642-003.png",
+      "sha256": "b53a33161d6808ef0119fe87fc86ca94f4606495a38d483b51aa08aa0ed6cf48",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 5406,
+      "status": 200,
+      "bytes": 344303
+    },
+    {
+      "assetId": "kkf-8642-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8642-004.png",
+      "sha256": "654195145fcd87ec260820219c258bd43c8ac2c971ad22e3188f018e49dfbc8e",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 3156,
+      "status": 200,
+      "bytes": 196788
+    },
+    {
+      "assetId": "kkf-8642-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8642-005.png",
+      "sha256": "f6461fd7634a72c509b4ba7cdcbb03f75066f9b143f4e7adfb9bcd6baa6fa30c",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 3980,
+      "status": 200,
+      "bytes": 274244
+    },
+    {
+      "assetId": "kkf-8642-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8642-006.png",
+      "sha256": "d32dd3188585f2b5f4d07bf8cb383b52cb0800cfb753bf711a27a0e1b5f008ac",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1898,
+      "status": 200,
+      "bytes": 158860
+    },
+    {
+      "assetId": "kkf-8642-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8642-007.png",
+      "sha256": "10dcff41e50ab01dca90ff3880d5851ec1785a18e3e7dfa59caec18119c15d4b",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 3728,
+      "status": 200,
+      "bytes": 257516
+    },
+    {
+      "assetId": "kkf-8642-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8642-008.png",
+      "sha256": "519ce8aea89e415fe79cfc1ceaaf2403ac316f8c981ddc27108fe8efa31f5bff",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2264,
+      "status": 200,
+      "bytes": 173388
+    },
+    {
+      "assetId": "kkf-8491-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-001.png",
+      "sha256": "7d9fd776bc0074bca811a547610aca42334fad8fd6e13a409567c3af401138d0",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1582,
+      "status": 200,
+      "bytes": 163510
+    },
+    {
+      "assetId": "kkf-8491-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-002.png",
+      "sha256": "bb5f4e5d4f75e72ed394cfd9c00a76b06b4138f65a2b5ddb54065f4b1a47e7db",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1892,
+      "status": 200,
+      "bytes": 193877
+    },
+    {
+      "assetId": "kkf-8491-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-003.png",
+      "sha256": "0f413d95ae330e3ab0795feb9aac4e39640722862b1ccc7d30f8add743db5a61",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2662,
+      "status": 200,
+      "bytes": 240755
+    },
+    {
+      "assetId": "kkf-8491-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-004.png",
+      "sha256": "a3192ba714041e39ad122e3f86617e6ee46d80654f62d0e50f5a7c9af4403310",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2896,
+      "status": 200,
+      "bytes": 266564
+    },
+    {
+      "assetId": "kkf-8491-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-005.png",
+      "sha256": "63dda01aef45e7487aa38e76a7abfc5bb2e268d33018758de2b79e019ad1dfe3",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2254,
+      "status": 200,
+      "bytes": 233473
+    },
+    {
+      "assetId": "kkf-8491-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-006.png",
+      "sha256": "96d8515b5ef072a4ff575b6e6f2ee8bbe992fc7f07cb6c1b975c35877fc89076",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1334,
+      "status": 200,
+      "bytes": 147244
+    },
+    {
+      "assetId": "kkf-8491-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-007.png",
+      "sha256": "41c2550984eeefe0b334d146ebde139297b5f2ff9e7d4e327f8ebb202ec9544d",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1710,
+      "status": 200,
+      "bytes": 189478
+    },
+    {
+      "assetId": "kkf-8491-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-008.png",
+      "sha256": "51b4e96b100128771ca0797f085bac314af98c70b3febdb1020edcfca671471c",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1510,
+      "status": 200,
+      "bytes": 162795
+    },
+    {
+      "assetId": "kkf-8491-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-009.png",
+      "sha256": "fb8c360c737ebc648fc89291554cb0f76cbdf3fec4ff21f6fda924cfdf59fc85",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1848,
+      "status": 200,
+      "bytes": 186197
+    },
+    {
+      "assetId": "kkf-8491-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8491-010.png",
+      "sha256": "e72f1b24321935b56c04c5bbd55ca53b9e29a0947c316a2ff5c5d7f0afd80b24",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1472,
+      "status": 200,
+      "bytes": 156065
+    },
+    {
+      "assetId": "kkf-8392-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-001.png",
+      "sha256": "fa16a0edbdaef033b75a04b941469617b02d82d465678e918a9901859685f83b",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2956,
+      "status": 200,
+      "bytes": 317151
+    },
+    {
+      "assetId": "kkf-8392-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-002.png",
+      "sha256": "1d49d86bddeadc096250370199889cd4c558f5e938966fb60193b911028054eb",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2956,
+      "status": 200,
+      "bytes": 328065
+    },
+    {
+      "assetId": "kkf-8392-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-003.png",
+      "sha256": "a7a38e0759a733dbd5d77b2e236d2e9e363cf006050a3b5fe8366000847f6821",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2956,
+      "status": 200,
+      "bytes": 323680
+    },
+    {
+      "assetId": "kkf-8392-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-004.png",
+      "sha256": "c857d793f4e13d6e43b9bee0693ec419a5505b9c44216368622fa743efefd809",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2174,
+      "status": 200,
+      "bytes": 247268
+    },
+    {
+      "assetId": "kkf-8392-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-005.png",
+      "sha256": "604344f41b4ec624ed3430704dfffd2e3f44be4eeb8fc78f959189e0980133f2",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2236,
+      "status": 200,
+      "bytes": 257278
+    },
+    {
+      "assetId": "kkf-8392-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-006.png",
+      "sha256": "225dc37030e6e3745ab289d1343237cfabac2b17ea6c3652a37245abd64039fa",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1592,
+      "status": 200,
+      "bytes": 191404
+    },
+    {
+      "assetId": "kkf-8392-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-007.png",
+      "sha256": "1db3b8aafe8b360a871a2b1aea89e2fcf4462df58ace489e7d684bfe247930ce",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1018,
+      "status": 200,
+      "bytes": 121089
+    },
+    {
+      "assetId": "kkf-8392-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-008.png",
+      "sha256": "1937e987db142733ea501bc42ae11d0e7b4f248705574c2bf543573748500732",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1148,
+      "status": 200,
+      "bytes": 147614
+    },
+    {
+      "assetId": "kkf-8392-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-009.png",
+      "sha256": "51d4bb2dffae100c4a83af644ee5a3040a8cf426b984bddc58f4b79a55d916de",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1086,
+      "status": 200,
+      "bytes": 141495
+    },
+    {
+      "assetId": "kkf-8392-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-8392-010.png",
+      "sha256": "69c5f7b5be3a6c380a4296a7a5d0ccfc8f9b2421d17a6755c33a9e65e4e97ef8",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 756,
+      "status": 200,
+      "bytes": 95781
+    },
+    {
+      "assetId": "kkf-11699-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-11699-001.png",
+      "sha256": "e29f57172dfcddb8c1f3abeb604065ae5936087e5dc1fbf39fdf69f4f22ccbba",
+      "mimeType": "image/png",
+      "width": 503,
+      "height": 1051,
+      "status": 200,
+      "bytes": 58508
+    },
+    {
+      "assetId": "kkf-10715-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10715-001.png",
+      "sha256": "58237da8bc7825a20f9e928a2c094a970ba6b4807355f1fea045dc2fa8c23d74",
+      "mimeType": "image/png",
+      "width": 503,
+      "height": 1305,
+      "status": 200,
+      "bytes": 202636
+    },
+    {
+      "assetId": "kkf-9410-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-001.png",
+      "sha256": "0125e4d96ee39dde649c03f47aa0d1425a9ae969c9d39a6c62b769bd31ce386d",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 512,
+      "status": 200,
+      "bytes": 69113
+    },
+    {
+      "assetId": "kkf-9410-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-002.png",
+      "sha256": "238988ba7b7706d975716277d3f854f51c95a14943f39358fc1fb65aa2fd0ed9",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 984,
+      "status": 200,
+      "bytes": 131738
+    },
+    {
+      "assetId": "kkf-9410-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-003.png",
+      "sha256": "d2da7fc089bb66d929e73a40ac0a18847edb605cb0cf5ff04baebfe3c194387a",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 922,
+      "status": 200,
+      "bytes": 129316
+    },
+    {
+      "assetId": "kkf-9410-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-004.png",
+      "sha256": "8b8bef8fbdee39c0d54f0384b504b8b99fe3c46502324e08f09530c198bba3b2",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1232,
+      "status": 200,
+      "bytes": 149389
+    },
+    {
+      "assetId": "kkf-9410-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-005.png",
+      "sha256": "67c139957a29a524ca66d7abf4719ebec22f1753fb982684b9c1df2d2c15acfa",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 61732
+    },
+    {
+      "assetId": "kkf-9410-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-006.png",
+      "sha256": "024e9461ec30e730e48741cad811424b4bcfe2b48f6a3ec6677320669f38a40e",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 922,
+      "status": 200,
+      "bytes": 124876
+    },
+    {
+      "assetId": "kkf-9410-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-007.png",
+      "sha256": "8c0800f56558b62198e11aaa52d85e060081121199e36647b9dad1d95671dc1c",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 67085
+    },
+    {
+      "assetId": "kkf-9410-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-008.png",
+      "sha256": "848c3a7a3b4a7ba52b24d54cd39a62432270b47e044bd08e33d53ca2a31fa103",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 89347
+    },
+    {
+      "assetId": "kkf-9410-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-009.png",
+      "sha256": "f3b33379158c88accc533f646dc5ee04a9ddcb15aec01a623e6e554687b65138",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 574,
+      "status": 200,
+      "bytes": 75310
+    },
+    {
+      "assetId": "kkf-9410-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-010.png",
+      "sha256": "901eddb87b10d174838111a6eca683e9b27ef7411024c5f016de7f8a341f2e07",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1108,
+      "status": 200,
+      "bytes": 151956
+    },
+    {
+      "assetId": "kkf-9410-011",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-011.png",
+      "sha256": "54a82335f51e3a4cef5bf7dea0f49962a1041581a72f734af3068c9087942453",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1232,
+      "status": 200,
+      "bytes": 170713
+    },
+    {
+      "assetId": "kkf-9410-012",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-012.png",
+      "sha256": "9a6e84bf8eeb0042daa420617938790f7e9380431e38a2183a2bccd077f6ab97",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1256,
+      "status": 200,
+      "bytes": 151181
+    },
+    {
+      "assetId": "kkf-9410-013",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-013.png",
+      "sha256": "42622d7c2e4ffd0d1f7fb09d7dc968e43473c4830a2ac4da5fa960a2c63104c7",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 62532
+    },
+    {
+      "assetId": "kkf-9410-014",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-014.png",
+      "sha256": "a8e728a8f45d01886ddc9bf4760bd2195a6c3df6265f9e75713f5da36ada8f6a",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 860,
+      "status": 200,
+      "bytes": 117043
+    },
+    {
+      "assetId": "kkf-9410-015",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-015.png",
+      "sha256": "91e8d0c5a38954818d81b680b050b701f5fdb0e61e421faaf784e8dbcb8714d9",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 66347
+    },
+    {
+      "assetId": "kkf-9410-016",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-016.png",
+      "sha256": "c92e647e3269265d939d62ac04b50bbf4ab42789fad561a9cd1cc7d309435299",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 574,
+      "status": 200,
+      "bytes": 79223
+    },
+    {
+      "assetId": "kkf-9410-017",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-017.png",
+      "sha256": "3b56fdef9216b9ffdc2010060a07ee6585d1e1318b3dfba9d808efd8af302ae2",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 760,
+      "status": 200,
+      "bytes": 105994
+    },
+    {
+      "assetId": "kkf-9410-018",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-018.png",
+      "sha256": "004bb7d758315ff15633c7a15b0a316e1a048c58e878feba634ad90a58c6ecfe",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1442,
+      "status": 200,
+      "bytes": 202528
+    },
+    {
+      "assetId": "kkf-9410-019",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-019.png",
+      "sha256": "ac127fe73775380139f95c131ec743c18284bbe74f72eb667ba8f559ecda9425",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1418,
+      "status": 200,
+      "bytes": 160551
+    },
+    {
+      "assetId": "kkf-9410-020",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-020.png",
+      "sha256": "36ca0a728a180e21ac742508b9749c0235162219638cd1bec43949e68a09831d",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 760,
+      "status": 200,
+      "bytes": 103751
+    },
+    {
+      "assetId": "kkf-9410-021",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-021.png",
+      "sha256": "8f86d6448bc7ba4107482c5404834801a59d66b996462cd9609ba4ba516411bc",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1256,
+      "status": 200,
+      "bytes": 182210
+    },
+    {
+      "assetId": "kkf-9410-022",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9410-022.png",
+      "sha256": "de126181bc19ec71204ef0edae445b3a8a8b59fc4e073ce08e8582c28b6b88f7",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1294,
+      "status": 200,
+      "bytes": 161942
+    },
+    {
+      "assetId": "kkf-10044-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10044-001.png",
+      "sha256": "59720f4a5b8f4b29ea32df02bf64cd0994e9d0962f58ca0bf43aca7eb362d3d1",
+      "mimeType": "image/png",
+      "width": 694,
+      "height": 978,
+      "status": 200,
+      "bytes": 79181
+    },
+    {
+      "assetId": "kkf-10044-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10044-002.png",
+      "sha256": "ce3c86a61330b1eb87610a298698ff0d8db07d6675b9965c23db1c8d4d1fe717",
+      "mimeType": "image/png",
+      "width": 766,
+      "height": 519,
+      "status": 200,
+      "bytes": 47022
+    },
+    {
+      "assetId": "kkf-10044-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10044-003.png",
+      "sha256": "c2ba5311f760485d567af0a663ac2d57d01e5d8b0f377dfcbd220049916c3b01",
+      "mimeType": "image/png",
+      "width": 776,
+      "height": 947,
+      "status": 200,
+      "bytes": 83926
+    },
+    {
+      "assetId": "kkf-10044-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-10044-004.png",
+      "sha256": "98e0972c9c7b37ef1893a1002f8d76acd692dc98bad9ddaecaf854eaf10c023f",
+      "mimeType": "image/png",
+      "width": 772,
+      "height": 539,
+      "status": 200,
+      "bytes": 47437
+    },
+    {
+      "assetId": "kkf-9395-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-001.png",
+      "sha256": "f01295cbf03e847e64a51179875235612a6c9e33bb995d4dfe15a1531accd630",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 79795
+    },
+    {
+      "assetId": "kkf-9395-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-002.png",
+      "sha256": "9f037b2ef04a053559b25bc31a6b75a72972c0751192dfc94a6aa3364876bfc1",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 760,
+      "status": 200,
+      "bytes": 100297
+    },
+    {
+      "assetId": "kkf-9395-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-003.png",
+      "sha256": "256bb26bc21c6d2270ef8b1dcf2ddf5172cfe66d50bc3759c1e2137dc6ce6255",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 822,
+      "status": 200,
+      "bytes": 96537
+    },
+    {
+      "assetId": "kkf-9395-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-004.png",
+      "sha256": "98250c1fae9af469906fbf1e799d0c369abd47ddc21eccd9b5152bfb9202b0c1",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 83086
+    },
+    {
+      "assetId": "kkf-9395-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-005.png",
+      "sha256": "85f721dafb910873aeedf631b8bffa6df6ecb0f9e9a34384c0cab7916130cd38",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 822,
+      "status": 200,
+      "bytes": 103708
+    },
+    {
+      "assetId": "kkf-9395-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-006.png",
+      "sha256": "4a5c4e248cac651d6277bf25afbb2fda7222dec9c8c2c725c1bfedf44258efce",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 760,
+      "status": 200,
+      "bytes": 90588
+    },
+    {
+      "assetId": "kkf-9395-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-007.png",
+      "sha256": "960c56a1d0a47bfe9b01b02ea24a12e6f1ae8990739fbe12ccf7c87e1ed45d60",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 80649
+    },
+    {
+      "assetId": "kkf-9395-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-008.png",
+      "sha256": "22f3cf12695da3f6084c2653210e4866a4eb685d27ee46e55143b2a82c1f0356",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 87386
+    },
+    {
+      "assetId": "kkf-9395-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-009.png",
+      "sha256": "9dd0aa0c7e3a1098c9644319fa01fef2bb5130d9793b71526b6a05dc8b74e9f4",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 78509
+    },
+    {
+      "assetId": "kkf-9395-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-010.png",
+      "sha256": "e00bdc50339f7f47b16b92164bec66973c3a41229091e10655310bf6d8955cd5",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 77402
+    },
+    {
+      "assetId": "kkf-9395-011",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-011.png",
+      "sha256": "eec2e4cb0f613ea217ffbbe12aabd2f036e14b9cb10227aff7e2c048c0f3bc2e",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 91840
+    },
+    {
+      "assetId": "kkf-9395-012",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9395-012.png",
+      "sha256": "5afb6eec5ea8e975bd6bea8eb93def3b2065096c778227996bb1f621fb65823f",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 81046
+    },
+    {
+      "assetId": "kkf-9532-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-001.png",
+      "sha256": "57f4351895cfeb05fcd7d5dade33dcafe548ec83275ab4487db902ba6920687e",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 574,
+      "status": 200,
+      "bytes": 66475
+    },
+    {
+      "assetId": "kkf-9532-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-002.png",
+      "sha256": "b8eb8385f5542a3640889e33acee71125f730dbac54e977cd8eb25b90c748edc",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 860,
+      "status": 200,
+      "bytes": 103316
+    },
+    {
+      "assetId": "kkf-9532-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-003.png",
+      "sha256": "90ba2a5be949fd265e00cf3880613ed7edd0429753626f14d43aef3371b947fa",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 884,
+      "status": 200,
+      "bytes": 116275
+    },
+    {
+      "assetId": "kkf-9532-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-004.png",
+      "sha256": "22fa76b12958d6369602c9a882d86051f0ef91ced4a43115f9514441d9fab3ea",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1456,
+      "status": 200,
+      "bytes": 159980
+    },
+    {
+      "assetId": "kkf-9532-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-005.png",
+      "sha256": "58036a4c06069fd5525f00cea024df4beeb199f9e337f304103c4df41a47bfd7",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 82828
+    },
+    {
+      "assetId": "kkf-9532-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-006.png",
+      "sha256": "633692febb11258e63b2ff1a0e70bebb00082c358589fb2f24ac0716cb95496d",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 84791
+    },
+    {
+      "assetId": "kkf-9532-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-007.png",
+      "sha256": "6c402bd9fbee09cf4e9ac5b683a4475ec776db1fbcc02d7c95d0393f8c3cce01",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 860,
+      "status": 200,
+      "bytes": 99693
+    },
+    {
+      "assetId": "kkf-9532-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-008.png",
+      "sha256": "c26a2a05afabee27362e317c8b054c9ca7c0e835b5f1d365e6fe8eea2567cf16",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 512,
+      "status": 200,
+      "bytes": 64637
+    },
+    {
+      "assetId": "kkf-9532-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-009.png",
+      "sha256": "93a775bc7dfdedf27f4d2137e1354421576ceb7c57a1acaa0f24f3d113de705b",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1146,
+      "status": 200,
+      "bytes": 143013
+    },
+    {
+      "assetId": "kkf-9532-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-010.png",
+      "sha256": "addd13f40cf19a35da7ed66066557ec0c03cad6197c68eddaa29fb5ad683945c",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 90202
+    },
+    {
+      "assetId": "kkf-9532-011",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-011.png",
+      "sha256": "7135533f0d3fd082584de41dbd225a19e157e1f6acb65efb2f3cbea5acd04cb3",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1284,
+      "status": 200,
+      "bytes": 147606
+    },
+    {
+      "assetId": "kkf-9532-012",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-012.png",
+      "sha256": "3c3a9bffeb8813e33665dc84b4a67eb8e0de065737f32be5eee1bd5151c1c2de",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 84030
+    },
+    {
+      "assetId": "kkf-9532-013",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-013.png",
+      "sha256": "64b13bba7e6795bd4a9ae1caa4bc505dea0f6766056ad6a898cdc0d9bb59dad1",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 512,
+      "status": 200,
+      "bytes": 69841
+    },
+    {
+      "assetId": "kkf-9532-014",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-014.png",
+      "sha256": "c01323ca8d0742d8438fff5280c806da366554c4916bec651a376e6eb80fbfe8",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 798,
+      "status": 200,
+      "bytes": 93232
+    },
+    {
+      "assetId": "kkf-9532-015",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-015.png",
+      "sha256": "46abb906aabb3296b1c90d3a4b79628d916817b0871a15547f9e9e6005f96a30",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 57475
+    },
+    {
+      "assetId": "kkf-9532-016",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-016.png",
+      "sha256": "50bc06b97ed248a69440b0a9dec58fb9a1e3929bdcae77c4a9870b61fb7d4025",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1122,
+      "status": 200,
+      "bytes": 139037
+    },
+    {
+      "assetId": "kkf-9532-017",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-017.png",
+      "sha256": "0097c9dff02406b3fac83f083ef9e126f79878831c186c61d27b1caab5c42def",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 91072
+    },
+    {
+      "assetId": "kkf-9532-018",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-018.png",
+      "sha256": "851bd852d7b222611510b1adc123748b21bd48d929b2ebb13ea1a70de57bd17d",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1098,
+      "status": 200,
+      "bytes": 127211
+    },
+    {
+      "assetId": "kkf-9532-019",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-019.png",
+      "sha256": "d88ca8bb4f740ef7f45001993e78b15c20be69dae414c8ade8a850b5728b745d",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 922,
+      "status": 200,
+      "bytes": 119685
+    },
+    {
+      "assetId": "kkf-9532-020",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-020.png",
+      "sha256": "cb605b3a10b67eab70b8ba0682602b2f7e59a04a901255614d45497bcfe6c271",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1332,
+      "status": 200,
+      "bytes": 179285
+    },
+    {
+      "assetId": "kkf-9532-021",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-021.png",
+      "sha256": "1b83408021128d12631090aa77b240ac5a5c85d5a56609a0a60646db919173c6",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1232,
+      "status": 200,
+      "bytes": 148418
+    },
+    {
+      "assetId": "kkf-9532-022",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-022.png",
+      "sha256": "03a37bb302ec5bf2adb8c2800f862973738de2c5456540e14bd40344a3d2d958",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 760,
+      "status": 200,
+      "bytes": 103010
+    },
+    {
+      "assetId": "kkf-9532-023",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-023.png",
+      "sha256": "4e82865e056daabb3784082e1b83b3832eb46682ea6be0257a11697001fbd681",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1270,
+      "status": 200,
+      "bytes": 170378
+    },
+    {
+      "assetId": "kkf-9532-024",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9532-024.png",
+      "sha256": "21f4173a4e03b91341984f7137b56cd0d08e4c08fe2fc67064db524191ad169b",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1108,
+      "status": 200,
+      "bytes": 129520
+    },
+    {
+      "assetId": "kkf-9590-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-001.png",
+      "sha256": "c95e0d5976f126811a42e3a4fb6eecddf755e6e22589455703fbe80be965648b",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 91585
+    },
+    {
+      "assetId": "kkf-9590-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-002.png",
+      "sha256": "1b4c8429335e224f29d13b6089c7fc17a307bd2fc81a7e8de5ba414284f049e1",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1518,
+      "status": 200,
+      "bytes": 217180
+    },
+    {
+      "assetId": "kkf-9590-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-003.png",
+      "sha256": "08a9fa4dd4da6e4e972060758df9e57fff229253192fcf2b6b7dea54555adf8b",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1480,
+      "status": 200,
+      "bytes": 190598
+    },
+    {
+      "assetId": "kkf-9590-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-004.png",
+      "sha256": "1ae7fcdf6cbd88eb2ceb75302def278558a4b595fe3842b9ad6a18afb1696cae",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 90488
+    },
+    {
+      "assetId": "kkf-9590-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-005.png",
+      "sha256": "b28e679be23f0369652b9f19eeb6d1075bce48f4745de5eb22e6827338eacddd",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 512,
+      "status": 200,
+      "bytes": 68624
+    },
+    {
+      "assetId": "kkf-9590-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-006.png",
+      "sha256": "9c192d42c2722a89d466c7a78d0db5ceadca050e3960a04879a6626d32647eb7",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 93780
+    },
+    {
+      "assetId": "kkf-9590-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-007.png",
+      "sha256": "3584b3cfefac362955960940dfa4474047e5f1250985e971d0cd06ec55c4c98a",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1332,
+      "status": 200,
+      "bytes": 193285
+    },
+    {
+      "assetId": "kkf-9590-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-008.png",
+      "sha256": "7158486cb8903af48579814b771183497b0fe8d0b17126247e6267c46f165696",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1170,
+      "status": 200,
+      "bytes": 146147
+    },
+    {
+      "assetId": "kkf-9590-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-009.png",
+      "sha256": "81e53afc24038a42566281bb83938b99b468318f277da392a7c794a61cf8e5ad",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 512,
+      "status": 200,
+      "bytes": 70770
+    },
+    {
+      "assetId": "kkf-9590-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9590-010.png",
+      "sha256": "d61c15122b6d63f5030abb2da93c6d706faae86a534a9e6ca51e76a400c5fe73",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 84051
+    },
+    {
+      "assetId": "kkf-9708-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-001.png",
+      "sha256": "27226b7640c2eb825907f869bf92608676bada1ffd375d071833a404c628347c",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 884,
+      "status": 200,
+      "bytes": 119873
+    },
+    {
+      "assetId": "kkf-9708-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-002.png",
+      "sha256": "9f8ed21344eb59c3ae96ee0f8f2903d030582a5328de44e01bd830231ecd690e",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1194,
+      "status": 200,
+      "bytes": 171445
+    },
+    {
+      "assetId": "kkf-9708-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-003.png",
+      "sha256": "aa37685e2d9bd4f834cf8f3477bf3241883ea08780040535e3c9fd74702a7894",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1194,
+      "status": 200,
+      "bytes": 160328
+    },
+    {
+      "assetId": "kkf-9708-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-004.png",
+      "sha256": "df84669c431112310f46f44c265d09384c6b6e3ed3c00ebf0d04f2499fe4a594",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 64185
+    },
+    {
+      "assetId": "kkf-9708-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-005.png",
+      "sha256": "75dfad2c23a241938a3ca9c8801947d7fae0aadc2eaec08d8f7c2c543422cefa",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 574,
+      "status": 200,
+      "bytes": 84068
+    },
+    {
+      "assetId": "kkf-9708-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-006.png",
+      "sha256": "c25fda51a1d19244236a32b7d9f4756c2257b465b9a0cd59b14347f03bb368ed",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 82901
+    },
+    {
+      "assetId": "kkf-9708-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-007.png",
+      "sha256": "21495a9072ca06c5b7a32ef25233d7c26d855165ed560084d776527c0efeb9e1",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2660,
+      "status": 200,
+      "bytes": 369728
+    },
+    {
+      "assetId": "kkf-9708-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-008.png",
+      "sha256": "fc8ea4e5aea490cdb25b8dbe41dd15a45205e5a4e47da0b1bd1e2a09ae9cd8f9",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1234,
+      "status": 200,
+      "bytes": 178458
+    },
+    {
+      "assetId": "kkf-9708-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-009.png",
+      "sha256": "9e118af5b4d2fe97fde96e1fc73862379add6dc1a1ce795deb1982a0cd7ef6e3",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 760,
+      "status": 200,
+      "bytes": 101684
+    },
+    {
+      "assetId": "kkf-9708-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-010.png",
+      "sha256": "5860618486b282c1f31adb04c61ca993450238c4e15fea4aa95a555f24d955bc",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1008,
+      "status": 200,
+      "bytes": 150653
+    },
+    {
+      "assetId": "kkf-9708-011",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-011.png",
+      "sha256": "18f8642d6f3903f3a03ee0a9d99341657f3f28b06cbe20a9c4bd102cc7c2f640",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1132,
+      "status": 200,
+      "bytes": 142651
+    },
+    {
+      "assetId": "kkf-9708-012",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-012.png",
+      "sha256": "1ecdf389d50492cbd6b3e5fac15e515777b110034aa0e0039b2e10d5856b4cf7",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 65264
+    },
+    {
+      "assetId": "kkf-9708-013",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-013.png",
+      "sha256": "df24309a6c39a7c916fb5c563a6f5e47482c6bdbb5071f9e550271752bae2d33",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 574,
+      "status": 200,
+      "bytes": 83672
+    },
+    {
+      "assetId": "kkf-9708-014",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-014.png",
+      "sha256": "fda9582c547b797cf71dee5bdfb622c470859c3403ebcbc4e7b8b5c3d08ee75b",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 88623
+    },
+    {
+      "assetId": "kkf-9708-015",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-015.png",
+      "sha256": "4f854995c8b76152270353f3837503d309ed5112c91837c9912050451568412b",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 2164,
+      "status": 200,
+      "bytes": 300505
+    },
+    {
+      "assetId": "kkf-9708-016",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9708-016.png",
+      "sha256": "1dcf037db2b9d9546cd17290e77b0cd6403cadbde48c6feb40195d9913c05ea9",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1296,
+      "status": 200,
+      "bytes": 189660
+    },
+    {
+      "assetId": "kkf-9763-001",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-001.png",
+      "sha256": "db2bfd8fc9392483c45fdaa835a57d474fc2f124adeb8c2b1835160243ebaff4",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 101977
+    },
+    {
+      "assetId": "kkf-9763-002",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-002.png",
+      "sha256": "f7cb3791f99450ca9f7a19778ea57dc04cdac6b82923a50c1866bed9f4983d5a",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 88256
+    },
+    {
+      "assetId": "kkf-9763-003",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-003.png",
+      "sha256": "a351f42c5c87977e5417b39d2b6bb7f2d1405d4808382f2267721056c9181821",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1256,
+      "status": 200,
+      "bytes": 162665
+    },
+    {
+      "assetId": "kkf-9763-004",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-004.png",
+      "sha256": "ad226b9adbfe016002019487256a61c9bb4ecaa18845304eadaa8cb2d9e051b6",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 107075
+    },
+    {
+      "assetId": "kkf-9763-005",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-005.png",
+      "sha256": "28ce53c1f01a0a3efe0390fa8219df72f75c14a519da6596dc9656104bd879d2",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 698,
+      "status": 200,
+      "bytes": 103854
+    },
+    {
+      "assetId": "kkf-9763-006",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-006.png",
+      "sha256": "72c84e7ef42242de154934e901de668f0f592155b6f2cc03d8adb8ced8bd5200",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 1008,
+      "status": 200,
+      "bytes": 137257
+    },
+    {
+      "assetId": "kkf-9763-007",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-007.png",
+      "sha256": "05e433089c820b169cb5f1567a0a65ae61564e7d6c9ae19c44b2db089cbb3a54",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 67930
+    },
+    {
+      "assetId": "kkf-9763-008",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-008.png",
+      "sha256": "c7ef22159d3d2bfb86f26d22249811c457207a81b63d300b6c65f8e9da84ab24",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 674,
+      "status": 200,
+      "bytes": 96865
+    },
+    {
+      "assetId": "kkf-9763-009",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-009.png",
+      "sha256": "8b8cf6ecb8a635f9043fcd0a0ab0f3db1d9ec331ab30619f7464d3011ff63675",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 512,
+      "status": 200,
+      "bytes": 81067
+    },
+    {
+      "assetId": "kkf-9763-010",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-010.png",
+      "sha256": "10ea8b8328e27ce826055014c2e05f13ab8d5943b3de881f4ad6a8b3c24e3b80",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 450,
+      "status": 200,
+      "bytes": 69497
+    },
+    {
+      "assetId": "kkf-9763-011",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-011.png",
+      "sha256": "9317f44c77dd5f13b189db18d21f989728020886329a2045dde91728f536f78e",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 674,
+      "status": 200,
+      "bytes": 106001
+    },
+    {
+      "assetId": "kkf-9763-012",
+      "path": "media/library/kkf/e5abb94c88302669/kkf-9763-012.png",
+      "sha256": "d7fec249ae79fe4658ad7bb7fe5c5cc1bde76c12f829a3d1ee4fd2fde7ab7042",
+      "mimeType": "image/png",
+      "width": 2128,
+      "height": 636,
+      "status": 200,
+      "bytes": 92654
+    }
+  ]
+}
