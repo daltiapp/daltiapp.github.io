@@ -1,6 +1,6 @@
 {
-  "source_board_url": "https://www.kkc.or.kr/notice",
-  "crawl_mode": "full_board",
+  "source_board_url": "https://kkc.or.kr/%ED%98%91%ED%9A%8C-%EC%86%8C%EC%8B%9D-%EA%B3%B5%EC%A7%80/",
+  "crawl_mode": "public_html_preserve_history",
   "storage": "split_index_detail",
   "identity_field": "id",
   "keywords": [
@@ -25,7 +25,7 @@
       "source": "kkc",
       "source_seq": "YiqEDCSlX7VjVQJjxWVO",
       "title": "260919_KKC 어질리티 챔피언십 출진목록",
-      "url": "https://www.kkc.or.kr/notice",
+      "url": "https://kkc.or.kr/260919_kkc-%EC%96%B4%EC%A7%88%EB%A6%AC%ED%8B%B0-%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD-%EC%B6%9C%EC%A7%84%EB%AA%A9%EB%A1%9D/",
       "published_at_raw": "2026-09-15T08:47:00.682Z",
       "published_at": "2026-09-15T08:47:00.682000+00:00",
       "detail_path": "./135.json"
