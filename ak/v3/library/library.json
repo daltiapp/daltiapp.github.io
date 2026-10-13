@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261012.3",
-  "updatedAt": "2026-10-12T21:21:05+09:00",
+  "dataVersion": "20261014.1",
+  "updatedAt": "2026-10-14T00:29:20+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -32,6 +32,12 @@
       "provider": "manual",
       "name": "한국애견연맹",
       "url": "https://www.thekkf.or.kr/new_home/10_etc/01_notice.php"
+    },
+    {
+      "id": "_GptxdX",
+      "name": "KKF어질리티위원회",
+      "provider": "kakao",
+      "url": "https://pf.kakao.com/_GptxdX"
     }
   ],
   "mapCategories": [
@@ -53,6 +59,17 @@
     }
   ],
   "events": [
+    {
+      "id": "event-kakao-GptxdX-114855200-61dee1502fc0",
+      "name": "익산 FCI 인터내셔널 어질리티 경기대회",
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-18",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
     {
       "id": "event-waldbow-801",
       "name": "2026년 10월 10일 토요일 WALDBOW OPEN",
@@ -96,6 +113,28 @@
       "organizer": "오디너리독스",
       "categoryIds": [
         "jpag_ranking",
+        "benov_ranking"
+      ]
+    },
+    {
+      "id": "event-kakao-GptxdX-114644713-50e6a1add280",
+      "name": "2026. 09. 20 홍천 KKF 내셔널 어질리티 평가전",
+      "startDate": "2026-09-20",
+      "endDate": "2026-09-20",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event-kakao-GptxdX-114639696-fc5fdc3bdd47",
+      "name": "2026. 09. 19 홍천 KKF 아마추어 어질리티 대회",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-19",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": null,
+      "categoryIds": [
         "benov_ranking"
       ]
     },
@@ -257,6 +296,50 @@
       ]
     },
     {
+      "id": "event-kakao-GptxdX-113371999-ed528b296924",
+      "name": "제77회 KKF 어질리티 위원회 승급전",
+      "startDate": "2026-05-17",
+      "endDate": "2026-05-17",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event-kakao-GptxdX-113367285-46ad58877697",
+      "name": "제76회 KKF 어질리티 위원회 승급전",
+      "startDate": "2026-05-16",
+      "endDate": "2026-05-16",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event-kakao-GptxdX-113239603-314b297f54fd",
+      "name": "2026. 05. 03 오수 KKF 내셔널 어질리티 평가전",
+      "startDate": "2026-05-03",
+      "endDate": "2026-05-03",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event-kakao-GptxdX-113240835-9aef41f33717",
+      "name": "2026. 05. 03 오수 FCI 인터내셔널 어질리티 경기대회",
+      "startDate": "2026-05-03",
+      "endDate": "2026-05-03",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
       "id": "kkf-12451",
       "name": "2026 오수 KKF 내셔널 어질리티 평가전 및 FCI 인터내셔널 어질리티 경기대회 결과 공고('26.5.2.)",
       "startDate": "2026-05-03",
@@ -265,6 +348,17 @@
       "organizer": "한국애견연맹",
       "categoryIds": [
         "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event-kakao-GptxdX-113236136-1f30f000c738",
+      "name": "2026. 05. 02 제1회 KKF 아마추어 어질리티 대회",
+      "startDate": "2026-05-02",
+      "endDate": "2026-05-02",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": null,
+      "categoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -2160,6 +2254,198 @@
     }
   ],
   "assets": [
+    {
+      "id": "asset-kakao-GptxdX-195139886",
+      "kind": "entry_list",
+      "title": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-114855200-61dee1502fc0"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 채팅 문의주시면 수정해두겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/tUrUE/dJMb99OQKBe/hbcMm9N3XMKrIEY8zbyhPK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/tUrUE/dJMb99OQKBe/hbcMm9N3XMKrIEY8zbyhPK/img_s.jpg",
+        "width": 997,
+        "height": 766,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114855200",
+        "mediaId": "195139886",
+        "postTitle": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114855200",
+        "publishedAt": "2026-10-12T09:14:51+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195139887",
+      "kind": "entry_list",
+      "title": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-114855200-61dee1502fc0"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 채팅 문의주시면 수정해두겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bbKhjI/dJMcajqnS9I/QZvJVhfUkWZ65vSIBjNYRK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bbKhjI/dJMcajqnS9I/QZvJVhfUkWZ65vSIBjNYRK/img_s.jpg",
+        "width": 964,
+        "height": 715,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114855200",
+        "mediaId": "195139887",
+        "postTitle": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114855200",
+        "publishedAt": "2026-10-12T09:14:51+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195139888",
+      "kind": "entry_list",
+      "title": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-114855200-61dee1502fc0"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 채팅 문의주시면 수정해두겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/c2pAw3/dJMcaiLP7uW/R9n6CTEgl6puXmmVSdMtMk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/c2pAw3/dJMcaiLP7uW/R9n6CTEgl6puXmmVSdMtMk/img_s.jpg",
+        "width": 996,
+        "height": 942,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114855200",
+        "mediaId": "195139888",
+        "postTitle": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114855200",
+        "publishedAt": "2026-10-12T09:14:51+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195139889",
+      "kind": "entry_list",
+      "title": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-114855200-61dee1502fc0"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 채팅 문의주시면 수정해두겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/xxjGb/dJMb99OQKBf/1Ue52BmqlTKhmPuP41Q2rk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/xxjGb/dJMb99OQKBf/1Ue52BmqlTKhmPuP41Q2rk/img_s.jpg",
+        "width": 973,
+        "height": 886,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114855200",
+        "mediaId": "195139889",
+        "postTitle": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114855200",
+        "publishedAt": "2026-10-12T09:14:51+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195139890",
+      "kind": "entry_list",
+      "title": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-114855200-61dee1502fc0"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 채팅 문의주시면 수정해두겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/HvSa9/dJMcaiSMr1N/q8airHmdOAAicncnNLb0Wk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/HvSa9/dJMcaiSMr1N/q8airHmdOAAicncnNLb0Wk/img_s.jpg",
+        "width": 913,
+        "height": 1116,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114855200",
+        "mediaId": "195139890",
+        "postTitle": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114855200",
+        "publishedAt": "2026-10-12T09:14:51+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195139891",
+      "kind": "entry_list",
+      "title": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-114855200-61dee1502fc0"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 채팅 문의주시면 수정해두겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hVZTK/dJMb99OQKBg/DOc18zAvuHIOtP1cDaWO0k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hVZTK/dJMb99OQKBg/DOc18zAvuHIOtP1cDaWO0k/img_s.jpg",
+        "width": 920,
+        "height": 1112,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114855200",
+        "mediaId": "195139891",
+        "postTitle": "10.18(일) 익신 FCI 인터내셔널 경기대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114855200",
+        "publishedAt": "2026-10-12T09:14:51+09:00",
+        "imageOrder": 6
+      }
+    },
     {
       "id": "asset-waldbow-801-course_map-6a2dac53b1b2ec8c",
       "kind": "course_map",
@@ -6489,6 +6775,1026 @@
         "benov_ranking"
       ],
       "categoryScope": "asset"
+    },
+    {
+      "id": "asset-kakao-GptxdX-194022010",
+      "kind": "result",
+      "resultType": "image",
+      "title": "09.20 KKF 내셔널 어질리티 대회 기록 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/mbZou/dJMcaaz8S26/DHoK81b4n8hkqINzNIZwj0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/mbZou/dJMcaaz8S26/DHoK81b4n8hkqINzNIZwj0/img_s.jpg",
+        "width": 1011,
+        "height": 975,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644713",
+        "mediaId": "194022010",
+        "postTitle": "09.20 KKF 내셔널 어질리티 대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644713",
+        "publishedAt": "2026-09-20T09:51:03+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194018280",
+      "kind": "result",
+      "resultType": "image",
+      "title": "09.20 KKF 내셔널 어질리티 대회 기록 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/KLzMr/dJMcaiY2pHE/ft21j121EDvH2VjQUrgs8k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/KLzMr/dJMcaiY2pHE/ft21j121EDvH2VjQUrgs8k/img_s.jpg",
+        "width": 944,
+        "height": 615,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644713",
+        "mediaId": "194018280",
+        "postTitle": "09.20 KKF 내셔널 어질리티 대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644713",
+        "publishedAt": "2026-09-20T09:51:03+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194021593",
+      "kind": "result",
+      "resultType": "image",
+      "title": "09.20 KKF 내셔널 어질리티 대회 기록 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Q8ps7/dJMcaf85e3J/7NXLTnOpFW0AYqb78D6lc1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Q8ps7/dJMcaf85e3J/7NXLTnOpFW0AYqb78D6lc1/img_s.jpg",
+        "width": 1032,
+        "height": 1156,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644713",
+        "mediaId": "194021593",
+        "postTitle": "09.20 KKF 내셔널 어질리티 대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644713",
+        "publishedAt": "2026-09-20T09:51:03+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194022910",
+      "kind": "result",
+      "resultType": "image",
+      "title": "09.20 KKF 내셔널 어질리티 대회 기록 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/p0fvc/dJMcaiLy5He/1kXaNGfbZZmgm4f7I6wKmk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/p0fvc/dJMcaiLy5He/1kXaNGfbZZmgm4f7I6wKmk/img_s.jpg",
+        "width": 981,
+        "height": 996,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644713",
+        "mediaId": "194022910",
+        "postTitle": "09.20 KKF 내셔널 어질리티 대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644713",
+        "publishedAt": "2026-09-20T09:51:03+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194025167",
+      "kind": "result",
+      "resultType": "image",
+      "title": "09.20 KKF 내셔널 어질리티 대회 기록 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/LHD7G/dJMcajjygEy/SikSMRQprPVZfd4wuupAnk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/LHD7G/dJMcajjygEy/SikSMRQprPVZfd4wuupAnk/img_s.jpg",
+        "width": 990,
+        "height": 826,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644713",
+        "mediaId": "194025167",
+        "postTitle": "09.20 KKF 내셔널 어질리티 대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644713",
+        "publishedAt": "2026-09-20T09:51:03+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194025168",
+      "kind": "result",
+      "resultType": "image",
+      "title": "09.20 KKF 내셔널 어질리티 대회 기록 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/5BWhB/dJMcajjygEz/oUkHGDp1UjWJGbgEEGZTA0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/5BWhB/dJMcajjygEz/oUkHGDp1UjWJGbgEEGZTA0/img_s.jpg",
+        "width": 963,
+        "height": 1135,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644713",
+        "mediaId": "194025168",
+        "postTitle": "09.20 KKF 내셔널 어질리티 대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644713",
+        "publishedAt": "2026-09-20T09:51:03+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194015072",
+      "kind": "course_map",
+      "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/RLk7n/dJMcah0bOdN/hGVwukZ5m7LOWM4Y6Na8V1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/RLk7n/dJMcah0bOdN/hGVwukZ5m7LOWM4Y6Na8V1/img_s.jpg",
+        "width": 1933,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644364",
+        "mediaId": "194015072",
+        "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+        "publishedAt": "2026-09-20T08:11:11+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194015073",
+      "kind": "course_map",
+      "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cUNYRD/dJMcaafQAZh/0krUJnJ1BSlErF7Qg9Y84k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cUNYRD/dJMcaafQAZh/0krUJnJ1BSlErF7Qg9Y84k/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644364",
+        "mediaId": "194015073",
+        "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+        "publishedAt": "2026-09-20T08:11:11+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194015074",
+      "kind": "course_map",
+      "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/babW99/dJMcadDmNdd/CcvqSWTVKR6qNipiXKdwxK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/babW99/dJMcadDmNdd/CcvqSWTVKR6qNipiXKdwxK/img_s.jpg",
+        "width": 1933,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644364",
+        "mediaId": "194015074",
+        "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+        "publishedAt": "2026-09-20T08:11:11+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194015075",
+      "kind": "course_map",
+      "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bwDIdb/dJMcadDmNde/w7AyAKMJ4FGyNYgp4DrIP1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bwDIdb/dJMcadDmNde/w7AyAKMJ4FGyNYgp4DrIP1/img_s.jpg",
+        "width": 1933,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644364",
+        "mediaId": "194015075",
+        "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+        "publishedAt": "2026-09-20T08:11:11+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194015076",
+      "kind": "course_map",
+      "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/mn3s2/dJMcaikBFNW/MCbOukLoAlxT7eB2qYHgl1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/mn3s2/dJMcaikBFNW/MCbOukLoAlxT7eB2qYHgl1/img_s.jpg",
+        "width": 1933,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644364",
+        "mediaId": "194015076",
+        "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+        "publishedAt": "2026-09-20T08:11:11+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194015077",
+      "kind": "course_map",
+      "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dZKBnh/dJMcaaz8MNj/iO09P2mkmczDY6wPeruaw1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dZKBnh/dJMcaaz8MNj/iO09P2mkmczDY6wPeruaw1/img_s.jpg",
+        "width": 1933,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114644364",
+        "mediaId": "194015077",
+        "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+        "publishedAt": "2026-09-20T08:11:11+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890034",
+      "kind": "entry_list",
+      "title": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오채널 1대1 문의주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/blF3Oo/dJMcag71h8U/gCkWd9AkLseiwBIEVKG1ok/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/blF3Oo/dJMcag71h8U/gCkWd9AkLseiwBIEVKG1ok/img_s.jpg",
+        "width": 928,
+        "height": 1061,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542210",
+        "mediaId": "193890034",
+        "postTitle": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542210",
+        "publishedAt": "2026-09-10T12:15:38+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890035",
+      "kind": "entry_list",
+      "title": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오채널 1대1 문의주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/lJqcf/dJMcahFTee2/P0HgpxXKf9bbOMMU7BBmjk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/lJqcf/dJMcahFTee2/P0HgpxXKf9bbOMMU7BBmjk/img_s.jpg",
+        "width": 936,
+        "height": 1072,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542210",
+        "mediaId": "193890035",
+        "postTitle": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542210",
+        "publishedAt": "2026-09-10T12:15:38+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890036",
+      "kind": "entry_list",
+      "title": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오채널 1대1 문의주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bHGwHQ/dJMcafO15nC/Bic3hqYEUSVkpJKkj6Zhmk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bHGwHQ/dJMcafO15nC/Bic3hqYEUSVkpJKkj6Zhmk/img_s.jpg",
+        "width": 911,
+        "height": 585,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542210",
+        "mediaId": "193890036",
+        "postTitle": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542210",
+        "publishedAt": "2026-09-10T12:15:38+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890037",
+      "kind": "entry_list",
+      "title": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오채널 1대1 문의주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/RNPUM/dJMcahzbao6/IJ2h7beFkSTib7qf4ed7O1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/RNPUM/dJMcahzbao6/IJ2h7beFkSTib7qf4ed7O1/img_s.jpg",
+        "width": 951,
+        "height": 830,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542210",
+        "mediaId": "193890037",
+        "postTitle": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542210",
+        "publishedAt": "2026-09-10T12:15:38+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890039",
+      "kind": "entry_list",
+      "title": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오채널 1대1 문의주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/kdjJq/dJMcahzbao8/EgHXTeZBPY2ULRV8Ssxo01/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kdjJq/dJMcahzbao8/EgHXTeZBPY2ULRV8Ssxo01/img_s.jpg",
+        "width": 905,
+        "height": 897,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542210",
+        "mediaId": "193890039",
+        "postTitle": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542210",
+        "publishedAt": "2026-09-10T12:15:38+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890040",
+      "kind": "entry_list",
+      "title": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오채널 1대1 문의주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bfqX6U/dJMcafO15nE/qRKk2ieVUzA8dVpFRe3pTK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bfqX6U/dJMcafO15nE/qRKk2ieVUzA8dVpFRe3pTK/img_s.jpg",
+        "width": 927,
+        "height": 927,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542210",
+        "mediaId": "193890040",
+        "postTitle": "2026. 9. 20(일) 홍천 KKF 내셔널 평가전 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542210",
+        "publishedAt": "2026-09-10T12:15:38+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193990052",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 9. 19일(토) 비기너/노비스 기록 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/sK2L6/dJMcabMFyX6/NchaevFf5YHMNg4XrrwEh1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/sK2L6/dJMcabMFyX6/NchaevFf5YHMNg4XrrwEh1/img_s.jpg",
+        "width": 819,
+        "height": 1266,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114639696",
+        "mediaId": "193990052",
+        "postTitle": "2026. 9. 19일(토) 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114639696",
+        "publishedAt": "2026-09-19T10:15:59+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193994030",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 9. 19일(토) 비기너/노비스 기록 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bGKogS/dJMcahsxAiA/2pZN67mmg4VWgFbuKbayW1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bGKogS/dJMcahsxAiA/2pZN67mmg4VWgFbuKbayW1/img_s.jpg",
+        "width": 797,
+        "height": 1363,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114639696",
+        "mediaId": "193994030",
+        "postTitle": "2026. 9. 19일(토) 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114639696",
+        "publishedAt": "2026-09-19T10:15:59+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194001923",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 9. 19일(토) 비기너/노비스 기록 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/FmUPX/dJMcacENEIB/UAFiynhJSUs0bNBIOkn281/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/FmUPX/dJMcacENEIB/UAFiynhJSUs0bNBIOkn281/img_s.jpg",
+        "width": 996,
+        "height": 1582,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114639696",
+        "mediaId": "194001923",
+        "postTitle": "2026. 9. 19일(토) 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114639696",
+        "publishedAt": "2026-09-19T10:15:59+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-194008113",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 9. 19일(토) 비기너/노비스 기록 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Esdyw/dJMcafnWQNw/3m6szEtkgXp4ravEs3It0K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Esdyw/dJMcafnWQNw/3m6szEtkgXp4ravEs3It0K/img_s.jpg",
+        "width": 1020,
+        "height": 1727,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114639696",
+        "mediaId": "194008113",
+        "postTitle": "2026. 9. 19일(토) 비기너/노비스 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114639696",
+        "publishedAt": "2026-09-19T10:15:59+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193987776",
+      "kind": "course_map",
+      "title": "26.09.19일(토) 홍천 비기너/노비스 코스 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/byy3Or/dJMcaiStOET/tphpoUk87qDcoJPWnYqBxK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/byy3Or/dJMcaiStOET/tphpoUk87qDcoJPWnYqBxK/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114639307",
+        "mediaId": "193987776",
+        "postTitle": "26.09.19일(토) 홍천 비기너/노비스 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114639307",
+        "publishedAt": "2026-09-19T09:00:12+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193987777",
+      "kind": "course_map",
+      "title": "26.09.19일(토) 홍천 비기너/노비스 코스 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/giNd1/dJMcaiStOE5/oka86kaYaZqfLkWeOZph0k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/giNd1/dJMcaiStOE5/oka86kaYaZqfLkWeOZph0k/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114639307",
+        "mediaId": "193987777",
+        "postTitle": "26.09.19일(토) 홍천 비기너/노비스 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114639307",
+        "publishedAt": "2026-09-19T09:00:12+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193987778",
+      "kind": "course_map",
+      "title": "26.09.19일(토) 홍천 비기너/노비스 코스 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dU3Hmd/dJMcad4y70l/33YpcCAMvIEL8FXrKxjSkK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dU3Hmd/dJMcad4y70l/33YpcCAMvIEL8FXrKxjSkK/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114639307",
+        "mediaId": "193987778",
+        "postTitle": "26.09.19일(토) 홍천 비기너/노비스 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114639307",
+        "publishedAt": "2026-09-19T09:00:12+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193987779",
+      "kind": "course_map",
+      "title": "26.09.19일(토) 홍천 비기너/노비스 코스 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/o7mYt/dJMcac5HXrS/7HvqzFbSFzy3gzF6XY6Lj0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/o7mYt/dJMcac5HXrS/7HvqzFbSFzy3gzF6XY6Lj0/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114639307",
+        "mediaId": "193987779",
+        "postTitle": "26.09.19일(토) 홍천 비기너/노비스 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114639307",
+        "publishedAt": "2026-09-19T09:00:12+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890095",
+      "kind": "entry_list",
+      "title": "2026. 9. 19(토) 홍천 아마추어대회 출진표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정 사항은 카카오채널 1대1 문의 주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ec4tWg/dJMcadQZjy8/pfHcdfdEWE5TFgNGyA00Jk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ec4tWg/dJMcadQZjy8/pfHcdfdEWE5TFgNGyA00Jk/img_s.jpg",
+        "width": 898,
+        "height": 1399,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542192",
+        "mediaId": "193890095",
+        "postTitle": "2026. 9. 19(토) 홍천 아마추어대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542192",
+        "publishedAt": "2026-09-10T12:13:53+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890096",
+      "kind": "entry_list",
+      "title": "2026. 9. 19(토) 홍천 아마추어대회 출진표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정 사항은 카카오채널 1대1 문의 주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bpHq2U/dJMcafg5Mae/hBzQHCkGsYakN8DVk8KWc0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bpHq2U/dJMcafg5Mae/hBzQHCkGsYakN8DVk8KWc0/img_s.jpg",
+        "width": 870,
+        "height": 1366,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542192",
+        "mediaId": "193890096",
+        "postTitle": "2026. 9. 19(토) 홍천 아마추어대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542192",
+        "publishedAt": "2026-09-10T12:13:53+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890104",
+      "kind": "entry_list",
+      "title": "2026. 9. 19(토) 홍천 아마추어대회 출진표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정 사항은 카카오채널 1대1 문의 주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bK5jva/dJMcag71iaG/K1qjBhFSelDiZOSGDj8BT1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bK5jva/dJMcag71iaG/K1qjBhFSelDiZOSGDj8BT1/img_s.jpg",
+        "width": 896,
+        "height": 1494,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542192",
+        "mediaId": "193890104",
+        "postTitle": "2026. 9. 19(토) 홍천 아마추어대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542192",
+        "publishedAt": "2026-09-10T12:13:53+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-193890105",
+      "kind": "entry_list",
+      "title": "2026. 9. 19(토) 홍천 아마추어대회 출진표 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정 사항은 카카오채널 1대1 문의 주시면 일요일까지 종합 후 월요일에 일괄 수정 예정입니다.🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bGDmur/dJMcacELUdf/NDFeKD02JSezWsCo0uZft1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bGDmur/dJMcacELUdf/NDFeKD02JSezWsCo0uZft1/img_s.jpg",
+        "width": 931,
+        "height": 1565,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114542192",
+        "mediaId": "193890105",
+        "postTitle": "2026. 9. 19(토) 홍천 아마추어대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114542192",
+        "publishedAt": "2026-09-10T12:13:53+09:00",
+        "imageOrder": 4
+      }
     },
     {
       "id": "asset-kakao-HlJFG-193221747",
@@ -15725,6 +17031,1842 @@
       "categoryScope": "asset"
     },
     {
+      "id": "asset-kakao-GptxdX-187439939",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bmua9n/dJMcacXqRlj/3ht2ktG75USSAgRvEB0Yvk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bmua9n/dJMcacXqRlj/3ht2ktG75USSAgRvEB0Yvk/img_s.jpg",
+        "width": 1119,
+        "height": 1318,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371999",
+        "mediaId": "187439939",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371999",
+        "publishedAt": "2026-05-17T08:32:22+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187440860",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dmA7qO/dJMcaf0T8hG/zd0ND2jBBviRqi0fw6b1h0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dmA7qO/dJMcaf0T8hG/zd0ND2jBBviRqi0fw6b1h0/img_s.jpg",
+        "width": 1114,
+        "height": 1378,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371999",
+        "mediaId": "187440860",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371999",
+        "publishedAt": "2026-05-17T08:32:22+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187441904",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/3EjdD/dJMcacDaHmX/YabAAxIwecs3T0Kh0K3BfK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/3EjdD/dJMcacDaHmX/YabAAxIwecs3T0Kh0K3BfK/img_s.jpg",
+        "width": 1115,
+        "height": 1419,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371999",
+        "mediaId": "187441904",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371999",
+        "publishedAt": "2026-05-17T08:32:22+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187444226",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bvmGhb/dJMcaffBLVV/zhkknq3jk5l6THeqm8qgy0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bvmGhb/dJMcaffBLVV/zhkknq3jk5l6THeqm8qgy0/img_s.jpg",
+        "width": 1107,
+        "height": 1412,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371999",
+        "mediaId": "187444226",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371999",
+        "publishedAt": "2026-05-17T08:32:22+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187445587",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/OS2g4/dJMcabK3pLk/qMfqPxxEAwtCpmC74zITe0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/OS2g4/dJMcabK3pLk/qMfqPxxEAwtCpmC74zITe0/img_s.jpg",
+        "width": 1086,
+        "height": 1414,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371999",
+        "mediaId": "187445587",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371999",
+        "publishedAt": "2026-05-17T08:32:22+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187446559",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bseNxo/dJMcac4bKd4/1hkL86AWRwNJWtTdDF7Bkk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bseNxo/dJMcac4bKd4/1hkL86AWRwNJWtTdDF7Bkk/img_s.jpg",
+        "width": 1119,
+        "height": 1495,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371999",
+        "mediaId": "187446559",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371999",
+        "publishedAt": "2026-05-17T08:32:22+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187439285",
+      "kind": "course_map",
+      "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/d1NeL2/dJMcaiJ4RZa/VSLSa8cy5oR3dm1X3mGwMK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/d1NeL2/dJMcaiJ4RZa/VSLSa8cy5oR3dm1X3mGwMK/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371871",
+        "mediaId": "187439285",
+        "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+        "publishedAt": "2026-05-17T07:14:13+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187439286",
+      "kind": "course_map",
+      "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/c5r8sq/dJMcacDaEeQ/9QTAhKajyGrKHrsFBn5hWk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/c5r8sq/dJMcacDaEeQ/9QTAhKajyGrKHrsFBn5hWk/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371871",
+        "mediaId": "187439286",
+        "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+        "publishedAt": "2026-05-17T07:14:13+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187439287",
+      "kind": "course_map",
+      "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bfBETC/dJMcahxHeCy/fqCvThq8WzpyocBgkmR7EK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bfBETC/dJMcahxHeCy/fqCvThq8WzpyocBgkmR7EK/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371871",
+        "mediaId": "187439287",
+        "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+        "publishedAt": "2026-05-17T07:14:13+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187441270",
+      "kind": "course_map",
+      "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/gYNcm/dJMcahLd7R3/zLIcxUq5mDY6ZGjScaQQ40/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/gYNcm/dJMcahLd7R3/zLIcxUq5mDY6ZGjScaQQ40/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371871",
+        "mediaId": "187441270",
+        "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+        "publishedAt": "2026-05-17T07:14:13+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187441271",
+      "kind": "course_map",
+      "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/8ELzH/dJMcafUbE8x/NiXllEN8vk8xNN9jdCkHiK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/8ELzH/dJMcafUbE8x/NiXllEN8vk8xNN9jdCkHiK/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371871",
+        "mediaId": "187441271",
+        "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+        "publishedAt": "2026-05-17T07:14:13+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187441272",
+      "kind": "course_map",
+      "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/grv1B/dJMcacJWD6X/QLxVaoaIfQKIkCvWPxAEW1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/grv1B/dJMcacJWD6X/QLxVaoaIfQKIkCvWPxAEW1/img_s.jpg",
+        "width": 1783,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113371871",
+        "mediaId": "187441272",
+        "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+        "publishedAt": "2026-05-17T07:14:13+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187295729",
+      "kind": "entry_list",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가  아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bZabux/dJMcadPueOf/kM9e4kIerKXVTNKm8Pp0xk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bZabux/dJMcadPueOf/kM9e4kIerKXVTNKm8Pp0xk/img_s.jpg",
+        "width": 953,
+        "height": 1181,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324387",
+        "mediaId": "187295729",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324387",
+        "publishedAt": "2026-05-12T15:09:47+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187189341",
+      "kind": "entry_list",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가  아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Bqn3y/dJMcaciJNk0/PbZrfkS4Jk01ea0Xtsaxo0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Bqn3y/dJMcaciJNk0/PbZrfkS4Jk01ea0Xtsaxo0/img_s.jpg",
+        "width": 1080,
+        "height": 1222,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324387",
+        "mediaId": "187189341",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324387",
+        "publishedAt": "2026-05-12T15:09:47+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187295730",
+      "kind": "entry_list",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가  아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/da4502/dJMcaiQO1Lr/aAdfszYw5CBnqcVSWIoMZ0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/da4502/dJMcaiQO1Lr/aAdfszYw5CBnqcVSWIoMZ0/img_s.jpg",
+        "width": 945,
+        "height": 1067,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324387",
+        "mediaId": "187295730",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324387",
+        "publishedAt": "2026-05-12T15:09:47+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187295732",
+      "kind": "entry_list",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가  아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bsdvCe/dJMcabjVVCs/EqAldzA6RpkCNsmKckjE90/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bsdvCe/dJMcabjVVCs/EqAldzA6RpkCNsmKckjE90/img_s.jpg",
+        "width": 925,
+        "height": 1208,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324387",
+        "mediaId": "187295732",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324387",
+        "publishedAt": "2026-05-12T15:09:47+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187189349",
+      "kind": "entry_list",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가  아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bV2IWp/dJMcadonDJC/OIyteoQfSM9JdjOVnzNWX0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bV2IWp/dJMcadonDJC/OIyteoQfSM9JdjOVnzNWX0/img_s.jpg",
+        "width": 953,
+        "height": 1262,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324387",
+        "mediaId": "187189349",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324387",
+        "publishedAt": "2026-05-12T15:09:47+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187295733",
+      "kind": "entry_list",
+      "title": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가  아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/HtVKl/dJMcaiDjlVs/bDu3KMc1h1zCmpd6RawhNK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/HtVKl/dJMcaiDjlVs/bDu3KMc1h1zCmpd6RawhNK/img_s.jpg",
+        "width": 1080,
+        "height": 1243,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324387",
+        "mediaId": "187295733",
+        "postTitle": "5.17(일) 제 77회 KKF 어질리티 위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324387",
+        "publishedAt": "2026-05-12T15:09:47+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187412957",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/zFoY3/dJMcaaZBRki/POvG4DKt23mAY8TKzJStQk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/zFoY3/dJMcaaZBRki/POvG4DKt23mAY8TKzJStQk/img_s.jpg",
+        "width": 1119,
+        "height": 1383,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113367285",
+        "mediaId": "187412957",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113367285",
+        "publishedAt": "2026-05-16T09:16:31+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187415898",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cfQJZb/dJMcaaegK5l/iB9x2ukVm7Mh0lI9Nx2U21/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cfQJZb/dJMcaaegK5l/iB9x2ukVm7Mh0lI9Nx2U21/img_s.jpg",
+        "width": 1110,
+        "height": 1297,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113367285",
+        "mediaId": "187415898",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113367285",
+        "publishedAt": "2026-05-16T09:16:31+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187419931",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cbyiIU/dJMcagyKnvI/NuRehHyNsH3CBIk1z5bEU0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cbyiIU/dJMcagyKnvI/NuRehHyNsH3CBIk1z5bEU0/img_s.jpg",
+        "width": 1049,
+        "height": 1404,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113367285",
+        "mediaId": "187419931",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113367285",
+        "publishedAt": "2026-05-16T09:16:31+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187428107",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bP0mQs/dJMcafmlL0R/iRpFFDrJCCS5biVc9qoAdk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bP0mQs/dJMcafmlL0R/iRpFFDrJCCS5biVc9qoAdk/img_s.jpg",
+        "width": 1117,
+        "height": 1414,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113367285",
+        "mediaId": "187428107",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113367285",
+        "publishedAt": "2026-05-16T09:16:31+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187427438",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/eehCKn/dJMb990KytN/6c5zwmFGpAFjD9ILb4A67K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/eehCKn/dJMb990KytN/6c5zwmFGpAFjD9ILb4A67K/img_s.jpg",
+        "width": 1110,
+        "height": 1450,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113367285",
+        "mediaId": "187427438",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113367285",
+        "publishedAt": "2026-05-16T09:16:31+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187429853",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/DOqIU/dJMcagetDqO/Iks7iHJOfB1gkRqAIcuSrK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/DOqIU/dJMcagetDqO/Iks7iHJOfB1gkRqAIcuSrK/img_s.jpg",
+        "width": 1068,
+        "height": 1486,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113367285",
+        "mediaId": "187429853",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113367285",
+        "publishedAt": "2026-05-16T09:16:31+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187411264",
+      "kind": "course_map",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/EMLuB/dJMcadIIxhZ/tRKq7QwskrAy4ATytPBp70/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/EMLuB/dJMcadIIxhZ/tRKq7QwskrAy4ATytPBp70/img_s.jpg",
+        "width": 1692,
+        "height": 946,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113366989",
+        "mediaId": "187411264",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+        "publishedAt": "2026-05-16T06:56:30+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187413424",
+      "kind": "course_map",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cmickJ/dJMcaaL3WYo/9TlxxaHe93Cnl8lRGGm5Uk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cmickJ/dJMcaaL3WYo/9TlxxaHe93Cnl8lRGGm5Uk/img_s.jpg",
+        "width": 1440,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113366989",
+        "mediaId": "187413424",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+        "publishedAt": "2026-05-16T06:56:30+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187416866",
+      "kind": "course_map",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/eAGZo7/dJMcabc7j5x/7AiFonjfwCuIaz6ZNk7Y90/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/eAGZo7/dJMcabc7j5x/7AiFonjfwCuIaz6ZNk7Y90/img_s.jpg",
+        "width": 1440,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113366989",
+        "mediaId": "187416866",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+        "publishedAt": "2026-05-16T06:56:30+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187417574",
+      "kind": "course_map",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/m9OHU/dJMcacb3ZLq/yB3rDeYGGwK1MbYrVBnp7K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/m9OHU/dJMcacb3ZLq/yB3rDeYGGwK1MbYrVBnp7K/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113366989",
+        "mediaId": "187417574",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+        "publishedAt": "2026-05-16T06:56:30+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187417575",
+      "kind": "course_map",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ckbNfG/dJMcad23EX2/hDkaTjwy6itVJOmLbjHD9K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ckbNfG/dJMcad23EX2/hDkaTjwy6itVJOmLbjHD9K/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113366989",
+        "mediaId": "187417575",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+        "publishedAt": "2026-05-16T06:56:30+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187417576",
+      "kind": "course_map",
+      "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cuMA4r/dJMcacb3ZLr/0o7MJpO6TkO4jPkLEJaH1K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cuMA4r/dJMcacb3ZLr/0o7MJpO6TkO4jPkLEJaH1K/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113366989",
+        "mediaId": "187417576",
+        "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+        "publishedAt": "2026-05-16T06:56:30+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187296218",
+      "kind": "entry_list",
+      "title": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cukPyn/dJMcaarL1Qk/wiPVNTlLHkslPVChoZE2P1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cukPyn/dJMcaarL1Qk/wiPVNTlLHkslPVChoZE2P1/img_s.jpg",
+        "width": 922,
+        "height": 1152,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324356",
+        "mediaId": "187296218",
+        "postTitle": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324356",
+        "publishedAt": "2026-05-12T15:07:59+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187189778",
+      "kind": "entry_list",
+      "title": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cITWgU/dJMcah5t292/hfm5Y9jJy7h3yIeyrRocrK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cITWgU/dJMcah5t292/hfm5Y9jJy7h3yIeyrRocrK/img_s.jpg",
+        "width": 1080,
+        "height": 1181,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324356",
+        "mediaId": "187189778",
+        "postTitle": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324356",
+        "publishedAt": "2026-05-12T15:07:59+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187296220",
+      "kind": "entry_list",
+      "title": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bjMYou/dJMcaarL1Qt/SRsJoiEbn5alzmo67XdbqK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bjMYou/dJMcaarL1Qt/SRsJoiEbn5alzmo67XdbqK/img_s.jpg",
+        "width": 1080,
+        "height": 1280,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324356",
+        "mediaId": "187296220",
+        "postTitle": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324356",
+        "publishedAt": "2026-05-12T15:07:59+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187296229",
+      "kind": "entry_list",
+      "title": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cBhKdk/dJMcagFxC3H/vBngvesrA5PivbjMugLiU0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cBhKdk/dJMcagFxC3H/vBngvesrA5PivbjMugLiU0/img_s.jpg",
+        "width": 940,
+        "height": 1282,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324356",
+        "mediaId": "187296229",
+        "postTitle": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324356",
+        "publishedAt": "2026-05-12T15:07:59+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187189781",
+      "kind": "entry_list",
+      "title": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bqNhlQ/dJMcafmh6XA/QCYhZ3V6H2BgrJ8azEXKVK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bqNhlQ/dJMcafmh6XA/QCYhZ3V6H2BgrJ8azEXKVK/img_s.jpg",
+        "width": 906,
+        "height": 1181,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324356",
+        "mediaId": "187189781",
+        "postTitle": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324356",
+        "publishedAt": "2026-05-12T15:07:59+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-187296232",
+      "kind": "entry_list",
+      "title": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 카카오톡채널 1대1 채팅으로 문의주시면 종합 후 수정해두겠습니다.\n\n\n해당 출진표는 수정을 위한 공개용 자료로, 최종 확정 출진표가 아닙니다.\n\n최종 출진표는 대회 당일 오전 진행되는 안전교육 등 출진 절차를 모두 완료한 팀에 한하여, 당일 오전에 최종 공지됩니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/juD7G/dJMcaii0B2O/noPiYczQiv0XjrhaoofEUK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/juD7G/dJMcaii0B2O/noPiYczQiv0XjrhaoofEUK/img_s.jpg",
+        "width": 914,
+        "height": 1166,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113324356",
+        "mediaId": "187296232",
+        "postTitle": "5.16일(토) 제 76회 KKF 어질리티위원회 승급전 예상 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113324356",
+        "publishedAt": "2026-05-12T15:07:59+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186741505",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.3(일) 오수 KKF 내셔널 결과표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Bhpoz/dJMcafma1fl/zrzjQ1oUhMZWRx8ZLjez50/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Bhpoz/dJMcafma1fl/zrzjQ1oUhMZWRx8ZLjez50/img_s.jpg",
+        "width": 1080,
+        "height": 1137,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113239603",
+        "mediaId": "186741505",
+        "postTitle": "5.3(일) 오수 KKF 내셔널 결과표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113239603",
+        "publishedAt": "2026-05-03T09:54:45+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186744182",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.3(일) 오수 KKF 내셔널 결과표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/VYEPg/dJMcahEfZlN/NKNXBg0D6tqkkkQDR4BxgK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/VYEPg/dJMcahEfZlN/NKNXBg0D6tqkkkQDR4BxgK/img_s.jpg",
+        "width": 1080,
+        "height": 1270,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113239603",
+        "mediaId": "186744182",
+        "postTitle": "5.3(일) 오수 KKF 내셔널 결과표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113239603",
+        "publishedAt": "2026-05-03T09:54:45+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186744860",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.3(일) 오수 KKF 내셔널 결과표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/noBJt/dJMcabRAEDr/MyQYyMFxfa9NokHS9k42hk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/noBJt/dJMcabRAEDr/MyQYyMFxfa9NokHS9k42hk/img_s.jpg",
+        "width": 1170,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113239603",
+        "mediaId": "186744860",
+        "postTitle": "5.3(일) 오수 KKF 내셔널 결과표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113239603",
+        "publishedAt": "2026-05-03T09:54:45+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186739919",
+      "kind": "course_map",
+      "title": "5.3(일) 오수 KKF 내셔널 코스 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dddS8R/dJMb99MYWaf/WIYbXIqKKfmG9jeiRm2sK1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dddS8R/dJMb99MYWaf/WIYbXIqKKfmG9jeiRm2sK1/img_s.jpg",
+        "width": 1523,
+        "height": 851,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113239364",
+        "mediaId": "186739919",
+        "postTitle": "5.3(일) 오수 KKF 내셔널 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113239364",
+        "publishedAt": "2026-05-03T08:38:48+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186739920",
+      "kind": "course_map",
+      "title": "5.3(일) 오수 KKF 내셔널 코스 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/7ENF9/dJMcabcXJkj/negZCRAyZwDhKwrjZAXtGk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/7ENF9/dJMcabcXJkj/negZCRAyZwDhKwrjZAXtGk/img_s.jpg",
+        "width": 1523,
+        "height": 851,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113239364",
+        "mediaId": "186739920",
+        "postTitle": "5.3(일) 오수 KKF 내셔널 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113239364",
+        "publishedAt": "2026-05-03T08:38:48+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186739921",
+      "kind": "course_map",
+      "title": "5.3(일) 오수 KKF 내셔널 코스 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/nPBIx/dJMcadPl4Xw/r2sgpYMrJ4xq4N7oaKmZ41/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/nPBIx/dJMcadPl4Xw/r2sgpYMrJ4xq4N7oaKmZ41/img_s.jpg",
+        "width": 1523,
+        "height": 851,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113239364",
+        "mediaId": "186739921",
+        "postTitle": "5.3(일) 오수 KKF 내셔널 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113239364",
+        "publishedAt": "2026-05-03T08:38:48+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186426778",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 10",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/zywtV/dJMcaffnt62/XLanKMCCoalTP8Axwj653k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/zywtV/dJMcaffnt62/XLanKMCCoalTP8Axwj653k/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186426778",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186426779",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 11",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dxp5ea/dJMcaiiOBKc/PqRQkY96luCsKYj87s99fk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dxp5ea/dJMcaiiOBKc/PqRQkY96luCsKYj87s99fk/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186426779",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186426781",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 12",
+      "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/22K57/dJMcaiiOBKd/wtSMmflJSDRnZpk41nniak/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/22K57/dJMcaiiOBKd/wtSMmflJSDRnZpk41nniak/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186426781",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186748465",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.3(일) 오수 FCI 인터내셔널 결과표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/xFwt0/dJMcagFpbuc/guYXRqWnOmBdkQn0FVqYT0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/xFwt0/dJMcagFpbuc/guYXRqWnOmBdkQn0FVqYT0/img_s.jpg",
+        "width": 1080,
+        "height": 1092,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113240835",
+        "mediaId": "186748465",
+        "postTitle": "5.3(일) 오수 FCI 인터내셔널 결과표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113240835",
+        "publishedAt": "2026-05-03T14:20:43+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186749087",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.3(일) 오수 FCI 인터내셔널 결과표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/tIRfU/dJMcabKSl0q/woJl2NFqQY4xE0b0ma5KOk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/tIRfU/dJMcabKSl0q/woJl2NFqQY4xE0b0ma5KOk/img_s.jpg",
+        "width": 1080,
+        "height": 1219,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113240835",
+        "mediaId": "186749087",
+        "postTitle": "5.3(일) 오수 FCI 인터내셔널 결과표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113240835",
+        "publishedAt": "2026-05-03T14:20:43+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186750411",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.3(일) 오수 FCI 인터내셔널 결과표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bwrM4b/dJMcajvjh7D/zkISK8v1vPxuOFk9BDpST0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bwrM4b/dJMcajvjh7D/zkISK8v1vPxuOFk9BDpST0/img_s.jpg",
+        "width": 1117,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113240835",
+        "mediaId": "186750411",
+        "postTitle": "5.3(일) 오수 FCI 인터내셔널 결과표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113240835",
+        "publishedAt": "2026-05-03T14:20:43+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186744576",
+      "kind": "course_map",
+      "title": "5.3(일) 오수 FCI 인터내셔널 코스 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hRagd/dJMcaf7vTQj/f0UmwuOtnLk5DC26KPU6r0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hRagd/dJMcaf7vTQj/f0UmwuOtnLk5DC26KPU6r0/img_s.jpg",
+        "width": 1781,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113240133",
+        "mediaId": "186744576",
+        "postTitle": "5.3(일) 오수 FCI 인터내셔널 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113240133",
+        "publishedAt": "2026-05-03T11:50:54+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186744577",
+      "kind": "course_map",
+      "title": "5.3(일) 오수 FCI 인터내셔널 코스 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cthW0U/dJMcajvjdBV/Yr6KyRyne0khDHaIIGl0m1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cthW0U/dJMcajvjdBV/Yr6KyRyne0khDHaIIGl0m1/img_s.jpg",
+        "width": 1781,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113240133",
+        "mediaId": "186744577",
+        "postTitle": "5.3(일) 오수 FCI 인터내셔널 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113240133",
+        "publishedAt": "2026-05-03T11:50:54+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186744578",
+      "kind": "course_map",
+      "title": "5.3(일) 오수 FCI 인터내셔널 코스 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/9Y7qG/dJMcaf7vTQA/uKV4InUKF1vjd7eEI0GW90/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/9Y7qG/dJMcaf7vTQA/uKV4InUKF1vjd7eEI0GW90/img_s.jpg",
+        "width": 1781,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113240133",
+        "mediaId": "186744578",
+        "postTitle": "5.3(일) 오수 FCI 인터내셔널 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113240133",
+        "publishedAt": "2026-05-03T11:50:54+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186448089",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 13",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bfHSTk/dJMcafGp9wA/s5sAnRCCIdyNGCvJktgWf0/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bfHSTk/dJMcafGp9wA/s5sAnRCCIdyNGCvJktgWf0/img_s.jpg",
+        "width": 2480,
+        "height": 3508,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186448089",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186448091",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 14",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/iquAM/dJMcafGp9wC/OdcC6zK5ehEPfqsrg5IB00/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/iquAM/dJMcafGp9wC/OdcC6zK5ehEPfqsrg5IB00/img_s.jpg",
+        "width": 2480,
+        "height": 3508,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186448091",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 14
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186448090",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 15",
+      "eventIds": [
+        "event-kakao-GptxdX-113240835-9aef41f33717"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dbFy44/dJMcag6n7Dg/wSPSrbXw5kXPkH8Tbxr2mk/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dbFy44/dJMcag6n7Dg/wSPSrbXw5kXPkH8Tbxr2mk/img_s.jpg",
+        "width": 2480,
+        "height": 3508,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186448090",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 15
+      }
+    },
+    {
       "id": "kkf-12451-001",
       "kind": "result",
       "title": "2026 오수 KKF 내셔널 어질리티 평가전 및 FCI 인터내셔널 어질리티 경기대회 결과 공고('26.5.2.) · 어질리티 1",
@@ -15921,6 +19063,504 @@
         "publishedAt": "2026-05-08T00:00:00+09:00"
       },
       "resultType": "image"
+    },
+    {
+      "id": "asset-kakao-GptxdX-186723093",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.2(토) KKF 아마추어대회 기록 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/0BbFu/dJMcadPlMS8/X8U18FfsMwKrXzNOKRdWz0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/0BbFu/dJMcadPlMS8/X8U18FfsMwKrXzNOKRdWz0/img_s.jpg",
+        "width": 818,
+        "height": 1773,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113236136",
+        "mediaId": "186723093",
+        "postTitle": "5.2(토) KKF 아마추어대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113236136",
+        "publishedAt": "2026-05-02T14:07:51+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186723094",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.2(토) KKF 아마추어대회 기록 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bTQMOS/dJMcag6rpFm/gbH0xkkjyGdKwBSzwULVL0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bTQMOS/dJMcag6rpFm/gbH0xkkjyGdKwBSzwULVL0/img_s.jpg",
+        "width": 778,
+        "height": 1756,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113236136",
+        "mediaId": "186723094",
+        "postTitle": "5.2(토) KKF 아마추어대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113236136",
+        "publishedAt": "2026-05-02T14:07:51+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186725345",
+      "kind": "result",
+      "resultType": "image",
+      "title": "5.2(토) KKF 아마추어대회 기록 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bGihuI/dJMcaaZrqD6/MUcjJt87rmhy2pSbJ8cXa0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bGihuI/dJMcaaZrqD6/MUcjJt87rmhy2pSbJ8cXa0/img_s.jpg",
+        "width": 772,
+        "height": 1637,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113236136",
+        "mediaId": "186725345",
+        "postTitle": "5.2(토) KKF 아마추어대회 기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113236136",
+        "publishedAt": "2026-05-02T14:07:51+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186710260",
+      "kind": "course_map",
+      "title": "5.2(토) 아마추어대회 코스 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bhlt5r/dJMcacXfR0X/bK22awjsZeZjK9x8Ovlk8k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bhlt5r/dJMcacXfR0X/bK22awjsZeZjK9x8Ovlk8k/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113233856",
+        "mediaId": "186710260",
+        "postTitle": "5.2(토) 아마추어대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113233856",
+        "publishedAt": "2026-05-02T09:20:39+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186710261",
+      "kind": "course_map",
+      "title": "5.2(토) 아마추어대회 코스 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/eklcTl/dJMcagL9W9s/4809EqklgQBxptYZWgQ63k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/eklcTl/dJMcagL9W9s/4809EqklgQBxptYZWgQ63k/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113233856",
+        "mediaId": "186710261",
+        "postTitle": "5.2(토) 아마추어대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113233856",
+        "publishedAt": "2026-05-02T09:20:39+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186710262",
+      "kind": "course_map",
+      "title": "5.2(토) 아마추어대회 코스 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cmivmQ/dJMcacwdRLm/el5XORcgjGvV3wKzVIK9yk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cmivmQ/dJMcacwdRLm/el5XORcgjGvV3wKzVIK9yk/img_s.jpg",
+        "width": 1932,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113233856",
+        "mediaId": "186710262",
+        "postTitle": "5.2(토) 아마추어대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113233856",
+        "publishedAt": "2026-05-02T09:20:39+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186421809",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/J7uzD/dJMcabKOjd1/AragxNdr6FMLJAHDLeiZF1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/J7uzD/dJMcabKOjd1/AragxNdr6FMLJAHDLeiZF1/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186421809",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186426235",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/coT9fC/dJMcaffntRI/GkTmAnhEXzEQnQw4bzNYkK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/coT9fC/dJMcaffntRI/GkTmAnhEXzEQnQw4bzNYkK/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186426235",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186426300",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/c4uEt0/dJMcaffntS6/I54TNNAV0syIhrHuOqfQJ0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/c4uEt0/dJMcaffntS6/I54TNNAV0syIhrHuOqfQJ0/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186426300",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186426303",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 7",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bjoU9a/dJMcagL6vTg/Z7ReMRENYDKBylGuu1TcT1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bjoU9a/dJMcagL6vTg/Z7ReMRENYDKBylGuu1TcT1/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186426303",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186426364",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 8",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cgreaq/dJMcahEcdtV/euf9COnlE1XxlxhinDe0kK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cgreaq/dJMcahEcdtV/euf9COnlE1XxlxhinDe0kK/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186426364",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186426372",
+      "kind": "entry_list",
+      "title": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표 · 9",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bssMig/dJMcacXcrp6/5Kep7dV5ekiJ4MK0X8Tlg0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bssMig/dJMcacXcrp6/5Kep7dV5ekiJ4MK0X8Tlg0/img_s.jpg",
+        "width": 1080,
+        "height": 1528,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113177309",
+        "mediaId": "186426372",
+        "postTitle": "OSU 어질리티 대회(아마추어, KKF, FCI) 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113177309",
+        "publishedAt": "2026-04-28T00:13:10+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186219396",
+      "kind": "entry_list",
+      "title": "5.2(토) 제 1회 KKF 아마추어 어질리티대회 출진표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정해두겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/elI6UW/dJMcaf7pheQ/N7U3O9HQKahNftWSRkfCzk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/elI6UW/dJMcaf7pheQ/N7U3O9HQKahNftWSRkfCzk/img_s.jpg",
+        "width": 908,
+        "height": 1967,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113134743",
+        "mediaId": "186219396",
+        "postTitle": "5.2(토) 제 1회 KKF 아마추어 어질리티대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113134743",
+        "publishedAt": "2026-04-23T15:12:21+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186202199",
+      "kind": "entry_list",
+      "title": "5.2(토) 제 1회 KKF 아마추어 어질리티대회 출진표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정해두겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/c4CFTK/dJMcadBGAcl/BIK3yezmlkmfmttgRut410/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/c4CFTK/dJMcadBGAcl/BIK3yezmlkmfmttgRut410/img_s.jpg",
+        "width": 917,
+        "height": 2123,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113134743",
+        "mediaId": "186202199",
+        "postTitle": "5.2(토) 제 1회 KKF 아마추어 어질리티대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113134743",
+        "publishedAt": "2026-04-23T15:12:21+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-186202200",
+      "kind": "entry_list",
+      "title": "5.2(토) 제 1회 KKF 아마추어 어질리티대회 출진표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정해두겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bgAuU3/dJMcagFh5Bl/n2ubuJCkKKD3cstKRAJXH1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bgAuU3/dJMcagFh5Bl/n2ubuJCkKKD3cstKRAJXH1/img_s.jpg",
+        "width": 971,
+        "height": 1996,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "113134743",
+        "mediaId": "186202200",
+        "postTitle": "5.2(토) 제 1회 KKF 아마추어 어질리티대회 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/113134743",
+        "publishedAt": "2026-04-23T15:12:21+09:00",
+        "imageOrder": 3
+      }
     },
     {
       "id": "asset-kakao-BfHUb-185953744",
@@ -111619,6 +115259,394 @@
       ]
     },
     {
+      "id": "event:event-kakao-GptxdX-114644713-50e6a1add280",
+      "eventId": "event-kakao-GptxdX-114644713-50e6a1add280",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-194015072",
+          "kind": "course_map",
+          "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-114644713-50e6a1add280"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/RLk7n/dJMcah0bOdN/hGVwukZ5m7LOWM4Y6Na8V1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/RLk7n/dJMcah0bOdN/hGVwukZ5m7LOWM4Y6Na8V1/img_s.jpg",
+            "width": 1933,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114644364",
+            "mediaId": "194015072",
+            "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+            "publishedAt": "2026-09-20T08:11:11+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-194015073",
+          "kind": "course_map",
+          "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-114644713-50e6a1add280"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/cUNYRD/dJMcaafQAZh/0krUJnJ1BSlErF7Qg9Y84k/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/cUNYRD/dJMcaafQAZh/0krUJnJ1BSlErF7Qg9Y84k/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114644364",
+            "mediaId": "194015073",
+            "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+            "publishedAt": "2026-09-20T08:11:11+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-194015074",
+          "kind": "course_map",
+          "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-114644713-50e6a1add280"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/babW99/dJMcadDmNdd/CcvqSWTVKR6qNipiXKdwxK/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/babW99/dJMcadDmNdd/CcvqSWTVKR6qNipiXKdwxK/img_s.jpg",
+            "width": 1933,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114644364",
+            "mediaId": "194015074",
+            "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+            "publishedAt": "2026-09-20T08:11:11+09:00",
+            "imageOrder": 3
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-194015075",
+          "kind": "course_map",
+          "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 4",
+          "eventIds": [
+            "event-kakao-GptxdX-114644713-50e6a1add280"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/bwDIdb/dJMcadDmNde/w7AyAKMJ4FGyNYgp4DrIP1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/bwDIdb/dJMcadDmNde/w7AyAKMJ4FGyNYgp4DrIP1/img_s.jpg",
+            "width": 1933,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114644364",
+            "mediaId": "194015075",
+            "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+            "publishedAt": "2026-09-20T08:11:11+09:00",
+            "imageOrder": 4
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-194015076",
+          "kind": "course_map",
+          "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 5",
+          "eventIds": [
+            "event-kakao-GptxdX-114644713-50e6a1add280"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/mn3s2/dJMcaikBFNW/MCbOukLoAlxT7eB2qYHgl1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/mn3s2/dJMcaikBFNW/MCbOukLoAlxT7eB2qYHgl1/img_s.jpg",
+            "width": 1933,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114644364",
+            "mediaId": "194015076",
+            "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+            "publishedAt": "2026-09-20T08:11:11+09:00",
+            "imageOrder": 5
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-194015077",
+          "kind": "course_map",
+          "title": "26.09.20 KKF 내셔널 어질리티 대회 코스 · 6",
+          "eventIds": [
+            "event-kakao-GptxdX-114644713-50e6a1add280"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/dZKBnh/dJMcaaz8MNj/iO09P2mkmczDY6wPeruaw1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/dZKBnh/dJMcaaz8MNj/iO09P2mkmczDY6wPeruaw1/img_s.jpg",
+            "width": 1933,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114644364",
+            "mediaId": "194015077",
+            "postTitle": "26.09.20 KKF 내셔널 어질리티 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114644364",
+            "publishedAt": "2026-09-20T08:11:11+09:00",
+            "imageOrder": 6
+          }
+        }
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event:event-kakao-GptxdX-114639696-fc5fdc3bdd47",
+      "eventId": "event-kakao-GptxdX-114639696-fc5fdc3bdd47",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-193987776",
+          "kind": "course_map",
+          "title": "26.09.19일(토) 홍천 비기너/노비스 코스 · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/byy3Or/dJMcaiStOET/tphpoUk87qDcoJPWnYqBxK/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/byy3Or/dJMcaiStOET/tphpoUk87qDcoJPWnYqBxK/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114639307",
+            "mediaId": "193987776",
+            "postTitle": "26.09.19일(토) 홍천 비기너/노비스 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114639307",
+            "publishedAt": "2026-09-19T09:00:12+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-193987777",
+          "kind": "course_map",
+          "title": "26.09.19일(토) 홍천 비기너/노비스 코스 · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/giNd1/dJMcaiStOE5/oka86kaYaZqfLkWeOZph0k/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/giNd1/dJMcaiStOE5/oka86kaYaZqfLkWeOZph0k/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114639307",
+            "mediaId": "193987777",
+            "postTitle": "26.09.19일(토) 홍천 비기너/노비스 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114639307",
+            "publishedAt": "2026-09-19T09:00:12+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-193987778",
+          "kind": "course_map",
+          "title": "26.09.19일(토) 홍천 비기너/노비스 코스 · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/dU3Hmd/dJMcad4y70l/33YpcCAMvIEL8FXrKxjSkK/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/dU3Hmd/dJMcad4y70l/33YpcCAMvIEL8FXrKxjSkK/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114639307",
+            "mediaId": "193987778",
+            "postTitle": "26.09.19일(토) 홍천 비기너/노비스 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114639307",
+            "publishedAt": "2026-09-19T09:00:12+09:00",
+            "imageOrder": 3
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-193987779",
+          "kind": "course_map",
+          "title": "26.09.19일(토) 홍천 비기너/노비스 코스 · 4",
+          "eventIds": [
+            "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/o7mYt/dJMcac5HXrS/7HvqzFbSFzy3gzF6XY6Lj0/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/o7mYt/dJMcac5HXrS/7HvqzFbSFzy3gzF6XY6Lj0/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114639307",
+            "mediaId": "193987779",
+            "postTitle": "26.09.19일(토) 홍천 비기너/노비스 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114639307",
+            "publishedAt": "2026-09-19T09:00:12+09:00",
+            "imageOrder": 4
+          }
+        }
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ]
+    },
+    {
       "id": "event:event-leez-taean-20260905",
       "eventId": "event-leez-taean-20260905",
       "maps": [
@@ -113668,6 +117696,828 @@
       ],
       "categoryIds": [
         "jpag_ranking",
+        "benov_ranking"
+      ]
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113371999-ed528b296924",
+      "eventId": "event-kakao-GptxdX-113371999-ed528b296924",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-187439285",
+          "kind": "course_map",
+          "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-113371999-ed528b296924"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/d1NeL2/dJMcaiJ4RZa/VSLSa8cy5oR3dm1X3mGwMK/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/d1NeL2/dJMcaiJ4RZa/VSLSa8cy5oR3dm1X3mGwMK/img_s.jpg",
+            "width": 1783,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113371871",
+            "mediaId": "187439285",
+            "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+            "publishedAt": "2026-05-17T07:14:13+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187439286",
+          "kind": "course_map",
+          "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-113371999-ed528b296924"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/c5r8sq/dJMcacDaEeQ/9QTAhKajyGrKHrsFBn5hWk/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/c5r8sq/dJMcacDaEeQ/9QTAhKajyGrKHrsFBn5hWk/img_s.jpg",
+            "width": 1783,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113371871",
+            "mediaId": "187439286",
+            "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+            "publishedAt": "2026-05-17T07:14:13+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187439287",
+          "kind": "course_map",
+          "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-113371999-ed528b296924"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/bfBETC/dJMcahxHeCy/fqCvThq8WzpyocBgkmR7EK/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/bfBETC/dJMcahxHeCy/fqCvThq8WzpyocBgkmR7EK/img_s.jpg",
+            "width": 1783,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113371871",
+            "mediaId": "187439287",
+            "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+            "publishedAt": "2026-05-17T07:14:13+09:00",
+            "imageOrder": 3
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187441270",
+          "kind": "course_map",
+          "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 4",
+          "eventIds": [
+            "event-kakao-GptxdX-113371999-ed528b296924"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/gYNcm/dJMcahLd7R3/zLIcxUq5mDY6ZGjScaQQ40/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/gYNcm/dJMcahLd7R3/zLIcxUq5mDY6ZGjScaQQ40/img_s.jpg",
+            "width": 1783,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113371871",
+            "mediaId": "187441270",
+            "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+            "publishedAt": "2026-05-17T07:14:13+09:00",
+            "imageOrder": 4
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187441271",
+          "kind": "course_map",
+          "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 5",
+          "eventIds": [
+            "event-kakao-GptxdX-113371999-ed528b296924"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/8ELzH/dJMcafUbE8x/NiXllEN8vk8xNN9jdCkHiK/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/8ELzH/dJMcafUbE8x/NiXllEN8vk8xNN9jdCkHiK/img_s.jpg",
+            "width": 1783,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113371871",
+            "mediaId": "187441271",
+            "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+            "publishedAt": "2026-05-17T07:14:13+09:00",
+            "imageOrder": 5
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187441272",
+          "kind": "course_map",
+          "title": "제 77회 어질리티 위원회 승급전 코스입니다. · 6",
+          "eventIds": [
+            "event-kakao-GptxdX-113371999-ed528b296924"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/grv1B/dJMcacJWD6X/QLxVaoaIfQKIkCvWPxAEW1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/grv1B/dJMcacJWD6X/QLxVaoaIfQKIkCvWPxAEW1/img_s.jpg",
+            "width": 1783,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113371871",
+            "mediaId": "187441272",
+            "postTitle": "제 77회 어질리티 위원회 승급전 코스입니다.",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113371871",
+            "publishedAt": "2026-05-17T07:14:13+09:00",
+            "imageOrder": 6
+          }
+        }
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113367285-46ad58877697",
+      "eventId": "event-kakao-GptxdX-113367285-46ad58877697",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-187411264",
+          "kind": "course_map",
+          "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-113367285-46ad58877697"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/EMLuB/dJMcadIIxhZ/tRKq7QwskrAy4ATytPBp70/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/EMLuB/dJMcadIIxhZ/tRKq7QwskrAy4ATytPBp70/img_s.jpg",
+            "width": 1692,
+            "height": 946,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113366989",
+            "mediaId": "187411264",
+            "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+            "publishedAt": "2026-05-16T06:56:30+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187413424",
+          "kind": "course_map",
+          "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-113367285-46ad58877697"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/cmickJ/dJMcaaL3WYo/9TlxxaHe93Cnl8lRGGm5Uk/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/cmickJ/dJMcaaL3WYo/9TlxxaHe93Cnl8lRGGm5Uk/img_s.jpg",
+            "width": 1440,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113366989",
+            "mediaId": "187413424",
+            "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+            "publishedAt": "2026-05-16T06:56:30+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187416866",
+          "kind": "course_map",
+          "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-113367285-46ad58877697"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/eAGZo7/dJMcabc7j5x/7AiFonjfwCuIaz6ZNk7Y90/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/eAGZo7/dJMcabc7j5x/7AiFonjfwCuIaz6ZNk7Y90/img_s.jpg",
+            "width": 1440,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113366989",
+            "mediaId": "187416866",
+            "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+            "publishedAt": "2026-05-16T06:56:30+09:00",
+            "imageOrder": 3
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187417574",
+          "kind": "course_map",
+          "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 4",
+          "eventIds": [
+            "event-kakao-GptxdX-113367285-46ad58877697"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/m9OHU/dJMcacb3ZLq/yB3rDeYGGwK1MbYrVBnp7K/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/m9OHU/dJMcacb3ZLq/yB3rDeYGGwK1MbYrVBnp7K/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113366989",
+            "mediaId": "187417574",
+            "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+            "publishedAt": "2026-05-16T06:56:30+09:00",
+            "imageOrder": 4
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187417575",
+          "kind": "course_map",
+          "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 5",
+          "eventIds": [
+            "event-kakao-GptxdX-113367285-46ad58877697"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/ckbNfG/dJMcad23EX2/hDkaTjwy6itVJOmLbjHD9K/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/ckbNfG/dJMcad23EX2/hDkaTjwy6itVJOmLbjHD9K/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113366989",
+            "mediaId": "187417575",
+            "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+            "publishedAt": "2026-05-16T06:56:30+09:00",
+            "imageOrder": 5
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-187417576",
+          "kind": "course_map",
+          "title": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스 · 6",
+          "eventIds": [
+            "event-kakao-GptxdX-113367285-46ad58877697"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/cuMA4r/dJMcacb3ZLr/0o7MJpO6TkO4jPkLEJaH1K/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/cuMA4r/dJMcacb3ZLr/0o7MJpO6TkO4jPkLEJaH1K/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113366989",
+            "mediaId": "187417576",
+            "postTitle": "5.16 제 76회 KKF 어질리티 위원회 승급전 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113366989",
+            "publishedAt": "2026-05-16T06:56:30+09:00",
+            "imageOrder": 6
+          }
+        }
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113239603-314b297f54fd",
+      "eventId": "event-kakao-GptxdX-113239603-314b297f54fd",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-186739919",
+          "kind": "course_map",
+          "title": "5.3(일) 오수 KKF 내셔널 코스 · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-113239603-314b297f54fd"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/dddS8R/dJMb99MYWaf/WIYbXIqKKfmG9jeiRm2sK1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/dddS8R/dJMb99MYWaf/WIYbXIqKKfmG9jeiRm2sK1/img_s.jpg",
+            "width": 1523,
+            "height": 851,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113239364",
+            "mediaId": "186739919",
+            "postTitle": "5.3(일) 오수 KKF 내셔널 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113239364",
+            "publishedAt": "2026-05-03T08:38:48+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-186739920",
+          "kind": "course_map",
+          "title": "5.3(일) 오수 KKF 내셔널 코스 · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-113239603-314b297f54fd"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/7ENF9/dJMcabcXJkj/negZCRAyZwDhKwrjZAXtGk/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/7ENF9/dJMcabcXJkj/negZCRAyZwDhKwrjZAXtGk/img_s.jpg",
+            "width": 1523,
+            "height": 851,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113239364",
+            "mediaId": "186739920",
+            "postTitle": "5.3(일) 오수 KKF 내셔널 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113239364",
+            "publishedAt": "2026-05-03T08:38:48+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-186739921",
+          "kind": "course_map",
+          "title": "5.3(일) 오수 KKF 내셔널 코스 · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-113239603-314b297f54fd"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/nPBIx/dJMcadPl4Xw/r2sgpYMrJ4xq4N7oaKmZ41/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/nPBIx/dJMcadPl4Xw/r2sgpYMrJ4xq4N7oaKmZ41/img_s.jpg",
+            "width": 1523,
+            "height": 851,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113239364",
+            "mediaId": "186739921",
+            "postTitle": "5.3(일) 오수 KKF 내셔널 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113239364",
+            "publishedAt": "2026-05-03T08:38:48+09:00",
+            "imageOrder": 3
+          }
+        }
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113240835-9aef41f33717",
+      "eventId": "event-kakao-GptxdX-113240835-9aef41f33717",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-186744576",
+          "kind": "course_map",
+          "title": "5.3(일) 오수 FCI 인터내셔널 코스 · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-113240835-9aef41f33717"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/hRagd/dJMcaf7vTQj/f0UmwuOtnLk5DC26KPU6r0/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/hRagd/dJMcaf7vTQj/f0UmwuOtnLk5DC26KPU6r0/img_s.jpg",
+            "width": 1781,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113240133",
+            "mediaId": "186744576",
+            "postTitle": "5.3(일) 오수 FCI 인터내셔널 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113240133",
+            "publishedAt": "2026-05-03T11:50:54+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-186744577",
+          "kind": "course_map",
+          "title": "5.3(일) 오수 FCI 인터내셔널 코스 · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-113240835-9aef41f33717"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/cthW0U/dJMcajvjdBV/Yr6KyRyne0khDHaIIGl0m1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/cthW0U/dJMcajvjdBV/Yr6KyRyne0khDHaIIGl0m1/img_s.jpg",
+            "width": 1781,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113240133",
+            "mediaId": "186744577",
+            "postTitle": "5.3(일) 오수 FCI 인터내셔널 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113240133",
+            "publishedAt": "2026-05-03T11:50:54+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-186744578",
+          "kind": "course_map",
+          "title": "5.3(일) 오수 FCI 인터내셔널 코스 · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-113240835-9aef41f33717"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/9Y7qG/dJMcaf7vTQA/uKV4InUKF1vjd7eEI0GW90/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/9Y7qG/dJMcaf7vTQA/uKV4InUKF1vjd7eEI0GW90/img_s.jpg",
+            "width": 1781,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113240133",
+            "mediaId": "186744578",
+            "postTitle": "5.3(일) 오수 FCI 인터내셔널 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113240133",
+            "publishedAt": "2026-05-03T11:50:54+09:00",
+            "imageOrder": 3
+          }
+        }
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113236136-1f30f000c738",
+      "eventId": "event-kakao-GptxdX-113236136-1f30f000c738",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-186710260",
+          "kind": "course_map",
+          "title": "5.2(토) 아마추어대회 코스 · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-113236136-1f30f000c738"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/bhlt5r/dJMcacXfR0X/bK22awjsZeZjK9x8Ovlk8k/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/bhlt5r/dJMcacXfR0X/bK22awjsZeZjK9x8Ovlk8k/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113233856",
+            "mediaId": "186710260",
+            "postTitle": "5.2(토) 아마추어대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113233856",
+            "publishedAt": "2026-05-02T09:20:39+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-186710261",
+          "kind": "course_map",
+          "title": "5.2(토) 아마추어대회 코스 · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-113236136-1f30f000c738"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/eklcTl/dJMcagL9W9s/4809EqklgQBxptYZWgQ63k/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/eklcTl/dJMcagL9W9s/4809EqklgQBxptYZWgQ63k/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113233856",
+            "mediaId": "186710261",
+            "postTitle": "5.2(토) 아마추어대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113233856",
+            "publishedAt": "2026-05-02T09:20:39+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-186710262",
+          "kind": "course_map",
+          "title": "5.2(토) 아마추어대회 코스 · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-113236136-1f30f000c738"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/cmivmQ/dJMcacwdRLm/el5XORcgjGvV3wKzVIK9yk/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/cmivmQ/dJMcacwdRLm/el5XORcgjGvV3wKzVIK9yk/img_s.jpg",
+            "width": 1932,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "113233856",
+            "mediaId": "186710262",
+            "postTitle": "5.2(토) 아마추어대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/113233856",
+            "publishedAt": "2026-05-02T09:20:39+09:00",
+            "imageOrder": 3
+          }
+        }
+      ],
+      "categoryIds": [
         "benov_ranking"
       ]
     },
@@ -144111,6 +148961,27 @@
   ],
   "eventGroups": [
     {
+      "eventId": "event-kakao-GptxdX-114855200-61dee1502fc0",
+      "entryListIds": [
+        "asset-kakao-GptxdX-195139886",
+        "asset-kakao-GptxdX-195139887",
+        "asset-kakao-GptxdX-195139888",
+        "asset-kakao-GptxdX-195139889",
+        "asset-kakao-GptxdX-195139890",
+        "asset-kakao-GptxdX-195139891"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [
+        "jpag_promotion"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
       "eventId": "event-waldbow-801",
       "entryListIds": [
         "asset-waldbow-801-entry_list-049138e038926ed4-1",
@@ -144330,6 +149201,78 @@
       ],
       "resultCategoryIds": [
         "jpag_ranking",
+        "benov_ranking"
+      ]
+    },
+    {
+      "eventId": "event-kakao-GptxdX-114644713-50e6a1add280",
+      "entryListIds": [
+        "asset-kakao-GptxdX-193890034",
+        "asset-kakao-GptxdX-193890035",
+        "asset-kakao-GptxdX-193890036",
+        "asset-kakao-GptxdX-193890037",
+        "asset-kakao-GptxdX-193890039",
+        "asset-kakao-GptxdX-193890040"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-194015072",
+        "asset-kakao-GptxdX-194015073",
+        "asset-kakao-GptxdX-194015074",
+        "asset-kakao-GptxdX-194015075",
+        "asset-kakao-GptxdX-194015076",
+        "asset-kakao-GptxdX-194015077"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-194018280",
+        "asset-kakao-GptxdX-194021593",
+        "asset-kakao-GptxdX-194022010",
+        "asset-kakao-GptxdX-194022910",
+        "asset-kakao-GptxdX-194025167",
+        "asset-kakao-GptxdX-194025168"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [
+        "jpag_promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "resultCategoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "eventId": "event-kakao-GptxdX-114639696-fc5fdc3bdd47",
+      "entryListIds": [
+        "asset-kakao-GptxdX-193890095",
+        "asset-kakao-GptxdX-193890096",
+        "asset-kakao-GptxdX-193890104",
+        "asset-kakao-GptxdX-193890105"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-193987776",
+        "asset-kakao-GptxdX-193987777",
+        "asset-kakao-GptxdX-193987778",
+        "asset-kakao-GptxdX-193987779"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-193990052",
+        "asset-kakao-GptxdX-193994030",
+        "asset-kakao-GptxdX-194001923",
+        "asset-kakao-GptxdX-194008113"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "entryListCategoryIds": [
+        "benov_ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "resultCategoryIds": [
         "benov_ranking"
       ]
     },
@@ -144911,6 +149854,144 @@
       ]
     },
     {
+      "eventId": "event-kakao-GptxdX-113371999-ed528b296924",
+      "entryListIds": [
+        "asset-kakao-GptxdX-187189341",
+        "asset-kakao-GptxdX-187189349",
+        "asset-kakao-GptxdX-187295729",
+        "asset-kakao-GptxdX-187295730",
+        "asset-kakao-GptxdX-187295732",
+        "asset-kakao-GptxdX-187295733"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-187439285",
+        "asset-kakao-GptxdX-187439286",
+        "asset-kakao-GptxdX-187439287",
+        "asset-kakao-GptxdX-187441270",
+        "asset-kakao-GptxdX-187441271",
+        "asset-kakao-GptxdX-187441272"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-187439939",
+        "asset-kakao-GptxdX-187440860",
+        "asset-kakao-GptxdX-187441904",
+        "asset-kakao-GptxdX-187444226",
+        "asset-kakao-GptxdX-187445587",
+        "asset-kakao-GptxdX-187446559"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [
+        "jpag_promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "resultCategoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "eventId": "event-kakao-GptxdX-113367285-46ad58877697",
+      "entryListIds": [
+        "asset-kakao-GptxdX-187189778",
+        "asset-kakao-GptxdX-187189781",
+        "asset-kakao-GptxdX-187296218",
+        "asset-kakao-GptxdX-187296220",
+        "asset-kakao-GptxdX-187296229",
+        "asset-kakao-GptxdX-187296232"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-187411264",
+        "asset-kakao-GptxdX-187413424",
+        "asset-kakao-GptxdX-187416866",
+        "asset-kakao-GptxdX-187417574",
+        "asset-kakao-GptxdX-187417575",
+        "asset-kakao-GptxdX-187417576"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-187412957",
+        "asset-kakao-GptxdX-187415898",
+        "asset-kakao-GptxdX-187419931",
+        "asset-kakao-GptxdX-187427438",
+        "asset-kakao-GptxdX-187428107",
+        "asset-kakao-GptxdX-187429853"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [
+        "jpag_promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "resultCategoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "eventId": "event-kakao-GptxdX-113239603-314b297f54fd",
+      "entryListIds": [
+        "asset-kakao-GptxdX-186426778",
+        "asset-kakao-GptxdX-186426779",
+        "asset-kakao-GptxdX-186426781"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-186739919",
+        "asset-kakao-GptxdX-186739920",
+        "asset-kakao-GptxdX-186739921"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-186741505",
+        "asset-kakao-GptxdX-186744182",
+        "asset-kakao-GptxdX-186744860"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [
+        "jpag_promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "resultCategoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "eventId": "event-kakao-GptxdX-113240835-9aef41f33717",
+      "entryListIds": [
+        "asset-kakao-GptxdX-186448089",
+        "asset-kakao-GptxdX-186448090",
+        "asset-kakao-GptxdX-186448091"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-186744576",
+        "asset-kakao-GptxdX-186744577",
+        "asset-kakao-GptxdX-186744578"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-186748465",
+        "asset-kakao-GptxdX-186749087",
+        "asset-kakao-GptxdX-186750411"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [
+        "jpag_promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "resultCategoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
       "eventId": "kkf-12451",
       "entryListIds": [],
       "courseMapIds": [],
@@ -144929,6 +150010,42 @@
       "courseMapCategoryIds": [],
       "resultCategoryIds": [
         "jpag_promotion"
+      ]
+    },
+    {
+      "eventId": "event-kakao-GptxdX-113236136-1f30f000c738",
+      "entryListIds": [
+        "asset-kakao-GptxdX-186202199",
+        "asset-kakao-GptxdX-186202200",
+        "asset-kakao-GptxdX-186219396",
+        "asset-kakao-GptxdX-186421809",
+        "asset-kakao-GptxdX-186426235",
+        "asset-kakao-GptxdX-186426300",
+        "asset-kakao-GptxdX-186426303",
+        "asset-kakao-GptxdX-186426364",
+        "asset-kakao-GptxdX-186426372"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-186710260",
+        "asset-kakao-GptxdX-186710261",
+        "asset-kakao-GptxdX-186710262"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-186723093",
+        "asset-kakao-GptxdX-186723094",
+        "asset-kakao-GptxdX-186725345"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "entryListCategoryIds": [
+        "benov_ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "resultCategoryIds": [
+        "benov_ranking"
       ]
     },
     {
@@ -151006,6 +156123,22 @@
   ],
   "competitionGroups": [
     {
+      "id": "event:event-kakao-GptxdX-114855200-61dee1502fc0:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-114855200-61dee1502fc0",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [
+        "asset-kakao-GptxdX-195139886",
+        "asset-kakao-GptxdX-195139887",
+        "asset-kakao-GptxdX-195139888",
+        "asset-kakao-GptxdX-195139889",
+        "asset-kakao-GptxdX-195139890",
+        "asset-kakao-GptxdX-195139891"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
       "id": "event:event-waldbow-801:category:jpag_ranking",
       "eventId": "event-waldbow-801",
       "categoryId": "jpag_ranking",
@@ -151301,6 +156434,60 @@
         "asset-kakao-MPeBn-194677443",
         "asset-kakao-MPeBn-194677744",
         "asset-kakao-MPeBn-194678456"
+      ],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-GptxdX-114644713-50e6a1add280:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-114644713-50e6a1add280",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [
+        "asset-kakao-GptxdX-193890034",
+        "asset-kakao-GptxdX-193890035",
+        "asset-kakao-GptxdX-193890036",
+        "asset-kakao-GptxdX-193890037",
+        "asset-kakao-GptxdX-193890039",
+        "asset-kakao-GptxdX-193890040"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-194015072",
+        "asset-kakao-GptxdX-194015073",
+        "asset-kakao-GptxdX-194015074",
+        "asset-kakao-GptxdX-194015075",
+        "asset-kakao-GptxdX-194015076",
+        "asset-kakao-GptxdX-194015077"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-194022010",
+        "asset-kakao-GptxdX-194018280",
+        "asset-kakao-GptxdX-194021593",
+        "asset-kakao-GptxdX-194022910",
+        "asset-kakao-GptxdX-194025167",
+        "asset-kakao-GptxdX-194025168"
+      ],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-GptxdX-114639696-fc5fdc3bdd47:category:benov_ranking",
+      "eventId": "event-kakao-GptxdX-114639696-fc5fdc3bdd47",
+      "categoryId": "benov_ranking",
+      "entryListIds": [
+        "asset-kakao-GptxdX-193890095",
+        "asset-kakao-GptxdX-193890096",
+        "asset-kakao-GptxdX-193890104",
+        "asset-kakao-GptxdX-193890105"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-193987776",
+        "asset-kakao-GptxdX-193987777",
+        "asset-kakao-GptxdX-193987778",
+        "asset-kakao-GptxdX-193987779"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-193990052",
+        "asset-kakao-GptxdX-193994030",
+        "asset-kakao-GptxdX-194001923",
+        "asset-kakao-GptxdX-194008113"
       ],
       "recordSelections": []
     },
@@ -151782,6 +156969,108 @@
       "recordSelections": []
     },
     {
+      "id": "event:event-kakao-GptxdX-113371999-ed528b296924:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-113371999-ed528b296924",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [
+        "asset-kakao-GptxdX-187295729",
+        "asset-kakao-GptxdX-187189341",
+        "asset-kakao-GptxdX-187295730",
+        "asset-kakao-GptxdX-187295732",
+        "asset-kakao-GptxdX-187189349",
+        "asset-kakao-GptxdX-187295733"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-187439285",
+        "asset-kakao-GptxdX-187439286",
+        "asset-kakao-GptxdX-187439287",
+        "asset-kakao-GptxdX-187441270",
+        "asset-kakao-GptxdX-187441271",
+        "asset-kakao-GptxdX-187441272"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-187439939",
+        "asset-kakao-GptxdX-187440860",
+        "asset-kakao-GptxdX-187441904",
+        "asset-kakao-GptxdX-187444226",
+        "asset-kakao-GptxdX-187445587",
+        "asset-kakao-GptxdX-187446559"
+      ],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113367285-46ad58877697:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-113367285-46ad58877697",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [
+        "asset-kakao-GptxdX-187296218",
+        "asset-kakao-GptxdX-187189778",
+        "asset-kakao-GptxdX-187296220",
+        "asset-kakao-GptxdX-187296229",
+        "asset-kakao-GptxdX-187189781",
+        "asset-kakao-GptxdX-187296232"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-187411264",
+        "asset-kakao-GptxdX-187413424",
+        "asset-kakao-GptxdX-187416866",
+        "asset-kakao-GptxdX-187417574",
+        "asset-kakao-GptxdX-187417575",
+        "asset-kakao-GptxdX-187417576"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-187412957",
+        "asset-kakao-GptxdX-187415898",
+        "asset-kakao-GptxdX-187419931",
+        "asset-kakao-GptxdX-187428107",
+        "asset-kakao-GptxdX-187427438",
+        "asset-kakao-GptxdX-187429853"
+      ],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113239603-314b297f54fd:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-113239603-314b297f54fd",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [
+        "asset-kakao-GptxdX-186426778",
+        "asset-kakao-GptxdX-186426779",
+        "asset-kakao-GptxdX-186426781"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-186739919",
+        "asset-kakao-GptxdX-186739920",
+        "asset-kakao-GptxdX-186739921"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-186741505",
+        "asset-kakao-GptxdX-186744182",
+        "asset-kakao-GptxdX-186744860"
+      ],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113240835-9aef41f33717:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-113240835-9aef41f33717",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [
+        "asset-kakao-GptxdX-186448089",
+        "asset-kakao-GptxdX-186448091",
+        "asset-kakao-GptxdX-186448090"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-186744576",
+        "asset-kakao-GptxdX-186744577",
+        "asset-kakao-GptxdX-186744578"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-186748465",
+        "asset-kakao-GptxdX-186749087",
+        "asset-kakao-GptxdX-186750411"
+      ],
+      "recordSelections": []
+    },
+    {
       "id": "event:kkf-12451:category:jpag_promotion",
       "eventId": "kkf-12451",
       "categoryId": "jpag_promotion",
@@ -151794,6 +157083,33 @@
         "kkf-12451-004",
         "kkf-12451-005",
         "kkf-12451-006"
+      ],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-GptxdX-113236136-1f30f000c738:category:benov_ranking",
+      "eventId": "event-kakao-GptxdX-113236136-1f30f000c738",
+      "categoryId": "benov_ranking",
+      "entryListIds": [
+        "asset-kakao-GptxdX-186421809",
+        "asset-kakao-GptxdX-186426235",
+        "asset-kakao-GptxdX-186426300",
+        "asset-kakao-GptxdX-186426303",
+        "asset-kakao-GptxdX-186426364",
+        "asset-kakao-GptxdX-186426372",
+        "asset-kakao-GptxdX-186219396",
+        "asset-kakao-GptxdX-186202199",
+        "asset-kakao-GptxdX-186202200"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-186710260",
+        "asset-kakao-GptxdX-186710261",
+        "asset-kakao-GptxdX-186710262"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-186723093",
+        "asset-kakao-GptxdX-186723094",
+        "asset-kakao-GptxdX-186725345"
       ],
       "recordSelections": []
     },
@@ -158311,6 +163627,28 @@
   ],
   "dateGroups": [
     {
+      "id": "date:2026-10-18",
+      "date": "2026-10-18",
+      "label": "2026-10-18",
+      "eventIds": [
+        "event-kakao-GptxdX-114855200-61dee1502fc0"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-GptxdX-114855200-61dee1502fc0:category:jpag_promotion"
+      ],
+      "entryListIds": [
+        "asset-kakao-GptxdX-195139886",
+        "asset-kakao-GptxdX-195139887",
+        "asset-kakao-GptxdX-195139888",
+        "asset-kakao-GptxdX-195139889",
+        "asset-kakao-GptxdX-195139890",
+        "asset-kakao-GptxdX-195139891"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "unassignedAssetIds": []
+    },
+    {
       "id": "date:2026-10-10",
       "date": "2026-10-10",
       "label": "2026-10-10",
@@ -158496,6 +163834,72 @@
         "asset-kakao-MPeBn-194677443",
         "asset-kakao-MPeBn-194677744",
         "asset-kakao-MPeBn-194678456"
+      ],
+      "unassignedAssetIds": []
+    },
+    {
+      "id": "date:2026-09-20",
+      "date": "2026-09-20",
+      "label": "2026-09-20",
+      "eventIds": [
+        "event-kakao-GptxdX-114644713-50e6a1add280"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-GptxdX-114644713-50e6a1add280:category:jpag_promotion"
+      ],
+      "entryListIds": [
+        "asset-kakao-GptxdX-193890034",
+        "asset-kakao-GptxdX-193890035",
+        "asset-kakao-GptxdX-193890036",
+        "asset-kakao-GptxdX-193890037",
+        "asset-kakao-GptxdX-193890039",
+        "asset-kakao-GptxdX-193890040"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-194015072",
+        "asset-kakao-GptxdX-194015073",
+        "asset-kakao-GptxdX-194015074",
+        "asset-kakao-GptxdX-194015075",
+        "asset-kakao-GptxdX-194015076",
+        "asset-kakao-GptxdX-194015077"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-194022010",
+        "asset-kakao-GptxdX-194018280",
+        "asset-kakao-GptxdX-194021593",
+        "asset-kakao-GptxdX-194022910",
+        "asset-kakao-GptxdX-194025167",
+        "asset-kakao-GptxdX-194025168"
+      ],
+      "unassignedAssetIds": []
+    },
+    {
+      "id": "date:2026-09-19",
+      "date": "2026-09-19",
+      "label": "2026-09-19",
+      "eventIds": [
+        "event-kakao-GptxdX-114639696-fc5fdc3bdd47"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-GptxdX-114639696-fc5fdc3bdd47:category:benov_ranking"
+      ],
+      "entryListIds": [
+        "asset-kakao-GptxdX-193890095",
+        "asset-kakao-GptxdX-193890096",
+        "asset-kakao-GptxdX-193890104",
+        "asset-kakao-GptxdX-193890105"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-193987776",
+        "asset-kakao-GptxdX-193987777",
+        "asset-kakao-GptxdX-193987778",
+        "asset-kakao-GptxdX-193987779"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-193990052",
+        "asset-kakao-GptxdX-193994030",
+        "asset-kakao-GptxdX-194001923",
+        "asset-kakao-GptxdX-194008113"
       ],
       "unassignedAssetIds": []
     },
@@ -158981,24 +164385,153 @@
       "unassignedAssetIds": []
     },
     {
+      "id": "date:2026-05-17",
+      "date": "2026-05-17",
+      "label": "2026-05-17",
+      "eventIds": [
+        "event-kakao-GptxdX-113371999-ed528b296924"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-GptxdX-113371999-ed528b296924:category:jpag_promotion"
+      ],
+      "entryListIds": [
+        "asset-kakao-GptxdX-187295729",
+        "asset-kakao-GptxdX-187189341",
+        "asset-kakao-GptxdX-187295730",
+        "asset-kakao-GptxdX-187295732",
+        "asset-kakao-GptxdX-187189349",
+        "asset-kakao-GptxdX-187295733"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-187439285",
+        "asset-kakao-GptxdX-187439286",
+        "asset-kakao-GptxdX-187439287",
+        "asset-kakao-GptxdX-187441270",
+        "asset-kakao-GptxdX-187441271",
+        "asset-kakao-GptxdX-187441272"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-187439939",
+        "asset-kakao-GptxdX-187440860",
+        "asset-kakao-GptxdX-187441904",
+        "asset-kakao-GptxdX-187444226",
+        "asset-kakao-GptxdX-187445587",
+        "asset-kakao-GptxdX-187446559"
+      ],
+      "unassignedAssetIds": []
+    },
+    {
+      "id": "date:2026-05-16",
+      "date": "2026-05-16",
+      "label": "2026-05-16",
+      "eventIds": [
+        "event-kakao-GptxdX-113367285-46ad58877697"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-GptxdX-113367285-46ad58877697:category:jpag_promotion"
+      ],
+      "entryListIds": [
+        "asset-kakao-GptxdX-187296218",
+        "asset-kakao-GptxdX-187189778",
+        "asset-kakao-GptxdX-187296220",
+        "asset-kakao-GptxdX-187296229",
+        "asset-kakao-GptxdX-187189781",
+        "asset-kakao-GptxdX-187296232"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-187411264",
+        "asset-kakao-GptxdX-187413424",
+        "asset-kakao-GptxdX-187416866",
+        "asset-kakao-GptxdX-187417574",
+        "asset-kakao-GptxdX-187417575",
+        "asset-kakao-GptxdX-187417576"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-187412957",
+        "asset-kakao-GptxdX-187415898",
+        "asset-kakao-GptxdX-187419931",
+        "asset-kakao-GptxdX-187428107",
+        "asset-kakao-GptxdX-187427438",
+        "asset-kakao-GptxdX-187429853"
+      ],
+      "unassignedAssetIds": []
+    },
+    {
       "id": "date:2026-05-03",
       "date": "2026-05-03",
       "label": "2026-05-03",
       "eventIds": [
+        "event-kakao-GptxdX-113239603-314b297f54fd",
+        "event-kakao-GptxdX-113240835-9aef41f33717",
         "kkf-12451"
       ],
       "competitionGroupIds": [
+        "event:event-kakao-GptxdX-113239603-314b297f54fd:category:jpag_promotion",
+        "event:event-kakao-GptxdX-113240835-9aef41f33717:category:jpag_promotion",
         "event:kkf-12451:category:jpag_promotion"
       ],
-      "entryListIds": [],
-      "courseMapIds": [],
+      "entryListIds": [
+        "asset-kakao-GptxdX-186426778",
+        "asset-kakao-GptxdX-186426779",
+        "asset-kakao-GptxdX-186426781",
+        "asset-kakao-GptxdX-186448089",
+        "asset-kakao-GptxdX-186448091",
+        "asset-kakao-GptxdX-186448090"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-186739919",
+        "asset-kakao-GptxdX-186739920",
+        "asset-kakao-GptxdX-186739921",
+        "asset-kakao-GptxdX-186744576",
+        "asset-kakao-GptxdX-186744577",
+        "asset-kakao-GptxdX-186744578"
+      ],
       "resultIds": [
+        "asset-kakao-GptxdX-186741505",
+        "asset-kakao-GptxdX-186744182",
+        "asset-kakao-GptxdX-186744860",
+        "asset-kakao-GptxdX-186748465",
+        "asset-kakao-GptxdX-186749087",
+        "asset-kakao-GptxdX-186750411",
         "kkf-12451-001",
         "kkf-12451-002",
         "kkf-12451-003",
         "kkf-12451-004",
         "kkf-12451-005",
         "kkf-12451-006"
+      ],
+      "unassignedAssetIds": []
+    },
+    {
+      "id": "date:2026-05-02",
+      "date": "2026-05-02",
+      "label": "2026-05-02",
+      "eventIds": [
+        "event-kakao-GptxdX-113236136-1f30f000c738"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-GptxdX-113236136-1f30f000c738:category:benov_ranking"
+      ],
+      "entryListIds": [
+        "asset-kakao-GptxdX-186421809",
+        "asset-kakao-GptxdX-186426235",
+        "asset-kakao-GptxdX-186426300",
+        "asset-kakao-GptxdX-186426303",
+        "asset-kakao-GptxdX-186426364",
+        "asset-kakao-GptxdX-186426372",
+        "asset-kakao-GptxdX-186219396",
+        "asset-kakao-GptxdX-186202199",
+        "asset-kakao-GptxdX-186202200"
+      ],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-186710260",
+        "asset-kakao-GptxdX-186710261",
+        "asset-kakao-GptxdX-186710262"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-186723093",
+        "asset-kakao-GptxdX-186723094",
+        "asset-kakao-GptxdX-186725345"
       ],
       "unassignedAssetIds": []
     },
