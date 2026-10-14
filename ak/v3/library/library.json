@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261014.1",
-  "updatedAt": "2026-10-14T00:29:20+09:00",
+  "dataVersion": "20261014.2",
+  "updatedAt": "2026-10-14T23:05:12+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -38,6 +38,12 @@
       "name": "KKF어질리티위원회",
       "provider": "kakao",
       "url": "https://pf.kakao.com/_GptxdX"
+    },
+    {
+      "id": "instagram-dogsports-series",
+      "name": "도그 스포츠 시리즈",
+      "provider": "manual",
+      "url": "https://www.instagram.com/dogsports_series/"
     }
   ],
   "mapCategories": [
@@ -68,6 +74,17 @@
       "organizer": null,
       "categoryIds": [
         "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event-instagram-Ded3XsQCU6z-20261017",
+      "name": "2026 어질리티 시리즈 Vol.1",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "동물과사람",
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -2444,6 +2461,192 @@
         "postUrl": "https://pf.kakao.com/_GptxdX/114855200",
         "publishedAt": "2026-10-12T09:14:51+09:00",
         "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-instagram-Ded3XsQCU6z-eaa957f7568c7011",
+      "kind": "entry_list",
+      "title": "2026 어질리티 시리즈 Vol.1 출진표 · Starters",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/instagram/entry-lists/Ded3XsQCU6z/eaa957f7568c701106f0d8c5bf163947d9969ce74aacb67deb64d996b8b9536e.jpg",
+        "thumbnailUrl": null,
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "postId": "Ded3XsQCU6z",
+        "mediaId": "eaa957f7568c701106f0d8c5bf163947d9969ce74aacb67deb64d996b8b9536e",
+        "postTitle": "‘러닝 오더’ 어질리티 시리즈 vol.1",
+        "postUrl": "https://www.instagram.com/p/Ded3XsQCU6z/",
+        "imageOrder": 2,
+        "channelId": "instagram-dogsports-series"
+      }
+    },
+    {
+      "id": "asset-instagram-Ded3XsQCU6z-f993a2b166fcd20c",
+      "kind": "entry_list",
+      "title": "2026 어질리티 시리즈 Vol.1 출진표 · Biathlon Jumping Pro",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/instagram/entry-lists/Ded3XsQCU6z/f993a2b166fcd20cd6a2f4d1518115eb3abf6eb105f0373be0e5f114c1dc36fa.jpg",
+        "thumbnailUrl": null,
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "postId": "Ded3XsQCU6z",
+        "mediaId": "f993a2b166fcd20cd6a2f4d1518115eb3abf6eb105f0373be0e5f114c1dc36fa",
+        "postTitle": "‘러닝 오더’ 어질리티 시리즈 vol.1",
+        "postUrl": "https://www.instagram.com/p/Ded3XsQCU6z/",
+        "imageOrder": 3,
+        "channelId": "instagram-dogsports-series"
+      }
+    },
+    {
+      "id": "asset-instagram-Ded3XsQCU6z-fef87f1f6b8adcdb",
+      "kind": "entry_list",
+      "title": "2026 어질리티 시리즈 Vol.1 출진표 · Biathlon Agility Pro",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/instagram/entry-lists/Ded3XsQCU6z/fef87f1f6b8adcdb246ac68d9dac585471744946f2d39b60435c5d566610a1d1.jpg",
+        "thumbnailUrl": null,
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "postId": "Ded3XsQCU6z",
+        "mediaId": "fef87f1f6b8adcdb246ac68d9dac585471744946f2d39b60435c5d566610a1d1",
+        "postTitle": "‘러닝 오더’ 어질리티 시리즈 vol.1",
+        "postUrl": "https://www.instagram.com/p/Ded3XsQCU6z/",
+        "imageOrder": 4,
+        "channelId": "instagram-dogsports-series"
+      }
+    },
+    {
+      "id": "asset-instagram-Ded3XsQCU6z-a79b244cff91c578",
+      "kind": "entry_list",
+      "title": "2026 어질리티 시리즈 Vol.1 출진표 · Gamblers Starters",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/instagram/entry-lists/Ded3XsQCU6z/a79b244cff91c578c09556657b156743eb7d257b8eb19b35d246b647e7d4e5f9.jpg",
+        "thumbnailUrl": null,
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "postId": "Ded3XsQCU6z",
+        "mediaId": "a79b244cff91c578c09556657b156743eb7d257b8eb19b35d246b647e7d4e5f9",
+        "postTitle": "‘러닝 오더’ 어질리티 시리즈 vol.1",
+        "postUrl": "https://www.instagram.com/p/Ded3XsQCU6z/",
+        "imageOrder": 5,
+        "channelId": "instagram-dogsports-series"
+      }
+    },
+    {
+      "id": "asset-instagram-Ded3XsQCU6z-466301d5b0cb7020",
+      "kind": "entry_list",
+      "title": "2026 어질리티 시리즈 Vol.1 출진표 · Gamblers Pro",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "event",
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/instagram/entry-lists/Ded3XsQCU6z/466301d5b0cb70202773472bef7e10fd1b9ec5d1618cf4a126637812f4999c4e.jpg",
+        "thumbnailUrl": null,
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "postId": "Ded3XsQCU6z",
+        "mediaId": "466301d5b0cb70202773472bef7e10fd1b9ec5d1618cf4a126637812f4999c4e",
+        "postTitle": "‘러닝 오더’ 어질리티 시리즈 vol.1",
+        "postUrl": "https://www.instagram.com/p/Ded3XsQCU6z/",
+        "imageOrder": 6,
+        "channelId": "instagram-dogsports-series"
+      }
+    },
+    {
+      "id": "asset-instagram-Ded3XsQCU6z-73bf136597a53040",
+      "kind": "entry_list",
+      "title": "2026 어질리티 시리즈 Vol.1 · 타임테이블",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "event",
+      "notice": null,
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/instagram/entry-lists/Ded3XsQCU6z/73bf136597a53040a42ee79134c47377df50be51f46171fef4ec76b31251e6ea.jpg",
+        "thumbnailUrl": null,
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "postId": "Ded3XsQCU6z",
+        "mediaId": "73bf136597a53040a42ee79134c47377df50be51f46171fef4ec76b31251e6ea",
+        "postTitle": "‘러닝 오더’ 어질리티 시리즈 vol.1",
+        "postUrl": "https://www.instagram.com/p/Ded3XsQCU6z/",
+        "imageOrder": 7,
+        "channelId": "instagram-dogsports-series"
       }
     },
     {
@@ -148982,6 +149185,27 @@
       "resultCategoryIds": []
     },
     {
+      "eventId": "event-instagram-Ded3XsQCU6z-20261017",
+      "entryListIds": [
+        "asset-instagram-Ded3XsQCU6z-466301d5b0cb7020",
+        "asset-instagram-Ded3XsQCU6z-73bf136597a53040",
+        "asset-instagram-Ded3XsQCU6z-a79b244cff91c578",
+        "asset-instagram-Ded3XsQCU6z-eaa957f7568c7011",
+        "asset-instagram-Ded3XsQCU6z-f993a2b166fcd20c",
+        "asset-instagram-Ded3XsQCU6z-fef87f1f6b8adcdb"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "entryListCategoryIds": [
+        "jpag_ranking"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
       "eventId": "event-waldbow-801",
       "entryListIds": [
         "asset-waldbow-801-entry_list-049138e038926ed4-1",
@@ -156133,6 +156357,22 @@
         "asset-kakao-GptxdX-195139889",
         "asset-kakao-GptxdX-195139890",
         "asset-kakao-GptxdX-195139891"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-instagram-Ded3XsQCU6z-20261017:category:jpag_ranking",
+      "eventId": "event-instagram-Ded3XsQCU6z-20261017",
+      "categoryId": "jpag_ranking",
+      "entryListIds": [
+        "asset-instagram-Ded3XsQCU6z-eaa957f7568c7011",
+        "asset-instagram-Ded3XsQCU6z-f993a2b166fcd20c",
+        "asset-instagram-Ded3XsQCU6z-fef87f1f6b8adcdb",
+        "asset-instagram-Ded3XsQCU6z-a79b244cff91c578",
+        "asset-instagram-Ded3XsQCU6z-466301d5b0cb7020",
+        "asset-instagram-Ded3XsQCU6z-73bf136597a53040"
       ],
       "courseMapIds": [],
       "resultIds": [],
@@ -163643,6 +163883,28 @@
         "asset-kakao-GptxdX-195139889",
         "asset-kakao-GptxdX-195139890",
         "asset-kakao-GptxdX-195139891"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "unassignedAssetIds": []
+    },
+    {
+      "id": "date:2026-10-17",
+      "date": "2026-10-17",
+      "label": "2026-10-17",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "competitionGroupIds": [
+        "event:event-instagram-Ded3XsQCU6z-20261017:category:jpag_ranking"
+      ],
+      "entryListIds": [
+        "asset-instagram-Ded3XsQCU6z-eaa957f7568c7011",
+        "asset-instagram-Ded3XsQCU6z-f993a2b166fcd20c",
+        "asset-instagram-Ded3XsQCU6z-fef87f1f6b8adcdb",
+        "asset-instagram-Ded3XsQCU6z-a79b244cff91c578",
+        "asset-instagram-Ded3XsQCU6z-466301d5b0cb7020",
+        "asset-instagram-Ded3XsQCU6z-73bf136597a53040"
       ],
       "courseMapIds": [],
       "resultIds": [],
