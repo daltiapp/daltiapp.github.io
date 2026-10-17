@@ -1,0 +1,199 @@
+{
+  "dataVersion": "20261018.1",
+  "verifiedAt": "2026-10-17T15:12:20.301973+00:00",
+  "classificationAuthority": "2026-10-18 사용자 확정: 익산은 승급전, 천안대회는 랭킹전",
+  "changedCompetitions": [
+    {
+      "name": "2026 익산 FCI 인터내셔널 어질리티 경기대회",
+      "sourceUrl": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174645790&t=board",
+      "eventType": "승급전",
+      "jsonImageCount": 4,
+      "publicVerifiedImageCount": 4,
+      "venue": {
+        "name": "원광대학교",
+        "address": "전북특별자치도 익산시 익산대로 460",
+        "latitude": 35.96783,
+        "longitude": 126.9557171
+      },
+      "venueConnectionVerified": true,
+      "images": [
+        {
+          "order": 1,
+          "url": "https://drive.google.com/uc?export=view&id=1GLcCJIhHdh8NosB3AJ7It0WCizW75yYW",
+          "driveFileId": "1GLcCJIhHdh8NosB3AJ7It0WCizW75yYW",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/png",
+            "sha256": "baa182ef8848008575d0aabd948cad91e18453063083b3826b40974b6ca3945c",
+            "bytes": 970680,
+            "width": 702,
+            "height": 2093,
+            "format": "PNG"
+          }
+        },
+        {
+          "order": 2,
+          "url": "https://drive.google.com/uc?export=view&id=1tdnCClivJiTdtpbjog1U-O4t1_7H_5TL",
+          "driveFileId": "1tdnCClivJiTdtpbjog1U-O4t1_7H_5TL",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/webp",
+            "sha256": "4aacaa2b43c929862b5c1b908c44f5b994d74be8125dd98303f52e664d4f102a",
+            "bytes": 188912,
+            "width": 1210,
+            "height": 1702,
+            "format": "WEBP"
+          }
+        },
+        {
+          "order": 3,
+          "url": "https://drive.google.com/uc?export=view&id=1FyevT82IfnnHXnwCpEyCAOPq8S0p6luE",
+          "driveFileId": "1FyevT82IfnnHXnwCpEyCAOPq8S0p6luE",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/webp",
+            "sha256": "69a44c0fd11f8c728e766fb7558ce12b1021f3f5a6bb4e6b113e5cbf2d145fde",
+            "bytes": 30846,
+            "width": 591,
+            "height": 400,
+            "format": "WEBP"
+          }
+        },
+        {
+          "order": 4,
+          "url": "https://drive.google.com/uc?export=view&id=1GyUGAuOfPYDkYQgzxrqnGh_-_JIa6IiC",
+          "driveFileId": "1GyUGAuOfPYDkYQgzxrqnGh_-_JIa6IiC",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/webp",
+            "sha256": "31bf0bc50cd8017a455165d7ce7479b46f8c62aaf827e6818cb85d194f7d5bd2",
+            "bytes": 13158,
+            "width": 254,
+            "height": 309,
+            "format": "WEBP"
+          }
+        }
+      ],
+      "primarySourceImageCount": 1,
+      "primarySourceImageUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/ab0f35a5969e5.png",
+      "primarySourceSha256": "baa182ef8848008575d0aabd948cad91e18453063083b3826b40974b6ca3945c",
+      "newPosterUrl": "https://drive.google.com/uc?export=view&id=1GLcCJIhHdh8NosB3AJ7It0WCizW75yYW",
+      "originalHashMatch": true,
+      "preservedSupplementaryImageCount": 3,
+      "note": "게시판 원문의 전체 안내 포스터 1장이 기존 상세 이미지에 없어 다운로드·Drive 업로드·공개 검증 후 첫 이미지로 보완했다. 기존 포스터·지도·심사위원 사진 3장은 실제 내용을 확인하고 그대로 보존했다. 연결된 KKF 상세 페이지의 재조회는 502여서 최신 첨부 목록 확인으로 주장하지 않는다."
+    },
+    {
+      "name": "2026 천안 K-DOG 어질리티 대회",
+      "sourceUrl": "https://k-dog.imweb.me/agility",
+      "eventType": "랭킹전",
+      "jsonImageCount": 6,
+      "publicVerifiedImageCount": 6,
+      "venue": {
+        "name": "천안시민체육공원",
+        "address": "충청남도 천안시 서북구 불당동 242-3",
+        "latitude": 36.8127558,
+        "longitude": 127.1134638
+      },
+      "venueConnectionVerified": true,
+      "images": [
+        {
+          "order": 1,
+          "url": "https://drive.google.com/uc?export=view&id=1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+          "driveFileId": "1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/png",
+            "sha256": "73b6f9d38c6b91e7eb61a5e1655120940a38e78a886cf0c3da16773d1727813e",
+            "bytes": 19795,
+            "width": 640,
+            "height": 146,
+            "format": "PNG"
+          }
+        },
+        {
+          "order": 2,
+          "url": "https://drive.google.com/uc?export=view&id=1O2T4TD1xSwHUjfABQKVn7__VHcNTHX5C",
+          "driveFileId": "1O2T4TD1xSwHUjfABQKVn7__VHcNTHX5C",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/png",
+            "sha256": "f61cb57c0f2f4d3409eb1bfde5c8260e60fd858f4adbc26cfe2689963c7b4509",
+            "bytes": 887855,
+            "width": 1920,
+            "height": 1179,
+            "format": "PNG"
+          }
+        },
+        {
+          "order": 3,
+          "url": "https://drive.google.com/uc?export=view&id=1_fK4sy_c9hkFa6T61WygHO-nilKEySRP",
+          "driveFileId": "1_fK4sy_c9hkFa6T61WygHO-nilKEySRP",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/png",
+            "sha256": "2d850c40f4e0ad0abb2eb8519c227555290bedefb819458c00e98232fc741adc",
+            "bytes": 732083,
+            "width": 1140,
+            "height": 1713,
+            "format": "PNG"
+          }
+        },
+        {
+          "order": 4,
+          "url": "https://drive.google.com/uc?export=view&id=1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+          "driveFileId": "1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/png",
+            "sha256": "73b6f9d38c6b91e7eb61a5e1655120940a38e78a886cf0c3da16773d1727813e",
+            "bytes": 19795,
+            "width": 640,
+            "height": 146,
+            "format": "PNG"
+          }
+        },
+        {
+          "order": 5,
+          "url": "https://drive.google.com/uc?export=view&id=19gJnovUgoqW4PNQOJCrKCvQlcvQ5Kvi9",
+          "driveFileId": "19gJnovUgoqW4PNQOJCrKCvQlcvQ5Kvi9",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/png",
+            "sha256": "6a32f3b760049c96fa6b22b4a15f32093d103151ac34c1c8b4128cddf7043a38",
+            "bytes": 769638,
+            "width": 1160,
+            "height": 2394,
+            "format": "PNG"
+          }
+        },
+        {
+          "order": 6,
+          "url": "https://drive.google.com/uc?export=view&id=1oA0gC2nozXJjnIDYbyOb1LGO8KuTB3dE",
+          "driveFileId": "1oA0gC2nozXJjnIDYbyOb1LGO8KuTB3dE",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/png",
+            "sha256": "ae1813ad24531afd88991b3857b68c9439883e52144507b6f9cfc40b6752c8b3",
+            "bytes": 775295,
+            "width": 580,
+            "height": 2947,
+            "format": "PNG"
+          }
+        }
+      ],
+      "sourceImageCount": 6,
+      "sourceImagesUnchanged": true,
+      "originalHashesMatch": true
+    }
+  ]
+}
