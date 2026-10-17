@@ -1785,6 +1785,39 @@
       ]
     },
     {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
+      ],
+      "detailNotice": "08:00 선수등록·안전교육, 09:00 경기 시작. 비기너1·노비스1(09:00~12:00), 비기너2·노비스2(14:00~17:00), 시상식(17:00~18:00). 함께 열리는 KKF 전국 학생 어질리티 대항전은 별도 접수(10월 19일~11월 1일), 심사위원 김민성입니다.",
+      "startAt": "2026-11-07T08:00:00",
+      "endAt": "2026-11-07T18:00:00",
+      "judge": [
+        "강현기"
+      ],
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ]
+    },
+    {
       "applicationEndAt": "2026-10-30T23:59:59",
       "applicationStartAt": "2026-10-17T00:00:00",
       "club": "동물과사람",
@@ -1817,6 +1850,43 @@
         "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
         "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
         "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs"
+      ]
+    },
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
+      ],
+      "detailNotice": "08:00 선수등록·안전교육, 09:00 경기 시작. 점핑 ST·MS(09:00~12:00), 어드밴스드(12:00~14:00), 어질리티 ST·MS(14:00~17:00), 시상식(17:00~18:00). 점핑·어질리티 심사위원 김민성, 어드밴스드 심사위원 이지훈.",
+      "startAt": "2026-11-08T08:00:00",
+      "endAt": "2026-11-08T18:00:00",
+      "judge": [
+        "김민성",
+        "이지훈"
+      ],
+      "matchTypes": [
+        "점핑 ST",
+        "점핑 MS",
+        "어질리티 ST",
+        "어질리티 MS",
+        "어드밴스드"
       ]
     },
     {

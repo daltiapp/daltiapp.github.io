@@ -217,6 +217,18 @@
         "longitude": 126.9557171
       },
       "photos": []
+    },
+    {
+      "name": "소노벨 비발디파크메인센터",
+      "location": {
+        "name": "소노벨 비발디파크메인센터",
+        "address": "강원특별자치도 홍천군 서면 한치골길 264",
+        "latitude": 37.6452854,
+        "longitude": 127.6821151
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8"
+      ]
     }
   ]
 }
