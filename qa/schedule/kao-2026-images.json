@@ -1,0 +1,227 @@
+{
+  "sourceUrl": "https://www.instagram.com/p/DelxZJmk1SS/?img_index=1",
+  "sourceAccount": "dongsa08",
+  "verifiedAt": "2026-10-17T12:10:16+00:00",
+  "dataVersion": "20261017.2",
+  "sourceImageCount": 10,
+  "downloadedImageCount": 10,
+  "uploadedImageCount": 10,
+  "publicVerifiedImageCount": 10,
+  "jsonImageCountPerCompetition": 10,
+  "competitionName": "2026 Korea Agility Open (KAO)",
+  "competitionStartDates": [
+    "2026-11-07T00:00:00",
+    "2026-11-08T00:00:00"
+  ],
+  "verifiedLastSlide": 10,
+  "nextButtonAtEnd": false,
+  "contentReview": "캐러셀 전체의 순서·내용을 대조했다. 9·10장 심사위원 표기를 직접 확인했다. 원본 JPEG를 재인코딩 없이 업로드해 비로그인 GET 응답과 원본의 SHA-256 일치를 검증했다.",
+  "judgeSourceImageOrders": [
+    9,
+    10
+  ],
+  "venue": {
+    "name": "강아지숲",
+    "address": "강원도 춘천시 남산면 충효로 437",
+    "latitude": 37.7364350197699,
+    "longitude": 127.662020178819,
+    "officialDirectionsUrl": "https://www.dforest.co.kr/guide/location",
+    "officialMapUrl": "https://map.naver.com/v5/entry/place/1806671210?c=14211267.4978170,4542262.6170587,13,0,0,0,dh&placePath=%2Fhome%3Fentry=pll",
+    "officialMapViewCenterLatitude": 37.73645689999998,
+    "officialMapViewCenterLongitude": 127.661988,
+    "distanceToOfficialMapViewCenterMetres": 3.732,
+    "jsonConnectionVerified": true
+  },
+  "images": [
+    {
+      "order": 1,
+      "sourceFilename": "848481431_18470698492139576_1938770339954490785_n.jpg",
+      "sourceSha256": "ff551339973e34e9d4d6bcefb5b1dcda8b28265ccbd0359962e7609450a2dae8",
+      "width": 1440,
+      "height": 1800,
+      "driveFileId": "1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+      "url": "https://drive.google.com/uc?export=view&id=1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 370625,
+        "sha256": "ff551339973e34e9d4d6bcefb5b1dcda8b28265ccbd0359962e7609450a2dae8",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1800
+      }
+    },
+    {
+      "order": 2,
+      "sourceFilename": "846909527_18470698507139576_7135192582494921653_n.jpg",
+      "sourceSha256": "53ab8cb7a6565692c04747c6bd5f44f77ca082ec7db2cc51997cdddae60e7f7c",
+      "width": 1440,
+      "height": 1797,
+      "driveFileId": "1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+      "url": "https://drive.google.com/uc?export=view&id=1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 219243,
+        "sha256": "53ab8cb7a6565692c04747c6bd5f44f77ca082ec7db2cc51997cdddae60e7f7c",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1797
+      }
+    },
+    {
+      "order": 3,
+      "sourceFilename": "848598523_18470698522139576_2148275601863426672_n.jpg",
+      "sourceSha256": "d970cc69fd98ff5de060801892594f60bb6cb0b8737a6f83d34a21e09a5b047c",
+      "width": 1440,
+      "height": 1797,
+      "driveFileId": "1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+      "url": "https://drive.google.com/uc?export=view&id=1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 306049,
+        "sha256": "d970cc69fd98ff5de060801892594f60bb6cb0b8737a6f83d34a21e09a5b047c",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1797
+      }
+    },
+    {
+      "order": 4,
+      "sourceFilename": "849057942_18470698537139576_4357933753455085042_n.jpg",
+      "sourceSha256": "321ecda990c80e6dba697dc5ef438ec515ff92e42bb5e2a027619521fb6cd8de",
+      "width": 1440,
+      "height": 1797,
+      "driveFileId": "1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+      "url": "https://drive.google.com/uc?export=view&id=1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 278308,
+        "sha256": "321ecda990c80e6dba697dc5ef438ec515ff92e42bb5e2a027619521fb6cd8de",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1797
+      }
+    },
+    {
+      "order": 5,
+      "sourceFilename": "849890912_18470698546139576_5034908708348235771_n.jpg",
+      "sourceSha256": "cba24dfe0486fd91e83d8a2b67ef8c3a454eebfbcfed869ab1094697e4e1b22d",
+      "width": 1440,
+      "height": 1797,
+      "driveFileId": "1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+      "url": "https://drive.google.com/uc?export=view&id=1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 362927,
+        "sha256": "cba24dfe0486fd91e83d8a2b67ef8c3a454eebfbcfed869ab1094697e4e1b22d",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1797
+      }
+    },
+    {
+      "order": 6,
+      "sourceFilename": "848014461_18470698579139576_4116296767291833700_n.jpg",
+      "sourceSha256": "fd8118886cc14a20ff18947f65451a58177340ff65e311dc3fdf3f2562dc76a3",
+      "width": 1440,
+      "height": 1800,
+      "driveFileId": "1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+      "url": "https://drive.google.com/uc?export=view&id=1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 242142,
+        "sha256": "fd8118886cc14a20ff18947f65451a58177340ff65e311dc3fdf3f2562dc76a3",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1800
+      }
+    },
+    {
+      "order": 7,
+      "sourceFilename": "846375139_18470698570139576_8811156335946565634_n.jpg",
+      "sourceSha256": "cafe3ec9e8a19e30ff355200311207f2c7d243e87b72e987f59ffba02aa6293c",
+      "width": 1440,
+      "height": 1797,
+      "driveFileId": "1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+      "url": "https://drive.google.com/uc?export=view&id=1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 312607,
+        "sha256": "cafe3ec9e8a19e30ff355200311207f2c7d243e87b72e987f59ffba02aa6293c",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1797
+      }
+    },
+    {
+      "order": 8,
+      "sourceFilename": "849771854_18470698591139576_8511252153152435379_n.jpg",
+      "sourceSha256": "0c1ca759c8d28eb1a79df9670d904108bfe39ff03e4a1181d49e42b6c5e83281",
+      "width": 1440,
+      "height": 1797,
+      "driveFileId": "1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+      "url": "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 325535,
+        "sha256": "0c1ca759c8d28eb1a79df9670d904108bfe39ff03e4a1181d49e42b6c5e83281",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1797
+      }
+    },
+    {
+      "order": 9,
+      "sourceFilename": "847907665_18470698615139576_483686268502372139_n.jpg",
+      "sourceSha256": "6079fc402f35a7a2a2291ae229c1ca5b34e7ed8bcce68995d99a97f30cb813b4",
+      "width": 1440,
+      "height": 1797,
+      "driveFileId": "13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+      "url": "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 415611,
+        "sha256": "6079fc402f35a7a2a2291ae229c1ca5b34e7ed8bcce68995d99a97f30cb813b4",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1797
+      }
+    },
+    {
+      "order": 10,
+      "sourceFilename": "849771824_18470698630139576_6371330498938317313_n.jpg",
+      "sourceSha256": "558b2ae79c54ad68bd1aeb5153e246e3362d732c186663af86dc8b6fd5bb6c6b",
+      "width": 1440,
+      "height": 1797,
+      "driveFileId": "1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+      "url": "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 376925,
+        "sha256": "558b2ae79c54ad68bd1aeb5153e246e3362d732c186663af86dc8b6fd5bb6c6b",
+        "decodedFormat": "JPEG",
+        "width": 1440,
+        "height": 1797
+      }
+    }
+  ]
+}
