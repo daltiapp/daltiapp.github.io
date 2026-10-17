@@ -1,0 +1,239 @@
+{
+  "sourceUrl": "https://k-dog.imweb.me/agility",
+  "sourceTitle": "천안 K-DOG 페스티벌",
+  "sourceImageCount": 6,
+  "downloadedImageCount": 6,
+  "uploadedImageCount": 6,
+  "publicVerifiedImageCount": 6,
+  "uniqueSourceImageCount": 5,
+  "note": "원문 PC·모바일 이미지 6개를 DOM 순서대로 모두 보존했다. 1·4번 제목 배너는 원본 SHA-256이 같아 동일 Drive 파일을 재사용하며, JSON에는 원문 위치별로 같은 URL을 두 번 연결한다.",
+  "images": [
+    {
+      "order": 1,
+      "sourceUrl": "https://cdn.imweb.me/thumbnail/20260927/17ce326d4c398.png",
+      "sourceFilename": "17ce326d4c398.png",
+      "sourceSha256": "73b6f9d38c6b91e7eb61a5e1655120940a38e78a886cf0c3da16773d1727813e",
+      "driveFileId": "1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+      "url": "https://drive.google.com/uc?export=view&id=1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 19795,
+        "sha256": "73b6f9d38c6b91e7eb61a5e1655120940a38e78a886cf0c3da16773d1727813e",
+        "decodedFormat": "PNG",
+        "width": 640,
+        "height": 146
+      }
+    },
+    {
+      "order": 2,
+      "sourceUrl": "https://cdn.imweb.me/thumbnail/20261011/3c72c20155725.png",
+      "sourceFilename": "3c72c20155725.png",
+      "sourceSha256": "f61cb57c0f2f4d3409eb1bfde5c8260e60fd858f4adbc26cfe2689963c7b4509",
+      "driveFileId": "1O2T4TD1xSwHUjfABQKVn7__VHcNTHX5C",
+      "url": "https://drive.google.com/uc?export=view&id=1O2T4TD1xSwHUjfABQKVn7__VHcNTHX5C",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 887855,
+        "sha256": "f61cb57c0f2f4d3409eb1bfde5c8260e60fd858f4adbc26cfe2689963c7b4509",
+        "decodedFormat": "PNG",
+        "width": 1920,
+        "height": 1179
+      }
+    },
+    {
+      "order": 3,
+      "sourceUrl": "https://cdn.imweb.me/thumbnail/20261008/da906d3b4c06a.png",
+      "sourceFilename": "da906d3b4c06a.png",
+      "sourceSha256": "2d850c40f4e0ad0abb2eb8519c227555290bedefb819458c00e98232fc741adc",
+      "driveFileId": "1_fK4sy_c9hkFa6T61WygHO-nilKEySRP",
+      "url": "https://drive.google.com/uc?export=view&id=1_fK4sy_c9hkFa6T61WygHO-nilKEySRP",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 732083,
+        "sha256": "2d850c40f4e0ad0abb2eb8519c227555290bedefb819458c00e98232fc741adc",
+        "decodedFormat": "PNG",
+        "width": 1140,
+        "height": 1713
+      }
+    },
+    {
+      "order": 4,
+      "sourceUrl": "https://cdn.imweb.me/thumbnail/20260926/264383085aeba.png",
+      "sourceFilename": "264383085aeba.png",
+      "sourceSha256": "73b6f9d38c6b91e7eb61a5e1655120940a38e78a886cf0c3da16773d1727813e",
+      "driveFileId": "1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+      "url": "https://drive.google.com/uc?export=view&id=1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 19795,
+        "sha256": "73b6f9d38c6b91e7eb61a5e1655120940a38e78a886cf0c3da16773d1727813e",
+        "decodedFormat": "PNG",
+        "width": 640,
+        "height": 146
+      }
+    },
+    {
+      "order": 5,
+      "sourceUrl": "https://cdn.imweb.me/thumbnail/20261011/fcbe6b54c9471.png",
+      "sourceFilename": "fcbe6b54c9471.png",
+      "sourceSha256": "6a32f3b760049c96fa6b22b4a15f32093d103151ac34c1c8b4128cddf7043a38",
+      "driveFileId": "19gJnovUgoqW4PNQOJCrKCvQlcvQ5Kvi9",
+      "url": "https://drive.google.com/uc?export=view&id=19gJnovUgoqW4PNQOJCrKCvQlcvQ5Kvi9",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 769638,
+        "sha256": "6a32f3b760049c96fa6b22b4a15f32093d103151ac34c1c8b4128cddf7043a38",
+        "decodedFormat": "PNG",
+        "width": 1160,
+        "height": 2394
+      }
+    },
+    {
+      "order": 6,
+      "sourceUrl": "https://cdn.imweb.me/thumbnail/20261008/00a4ea751dae2.png",
+      "sourceFilename": "00a4ea751dae2.png",
+      "sourceSha256": "ae1813ad24531afd88991b3857b68c9439883e52144507b6f9cfc40b6752c8b3",
+      "driveFileId": "1oA0gC2nozXJjnIDYbyOb1LGO8KuTB3dE",
+      "url": "https://drive.google.com/uc?export=view&id=1oA0gC2nozXJjnIDYbyOb1LGO8KuTB3dE",
+      "anyoneReader": true,
+      "unauthenticatedGet": {
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 775295,
+        "sha256": "ae1813ad24531afd88991b3857b68c9439883e52144507b6f9cfc40b6752c8b3",
+        "decodedFormat": "PNG",
+        "width": 580,
+        "height": 2947
+      }
+    }
+  ],
+  "venueImage": {
+    "sourceUrl": "https://cdn.imweb.me/thumbnail/20261008/393c531b8dbc8.png",
+    "sourceSha256": "8f00d58c1c52fab97597f90a7930bd5628dbc594fda82fcfb13035d247488d79",
+    "driveFileId": "1fnihyqgBnHz4xTgX5Nt0iqsjA-Ny_nWZ",
+    "url": "https://drive.google.com/uc?export=view&id=1fnihyqgBnHz4xTgX5Nt0iqsjA-Ny_nWZ",
+    "anyoneReader": true,
+    "unauthenticatedGet": {
+      "status": 200,
+      "mimeType": "image/png",
+      "bytes": 1253783,
+      "sha256": "8f00d58c1c52fab97597f90a7930bd5628dbc594fda82fcfb13035d247488d79",
+      "decodedFormat": "PNG",
+      "width": 1140,
+      "height": 1616
+    }
+  },
+  "verifiedAt": "2026-10-17T14:31:51.856567+00:00",
+  "dataVersion": "20261017.5",
+  "competitionName": "2026 천안 K-DOG 어질리티 대회",
+  "competitionStartDates": [
+    "2026-10-31T10:30:00"
+  ],
+  "jsonImageCountPerCompetition": 6,
+  "venue": {
+    "name": "천안시민체육공원",
+    "address": "충청남도 천안시 서북구 불당동 242-3",
+    "latitude": 36.8127558,
+    "longitude": 127.1134638,
+    "naverAddress": "충청남도 천안시 서북구 불당동 242-3",
+    "naverRoadAddress": "",
+    "naverPlaceId": "1561651107",
+    "mapUrl": "https://map.naver.com/p/entry/place/1561651107",
+    "addressSource": "https://k-dog.imweb.me/map",
+    "coordinateSource": "네이버 지도 공개 검색 응답의 동일 공원명·x/y 및 행사장 안내 지도 대조",
+    "verifiedAt": "2026-10-17T14:30:37.667Z",
+    "jsonConnectionVerified": true,
+    "directionsImageUrl": "https://drive.google.com/uc?export=view&id=1fnihyqgBnHz4xTgX5Nt0iqsjA-Ny_nWZ"
+  },
+  "fieldEvidence": {
+    "eventDateAndTypes": {
+      "sourceImageOrders": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "startAt": "2026-10-31T10:30:00",
+      "endAt": "2026-10-31T17:00:00",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ]
+    },
+    "officialTimetable": {
+      "url": "https://k-dog.imweb.me/50",
+      "imageUrl": "https://cdn.imweb.me/thumbnail/20261012/5392ac8e11673.png",
+      "sha256": "2d1fb0940dd538b31e8ad8a57b60b7f9e693c1d19f9974f1346ae95e0d05b495",
+      "safetyEducation": "10:00~10:30",
+      "morningCompetition": "10:30~12:00",
+      "afternoonCompetition": "15:30~17:00",
+      "note": "같은 날 오전·오후 경기로 나뉘지만 하나의 대회 일정으로 등록하고 중간 공백은 상세 안내에 명시했다."
+    },
+    "registration": {
+      "sourceUrl": "https://docs.google.com/forms/d/e/1FAIpQLScuou6QwqNgHY957nElLXgKdUS35sZPkkQ5L9OFFYUHVL4dBA/viewform",
+      "linkedFrom": "https://k-dog.imweb.me/agility",
+      "rawPeriod": "10월 8일(목) 오전 10시 ~ 10월 23일(금)",
+      "startAt": "2026-10-08T10:00:00",
+      "endAt": "2026-10-23T23:59:59",
+      "endDateBoundary": "마감 시각 미공개로 기존 날짜 전용 계약의 당일 23:59:59를 사용했다.",
+      "capacityConflict": "포스터는 50팀, 신청서는 100명으로 단위·모집 수가 달라 수치 정원을 일정에 확정 저장하지 않았다."
+    },
+    "unpublishedJudges": {
+      "judge": [],
+      "userConfirmed": true,
+      "detailStatus": "detail_ready",
+      "reason": "사용자가 심사위원 미공개인 시민 이벤트 대회도 상세페이지가 열리도록 명시했다. 대회일·종목·장소·접수가 공개되어 빈 심사위원 배열과 실제 상세 URL을 유지했다."
+    },
+    "organizers": {
+      "sourceUrl": "https://k-dog.imweb.me/agility",
+      "hosts": [
+        "연암대학교",
+        "천안시"
+      ],
+      "operator": "한국어질리티연합",
+      "clubConnection": "한국어질리티연합"
+    }
+  },
+  "validation": {
+    "activeDataHarness": {
+      "scope": "all",
+      "passed": true,
+      "competitionCount": 78,
+      "jsonFileCount": 200
+    },
+    "dataStudioTests": {
+      "passed": 34,
+      "failed": 0
+    },
+    "appTests": {
+      "passed": 29,
+      "failed": 0,
+      "existingSuites": [
+        "test/match/competition_list_view_model_test.dart",
+        "test/match/competition_detail_view_test.dart"
+      ],
+      "actualJsonDetailContract": {
+        "passed": true,
+        "judgeEmpty": true,
+        "listDestination": "CompetitionDetailDestination",
+        "calendarDestination": "CompetitionDetailDestination",
+        "venueAddressAndCoordinatesMatched": true,
+        "imageCountPreserved": 6,
+        "testSha256": "ee35fadbac9d203b42c0899c678baf1b4e45a384ed02e558e20180c369870e80"
+      }
+    },
+    "existingCompetitionRowsPreserved": 77,
+    "existingVenueRowsPreserved": 19,
+    "diffCheckPassed": true
+  }
+}

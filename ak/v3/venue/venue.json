@@ -229,6 +229,18 @@
       "photos": [
         "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8"
       ]
+    },
+    {
+      "name": "천안시민체육공원",
+      "location": {
+        "name": "천안시민체육공원",
+        "address": "충청남도 천안시 서북구 불당동 242-3",
+        "latitude": 36.8127558,
+        "longitude": 127.1134638
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1fnihyqgBnHz4xTgX5Nt0iqsjA-Ny_nWZ"
+      ]
     }
   ]
 }

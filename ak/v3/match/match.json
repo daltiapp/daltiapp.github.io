@@ -1750,6 +1750,32 @@
       ]
     },
     {
+      "applicationEndAt": "2026-10-23T23:59:59",
+      "applicationStartAt": "2026-10-08T10:00:00",
+      "club": "한국어질리티연합",
+      "detailNotice": "천안시·연암대학교 주최/주관, 한국어질리티연합 시행의 시민 참여 이벤트 대회입니다. 심사위원 정보는 공개되지 않았습니다. 세부 장소: 천안시민체육공원 내 독스포츠존. 공식 시간표 기준 안전교육 10:00~10:30, 오전 경기 10:30~12:00, 오후 경기 15:30~17:00입니다. 아마추어(비기너+노비스) 참가비 20,000원. 사전 온라인 접수이며 모집 인원 충족 시 조기 마감될 수 있습니다.",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-10-31T17:00:00",
+      "eventType": "대회",
+      "judge": [],
+      "location": "천안시민체육공원",
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "name": "2026 천안 K-DOG 어질리티 대회",
+      "startAt": "2026-10-31T10:30:00",
+      "url": "https://k-dog.imweb.me/agility",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+        "https://drive.google.com/uc?export=view&id=1O2T4TD1xSwHUjfABQKVn7__VHcNTHX5C",
+        "https://drive.google.com/uc?export=view&id=1_fK4sy_c9hkFa6T61WygHO-nilKEySRP",
+        "https://drive.google.com/uc?export=view&id=1wcyq9Qco1uo3u-Z9_u9rzM4ucAEMey74",
+        "https://drive.google.com/uc?export=view&id=19gJnovUgoqW4PNQOJCrKCvQlcvQ5Kvi9",
+        "https://drive.google.com/uc?export=view&id=1oA0gC2nozXJjnIDYbyOb1LGO8KuTB3dE"
+      ]
+    },
+    {
       "applicationEndAt": "2026-10-30T23:59:59",
       "applicationStartAt": "2026-10-17T00:00:00",
       "club": "동물과사람",
