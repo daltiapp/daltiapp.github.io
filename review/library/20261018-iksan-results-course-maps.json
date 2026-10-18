@@ -1,0 +1,626 @@
+{
+  "auditVersion": 1,
+  "checkedAt": "2026-10-18T15:58:06+09:00",
+  "dataVersion": "20261018.4",
+  "eventId": "event-kakao-GptxdX-114855200-61dee1502fc0",
+  "eventName": "익산 FCI 인터내셔널 어질리티 경기대회",
+  "eventDate": "2026-10-18",
+  "channelId": "_GptxdX",
+  "channelName": "KKF어질리티위원회",
+  "categoryId": "jpag_promotion",
+  "sources": [
+    {
+      "postId": "114921970",
+      "title": "10.08(일) 익산 FCI 인터내셔널 경기대회 기록",
+      "url": "https://pf.kakao.com/_GptxdX/114921970",
+      "attachmentCount": 6,
+      "postFingerprint": "f4b18a248769e6bb9487ac2f177d1e01d67565461dc8265bdc943f2c861b3961"
+    },
+    {
+      "postId": "114921647",
+      "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+      "url": "https://pf.kakao.com/_GptxdX/114921647",
+      "attachmentCount": 6,
+      "postFingerprint": "eef092e86517c0452498b902c3c10d5d116c2c79df60aca2ab8236693681209c"
+    }
+  ],
+  "sourceCorrections": [
+    "결과 게시물 제목의 10.08은 원본 6장에 명시된 2026.10.18과 기존 출진표·일정으로 대조했다. 원문 postTitle은 보존했다.",
+    "코스 게시물 제목의 금요일은 2026.10.18 일요일과 불일치하므로 기존 확정 대회에 연결하고 원문 postTitle은 보존했다."
+  ],
+  "counts": {
+    "sourceImages": 12,
+    "downloadedOriginalImages": 12,
+    "uploadedOriginalImages": 12,
+    "uploadedThumbnails": 12,
+    "anonymousVerifiedOriginalImages": 12,
+    "anonymousVerifiedThumbnails": 12,
+    "jsonNewAssets": 12,
+    "resultsAdded": 6,
+    "courseMapsAdded": 6,
+    "existingEntryListImagesPreserved": 6,
+    "allExistingAssetsPreserved": 3356
+  },
+  "driveFolderId": "1FYjjAkq8ySwNG6Iut2AQujSAcR6Yuo-f",
+  "assets": [
+    {
+      "assetId": "asset-kakao-GptxdX-195367455",
+      "kind": "result",
+      "imageOrder": 1,
+      "label": "어질리티 1",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "결과표의 종목 제목 및 2026.10.18 익산 대회 표기",
+      "sourceUrl": "https://k.kakaocdn.net/dn/DI3rg/dJMcacE9PPK/58LpsqsENBtFoAUcCvLj60/img_xl.jpg",
+      "sourceCaption": [],
+      "sha256": "5f9b76b4f2e2a4300ce31356c1994ae64dcfaeda96825843c6b750623f315efe",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195367455",
+          "fileId": "1sVfJmo_Zr27upWQssHQDQze0nr3-M5l7",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1sVfJmo_Zr27upWQssHQDQze0nr3-M5l7",
+          "sha256": "5f9b76b4f2e2a4300ce31356c1994ae64dcfaeda96825843c6b750623f315efe",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 941,
+          "height": 650,
+          "bytes": 179157,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195367455",
+          "fileId": "18YxOqUeroLjuz_810-2wONvfPuJeFLUk",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=18YxOqUeroLjuz_810-2wONvfPuJeFLUk",
+          "sha256": "d710b1aa75eea35f67a572e1841d2eed1cf977751ad1766150effe1834c13e2c",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 600,
+          "height": 414,
+          "bytes": 31464,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195369942",
+      "kind": "result",
+      "imageOrder": 2,
+      "label": "어질리티 2",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "결과표의 종목 제목 및 2026.10.18 익산 대회 표기",
+      "sourceUrl": "https://k.kakaocdn.net/dn/b7zFBY/dJMcaiZmi5a/VljM42NOYYKkQnH5xNdP60/img_xl.jpg",
+      "sourceCaption": [],
+      "sha256": "6a3f2b498ad8cf94d16abb368f9a6599f9dc86b64d755b116463eab9aa743c30",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195369942",
+          "fileId": "1_TavMJR_uS6AoRe2fbtvdHoibGSC9-Jz",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1_TavMJR_uS6AoRe2fbtvdHoibGSC9-Jz",
+          "sha256": "6a3f2b498ad8cf94d16abb368f9a6599f9dc86b64d755b116463eab9aa743c30",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 1080,
+          "height": 1189,
+          "bytes": 302811,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195369942",
+          "fileId": "1bBFdKBMNZaknAVScbG0Z0UmMVpSOW2Mq",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1bBFdKBMNZaknAVScbG0Z0UmMVpSOW2Mq",
+          "sha256": "817fa5bc25d978f6352223dcfb63f9f5f7e06639ddaa36ec643a41c5e9280c68",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 545,
+          "height": 600,
+          "bytes": 51512,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195371652",
+      "kind": "result",
+      "imageOrder": 3,
+      "label": "어질리티 3",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "결과표의 종목 제목 및 2026.10.18 익산 대회 표기",
+      "sourceUrl": "https://k.kakaocdn.net/dn/bh1ijd/dJMcafPp5Vr/9aFEXOn2Y8Ey8sQCNAfoD0/img_xl.jpg",
+      "sourceCaption": [],
+      "sha256": "afbb572125a3b33313742d46fc353eeda3a793e3319927c2bfd5d8d723e128aa",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195371652",
+          "fileId": "1tILcNhlAtqv--B3z4nIBWow0eNG9mQhz",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1tILcNhlAtqv--B3z4nIBWow0eNG9mQhz",
+          "sha256": "afbb572125a3b33313742d46fc353eeda3a793e3319927c2bfd5d8d723e128aa",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 588,
+          "height": 725,
+          "bytes": 179160,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195371652",
+          "fileId": "1QaH7LaU5Amnkwl-QLbq_rMw6hoUU3ylt",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1QaH7LaU5Amnkwl-QLbq_rMw6hoUU3ylt",
+          "sha256": "c4af55f3caa70d67f5846831c015c6f35a43eb817914d1c54eacbb1de7427c76",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 487,
+          "height": 600,
+          "bytes": 77946,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195371653",
+      "kind": "result",
+      "imageOrder": 4,
+      "label": "점핑 1",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "결과표의 종목 제목 및 2026.10.18 익산 대회 표기",
+      "sourceUrl": "https://k.kakaocdn.net/dn/bIJGQX/dJMcagAB2CO/BOkE01t24cVOsMLnKGaJbk/img_xl.jpg",
+      "sourceCaption": [],
+      "sha256": "000652d4be09a0c45fcb384eebb5b3504a2cb0a82bbdf4d043db8e52557bd29a",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195371653",
+          "fileId": "1Q01coB9RZFUgERh4L-LnTpENVCJf5qln",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1Q01coB9RZFUgERh4L-LnTpENVCJf5qln",
+          "sha256": "000652d4be09a0c45fcb384eebb5b3504a2cb0a82bbdf4d043db8e52557bd29a",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 1281,
+          "height": 980,
+          "bytes": 283874,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195371653",
+          "fileId": "1ha4_9_F07sWczmaNs_Xs1az7D_Zdgh6E",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1ha4_9_F07sWczmaNs_Xs1az7D_Zdgh6E",
+          "sha256": "0bbe15f18b5882a13ee1bfbe3b006f01326e5d62b581ebed293cf47a3fa2e678",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 600,
+          "height": 459,
+          "bytes": 41686,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195372622",
+      "kind": "result",
+      "imageOrder": 5,
+      "label": "점핑 2",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "결과표의 종목 제목 및 2026.10.18 익산 대회 표기",
+      "sourceUrl": "https://k.kakaocdn.net/dn/kU10e/dJMcagHxkGs/Has477eh2jpA6SVmKI2kk0/img_xl.jpg",
+      "sourceCaption": [],
+      "sha256": "bf39bb706b047e431f65573f2e45d9b97abe7eb7c3f025c313fad0dc513763d8",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195372622",
+          "fileId": "17g68hfjVO2R4xyUuzT1hWQnYh2OBXh7W",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=17g68hfjVO2R4xyUuzT1hWQnYh2OBXh7W",
+          "sha256": "bf39bb706b047e431f65573f2e45d9b97abe7eb7c3f025c313fad0dc513763d8",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 1155,
+          "height": 1080,
+          "bytes": 302728,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195372622",
+          "fileId": "18TQsCaWKmu3iQALDnJZdoKq4iff4gWWJ",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=18TQsCaWKmu3iQALDnJZdoKq4iff4gWWJ",
+          "sha256": "07039ad23303abb591ad475415c2100acd5ba99dec45e4d1d746280a68ed479b",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 600,
+          "height": 561,
+          "bytes": 54516,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195373718",
+      "kind": "result",
+      "imageOrder": 6,
+      "label": "점핑 3",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "결과표의 종목 제목 및 2026.10.18 익산 대회 표기",
+      "sourceUrl": "https://k.kakaocdn.net/dn/cAPrnX/dJMcabzfQEf/hMHTxWfdY8g2I94se5Uqx0/img_xl.jpg",
+      "sourceCaption": [],
+      "sha256": "0f423f257d5a9f7fb3c828d62531ca2b492e32c8d221e733f138678e7f1d7ca7",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195373718",
+          "fileId": "18ZWE2SZmWY55Kac6EeWPOfWsvv8uKoo4",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=18ZWE2SZmWY55Kac6EeWPOfWsvv8uKoo4",
+          "sha256": "0f423f257d5a9f7fb3c828d62531ca2b492e32c8d221e733f138678e7f1d7ca7",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 1080,
+          "height": 1315,
+          "bytes": 380904,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195373718",
+          "fileId": "1V7HcVgWnNLnmLr692gDyqs8TdiOIboAE",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1V7HcVgWnNLnmLr692gDyqs8TdiOIboAE",
+          "sha256": "7e04327dabfd9eb987d7edf5aa17936484fbeb820450cd23ba57f556b2edc59e",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 493,
+          "height": 600,
+          "bytes": 48632,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195365914",
+      "kind": "course_map",
+      "imageOrder": 1,
+      "label": "어질리티 1",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "동일 익산 코스 게시물의 어질 1·2·3 / 점핑 1·2·3 첨부 캡션과 실제 코스 이미지",
+      "sourceUrl": "https://k.kakaocdn.net/dn/lYDax/dJMcafoiDn7/XYfFP2HzzhFBDpvxygzhO1/img_xl.jpg",
+      "sourceCaption": [
+        {
+          "t": "text",
+          "v": "어질 1"
+        }
+      ],
+      "sha256": "623fe6b17e2fa1e3ef62b64815751f0f37836db354aa951aa818ff5c22f76cb8",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195365914",
+          "fileId": "1Q7vfddfonRRqOtZjMNudLd01EJwwwFtf",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1Q7vfddfonRRqOtZjMNudLd01EJwwwFtf",
+          "sha256": "623fe6b17e2fa1e3ef62b64815751f0f37836db354aa951aa818ff5c22f76cb8",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 918,
+          "height": 1833,
+          "bytes": 279239,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195365914",
+          "fileId": "17MPbXkhDT-qrTHPmDY-rjTWGI-7GawoU",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=17MPbXkhDT-qrTHPmDY-rjTWGI-7GawoU",
+          "sha256": "24aea15722147b26bfea3131b10c78fac2164c5beb11b5958608cf14e639f537",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 300,
+          "height": 600,
+          "bytes": 21566,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195365915",
+      "kind": "course_map",
+      "imageOrder": 2,
+      "label": "어질리티 2",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "동일 익산 코스 게시물의 어질 1·2·3 / 점핑 1·2·3 첨부 캡션과 실제 코스 이미지",
+      "sourceUrl": "https://k.kakaocdn.net/dn/qs4QD/dJMcadwXyeB/W5SOYDgI23tAR5P0AgZEak/img_xl.jpg",
+      "sourceCaption": [
+        {
+          "t": "text",
+          "v": "어질 2"
+        }
+      ],
+      "sha256": "030d5de065d929512c2d9b60665434c8d84d974a9f5b72cae886fd2c09b48006",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195365915",
+          "fileId": "1f1O5xnD09NLwVgNE6h9mC9J5XLbXt_q5",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1f1O5xnD09NLwVgNE6h9mC9J5XLbXt_q5",
+          "sha256": "030d5de065d929512c2d9b60665434c8d84d974a9f5b72cae886fd2c09b48006",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 918,
+          "height": 1833,
+          "bytes": 282362,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195365915",
+          "fileId": "1wIXbpR7_nuC0CD0nb-ehW-IuRC9lWIAG",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1wIXbpR7_nuC0CD0nb-ehW-IuRC9lWIAG",
+          "sha256": "4a71a657520652de02a7b74ac3bf47b1a83c4b6a07ebe438a5ebe98e4570ca86",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 300,
+          "height": 600,
+          "bytes": 22482,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195365916",
+      "kind": "course_map",
+      "imageOrder": 3,
+      "label": "어질리티 3",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "동일 익산 코스 게시물의 어질 1·2·3 / 점핑 1·2·3 첨부 캡션과 실제 코스 이미지",
+      "sourceUrl": "https://k.kakaocdn.net/dn/2b1l4/dJMb992BYPb/kj6jOjSRATiKWaLjfK0F60/img_xl.jpg",
+      "sourceCaption": [
+        {
+          "t": "text",
+          "v": "어질 3"
+        }
+      ],
+      "sha256": "ddb0cc69ae83ddc5e677d7cbe6f7b6a4a380ff4cec07291bb45182bbd11fc9db",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195365916",
+          "fileId": "1sznQqJ-fhL5NZ1kT9pOK2XW7UxvNJCcG",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1sznQqJ-fhL5NZ1kT9pOK2XW7UxvNJCcG",
+          "sha256": "ddb0cc69ae83ddc5e677d7cbe6f7b6a4a380ff4cec07291bb45182bbd11fc9db",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 918,
+          "height": 1833,
+          "bytes": 287978,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195365916",
+          "fileId": "1tK8zW_4T8V3s-5BHI7ezQKKujchYUg1h",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1tK8zW_4T8V3s-5BHI7ezQKKujchYUg1h",
+          "sha256": "18b53224b26124d9d0f54c0f8777484d481a9b11945203f4a39103cd9917cf76",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 300,
+          "height": 600,
+          "bytes": 23194,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195365917",
+      "kind": "course_map",
+      "imageOrder": 4,
+      "label": "점핑 1",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "동일 익산 코스 게시물의 어질 1·2·3 / 점핑 1·2·3 첨부 캡션과 실제 코스 이미지",
+      "sourceUrl": "https://k.kakaocdn.net/dn/5nlW0/dJMcacE9NMt/HbkvEHG0zVaRZsiTV6JLhk/img_xl.jpg",
+      "sourceCaption": [
+        {
+          "t": "text",
+          "v": "점핑 1"
+        }
+      ],
+      "sha256": "147e5796c92823a4cb8938c0e71449119eba8d1952913d5a4689b45c468b1ccf",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195365917",
+          "fileId": "1oLvwmneY5hwk5GkvPTAOlJg136uaPLPV",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1oLvwmneY5hwk5GkvPTAOlJg136uaPLPV",
+          "sha256": "147e5796c92823a4cb8938c0e71449119eba8d1952913d5a4689b45c468b1ccf",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 918,
+          "height": 1833,
+          "bytes": 277794,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195365917",
+          "fileId": "1Ar-oGyBqvgbNXQwTFY9X4LNyPiVk0uXU",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1Ar-oGyBqvgbNXQwTFY9X4LNyPiVk0uXU",
+          "sha256": "7340a2a69ffee7b48d47f2f132f12d0d8e24b4ae88c067512c19d8f679320825",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 300,
+          "height": 600,
+          "bytes": 21672,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195365918",
+      "kind": "course_map",
+      "imageOrder": 5,
+      "label": "점핑 2",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "동일 익산 코스 게시물의 어질 1·2·3 / 점핑 1·2·3 첨부 캡션과 실제 코스 이미지",
+      "sourceUrl": "https://k.kakaocdn.net/dn/ss3vw/dJMcaaAt9kC/ficNETVvAqAIl0zbF0Pdu1/img_xl.jpg",
+      "sourceCaption": [
+        {
+          "t": "text",
+          "v": "점핑 2"
+        }
+      ],
+      "sha256": "1723954ab1dee3e2093d43ca23852f620f4fffca7d59d85d8206b852f753fd57",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195365918",
+          "fileId": "1b5K6HYDyEcCZ-QRjcNp2lK6FPocKpo26",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1b5K6HYDyEcCZ-QRjcNp2lK6FPocKpo26",
+          "sha256": "1723954ab1dee3e2093d43ca23852f620f4fffca7d59d85d8206b852f753fd57",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 918,
+          "height": 1833,
+          "bytes": 282655,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195365918",
+          "fileId": "1J0MEQv2WWZuBAJ-PVpCxt8cQYgVAcChd",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1J0MEQv2WWZuBAJ-PVpCxt8cQYgVAcChd",
+          "sha256": "6b69fbf8923691ee40b327a59cd96aaf9200f5c3bf6b5a045f8ca01d59070880",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 300,
+          "height": 600,
+          "bytes": 22394,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-195365919",
+      "kind": "course_map",
+      "imageOrder": 6,
+      "label": "점핑 3",
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "classificationEvidence": "동일 익산 코스 게시물의 어질 1·2·3 / 점핑 1·2·3 첨부 캡션과 실제 코스 이미지",
+      "sourceUrl": "https://k.kakaocdn.net/dn/jVY7c/dJMcaaAt9kE/0S480s4FBsx9xhkceNRLE0/img_xl.jpg",
+      "sourceCaption": [
+        {
+          "t": "text",
+          "v": "점핑 3"
+        }
+      ],
+      "sha256": "fe48b9f83e0585bdf75aa94ddcb2f601f0f0e0ade0f3115d467733c47c514213",
+      "files": [
+        {
+          "assetId": "asset-kakao-GptxdX-195365919",
+          "fileId": "1m2TIP3p5QngpD-7SmwQwF55w19S6j2Ch",
+          "variant": "original",
+          "url": "https://drive.google.com/uc?export=view&id=1m2TIP3p5QngpD-7SmwQwF55w19S6j2Ch",
+          "sha256": "fe48b9f83e0585bdf75aa94ddcb2f601f0f0e0ade0f3115d467733c47c514213",
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "width": 918,
+          "height": 1833,
+          "bytes": 288954,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        },
+        {
+          "assetId": "asset-kakao-GptxdX-195365919",
+          "fileId": "1EIVpebXFPedC6DgKtMDirDffXvi3UD3U",
+          "variant": "thumbnail",
+          "url": "https://drive.google.com/uc?export=view&id=1EIVpebXFPedC6DgKtMDirDffXvi3UD3U",
+          "sha256": "1efc180c8fa94edbb0bbb6f36892605b1805a64730ad12baae008db1795f8299",
+          "status": 200,
+          "mimeType": "image/webp",
+          "width": 300,
+          "height": 600,
+          "bytes": 23518,
+          "anyoneReader": true,
+          "anonymousGetDecodedSha256Match": true
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "schemaReferencesCategoriesViewsAndOrder": "passed",
+    "existingEventsAndAssetsUnchanged": true,
+    "regenerationIdempotent": true,
+    "allActiveDataHarness": {
+      "status": "passed",
+      "scope": "all",
+      "activeJsonFiles": 201,
+      "dataVersion": "20261018.4"
+    },
+    "actualAppParserAndChannelDateCategoryViews": {
+      "status": "passed",
+      "targetEventAssetCount": 18,
+      "entryLists": 6,
+      "results": 6,
+      "courseMaps": 6,
+      "channel": "kakao:_GptxdX",
+      "categoryId": "jpag_promotion",
+      "groupingModes": [
+        "competition",
+        "date"
+      ],
+      "networkCalls": 0
+    },
+    "sourcePostFingerprintsRechecked": true
+  },
+  "sideEffects": {
+    "appPushSent": false,
+    "telegramSent": false,
+    "nasJobsChanged": false,
+    "scraperCodeChanged": false,
+    "paidApiCalls": false
+  }
+}
