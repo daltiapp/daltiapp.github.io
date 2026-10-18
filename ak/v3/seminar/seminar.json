@@ -171,6 +171,38 @@
         "https://drive.google.com/uc?export=view&id=1S2yEkCM-BC5m4LqcWdwMc0rulMPxdNmn",
         "https://drive.google.com/uc?export=view&id=1NF1Yfq9vp_oqNoHjb0Xvy7WqCgHc6vtJ"
       ]
+    },
+    {
+      "date": "2026-11-04T10:00:00",
+      "endDate": "2026-11-04T17:00:00",
+      "registrationStartDate": "2026-10-18",
+      "name": "[접수 마감] 파우 세라노 시라투사 어질리티 세미나",
+      "speaker": "파우 세라노 시라투사",
+      "organizer": "강아지숲",
+      "url": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1",
+      "listImage": "https://drive.google.com/uc?export=view&id=1C9OiA2U7PEFDQeQBuFQ9qcEYmu863b2M",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1JIGVkvMI_6DpnqgHDrn4QO856pKokM-r",
+        "https://drive.google.com/uc?export=view&id=1O48EIuVpTnBGn10rXmACqIMTlO6OqcnH",
+        "https://drive.google.com/uc?export=view&id=1hzNIIGDKDz3L_PAdaYKrYlpoKA2EFvk8",
+        "https://drive.google.com/uc?export=view&id=17T6proF6Q1Cy5ONNoTCphTBgocR-gV0c"
+      ]
+    },
+    {
+      "date": "2026-11-09T09:00:00",
+      "endDate": "2026-11-10T17:00:00",
+      "registrationStartDate": "2026-10-18",
+      "name": "[접수 마감] 스테파니 젬카트 어질리티 세미나",
+      "speaker": "스테파니 젬카트",
+      "organizer": "강아지숲",
+      "url": "https://www.instagram.com/p/Denia0Yk1v1/?img_index=1",
+      "listImage": "https://drive.google.com/uc?export=view&id=1VCXZ4Sucs_x27zx6RvOs3XNuHTWU9FNl",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=15LW0Khr_ALsGQKT1WwdsmDV8myv3BcZc",
+        "https://drive.google.com/uc?export=view&id=1ooqXYklF-qex7LU6WZspKsHOPm-Gm_Wh",
+        "https://drive.google.com/uc?export=view&id=1fOINmN0mLQw3IjrDS8dkILl43uY9koyg",
+        "https://drive.google.com/uc?export=view&id=1HnGwnS0avKhGiinttr7aDwumyhZysRfc"
+      ]
     }
   ],
   "speakers": [

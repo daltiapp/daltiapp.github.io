@@ -1,0 +1,273 @@
+{
+  "dataVersion": "20261018.3",
+  "verifiedAt": "2026-10-18T14:37:25+09:00",
+  "existingSeminarsPreserved": 12,
+  "newSeminarCount": 2,
+  "sourceDetailImageCount": 8,
+  "downloadedDetailImageCount": 8,
+  "publicVerifiedDetailImageCount": 8,
+  "jsonDetailImageCount": 8,
+  "publicVerifiedListImageCount": 2,
+  "driveFolders": {
+    "detail": "14K9BZxg1hIjEPb8a4ool0UpdMxtXrCxG",
+    "list": "1AA6mLYGlPNwmCgC1kcs_RMJ3rNpqORcW"
+  },
+  "contentReview": "두 게시물 모두 1~4장 전체와 마지막 다음 버튼 부재를 확인했다. 다운로드한 원본 JPEG 8장과 목록용 표지 2장을 재인코딩 없이 업로드하고 anyone/reader, 비로그인 GET, MIME·JPEG 디코딩·원본 SHA-256 일치를 검증했다. 스테파니 세미나 시간표의 11월 10일 요일 오기는 날짜와 본문 화요일 표기를 기준으로 해석했다.",
+  "sources": [
+    {
+      "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1",
+      "sourceAccount": "dongsa08",
+      "seminarName": "[접수 마감] 파우 세라노 시라투사 어질리티 세미나",
+      "speaker": "파우 세라노 시라투사",
+      "date": "2026-11-04T10:00:00",
+      "endDate": "2026-11-04T17:00:00",
+      "registrationStartDate": "2026-10-18",
+      "originalRegistrationPeriod": "2026-10-18~2026-10-25",
+      "registrationClosed": true,
+      "closedCommentAuthor": "dongsa08",
+      "closedComment": "세미나 접수 마감되었습니다.😢",
+      "closedCommentUrl": "https://www.instagram.com/p/DenjRPUE1Eo/c/18095145182654597/",
+      "closedDisplay": "기존 세미나 JSON에는 전용 접수 마감 필드가 없어 name에 [접수 마감]을 표시했다. 접수일·개최일은 원문 날짜를 그대로 유지하며 기존 앱 상태 배지 계산 로직을 변경했다는 뜻은 아니다.",
+      "sourceImageCount": 4,
+      "downloadedImageCount": 4,
+      "uploadedDetailImageCount": 4,
+      "publicVerifiedDetailImageCount": 4,
+      "jsonDetailImageCount": 4,
+      "verifiedLastSlide": 4,
+      "nextButtonAtEnd": false,
+      "detailImages": [
+        {
+          "order": 1,
+          "sourceFilename": "849771841_18470858263139576_466326757939354098_n.jpg",
+          "sourceSha256": "53da793bcc3c7acae864b46a88948a0cf0308b575208394209263b27cf30fbf6",
+          "driveFileId": "1JIGVkvMI_6DpnqgHDrn4QO856pKokM-r",
+          "url": "https://drive.google.com/uc?export=view&id=1JIGVkvMI_6DpnqgHDrn4QO856pKokM-r",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/jpeg",
+            "bytes": 402475,
+            "sha256": "53da793bcc3c7acae864b46a88948a0cf0308b575208394209263b27cf30fbf6",
+            "decodedFormat": "JPEG",
+            "width": 1440,
+            "height": 1797
+          }
+        },
+        {
+          "order": 2,
+          "sourceFilename": "849771769_18470858287139576_2455705284024680805_n.jpg",
+          "sourceSha256": "8d6c071b23e338040d7bc649ad699d1452892aa37da41009d7e6034596b471cb",
+          "driveFileId": "1O48EIuVpTnBGn10rXmACqIMTlO6OqcnH",
+          "url": "https://drive.google.com/uc?export=view&id=1O48EIuVpTnBGn10rXmACqIMTlO6OqcnH",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/jpeg",
+            "bytes": 207159,
+            "sha256": "8d6c071b23e338040d7bc649ad699d1452892aa37da41009d7e6034596b471cb",
+            "decodedFormat": "JPEG",
+            "width": 1440,
+            "height": 1797
+          }
+        },
+        {
+          "order": 3,
+          "sourceFilename": "849771895_18470858278139576_915352939828910254_n.jpg",
+          "sourceSha256": "f51b210510ad52cab2c4965cc7acf20f49af65edcd5931974e81fa6fe6f306fa",
+          "driveFileId": "1hzNIIGDKDz3L_PAdaYKrYlpoKA2EFvk8",
+          "url": "https://drive.google.com/uc?export=view&id=1hzNIIGDKDz3L_PAdaYKrYlpoKA2EFvk8",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/jpeg",
+            "bytes": 302100,
+            "sha256": "f51b210510ad52cab2c4965cc7acf20f49af65edcd5931974e81fa6fe6f306fa",
+            "decodedFormat": "JPEG",
+            "width": 1440,
+            "height": 1797
+          }
+        },
+        {
+          "order": 4,
+          "sourceFilename": "847791126_18470858299139576_3918867422244332938_n.jpg",
+          "sourceSha256": "4e12d146226defb2cb518d05d82fde9a7dbb0bc40204a598c272c1b49e19c0c9",
+          "driveFileId": "17T6proF6Q1Cy5ONNoTCphTBgocR-gV0c",
+          "url": "https://drive.google.com/uc?export=view&id=17T6proF6Q1Cy5ONNoTCphTBgocR-gV0c",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/jpeg",
+            "bytes": 361150,
+            "sha256": "4e12d146226defb2cb518d05d82fde9a7dbb0bc40204a598c272c1b49e19c0c9",
+            "decodedFormat": "JPEG",
+            "width": 1440,
+            "height": 1797
+          }
+        }
+      ],
+      "listImage": {
+        "sourceImageOrder": 1,
+        "sourceSha256": "53da793bcc3c7acae864b46a88948a0cf0308b575208394209263b27cf30fbf6",
+        "driveFileId": "1C9OiA2U7PEFDQeQBuFQ9qcEYmu863b2M",
+        "url": "https://drive.google.com/uc?export=view&id=1C9OiA2U7PEFDQeQBuFQ9qcEYmu863b2M",
+        "anyoneReader": true,
+        "unauthenticatedGet": {
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "bytes": 402475,
+          "sha256": "53da793bcc3c7acae864b46a88948a0cf0308b575208394209263b27cf30fbf6",
+          "decodedFormat": "JPEG",
+          "width": 1440,
+          "height": 1797
+        }
+      },
+      "fieldEvidence": {
+        "datesAndPlaceImageOrder": 3,
+        "sessionsImageOrder": 2,
+        "speakerCoverImageOrder": 1,
+        "place": "강아지숲 네이처풀 운동장",
+        "registrationPeriodImageOrder": 3
+      }
+    },
+    {
+      "sourceUrl": "https://www.instagram.com/p/Denia0Yk1v1/?img_index=1",
+      "sourceAccount": "dongsa08",
+      "seminarName": "[접수 마감] 스테파니 젬카트 어질리티 세미나",
+      "speaker": "스테파니 젬카트",
+      "date": "2026-11-09T09:00:00",
+      "endDate": "2026-11-10T17:00:00",
+      "registrationStartDate": "2026-10-18",
+      "originalRegistrationPeriod": "2026-10-18~2026-10-25",
+      "registrationClosed": true,
+      "closedCommentAuthor": "dongsa08",
+      "closedComment": "세미나 전체 일정 접수 마감되었습니다.🙏🏻",
+      "closedCommentUrl": "https://www.instagram.com/p/Denia0Yk1v1/c/18014739935970261/",
+      "closedDisplay": "기존 세미나 JSON에는 전용 접수 마감 필드가 없어 name에 [접수 마감]을 표시했다. 접수일·개최일은 원문 날짜를 그대로 유지하며 기존 앱 상태 배지 계산 로직을 변경했다는 뜻은 아니다.",
+      "sourceImageCount": 4,
+      "downloadedImageCount": 4,
+      "uploadedDetailImageCount": 4,
+      "publicVerifiedDetailImageCount": 4,
+      "jsonDetailImageCount": 4,
+      "verifiedLastSlide": 4,
+      "nextButtonAtEnd": false,
+      "detailImages": [
+        {
+          "order": 1,
+          "sourceFilename": "851459024_18470856793139576_465586302712736283_n.jpg",
+          "sourceSha256": "0063d71237b3f30f234c087f94ea49eb71650253c4f05cd1108e40fd6d236867",
+          "driveFileId": "15LW0Khr_ALsGQKT1WwdsmDV8myv3BcZc",
+          "url": "https://drive.google.com/uc?export=view&id=15LW0Khr_ALsGQKT1WwdsmDV8myv3BcZc",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/jpeg",
+            "bytes": 457358,
+            "sha256": "0063d71237b3f30f234c087f94ea49eb71650253c4f05cd1108e40fd6d236867",
+            "decodedFormat": "JPEG",
+            "width": 1440,
+            "height": 1797
+          }
+        },
+        {
+          "order": 2,
+          "sourceFilename": "849771747_18470856808139576_5539508752791959417_n.jpg",
+          "sourceSha256": "e8d3fbe5059e3f801fd3da8d75547f2693aaa03f0ad22d704194525d3bb9ec6e",
+          "driveFileId": "1ooqXYklF-qex7LU6WZspKsHOPm-Gm_Wh",
+          "url": "https://drive.google.com/uc?export=view&id=1ooqXYklF-qex7LU6WZspKsHOPm-Gm_Wh",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/jpeg",
+            "bytes": 271443,
+            "sha256": "e8d3fbe5059e3f801fd3da8d75547f2693aaa03f0ad22d704194525d3bb9ec6e",
+            "decodedFormat": "JPEG",
+            "width": 1440,
+            "height": 1797
+          }
+        },
+        {
+          "order": 3,
+          "sourceFilename": "847791126_18470856817139576_7007863475664537548_n.jpg",
+          "sourceSha256": "50cbb5f1cd4b7c5f813c24c7ae5d0adb5bdfa21227204843a951ec8356715c34",
+          "driveFileId": "1fOINmN0mLQw3IjrDS8dkILl43uY9koyg",
+          "url": "https://drive.google.com/uc?export=view&id=1fOINmN0mLQw3IjrDS8dkILl43uY9koyg",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/jpeg",
+            "bytes": 224027,
+            "sha256": "50cbb5f1cd4b7c5f813c24c7ae5d0adb5bdfa21227204843a951ec8356715c34",
+            "decodedFormat": "JPEG",
+            "width": 1440,
+            "height": 1797
+          }
+        },
+        {
+          "order": 4,
+          "sourceFilename": "851099752_18470856838139576_2729597213561226117_n.jpg",
+          "sourceSha256": "13b3e04b9c782122a11d948e702552b7afc36cbef3552f1730341eee90cb7917",
+          "driveFileId": "1HnGwnS0avKhGiinttr7aDwumyhZysRfc",
+          "url": "https://drive.google.com/uc?export=view&id=1HnGwnS0avKhGiinttr7aDwumyhZysRfc",
+          "anyoneReader": true,
+          "unauthenticatedGet": {
+            "status": 200,
+            "mimeType": "image/jpeg",
+            "bytes": 291901,
+            "sha256": "13b3e04b9c782122a11d948e702552b7afc36cbef3552f1730341eee90cb7917",
+            "decodedFormat": "JPEG",
+            "width": 1440,
+            "height": 1797
+          }
+        }
+      ],
+      "listImage": {
+        "sourceImageOrder": 1,
+        "sourceSha256": "0063d71237b3f30f234c087f94ea49eb71650253c4f05cd1108e40fd6d236867",
+        "driveFileId": "1VCXZ4Sucs_x27zx6RvOs3XNuHTWU9FNl",
+        "url": "https://drive.google.com/uc?export=view&id=1VCXZ4Sucs_x27zx6RvOs3XNuHTWU9FNl",
+        "anyoneReader": true,
+        "unauthenticatedGet": {
+          "status": 200,
+          "mimeType": "image/jpeg",
+          "bytes": 457358,
+          "sha256": "0063d71237b3f30f234c087f94ea49eb71650253c4f05cd1108e40fd6d236867",
+          "decodedFormat": "JPEG",
+          "width": 1440,
+          "height": 1797
+        }
+      },
+      "fieldEvidence": {
+        "datesAndPlaceImageOrder": 3,
+        "sessionsImageOrder": 2,
+        "speakerCoverImageOrder": 1,
+        "place": "강아지숲 네이처풀 운동장",
+        "registrationPeriodImageOrder": 3
+      }
+    }
+  ],
+  "validation": {
+    "activeDataHarness": {
+      "scope": "all",
+      "passed": true,
+      "jsonFileCount": 201,
+      "noticeCount": 136,
+      "competitionCount": 78
+    },
+    "dataStudioTests": {
+      "passed": 34,
+      "failed": 0
+    },
+    "seminarAppTests": {
+      "passed": 8,
+      "failed": 0,
+      "actualActiveJsonParsed": true,
+      "closedTitleLabelsPreserved": true,
+      "dateRangePreserved": "2026-11-09T09:00:00~2026-11-10T17:00:00",
+      "testSha256": "e08ad5ccd41a4603d384ef8a876425ac4d655fa05cda3891afecc7ce9d440def"
+    },
+    "existingSeminarsPreserved": 12,
+    "existingSpeakerProfilesPreserved": 7,
+    "matchVenueAndNoticeUnchanged": true,
+    "diffCheckPassed": true
+  }
+}

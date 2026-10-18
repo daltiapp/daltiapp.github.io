@@ -77,6 +77,7 @@ endAt, eventType, judge, location, matchTypes, name, startAt, url
 
 ## 세미나 규칙
 
+- `date`는 시작 일시이며, 선택 필드 `endDate`는 마지막 종료 일시다. 이틀 이상 이어지는 같은 세미나는 두 필드로 기간을 보존한다. `endDate`가 없으면 기존 앱 파서는 `date`와 같은 값으로 처리한다.
 - v1 세미나 JSON은 `/ak/v1/seminar/seminar.json`에 보존한다.
 - 대회 이력과 이미지 수는 활성 `files.match`에서 확인한다. 과거 재생성 당시의 건수를 고정 계약으로 사용하지 않는다.
 - v3는 v2와 동일한 schemaVersion 2의 호환 가능한 데이터 재생성 버전이며, rollback은 manifest만 되돌린다.
