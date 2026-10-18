@@ -180,13 +180,14 @@
       "speaker": "파우 세라노 시라투사",
       "organizer": "강아지숲",
       "url": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1",
-      "listImage": "https://drive.google.com/uc?export=view&id=1C9OiA2U7PEFDQeQBuFQ9qcEYmu863b2M",
+      "listImage": "https://drive.google.com/uc?export=view&id=1taoDHsKkepOckJ3_haLteUUNDip6DZT8",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1JIGVkvMI_6DpnqgHDrn4QO856pKokM-r",
         "https://drive.google.com/uc?export=view&id=1O48EIuVpTnBGn10rXmACqIMTlO6OqcnH",
         "https://drive.google.com/uc?export=view&id=1hzNIIGDKDz3L_PAdaYKrYlpoKA2EFvk8",
         "https://drive.google.com/uc?export=view&id=17T6proF6Q1Cy5ONNoTCphTBgocR-gV0c"
-      ]
+      ],
+      "speakerId": "pau-serrano-ciratusa"
     },
     {
       "date": "2026-11-09T09:00:00",
@@ -196,13 +197,14 @@
       "speaker": "스테파니 젬카트",
       "organizer": "강아지숲",
       "url": "https://www.instagram.com/p/Denia0Yk1v1/?img_index=1",
-      "listImage": "https://drive.google.com/uc?export=view&id=1VCXZ4Sucs_x27zx6RvOs3XNuHTWU9FNl",
+      "listImage": "https://drive.google.com/uc?export=view&id=1sb1CZ5CmhWfPVwG52VTPgAasa4ZVxMdl",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=15LW0Khr_ALsGQKT1WwdsmDV8myv3BcZc",
         "https://drive.google.com/uc?export=view&id=1ooqXYklF-qex7LU6WZspKsHOPm-Gm_Wh",
         "https://drive.google.com/uc?export=view&id=1fOINmN0mLQw3IjrDS8dkILl43uY9koyg",
         "https://drive.google.com/uc?export=view&id=1HnGwnS0avKhGiinttr7aDwumyhZysRfc"
-      ]
+      ],
+      "speakerId": "stefanie-semkat"
     }
   ],
   "speakers": [
@@ -428,6 +430,129 @@
         "https://michelfreitas.es/",
         "https://www.kraftyk9dogsports.com/michel",
         "https://www.agilitynow.eu/spanish-team-for-the-2025-agility-world-championship/"
+      ]
+    },
+    {
+      "id": "pau-serrano-ciratusa",
+      "displayName": "파우 세라노 시라투사",
+      "name": "파우 세라노 시라투사",
+      "nameKo": "파우 세라노 시라투사",
+      "nameEn": "Pau Serrano Ciratusa",
+      "country": "스페인",
+      "instagramUrl": "",
+      "summary": "스페인의 어질리티 선수·트레이너·국제 심사위원입니다. 이비사에서 어질리티를 시작했으며, WAO 메달 경력과 함께 여러 나라에서 대회 심사와 코스 지도를 이어가고 있습니다.",
+      "competitionAchievements": [
+        {
+          "year": 2026,
+          "event": "World Agility Open",
+          "category": "Biathlon 300",
+          "result": "우승",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2026,
+          "event": "World Agility Open",
+          "category": "Biathlon 250",
+          "result": "은메달",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2026,
+          "event": "World Agility Open",
+          "category": "Biathlon · Pentathlon 400",
+          "result": "은메달",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        }
+      ],
+      "judgingExperience": [
+        {
+          "year": 2024,
+          "event": "Helvetic Agility Masters",
+          "role": "심사위원",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2025,
+          "event": "British Agility Championship",
+          "role": "심사위원",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2026,
+          "event": "Finnish Championships",
+          "role": "심사위원",
+          "sourceUrl": "https://agism2026.fi/tapahtuma/tuomariesittelyt/"
+        },
+        {
+          "year": 2026,
+          "event": "Verbano Challenge",
+          "role": "심사위원",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2027,
+          "event": "World Agility Open",
+          "role": "심사위원 예정",
+          "sourceUrl": "https://www.worldagilityopen.com/event-information/judges"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1Dh7xaWwEKyH7HcRGFuK8lq5uw7B2btkD",
+      "profileImageSourceUrl": "https://www.worldagilityopen.com/event-information/judges",
+      "sourceUrls": [
+        "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1",
+        "https://www.worldagilityopen.com/event-information/judges",
+        "https://agism2026.fi/tapahtuma/tuomariesittelyt/"
+      ]
+    },
+    {
+      "id": "stefanie-semkat",
+      "displayName": "스테파니 젬카트",
+      "name": "스테파니 젬카트",
+      "nameKo": "스테파니 젬카트",
+      "nameEn": "Stefanie Semkat",
+      "country": "독일",
+      "instagramUrl": "https://www.instagram.com/stefaniesemkat/",
+      "summary": "독일의 국제 어질리티 심사위원이자 트레이너입니다. 2003년 심사를 시작했으며, 여러 나라에서 대회 심사와 어질리티 세미나를 진행합니다.",
+      "competitionAchievements": [],
+      "judgingExperience": [
+        {
+          "year": 2023,
+          "event": "European Open",
+          "role": "심사위원",
+          "sourceUrl": "https://www.worldagilityopen.com/event-information/judges"
+        },
+        {
+          "year": 2023,
+          "event": "Gold Rush Competition",
+          "role": "심사위원",
+          "sourceUrl": "https://gold-rush-competition.de/en/judges-2023/"
+        },
+        {
+          "year": 2025,
+          "event": "FCI Agility World Championship",
+          "role": "심사위원",
+          "sourceUrl": "https://www.worldagilityopen.com/event-information/judges"
+        },
+        {
+          "year": 2027,
+          "event": "JAO (Junior Championship)",
+          "role": "심사위원 예정",
+          "sourceUrl": "https://www.instagram.com/p/Denia0Yk1v1/?img_index=1"
+        },
+        {
+          "year": 2027,
+          "event": "World Agility Open",
+          "role": "심사위원 예정",
+          "sourceUrl": "https://www.worldagilityopen.com/event-information/judges"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1P7FOQ-O_QsAag0MxQobOH0amjYF2D5oZ",
+      "profileImageSourceUrl": "https://gold-rush-competition.de/en/judges-2023/",
+      "sourceUrls": [
+        "https://www.instagram.com/p/Denia0Yk1v1/?img_index=1",
+        "https://www.worldagilityopen.com/event-information/judges",
+        "https://gold-rush-competition.de/en/judges-2023/",
+        "https://www.instagram.com/stefaniesemkat/"
       ]
     }
   ]

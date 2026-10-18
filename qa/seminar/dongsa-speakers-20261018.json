@@ -1,0 +1,366 @@
+{
+  "auditVersion": 1,
+  "checkedAt": "2026-10-18T16:26:23+09:00",
+  "dataVersion": "20261018.5",
+  "priorRegistrationAudit": "qa/seminar/dongsa-20261018.json",
+  "referenceSpeakerId": "michel-freitas",
+  "correction": "이름만 등록됐던 두 강사의 speakerId 연결·speakers 프로필·선수 목록 사진을 기존 프레이타스 형식에 맞췄다.",
+  "seminarCount": 14,
+  "speakerCount": 9,
+  "existingSeminarsPreserved": 12,
+  "existingSpeakerProfilesPreserved": 7,
+  "newSpeakerIds": [
+    "pau-serrano-ciratusa",
+    "stefanie-semkat"
+  ],
+  "sourceGalleryImagesPreserved": 8,
+  "downloadedSelectedPlayerPhotos": 2,
+  "uploadedPlayerImageFiles": 4,
+  "publicVerifiedPlayerImageFiles": 4,
+  "sourceReview": {
+    "galleryOrderAndHashesRechecked": true,
+    "credentialSourceImageOrder": 4,
+    "futureJudgingClearlyMarkedScheduled": true,
+    "noInventedAwards": true,
+    "unverifiedPauInstagramOmitted": true,
+    "stefanieInstagramNameAndHandleVerifiedInPublicProfile": true,
+    "posterBiathlonPentathlon400LabelPreservedWithoutGuessingDogOrSplittingMedals": true
+  },
+  "profiles": [
+    {
+      "id": "pau-serrano-ciratusa",
+      "displayName": "파우 세라노 시라투사",
+      "name": "파우 세라노 시라투사",
+      "nameKo": "파우 세라노 시라투사",
+      "nameEn": "Pau Serrano Ciratusa",
+      "country": "스페인",
+      "instagramUrl": "",
+      "summary": "스페인의 어질리티 선수·트레이너·국제 심사위원입니다. 이비사에서 어질리티를 시작했으며, WAO 메달 경력과 함께 여러 나라에서 대회 심사와 코스 지도를 이어가고 있습니다.",
+      "competitionAchievements": [
+        {
+          "year": 2026,
+          "event": "World Agility Open",
+          "category": "Biathlon 300",
+          "result": "우승",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2026,
+          "event": "World Agility Open",
+          "category": "Biathlon 250",
+          "result": "은메달",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2026,
+          "event": "World Agility Open",
+          "category": "Biathlon · Pentathlon 400",
+          "result": "은메달",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        }
+      ],
+      "judgingExperience": [
+        {
+          "year": 2024,
+          "event": "Helvetic Agility Masters",
+          "role": "심사위원",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2025,
+          "event": "British Agility Championship",
+          "role": "심사위원",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2026,
+          "event": "Finnish Championships",
+          "role": "심사위원",
+          "sourceUrl": "https://agism2026.fi/tapahtuma/tuomariesittelyt/"
+        },
+        {
+          "year": 2026,
+          "event": "Verbano Challenge",
+          "role": "심사위원",
+          "sourceUrl": "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1"
+        },
+        {
+          "year": 2027,
+          "event": "World Agility Open",
+          "role": "심사위원 예정",
+          "sourceUrl": "https://www.worldagilityopen.com/event-information/judges"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1Dh7xaWwEKyH7HcRGFuK8lq5uw7B2btkD",
+      "profileImageSourceUrl": "https://www.worldagilityopen.com/event-information/judges",
+      "sourceUrls": [
+        "https://www.instagram.com/p/DenjRPUE1Eo/?img_index=1",
+        "https://www.worldagilityopen.com/event-information/judges",
+        "https://agism2026.fi/tapahtuma/tuomariesittelyt/"
+      ]
+    },
+    {
+      "id": "stefanie-semkat",
+      "displayName": "스테파니 젬카트",
+      "name": "스테파니 젬카트",
+      "nameKo": "스테파니 젬카트",
+      "nameEn": "Stefanie Semkat",
+      "country": "독일",
+      "instagramUrl": "https://www.instagram.com/stefaniesemkat/",
+      "summary": "독일의 국제 어질리티 심사위원이자 트레이너입니다. 2003년 심사를 시작했으며, 여러 나라에서 대회 심사와 어질리티 세미나를 진행합니다.",
+      "competitionAchievements": [],
+      "judgingExperience": [
+        {
+          "year": 2023,
+          "event": "European Open",
+          "role": "심사위원",
+          "sourceUrl": "https://www.worldagilityopen.com/event-information/judges"
+        },
+        {
+          "year": 2023,
+          "event": "Gold Rush Competition",
+          "role": "심사위원",
+          "sourceUrl": "https://gold-rush-competition.de/en/judges-2023/"
+        },
+        {
+          "year": 2025,
+          "event": "FCI Agility World Championship",
+          "role": "심사위원",
+          "sourceUrl": "https://www.worldagilityopen.com/event-information/judges"
+        },
+        {
+          "year": 2027,
+          "event": "JAO (Junior Championship)",
+          "role": "심사위원 예정",
+          "sourceUrl": "https://www.instagram.com/p/Denia0Yk1v1/?img_index=1"
+        },
+        {
+          "year": 2027,
+          "event": "World Agility Open",
+          "role": "심사위원 예정",
+          "sourceUrl": "https://www.worldagilityopen.com/event-information/judges"
+        }
+      ],
+      "profileImage": "https://drive.google.com/uc?export=view&id=1P7FOQ-O_QsAag0MxQobOH0amjYF2D5oZ",
+      "profileImageSourceUrl": "https://gold-rush-competition.de/en/judges-2023/",
+      "sourceUrls": [
+        "https://www.instagram.com/p/Denia0Yk1v1/?img_index=1",
+        "https://www.worldagilityopen.com/event-information/judges",
+        "https://gold-rush-competition.de/en/judges-2023/",
+        "https://www.instagram.com/stefaniesemkat/"
+      ]
+    }
+  ],
+  "playerImages": [
+    {
+      "speakerId": "pau-serrano-ciratusa",
+      "variant": "list",
+      "folderId": "1AA6mLYGlPNwmCgC1kcs_RMJ3rNpqORcW",
+      "fileId": "1taoDHsKkepOckJ3_haLteUUNDip6DZT8",
+      "url": "https://drive.google.com/uc?export=view&id=1taoDHsKkepOckJ3_haLteUUNDip6DZT8",
+      "imageSourceUrl": "https://impro.usercontent.one/appid/oneComWsb/domain/worldagilityopen.com/media/worldagilityopen.com/onewebmedia/92c6aedf-77f3-4e0b-92e2-b2c25d985b8c.jpg?etag=%2216ea8-69971f10%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1024%2B682&extract=251%2B0%2B589%2B682&quality=85",
+      "profileSourceUrl": "https://www.worldagilityopen.com/event-information/judges",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "19d2bd751e311235ee0c8b242d08be3cd0746ee0aadc8baad942f5c4435d0ea9",
+      "width": 589,
+      "height": 682,
+      "bytes": 75516,
+      "anyoneReader": true,
+      "anonymousGetDecodedSha256Match": true
+    },
+    {
+      "speakerId": "stefanie-semkat",
+      "variant": "list",
+      "folderId": "1AA6mLYGlPNwmCgC1kcs_RMJ3rNpqORcW",
+      "fileId": "1sb1CZ5CmhWfPVwG52VTPgAasa4ZVxMdl",
+      "url": "https://drive.google.com/uc?export=view&id=1sb1CZ5CmhWfPVwG52VTPgAasa4ZVxMdl",
+      "imageSourceUrl": "https://gold-rush-competition.de/wp-content/uploads/2023/09/stefanie_semkat.png",
+      "profileSourceUrl": "https://gold-rush-competition.de/en/judges-2023/",
+      "status": 200,
+      "mimeType": "image/png",
+      "sha256": "43c27041dd62b5bc87b463b64c6dc3823011bd5b1d9d25cee6cc12b8ffc62841",
+      "width": 755,
+      "height": 1342,
+      "bytes": 1296319,
+      "anyoneReader": true,
+      "anonymousGetDecodedSha256Match": true
+    },
+    {
+      "speakerId": "pau-serrano-ciratusa",
+      "variant": "profile",
+      "folderId": "1CfghufLQ99jLrWyOCdZ7xUjp-oMe40XL",
+      "fileId": "1Dh7xaWwEKyH7HcRGFuK8lq5uw7B2btkD",
+      "url": "https://drive.google.com/uc?export=view&id=1Dh7xaWwEKyH7HcRGFuK8lq5uw7B2btkD",
+      "imageSourceUrl": "https://impro.usercontent.one/appid/oneComWsb/domain/worldagilityopen.com/media/worldagilityopen.com/onewebmedia/92c6aedf-77f3-4e0b-92e2-b2c25d985b8c.jpg?etag=%2216ea8-69971f10%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1024%2B682&extract=251%2B0%2B589%2B682&quality=85",
+      "profileSourceUrl": "https://www.worldagilityopen.com/event-information/judges",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "19d2bd751e311235ee0c8b242d08be3cd0746ee0aadc8baad942f5c4435d0ea9",
+      "width": 589,
+      "height": 682,
+      "bytes": 75516,
+      "anyoneReader": true,
+      "anonymousGetDecodedSha256Match": true
+    },
+    {
+      "speakerId": "stefanie-semkat",
+      "variant": "profile",
+      "folderId": "1CfghufLQ99jLrWyOCdZ7xUjp-oMe40XL",
+      "fileId": "1P7FOQ-O_QsAag0MxQobOH0amjYF2D5oZ",
+      "url": "https://drive.google.com/uc?export=view&id=1P7FOQ-O_QsAag0MxQobOH0amjYF2D5oZ",
+      "imageSourceUrl": "https://gold-rush-competition.de/wp-content/uploads/2023/09/stefanie_semkat.png",
+      "profileSourceUrl": "https://gold-rush-competition.de/en/judges-2023/",
+      "status": 200,
+      "mimeType": "image/png",
+      "sha256": "43c27041dd62b5bc87b463b64c6dc3823011bd5b1d9d25cee6cc12b8ffc62841",
+      "width": 755,
+      "height": 1342,
+      "bytes": 1296319,
+      "anyoneReader": true,
+      "anonymousGetDecodedSha256Match": true
+    }
+  ],
+  "detailImagesReverified": [
+    {
+      "shortcode": "DenjRPUE1Eo",
+      "order": 1,
+      "url": "https://drive.google.com/uc?export=view&id=1JIGVkvMI_6DpnqgHDrn4QO856pKokM-r",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "53da793bcc3c7acae864b46a88948a0cf0308b575208394209263b27cf30fbf6",
+      "width": 1440,
+      "height": 1797,
+      "sourceDownloadedPublicBytesMatch": true
+    },
+    {
+      "shortcode": "DenjRPUE1Eo",
+      "order": 2,
+      "url": "https://drive.google.com/uc?export=view&id=1O48EIuVpTnBGn10rXmACqIMTlO6OqcnH",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "8d6c071b23e338040d7bc649ad699d1452892aa37da41009d7e6034596b471cb",
+      "width": 1440,
+      "height": 1797,
+      "sourceDownloadedPublicBytesMatch": true
+    },
+    {
+      "shortcode": "DenjRPUE1Eo",
+      "order": 3,
+      "url": "https://drive.google.com/uc?export=view&id=1hzNIIGDKDz3L_PAdaYKrYlpoKA2EFvk8",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "f51b210510ad52cab2c4965cc7acf20f49af65edcd5931974e81fa6fe6f306fa",
+      "width": 1440,
+      "height": 1797,
+      "sourceDownloadedPublicBytesMatch": true
+    },
+    {
+      "shortcode": "DenjRPUE1Eo",
+      "order": 4,
+      "url": "https://drive.google.com/uc?export=view&id=17T6proF6Q1Cy5ONNoTCphTBgocR-gV0c",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "4e12d146226defb2cb518d05d82fde9a7dbb0bc40204a598c272c1b49e19c0c9",
+      "width": 1440,
+      "height": 1797,
+      "sourceDownloadedPublicBytesMatch": true
+    },
+    {
+      "shortcode": "Denia0Yk1v1",
+      "order": 1,
+      "url": "https://drive.google.com/uc?export=view&id=15LW0Khr_ALsGQKT1WwdsmDV8myv3BcZc",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "0063d71237b3f30f234c087f94ea49eb71650253c4f05cd1108e40fd6d236867",
+      "width": 1440,
+      "height": 1797,
+      "sourceDownloadedPublicBytesMatch": true
+    },
+    {
+      "shortcode": "Denia0Yk1v1",
+      "order": 2,
+      "url": "https://drive.google.com/uc?export=view&id=1ooqXYklF-qex7LU6WZspKsHOPm-Gm_Wh",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "e8d3fbe5059e3f801fd3da8d75547f2693aaa03f0ad22d704194525d3bb9ec6e",
+      "width": 1440,
+      "height": 1797,
+      "sourceDownloadedPublicBytesMatch": true
+    },
+    {
+      "shortcode": "Denia0Yk1v1",
+      "order": 3,
+      "url": "https://drive.google.com/uc?export=view&id=1fOINmN0mLQw3IjrDS8dkILl43uY9koyg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "50cbb5f1cd4b7c5f813c24c7ae5d0adb5bdfa21227204843a951ec8356715c34",
+      "width": 1440,
+      "height": 1797,
+      "sourceDownloadedPublicBytesMatch": true
+    },
+    {
+      "shortcode": "Denia0Yk1v1",
+      "order": 4,
+      "url": "https://drive.google.com/uc?export=view&id=1HnGwnS0avKhGiinttr7aDwumyhZysRfc",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "13b3e04b9c782122a11d948e702552b7afc36cbef3552f1730341eee90cb7917",
+      "width": 1440,
+      "height": 1797,
+      "sourceDownloadedPublicBytesMatch": true
+    }
+  ],
+  "validation": {
+    "allActiveDataHarness": {
+      "passed": true,
+      "scope": "all",
+      "activeJsonCount": 201
+    },
+    "actualAppProfileLinkage": {
+      "passed": true,
+      "profileCount": 9,
+      "newProfilesLinked": 2,
+      "galleryImagesPreserved": 8,
+      "futureJudgingMarkedScheduled": true
+    },
+    "existingSeminarAppTests": {
+      "passed": 16,
+      "failed": 0,
+      "actualDataTests": 2,
+      "existingTests": 14
+    },
+    "actualDataTestSha256": "093efefb68c03b0be69abb66a318758a14de80794fcd15698097759a81da63dd",
+    "actualAppListThumbnailAnonymousGet": "passed"
+  },
+  "sideEffects": {
+    "appCodeChanged": false,
+    "nasJobsChanged": false,
+    "paidApiCalled": false,
+    "messagesSent": false
+  },
+  "appListThumbnails": [
+    {
+      "speakerId": "pau-serrano-ciratusa",
+      "url": "https://drive.google.com/thumbnail?id=1taoDHsKkepOckJ3_haLteUUNDip6DZT8&sz=w400",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "width": 400,
+      "height": 463,
+      "sha256": "ac77c27821005fab9bd6f0a59cffc8dfc4a9aa71b64723a931c1f3b9b86d3916",
+      "bytes": 43116,
+      "decoded": true
+    },
+    {
+      "speakerId": "stefanie-semkat",
+      "url": "https://drive.google.com/thumbnail?id=1sb1CZ5CmhWfPVwG52VTPgAasa4ZVxMdl&sz=w400",
+      "status": 200,
+      "mimeType": "image/png",
+      "width": 400,
+      "height": 711,
+      "sha256": "d7f8795b15ddf6af169071fcd747c5669f74726749e0ad73094fc234bab4eba0",
+      "bytes": 468757,
+      "decoded": true
+    }
+  ]
+}
