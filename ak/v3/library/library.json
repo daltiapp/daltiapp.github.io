@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261018.4",
-  "updatedAt": "2026-10-18T15:58:06+09:00",
+  "dataVersion": "20261018.7",
+  "updatedAt": "2026-10-18T21:05:24+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2275,7 +2275,7 @@
       "id": "asset-kakao-GptxdX-195367455",
       "kind": "result",
       "resultType": "image",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 1",
+      "title": "10.08(일) 익산 FCI 인터내셔널 경기대회 기록 · 1",
       "eventIds": [
         "event-kakao-GptxdX-114855200-61dee1502fc0"
       ],
@@ -2286,8 +2286,8 @@
       "categoryScope": "asset",
       "notice": null,
       "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1sVfJmo_Zr27upWQssHQDQze0nr3-M5l7",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=18YxOqUeroLjuz_810-2wONvfPuJeFLUk",
+        "url": "https://k.kakaocdn.net/dn/DI3rg/dJMcacE9PPK/58LpsqsENBtFoAUcCvLj60/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/DI3rg/dJMcacE9PPK/58LpsqsENBtFoAUcCvLj60/img_s.jpg",
         "width": 941,
         "height": 650,
         "mimeType": "image/jpeg"
@@ -2308,7 +2308,7 @@
       "id": "asset-kakao-GptxdX-195369942",
       "kind": "result",
       "resultType": "image",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 2",
+      "title": "10.08(일) 익산 FCI 인터내셔널 경기대회 기록 · 2",
       "eventIds": [
         "event-kakao-GptxdX-114855200-61dee1502fc0"
       ],
@@ -2319,8 +2319,8 @@
       "categoryScope": "asset",
       "notice": null,
       "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1_TavMJR_uS6AoRe2fbtvdHoibGSC9-Jz",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1bBFdKBMNZaknAVScbG0Z0UmMVpSOW2Mq",
+        "url": "https://k.kakaocdn.net/dn/b7zFBY/dJMcaiZmi5a/VljM42NOYYKkQnH5xNdP60/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b7zFBY/dJMcaiZmi5a/VljM42NOYYKkQnH5xNdP60/img_s.jpg",
         "width": 1080,
         "height": 1189,
         "mimeType": "image/jpeg"
@@ -2341,7 +2341,7 @@
       "id": "asset-kakao-GptxdX-195371652",
       "kind": "result",
       "resultType": "image",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 3",
+      "title": "10.08(일) 익산 FCI 인터내셔널 경기대회 기록 · 3",
       "eventIds": [
         "event-kakao-GptxdX-114855200-61dee1502fc0"
       ],
@@ -2352,8 +2352,8 @@
       "categoryScope": "asset",
       "notice": null,
       "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1tILcNhlAtqv--B3z4nIBWow0eNG9mQhz",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1QaH7LaU5Amnkwl-QLbq_rMw6hoUU3ylt",
+        "url": "https://k.kakaocdn.net/dn/bh1ijd/dJMcafPp5Vr/9aFEXOn2Y8Ey8sQCNAfoD0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bh1ijd/dJMcafPp5Vr/9aFEXOn2Y8Ey8sQCNAfoD0/img_s.jpg",
         "width": 588,
         "height": 725,
         "mimeType": "image/jpeg"
@@ -2374,7 +2374,7 @@
       "id": "asset-kakao-GptxdX-195371653",
       "kind": "result",
       "resultType": "image",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 1",
+      "title": "10.08(일) 익산 FCI 인터내셔널 경기대회 기록 · 4",
       "eventIds": [
         "event-kakao-GptxdX-114855200-61dee1502fc0"
       ],
@@ -2385,8 +2385,8 @@
       "categoryScope": "asset",
       "notice": null,
       "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1Q01coB9RZFUgERh4L-LnTpENVCJf5qln",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1ha4_9_F07sWczmaNs_Xs1az7D_Zdgh6E",
+        "url": "https://k.kakaocdn.net/dn/bIJGQX/dJMcagAB2CO/BOkE01t24cVOsMLnKGaJbk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bIJGQX/dJMcagAB2CO/BOkE01t24cVOsMLnKGaJbk/img_s.jpg",
         "width": 1281,
         "height": 980,
         "mimeType": "image/jpeg"
@@ -2407,7 +2407,7 @@
       "id": "asset-kakao-GptxdX-195372622",
       "kind": "result",
       "resultType": "image",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 2",
+      "title": "10.08(일) 익산 FCI 인터내셔널 경기대회 기록 · 5",
       "eventIds": [
         "event-kakao-GptxdX-114855200-61dee1502fc0"
       ],
@@ -2418,8 +2418,8 @@
       "categoryScope": "asset",
       "notice": null,
       "image": {
-        "url": "https://drive.google.com/uc?export=view&id=17g68hfjVO2R4xyUuzT1hWQnYh2OBXh7W",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=18TQsCaWKmu3iQALDnJZdoKq4iff4gWWJ",
+        "url": "https://k.kakaocdn.net/dn/kU10e/dJMcagHxkGs/Has477eh2jpA6SVmKI2kk0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kU10e/dJMcagHxkGs/Has477eh2jpA6SVmKI2kk0/img_s.jpg",
         "width": 1155,
         "height": 1080,
         "mimeType": "image/jpeg"
@@ -2440,7 +2440,7 @@
       "id": "asset-kakao-GptxdX-195373718",
       "kind": "result",
       "resultType": "image",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 3",
+      "title": "10.08(일) 익산 FCI 인터내셔널 경기대회 기록 · 6",
       "eventIds": [
         "event-kakao-GptxdX-114855200-61dee1502fc0"
       ],
@@ -2451,8 +2451,8 @@
       "categoryScope": "asset",
       "notice": null,
       "image": {
-        "url": "https://drive.google.com/uc?export=view&id=18ZWE2SZmWY55Kac6EeWPOfWsvv8uKoo4",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1V7HcVgWnNLnmLr692gDyqs8TdiOIboAE",
+        "url": "https://k.kakaocdn.net/dn/cAPrnX/dJMcabzfQEf/hMHTxWfdY8g2I94se5Uqx0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cAPrnX/dJMcabzfQEf/hMHTxWfdY8g2I94se5Uqx0/img_s.jpg",
         "width": 1080,
         "height": 1315,
         "mimeType": "image/jpeg"
