@@ -1,7 +1,17 @@
 {
   "identity_field": "id",
-  "total_count": 135,
+  "total_count": 136,
   "items": [
+    {
+      "id": 136,
+      "source": "dongsa",
+      "source_seq": "236",
+      "title": "제5회 KAO 챔피언십 개최 및 접수 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=236&code=notice",
+      "published_at_raw": "2026.10.17",
+      "published_at": "2026-10-17T00:00:00+09:00",
+      "detail_path": "./dongsa/136.json"
+    },
     {
       "id": 135,
       "source": "kkc",

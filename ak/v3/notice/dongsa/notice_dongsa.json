@@ -1,6 +1,6 @@
 {
   "source_board_url": "http://www.dong-sa.or.kr/board/index.jsp?code=notice",
-  "crawl_mode": "full_board",
+  "crawl_mode": "incremental_update",
   "storage": "split_index_detail",
   "identity_field": "id",
   "keywords": [
@@ -8,7 +8,7 @@
     "KAO",
     "어질리티"
   ],
-  "total_count": 39,
+  "total_count": 40,
   "detail_dir": "./",
   "items": [
     {
@@ -400,6 +400,16 @@
       "published_at_raw": "2025.10.28",
       "published_at": "2025-10-28T00:00:00+09:00",
       "detail_path": "./129.json"
+    },
+    {
+      "id": 136,
+      "source": "dongsa",
+      "source_seq": "236",
+      "title": "제5회 KAO 챔피언십 개최 및 접수 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=236&code=notice",
+      "published_at_raw": "2026.10.17",
+      "published_at": "2026-10-17T00:00:00+09:00",
+      "detail_path": "./136.json"
     }
   ]
 }
