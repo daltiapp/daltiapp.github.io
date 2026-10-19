@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261018.7",
-  "updatedAt": "2026-10-18T21:05:24+09:00",
+  "dataVersion": "20261019.1",
+  "updatedAt": "2026-10-19T21:09:13+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2181,6 +2181,17 @@
       ]
     },
     {
+      "id": "event-kakao-GptxdX-114921647-23c9bf557575",
+      "name": "익산 FCI 인터내셔널 경기대회",
+      "startDate": null,
+      "endDate": null,
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
       "id": "event-koreaagility-areum-relay",
       "name": "아름뜰배 점핑 릴레이",
       "startDate": null,
@@ -2466,228 +2477,6 @@
         "postTitle": "10.08(일) 익산 FCI 인터내셔널 경기대회 기록",
         "postUrl": "https://pf.kakao.com/_GptxdX/114921970",
         "publishedAt": "2026-10-18T10:09:44+09:00",
-        "imageOrder": 6
-      }
-    },
-    {
-      "id": "asset-kakao-GptxdX-195365914",
-      "kind": "course_map",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 1",
-      "eventIds": [
-        "event-kakao-GptxdX-114855200-61dee1502fc0"
-      ],
-      "mapCategories": [
-        "promotion"
-      ],
-      "courseMapCategoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryScope": "asset",
-      "notice": null,
-      "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1Q7vfddfonRRqOtZjMNudLd01EJwwwFtf",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=17MPbXkhDT-qrTHPmDY-rjTWGI-7GawoU",
-        "width": 918,
-        "height": 1833,
-        "mimeType": "image/jpeg"
-      },
-      "source": {
-        "provider": "kakao",
-        "channelId": "_GptxdX",
-        "channelName": "KKF어질리티위원회",
-        "postId": "114921647",
-        "mediaId": "195365914",
-        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-        "publishedAt": "2026-10-18T08:14:10+09:00",
-        "imageOrder": 1
-      }
-    },
-    {
-      "id": "asset-kakao-GptxdX-195365915",
-      "kind": "course_map",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 2",
-      "eventIds": [
-        "event-kakao-GptxdX-114855200-61dee1502fc0"
-      ],
-      "mapCategories": [
-        "promotion"
-      ],
-      "courseMapCategoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryScope": "asset",
-      "notice": null,
-      "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1f1O5xnD09NLwVgNE6h9mC9J5XLbXt_q5",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1wIXbpR7_nuC0CD0nb-ehW-IuRC9lWIAG",
-        "width": 918,
-        "height": 1833,
-        "mimeType": "image/jpeg"
-      },
-      "source": {
-        "provider": "kakao",
-        "channelId": "_GptxdX",
-        "channelName": "KKF어질리티위원회",
-        "postId": "114921647",
-        "mediaId": "195365915",
-        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-        "publishedAt": "2026-10-18T08:14:10+09:00",
-        "imageOrder": 2
-      }
-    },
-    {
-      "id": "asset-kakao-GptxdX-195365916",
-      "kind": "course_map",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 3",
-      "eventIds": [
-        "event-kakao-GptxdX-114855200-61dee1502fc0"
-      ],
-      "mapCategories": [
-        "promotion"
-      ],
-      "courseMapCategoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryScope": "asset",
-      "notice": null,
-      "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1sznQqJ-fhL5NZ1kT9pOK2XW7UxvNJCcG",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1tK8zW_4T8V3s-5BHI7ezQKKujchYUg1h",
-        "width": 918,
-        "height": 1833,
-        "mimeType": "image/jpeg"
-      },
-      "source": {
-        "provider": "kakao",
-        "channelId": "_GptxdX",
-        "channelName": "KKF어질리티위원회",
-        "postId": "114921647",
-        "mediaId": "195365916",
-        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-        "publishedAt": "2026-10-18T08:14:10+09:00",
-        "imageOrder": 3
-      }
-    },
-    {
-      "id": "asset-kakao-GptxdX-195365917",
-      "kind": "course_map",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 1",
-      "eventIds": [
-        "event-kakao-GptxdX-114855200-61dee1502fc0"
-      ],
-      "mapCategories": [
-        "promotion"
-      ],
-      "courseMapCategoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryScope": "asset",
-      "notice": null,
-      "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1oLvwmneY5hwk5GkvPTAOlJg136uaPLPV",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1Ar-oGyBqvgbNXQwTFY9X4LNyPiVk0uXU",
-        "width": 918,
-        "height": 1833,
-        "mimeType": "image/jpeg"
-      },
-      "source": {
-        "provider": "kakao",
-        "channelId": "_GptxdX",
-        "channelName": "KKF어질리티위원회",
-        "postId": "114921647",
-        "mediaId": "195365917",
-        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-        "publishedAt": "2026-10-18T08:14:10+09:00",
-        "imageOrder": 4
-      }
-    },
-    {
-      "id": "asset-kakao-GptxdX-195365918",
-      "kind": "course_map",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 2",
-      "eventIds": [
-        "event-kakao-GptxdX-114855200-61dee1502fc0"
-      ],
-      "mapCategories": [
-        "promotion"
-      ],
-      "courseMapCategoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryScope": "asset",
-      "notice": null,
-      "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1b5K6HYDyEcCZ-QRjcNp2lK6FPocKpo26",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1J0MEQv2WWZuBAJ-PVpCxt8cQYgVAcChd",
-        "width": 918,
-        "height": 1833,
-        "mimeType": "image/jpeg"
-      },
-      "source": {
-        "provider": "kakao",
-        "channelId": "_GptxdX",
-        "channelName": "KKF어질리티위원회",
-        "postId": "114921647",
-        "mediaId": "195365918",
-        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-        "publishedAt": "2026-10-18T08:14:10+09:00",
-        "imageOrder": 5
-      }
-    },
-    {
-      "id": "asset-kakao-GptxdX-195365919",
-      "kind": "course_map",
-      "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 3",
-      "eventIds": [
-        "event-kakao-GptxdX-114855200-61dee1502fc0"
-      ],
-      "mapCategories": [
-        "promotion"
-      ],
-      "courseMapCategoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryIds": [
-        "jpag_promotion"
-      ],
-      "categoryScope": "asset",
-      "notice": null,
-      "image": {
-        "url": "https://drive.google.com/uc?export=view&id=1m2TIP3p5QngpD-7SmwQwF55w19S6j2Ch",
-        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1EIVpebXFPedC6DgKtMDirDffXvi3UD3U",
-        "width": 918,
-        "height": 1833,
-        "mimeType": "image/jpeg"
-      },
-      "source": {
-        "provider": "kakao",
-        "channelId": "_GptxdX",
-        "channelName": "KKF어질리티위원회",
-        "postId": "114921647",
-        "mediaId": "195365919",
-        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-        "publishedAt": "2026-10-18T08:14:10+09:00",
         "imageOrder": 6
       }
     },
@@ -111884,6 +111673,228 @@
       "categoryScope": "asset"
     },
     {
+      "id": "asset-kakao-GptxdX-195365914",
+      "kind": "course_map",
+      "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-114921647-23c9bf557575"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/lYDax/dJMcafoiDn7/XYfFP2HzzhFBDpvxygzhO1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/lYDax/dJMcafoiDn7/XYfFP2HzzhFBDpvxygzhO1/img_s.jpg",
+        "width": 918,
+        "height": 1833,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114921647",
+        "mediaId": "195365914",
+        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+        "publishedAt": "2026-10-18T08:14:10+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195365915",
+      "kind": "course_map",
+      "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-114921647-23c9bf557575"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/qs4QD/dJMcadwXyeB/W5SOYDgI23tAR5P0AgZEak/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/qs4QD/dJMcadwXyeB/W5SOYDgI23tAR5P0AgZEak/img_s.jpg",
+        "width": 918,
+        "height": 1833,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114921647",
+        "mediaId": "195365915",
+        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+        "publishedAt": "2026-10-18T08:14:10+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195365916",
+      "kind": "course_map",
+      "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-114921647-23c9bf557575"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/2b1l4/dJMb992BYPb/kj6jOjSRATiKWaLjfK0F60/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/2b1l4/dJMb992BYPb/kj6jOjSRATiKWaLjfK0F60/img_s.jpg",
+        "width": 918,
+        "height": 1833,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114921647",
+        "mediaId": "195365916",
+        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+        "publishedAt": "2026-10-18T08:14:10+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195365917",
+      "kind": "course_map",
+      "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-114921647-23c9bf557575"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/5nlW0/dJMcacE9NMt/HbkvEHG0zVaRZsiTV6JLhk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/5nlW0/dJMcacE9NMt/HbkvEHG0zVaRZsiTV6JLhk/img_s.jpg",
+        "width": 918,
+        "height": 1833,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114921647",
+        "mediaId": "195365917",
+        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+        "publishedAt": "2026-10-18T08:14:10+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195365918",
+      "kind": "course_map",
+      "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-114921647-23c9bf557575"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ss3vw/dJMcaaAt9kC/ficNETVvAqAIl0zbF0Pdu1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ss3vw/dJMcaaAt9kC/ficNETVvAqAIl0zbF0Pdu1/img_s.jpg",
+        "width": 918,
+        "height": 1833,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114921647",
+        "mediaId": "195365918",
+        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+        "publishedAt": "2026-10-18T08:14:10+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-195365919",
+      "kind": "course_map",
+      "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-114921647-23c9bf557575"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/jVY7c/dJMcaaAt9kE/0S480s4FBsx9xhkceNRLE0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/jVY7c/dJMcaaAt9kE/0S480s4FBsx9xhkceNRLE0/img_s.jpg",
+        "width": 918,
+        "height": 1833,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "114921647",
+        "mediaId": "195365919",
+        "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+        "publishedAt": "2026-10-18T08:14:10+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
       "id": "asset-kakao-BfHUb-135693498",
       "kind": "entry_list",
       "title": "아름뜰배 점핑 릴레이 출진표 · 1",
@@ -114969,237 +114980,6 @@
     }
   ],
   "courseMapGroups": [
-    {
-      "id": "event:event-kakao-GptxdX-114855200-61dee1502fc0",
-      "eventId": "event-kakao-GptxdX-114855200-61dee1502fc0",
-      "maps": [
-        {
-          "id": "asset-kakao-GptxdX-195365914",
-          "kind": "course_map",
-          "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 1",
-          "eventIds": [
-            "event-kakao-GptxdX-114855200-61dee1502fc0"
-          ],
-          "mapCategories": [
-            "promotion"
-          ],
-          "courseMapCategoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryScope": "asset",
-          "notice": null,
-          "image": {
-            "url": "https://drive.google.com/uc?export=view&id=1Q7vfddfonRRqOtZjMNudLd01EJwwwFtf",
-            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=17MPbXkhDT-qrTHPmDY-rjTWGI-7GawoU",
-            "width": 918,
-            "height": 1833,
-            "mimeType": "image/jpeg"
-          },
-          "source": {
-            "provider": "kakao",
-            "channelId": "_GptxdX",
-            "channelName": "KKF어질리티위원회",
-            "postId": "114921647",
-            "mediaId": "195365914",
-            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-            "publishedAt": "2026-10-18T08:14:10+09:00",
-            "imageOrder": 1
-          }
-        },
-        {
-          "id": "asset-kakao-GptxdX-195365915",
-          "kind": "course_map",
-          "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 2",
-          "eventIds": [
-            "event-kakao-GptxdX-114855200-61dee1502fc0"
-          ],
-          "mapCategories": [
-            "promotion"
-          ],
-          "courseMapCategoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryScope": "asset",
-          "notice": null,
-          "image": {
-            "url": "https://drive.google.com/uc?export=view&id=1f1O5xnD09NLwVgNE6h9mC9J5XLbXt_q5",
-            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1wIXbpR7_nuC0CD0nb-ehW-IuRC9lWIAG",
-            "width": 918,
-            "height": 1833,
-            "mimeType": "image/jpeg"
-          },
-          "source": {
-            "provider": "kakao",
-            "channelId": "_GptxdX",
-            "channelName": "KKF어질리티위원회",
-            "postId": "114921647",
-            "mediaId": "195365915",
-            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-            "publishedAt": "2026-10-18T08:14:10+09:00",
-            "imageOrder": 2
-          }
-        },
-        {
-          "id": "asset-kakao-GptxdX-195365916",
-          "kind": "course_map",
-          "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 어질리티 3",
-          "eventIds": [
-            "event-kakao-GptxdX-114855200-61dee1502fc0"
-          ],
-          "mapCategories": [
-            "promotion"
-          ],
-          "courseMapCategoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryScope": "asset",
-          "notice": null,
-          "image": {
-            "url": "https://drive.google.com/uc?export=view&id=1sznQqJ-fhL5NZ1kT9pOK2XW7UxvNJCcG",
-            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1tK8zW_4T8V3s-5BHI7ezQKKujchYUg1h",
-            "width": 918,
-            "height": 1833,
-            "mimeType": "image/jpeg"
-          },
-          "source": {
-            "provider": "kakao",
-            "channelId": "_GptxdX",
-            "channelName": "KKF어질리티위원회",
-            "postId": "114921647",
-            "mediaId": "195365916",
-            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-            "publishedAt": "2026-10-18T08:14:10+09:00",
-            "imageOrder": 3
-          }
-        },
-        {
-          "id": "asset-kakao-GptxdX-195365917",
-          "kind": "course_map",
-          "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 1",
-          "eventIds": [
-            "event-kakao-GptxdX-114855200-61dee1502fc0"
-          ],
-          "mapCategories": [
-            "promotion"
-          ],
-          "courseMapCategoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryScope": "asset",
-          "notice": null,
-          "image": {
-            "url": "https://drive.google.com/uc?export=view&id=1oLvwmneY5hwk5GkvPTAOlJg136uaPLPV",
-            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1Ar-oGyBqvgbNXQwTFY9X4LNyPiVk0uXU",
-            "width": 918,
-            "height": 1833,
-            "mimeType": "image/jpeg"
-          },
-          "source": {
-            "provider": "kakao",
-            "channelId": "_GptxdX",
-            "channelName": "KKF어질리티위원회",
-            "postId": "114921647",
-            "mediaId": "195365917",
-            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-            "publishedAt": "2026-10-18T08:14:10+09:00",
-            "imageOrder": 4
-          }
-        },
-        {
-          "id": "asset-kakao-GptxdX-195365918",
-          "kind": "course_map",
-          "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 2",
-          "eventIds": [
-            "event-kakao-GptxdX-114855200-61dee1502fc0"
-          ],
-          "mapCategories": [
-            "promotion"
-          ],
-          "courseMapCategoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryScope": "asset",
-          "notice": null,
-          "image": {
-            "url": "https://drive.google.com/uc?export=view&id=1b5K6HYDyEcCZ-QRjcNp2lK6FPocKpo26",
-            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1J0MEQv2WWZuBAJ-PVpCxt8cQYgVAcChd",
-            "width": 918,
-            "height": 1833,
-            "mimeType": "image/jpeg"
-          },
-          "source": {
-            "provider": "kakao",
-            "channelId": "_GptxdX",
-            "channelName": "KKF어질리티위원회",
-            "postId": "114921647",
-            "mediaId": "195365918",
-            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-            "publishedAt": "2026-10-18T08:14:10+09:00",
-            "imageOrder": 5
-          }
-        },
-        {
-          "id": "asset-kakao-GptxdX-195365919",
-          "kind": "course_map",
-          "title": "익산 FCI 인터내셔널 어질리티 경기대회 · 점핑 3",
-          "eventIds": [
-            "event-kakao-GptxdX-114855200-61dee1502fc0"
-          ],
-          "mapCategories": [
-            "promotion"
-          ],
-          "courseMapCategoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryIds": [
-            "jpag_promotion"
-          ],
-          "categoryScope": "asset",
-          "notice": null,
-          "image": {
-            "url": "https://drive.google.com/uc?export=view&id=1m2TIP3p5QngpD-7SmwQwF55w19S6j2Ch",
-            "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1EIVpebXFPedC6DgKtMDirDffXvi3UD3U",
-            "width": 918,
-            "height": 1833,
-            "mimeType": "image/jpeg"
-          },
-          "source": {
-            "provider": "kakao",
-            "channelId": "_GptxdX",
-            "channelName": "KKF어질리티위원회",
-            "postId": "114921647",
-            "mediaId": "195365919",
-            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
-            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
-            "publishedAt": "2026-10-18T08:14:10+09:00",
-            "imageOrder": 6
-          }
-        }
-      ],
-      "categoryIds": [
-        "jpag_promotion"
-      ]
-    },
     {
       "id": "event:event-waldbow-801",
       "eventId": "event-waldbow-801",
@@ -149730,6 +149510,237 @@
       ]
     },
     {
+      "id": "event:event-kakao-GptxdX-114921647-23c9bf557575",
+      "eventId": "event-kakao-GptxdX-114921647-23c9bf557575",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-195365914",
+          "kind": "course_map",
+          "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-114921647-23c9bf557575"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/lYDax/dJMcafoiDn7/XYfFP2HzzhFBDpvxygzhO1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/lYDax/dJMcafoiDn7/XYfFP2HzzhFBDpvxygzhO1/img_s.jpg",
+            "width": 918,
+            "height": 1833,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114921647",
+            "mediaId": "195365914",
+            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+            "publishedAt": "2026-10-18T08:14:10+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-195365915",
+          "kind": "course_map",
+          "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-114921647-23c9bf557575"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/qs4QD/dJMcadwXyeB/W5SOYDgI23tAR5P0AgZEak/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/qs4QD/dJMcadwXyeB/W5SOYDgI23tAR5P0AgZEak/img_s.jpg",
+            "width": 918,
+            "height": 1833,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114921647",
+            "mediaId": "195365915",
+            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+            "publishedAt": "2026-10-18T08:14:10+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-195365916",
+          "kind": "course_map",
+          "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-114921647-23c9bf557575"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/2b1l4/dJMb992BYPb/kj6jOjSRATiKWaLjfK0F60/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/2b1l4/dJMb992BYPb/kj6jOjSRATiKWaLjfK0F60/img_s.jpg",
+            "width": 918,
+            "height": 1833,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114921647",
+            "mediaId": "195365916",
+            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+            "publishedAt": "2026-10-18T08:14:10+09:00",
+            "imageOrder": 3
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-195365917",
+          "kind": "course_map",
+          "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 4",
+          "eventIds": [
+            "event-kakao-GptxdX-114921647-23c9bf557575"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/5nlW0/dJMcacE9NMt/HbkvEHG0zVaRZsiTV6JLhk/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/5nlW0/dJMcacE9NMt/HbkvEHG0zVaRZsiTV6JLhk/img_s.jpg",
+            "width": 918,
+            "height": 1833,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114921647",
+            "mediaId": "195365917",
+            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+            "publishedAt": "2026-10-18T08:14:10+09:00",
+            "imageOrder": 4
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-195365918",
+          "kind": "course_map",
+          "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 5",
+          "eventIds": [
+            "event-kakao-GptxdX-114921647-23c9bf557575"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/ss3vw/dJMcaaAt9kC/ficNETVvAqAIl0zbF0Pdu1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/ss3vw/dJMcaaAt9kC/ficNETVvAqAIl0zbF0Pdu1/img_s.jpg",
+            "width": 918,
+            "height": 1833,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114921647",
+            "mediaId": "195365918",
+            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+            "publishedAt": "2026-10-18T08:14:10+09:00",
+            "imageOrder": 5
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-195365919",
+          "kind": "course_map",
+          "title": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스 · 6",
+          "eventIds": [
+            "event-kakao-GptxdX-114921647-23c9bf557575"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/jVY7c/dJMcaaAt9kE/0S480s4FBsx9xhkceNRLE0/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/jVY7c/dJMcaaAt9kE/0S480s4FBsx9xhkceNRLE0/img_s.jpg",
+            "width": 918,
+            "height": 1833,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "114921647",
+            "mediaId": "195365919",
+            "postTitle": "10.18(금) 익산 FCI 인터내셔널 경기대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/114921647",
+            "publishedAt": "2026-10-18T08:14:10+09:00",
+            "imageOrder": 6
+          }
+        }
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
       "id": "event:event-leez-aac-2024",
       "eventId": "event-leez-aac-2024",
       "maps": [
@@ -149824,14 +149835,7 @@
         "asset-kakao-GptxdX-195139890",
         "asset-kakao-GptxdX-195139891"
       ],
-      "courseMapIds": [
-        "asset-kakao-GptxdX-195365914",
-        "asset-kakao-GptxdX-195365915",
-        "asset-kakao-GptxdX-195365916",
-        "asset-kakao-GptxdX-195365917",
-        "asset-kakao-GptxdX-195365918",
-        "asset-kakao-GptxdX-195365919"
-      ],
+      "courseMapIds": [],
       "resultIds": [
         "asset-kakao-GptxdX-195367455",
         "asset-kakao-GptxdX-195369942",
@@ -149846,9 +149850,7 @@
       "entryListCategoryIds": [
         "jpag_promotion"
       ],
-      "courseMapCategoryIds": [
-        "jpag_promotion"
-      ],
+      "courseMapCategoryIds": [],
       "resultCategoryIds": [
         "jpag_promotion"
       ]
@@ -156754,6 +156756,27 @@
       "resultCategoryIds": []
     },
     {
+      "eventId": "event-kakao-GptxdX-114921647-23c9bf557575",
+      "entryListIds": [],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-195365914",
+        "asset-kakao-GptxdX-195365915",
+        "asset-kakao-GptxdX-195365916",
+        "asset-kakao-GptxdX-195365917",
+        "asset-kakao-GptxdX-195365918",
+        "asset-kakao-GptxdX-195365919"
+      ],
+      "resultIds": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "resultCategoryIds": []
+    },
+    {
       "eventId": "event-koreaagility-areum-relay",
       "entryListIds": [
         "asset-kakao-BfHUb-135693498"
@@ -157027,14 +157050,7 @@
         "asset-kakao-GptxdX-195139890",
         "asset-kakao-GptxdX-195139891"
       ],
-      "courseMapIds": [
-        "asset-kakao-GptxdX-195365914",
-        "asset-kakao-GptxdX-195365915",
-        "asset-kakao-GptxdX-195365916",
-        "asset-kakao-GptxdX-195365917",
-        "asset-kakao-GptxdX-195365918",
-        "asset-kakao-GptxdX-195365919"
-      ],
+      "courseMapIds": [],
       "resultIds": [
         "asset-kakao-GptxdX-195367455",
         "asset-kakao-GptxdX-195369942",
@@ -164242,6 +164258,22 @@
       "recordSelections": []
     },
     {
+      "id": "event:event-kakao-GptxdX-114921647-23c9bf557575:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-114921647-23c9bf557575",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-195365914",
+        "asset-kakao-GptxdX-195365915",
+        "asset-kakao-GptxdX-195365916",
+        "asset-kakao-GptxdX-195365917",
+        "asset-kakao-GptxdX-195365918",
+        "asset-kakao-GptxdX-195365919"
+      ],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
       "id": "event:event-koreaagility-areum-relay:category:jpag_ranking",
       "eventId": "event-koreaagility-areum-relay",
       "categoryId": "jpag_ranking",
@@ -164567,14 +164599,7 @@
         "asset-kakao-GptxdX-195139890",
         "asset-kakao-GptxdX-195139891"
       ],
-      "courseMapIds": [
-        "asset-kakao-GptxdX-195365914",
-        "asset-kakao-GptxdX-195365915",
-        "asset-kakao-GptxdX-195365916",
-        "asset-kakao-GptxdX-195365917",
-        "asset-kakao-GptxdX-195365918",
-        "asset-kakao-GptxdX-195365919"
-      ],
+      "courseMapIds": [],
       "resultIds": [
         "asset-kakao-GptxdX-195367455",
         "asset-kakao-GptxdX-195369942",
@@ -170603,6 +170628,28 @@
         "asset-awc-1996-course-2",
         "asset-awc-1996-course-3",
         "asset-awc-1996-course-4"
+      ],
+      "resultIds": [],
+      "unassignedAssetIds": []
+    },
+    {
+      "id": "event:event-kakao-GptxdX-114921647-23c9bf557575",
+      "date": null,
+      "label": "익산 FCI 인터내셔널 경기대회",
+      "eventIds": [
+        "event-kakao-GptxdX-114921647-23c9bf557575"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-GptxdX-114921647-23c9bf557575:category:jpag_promotion"
+      ],
+      "entryListIds": [],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-195365914",
+        "asset-kakao-GptxdX-195365915",
+        "asset-kakao-GptxdX-195365916",
+        "asset-kakao-GptxdX-195365917",
+        "asset-kakao-GptxdX-195365918",
+        "asset-kakao-GptxdX-195365919"
       ],
       "resultIds": [],
       "unassignedAssetIds": []
