@@ -1777,6 +1777,36 @@
       ]
     },
     {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
+      "club": "오십케이",
+      "detailNotice": "개막식·대회 및 안전 안내와 비기너 코스 체크는 09:30부터, 경기 시작은 10:00입니다. 시상·기념촬영·폐회는 14:30~15:00입니다. 원문 장소 표기: 경주 키녹 운동장. 출진 비용은 무료이며 신청 방법·접수 기간은 아직 공지되지 않았습니다. 비기너는 어질리티 레벨 1 이하만 참가할 수 있습니다. 4체급(타이니·스몰·미듐·라지)으로 운영하며 KKF 어질리티 룰을 적용합니다. 별도 상해보험이 적용되지 않으므로 개인 상해보험 가입 후 출진해야 합니다. 중식 도시락이 제공됩니다. 후원: 아나멧 코리아.",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-01T15:00:00",
+      "eventType": "랭킹전",
+      "judge": [
+        "남광현"
+      ],
+      "location": "키녹 그린스페이스",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑"
+      ],
+      "name": "제1회 MK Agility Cup",
+      "startAt": "2026-11-01T10:00:00",
+      "url": "https://www.instagram.com/p/DevMZzCAV2_/?img_index=1",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1WrkrieLiNDQOwgLVyGljdhScDnZHKU2u",
+        "https://drive.google.com/uc?export=view&id=1QCV7iKtzxd5fHseufXf6PA7DkjdAnNRP",
+        "https://drive.google.com/uc?export=view&id=16Bjp5GJvfltcASY1rpYwphvZx48t-s1d",
+        "https://drive.google.com/uc?export=view&id=1uw-m3u_2Ij-az21CwXUfXLCjmEiKBbHy",
+        "https://drive.google.com/uc?export=view&id=1bgTfwqssvFQzB0RNsREIZ4HL1VuIIypn",
+        "https://drive.google.com/uc?export=view&id=1VfWvIYu85Q945QgjjX5ns5OAQiyRDNPG",
+        "https://drive.google.com/uc?export=view&id=1m1bTYKmiwcBL19avDta3RUH8w4R734e8"
+      ]
+    },
+    {
       "applicationEndAt": "2026-10-30T23:59:59",
       "applicationStartAt": "2026-10-17T00:00:00",
       "club": "동물과사람",

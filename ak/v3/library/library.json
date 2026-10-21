@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261019.1",
-  "updatedAt": "2026-10-19T21:09:13+09:00",
+  "dataVersion": "20261021.1",
+  "updatedAt": "2026-10-21T19:15:37+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2856,6 +2856,422 @@
         "postUrl": "https://www.instagram.com/p/Ded3XsQCU6z/",
         "imageOrder": 7,
         "channelId": "instagram-dogsports-series"
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-5f88e4ce48c6bd57",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Starters 250 · 300 · 400",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1aZTUoKEzbHw-aL8tSqJtiN2Y4PldHBgN",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1oak85hHg5NuPPDD7eBt0Bw3qkwaECEyt",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "5f88e4ce48c6bd572ca8a6df324b7ecced2cc2f15803c4940a4e9e638056e48f",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-ae06d729c52bd83e",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Starters 500 · 600",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1N4H1RhB8F5gELThhlfJqM7R8DfAPfLaf",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1za2P-G2WvOPY1Xla9G8Lbk3VSLRCT46x",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "ae06d729c52bd83ee21ed611cad42113eb1e9ea506afe1d2dfc78aaee96e9b0c",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-a9a367b23ba5066d",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Jumping Pro 250 · 300",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1gd3w_4imOipez0eMHlIR-Hpmv1AQjxXM",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=16KABjHjZ2udHefk0TapXq-5Q4FH2-4rY",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "a9a367b23ba5066db84bc9c67d439b25ac61e68bca7aafefbbc1ade7441e1a23",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-caa11f1545bfacee",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Jumping Pro 400 · 500",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1L6pG8j9UADputE8Q0kkwfq6UOH9XGgXG",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1E_pVo_WT1QWCQFpkUcVoXniJOFCmjvQa",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "caa11f1545bfacee4ca0e49dd0e0bc3421d16e3a88fae8f9e96eeff2bfff3ad2",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-51de65ac08d22841",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Jumping Pro 600",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1eIwSKkvGprF-nhd0s7loy4ytqwswUMmb",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1RL0DkauZmRzDcSwNkeqittrR24MxPDSj",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "51de65ac08d22841689bbd6d40fb2158ba1a3614a84410848a4d36cc2cf5465f",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-9b4eb7f800bccf43",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Agility Pro 250 · 300 · 400",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1STEm9rX4mKrLmfU-wr0ndkED0Z71qsJN",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1gtflMXFV9ufoToOhrc-CuIpLw4QhthhJ",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "9b4eb7f800bccf43fec5d5c1b17c78ddad6a60e32185c804d430fb998d42017c",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-60ad0753e008085c",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Agility Pro 500",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1R8LbCB8oROob829xji5OJB9x2B5C4nqT",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1x44PAOsXddxpCs04Z-hT2TTfCVFJvad5",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "60ad0753e008085cbbc5bd9f9faae76485f51118fb79fa1cccc2e39e66ceec47",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-7bcc49a868423f53",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Agility Pro 600",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=14upTLuT3xdCatpXxoEu_yBBVwNLeVtqp",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1CUstHkXPv5q_v3HYiNm287cN9m1LDvGt",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "7bcc49a868423f537d8c7a3c020a61b95ec445f4271de3405ecf22c281560d74",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-b3fa3f82012db704",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Gambler Starters 250 · 300",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1eSTJNCvtHC_1TsxfJu09IjeWHBGanSle",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1qcsZDV4dzOvt1lVKbV-A2Jqau8MsIffs",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "b3fa3f82012db704240bbe2a4c01ee34f4bc03cf494a499447245ae9812e3dfd",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-012b01a1662855ac",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Gambler Starters 400 · 600",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1yQfGS29YCS3PhZxw_4un5BE3bLX8z8ax",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1zzn5OZTyvTc4Rdf-j8UKJ4rz3f3EqBla",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "012b01a1662855acfd7c1dadd3814a848a1632fef7fef7d88c3696f9c3091f37",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-55aced0b667a2920",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Gambler Pro 250 · 300 · 400",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1w7vPXQV12hA_LznOiDmnPspTITzaxRTS",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1nl2FXcb_j9KMTUXF9pa7noJxr0WcoTzc",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "55aced0b667a2920e3b767a9da68affa6a57cd6af9b5784d72126298dbbb588e",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-e36655442c536678",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Gambler Pro 500",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1OL9EvL5EYBWogIJFULgw0zG2_oY4n2CW",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1tfq02MPem4uTDJs-sBlqaPHE7o8Mebzr",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "e36655442c5366785e5eb4e054379b9c9aa25159c803ef41cba735a09e496753",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-instagram-Dev6OZDiTgU-5045129008b76777",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 어질리티 시리즈 Vol.1 결과 · Gambler Pro 600",
+      "eventIds": [
+        "event-instagram-Ded3XsQCU6z-20261017"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://drive.google.com/uc?export=view&id=1qbqlXyLlMzmd-nOAEVvKwwTTF7RVaLXz",
+        "thumbnailUrl": "https://drive.google.com/uc?export=view&id=1R0a8okKFIajecNqoc75P7BWtM863Wh3h",
+        "width": 3072,
+        "height": 4096,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "manual",
+        "channelName": "도그 스포츠 시리즈",
+        "channelId": "instagram-dogsports-series",
+        "postId": "Dev6OZDiTgU",
+        "mediaId": "5045129008b76777433f8f56b444dca763b54df739132cc7a23368a3ce278875",
+        "postTitle": "‘Vol.1 최종 스코어’",
+        "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/",
+        "imageOrder": 14
       }
     },
     {
@@ -149866,7 +150282,21 @@
         "asset-instagram-Ded3XsQCU6z-fef87f1f6b8adcdb"
       ],
       "courseMapIds": [],
-      "resultIds": [],
+      "resultIds": [
+        "asset-instagram-Dev6OZDiTgU-012b01a1662855ac",
+        "asset-instagram-Dev6OZDiTgU-5045129008b76777",
+        "asset-instagram-Dev6OZDiTgU-51de65ac08d22841",
+        "asset-instagram-Dev6OZDiTgU-55aced0b667a2920",
+        "asset-instagram-Dev6OZDiTgU-5f88e4ce48c6bd57",
+        "asset-instagram-Dev6OZDiTgU-60ad0753e008085c",
+        "asset-instagram-Dev6OZDiTgU-7bcc49a868423f53",
+        "asset-instagram-Dev6OZDiTgU-9b4eb7f800bccf43",
+        "asset-instagram-Dev6OZDiTgU-a9a367b23ba5066d",
+        "asset-instagram-Dev6OZDiTgU-ae06d729c52bd83e",
+        "asset-instagram-Dev6OZDiTgU-b3fa3f82012db704",
+        "asset-instagram-Dev6OZDiTgU-caa11f1545bfacee",
+        "asset-instagram-Dev6OZDiTgU-e36655442c536678"
+      ],
       "categoryIds": [
         "jpag_ranking"
       ],
@@ -149874,7 +150304,9 @@
         "jpag_ranking"
       ],
       "courseMapCategoryIds": [],
-      "resultCategoryIds": []
+      "resultCategoryIds": [
+        "jpag_ranking"
+      ]
     },
     {
       "eventId": "event-waldbow-801",
@@ -157074,7 +157506,21 @@
         "asset-instagram-Ded3XsQCU6z-73bf136597a53040"
       ],
       "courseMapIds": [],
-      "resultIds": [],
+      "resultIds": [
+        "asset-instagram-Dev6OZDiTgU-5f88e4ce48c6bd57",
+        "asset-instagram-Dev6OZDiTgU-ae06d729c52bd83e",
+        "asset-instagram-Dev6OZDiTgU-a9a367b23ba5066d",
+        "asset-instagram-Dev6OZDiTgU-caa11f1545bfacee",
+        "asset-instagram-Dev6OZDiTgU-51de65ac08d22841",
+        "asset-instagram-Dev6OZDiTgU-9b4eb7f800bccf43",
+        "asset-instagram-Dev6OZDiTgU-60ad0753e008085c",
+        "asset-instagram-Dev6OZDiTgU-7bcc49a868423f53",
+        "asset-instagram-Dev6OZDiTgU-b3fa3f82012db704",
+        "asset-instagram-Dev6OZDiTgU-012b01a1662855ac",
+        "asset-instagram-Dev6OZDiTgU-55aced0b667a2920",
+        "asset-instagram-Dev6OZDiTgU-e36655442c536678",
+        "asset-instagram-Dev6OZDiTgU-5045129008b76777"
+      ],
       "recordSelections": []
     },
     {
@@ -164629,7 +165075,21 @@
         "asset-instagram-Ded3XsQCU6z-73bf136597a53040"
       ],
       "courseMapIds": [],
-      "resultIds": [],
+      "resultIds": [
+        "asset-instagram-Dev6OZDiTgU-5f88e4ce48c6bd57",
+        "asset-instagram-Dev6OZDiTgU-ae06d729c52bd83e",
+        "asset-instagram-Dev6OZDiTgU-a9a367b23ba5066d",
+        "asset-instagram-Dev6OZDiTgU-caa11f1545bfacee",
+        "asset-instagram-Dev6OZDiTgU-51de65ac08d22841",
+        "asset-instagram-Dev6OZDiTgU-9b4eb7f800bccf43",
+        "asset-instagram-Dev6OZDiTgU-60ad0753e008085c",
+        "asset-instagram-Dev6OZDiTgU-7bcc49a868423f53",
+        "asset-instagram-Dev6OZDiTgU-b3fa3f82012db704",
+        "asset-instagram-Dev6OZDiTgU-012b01a1662855ac",
+        "asset-instagram-Dev6OZDiTgU-55aced0b667a2920",
+        "asset-instagram-Dev6OZDiTgU-e36655442c536678",
+        "asset-instagram-Dev6OZDiTgU-5045129008b76777"
+      ],
       "unassignedAssetIds": []
     },
     {

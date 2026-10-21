@@ -1,0 +1,893 @@
+{
+  "checkedAt": "2026-10-21T19:15:37+09:00",
+  "dataVersion": "20261021.1",
+  "sources": [
+    {
+      "postUrl": "https://www.instagram.com/p/Dev6OZDiTgU/?img_index=1",
+      "publisher": "dogsports_series",
+      "carouselImageCount": 14,
+      "downloadedOriginals": 14,
+      "publiclyVerifiedOriginals": 14,
+      "lastObservedImageIndex": 14,
+      "nextButtonCountAtEnd": 0,
+      "eventId": "event-instagram-Ded3XsQCU6z-20261017",
+      "existingEntryListsPreserved": 6,
+      "resultImagesAdded": 13,
+      "coverArchivedOnly": 1,
+      "classifications": [
+        {
+          "order": 1,
+          "title": "대회결과 표지",
+          "included": false,
+          "kind": null,
+          "categoryId": null,
+          "evidence": "실제 기록 행 없음: 결과 게시물 표지, Drive 보관만 수행"
+        },
+        {
+          "order": 2,
+          "title": "Starters 250 · 300 · 400",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 3,
+          "title": "Starters 500 · 600",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 4,
+          "title": "Jumping Pro 250 · 300",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 5,
+          "title": "Jumping Pro 400 · 500",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 6,
+          "title": "Jumping Pro 600",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 7,
+          "title": "Agility Pro 250 · 300 · 400",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 8,
+          "title": "Agility Pro 500",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 9,
+          "title": "Agility Pro 600",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 10,
+          "title": "Gambler Starters 250 · 300",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 11,
+          "title": "Gambler Starters 400 · 600",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 12,
+          "title": "Gambler Pro 250 · 300 · 400",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 13,
+          "title": "Gambler Pro 500",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        },
+        {
+          "order": 14,
+          "title": "Gambler Pro 600",
+          "included": true,
+          "kind": "result",
+          "categoryId": "jpag_ranking",
+          "evidence": "원문 이미지에 종목·체급·핸들러·견명·순위와 시간/실점 또는 점수가 표시됨. 기존 동일 대회의 스타터/프로/갬블러 점어 랭킹 부문과 대조."
+        }
+      ]
+    },
+    {
+      "postUrl": "https://www.instagram.com/p/DevMZzCAV2_/?img_index=1",
+      "publisher": "50k_doglifecenter_official",
+      "carouselImageCount": 7,
+      "downloadedOriginals": 7,
+      "publiclyVerifiedOriginals": 7,
+      "lastObservedImageIndex": 7,
+      "nextButtonCountAtEnd": 0,
+      "scheduleName": "제1회 MK Agility Cup",
+      "detailImageCount": 7,
+      "registrationStatus": "원문 전체에 신청 방법·접수 기간 미공지",
+      "eventTypeEvidence": "무료 참가·종목별 체급 시상과 복합 종목 특별시상이 있는 주최자 Cup 이벤트. 승급전·승급 인정 공지가 없어 랭킹전/이벤트전으로 등록.",
+      "sourceImageFacts": {
+        "1": "2026-11-01, 경주 키녹 운동장, 경기 시작 10:00",
+        "3": "오십케이 주최·주관, 남광현 심사, 비기너·노비스·점핑",
+        "4": "출진 무료, 비기너 레벨1 이하, 개인 상해보험, 4체급",
+        "5": "KKF 경기 룰, 기본시상·특별시상",
+        "6": "09:30 개막식·코스 체크, 10:00 경기, 14:30~15:00 시상·기념촬영·폐회"
+      }
+    }
+  ],
+  "venue": {
+    "reused": true,
+    "matchLocation": "키녹 그린스페이스",
+    "location": {
+      "name": "키녹 그린스페이스",
+      "address": "경북 경주시 보문로 280-12",
+      "latitude": 35.8538044860671,
+      "longitude": 129.277404123157
+    },
+    "sourceVenueText": "경주 키녹 운동장",
+    "officialFacilityUrl": "https://www.kinock.co.kr/gj/ko/Facility/FacilityView?hotelMenuCode=10625",
+    "officialAddressUrl": "https://www.kinock.co.kr/gj/ko/Brand/BrandSpace",
+    "officialMapUrl": "https://www.kinock.co.kr/gj/ko/Brand/BrandSpace",
+    "officialEmbeddedMapDataUrl": "https://t1.kakaocdn.net/roughmap/2kzmx.json",
+    "mapPlaceId": "7975335",
+    "mapMarkerWcongnamul": [
+      1014327.0,
+      660572.0
+    ],
+    "mapMarkerWgs84": [
+      35.85389570406093,
+      129.27736434396516
+    ],
+    "existingVenueDistanceMeters": 10.8
+  },
+  "imageFiles": [
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 1,
+      "variant": "original",
+      "fileId": "1wxdS0Qrq6SJeTUFNoo81LysrXUJZvYtC",
+      "url": "https://drive.google.com/uc?export=view&id=1wxdS0Qrq6SJeTUFNoo81LysrXUJZvYtC",
+      "sha256": "7ac49c96632a058637a151709674d9bbc52a3552c5d335610f545477e8e13244",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 955189,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "archiveOnly"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 2,
+      "variant": "original",
+      "fileId": "1aZTUoKEzbHw-aL8tSqJtiN2Y4PldHBgN",
+      "url": "https://drive.google.com/uc?export=view&id=1aZTUoKEzbHw-aL8tSqJtiN2Y4PldHBgN",
+      "sha256": "5f88e4ce48c6bd572ca8a6df324b7ecced2cc2f15803c4940a4e9e638056e48f",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 502766,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 2,
+      "variant": "thumbnail",
+      "fileId": "1oak85hHg5NuPPDD7eBt0Bw3qkwaECEyt",
+      "url": "https://drive.google.com/uc?export=view&id=1oak85hHg5NuPPDD7eBt0Bw3qkwaECEyt",
+      "sha256": "a001c03491b7686e2c0b3c0ce85da1b81e99e9c84c0bee13c047ffc46596795f",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 20062,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 3,
+      "variant": "original",
+      "fileId": "1N4H1RhB8F5gELThhlfJqM7R8DfAPfLaf",
+      "url": "https://drive.google.com/uc?export=view&id=1N4H1RhB8F5gELThhlfJqM7R8DfAPfLaf",
+      "sha256": "ae06d729c52bd83ee21ed611cad42113eb1e9ea506afe1d2dfc78aaee96e9b0c",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 519333,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 3,
+      "variant": "thumbnail",
+      "fileId": "1za2P-G2WvOPY1Xla9G8Lbk3VSLRCT46x",
+      "url": "https://drive.google.com/uc?export=view&id=1za2P-G2WvOPY1Xla9G8Lbk3VSLRCT46x",
+      "sha256": "c91d662c753da196ed00f1c617bd138787d24e7af366f8a49215e8162b69d956",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 16976,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 4,
+      "variant": "original",
+      "fileId": "1gd3w_4imOipez0eMHlIR-Hpmv1AQjxXM",
+      "url": "https://drive.google.com/uc?export=view&id=1gd3w_4imOipez0eMHlIR-Hpmv1AQjxXM",
+      "sha256": "a9a367b23ba5066db84bc9c67d439b25ac61e68bca7aafefbbc1ade7441e1a23",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 524564,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 4,
+      "variant": "thumbnail",
+      "fileId": "16KABjHjZ2udHefk0TapXq-5Q4FH2-4rY",
+      "url": "https://drive.google.com/uc?export=view&id=16KABjHjZ2udHefk0TapXq-5Q4FH2-4rY",
+      "sha256": "248d5145f76017397732ec24842b10bbdcc426544cc3f65e7a4d186a061f6fa8",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 22624,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 5,
+      "variant": "original",
+      "fileId": "1L6pG8j9UADputE8Q0kkwfq6UOH9XGgXG",
+      "url": "https://drive.google.com/uc?export=view&id=1L6pG8j9UADputE8Q0kkwfq6UOH9XGgXG",
+      "sha256": "caa11f1545bfacee4ca0e49dd0e0bc3421d16e3a88fae8f9e96eeff2bfff3ad2",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 497162,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 5,
+      "variant": "thumbnail",
+      "fileId": "1E_pVo_WT1QWCQFpkUcVoXniJOFCmjvQa",
+      "url": "https://drive.google.com/uc?export=view&id=1E_pVo_WT1QWCQFpkUcVoXniJOFCmjvQa",
+      "sha256": "3a79b871a5aea8515ef24d402bbb517a4d8c622eebac2cf08a14cf831aad0af5",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 21124,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 6,
+      "variant": "original",
+      "fileId": "1eIwSKkvGprF-nhd0s7loy4ytqwswUMmb",
+      "url": "https://drive.google.com/uc?export=view&id=1eIwSKkvGprF-nhd0s7loy4ytqwswUMmb",
+      "sha256": "51de65ac08d22841689bbd6d40fb2158ba1a3614a84410848a4d36cc2cf5465f",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 476929,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 6,
+      "variant": "thumbnail",
+      "fileId": "1RL0DkauZmRzDcSwNkeqittrR24MxPDSj",
+      "url": "https://drive.google.com/uc?export=view&id=1RL0DkauZmRzDcSwNkeqittrR24MxPDSj",
+      "sha256": "fcefdb923e1201d3e4f5f1ef87f11f20fa34f3ac5449d66788367363134c7e78",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 20442,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 7,
+      "variant": "original",
+      "fileId": "1STEm9rX4mKrLmfU-wr0ndkED0Z71qsJN",
+      "url": "https://drive.google.com/uc?export=view&id=1STEm9rX4mKrLmfU-wr0ndkED0Z71qsJN",
+      "sha256": "9b4eb7f800bccf43fec5d5c1b17c78ddad6a60e32185c804d430fb998d42017c",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 537062,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 7,
+      "variant": "thumbnail",
+      "fileId": "1gtflMXFV9ufoToOhrc-CuIpLw4QhthhJ",
+      "url": "https://drive.google.com/uc?export=view&id=1gtflMXFV9ufoToOhrc-CuIpLw4QhthhJ",
+      "sha256": "d4a8fe83f42eb8e43e15abfd3369c444acd20ca045d868e744e48744f57e906e",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 23582,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 8,
+      "variant": "original",
+      "fileId": "1R8LbCB8oROob829xji5OJB9x2B5C4nqT",
+      "url": "https://drive.google.com/uc?export=view&id=1R8LbCB8oROob829xji5OJB9x2B5C4nqT",
+      "sha256": "60ad0753e008085cbbc5bd9f9faae76485f51118fb79fa1cccc2e39e66ceec47",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 494670,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 8,
+      "variant": "thumbnail",
+      "fileId": "1x44PAOsXddxpCs04Z-hT2TTfCVFJvad5",
+      "url": "https://drive.google.com/uc?export=view&id=1x44PAOsXddxpCs04Z-hT2TTfCVFJvad5",
+      "sha256": "23e7c590c5a6a46cc5427d04414df59ad61bc517930f56ff0575410e09d57516",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 17084,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 9,
+      "variant": "original",
+      "fileId": "14upTLuT3xdCatpXxoEu_yBBVwNLeVtqp",
+      "url": "https://drive.google.com/uc?export=view&id=14upTLuT3xdCatpXxoEu_yBBVwNLeVtqp",
+      "sha256": "7bcc49a868423f537d8c7a3c020a61b95ec445f4271de3405ecf22c281560d74",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 445291,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 9,
+      "variant": "thumbnail",
+      "fileId": "1CUstHkXPv5q_v3HYiNm287cN9m1LDvGt",
+      "url": "https://drive.google.com/uc?export=view&id=1CUstHkXPv5q_v3HYiNm287cN9m1LDvGt",
+      "sha256": "602fe146f71aa6cce1cbfd851789b5c73cbf54a7e1787f0ce6d32471b0fc7aa3",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 17756,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 10,
+      "variant": "original",
+      "fileId": "1eSTJNCvtHC_1TsxfJu09IjeWHBGanSle",
+      "url": "https://drive.google.com/uc?export=view&id=1eSTJNCvtHC_1TsxfJu09IjeWHBGanSle",
+      "sha256": "b3fa3f82012db704240bbe2a4c01ee34f4bc03cf494a499447245ae9812e3dfd",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 508613,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 10,
+      "variant": "thumbnail",
+      "fileId": "1qcsZDV4dzOvt1lVKbV-A2Jqau8MsIffs",
+      "url": "https://drive.google.com/uc?export=view&id=1qcsZDV4dzOvt1lVKbV-A2Jqau8MsIffs",
+      "sha256": "bf162b1652139d781d71b82bee24d7cea080867ffaff5fbcffb09bc1754b2e27",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 19142,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 11,
+      "variant": "original",
+      "fileId": "1yQfGS29YCS3PhZxw_4un5BE3bLX8z8ax",
+      "url": "https://drive.google.com/uc?export=view&id=1yQfGS29YCS3PhZxw_4un5BE3bLX8z8ax",
+      "sha256": "012b01a1662855acfd7c1dadd3814a848a1632fef7fef7d88c3696f9c3091f37",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 510366,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 11,
+      "variant": "thumbnail",
+      "fileId": "1zzn5OZTyvTc4Rdf-j8UKJ4rz3f3EqBla",
+      "url": "https://drive.google.com/uc?export=view&id=1zzn5OZTyvTc4Rdf-j8UKJ4rz3f3EqBla",
+      "sha256": "bf28182f105bf5145c3f2b83bffee4c097ae098f1ef63034a9c35c15292868c8",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 19190,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 12,
+      "variant": "original",
+      "fileId": "1w7vPXQV12hA_LznOiDmnPspTITzaxRTS",
+      "url": "https://drive.google.com/uc?export=view&id=1w7vPXQV12hA_LznOiDmnPspTITzaxRTS",
+      "sha256": "55aced0b667a2920e3b767a9da68affa6a57cd6af9b5784d72126298dbbb588e",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 555138,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 12,
+      "variant": "thumbnail",
+      "fileId": "1nl2FXcb_j9KMTUXF9pa7noJxr0WcoTzc",
+      "url": "https://drive.google.com/uc?export=view&id=1nl2FXcb_j9KMTUXF9pa7noJxr0WcoTzc",
+      "sha256": "75d2f83c73849cc476f01636adb26b4bce920ab5fa62c01300b6bdac30825915",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 23836,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 13,
+      "variant": "original",
+      "fileId": "1OL9EvL5EYBWogIJFULgw0zG2_oY4n2CW",
+      "url": "https://drive.google.com/uc?export=view&id=1OL9EvL5EYBWogIJFULgw0zG2_oY4n2CW",
+      "sha256": "e36655442c5366785e5eb4e054379b9c9aa25159c803ef41cba735a09e496753",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 475061,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 13,
+      "variant": "thumbnail",
+      "fileId": "1tfq02MPem4uTDJs-sBlqaPHE7o8Mebzr",
+      "url": "https://drive.google.com/uc?export=view&id=1tfq02MPem4uTDJs-sBlqaPHE7o8Mebzr",
+      "sha256": "114192dbe3d9a04ed50a386225377eed1b9e1d47476310d0c46c615777b45ba6",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 17370,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 14,
+      "variant": "original",
+      "fileId": "1qbqlXyLlMzmd-nOAEVvKwwTTF7RVaLXz",
+      "url": "https://drive.google.com/uc?export=view&id=1qbqlXyLlMzmd-nOAEVvKwwTTF7RVaLXz",
+      "sha256": "5045129008b76777433f8f56b444dca763b54df739132cc7a23368a3ce278875",
+      "mimeType": "image/jpeg",
+      "width": 3072,
+      "height": 4096,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 491129,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "Dev6OZDiTgU",
+      "order": 14,
+      "variant": "thumbnail",
+      "fileId": "1R0a8okKFIajecNqoc75P7BWtM863Wh3h",
+      "url": "https://drive.google.com/uc?export=view&id=1R0a8okKFIajecNqoc75P7BWtM863Wh3h",
+      "sha256": "5fb040391cf6b3d228462390028c7bc048d064df2b6a147d22a87626f90a1eb6",
+      "mimeType": "image/webp",
+      "width": 450,
+      "height": 600,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/webp",
+        "bytes": 18282,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "library.result.image"
+    },
+    {
+      "post": "DevMZzCAV2_",
+      "order": 1,
+      "variant": "original",
+      "fileId": "1WrkrieLiNDQOwgLVyGljdhScDnZHKU2u",
+      "url": "https://drive.google.com/uc?export=view&id=1WrkrieLiNDQOwgLVyGljdhScDnZHKU2u",
+      "sha256": "f2acf1b2c4db06f77cbe32fcba367edbc626d4aa8da8e0971ac16247401d9b72",
+      "mimeType": "image/jpeg",
+      "width": 1080,
+      "height": 1350,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 473981,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "match.detailImages"
+    },
+    {
+      "post": "DevMZzCAV2_",
+      "order": 2,
+      "variant": "original",
+      "fileId": "1QCV7iKtzxd5fHseufXf6PA7DkjdAnNRP",
+      "url": "https://drive.google.com/uc?export=view&id=1QCV7iKtzxd5fHseufXf6PA7DkjdAnNRP",
+      "sha256": "dc30b08234bcc15670000771a0882b3d0700f25c7d416bef17c86a0fa276c9da",
+      "mimeType": "image/jpeg",
+      "width": 1080,
+      "height": 1350,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 568412,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "match.detailImages"
+    },
+    {
+      "post": "DevMZzCAV2_",
+      "order": 3,
+      "variant": "original",
+      "fileId": "16Bjp5GJvfltcASY1rpYwphvZx48t-s1d",
+      "url": "https://drive.google.com/uc?export=view&id=16Bjp5GJvfltcASY1rpYwphvZx48t-s1d",
+      "sha256": "14fac0e647bd27611075b6ddd40bf3f82e432074df16258e294181d29567d50d",
+      "mimeType": "image/jpeg",
+      "width": 1080,
+      "height": 1350,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 575984,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "match.detailImages"
+    },
+    {
+      "post": "DevMZzCAV2_",
+      "order": 4,
+      "variant": "original",
+      "fileId": "1uw-m3u_2Ij-az21CwXUfXLCjmEiKBbHy",
+      "url": "https://drive.google.com/uc?export=view&id=1uw-m3u_2Ij-az21CwXUfXLCjmEiKBbHy",
+      "sha256": "88c45a68e2d1ffea92ae5fc18755464d2be3a60ad91e0205c840c3478b45277f",
+      "mimeType": "image/jpeg",
+      "width": 1080,
+      "height": 1350,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 552606,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "match.detailImages"
+    },
+    {
+      "post": "DevMZzCAV2_",
+      "order": 5,
+      "variant": "original",
+      "fileId": "1bgTfwqssvFQzB0RNsREIZ4HL1VuIIypn",
+      "url": "https://drive.google.com/uc?export=view&id=1bgTfwqssvFQzB0RNsREIZ4HL1VuIIypn",
+      "sha256": "8b1d1231bf0d05e9a399cccda92f9a096597b17be2e1752982f00de40cd7590f",
+      "mimeType": "image/jpeg",
+      "width": 1080,
+      "height": 1350,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 543761,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "match.detailImages"
+    },
+    {
+      "post": "DevMZzCAV2_",
+      "order": 6,
+      "variant": "original",
+      "fileId": "1VfWvIYu85Q945QgjjX5ns5OAQiyRDNPG",
+      "url": "https://drive.google.com/uc?export=view&id=1VfWvIYu85Q945QgjjX5ns5OAQiyRDNPG",
+      "sha256": "fab6872e02e729222db7f80c013729b74921231ae897e9b8602fe5036dea5ed3",
+      "mimeType": "image/jpeg",
+      "width": 1080,
+      "height": 1350,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 532052,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "match.detailImages"
+    },
+    {
+      "post": "DevMZzCAV2_",
+      "order": 7,
+      "variant": "original",
+      "fileId": "1m1bTYKmiwcBL19avDta3RUH8w4R734e8",
+      "url": "https://drive.google.com/uc?export=view&id=1m1bTYKmiwcBL19avDta3RUH8w4R734e8",
+      "sha256": "4bb4bcac251485d00a649f99342d1bd39739adbe3bafe6afc5f20558871384a8",
+      "mimeType": "image/jpeg",
+      "width": 1080,
+      "height": 1350,
+      "anyoneReader": true,
+      "anonymousGet": {
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 616766,
+        "decoded": true,
+        "sha256MatchesOriginal": true
+      },
+      "destination": "match.detailImages"
+    }
+  ],
+  "preservation": {
+    "previousLibraryEvents": 199,
+    "previousLibraryAssets": 3368,
+    "allExistingEventAndAssetDataUnchanged": true,
+    "allExistingSchedulesUnchanged": true,
+    "courseMapGroupsUnchanged": true,
+    "venueFileUnchanged": true
+  },
+  "verification": {
+    "librarySchemaAndReferences": "passed",
+    "categoryDateAndEventViewsRegenerated": true,
+    "librarySortOrder": "passed",
+    "allSourceOriginalsDownloaded": 21,
+    "originalsUploadedAndPubliclyVerified": 21,
+    "resultThumbnailsUploadedAndPubliclyVerified": 13,
+    "noPushBatchExecuted": true,
+    "fullActiveDataHarness": {
+      "scope": "all",
+      "today": "2026-10-21",
+      "ok": true,
+      "activeJsonFiles": 201,
+      "noticeCount": 136,
+      "competitionCount": 79,
+      "dueCompetitionCount": 0
+    },
+    "appParserTests": {
+      "passed": 2,
+      "checks": [
+        "실제 자료실 JSON 파싱, 동일 대회·기존 출진표 유지, 채널/분류/날짜별 결과 13장과 원문 순서",
+        "실제 일정 JSON 파싱, 미공지 접수 기간 null, 심사위원·종목·시간·이미지 7장·기존 장소 연결과 앱 상세 목적지"
+      ]
+    }
+  }
+}
