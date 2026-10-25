@@ -45,7 +45,7 @@ If release signing fails, debug in this order:
 - `notice_auto_*`, `notice_manual_push_*`, `schedule_send_*` 를 포함한 모든 앱 푸시 배치 스크립트는 **스크립트 하나의 1회 실행 기준**으로 발송 대상이 `3건 이상`이면 앱 푸시를 보내지 않고 운영자 텔레그램 확인 요청만 보내야 한다.
 - 최근 실제 사고는 `수집 신규 0건인데 푸시 발송 대상이 대량으로 잡힌 상태 오염`이었다. 이런 패턴을 만들 수 있는 수동 데이터 수정은 매우 보수적으로 다룬다.
 - 공지 전체재생성 또는 구스키마 자동 전환에서는 이전 활성 공지 queue를 종료하고 앱 푸시를 보내지 않는다.
-- 상세 기준 문서는 [PUSH_SAFETY_POLICY.md](../agility-scraper/PUSH_SAFETY_POLICY.md) 이다.
+- 상세 기준 문서는 [PUSH_SAFETY_POLICY.md](../../automation/agility-scraper/PUSH_SAFETY_POLICY.md) 이다.
 
 # 프로젝트 작업 범위 분리
 
@@ -56,8 +56,8 @@ If release signing fails, debug in this order:
 - 비용이 발생하지 않는다고 확인되지 않은 외부 API는 호출 전에 사용을 중단하고 로컬 자료나 승인된 비과금 경로를 사용한다.
 
 - 이 저장소의 어질리티 일정·장소 JSON 수동 관리와 앱 데이터 작업은 스크래퍼 개발과 독립적으로 진행한다.
-- `agility-scraper`의 NAS 공지 자동 수집·반영과 확정 일정 알림은 기존 운영 기능이다. 2026-09-30 사용자 지시로 신규 대회 일정은 NAS에서 승인 없이 검증·자동 반영하도록 전환한다. 달티웹 작업 진입점은 `/Users/sam/Documents/DaltiWeb/agility-scraper`이며 기존 외장 SSD 저장소를 가리킨다.
-- Data Studio는 달티웹의 사전 검수 도구이며 독립 저장소는 `/Users/sam/Documents/DaltiWeb/data-studio`다. 이 데이터 저장소에 도구 소스를 다시 넣지 않는다. NAS 신규 일정 수집은 `schedule_auto_real`에서 담당한다. Data Studio 앱 시작·수집 버튼·API에서는 중복 수집을 재개하지 않는다. 기존 큐 검수와 일정·장소 수동 편집은 유지한다.
+- `agility-scraper`의 NAS 공지 자동 수집·반영과 확정 일정 알림은 기존 운영 기능이다. 2026-09-30 사용자 지시로 신규 대회 일정은 NAS에서 승인 없이 검증·자동 반영하도록 전환한다. 실제 소스 폴더는 `/Volumes/Samsung SSD 990 PRO 2TB/appdev/dalti/automation/agility-scraper`다.
+- Data Studio는 달티웹의 사전 검수 도구이며 독립 저장소는 `/Volumes/Samsung SSD 990 PRO 2TB/appdev/dalti/web/agility-admin`다. 이 데이터 저장소에 도구 소스를 다시 넣지 않는다. NAS 신규 일정 수집은 `schedule_auto_real`에서 담당한다. Data Studio 앱 시작·수집 버튼·API에서는 중복 수집을 재개하지 않는다. 기존 큐 검수와 일정·장소 수동 편집은 유지한다.
 - 수동 일정·장소 수정, 이미지 URL 반영, 데이터 검증, 데이터 저장소 commit/push의 선행 조건으로 스크래퍼 fetch/pull 또는 개발 재개를 요구하지 않는다.
 - 스크래퍼·NAS 배치·자동 수집 코드를 수정하거나 재개하는 작업은 사용자가 명시적으로 요청할 때 달티웹 범위에서 진행하고 해당 저장소 지침을 따른다.
 - 로컬 Python 데이터 하네스는 수집·Git 동기화·푸시 없이 데이터 계약을 확인하는 검증 도구로 사용할 수 있다. 하네스 사용은 스크래퍼 개발 재개를 뜻하지 않는다.

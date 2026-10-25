@@ -2,7 +2,7 @@
 
 앱에 배포하는 JSON과 정적 파일을 관리한다. Data Studio 소스는 별도 저장소로 분리했다. [agility-scraper](https://github.com/daltiapp/agility-scraper)의 NAS 공지 자동화와 확정 일정 알림은 기존 운영 기능으로 유지한다. 신규 대회 일정은 2026-09-30 사용자 요청으로 NAS에서 수집·검증 후 승인 없이 JSON을 커밋·푸시하는 흐름으로 전환한다. [현행 설계](docs/tickets/2026-09-29-schedule-auto-collection.md)를 따른다.
 
-일정·장소 JSON 수동 관리, 이미지 URL 반영, 이 저장소의 commit/push는 스크래퍼 최신화와 독립적이다. NAS 운영 코드는 `/Users/sam/Documents/DaltiWeb/agility-scraper`, 검수 도구는 `/Users/sam/Documents/DaltiWeb/data-studio`에서 관리한다. 스크래퍼 연결은 기존 SSD 저장소를 가리키며, Data Studio는 달티웹에 실제 독립 저장소로 있다. Data Studio의 대회 수집은 중지했으며 기존 큐 검수·수동 데이터 편집만 유지한다. 새 수집은 NAS의 `schedule_auto_real`만 담당하며, 별도 웹은 후속 조회·편집 기능이다.
+일정·장소 JSON 수동 관리, 이미지 URL 반영, 이 저장소의 commit/push는 스크래퍼 최신화와 독립적이다. NAS 운영 코드는 `/Volumes/Samsung SSD 990 PRO 2TB/appdev/dalti/automation/agility-scraper`, 검수 도구는 `/Volumes/Samsung SSD 990 PRO 2TB/appdev/dalti/web/agility-admin`에서 관리한다. 두 도구의 실제 소스는 통합 작업공간에 있으며 프로젝트 바로가기는 사용하지 않는다. Data Studio의 대회 수집은 중지했으며 기존 큐 검수·수동 데이터 편집만 유지한다. 새 수집은 NAS의 `schedule_auto_real`만 담당하며, 별도 웹은 후속 조회·편집 기능이다.
 
 ## 구조와 소유권
 
@@ -16,18 +16,18 @@
 | `schemas/agility-library-v1.schema.json` | 자료실 JSON의 필드·타입 검증 계약 | 자료실 필드 변경과 함께 확인 |
 | `review/schedule/` | 수집 후보·검수 상태 | 사람이 승인/거절한 내용과 원문 근거 보존 |
 | `review/library/` | 자료실 수집 범위·검증 기록 | 대회별 원문 이미지 수·연결·누락 확인 근거 보존 |
-| 외부 `DaltiWeb/data-studio` 저장소 | 로컬 검수·승인 도구 | 데이터 저장소 경로를 설정해 사용; 소스는 이 저장소에 포함하지 않음 |
+| 외부 `web/agility-admin` 저장소 | 로컬 검수·승인 도구 | 데이터 저장소 경로를 설정해 사용; 소스는 이 저장소에 포함하지 않음 |
 | `docs/tickets/` | 구조 변경 제안과 구현 티켓 | 제안과 배포 완료 상태를 구분 |
 
 현재 경로는 문서에 적힌 번호가 아니라 manifest의 `basePath`로 결정한다. 구버전 폴더, 푸시 이력, 검수 큐를 불필요한 파일로 간주해 지우지 않는다. 새 스키마/경로 전환은 사용자의 명시적 지시에 따른다.
 
 ## 변경 전후 검증
 
-먼저 이 데이터 저장소의 원격 상태와 작업 트리를 확인하고 기존 변경을 보존한다. 스크래퍼 fetch/pull은 수동 데이터 작업의 선행 조건이 아니다. 아래 검증은 기존 로컬 하네스를 사용하며 수집·Git 동기화·푸시를 실행하지 않는다. 두 실제 저장소가 형제 디렉터리에 있을 때 데이터 저장소 루트에서 실행한다.
+먼저 이 데이터 저장소의 원격 상태와 작업 트리를 확인하고 기존 변경을 보존한다. 스크래퍼 fetch/pull은 수동 데이터 작업의 선행 조건이 아니다. 아래 검증은 기존 로컬 하네스를 사용하며 수집·Git 동기화·푸시를 실행하지 않는다. 통합 작업공간의 데이터 저장소 루트에서 실행한다.
 
 ```sh
-python3 ../agility-scraper/scripts/active_data_harness.py --data-repo-dir . --scope all
-npm --prefix /Users/sam/Documents/DaltiWeb/data-studio test
+python3 ../../automation/agility-scraper/scripts/active_data_harness.py --data-repo-dir . --scope all
+npm --prefix "/Volumes/Samsung SSD 990 PRO 2TB/appdev/dalti/web/agility-admin" test
 git diff --check
 ```
 
