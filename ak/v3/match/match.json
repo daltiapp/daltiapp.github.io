@@ -1949,6 +1949,24 @@
     {
       "applicationEndAt": "",
       "applicationStartAt": "",
+      "club": "한국애견협회",
+      "detailNotice": "행사장: 충주탄금공원 돌미로 앞 잔디광장. 2026년 11월 14일(토) 오전 8시 개최합니다. 접수 기간·세부 종목·심사위원·종료 시각은 아직 확인되지 않았습니다.",
+      "detailStatus": "detail_pending",
+      "endAt": "2026-11-14T08:00:00",
+      "eventType": "대회",
+      "judge": [],
+      "location": "충주탄금공원",
+      "matchTypes": [],
+      "name": "2026 KKC 어질리티 경기대회 & 2027 IFCS 국가대표 선발전",
+      "startAt": "2026-11-14T08:00:00",
+      "url": "https://www.instagram.com/p/De4EYfFTliX/",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1AvDVyICDkS5U4DEJybzp8qMYEQiJK-QB"
+      ]
+    },
+    {
+      "applicationEndAt": "",
+      "applicationStartAt": "",
       "club": "한국애견연맹",
       "detailNotice": "",
       "detailStatus": "detail_ready",

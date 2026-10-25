@@ -241,6 +241,16 @@
       "photos": [
         "https://drive.google.com/uc?export=view&id=1fnihyqgBnHz4xTgX5Nt0iqsjA-Ny_nWZ"
       ]
+    },
+    {
+      "name": "충주탄금공원",
+      "location": {
+        "name": "충주탄금공원",
+        "address": "충청북도 충주시 남한강로 46",
+        "latitude": 36.9890158,
+        "longitude": 127.9063419
+      },
+      "photos": []
     }
   ]
 }

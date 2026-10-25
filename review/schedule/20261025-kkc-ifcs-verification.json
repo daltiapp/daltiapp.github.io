@@ -1,0 +1,117 @@
+{
+  "verifiedAt": "2026-10-25T14:56:31+09:00",
+  "competition": "2026 KKC 어질리티 경기대회 & 2027 IFCS 국가대표 선발전",
+  "competitionStartAt": "2026-11-14T08:00:00",
+  "sources": [
+    {
+      "url": "https://www.instagram.com/p/De4EYfFTliX/",
+      "account": "koreankennelclub",
+      "publishedAt": "2026-10-24",
+      "status": "verified",
+      "mediaType": "single_image",
+      "imageCount": 1,
+      "htmlSha256": "aafc63ebe5166c8c9abc2455ded7dc39ecf77bf532dc3083e50936a2e94cb2f4",
+      "caption": "🏆 2026 KKC 어질리티 경기대회 & 2027 IFCS 국가대표 선발전\n\n멋진 호흡과 뜨거운 열정으로 펼쳐질 어질리티 경기!\n국가대표를 향한 도전에 많은 관심과 응원 부탁드립니다🐾\n\n📅 2026년 11월 14일(토) 오전 8시\n📍 충주 탄금공원 돌미로 앞 잔디광장\n\n여러분의 많은 관심과 참여 바랍니다!\n\n#KKC #어질리티 #IFCS #국가대표선발전 #도그스포츠"
+    },
+    {
+      "url": "https://kkc.or.kr/%ec%9b%94%eb%b3%84-%ed%96%89%ec%82%ac/",
+      "status": "unverified",
+      "reason": "HTTP 200 returned a JavaScript browser verification page, not the event content. A bounded browser attempt did not complete. No Firestore or other metered API was called.",
+      "imageCount": null
+    }
+  ],
+  "collection": {
+    "transport": "NAS managed Proton VPN",
+    "mobileUserAgent": true,
+    "minimumHostIntervalSeconds": 2,
+    "vpnStoppedAndVerified": true,
+    "registeredNewDsmTasks": false
+  },
+  "images": {
+    "sourceImageCount": 1,
+    "downloadedImageCount": 1,
+    "driveUploadedImageCount": 1,
+    "publicVerifiedImageCount": 1,
+    "jsonImageCount": 1,
+    "files": [
+      {
+        "sourceIndex": 1,
+        "sourcePost": "https://www.instagram.com/p/De4EYfFTliX/",
+        "fileName": "kkc-ifcs-20261114-De4EYfFTliX-01.jpg",
+        "driveFileId": "1AvDVyICDkS5U4DEJybzp8qMYEQiJK-QB",
+        "publicUrl": "https://drive.google.com/uc?export=view&id=1AvDVyICDkS5U4DEJybzp8qMYEQiJK-QB",
+        "mimeType": "image/jpeg",
+        "bytes": 262422,
+        "width": 1440,
+        "height": 1440,
+        "sourceSha256": "dd34da0b1d8b7e6770a5893d9985d6be933355314fb96af653a66abd7ab7cbaa",
+        "publicSha256": "dd34da0b1d8b7e6770a5893d9985d6be933355314fb96af653a66abd7ab7cbaa",
+        "publicGetStatus": 200,
+        "permission": {
+          "type": "anyone",
+          "role": "reader"
+        }
+      }
+    ]
+  },
+  "venue": {
+    "name": "충주탄금공원",
+    "eventArea": "돌미로 앞 잔디광장",
+    "address": "충청북도 충주시 남한강로 46",
+    "latitude": 36.9890158,
+    "longitude": 127.9063419,
+    "coordinateScope": "Naver Place park POI; not a separately geocoded event ring",
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/place/20373587/home",
+        "evidence": "Park name, road address, and coordinates agree with Naver search place data.",
+        "sha256": "4085d558cdb6473eb3a1c35cf53788ba28fadf5cbe074f1834c42695b3169121"
+      },
+      {
+        "url": "https://www.chungju.go.kr/tour/contents.do?key=1172",
+        "evidence": "City tourism page confirms the park contains a stone maze and lawns. Its contact address is 남한강로 21; navigation uses the verified Naver park POI address 남한강로 46.",
+        "sha256": "9c3252d1e2b2e00968c81eb965d5f0f9a702902088872d7250a5240b699d59cd"
+      }
+    ]
+  },
+  "unconfirmedFields": [
+    "applicationStartAt",
+    "applicationEndAt",
+    "judge",
+    "matchTypes",
+    "endAt"
+  ],
+  "decisions": {
+    "detailStatus": "detail_pending because only the announcement, date, start time and venue are confirmed.",
+    "eventType": "대회 follows the existing event-type vocabulary; the selection event is identified in the exact source title.",
+    "endAt": "Required schema placeholder equals startAt, following existing single-day rows. This is not a confirmed finish time; detailNotice explicitly says the finish time is unconfirmed."
+  },
+  "validation": {
+    "allScopeHarness": {
+      "ok": true,
+      "scope": "all",
+      "data_version": "20261025.1",
+      "schema_version": 2,
+      "json_file_count": 201,
+      "notice_count": 136,
+      "notice_detail_count": 136,
+      "competition_count": 80,
+      "schedule_reminder_count": 164,
+      "schedule_due_date": "2026-10-25",
+      "schedule_due_batch_count": 1,
+      "schedule_due_competition_count": 1,
+      "schedule_manual_confirmation_limit": 3,
+      "schedule_manual_confirmation_required": false
+    },
+    "existingCompetitionRowsPreserved": 79,
+    "existingVenueRowsPreserved": 20,
+    "agilityAdminTests": {
+      "tests": 93,
+      "passed": 92,
+      "failed": 1,
+      "ranBeforeDataEdit": true,
+      "knownFailure": "tests/server.test.mjs:159 expects repository basename daltiapp.github.io, but the migrated canonical path ends with agility-data."
+    },
+    "gitDiffCheck": "passed"
+  }
+}
