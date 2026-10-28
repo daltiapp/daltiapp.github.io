@@ -1,0 +1,368 @@
+{
+  "verifiedAt": "2026-10-28T22:25:50+09:00",
+  "competition": "제1회 MK Agility Cup",
+  "sources": [
+    {
+      "url": "https://www.instagram.com/p/De-61MFgYKG/?img_index=1",
+      "carouselImages": 2,
+      "reachedLastImage": true,
+      "nextButtonAtEnd": false
+    },
+    {
+      "url": "https://www.instagram.com/p/De_xlmGEjhO/?img_index=1",
+      "carouselImages": 8,
+      "reachedLastImage": true,
+      "nextButtonAtEnd": false
+    },
+    {
+      "url": "https://www.instagram.com/p/De_x7mEkvQo/?img_index=1",
+      "carouselImages": 8,
+      "reachedLastImage": true,
+      "nextButtonAtEnd": false
+    }
+  ],
+  "newSourceImages": 18,
+  "downloadedNewImages": 18,
+  "driveUploadedNewImages": 18,
+  "anonymousPublicVerifiedNewImages": 18,
+  "retainedExistingImages": 4,
+  "detailImages": 22,
+  "replacedOldImages": [
+    {
+      "originalOrder": 1,
+      "url": "https://drive.google.com/uc?export=view&id=1WrkrieLiNDQOwgLVyGljdhScDnZHKU2u",
+      "reason": "변경 전 시각 또는 경기 순서가 표시된 기존 이미지를 새 변경 안내로 교체"
+    },
+    {
+      "originalOrder": 3,
+      "url": "https://drive.google.com/uc?export=view&id=16Bjp5GJvfltcASY1rpYwphvZx48t-s1d",
+      "reason": "변경 전 시각 또는 경기 순서가 표시된 기존 이미지를 새 변경 안내로 교체"
+    },
+    {
+      "originalOrder": 6,
+      "url": "https://drive.google.com/uc?export=view&id=1VfWvIYu85Q945QgjjX5ns5OAQiyRDNPG",
+      "reason": "변경 전 시각 또는 경기 순서가 표시된 기존 이미지를 새 변경 안내로 교체"
+    }
+  ],
+  "changes": {
+    "startAt": {
+      "before": "2026-11-01T10:00:00",
+      "after": "2026-11-01T09:00:00"
+    },
+    "endAt": {
+      "before": "2026-11-01T15:00:00",
+      "after": "2026-11-01T14:30:00"
+    },
+    "matchTypes": {
+      "before": [
+        "비기너",
+        "노비스",
+        "점핑"
+      ],
+      "after": [
+        "점핑",
+        "비기너",
+        "노비스"
+      ]
+    },
+    "url": {
+      "before": "https://www.instagram.com/p/DevMZzCAV2_/?img_index=1",
+      "after": "https://www.instagram.com/p/De-61MFgYKG/?img_index=1"
+    }
+  },
+  "venue": {
+    "reused": true,
+    "matchLocation": "키녹 그린스페이스",
+    "location": {
+      "name": "키녹 그린스페이스",
+      "address": "경북 경주시 보문로 280-12",
+      "latitude": 35.8538044860671,
+      "longitude": 129.277404123157
+    },
+    "sourceVenueText": "경주 키녹 운동장",
+    "officialFacilityUrl": "https://www.kinock.co.kr/gj/ko/Facility/FacilityView?hotelMenuCode=10625",
+    "officialAddressUrl": "https://www.kinock.co.kr/gj/ko/Brand/BrandSpace",
+    "officialMapUrl": "https://www.kinock.co.kr/gj/ko/Brand/BrandSpace",
+    "officialEmbeddedMapDataUrl": "https://t1.kakaocdn.net/roughmap/2kzmx.json",
+    "mapPlaceId": "7975335",
+    "mapMarkerWcongnamul": [
+      1014327.0,
+      660572.0
+    ],
+    "mapMarkerWgs84": [
+      35.85389570406093,
+      129.27736434396516
+    ],
+    "existingVenueDistanceMeters": 10.8,
+    "currentMapMarkerVerified": true,
+    "currentOfficialAddressVerified": true
+  },
+  "images": [
+    {
+      "post": "De-61MFgYKG",
+      "order": 1,
+      "id": "1yvGhjZXtjHmBHB5VKdgqroLB-_3U_zdw",
+      "sha256": "7df1e1e7da291c67fab699ca6858c5872101cd557e7d737351da88aa03803929",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1yvGhjZXtjHmBHB5VKdgqroLB-_3U_zdw",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De-61MFgYKG",
+      "order": 2,
+      "id": "1odyEVh8CtfSxmwdoikI4j_ZtieSdwTce",
+      "sha256": "2ec530be4a9e00c628cfdcab01357788464cf23353f423b330323e40a7c2712d",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1odyEVh8CtfSxmwdoikI4j_ZtieSdwTce",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_xlmGEjhO",
+      "order": 1,
+      "id": "1SHSLfeYPxeOPWxeM5fckYf34pLjXb0ki",
+      "sha256": "79d46b5e737f81501d6517deff111eb2591660d159830cd7d1f63091ce5638a0",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1SHSLfeYPxeOPWxeM5fckYf34pLjXb0ki",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_xlmGEjhO",
+      "order": 2,
+      "id": "1faikXHduYIZdP-ednOGiJFAPr3GCvv3k",
+      "sha256": "1d939ad56b9ed691f1f0fe45df7375004b4c264abb4647bff47153eb0999806d",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1faikXHduYIZdP-ednOGiJFAPr3GCvv3k",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_xlmGEjhO",
+      "order": 3,
+      "id": "1hfb-muGBXFHzFJdb_76VymVuTO-l4Hl2",
+      "sha256": "4f7d5a174902d6e0fb715276e8517e9e49fb7dfd29ac058b23dfa7fcdf946334",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1hfb-muGBXFHzFJdb_76VymVuTO-l4Hl2",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_xlmGEjhO",
+      "order": 4,
+      "id": "15CQLujivCpzILzq8MxsuGFdaqgAKLwNT",
+      "sha256": "1eaf317661e826a16545e8799ffc010c7d56774c6d368a925dd6ba5e0afe1fcd",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=15CQLujivCpzILzq8MxsuGFdaqgAKLwNT",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_xlmGEjhO",
+      "order": 5,
+      "id": "1BhvgnFgCXzha_pPkgy5f7d90vR0_S1d4",
+      "sha256": "4de60995b040e5c75bff03552a28dd845946615bd383126c6984e4aa5d54ae11",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1BhvgnFgCXzha_pPkgy5f7d90vR0_S1d4",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_xlmGEjhO",
+      "order": 6,
+      "id": "12pzQrtwQHZgwAMADoVyNZwCIrkXpmgRV",
+      "sha256": "5f532c39cfc63bcc3279ddd450a16d1eb55d2b394e4d96f581a26859a01d5415",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=12pzQrtwQHZgwAMADoVyNZwCIrkXpmgRV",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_xlmGEjhO",
+      "order": 7,
+      "id": "1fTpwmkjtrmT4QaaC3JhLBeJz0f3Iv5iN",
+      "sha256": "12cfe97142ea427cede3e0e6d61fca4dd432f0337ef0cf18e5212b7011efccea",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1fTpwmkjtrmT4QaaC3JhLBeJz0f3Iv5iN",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_xlmGEjhO",
+      "order": 8,
+      "id": "1cFfsQl6wB5NYiIphFDMLSGJXtPWK2V8I",
+      "sha256": "699fd090cf1a0ecf0aed2a10581ed2f458c03080a46cda76ce94ec802b43124b",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1cFfsQl6wB5NYiIphFDMLSGJXtPWK2V8I",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_x7mEkvQo",
+      "order": 1,
+      "id": "1p8p1DAsqcKCSEzH2DmjG3SfHRskonVCX",
+      "sha256": "4c8e34275250c184cd9cbf71968250c9aeff8258632f9c595f89afbd0baf9793",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1p8p1DAsqcKCSEzH2DmjG3SfHRskonVCX",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_x7mEkvQo",
+      "order": 2,
+      "id": "1QiDuT_d7N0eLhEtVsp9tfVvBFYT_CJzG",
+      "sha256": "dda6af8db89ea5eafba861161c75fc0b62c5024801d137ed5cfd6311fed94efa",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1QiDuT_d7N0eLhEtVsp9tfVvBFYT_CJzG",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_x7mEkvQo",
+      "order": 3,
+      "id": "1f5N124Maj-vp0nr4On1475vSBfppHVrf",
+      "sha256": "d29b57fcfd35060b1e93f0c2887aef1830cb0839e3ca6d2fb8c72e111f472ad0",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1f5N124Maj-vp0nr4On1475vSBfppHVrf",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_x7mEkvQo",
+      "order": 4,
+      "id": "195mcGDTzudO2JELxK_XJrSaFuq7Hv6B1",
+      "sha256": "3e944607f5fadd5147a041f0397a1f5ed98b9a29f10a741bd585a4eda4d7ac79",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=195mcGDTzudO2JELxK_XJrSaFuq7Hv6B1",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_x7mEkvQo",
+      "order": 5,
+      "id": "1Z24Ucfjc1vTZUUgWRtk96S0kuaukZrxm",
+      "sha256": "e43374feafae2c64a1a9fef39857d7e2ff2c6dea4223365f6207a36cae073480",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1Z24Ucfjc1vTZUUgWRtk96S0kuaukZrxm",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_x7mEkvQo",
+      "order": 6,
+      "id": "1SVfaJpxs3JAkcB546_jGUpd9T90S8PP3",
+      "sha256": "b2bf4a791d71fbf4d3cdfc416f1651293236b28f0a913893813a27b022f0053a",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1SVfaJpxs3JAkcB546_jGUpd9T90S8PP3",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_x7mEkvQo",
+      "order": 7,
+      "id": "1w-CJwDIfPD47CwTqQmjUIQbyJkMXMlfS",
+      "sha256": "9912701fc3c7341ac0bd65d69ae03fe402a7fd2619e826bd94b99c31b172d5f8",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1w-CJwDIfPD47CwTqQmjUIQbyJkMXMlfS",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    },
+    {
+      "post": "De_x7mEkvQo",
+      "order": 8,
+      "id": "1rBK36SbZJ3waZQ-G1QRYgm1E4EvJYP0V",
+      "sha256": "e817dd430008efa3de7bbeb72da3c88972ce7dc840c355b6c7cc81e433b77fe3",
+      "width": 1080,
+      "height": 1350,
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1rBK36SbZJ3waZQ-G1QRYgm1E4EvJYP0V",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true
+    }
+  ],
+  "publication": "GitHub commit/push and public JSON readback verified separately",
+  "appPushSent": false,
+  "retainedImages": [
+    {
+      "originalOrder": 2,
+      "url": "https://drive.google.com/uc?export=view&id=1QCV7iKtzxd5fHseufXf6PA7DkjdAnNRP",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true,
+      "sha256": "dc30b08234bcc15670000771a0882b3d0700f25c7d416bef17c86a0fa276c9da"
+    },
+    {
+      "originalOrder": 4,
+      "url": "https://drive.google.com/uc?export=view&id=1uw-m3u_2Ij-az21CwXUfXLCjmEiKBbHy",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true,
+      "sha256": "88c45a68e2d1ffea92ae5fc18755464d2be3a60ad91e0205c840c3478b45277f"
+    },
+    {
+      "originalOrder": 5,
+      "url": "https://drive.google.com/uc?export=view&id=1bgTfwqssvFQzB0RNsREIZ4HL1VuIIypn",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true,
+      "sha256": "8b1d1231bf0d05e9a399cccda92f9a096597b17be2e1752982f00de40cd7590f"
+    },
+    {
+      "originalOrder": 7,
+      "url": "https://drive.google.com/uc?export=view&id=1m1bTYKmiwcBL19avDta3RUH8w4R734e8",
+      "anonymousHttp": 200,
+      "mimeType": "image/jpeg",
+      "publicReader": true,
+      "sha256": "4bb4bcac251485d00a649f99342d1bd39739adbe3bafe6afc5f20558871384a8"
+    }
+  ],
+  "allLinkedImagesVerified": 22,
+  "allScopeHarness": {
+    "passed": true,
+    "jsonFiles": 201,
+    "notices": 136,
+    "competitions": 80
+  },
+  "adminContractTests": {
+    "total": 166,
+    "passed": 165,
+    "failed": 1,
+    "preExistingFailure": "tests/server.test.mjs:159 expects repoRoot ending daltiapp.github.io, while canonical data folder is agility-data; independent of schedule content",
+    "sourceCodeChanged": false
+  }
+}

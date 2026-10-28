@@ -1780,30 +1780,45 @@
       "applicationEndAt": "",
       "applicationStartAt": "",
       "club": "오십케이",
-      "detailNotice": "개막식·대회 및 안전 안내와 비기너 코스 체크는 09:30부터, 경기 시작은 10:00입니다. 시상·기념촬영·폐회는 14:30~15:00입니다. 원문 장소 표기: 경주 키녹 운동장. 출진 비용은 무료이며 신청 방법·접수 기간은 아직 공지되지 않았습니다. 비기너는 어질리티 레벨 1 이하만 참가할 수 있습니다. 4체급(타이니·스몰·미듐·라지)으로 운영하며 KKF 어질리티 룰을 적용합니다. 별도 상해보험이 적용되지 않으므로 개인 상해보험 가입 후 출진해야 합니다. 중식 도시락이 제공됩니다. 후원: 아나멧 코리아.",
+      "detailNotice": "2026년 10월 26일 주최자 변경 공지 기준: 오전 9시 개막, 경기 순서는 점핑 → 비기너 → 노비스입니다.\n09:00~09:30 개막식·대회 안전 안내·점핑 코스 체크, 09:30~10:00 점핑 경기, 10:00~10:30 비기너 코스 설치·체크, 10:30~11:30 비기너 경기, 11:30~12:00 무궁화 꽃이 피었습니다 이벤트·노비스 코스 설치, 12:00~12:10 노비스 코스 체크, 12:10~13:40 노비스 경기, 13:40~14:30 시상·기념촬영·폐회.\n상세 이미지에 변경 안내 2장과 출진표 1편(점핑·비기너) 8장, 2편(노비스) 8장을 원문 순서대로 수록했습니다. 출진표의 종목·체급·출진 순서·반려견 이름·핸들러·소속 클럽을 확인하고 수정이 필요하면 주최 측에 문의해 주세요.\n원문 장소 표기: 경주 키녹 운동장. 출진 비용은 무료이며 비기너는 어질리티 레벨 1 이하만 참가할 수 있습니다. 4체급(타이니·스몰·미듐·라지)으로 운영하며 KKF 어질리티 룰을 적용합니다. 별도 상해보험이 적용되지 않으므로 개인 상해보험 가입 후 출진해야 합니다. 중식 도시락이 제공됩니다. 후원: 아나멧 코리아.",
       "detailStatus": "detail_ready",
-      "endAt": "2026-11-01T15:00:00",
+      "endAt": "2026-11-01T14:30:00",
       "eventType": "랭킹전",
       "judge": [
         "남광현"
       ],
       "location": "키녹 그린스페이스",
       "matchTypes": [
+        "점핑",
         "비기너",
-        "노비스",
-        "점핑"
+        "노비스"
       ],
       "name": "제1회 MK Agility Cup",
-      "startAt": "2026-11-01T10:00:00",
-      "url": "https://www.instagram.com/p/DevMZzCAV2_/?img_index=1",
+      "startAt": "2026-11-01T09:00:00",
+      "url": "https://www.instagram.com/p/De-61MFgYKG/?img_index=1",
       "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1WrkrieLiNDQOwgLVyGljdhScDnZHKU2u",
+        "https://drive.google.com/uc?export=view&id=1yvGhjZXtjHmBHB5VKdgqroLB-_3U_zdw",
+        "https://drive.google.com/uc?export=view&id=1odyEVh8CtfSxmwdoikI4j_ZtieSdwTce",
         "https://drive.google.com/uc?export=view&id=1QCV7iKtzxd5fHseufXf6PA7DkjdAnNRP",
-        "https://drive.google.com/uc?export=view&id=16Bjp5GJvfltcASY1rpYwphvZx48t-s1d",
         "https://drive.google.com/uc?export=view&id=1uw-m3u_2Ij-az21CwXUfXLCjmEiKBbHy",
         "https://drive.google.com/uc?export=view&id=1bgTfwqssvFQzB0RNsREIZ4HL1VuIIypn",
-        "https://drive.google.com/uc?export=view&id=1VfWvIYu85Q945QgjjX5ns5OAQiyRDNPG",
-        "https://drive.google.com/uc?export=view&id=1m1bTYKmiwcBL19avDta3RUH8w4R734e8"
+        "https://drive.google.com/uc?export=view&id=1m1bTYKmiwcBL19avDta3RUH8w4R734e8",
+        "https://drive.google.com/uc?export=view&id=1SHSLfeYPxeOPWxeM5fckYf34pLjXb0ki",
+        "https://drive.google.com/uc?export=view&id=1faikXHduYIZdP-ednOGiJFAPr3GCvv3k",
+        "https://drive.google.com/uc?export=view&id=1hfb-muGBXFHzFJdb_76VymVuTO-l4Hl2",
+        "https://drive.google.com/uc?export=view&id=15CQLujivCpzILzq8MxsuGFdaqgAKLwNT",
+        "https://drive.google.com/uc?export=view&id=1BhvgnFgCXzha_pPkgy5f7d90vR0_S1d4",
+        "https://drive.google.com/uc?export=view&id=12pzQrtwQHZgwAMADoVyNZwCIrkXpmgRV",
+        "https://drive.google.com/uc?export=view&id=1fTpwmkjtrmT4QaaC3JhLBeJz0f3Iv5iN",
+        "https://drive.google.com/uc?export=view&id=1cFfsQl6wB5NYiIphFDMLSGJXtPWK2V8I",
+        "https://drive.google.com/uc?export=view&id=1p8p1DAsqcKCSEzH2DmjG3SfHRskonVCX",
+        "https://drive.google.com/uc?export=view&id=1QiDuT_d7N0eLhEtVsp9tfVvBFYT_CJzG",
+        "https://drive.google.com/uc?export=view&id=1f5N124Maj-vp0nr4On1475vSBfppHVrf",
+        "https://drive.google.com/uc?export=view&id=195mcGDTzudO2JELxK_XJrSaFuq7Hv6B1",
+        "https://drive.google.com/uc?export=view&id=1Z24Ucfjc1vTZUUgWRtk96S0kuaukZrxm",
+        "https://drive.google.com/uc?export=view&id=1SVfaJpxs3JAkcB546_jGUpd9T90S8PP3",
+        "https://drive.google.com/uc?export=view&id=1w-CJwDIfPD47CwTqQmjUIQbyJkMXMlfS",
+        "https://drive.google.com/uc?export=view&id=1rBK36SbZJ3waZQ-G1QRYgm1E4EvJYP0V"
       ]
     },
     {
