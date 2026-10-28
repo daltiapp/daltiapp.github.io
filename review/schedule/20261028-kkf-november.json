@@ -1,0 +1,449 @@
+{
+  "verifiedAt": "2026-10-28T23:22:13+09:00",
+  "dataVersion": "20261028.2",
+  "calendarUrl": "https://www.thekkf.or.kr/new_home/calendar/diary.php?F_year=2026&F_month=11&F_day=1",
+  "sourceRetrieval": "Existing NAS Proton Free collection VPN runner and permanent host pacing policy; source reads only; VPN stopped and verified after each job.",
+  "competitionChanges": [
+    {
+      "sourceSeq": 912,
+      "operation": "add",
+      "name": "제2회 KKF 전국 학생부 어질리티 평가전",
+      "date": "2026-11-07",
+      "unknownFields": [
+        "actual end time"
+      ],
+      "endAtCompatibility": "Same as known start, because source does not publish an end time; detailNotice states the limitation."
+    },
+    {
+      "sourceSeq": 905,
+      "operation": "update_existing_placeholder",
+      "beforeName": "2026 하반기 FCI 인터내셔널 어질리티 경기대회",
+      "name": "2026 강원 FCI 인터내셔널 어질리티 경기대회",
+      "date": "2026-11-21",
+      "applicationStartAt": "2026-10-29T00:00:00",
+      "applicationEndAt": "2026-11-08T23:59:59"
+    },
+    {
+      "sourceSeq": 914,
+      "operation": "add",
+      "name": "제1회 순천만 국가정원 어질리티 챔피언쉽",
+      "date": "2026-11-21",
+      "unknownFields": [
+        "applicationStartAt",
+        "applicationEndAt",
+        "judge"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "seq": 909,
+      "canonicalUrl": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909",
+      "sourceUrl": "https://www.thekkf.or.kr/new_home/calendar/detail.php?TableName=seminar&seq=909",
+      "images": [
+        {
+          "file": "seminar-poster.jpg",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1793156786_1ec30d3c77d291478f8f7341524429.jpg",
+          "mime": "image/jpeg",
+          "sha256": "a81e9b9473c8fe9fa1be5638a4f1e9f1dc1ef285b8245426495bd5c93ce54598",
+          "bytes": 531680,
+          "order": 1,
+          "title": "어질리티 세미나 포스터.jpg",
+          "driveFileId": "1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        }
+      ],
+      "attachmentCount": 0,
+      "sourceHtmlSha256": "5dfee753be009ba7d872f52bdd97d60fc176afdf943bbeff273efaf3c4f9c4cb"
+    },
+    {
+      "seq": 905,
+      "sourceUrl": "https://www.thekkf.or.kr/new_home/calendar/detail.php?TableName=seminar&seq=905&lang=",
+      "images": [
+        {
+          "file": "source-905-image-01.png",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1793148076_1e7c0f7d0322661311dc81298c62b1.png",
+          "mime": "image/png",
+          "sha256": "74fa481ef447cb7788f36a55939655732dfb321fa6ad6966aa73c17b3b39340c",
+          "bytes": 3893876,
+          "order": 1,
+          "title": "KakaoTalk_20261027_192706629.png",
+          "driveFileId": "11_pIzMG3-1vp0ATVo4u8FARfPx_9X5Nc",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=11_pIzMG3-1vp0ATVo4u8FARfPx_9X5Nc",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        },
+        {
+          "file": "source-905-image-02.png",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1793148783_4a3f35d9526265fe70889a2456c647.png",
+          "mime": "image/png",
+          "sha256": "ed66f72fca7fea2e73959159e6f287be8c1bfc807496c8bc833b9dd874a8bb88",
+          "bytes": 16350,
+          "order": 2,
+          "title": "KakaoTalk_20261028_095246239.png",
+          "driveFileId": "10g-5NVjzZaWgMwqPWFHg8vWgJPnEcFZp",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=10g-5NVjzZaWgMwqPWFHg8vWgJPnEcFZp",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        },
+        {
+          "file": "source-905-image-03.png",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1793149032_3167448812a23b86bf536ea03ee1ad.png",
+          "mime": "image/png",
+          "sha256": "511effcbd8d383601d61f2e8d42de46e1c063cc703cdf059cdf3d7b2dd76b58a",
+          "bytes": 291385,
+          "order": 3,
+          "title": "1771925126_AwLJs9pmJdQaly6MSWdoWyaFZU6Heo.png",
+          "driveFileId": "14vHyZhWsZoEI2I7gL8VpFwFoGyoVL6ch",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=14vHyZhWsZoEI2I7gL8VpFwFoGyoVL6ch",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        },
+        {
+          "file": "source-905-image-04.jpg",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1793153447_045ab7f8772d4ee2a80559028afd2c.jpg",
+          "mime": "image/jpeg",
+          "sha256": "c7519162ffb0daaec24bc7a12fe9b0f9639edcb6dbfe1f183ee2368d793da63b",
+          "bytes": 9379,
+          "order": 4,
+          "title": "571659854_10230871186544587_1553198954022086568_n.jpg",
+          "driveFileId": "1vqYKSQMT5zuqsMl06rDRRjHJHry8SYTQ",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=1vqYKSQMT5zuqsMl06rDRRjHJHry8SYTQ",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        }
+      ],
+      "links": [
+        {
+          "href": "javascript:;",
+          "onclick": "copyUrl()"
+        },
+        {
+          "href": "http://www.agility.co.kr",
+          "target": "_blank"
+        }
+      ],
+      "canonicalUrl": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=905",
+      "sourceHtmlSha256": "53288c5003a21cdced990e7d510f529a51e2fe9dec03109f79c32c3879ac67ca"
+    },
+    {
+      "seq": 910,
+      "sourceUrl": "https://www.thekkf.or.kr/new_home/calendar/detail.php?TableName=seminar&seq=910&lang=",
+      "images": [
+        {
+          "file": "seminar-poster.jpg",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1793156786_1ec30d3c77d291478f8f7341524429.jpg",
+          "mime": "image/jpeg",
+          "sha256": "a81e9b9473c8fe9fa1be5638a4f1e9f1dc1ef285b8245426495bd5c93ce54598",
+          "bytes": 531680,
+          "order": 1,
+          "title": "어질리티 세미나 포스터.jpg",
+          "driveFileId": "1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        }
+      ],
+      "links": [
+        {
+          "href": "javascript:;",
+          "onclick": "copyUrl()"
+        }
+      ],
+      "canonicalUrl": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=910",
+      "sourceHtmlSha256": "90d8e810ea8c7e6f43609a4cebf16249c3dd38ed3fa8429ae14b3c54b967531a"
+    },
+    {
+      "seq": 911,
+      "sourceUrl": "https://www.thekkf.or.kr/new_home/calendar/detail.php?TableName=seminar&seq=911&lang=",
+      "images": [
+        {
+          "file": "source-911-image-01.jpg",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1793156879_999f06dd918a3808347fb41c879184.jpg",
+          "mime": "image/jpeg",
+          "sha256": "a81e9b9473c8fe9fa1be5638a4f1e9f1dc1ef285b8245426495bd5c93ce54598",
+          "bytes": 531680,
+          "order": 1,
+          "title": "어질리티 세미나 포스터.jpg",
+          "driveFileId": "1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        }
+      ],
+      "links": [
+        {
+          "href": "javascript:;",
+          "onclick": "copyUrl()"
+        }
+      ],
+      "canonicalUrl": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=911",
+      "sourceHtmlSha256": "ccaa8aa9edb1cbe417141289f43241b6a6368731170d573d4094dcaec33610e2"
+    },
+    {
+      "seq": 912,
+      "sourceUrl": "https://www.thekkf.or.kr/new_home/calendar/detail.php?TableName=seminar&seq=912&lang=",
+      "images": [
+        {
+          "file": "source-912-image-01.jpg",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1792549243_96681f879050fb21ea83388e75cdb3.jpg",
+          "mime": "image/jpeg",
+          "sha256": "39ab45801b82694a73c938bd3e345b17f4a216afff3c99ca8d875885b496fa76",
+          "bytes": 405806,
+          "order": 1,
+          "title": "★agility.jpg",
+          "driveFileId": "10KwDSqoyiU73ROTw1kp58a5OUj8AR8CL",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=10KwDSqoyiU73ROTw1kp58a5OUj8AR8CL",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        }
+      ],
+      "links": [
+        {
+          "href": "javascript:;",
+          "onclick": "copyUrl()"
+        }
+      ],
+      "canonicalUrl": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=912",
+      "sourceHtmlSha256": "2efb36961f53acc335539220f034aa29b41ee251e446ced424443d8c8096a7ee"
+    },
+    {
+      "seq": 914,
+      "sourceUrl": "https://www.thekkf.or.kr/new_home/calendar/detail.php?TableName=seminar&seq=914&lang=",
+      "images": [
+        {
+          "file": "source-914-image-01.jpg",
+          "sourceUrl": "https://www.thekkf.or.kr/kkf_file/item/1793153138_94263c04ea6cc0c3e048a8f663b4c3.jpg",
+          "mime": "image/jpeg",
+          "sha256": "b72b6dbbaab9830b27c0ecb017984b0cafeab48351775a304b2a0fd15dbbeb32",
+          "bytes": 1183511,
+          "order": 1,
+          "title": "KakaoTalk_20261026_145614266.jpg",
+          "driveFileId": "1ev6VMSv4JoOSTxkvc_js8Eyfff2Ijz_s",
+          "publicUrl": "https://drive.google.com/uc?export=view&id=1ev6VMSv4JoOSTxkvc_js8Eyfff2Ijz_s",
+          "anyoneReader": true,
+          "anonymousHttpStatus": 200,
+          "publicHashMatchesSource": true
+        }
+      ],
+      "links": [
+        {
+          "href": "javascript:;",
+          "onclick": "copyUrl()"
+        }
+      ],
+      "canonicalUrl": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=914",
+      "sourceHtmlSha256": "d094fefdd096187753d8eb27742acff044e90c2d78ee41c3966614105372609f"
+    }
+  ],
+  "sourceEventImagePlacements": 9,
+  "downloadedSourceImageUrls": 8,
+  "uniqueSourceEventImageHashes": 7,
+  "profileImageCount": 1,
+  "uploadedUniqueImages": 8,
+  "anonymousPublicVerifiedImages": 8,
+  "activeMatchDetailImagesAdded": 6,
+  "pendingSeminarImages": 2,
+  "imageVerification": [
+    {
+      "seq": 905,
+      "order": 1,
+      "extension": "png",
+      "id": "11_pIzMG3-1vp0ATVo4u8FARfPx_9X5Nc",
+      "error": false,
+      "file": "source-905-image-01.png",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=11_pIzMG3-1vp0ATVo4u8FARfPx_9X5Nc",
+      "httpStatus": 200,
+      "mimeType": "image/png",
+      "sha256": "74fa481ef447cb7788f36a55939655732dfb321fa6ad6966aa73c17b3b39340c",
+      "byteSize": 3893876,
+      "width": 1086,
+      "height": 1448,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    },
+    {
+      "seq": 905,
+      "order": 2,
+      "extension": "png",
+      "id": "10g-5NVjzZaWgMwqPWFHg8vWgJPnEcFZp",
+      "error": false,
+      "file": "source-905-image-02.png",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=10g-5NVjzZaWgMwqPWFHg8vWgJPnEcFZp",
+      "httpStatus": 200,
+      "mimeType": "image/png",
+      "sha256": "ed66f72fca7fea2e73959159e6f287be8c1bfc807496c8bc833b9dd874a8bb88",
+      "byteSize": 16350,
+      "width": 810,
+      "height": 348,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    },
+    {
+      "seq": 905,
+      "order": 3,
+      "extension": "png",
+      "id": "14vHyZhWsZoEI2I7gL8VpFwFoGyoVL6ch",
+      "error": false,
+      "file": "source-905-image-03.png",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=14vHyZhWsZoEI2I7gL8VpFwFoGyoVL6ch",
+      "httpStatus": 200,
+      "mimeType": "image/png",
+      "sha256": "511effcbd8d383601d61f2e8d42de46e1c063cc703cdf059cdf3d7b2dd76b58a",
+      "byteSize": 291385,
+      "width": 1058,
+      "height": 806,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    },
+    {
+      "seq": 905,
+      "order": 4,
+      "extension": "jpg",
+      "id": "1vqYKSQMT5zuqsMl06rDRRjHJHry8SYTQ",
+      "error": false,
+      "file": "source-905-image-04.jpg",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1vqYKSQMT5zuqsMl06rDRRjHJHry8SYTQ",
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "c7519162ffb0daaec24bc7a12fe9b0f9639edcb6dbfe1f183ee2368d793da63b",
+      "byteSize": 9379,
+      "width": 206,
+      "height": 206,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    },
+    {
+      "seq": 912,
+      "order": 1,
+      "extension": "jpg",
+      "id": "10KwDSqoyiU73ROTw1kp58a5OUj8AR8CL",
+      "error": false,
+      "file": "source-912-image-01.jpg",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=10KwDSqoyiU73ROTw1kp58a5OUj8AR8CL",
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "39ab45801b82694a73c938bd3e345b17f4a216afff3c99ca8d875885b496fa76",
+      "byteSize": 405806,
+      "width": 1200,
+      "height": 1700,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    },
+    {
+      "seq": 914,
+      "order": 1,
+      "extension": "jpg",
+      "id": "1ev6VMSv4JoOSTxkvc_js8Eyfff2Ijz_s",
+      "error": false,
+      "file": "source-914-image-01.jpg",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1ev6VMSv4JoOSTxkvc_js8Eyfff2Ijz_s",
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "b72b6dbbaab9830b27c0ecb017984b0cafeab48351775a304b2a0fd15dbbeb32",
+      "byteSize": 1183511,
+      "width": 1754,
+      "height": 2480,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    },
+    {
+      "id": "1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+      "file": "jesus-profile.jpg",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "9c65ab97050e3c457bb63cf90921cbe9a824c6c1b721a21b1a99a8371ea1686f",
+      "byteSize": 167853,
+      "width": 1080,
+      "height": 1080,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    },
+    {
+      "id": "1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+      "file": "seminar-poster.jpg",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "a81e9b9473c8fe9fa1be5638a4f1e9f1dc1ef285b8245426495bd5c93ce54598",
+      "byteSize": 531680,
+      "width": 1086,
+      "height": 1448,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    }
+  ],
+  "venues": [
+    {
+      "sourceSeq": 905,
+      "name": "소노골프장",
+      "operation": "reuse",
+      "sourceVenueName": "홍천 소노벨 비발디파크 (구)골프연습장",
+      "address": "강원특별자치도 홍천군 서면 한치골길 262",
+      "existingLatitude": 37.6521031526954,
+      "existingLongitude": 127.687106349987,
+      "officialMapImageUrl": "https://www.thekkf.or.kr/kkf_file/item/1793149032_3167448812a23b86bf536ea03ee1ad.png",
+      "verification": "Official address matches existing venue. Existing facility coordinates retained; source map preserves the specific former driving range location."
+    },
+    {
+      "sourceSeq": 912,
+      "name": "소노벨 비발디파크메인센터",
+      "operation": "reuse",
+      "sourceVenueName": "홍천 소노벨 비발디파크 메인광장 (poster: 메인센터)",
+      "address": "강원특별자치도 홍천군 서면 한치골길 264",
+      "latitude": 37.6452854,
+      "longitude": 127.6821151,
+      "crossReferenceUrl": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board"
+    },
+    {
+      "sourceSeq": 914,
+      "name": "오천그린광장",
+      "operation": "add",
+      "address": "전라남도 순천시 오천동 702-1",
+      "latitude": 34.9332641914,
+      "longitude": 127.4995580511,
+      "officialAddressSource": "https://m.suncheon.go.kr/tour/suncheontour/0009/0024/",
+      "officialCoordinateSource": "https://www.data.go.kr/en/data/15013106/standard.do",
+      "coordinateReferenceRows": [
+        "2025년 오천워터아일랜드",
+        "정원예술제",
+        "2025 순천 비어페스타"
+      ]
+    }
+  ],
+  "sourceIssues": [
+    {
+      "sourceSeq": 914,
+      "kind": "application_qr_wrong_destination",
+      "qrUrl": "https://qrfy.io/jw-DgXlC9P",
+      "observedDestination": "https://k-dog.imweb.me/",
+      "observedTitle": "천안 K-DOG 페스티벌",
+      "handling": "Use KKF canonical detail URL; warning in detailNotice; no registration date inferred."
+    }
+  ],
+  "validation": {
+    "activeDataHarnessScope": "all",
+    "adminTests": {
+      "tests": 166,
+      "pass": 165,
+      "fail": 1,
+      "preExistingFailure": "tests/server.test.mjs:159 expects old folder name daltiapp.github.io; actual canonical folder is agility-data."
+    }
+  },
+  "notificationActions": {
+    "appPush": 0,
+    "telegram": 0,
+    "paidApiCalls": 0
+  }
+}

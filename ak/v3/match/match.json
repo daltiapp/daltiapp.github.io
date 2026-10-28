@@ -1890,6 +1890,28 @@
       ]
     },
     {
+      "name": "제2회 KKF 전국 학생부 어질리티 평가전",
+      "startAt": "2026-11-07T10:00:00",
+      "endAt": "2026-11-07T10:00:00",
+      "applicationStartAt": "2026-10-19T00:00:00",
+      "applicationEndAt": "2026-11-01T23:59:59",
+      "club": "한국애견연맹",
+      "detailStatus": "detail_ready",
+      "eventType": "평가전",
+      "location": "소노벨 비발디파크메인센터",
+      "judge": [
+        "김민성"
+      ],
+      "matchTypes": [
+        "어드밴스드"
+      ],
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=912",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=10KwDSqoyiU73ROTw1kp58a5OUj8AR8CL"
+      ],
+      "detailNotice": "11월 7일(토) 오전 10시, 홍천 소노벨 비발디파크 메인광장(포스터: 메인센터)에서 개최합니다. 종료 시각은 공개되지 않았습니다.\n참가 대상: 대한민국 중·고등학교 및 대학교 재학생 중 2000년 이후 출생자(2000년생 포함). 참가견 제한은 없으며 S·M·L 3체급, 어드밴스드 레벨로 운영합니다. 참가비는 30,000원입니다.\n접수는 10월 19일~11월 1일 자정까지이며, 포스터 QR의 공식 구글 신청서에 재학증명서 또는 학생증을 제출합니다. 체급별 1~3위 시상과 최우수 학교상, 체급별 1위 장학금 혜택이 안내돼 있습니다. 별도 진행되는 소노 LEEZ 랭킹전과 접수를 구분해 주세요."
+    },
+    {
       "applicationEndAt": "2026-10-30T23:59:59",
       "applicationStartAt": "2026-10-17T00:00:00",
       "club": "동물과사람",
@@ -1980,21 +2002,51 @@
       ]
     },
     {
-      "applicationEndAt": "",
-      "applicationStartAt": "",
+      "applicationEndAt": "2026-11-08T23:59:59",
+      "applicationStartAt": "2026-10-29T00:00:00",
       "club": "한국애견연맹",
-      "detailNotice": "",
+      "detailNotice": "원문 장소: 홍천 소노벨 비발디파크 (구)골프연습장(강원 홍천군 한치골길 262).\n08:00~08:30 참가자 입장·배번표 배포, 08:30~08:50 개회식, 08:50~09:00 코스 체크, 09:00~12:00 점핑Ⅰ·Ⅱ·Ⅲ, 12:00~13:00 중식, 13:00~16:00 어질리티Ⅰ·Ⅱ·Ⅲ, 16:00~17:00 상력 집계·시상식, 17:00 종료.\n접수: 10월 29일~11월 8일, KKF 어질리티위원회 홈페이지의 FCI 신청서로 접수합니다. 출진료는 1종목 60,000원, 2종목 100,000원이며 번외 경기는 종목당 30,000원입니다.\nFCI 인정 혈통서·마이크로칩 등록과 KKF 정회원 자격이 필요합니다. 미등록견은 원문의 번외 참가 조건을 확인해 주세요. KAM 정회원이 아닌 참가자는 시설 이용료 30,000원을 별도 납부합니다. 당일 KKF 내셔널 경기는 열리지 않습니다. 포스터·시간표·약도·심사위원 사진을 원문 순서대로 수록했습니다.",
       "detailStatus": "detail_ready",
-      "endAt": "2026-11-21T00:00:00",
+      "endAt": "2026-11-21T17:00:00",
       "eventType": "대회",
-      "judge": [],
-      "location": "미정",
-      "matchTypes": [
-        "미정"
+      "judge": [
+        "헤수스 페르난데스 크레스포"
       ],
-      "name": "2026 하반기 FCI 인터내셔널 어질리티 경기대회",
-      "startAt": "2026-11-21T00:00:00",
-      "url": ""
+      "location": "소노골프장",
+      "matchTypes": [
+        "점핑",
+        "어질리티"
+      ],
+      "name": "2026 강원 FCI 인터내셔널 어질리티 경기대회",
+      "startAt": "2026-11-21T08:00:00",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=905",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=11_pIzMG3-1vp0ATVo4u8FARfPx_9X5Nc",
+        "https://drive.google.com/uc?export=view&id=10g-5NVjzZaWgMwqPWFHg8vWgJPnEcFZp",
+        "https://drive.google.com/uc?export=view&id=14vHyZhWsZoEI2I7gL8VpFwFoGyoVL6ch",
+        "https://drive.google.com/uc?export=view&id=1vqYKSQMT5zuqsMl06rDRRjHJHry8SYTQ"
+      ]
+    },
+    {
+      "name": "제1회 순천만 국가정원 어질리티 챔피언쉽",
+      "startAt": "2026-11-21T09:00:00",
+      "endAt": "2026-11-21T17:00:00",
+      "applicationStartAt": "",
+      "applicationEndAt": "",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "대회",
+      "location": "오천그린광장",
+      "judge": [],
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ],
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=914",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1ev6VMSv4JoOSTxkvc_js8Eyfff2Ijz_s"
+      ],
+      "detailNotice": "11월 21일(토) 09:00~17:00, 순천만 국가정원 오천그린광장(전라남도 순천시 오천동 702-1)에서 개최합니다.\n챌린지 레벨(비기너·노비스), 타이니·스몰·미듐·라지 4체급으로 운영하며 포스터에 총상금 360만원이 안내돼 있습니다. 주최는 순천시, 주관은 한국어질리티연합입니다. 접수 기간과 심사위원은 공개되지 않았습니다.\n주의: 2026년 10월 28일 확인 시 포스터의 신청 QR이 천안 K-DOG 페스티벌 사이트로 연결됐습니다. 해당 QR로 신청하기 전에 주최·주관 측에 정확한 신청 경로를 확인해 주세요."
     }
   ]
 }
