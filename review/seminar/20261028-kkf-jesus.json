@@ -1,0 +1,162 @@
+{
+  "preparedAt": "2026-10-28T23:22:13+09:00",
+  "status": "pending_required_registration_start_date",
+  "reason": "Official poster and public application form do not state registration opening date. Installed app seminar mapper requires a valid registrationStartDate and displays it as the actual opening date; no guessed date was published.",
+  "officialSeminarUrls": [
+    "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909",
+    "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=910",
+    "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=911"
+  ],
+  "officialApplicationFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSf6ZC4eOG6ocOwTERmxvhRTNhl5_bLsOOQzVstIAU9IXO1tqg/viewform",
+  "confirmedDailySessions": [
+    "09:00–12:00 (6 teams)",
+    "14:00–17:00 (6 teams)"
+  ],
+  "confirmedFeeKrw": {
+    "KKFMember": 250000,
+    "nonmemberOrExpiredMember": 300000
+  },
+  "sourceVenueName": "홍천 소노벨 비발디파크 (구)골프연습장",
+  "venueIdToReuse": "소노골프장",
+  "candidates": [
+    {
+      "date": "2026-11-22T09:00:00",
+      "endDate": "2026-11-22T17:00:00",
+      "registrationStartDate": null,
+      "name": "헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나 (기초·노비스)",
+      "speaker": "헤수스 페르난데스 크레스포",
+      "speakerId": "jesus-fernandez-crespo",
+      "organizer": "한국애견연맹",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909",
+      "listImage": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR"
+      ]
+    },
+    {
+      "date": "2026-11-23T09:00:00",
+      "endDate": "2026-11-24T17:00:00",
+      "registrationStartDate": null,
+      "name": "헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나 (상위 레벨)",
+      "speaker": "헤수스 페르난데스 크레스포",
+      "speakerId": "jesus-fernandez-crespo",
+      "organizer": "한국애견연맹",
+      "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=910",
+      "listImage": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR"
+      ]
+    }
+  ],
+  "speaker": {
+    "id": "jesus-fernandez-crespo",
+    "displayName": "헤수스 페르난데스 크레스포",
+    "name": "헤수스 페르난데스 크레스포",
+    "nameKo": "헤수스 페르난데스 크레스포",
+    "nameEn": "Jesús Fernández Crespo",
+    "country": "스페인",
+    "instagramUrl": "https://www.instagram.com/jesusfernandezcrespo/",
+    "summary": "2006년부터 어질리티에 참여한 스페인의 선수·트레이너·국제 심사위원입니다. 유럽 등지에서 훈련 수업과 세미나를 진행하며, WAO와 Crufts 우승 이력이 있습니다.",
+    "competitionAchievements": [
+      {
+        "year": 2022,
+        "event": "World Agility Open",
+        "category": "Pentathlon 300",
+        "result": "우승",
+        "dog": "Mokka",
+        "sourceUrl": "https://worldagilityopen.com/onewebmedia/2022%20Medal%20winners.pdf"
+      },
+      {
+        "year": 2023,
+        "event": "World Agility Open",
+        "category": "Games 300",
+        "result": "우승",
+        "dog": "Baileys",
+        "sourceUrl": "https://worldagilityopen.com/onewebmedia/2023%20Medal%20winners.pdf"
+      },
+      {
+        "year": 2023,
+        "event": "World Agility Open",
+        "category": "Pentathlon 300",
+        "result": "우승",
+        "dog": "Mokka",
+        "sourceUrl": "https://worldagilityopen.com/onewebmedia/2023%20Medal%20winners.pdf"
+      },
+      {
+        "year": 2025,
+        "event": "Crufts",
+        "category": "The Kennel Club Singles Agility Medium Final",
+        "result": "우승",
+        "dog": "Baileys",
+        "sourceUrl": "https://www.royalkennelclub.com/about-us/resources/media-centre/2025/march/agility-stars-crowned-at-crufts/"
+      }
+    ],
+    "judgingExperience": [
+      {
+        "year": 2023,
+        "event": "스웨덴 어질리티 선수권대회 (SM 2023)",
+        "role": "심사위원",
+        "sourceUrl": "https://agilityklubben.se/sm-2023/"
+      },
+      {
+        "year": 2026,
+        "event": "Prague Agility Party",
+        "role": "심사위원",
+        "sourceUrl": "https://pragueagilityparty.com/en/judges"
+      },
+      {
+        "year": 2026,
+        "event": "2026 강원 FCI 인터내셔널 어질리티 경기대회",
+        "role": "심사위원 예정",
+        "sourceUrl": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=905"
+      }
+    ],
+    "profileImage": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+    "profileImageSourceUrl": "https://www.instagram.com/jesusfernandezcrespo/",
+    "sourceUrls": [
+      "https://www.instagram.com/jesusfernandezcrespo/",
+      "https://pragueagilityparty.com/en/judges",
+      "https://worldagilityopen.com/onewebmedia/2022%20Medal%20winners.pdf",
+      "https://worldagilityopen.com/onewebmedia/2023%20Medal%20winners.pdf",
+      "https://www.royalkennelclub.com/about-us/resources/media-centre/2025/march/agility-stars-crowned-at-crufts/",
+      "https://agilityklubben.se/sm-2023/",
+      "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=905",
+      "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909"
+    ]
+  },
+  "verifiedImages": [
+    {
+      "id": "1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+      "file": "jesus-profile.jpg",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "9c65ab97050e3c457bb63cf90921cbe9a824c6c1b721a21b1a99a8371ea1686f",
+      "byteSize": 167853,
+      "width": 1080,
+      "height": 1080,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    },
+    {
+      "id": "1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+      "file": "seminar-poster.jpg",
+      "publicUrl": "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "sha256": "a81e9b9473c8fe9fa1be5638a4f1e9f1dc1ef285b8245426495bd5c93ce54598",
+      "byteSize": 531680,
+      "width": 1086,
+      "height": 1448,
+      "publicHashMatchesSource": true,
+      "anyoneReader": true
+    }
+  ],
+  "sourceImageCountByDay": {
+    "2026-11-22": 1,
+    "2026-11-23": 1,
+    "2026-11-24": 1
+  },
+  "posterHashesMatchAcrossAllThreeDays": true,
+  "appContractVerifiedWithRealDartMapper": true
+}
