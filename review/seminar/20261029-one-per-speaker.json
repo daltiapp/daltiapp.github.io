@@ -1,0 +1,629 @@
+{
+  "verifiedAt": "2026-10-29T00:36:26+09:00",
+  "dataVersion": "20261029.2",
+  "userInstruction": "접수마감·선착순 문구 제거, 강사 1명당 세미나 1항목으로 통합",
+  "beforeSeminarCount": 16,
+  "afterSeminarCount": 12,
+  "mergedGroups": [
+    {
+      "speaker": "petr-pupik",
+      "beforeRows": [
+        {
+          "date": "2025-09-26T14:00:00",
+          "registrationStartDate": "2025-09-24",
+          "name": "피터퓨픽 코스디자인 온라인 세미나",
+          "speaker": "피터퓨픽",
+          "speakerId": "petr-pupik",
+          "organizer": "강아지숲",
+          "url": "https://www.instagram.com/p/DO-JE3gk0i4/?img_index=1",
+          "listImage": "https://drive.google.com/uc?export=view&id=1ItZRrX6ff1WFgjVhonu2Yu-rpvYWNJHr",
+          "detailImages": [
+            "https://drive.google.com/uc?export=view&id=1HCPlfnlNPUqmIc-tSi654PdgRm3_2w5o",
+            "https://drive.google.com/uc?export=view&id=1W82K-Xvo_I0NRqK9-DWVlOf0b8SwKYkN",
+            "https://drive.google.com/uc?export=view&id=1wpHJPuuUlScyCUTBlOKt6UpG5PzwZ66I"
+          ]
+        },
+        {
+          "date": "2025-09-27T09:00:00",
+          "registrationStartDate": "2025-09-12",
+          "name": "피터퓨픽 어질리티 세미나",
+          "speaker": "피터퓨픽",
+          "speakerId": "petr-pupik",
+          "organizer": "강아지숲",
+          "url": "https://www.instagram.com/p/DOX5IQTEye3/?img_index=1",
+          "listImage": "https://drive.google.com/uc?export=view&id=1ItZRrX6ff1WFgjVhonu2Yu-rpvYWNJHr",
+          "detailImages": [
+            "https://drive.google.com/uc?export=view&id=1ulP5Qk5OwC0sFkB3II0-QsSvA-q0Fn1h",
+            "https://drive.google.com/uc?export=view&id=1mfspf-uQuxb56IPWbA6nTLashfcWJfFC",
+            "https://drive.google.com/uc?export=view&id=1YFm1-SRS-Whv78NRYBdzaXeQP48LRaqG",
+            "https://drive.google.com/uc?export=view&id=1zNWwxx4pHrY187NHVOZ6KypQCdoFSSg8",
+            "https://drive.google.com/uc?export=view&id=1-rP27nDIylEuqcp3_Z7S79prpBlh3ZQX"
+          ]
+        }
+      ],
+      "afterRow": {
+        "date": "2025-09-26T14:00:00",
+        "registrationStartDate": "2025-09-12",
+        "name": "피터퓨픽 어질리티 세미나",
+        "speaker": "피터퓨픽",
+        "speakerId": "petr-pupik",
+        "organizer": "강아지숲",
+        "url": "https://www.instagram.com/p/DOX5IQTEye3/?img_index=1",
+        "listImage": "https://drive.google.com/uc?export=view&id=1ItZRrX6ff1WFgjVhonu2Yu-rpvYWNJHr",
+        "detailImages": [
+          "https://drive.google.com/uc?export=view&id=1HCPlfnlNPUqmIc-tSi654PdgRm3_2w5o",
+          "https://drive.google.com/uc?export=view&id=1W82K-Xvo_I0NRqK9-DWVlOf0b8SwKYkN",
+          "https://drive.google.com/uc?export=view&id=1wpHJPuuUlScyCUTBlOKt6UpG5PzwZ66I",
+          "https://drive.google.com/uc?export=view&id=1ulP5Qk5OwC0sFkB3II0-QsSvA-q0Fn1h",
+          "https://drive.google.com/uc?export=view&id=1mfspf-uQuxb56IPWbA6nTLashfcWJfFC",
+          "https://drive.google.com/uc?export=view&id=1YFm1-SRS-Whv78NRYBdzaXeQP48LRaqG",
+          "https://drive.google.com/uc?export=view&id=1zNWwxx4pHrY187NHVOZ6KypQCdoFSSg8",
+          "https://drive.google.com/uc?export=view&id=1-rP27nDIylEuqcp3_Z7S79prpBlh3ZQX"
+        ],
+        "endDate": "2025-09-27T09:00:00"
+      },
+      "originalUrls": [
+        "https://www.instagram.com/p/DO-JE3gk0i4/?img_index=1",
+        "https://www.instagram.com/p/DOX5IQTEye3/?img_index=1"
+      ],
+      "selectedUrl": "https://www.instagram.com/p/DOX5IQTEye3/?img_index=1",
+      "dateRangeBasis": "Earliest original date to latest original endDate; if endDate was absent, preserve the original date fallback without inventing an ending time."
+    },
+    {
+      "speaker": "maurice-frenzen",
+      "beforeRows": [
+        {
+          "date": "2025-10-20T09:00:00",
+          "registrationStartDate": "2025-09-25",
+          "name": "모리스 파운데이션 세미나",
+          "speaker": "모리스",
+          "speakerId": "maurice-frenzen",
+          "organizer": "발트바우",
+          "url": "https://waldbow.com/program/programOpen.do",
+          "listImage": "https://drive.google.com/uc?export=view&id=1yaLsbl5uma86fyrf0h1vrdAq1D3RoZwg",
+          "detailImages": []
+        },
+        {
+          "date": "2025-10-21T09:00:00",
+          "registrationStartDate": "2025-09-25",
+          "name": "모리스 파운데이션 코스러닝 세미나",
+          "speaker": "모리스",
+          "speakerId": "maurice-frenzen",
+          "organizer": "발트바우",
+          "url": "https://waldbow.com/program/programOpen.do",
+          "listImage": "https://drive.google.com/uc?export=view&id=1yaLsbl5uma86fyrf0h1vrdAq1D3RoZwg",
+          "detailImages": []
+        }
+      ],
+      "afterRow": {
+        "date": "2025-10-20T09:00:00",
+        "registrationStartDate": "2025-09-25",
+        "name": "모리스 파운데이션 세미나",
+        "speaker": "모리스",
+        "speakerId": "maurice-frenzen",
+        "organizer": "발트바우",
+        "url": "https://waldbow.com/program/programOpen.do",
+        "listImage": "https://drive.google.com/uc?export=view&id=1yaLsbl5uma86fyrf0h1vrdAq1D3RoZwg",
+        "detailImages": [],
+        "endDate": "2025-10-21T09:00:00"
+      },
+      "originalUrls": [
+        "https://waldbow.com/program/programOpen.do"
+      ],
+      "selectedUrl": "https://waldbow.com/program/programOpen.do",
+      "dateRangeBasis": "Earliest original date to latest original endDate; if endDate was absent, preserve the original date fallback without inventing an ending time."
+    },
+    {
+      "speaker": "tamas-traj",
+      "beforeRows": [
+        {
+          "date": "2025-10-29T09:00:00",
+          "registrationStartDate": "2025-10-18",
+          "name": "타마스 어질리티 세미나",
+          "speaker": "타마스",
+          "speakerId": "tamas-traj",
+          "organizer": "강아지숲",
+          "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1",
+          "listImage": "https://drive.google.com/uc?export=view&id=1mpGMZFKgnYig7T3HMAlShgcL6yA89LNC",
+          "detailImages": [
+            "https://drive.google.com/uc?export=view&id=1keifB9CB94dWBtamvhHkb7VIDMcfFrfB",
+            "https://drive.google.com/uc?export=view&id=1bKsUsdLgPQArG6V7OgKE1RJldUnQUJPQ",
+            "https://drive.google.com/uc?export=view&id=1P1jpDOG0LtAlPusAh7-jh0yyp3kEo0D0",
+            "https://drive.google.com/uc?export=view&id=12rg1n5xSIyGHkXJI52uiKfSU9Zi2mViZ"
+          ]
+        },
+        {
+          "date": "2025-10-30T12:00:00",
+          "registrationStartDate": "2025-10-18",
+          "name": "타마스 어질리티 코스디자인 세미나",
+          "speaker": "타마스",
+          "speakerId": "tamas-traj",
+          "organizer": "강아지숲",
+          "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1",
+          "listImage": "https://drive.google.com/uc?export=view&id=1mpGMZFKgnYig7T3HMAlShgcL6yA89LNC",
+          "detailImages": [
+            "https://drive.google.com/uc?export=view&id=1keifB9CB94dWBtamvhHkb7VIDMcfFrfB",
+            "https://drive.google.com/uc?export=view&id=1bKsUsdLgPQArG6V7OgKE1RJldUnQUJPQ",
+            "https://drive.google.com/uc?export=view&id=1P1jpDOG0LtAlPusAh7-jh0yyp3kEo0D0",
+            "https://drive.google.com/uc?export=view&id=12rg1n5xSIyGHkXJI52uiKfSU9Zi2mViZ"
+          ]
+        }
+      ],
+      "afterRow": {
+        "date": "2025-10-29T09:00:00",
+        "registrationStartDate": "2025-10-18",
+        "name": "타마스 어질리티 세미나",
+        "speaker": "타마스",
+        "speakerId": "tamas-traj",
+        "organizer": "강아지숲",
+        "url": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1",
+        "listImage": "https://drive.google.com/uc?export=view&id=1mpGMZFKgnYig7T3HMAlShgcL6yA89LNC",
+        "detailImages": [
+          "https://drive.google.com/uc?export=view&id=1keifB9CB94dWBtamvhHkb7VIDMcfFrfB",
+          "https://drive.google.com/uc?export=view&id=1bKsUsdLgPQArG6V7OgKE1RJldUnQUJPQ",
+          "https://drive.google.com/uc?export=view&id=1P1jpDOG0LtAlPusAh7-jh0yyp3kEo0D0",
+          "https://drive.google.com/uc?export=view&id=12rg1n5xSIyGHkXJI52uiKfSU9Zi2mViZ"
+        ],
+        "endDate": "2025-10-30T12:00:00"
+      },
+      "originalUrls": [
+        "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1"
+      ],
+      "selectedUrl": "https://www.instagram.com/p/DP7p5EaE3yO/?img_index=1",
+      "dateRangeBasis": "Earliest original date to latest original endDate; if endDate was absent, preserve the original date fallback without inventing an ending time."
+    },
+    {
+      "speaker": "jesus-fernandez-crespo",
+      "beforeRows": [
+        {
+          "date": "2026-11-22T09:00:00",
+          "endDate": "2026-11-22T17:00:00",
+          "registrationStartDate": "2026-10-29",
+          "name": "[선착순] 헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나 (기초·노비스)",
+          "speaker": "헤수스 페르난데스 크레스포",
+          "speakerId": "jesus-fernandez-crespo",
+          "organizer": "한국애견연맹",
+          "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909",
+          "listImage": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+          "detailImages": [
+            "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR"
+          ]
+        },
+        {
+          "date": "2026-11-23T09:00:00",
+          "endDate": "2026-11-24T17:00:00",
+          "registrationStartDate": "2026-10-29",
+          "name": "[선착순] 헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나 (상위 레벨)",
+          "speaker": "헤수스 페르난데스 크레스포",
+          "speakerId": "jesus-fernandez-crespo",
+          "organizer": "한국애견연맹",
+          "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=910",
+          "listImage": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+          "detailImages": [
+            "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR"
+          ]
+        }
+      ],
+      "afterRow": {
+        "date": "2026-11-22T09:00:00",
+        "endDate": "2026-11-24T17:00:00",
+        "registrationStartDate": "2026-10-29",
+        "name": "헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나",
+        "speaker": "헤수스 페르난데스 크레스포",
+        "speakerId": "jesus-fernandez-crespo",
+        "organizer": "한국애견연맹",
+        "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909",
+        "listImage": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+        "detailImages": [
+          "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR"
+        ]
+      },
+      "originalUrls": [
+        "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909",
+        "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=910"
+      ],
+      "selectedUrl": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909",
+      "dateRangeBasis": "Earliest original date to latest original endDate; if endDate was absent, preserve the original date fallback without inventing an ending time."
+    }
+  ],
+  "titleOnlyChanges": [
+    {
+      "speaker": "pau-serrano-ciratusa",
+      "before": "[접수 마감] 파우 세라노 시라투사 어질리티 세미나",
+      "after": "파우 세라노 시라투사 어질리티 세미나"
+    },
+    {
+      "speaker": "stefanie-semkat",
+      "before": "[접수 마감] 스테파니 젬카트 어질리티 세미나",
+      "after": "스테파니 젬카트 어질리티 세미나"
+    }
+  ],
+  "allOriginalSpeakerProfilesPreserved": true,
+  "allDistinctDetailImagesPreserved": true,
+  "allDistinctListImagesPreserved": true,
+  "originalDetailImageReferences": 42,
+  "mergedDetailImageReferences": 37,
+  "publicImagesRevalidated": 27,
+  "imageVerification": [
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1ItZRrX6ff1WFgjVhonu2Yu-rpvYWNJHr",
+      "id": "1ItZRrX6ff1WFgjVhonu2Yu-rpvYWNJHr",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/png",
+      "width": 1334,
+      "height": 1472,
+      "sha256": "b775bcd9bb276b9e0f80aec595c3730856696b4f948bbb6f99117203837f1806",
+      "byteSize": 801569
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1HCPlfnlNPUqmIc-tSi654PdgRm3_2w5o",
+      "id": "1HCPlfnlNPUqmIc-tSi654PdgRm3_2w5o",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1439,
+      "height": 1799,
+      "sha256": "88a6ec07d96ebf6d6a47bf88745c4a908d11f29a1454bcc927090f65bc2f0108",
+      "byteSize": 489584
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1W82K-Xvo_I0NRqK9-DWVlOf0b8SwKYkN",
+      "id": "1W82K-Xvo_I0NRqK9-DWVlOf0b8SwKYkN",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1800,
+      "sha256": "57ecb9bc5d356ab5a6f4bd6144c46838bc7c09cdbc04a23dc1d0c1e645dcf153",
+      "byteSize": 315813
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1wpHJPuuUlScyCUTBlOKt6UpG5PzwZ66I",
+      "id": "1wpHJPuuUlScyCUTBlOKt6UpG5PzwZ66I",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1439,
+      "height": 1799,
+      "sha256": "02b0d84b02d755620d0217be29a8f6f756840fdc9607e1d6ccee9b67fb5014e3",
+      "byteSize": 479559
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1ulP5Qk5OwC0sFkB3II0-QsSvA-q0Fn1h",
+      "id": "1ulP5Qk5OwC0sFkB3II0-QsSvA-q0Fn1h",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1439,
+      "height": 1799,
+      "sha256": "8c827cf5555ff011cb478ccaaea4f778739b6ce3baa83c60a2e9f5eaffd95970",
+      "byteSize": 506457
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1mfspf-uQuxb56IPWbA6nTLashfcWJfFC",
+      "id": "1mfspf-uQuxb56IPWbA6nTLashfcWJfFC",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1800,
+      "sha256": "935c87a1a82a25015449a07d20bdf0d249076c58074f64fc844f94794e2f0da4",
+      "byteSize": 261355
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1YFm1-SRS-Whv78NRYBdzaXeQP48LRaqG",
+      "id": "1YFm1-SRS-Whv78NRYBdzaXeQP48LRaqG",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1439,
+      "height": 1799,
+      "sha256": "aee0c9b99f8d4cce8950757cd88c7eec0e4d71fd95bb90620d33116dc5e71770",
+      "byteSize": 334578
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1zNWwxx4pHrY187NHVOZ6KypQCdoFSSg8",
+      "id": "1zNWwxx4pHrY187NHVOZ6KypQCdoFSSg8",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1439,
+      "height": 1799,
+      "sha256": "aac3d13ab4b1dab6c5763d2145a208628713de4b8a044fd27cc105fab1e99744",
+      "byteSize": 326730
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1-rP27nDIylEuqcp3_Z7S79prpBlh3ZQX",
+      "id": "1-rP27nDIylEuqcp3_Z7S79prpBlh3ZQX",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1439,
+      "height": 1799,
+      "sha256": "175ac8f1c26a9b2077c5bdb4f34084cab264bcd0591259b0e43d43fdc919fa48",
+      "byteSize": 466467
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1yaLsbl5uma86fyrf0h1vrdAq1D3RoZwg",
+      "id": "1yaLsbl5uma86fyrf0h1vrdAq1D3RoZwg",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/png",
+      "width": 1392,
+      "height": 1724,
+      "sha256": "b62b313f371c053277cedc28c7902a21f011990ceed01c5f31e26a0ee93915e2",
+      "byteSize": 978640
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1mpGMZFKgnYig7T3HMAlShgcL6yA89LNC",
+      "id": "1mpGMZFKgnYig7T3HMAlShgcL6yA89LNC",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/png",
+      "width": 1018,
+      "height": 1360,
+      "sha256": "246964ba17c4949cd241f1aadbc04a358fbae3512ec25858b8202027148c4e90",
+      "byteSize": 544065
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1keifB9CB94dWBtamvhHkb7VIDMcfFrfB",
+      "id": "1keifB9CB94dWBtamvhHkb7VIDMcfFrfB",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1800,
+      "sha256": "8eb369884a1003e06131c3030c623c3737347ed8a61c3b0398f6bd4e426df417",
+      "byteSize": 526181
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1bKsUsdLgPQArG6V7OgKE1RJldUnQUJPQ",
+      "id": "1bKsUsdLgPQArG6V7OgKE1RJldUnQUJPQ",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1800,
+      "sha256": "38611381ec58f806befba48cd2aa509de6a29f6384d090af1121dfc7636c812c",
+      "byteSize": 447874
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1P1jpDOG0LtAlPusAh7-jh0yyp3kEo0D0",
+      "id": "1P1jpDOG0LtAlPusAh7-jh0yyp3kEo0D0",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1800,
+      "sha256": "be4beca2dd7e50ff230c7bb931f6e1246191feb01c5dfd483a52541a84b10f66",
+      "byteSize": 401195
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=12rg1n5xSIyGHkXJI52uiKfSU9Zi2mViZ",
+      "id": "12rg1n5xSIyGHkXJI52uiKfSU9Zi2mViZ",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1800,
+      "sha256": "db0b2d2e74e03ec4453992ae36feed9a780382db832fb6e283dfdc791c591671",
+      "byteSize": 374213
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1taoDHsKkepOckJ3_haLteUUNDip6DZT8",
+      "id": "1taoDHsKkepOckJ3_haLteUUNDip6DZT8",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 589,
+      "height": 682,
+      "sha256": "19d2bd751e311235ee0c8b242d08be3cd0746ee0aadc8baad942f5c4435d0ea9",
+      "byteSize": 75516
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1JIGVkvMI_6DpnqgHDrn4QO856pKokM-r",
+      "id": "1JIGVkvMI_6DpnqgHDrn4QO856pKokM-r",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1797,
+      "sha256": "53da793bcc3c7acae864b46a88948a0cf0308b575208394209263b27cf30fbf6",
+      "byteSize": 402475
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1O48EIuVpTnBGn10rXmACqIMTlO6OqcnH",
+      "id": "1O48EIuVpTnBGn10rXmACqIMTlO6OqcnH",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1797,
+      "sha256": "8d6c071b23e338040d7bc649ad699d1452892aa37da41009d7e6034596b471cb",
+      "byteSize": 207159
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1hzNIIGDKDz3L_PAdaYKrYlpoKA2EFvk8",
+      "id": "1hzNIIGDKDz3L_PAdaYKrYlpoKA2EFvk8",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1797,
+      "sha256": "f51b210510ad52cab2c4965cc7acf20f49af65edcd5931974e81fa6fe6f306fa",
+      "byteSize": 302100
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=17T6proF6Q1Cy5ONNoTCphTBgocR-gV0c",
+      "id": "17T6proF6Q1Cy5ONNoTCphTBgocR-gV0c",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1797,
+      "sha256": "4e12d146226defb2cb518d05d82fde9a7dbb0bc40204a598c272c1b49e19c0c9",
+      "byteSize": 361150
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1sb1CZ5CmhWfPVwG52VTPgAasa4ZVxMdl",
+      "id": "1sb1CZ5CmhWfPVwG52VTPgAasa4ZVxMdl",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/png",
+      "width": 755,
+      "height": 1342,
+      "sha256": "43c27041dd62b5bc87b463b64c6dc3823011bd5b1d9d25cee6cc12b8ffc62841",
+      "byteSize": 1296319
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=15LW0Khr_ALsGQKT1WwdsmDV8myv3BcZc",
+      "id": "15LW0Khr_ALsGQKT1WwdsmDV8myv3BcZc",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1797,
+      "sha256": "0063d71237b3f30f234c087f94ea49eb71650253c4f05cd1108e40fd6d236867",
+      "byteSize": 457358
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1ooqXYklF-qex7LU6WZspKsHOPm-Gm_Wh",
+      "id": "1ooqXYklF-qex7LU6WZspKsHOPm-Gm_Wh",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1797,
+      "sha256": "e8d3fbe5059e3f801fd3da8d75547f2693aaa03f0ad22d704194525d3bb9ec6e",
+      "byteSize": 271443
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1fOINmN0mLQw3IjrDS8dkILl43uY9koyg",
+      "id": "1fOINmN0mLQw3IjrDS8dkILl43uY9koyg",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1797,
+      "sha256": "50cbb5f1cd4b7c5f813c24c7ae5d0adb5bdfa21227204843a951ec8356715c34",
+      "byteSize": 224027
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1HnGwnS0avKhGiinttr7aDwumyhZysRfc",
+      "id": "1HnGwnS0avKhGiinttr7aDwumyhZysRfc",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1440,
+      "height": 1797,
+      "sha256": "13b3e04b9c782122a11d948e702552b7afc36cbef3552f1730341eee90cb7917",
+      "byteSize": 291901
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+      "id": "1vTt83tVATJrpFsEw4b0jqdSn1UuJUpex",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "9c65ab97050e3c457bb63cf90921cbe9a824c6c1b721a21b1a99a8371ea1686f",
+      "byteSize": 167853
+    },
+    {
+      "url": "https://drive.google.com/uc?export=view&id=1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+      "id": "1X_y1_m_MfTcXy1QjACDyrBAJDlBI1tXR",
+      "anyoneReader": true,
+      "lookupStatus": "fulfilled",
+      "ok": true,
+      "httpStatus": 200,
+      "mimeType": "image/jpeg",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "a81e9b9473c8fe9fa1be5638a4f1e9f1dc1ef285b8245426495bd5c93ce54598",
+      "byteSize": 531680
+    }
+  ],
+  "newDriveUploads": 0,
+  "notificationActions": {
+    "appPush": 0,
+    "telegram": 0,
+    "paidApiCalls": 0
+  },
+  "validation": {
+    "realAppMapper": {
+      "ok": true,
+      "seminarsParsed": 12,
+      "speakersParsed": 10,
+      "oneItemPerSpeaker": true,
+      "registrationWordingInTitles": false,
+      "speakerLinksValid": true,
+      "jesusPeriod": "2026-11-22/2026-11-24"
+    },
+    "activeDataHarness": {
+      "ok": true,
+      "scope": "all",
+      "jsonFileCount": 201,
+      "competitionCount": 82
+    },
+    "adminTests": {
+      "total": 166,
+      "pass": 165,
+      "fail": 1,
+      "preExistingFailure": "tests/server.test.mjs:159 expects legacy folder daltiapp.github.io; canonical data folder is agility-data."
+    }
+  }
+}
