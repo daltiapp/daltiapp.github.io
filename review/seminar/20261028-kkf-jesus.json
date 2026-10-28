@@ -1,7 +1,6 @@
 {
   "preparedAt": "2026-10-28T23:22:13+09:00",
-  "status": "pending_required_registration_start_date",
-  "reason": "Official poster and public application form do not state registration opening date. Installed app seminar mapper requires a valid registrationStartDate and displays it as the actual opening date; no guessed date was published.",
+  "status": "published",
   "officialSeminarUrls": [
     "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=909",
     "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=910",
@@ -22,8 +21,8 @@
     {
       "date": "2026-11-22T09:00:00",
       "endDate": "2026-11-22T17:00:00",
-      "registrationStartDate": null,
-      "name": "헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나 (기초·노비스)",
+      "registrationStartDate": "2026-10-29",
+      "name": "[선착순] 헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나 (기초·노비스)",
       "speaker": "헤수스 페르난데스 크레스포",
       "speakerId": "jesus-fernandez-crespo",
       "organizer": "한국애견연맹",
@@ -36,8 +35,8 @@
     {
       "date": "2026-11-23T09:00:00",
       "endDate": "2026-11-24T17:00:00",
-      "registrationStartDate": null,
-      "name": "헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나 (상위 레벨)",
+      "registrationStartDate": "2026-10-29",
+      "name": "[선착순] 헤수스 페르난데스 크레스포 FCI 국제 어질리티 세미나 (상위 레벨)",
       "speaker": "헤수스 페르난데스 크레스포",
       "speakerId": "jesus-fernandez-crespo",
       "organizer": "한국애견연맹",
@@ -158,5 +157,65 @@
     "2026-11-24": 1
   },
   "posterHashesMatchAcrossAllThreeDays": true,
-  "appContractVerifiedWithRealDartMapper": true
+  "appContractVerifiedWithRealDartMapper": true,
+  "resolvedAt": "2026-10-29T00:18:28+09:00",
+  "publishedDataVersion": "20261029.1",
+  "resolvedBlocker": "Official poster and public application form do not state registration opening date. Installed app seminar mapper requires a valid registrationStartDate and displays it as the actual opening date; no guessed date was published.",
+  "registrationConfirmation": {
+    "source": "user",
+    "confirmedOn": "2026-10-29",
+    "statement": "신청지금부터 선착순이야 세미나 하기전까지",
+    "registrationStartDate": "2026-10-29",
+    "firstComeFirstServed": true,
+    "acceptUntil": "before_seminar",
+    "activeDisplay": "[선착순] 제목과 기존 앱의 접수 중 상태 표시를 사용한다.",
+    "basis": "사용자가 현재 접수 중이라고 확인한 날짜를 앱의 필수 접수 기준일로 사용한다. 별도 과거 오픈일이나 미확인 마감 시각은 만들지 않는다."
+  },
+  "imagesReverifiedAt": "2026-10-29T00:18:28+09:00",
+  "imagePublication": {
+    "sourcePosterPlacements": 3,
+    "uniquePosterHashes": 1,
+    "posterDownloadsFromDistinctSourceUrls": 2,
+    "uniquePosterDriveFiles": 1,
+    "profileImageDriveFiles": 1,
+    "anonymousPublicVerifiedUniqueImages": 2,
+    "activeSeminarDetailImageReferences": 2,
+    "activeSeminarListImageReferences": 2,
+    "activeSpeakerProfileImageReferences": 1
+  },
+  "venueLinkVerified": {
+    "name": "소노골프장",
+    "location": {
+      "name": "소노골프장",
+      "address": "강원특별자치도 홍천군 서면 한치골길 262",
+      "latitude": 37.6521031526954,
+      "longitude": 127.687106349987
+    },
+    "sourceVenueName": "홍천 소노벨 비발디파크 (구)골프연습장"
+  },
+  "validation": {
+    "activeDataHarness": {
+      "scope": "all",
+      "ok": true,
+      "jsonFileCount": 201,
+      "competitionCount": 82,
+      "noticeCount": 136
+    },
+    "realAppMapper": {
+      "ok": true,
+      "seminarsParsed": 16,
+      "speakersParsed": 10,
+      "newCourses": 2,
+      "newProfileAchievements": 4,
+      "newProfileJudgingRecords": 3
+    },
+    "adminTests": {
+      "total": 166,
+      "pass": 165,
+      "fail": 1,
+      "preExistingFailure": "tests/server.test.mjs:159 expects legacy folder daltiapp.github.io; actual folder is agility-data."
+    },
+    "paidApiCalls": 0,
+    "appPushSent": 0
+  }
 }
