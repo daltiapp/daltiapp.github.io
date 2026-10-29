@@ -1,0 +1,188 @@
+{
+  "verifiedAt": "2026-10-29T20:44:46+09:00",
+  "dataVersion": "20261029.5",
+  "channel": "KKF어질리티위원회",
+  "channelId": "_GptxdX",
+  "eventId": "event-kakao-GptxdX-114855200-61dee1502fc0",
+  "eventName": "익산 FCI 인터내셔널 어질리티 경기대회",
+  "eventDate": "2026-10-18",
+  "sourcePosts": [
+    "https://pf.kakao.com/_GptxdX/114921647",
+    "https://pf.kakao.com/_GptxdX/114921970"
+  ],
+  "rootCause": [
+    "Result post title says 10.08 although all six result images say 2026.10.18.",
+    "Six course maps were assigned to a separate undated event, absent from the October 18 category/date views.",
+    "Unchanged successful post fingerprints prevent automatic reclassification."
+  ],
+  "correction": "Keep the existing October 18 event ID, connect all six course maps and correct the twelve display titles to 10.18(일). Preserve original source titles and every image/asset ID.",
+  "sourceImageCount": 12,
+  "downloadedAndDecodedImages": 12,
+  "sourceAttachmentOrderPreserved": true,
+  "existingEntryListsPreserved": 6,
+  "afterCounts": {
+    "entryListIds": 6,
+    "resultIds": 6,
+    "courseMapIds": 6
+  },
+  "assetCountBefore": 3381,
+  "assetCountAfter": 3381,
+  "eventCountBefore": 199,
+  "eventCountAfter": 198,
+  "removedDuplicateEventId": "event-kakao-GptxdX-114921647-23c9bf557575",
+  "newImageUploads": 0,
+  "imageReferencesChanged": 0,
+  "changedAssetIds": [
+    "asset-kakao-GptxdX-195367455",
+    "asset-kakao-GptxdX-195369942",
+    "asset-kakao-GptxdX-195371652",
+    "asset-kakao-GptxdX-195371653",
+    "asset-kakao-GptxdX-195372622",
+    "asset-kakao-GptxdX-195373718",
+    "asset-kakao-GptxdX-195365914",
+    "asset-kakao-GptxdX-195365915",
+    "asset-kakao-GptxdX-195365916",
+    "asset-kakao-GptxdX-195365917",
+    "asset-kakao-GptxdX-195365918",
+    "asset-kakao-GptxdX-195365919"
+  ],
+  "appPushSent": 0,
+  "paidApiCalls": 0,
+  "sourceEvidence": {
+    "channelId": "_GptxdX",
+    "eventId": "event-kakao-GptxdX-114855200-61dee1502fc0",
+    "event": {
+      "name": "익산 FCI 인터내셔널 어질리티 경기대회",
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-18",
+      "competitionGroup": "OFFICIAL_PROMOTION"
+    },
+    "evidence": "2026-10-29 사용자 확인과 결과표 6장 상단의 2026.10.18 개최일을 대조. 코스 게시물의 어질 1·2·3/점핑 1·2·3 여섯 첨부를 같은 날 익산 대회로 확인. 결과 제목 10.08과 코스 요일 금은 원문 오기이며 source.postTitle과 원본 이미지는 보존한다.",
+    "posts": [
+      {
+        "postId": "114921647",
+        "kind": "course_map",
+        "sourceTitles": [
+          "10.18(금) 익산 FCI 인터내셔널 경기대회 코스"
+        ],
+        "displayTitle": "10.18(일) 익산 FCI 인터내셔널 경기대회 코스",
+        "attachments": [
+          {
+            "mediaId": "195365914",
+            "url": "https://k.kakaocdn.net/dn/lYDax/dJMcafoiDn7/XYfFP2HzzhFBDpvxygzhO1/img_xl.jpg",
+            "sha256": "623fe6b17e2fa1e3ef62b64815751f0f37836db354aa951aa818ff5c22f76cb8"
+          },
+          {
+            "mediaId": "195365915",
+            "url": "https://k.kakaocdn.net/dn/qs4QD/dJMcadwXyeB/W5SOYDgI23tAR5P0AgZEak/img_xl.jpg",
+            "sha256": "030d5de065d929512c2d9b60665434c8d84d974a9f5b72cae886fd2c09b48006"
+          },
+          {
+            "mediaId": "195365916",
+            "url": "https://k.kakaocdn.net/dn/2b1l4/dJMb992BYPb/kj6jOjSRATiKWaLjfK0F60/img_xl.jpg",
+            "sha256": "ddb0cc69ae83ddc5e677d7cbe6f7b6a4a380ff4cec07291bb45182bbd11fc9db"
+          },
+          {
+            "mediaId": "195365917",
+            "url": "https://k.kakaocdn.net/dn/5nlW0/dJMcacE9NMt/HbkvEHG0zVaRZsiTV6JLhk/img_xl.jpg",
+            "sha256": "147e5796c92823a4cb8938c0e71449119eba8d1952913d5a4689b45c468b1ccf"
+          },
+          {
+            "mediaId": "195365918",
+            "url": "https://k.kakaocdn.net/dn/ss3vw/dJMcaaAt9kC/ficNETVvAqAIl0zbF0Pdu1/img_xl.jpg",
+            "sha256": "1723954ab1dee3e2093d43ca23852f620f4fffca7d59d85d8206b852f753fd57"
+          },
+          {
+            "mediaId": "195365919",
+            "url": "https://k.kakaocdn.net/dn/jVY7c/dJMcaaAt9kE/0S480s4FBsx9xhkceNRLE0/img_xl.jpg",
+            "sha256": "fe48b9f83e0585bdf75aa94ddcb2f601f0f0e0ade0f3115d467733c47c514213"
+          }
+        ]
+      },
+      {
+        "postId": "114921970",
+        "kind": "result",
+        "sourceTitles": [
+          "10.08(일) 익산 FCI 인터내셔널 경기대회 기록"
+        ],
+        "displayTitle": "10.18(일) 익산 FCI 인터내셔널 경기대회 기록",
+        "attachments": [
+          {
+            "mediaId": "195367455",
+            "url": "https://k.kakaocdn.net/dn/DI3rg/dJMcacE9PPK/58LpsqsENBtFoAUcCvLj60/img_xl.jpg",
+            "sha256": "5f9b76b4f2e2a4300ce31356c1994ae64dcfaeda96825843c6b750623f315efe"
+          },
+          {
+            "mediaId": "195369942",
+            "url": "https://k.kakaocdn.net/dn/b7zFBY/dJMcaiZmi5a/VljM42NOYYKkQnH5xNdP60/img_xl.jpg",
+            "sha256": "6a3f2b498ad8cf94d16abb368f9a6599f9dc86b64d755b116463eab9aa743c30"
+          },
+          {
+            "mediaId": "195371652",
+            "url": "https://k.kakaocdn.net/dn/bh1ijd/dJMcafPp5Vr/9aFEXOn2Y8Ey8sQCNAfoD0/img_xl.jpg",
+            "sha256": "afbb572125a3b33313742d46fc353eeda3a793e3319927c2bfd5d8d723e128aa"
+          },
+          {
+            "mediaId": "195371653",
+            "url": "https://k.kakaocdn.net/dn/bIJGQX/dJMcagAB2CO/BOkE01t24cVOsMLnKGaJbk/img_xl.jpg",
+            "sha256": "000652d4be09a0c45fcb384eebb5b3504a2cb0a82bbdf4d043db8e52557bd29a"
+          },
+          {
+            "mediaId": "195372622",
+            "url": "https://k.kakaocdn.net/dn/kU10e/dJMcagHxkGs/Has477eh2jpA6SVmKI2kk0/img_xl.jpg",
+            "sha256": "bf39bb706b047e431f65573f2e45d9b97abe7eb7c3f025c313fad0dc513763d8"
+          },
+          {
+            "mediaId": "195373718",
+            "url": "https://k.kakaocdn.net/dn/cAPrnX/dJMcabzfQEf/hMHTxWfdY8g2I94se5Uqx0/img_xl.jpg",
+            "sha256": "0f423f257d5a9f7fb3c828d62531ca2b492e32c8d221e733f138678e7f1d7ca7"
+          }
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "activeDataHarness": {
+      "scope": "all",
+      "ok": true,
+      "activeJsonCount": 201
+    },
+    "scraperLibraryTests": {
+      "total": 124,
+      "passed": 124,
+      "newRegressionTests": 4,
+      "actualExternalMessagesSent": 0
+    },
+    "actualAppParserAndFilters": {
+      "ok": true,
+      "dataVersion": "20261029.5",
+      "eventCount": 198,
+      "assetCount": 3381,
+      "channel": "KKF어질리티위원회",
+      "eventDate": "2026-10-18 00:00:00.000",
+      "counts": {
+        "entryList": 6,
+        "result": 6,
+        "courseMap": 6
+      },
+      "scheduleLinkedMaterials": 18
+    },
+    "adminTests": {
+      "total": 166,
+      "passed": 165,
+      "failed": 1,
+      "knownFailure": "tests/server.test.mjs:159 still expects the old repository folder name daltiapp.github.io"
+    },
+    "imageVerification": {
+      "sourceImages": 12,
+      "sourceImagesDownloaded": 12,
+      "decodedOriginalImages": 12,
+      "sourceMimeType": "image/jpeg",
+      "allOriginalReferencesPreserved": true
+    },
+    "location": {
+      "scheduleLocation": "원광대학교",
+      "scheduleAndVenueUnchanged": true
+    }
+  }
+}
