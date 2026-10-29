@@ -1863,7 +1863,7 @@
       "detailStatus": "detail_ready",
       "eventType": "랭킹전",
       "location": "소노벨 비발디파크메인센터",
-      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
       "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
@@ -1878,11 +1878,12 @@
         "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
         "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
       ],
-      "detailNotice": "08:00 선수등록·안전교육, 09:00 경기 시작. 비기너1·노비스1(09:00~12:00), 비기너2·노비스2(14:00~17:00), 시상식(17:00~18:00). 함께 열리는 KKF 전국 학생 어질리티 대항전은 별도 접수(10월 19일~11월 1일), 심사위원 김민성입니다.",
+      "detailNotice": "11월 7일(토) 일정입니다.\n08:00~09:00 선수등록·안전교육, 09:00~12:00 비기너1·노비스1, 12:00~14:00 KKF 전국 학생부 어질리티 평가전, 14:00~17:00 비기너2·노비스2, 17:00~18:00 시상식.\n심사위원: 강현기, 김민성.\nKKF 전국 학생부 평가는 별도 접수(10월 19일~11월 1일)이며 일반 LEEZ 대회 접수와 구분해 주세요.",
       "startAt": "2026-11-07T08:00:00",
       "endAt": "2026-11-07T18:00:00",
       "judge": [
-        "강현기"
+        "강현기",
+        "김민성"
       ],
       "matchTypes": [
         "비기너",
@@ -1953,7 +1954,7 @@
       "detailStatus": "detail_ready",
       "eventType": "랭킹전",
       "location": "소노벨 비발디파크메인센터",
-      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
       "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
@@ -1968,12 +1969,12 @@
         "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
         "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
       ],
-      "detailNotice": "08:00 선수등록·안전교육, 09:00 경기 시작. 점핑 ST·MS(09:00~12:00), 어드밴스드(12:00~14:00), 어질리티 ST·MS(14:00~17:00), 시상식(17:00~18:00). 점핑·어질리티 심사위원 김민성, 어드밴스드 심사위원 이지훈.",
+      "detailNotice": "11월 8일(일) 일정입니다.\n08:00~09:00 선수등록·안전교육, 09:00~12:00 점핑 ST·MS, 12:00~14:00 어드밴스드, 14:00~17:00 어질리티 ST·MS, 17:00~18:00 시상식.\n심사위원: 김민성, 남광현.",
       "startAt": "2026-11-08T08:00:00",
       "endAt": "2026-11-08T18:00:00",
       "judge": [
         "김민성",
-        "이지훈"
+        "남광현"
       ],
       "matchTypes": [
         "점핑 ST",

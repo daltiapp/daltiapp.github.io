@@ -1,0 +1,394 @@
+{
+  "verifiedAt": "2026-10-29T20:23:20+09:00",
+  "dataVersion": "20261029.3",
+  "sourceUrl": "https://www.agility.co.kr/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+  "finding": "The active data already contained two single-day rows, but both had the same title. The Sunday row used the overview slide name instead of the detailed Sunday poster name. Explicit day labels and plain judge names were applied.",
+  "userClarification": "심사위원만 적으면되",
+  "beforeRows": [
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
+      ],
+      "detailNotice": "08:00 선수등록·안전교육, 09:00 경기 시작. 비기너1·노비스1(09:00~12:00), 비기너2·노비스2(14:00~17:00), 시상식(17:00~18:00). 함께 열리는 KKF 전국 학생 어질리티 대항전은 별도 접수(10월 19일~11월 1일), 심사위원 김민성입니다.",
+      "startAt": "2026-11-07T08:00:00",
+      "endAt": "2026-11-07T18:00:00",
+      "judge": [
+        "강현기"
+      ],
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ]
+    },
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
+      ],
+      "detailNotice": "08:00 선수등록·안전교육, 09:00 경기 시작. 점핑 ST·MS(09:00~12:00), 어드밴스드(12:00~14:00), 어질리티 ST·MS(14:00~17:00), 시상식(17:00~18:00). 점핑·어질리티 심사위원 김민성, 어드밴스드 심사위원 이지훈.",
+      "startAt": "2026-11-08T08:00:00",
+      "endAt": "2026-11-08T18:00:00",
+      "judge": [
+        "김민성",
+        "이지훈"
+      ],
+      "matchTypes": [
+        "점핑 ST",
+        "점핑 MS",
+        "어질리티 ST",
+        "어질리티 MS",
+        "어드밴스드"
+      ]
+    }
+  ],
+  "afterRows": [
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
+      ],
+      "detailNotice": "11월 7일(토) 일정입니다.\n08:00~09:00 선수등록·안전교육, 09:00~12:00 비기너1·노비스1, 12:00~14:00 KKF 전국 학생부 어질리티 평가전, 14:00~17:00 비기너2·노비스2, 17:00~18:00 시상식.\n심사위원: 강현기, 김민성.\nKKF 전국 학생부 평가는 별도 접수(10월 19일~11월 1일)이며 일반 LEEZ 대회 접수와 구분해 주세요.",
+      "startAt": "2026-11-07T08:00:00",
+      "endAt": "2026-11-07T18:00:00",
+      "judge": [
+        "강현기",
+        "김민성"
+      ],
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ]
+    },
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
+      ],
+      "detailNotice": "11월 8일(일) 일정입니다.\n08:00~09:00 선수등록·안전교육, 09:00~12:00 점핑 ST·MS, 12:00~14:00 어드밴스드, 14:00~17:00 어질리티 ST·MS, 17:00~18:00 시상식.\n심사위원: 김민성, 남광현.",
+      "startAt": "2026-11-08T08:00:00",
+      "endAt": "2026-11-08T18:00:00",
+      "judge": [
+        "김민성",
+        "남광현"
+      ],
+      "matchTypes": [
+        "점핑 ST",
+        "점핑 MS",
+        "어질리티 ST",
+        "어질리티 MS",
+        "어드밴스드"
+      ]
+    }
+  ],
+  "uniqueJudges": [
+    "강현기",
+    "김민성",
+    "남광현"
+  ],
+  "sourceDiscrepancy": {
+    "overviewPage": 3,
+    "overviewAdvancedJudge": "이지훈",
+    "detailedSundayPage": 5,
+    "detailedSundayNames": [
+      "김민성",
+      "남광현"
+    ],
+    "detailedSundayRoleNote": "The detailed poster labels 남광현 as 코스디자인. Only professional judge names, without asserting an Advanced judging assignment, are published as requested.",
+    "handling": "Use the names shown on the detailed day posters. Preserve all original images including the inconsistent overview."
+  },
+  "sourceImageCount": 11,
+  "downloadedSourceImages": 11,
+  "reusedExistingDriveFiles": 11,
+  "newDriveUploads": 0,
+  "sourceOrderPreserved": true,
+  "imageVerification": [
+    {
+      "order": 1,
+      "file": "/private/tmp/leez-weekend-20261029/01-f6d4720120f16.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/f6d4720120f16.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "e68d0764e4e3cd6f0d3d3dce46627ffcff642b9f6aa3165661f97e349bbe4ec5",
+      "byteSize": 1582838,
+      "driveId": "1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 2,
+      "file": "/private/tmp/leez-weekend-20261029/02-55fd05dc073ba.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/55fd05dc073ba.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "71f01145775faa2a30d20d732558350374d304d734541ff43ee4bb3c88772c91",
+      "byteSize": 125514,
+      "driveId": "1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 3,
+      "file": "/private/tmp/leez-weekend-20261029/03-fa24ab3354e93.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/fa24ab3354e93.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "a2239e81eedc4bc3908f522f13a9e0be95c626f63b5cfaec91a418018c203965",
+      "byteSize": 448243,
+      "driveId": "1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 4,
+      "file": "/private/tmp/leez-weekend-20261029/04-c6580402ae717.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/c6580402ae717.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "a4b4e80c895ae4ec2b31479809bbb8e55958abbf38f3f68488eff5b5d801bebe",
+      "byteSize": 451219,
+      "driveId": "13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 5,
+      "file": "/private/tmp/leez-weekend-20261029/05-2be5552f3bb73.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/2be5552f3bb73.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "b39320e96ea348ddbb0ed5076777451f5f724465923465f0c644523683e3da3f",
+      "byteSize": 513628,
+      "driveId": "1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 6,
+      "file": "/private/tmp/leez-weekend-20261029/06-e154418d61029.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/e154418d61029.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "c39ebcf779552b4a8f9dbfc89c78998bd2ff0369a7a2e1b5de626de2d306f23e",
+      "byteSize": 494064,
+      "driveId": "1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 7,
+      "file": "/private/tmp/leez-weekend-20261029/07-462c2eee8eb72.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/462c2eee8eb72.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "baf4e1e90bfd5b78b1b616ab3cdaaab9170e90ac445248d6909a39d588b9c2ae",
+      "byteSize": 442410,
+      "driveId": "1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 8,
+      "file": "/private/tmp/leez-weekend-20261029/08-fd5e2524469a3.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/fd5e2524469a3.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "e62f65884a66ea67da6316dd8c784ce0507e5466ff53e81cef5c13b1b98bf62f",
+      "byteSize": 440886,
+      "driveId": "1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 9,
+      "file": "/private/tmp/leez-weekend-20261029/09-0066b77e56bd0.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0066b77e56bd0.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "8150b6e714da13b4b08d5a4639f9a0409715b94e013cf25d3b00712fb6fd1a5b",
+      "byteSize": 929367,
+      "driveId": "1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 10,
+      "file": "/private/tmp/leez-weekend-20261029/10-b0a129debcdfd.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/b0a129debcdfd.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "c7261a100a5168a5ff58d81ca0789a5cd01569f1a5ace512b70f8a204ba4b364",
+      "byteSize": 836884,
+      "driveId": "1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    },
+    {
+      "order": 11,
+      "file": "/private/tmp/leez-weekend-20261029/11-5d6c68118cc0b.png",
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/5d6c68118cc0b.png",
+      "mimeType": "image/png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "3c9ddd137874696107255261181c972b97f84c064b4e59864a9b55311b0cf1a2",
+      "byteSize": 446265,
+      "driveId": "1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR",
+      "driveUrl": "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR",
+      "anyoneReader": true,
+      "storedHashNameAndSizeMatch": true,
+      "driveMimeType": "image/png"
+    }
+  ],
+  "anonymousHttpRecheck": {
+    "status": "unavailable",
+    "reason": "The managed agent proxy hostname failed DNS resolution. Proxy variables and routing settings were not changed. Existing public image URLs were preserved."
+  },
+  "venue": {
+    "name": "소노벨 비발디파크메인센터",
+    "location": {
+      "name": "소노벨 비발디파크메인센터",
+      "address": "강원특별자치도 홍천군 서면 한치골길 264",
+      "latitude": 37.6452854,
+      "longitude": 127.6821151
+    },
+    "sourceMapImageOrder": 10,
+    "existingVenueReused": true
+  },
+  "notifications": {
+    "appPushSent": 0,
+    "telegramSent": 0,
+    "paidApiCalls": 0
+  },
+  "validation": {
+    "activeDataHarness": {
+      "scope": "all",
+      "ok": true,
+      "competitionCount": 82
+    },
+    "realAppMapper": {
+      "ok": true,
+      "allCompetitionsParsed": 82,
+      "weekendEntries": 2,
+      "distinctDayTitles": true,
+      "singleDayEach": true,
+      "judges": [
+        [
+          "강현기",
+          "김민성"
+        ],
+        [
+          "김민성",
+          "남광현"
+        ]
+      ],
+      "imageReferencesPerDay": [
+        11,
+        11
+      ]
+    },
+    "adminTests": {
+      "total": 166,
+      "pass": 165,
+      "fail": 1,
+      "preExistingFailure": "tests/server.test.mjs:159 expects legacy folder daltiapp.github.io; canonical folder is agility-data."
+    }
+  }
+}
