@@ -390,5 +390,18 @@
       "fail": 1,
       "preExistingFailure": "tests/server.test.mjs:159 expects legacy folder daltiapp.github.io; canonical folder is agility-data."
     }
+  },
+  "supersededByDataVersion": "20261029.4",
+  "userCorrection": {
+    "confirmedAt": "2026-10-29T20:30:13+09:00",
+    "saturdayJudges": [
+      "강현기"
+    ],
+    "sundayJudges": [
+      "김민성",
+      "이지훈"
+    ],
+    "courseDesignerOnly": "남광현",
+    "resolutionReview": "review/schedule/20261029-leez-judge-role-correction.json"
   }
 }
