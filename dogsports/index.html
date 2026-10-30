@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172b28">
+  <meta name="description" content="어질리티부터 디스크독, 캐니크로스까지. 대회 일정, 세미나, 경기 자료와 클럽을 한곳에서 찾아보세요.">
+  <title>독스포츠 — 함께 달리는 모든 순간</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/app.css">
+  <script type="module" src="./assets/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <aside class="sidebar">
+    <a class="brand" href="#schedule"><img src="./assets/mark.svg" alt="" width="38" height="38"><span>DOG SPORTS<small>우리의 다음 경기를 찾아서</small></span></a>
+    <nav id="navigation" aria-label="주 메뉴"></nav>
+    <div class="sidebar-bottom"><span class="live-dot"></span> 함께 뛰는 일상<small>대한민국 독스포츠 캘린더</small></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span class="breadcrumb">DOG SPORTS <span>/</span> <b id="current-page">대회 일정</b></span><div class="top-actions"><span id="sync-status" role="status">일정을 불러오는 중</span><button class="icon-button" id="refresh" aria-label="최신 데이터 새로고침" title="새로고침">↻</button><a class="my-button" href="#saved">♡ <span>내 일정</span><b id="saved-count">0</b></a></div></header>
+    <main id="main" tabindex="-1"><div class="loading">독스포츠 일정을 불러오고 있어요.</div></main>
+    <footer>독스포츠 · 함께 달리는 모든 순간 <span>일정 변경과 참가 조건은 주최 측의 최신 공지를 확인해 주세요.</span></footer>
+  </div>
+  <dialog id="detail" aria-labelledby="detail-title"><button id="close-detail" class="close" aria-label="상세 닫기">×</button><div id="detail-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body></html>

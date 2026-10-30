@@ -1,0 +1,300 @@
+{
+  "service": "dogsports-web",
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-30",
+  "events": [
+    {
+      "id": "rocknrun-canicross-jangsu-2026",
+      "name": "2026 캐니크로스 장수",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "time": "13:00 캐니크로스 출발 · 16:00 행사 종료",
+      "sportIds": [
+        "canicross"
+      ],
+      "location": "장수말역사체험관",
+      "address": "전북특별자치도 장수군 장수읍 승마로 81",
+      "region": "전북",
+      "organizer": "주식회사 락앤런",
+      "judge": [],
+      "types": [
+        "캐니크로스 3km"
+      ],
+      "fee": "일반 60,000원 · 장수군민·학생 40,000원",
+      "applicationStartAt": "2026-08-20",
+      "description": "11:00 행사장 오픈. 남녀 각 1~3위를 NET TIME 기준으로 시상합니다. 같은 행사에서 진행되는 도그트레킹 6km는 비경쟁 프로그램이며 13:40에 출발합니다. 접수 마감일은 원문에 명시되지 않았습니다.",
+      "url": "https://www.rocknrun.kr/canicross_INFO",
+      "sourceName": "락앤런 공식 대회 안내",
+      "area": "domestic",
+      "verifiedAt": "2026-10-30",
+      "detailStatus": "detail_ready",
+      "datePrecision": "day",
+      "images": [
+        "https://drive.google.com/uc?export=view&id=1AxuxFlkQqx4DqTOHEQgbUGlmyFCJlUQ_",
+        "https://drive.google.com/uc?export=view&id=1zZ1Gdh-6cikg7wmG3AqyIUG5U3k7fIJX",
+        "https://drive.google.com/uc?export=view&id=1-7ymelB5bc_2JYrttm9kkpP0HGX7ZSs8",
+        "https://drive.google.com/uc?export=view&id=1UELvRqd8ORbOgMB7GPghR5ru7FVzeAgG",
+        "https://drive.google.com/uc?export=view&id=1zaJVEY7Pqpn6PDLisbiOpGu1eMUlgQ74",
+        "https://drive.google.com/uc?export=view&id=1iusntS146Z2-yd-KsqZ9dgdQ2Y3cS0Oo",
+        "https://drive.google.com/uc?export=view&id=1qmjLk5nfXlMEnCVy_HVUMQpXIFnfdbSp"
+      ],
+      "imageCount": 7
+    },
+    {
+      "id": "kkf-training-102",
+      "name": "제102회 KKF 전국 종합 훈련경기대회",
+      "start": "2026-11-13",
+      "end": "2026-11-15",
+      "sportIds": [
+        "obedience",
+        "igp"
+      ],
+      "location": "안성풍산개테마공원",
+      "address": "경기 안성시 삼죽면 삼백로 134-67",
+      "region": "경기",
+      "organizer": "한국애견연맹 · KKF 훈련사 위원회",
+      "judge": [],
+      "types": [
+        "BH 노비스·일반부",
+        "CD 1~4",
+        "IGP 1~3"
+      ],
+      "applicationStartAt": "2026-10-19",
+      "applicationEndAt": "2026-11-08",
+      "description": "11월 13일 BH·IGP 트래킹, 14일 CD·IGP 복종, 15일 IGP 방위가 진행됩니다. IGP 트래킹의 시간과 장소는 참가자에게 별도 공지합니다. 심사위원은 원문에서 추후 공지 예정입니다. 훈련사 자격검정은 별도 절차이며 경기 부문과 구분됩니다.",
+      "sessions": [
+        {
+          "date": "2026-11-13",
+          "sportIds": [
+            "obedience",
+            "igp"
+          ],
+          "label": "BH 노비스·일반부 / IGP 트래킹"
+        },
+        {
+          "date": "2026-11-14",
+          "sportIds": [
+            "obedience",
+            "igp"
+          ],
+          "label": "CD / IGP 복종"
+        },
+        {
+          "date": "2026-11-15",
+          "sportIds": [
+            "igp"
+          ],
+          "label": "IGP 방위"
+        }
+      ],
+      "url": "https://www.thekkf.or.kr/m/04_event/01_kkf_schedule_detail.php?id=se_id&idx=791&m100=Y&tb=seminar",
+      "sourceUrls": [
+        "https://www.thekkf.or.kr/m/04_event/01_kkf_schedule_detail.php?id=se_id&idx=791&m100=Y&tb=seminar",
+        "https://www.thekkf.or.kr/m/04_event/01_kkf_schedule_detail.php?id=se_id&idx=792&m100=Y&tb=seminar"
+      ],
+      "sourceName": "한국애견연맹 공식 일정 · 첨부 공고 11장",
+      "area": "domestic",
+      "verifiedAt": "2026-10-30",
+      "detailStatus": "detail_ready",
+      "datePrecision": "day",
+      "images": [
+        "https://drive.google.com/uc?export=view&id=1XaF40SBhjsARxWRo2cdnG8Wb0sdjnesS",
+        "https://drive.google.com/uc?export=view&id=1SxVOHujguuLQvdRIzC1mZ2n9ATeXXx41",
+        "https://drive.google.com/uc?export=view&id=1R4bbFzVbTBJYqF0trWi9BCaO8QujnX9D",
+        "https://drive.google.com/uc?export=view&id=1DMajINcsYZmwn_31pFbxWHlAil95QbCB",
+        "https://drive.google.com/uc?export=view&id=1hBaVHdzRqaAf22rm0uZOs8wfieBd0w6j",
+        "https://drive.google.com/uc?export=view&id=1HQyKpgcVgI-HG-H0ofJuHL4WSjzNY9ZN",
+        "https://drive.google.com/uc?export=view&id=1lBOEliRcHtX426Zvhdyj_opHqGzMVYP1",
+        "https://drive.google.com/uc?export=view&id=1dYUynk86M-7szby7GTOZKTm-Z1uBEKvk",
+        "https://drive.google.com/uc?export=view&id=16E_mcL5oPCu1RKZ6f4XCWuniZ5w52gjw",
+        "https://drive.google.com/uc?export=view&id=1wsGDbKSVu9IWKVMcuCPNXoNKUqAl3bUi",
+        "https://drive.google.com/uc?export=view&id=1yQooz8vv7T2ijkddq93__6ueFcfZX9t2"
+      ],
+      "imageCount": 11
+    },
+    {
+      "id": "kkf-flyball-3",
+      "name": "제3회 KKF 플라이볼 경기대회(클럽전)",
+      "start": "2026-04-19",
+      "end": "2026-04-19",
+      "time": "10:00–13:00",
+      "sportIds": [
+        "flyball"
+      ],
+      "location": "반려마루 화성 야외 운동장",
+      "address": "경기 화성시 마도면 마도공단로1길 181-15",
+      "region": "경기",
+      "organizer": "한국애견연맹 · 코리아플라이볼클럽",
+      "judge": [
+        "최용석"
+      ],
+      "types": [
+        "개인전 학생부·일반부",
+        "페어",
+        "단체전"
+      ],
+      "applicationStartAt": "2026-03-18",
+      "applicationEndAt": "2026-04-03",
+      "fee": "1인 1견 기준 20,000원",
+      "description": "10:00 개회식 및 경기 체크 후 개인전, 페어, 단체전 순으로 진행됩니다. 대회 개최 결과도 한국애견연맹에서 확인했습니다.",
+      "url": "https://www.thekkf.or.kr/m/04_event/01_kkf_schedule_detail.php?id=se_id&idx=850&m100=Y&tb=seminar",
+      "sourceUrls": [
+        "https://www.thekkf.or.kr/m/04_event/01_kkf_schedule_detail.php?id=se_id&idx=850&m100=Y&tb=seminar",
+        "https://www.thekkf.or.kr/m/10_etc/02_kkf_news.php?mode=view&page=1&seq=12390"
+      ],
+      "sourceName": "한국애견연맹 공식 일정 · 개최 결과",
+      "area": "domestic",
+      "verifiedAt": "2026-10-30",
+      "detailStatus": "detail_ready",
+      "datePrecision": "day",
+      "images": [
+        "https://drive.google.com/uc?export=view&id=1zfGjS_cj0Cry7e3ARYbPVwBpZ4YY_K54",
+        "https://drive.google.com/uc?export=view&id=1tsQt5mCvsuQ-cMg7OLUrpiVM_90LiHLV",
+        "https://drive.google.com/uc?export=view&id=1mitmYXNbDUPRfebp9lc-yU2YOIO_yvDL",
+        "https://drive.google.com/uc?export=view&id=1SivCyTfd9bB3TClmaEsgEjAPtkYD5IWo"
+      ],
+      "imageCount": 4
+    },
+    {
+      "id": "incheon-skyhoundz-2026",
+      "name": "2026 인천 스카이하운즈 도그스포츠 페스티벌",
+      "start": "2026-05-24",
+      "end": "2026-05-24",
+      "time": "09:00–18:00",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "location": "인천 상상플랫폼 1883개항광장",
+      "address": "인천 중구 월미로 33",
+      "region": "인천",
+      "organizer": "",
+      "judge": [],
+      "types": [
+        "프리스비 경기"
+      ],
+      "description": "프리스비 경기와 도그요가, 반려견 체험 프로그램이 함께 열리는 행사입니다. 5월 23일 사전 개방과 본 행사 5월 24일을 구분합니다. 경기 참가비·세부 출진 부문은 관광 안내에 명시되지 않았습니다.",
+      "url": "https://itour.incheon.go.kr/ssst/ssst/detail.do?cotId=ITD26052011150864912",
+      "sourceName": "인천관광공사 인천투어 공식 안내",
+      "area": "domestic",
+      "verifiedAt": "2026-10-30",
+      "detailStatus": "detail_ready",
+      "datePrecision": "day",
+      "images": [
+        "https://drive.google.com/uc?export=view&id=1n_Bit7QOeFC5jCcFv7b_3rrN9-CJxkbO",
+        "https://drive.google.com/uc?export=view&id=1L8XInl2eUz55PWsQrvHanHmE63jrAi5R"
+      ],
+      "imageCount": 2
+    },
+    {
+      "id": "dsd-world-2026",
+      "name": "제3회 DSD World Championship",
+      "start": "2026-09-12",
+      "end": "2026-09-13",
+      "sportIds": [
+        "dog_dance",
+        "dog_trick"
+      ],
+      "location": "강아지숲",
+      "address": "강원 춘천시 남산면 충효로 437 · 동산 DSD 경기장",
+      "region": "강원",
+      "area": "domestic",
+      "organizer": "더존비앤씨티 · 동물과사람 · DSD 운영위원회",
+      "judge": [
+        "루츠카 플레보바",
+        "준 청"
+      ],
+      "types": [
+        "트릭 클래스",
+        "퍼피 파티",
+        "비기너",
+        "오픈 트릿",
+        "오픈 클래스"
+      ],
+      "fee": "트릭 40,000~60,000원 · 댄스 50,000~130,000원",
+      "applicationStartAt": "2026-08-23",
+      "description": "독댄스와 트릭 클래스가 함께 열리는 대회입니다. 접수 마감이 공고 상단 9월 2일, 하단 9월 3일로 다르게 표기되어 마감일은 확정 표시하지 않았습니다. 변경 시간표에 따라 루츠카의 심판 시범은 진행되지 않고 준 청의 시범만 진행됩니다.",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=231&code=notice",
+      "sourceUrls": [
+        "http://www.dong-sa.or.kr/board/read.jsp?id=231&code=notice",
+        "http://www.dong-sa.or.kr/board/read.jsp?id=233&code=notice"
+      ],
+      "sourceName": "동물과사람 공식 공고 · 변경 시간표",
+      "verifiedAt": "2026-10-30",
+      "detailStatus": "detail_ready",
+      "datePrecision": "day",
+      "sessions": [
+        {
+          "date": "2026-09-12",
+          "sportIds": [
+            "dog_dance",
+            "dog_trick"
+          ],
+          "label": "트릭 클래스 / 독댄스 Round 1"
+        },
+        {
+          "date": "2026-09-13",
+          "sportIds": [
+            "dog_dance",
+            "dog_trick"
+          ],
+          "label": "트릭 클래스 / 독댄스 Round 2·결선"
+        }
+      ],
+      "images": [
+        "https://drive.google.com/uc?export=view&id=19Z19ydAw58dK0xE9RLGUOHDP7Z1JnYUQ",
+        "https://drive.google.com/uc?export=view&id=1dlTeMsV7vwHs3LKjkeN6Tag9PZUBJlvX"
+      ],
+      "imageCount": 2
+    },
+    {
+      "id": "kddn-championship-2026",
+      "name": "제6회 KDDN Championship",
+      "start": "2026-05-30",
+      "end": "2026-05-31",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "location": "강아지숲",
+      "address": "강원 춘천시 남산면 충효로 437 · 동산 KDDN 경기장",
+      "region": "강원",
+      "area": "domestic",
+      "organizer": "더존비앤씨티 · 동물과사람 · KDDN 운영위원회",
+      "judge": [
+        "지미 첸",
+        "코스케 히라이",
+        "야치 히라이",
+        "유미코 와타나베",
+        "조은재",
+        "김재은"
+      ],
+      "types": [
+        "Starters Freestyle",
+        "Intermediate Toss & Fetch·Freestyle",
+        "Super Pro Toss & Fetch",
+        "Super Open Freestyle",
+        "Ultimate Toss & Fetch"
+      ],
+      "fee": "종목별 30,000~60,000원",
+      "applicationStartAt": "2026-05-09",
+      "applicationEndAt": "2026-05-23",
+      "description": "USDDN World Finals 진출권이 걸린 디스크독 대회입니다. 인터미디어트·챔피언십은 양일 또는 당일 참가를 선택합니다. 별도 공지된 최종 시간표 3장을 함께 제공합니다.",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=226&code=notice&page=2",
+      "sourceUrls": [
+        "http://www.dong-sa.or.kr/board/read.jsp?id=226&code=notice&page=2",
+        "http://www.dong-sa.or.kr/board/read.jsp?id=228&code=notice&page=2"
+      ],
+      "sourceName": "동물과사람 공식 공고 · 최종 시간표",
+      "verifiedAt": "2026-10-30",
+      "detailStatus": "detail_ready",
+      "datePrecision": "day",
+      "images": [
+        "https://drive.google.com/uc?export=view&id=1auSSHBVMXdRHAp7JYEBXMYNtEONCJ2pw",
+        "https://drive.google.com/uc?export=view&id=1JuInCUvOg6LvuYA3z9PkgZd10npJwOlk",
+        "https://drive.google.com/uc?export=view&id=1UPsi6An1SZcviZG2eQoCUiaPc4P5V1ww",
+        "https://drive.google.com/uc?export=view&id=1AbVbtpRHwI8EWW0TO52hl8l-b6H6ka_C",
+        "https://drive.google.com/uc?export=view&id=1aWa6IjnRSamRoqoXMRxAwIzHQ88pns7J"
+      ],
+      "imageCount": 5
+    }
+  ]
+}
