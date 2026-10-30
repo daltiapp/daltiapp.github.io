@@ -136,7 +136,7 @@ function libraryAssetIds(group,kind=libKind){const fields={course_map:'courseMap
 function libraryGroups(){return library.competitionGroups.filter(g=>libCategory==='all'||g.categoryId===libCategory).map(g=>({g,e:library.events.find(e=>e.id===g.eventId)})).filter(({e})=>e).map(({e,g})=>({g,e:libraryEvent(e)})).filter(({e,g})=>inSport(e)&&e.name.toLowerCase().includes(filter.q.toLowerCase())&&libraryAssetIds(g).length);}
 function resources(){return (extra.resources||[]).filter(r=>sportsOf(r).length&&r.title&&safe(r.url)&&LIBRARY_KINDS[r.kind]);}
 function resourceItems(){return resources().filter(r=>inSport(r)&&(libKind==='all'||r.kind===libKind)&&libCategory==='all'&&[r.title,r.eventName,r.sourceName,...r.sportIds.map(id=>SPORTS[id])].join(' ').toLowerCase().includes(filter.q.toLowerCase()));}
-const resourceDate=r=>r.eventDate||r.publishedAt||r.year||'';
+const resourceDate=r=>String(r.eventDate||r.publishedAt||r.year||'');
 const resourceDateLabel=r=>r.eventDate?fmt(r.eventDate)+(r.eventEndDate&&r.eventEndDate!==r.eventDate?' – '+fmt(r.eventEndDate):''):r.publishedAt?'게시 '+fmt(r.publishedAt):r.year?String(r.year)+'년 자료':'날짜 미공개';
 function resourceRow(r){return `<article class="event"><button class="event-main" data-resource="${esc(r.id)}"><div class="tag-row">${tags(r)}<span class="tag">${esc(LIBRARY_KINDS[r.kind])}</span></div><h3>${esc(r.title)}</h3><div class="library-meta">${resourceDateLabel(r)} · ${esc(r.sourceName)}${r.files?.length?' · 첨부 '+r.files.length+'개':''}</div></button><span class="arrow" aria-hidden="true">↗</span></article>`;}
 function renderLibrary(){
