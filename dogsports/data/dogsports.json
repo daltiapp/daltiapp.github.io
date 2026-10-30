@@ -1013,5 +1013,220 @@
         "https://drive.google.com/uc?export=view&id=1geY_EztYmkmErhTvoUoABgTCiWZ51mAE"
       ]
     }
+  ],
+  "notices": [
+    {
+      "id": "web-notice-kkc-258219",
+      "source": "kkc",
+      "source_seq": "258219",
+      "title": "2026 D-1 아시아 인터내셔널 BH·OB 출진표",
+      "url": "https://kkc.or.kr/26-10-3111-01_d-1-%ec%95%84%ec%8b%9c%ec%95%84-%ec%9d%b8%ed%84%b0%eb%82%b4%ec%85%94%eb%84%90-%ec%b1%94%ed%94%bc%ec%96%b8%ec%8b%ad-%eb%8f%99%eb%b0%98%ea%b2%ac-%ec%b6%9c%ec%a7%84%eb%aa%a9%eb%a1%9d/",
+      "sportIds": [
+        "obedience"
+      ],
+      "sourceName": "한국애견협회",
+      "published_at": "2026-10-27T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-kkf-12705",
+      "source": "kkf",
+      "source_seq": "12705",
+      "title": "2026 KKF 헬퍼 및 IGP 방위·트래킹 세미나",
+      "url": "https://www.thekkf.or.kr/new_home/news/board/content.php?seq=12705",
+      "sportIds": [
+        "igp"
+      ],
+      "sourceName": "한국애견연맹 공식 세미나 공지",
+      "published_at": "2026-10-26T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-kkc-258144",
+      "source": "kkc",
+      "source_seq": "258144",
+      "title": "2026 KKC 디스크독 챔피언십 출진표",
+      "url": "https://kkc.or.kr/261018_kkc-%eb%94%94%ec%8a%a4%ed%81%ac%eb%8f%85-%ec%b1%94%ed%94%bc%ec%96%b8%ec%8b%ad-%ec%b6%9c%ec%a7%84%eb%aa%a9%eb%a1%9d/",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "한국애견협회",
+      "published_at": "2026-10-15T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-235",
+      "source": "dongsa",
+      "source_seq": "235",
+      "title": "2026 DSD 월드챔피언십 대회 결과",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=235&code=notice",
+      "sportIds": [
+        "dog_dance"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2026-09-17T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-232",
+      "source": "dongsa",
+      "source_seq": "232",
+      "title": "2026 DSD 월드챔피언십 최종 출진표",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=232&code=notice",
+      "sportIds": [
+        "dog_dance",
+        "dog_trick"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2026-09-06T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-231",
+      "source": "dongsa",
+      "source_seq": "231",
+      "title": "제3회 DSD 월드챔피언십 개최 및 접수 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=231&code=notice",
+      "sportIds": [
+        "dog_dance",
+        "dog_trick"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2026-08-23T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-230",
+      "source": "dongsa",
+      "source_seq": "230",
+      "title": "Disc Dog Series Vol.1 출진표 · 6월 25일 수정",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=230&code=notice",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2026-06-24T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-229",
+      "source": "dongsa",
+      "source_seq": "229",
+      "title": "제6회 KDDN 챔피언십 종목별 결과 · 수정본",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=229&code=notice",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2026-06-05T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-227",
+      "source": "dongsa",
+      "source_seq": "227",
+      "title": "제6회 KDDN 챔피언십 최종 출진표",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=227&code=notice&page=2",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2026-05-28T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-226",
+      "source": "dongsa",
+      "source_seq": "226",
+      "title": "제6회 KDDN 챔피언십 개최 및 접수 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=226&code=notice&page=2",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2026-05-09T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-kfss-461",
+      "source": "kfss",
+      "source_seq": "461",
+      "title": "제18회 캐니크로스 대회 기록표",
+      "url": "http://kfss.or.kr/bbs/board.php?bo_table=sub0306&wr_id=461",
+      "sportIds": [
+        "canicross"
+      ],
+      "sourceName": "한국반려동물스포츠협회 · KFSS",
+      "published_at": "2025-11-09T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-220",
+      "source": "dongsa",
+      "source_seq": "220",
+      "title": "2025 DSD 월드챔피언십 대회 결과",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=220&code=notice&page=2",
+      "sportIds": [
+        "dog_dance"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2025-09-24T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-218",
+      "source": "dongsa",
+      "source_seq": "218",
+      "title": "2025 DSD 월드챔피언십 최종 출진표",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=218&code=notice&page=3",
+      "sportIds": [
+        "dog_dance",
+        "dog_trick"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2025-09-16T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-216",
+      "source": "dongsa",
+      "source_seq": "216",
+      "title": "제5회 KDDN 챔피언십 종목별 결과",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=216&code=notice&page=3",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2025-05-02T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    },
+    {
+      "id": "web-notice-dongsa-214",
+      "source": "dongsa",
+      "source_seq": "214",
+      "title": "제5회 KDDN 챔피언십 최종 출진표",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=214&code=notice&page=3",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "published_at": "2025-04-18T00:00:00+09:00",
+      "verifiedAt": "2026-10-31",
+      "images": []
+    }
   ]
 }
