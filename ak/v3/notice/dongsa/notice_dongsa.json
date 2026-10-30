@@ -8,7 +8,7 @@
     "KAO",
     "어질리티"
   ],
-  "total_count": 40,
+  "total_count": 42,
   "detail_dir": "./",
   "items": [
     {
@@ -410,6 +410,26 @@
       "published_at_raw": "2026.10.17",
       "published_at": "2026-10-17T00:00:00+09:00",
       "detail_path": "./136.json"
+    },
+    {
+      "id": 137,
+      "source": "dongsa",
+      "source_seq": "237",
+      "title": "제5회 KAO 챔피언십 대회일정 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=237&code=notice",
+      "published_at_raw": "2026.10.29",
+      "published_at": "2026-10-29T00:00:00+09:00",
+      "detail_path": "./137.json"
+    },
+    {
+      "id": 138,
+      "source": "dongsa",
+      "source_seq": "238",
+      "title": "KAO 챔피언십 지역 규정 주요 변경사항 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=238&code=notice",
+      "published_at_raw": "2026.10.29",
+      "published_at": "2026-10-29T00:00:00+09:00",
+      "detail_path": "./138.json"
     }
   ]
 }

@@ -1,7 +1,27 @@
 {
   "identity_field": "id",
-  "total_count": 136,
+  "total_count": 138,
   "items": [
+    {
+      "id": 138,
+      "source": "dongsa",
+      "source_seq": "238",
+      "title": "KAO 챔피언십 지역 규정 주요 변경사항 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=238&code=notice",
+      "published_at_raw": "2026.10.29",
+      "published_at": "2026-10-29T00:00:00+09:00",
+      "detail_path": "./dongsa/138.json"
+    },
+    {
+      "id": 137,
+      "source": "dongsa",
+      "source_seq": "237",
+      "title": "제5회 KAO 챔피언십 대회일정 안내",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=237&code=notice",
+      "published_at_raw": "2026.10.29",
+      "published_at": "2026-10-29T00:00:00+09:00",
+      "detail_path": "./dongsa/137.json"
+    },
     {
       "id": 136,
       "source": "dongsa",
