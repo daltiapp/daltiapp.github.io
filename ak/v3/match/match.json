@@ -2028,25 +2028,29 @@
       ]
     },
     {
-      "name": "제1회 순천만 국가정원 어질리티 챔피언쉽",
+      "name": "제1회 LEEZ 순천만국가정원 어질리티 챔피언십",
       "startAt": "2026-11-21T09:00:00",
       "endAt": "2026-11-21T17:00:00",
-      "applicationStartAt": "",
-      "applicationEndAt": "",
+      "applicationStartAt": "2026-10-26T00:00:00",
+      "applicationEndAt": "2026-11-08T23:59:59",
       "club": "한국어질리티연합",
       "detailStatus": "detail_ready",
       "eventType": "대회",
       "location": "오천그린광장",
-      "judge": [],
+      "judge": [
+        "이재룡"
+      ],
       "matchTypes": [
         "비기너",
         "노비스"
       ],
       "url": "https://www.thekkf.or.kr/new_home/04_event/01_kkf_schedule.php?TableName=seminar&seq=914",
       "detailImages": [
-        "https://drive.google.com/uc?export=view&id=1ev6VMSv4JoOSTxkvc_js8Eyfff2Ijz_s"
+        "https://drive.google.com/uc?export=view&id=1rS3UHalR94Md3-SQRLMiPeXcvfrUe2oV",
+        "https://drive.google.com/uc?export=view&id=163x_-FgN7vX0Xl_NueBX94xsgBEtaJWF",
+        "https://drive.google.com/uc?export=view&id=1STN0XcVa3tuab3N_w8nlHxkxqpZuZ6Bi"
       ],
-      "detailNotice": "11월 21일(토) 09:00~17:00, 순천만 국가정원 오천그린광장(전라남도 순천시 오천동 702-1)에서 개최합니다.\n챌린지 레벨(비기너·노비스), 타이니·스몰·미듐·라지 4체급으로 운영하며 포스터에 총상금 360만원이 안내돼 있습니다. 주최는 순천시, 주관은 한국어질리티연합입니다. 접수 기간과 심사위원은 공개되지 않았습니다.\n주의: 2026년 10월 28일 확인 시 포스터의 신청 QR이 천안 K-DOG 페스티벌 사이트로 연결됐습니다. 해당 QR로 신청하기 전에 주최·주관 측에 정확한 신청 경로를 확인해 주세요."
+      "detailNotice": "챌린지 레벨(비기너·노비스), 타이니·스몰·미듐·라지 4체급. 참가비는 2경기 20,000원이며 도시락이 제공됩니다.\n08:00~09:00 선수등록, 09:00 개회식·안전교육, 09:30~12:00 비기너, 12:30~13:00 국가대표팀 시범, 13:00~16:00 노비스, 16:00~17:00 폐회·시상식.\n체급별 통합 1위 40만원·2위 30만원·3위 20만원과 트로피를 수여합니다(총상금 360만원). 각 종목 체급별 1~3위는 로젯을 수여합니다.\n신청: https://docs.google.com/forms/d/e/1FAIpQLSfBHFtXOaPPlMtPOoz3kFAlxdULNrt0h7fe6s6okGpVGTJHJQ/viewform\n주최: 순천시 / 주관: 한국어질리티연합."
     }
   ]
 }
