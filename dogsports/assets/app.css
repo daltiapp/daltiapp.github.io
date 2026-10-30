@@ -31,3 +31,5 @@ main{padding-top:24px}.page-heading{margin-bottom:18px}.page-heading h1{font-siz
  .sport-tag{font-size:10px}.sport-tag svg{width:13px;height:13px}.detail-context{padding:15px 60px 15px 20px}.calendar-sport{font-size:9px}.notice-row{gap:10px}#main{scroll-margin-top:76px}
 }
 @media(max-width:360px){.sport-trigger{max-width:177px}.sport-menu{width:288px;padding:12px}.sport-menu a{font-size:11px;padding:9px 6px;gap:5px}}
+
+.detail-inner h2{word-break:keep-all;overflow-wrap:anywhere}.resource-files{display:grid;gap:8px;margin:22px 0}.resource-file{display:flex;align-items:center;gap:10px;padding:13px 14px;border:1px solid var(--line);border-radius:9px;font-size:12px;line-height:1.6}.resource-file>span:nth-child(2){flex:1;min-width:0;overflow-wrap:anywhere}.resource-file small{display:block;color:var(--muted);font-size:10px;margin-top:3px}.resource-file:hover{background:#edf4ff;border-color:#9fb9d7}.library-kinds{gap:6px}.library-kinds .sport{padding:8px 11px}

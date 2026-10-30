@@ -1,7 +1,7 @@
 {
   "service": "dogsports-web",
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "events": [
     {
       "id": "rocknrun-canicross-jangsu-2026",
@@ -295,6 +295,723 @@
         "https://drive.google.com/uc?export=view&id=1aWa6IjnRSamRoqoXMRxAwIzHQ88pns7J"
       ],
       "imageCount": 5
+    }
+  ],
+  "resources": [
+    {
+      "id": "dsd-2026-results",
+      "title": "2026 DSD 월드챔피언십 대회 결과",
+      "kind": "result",
+      "sportIds": [
+        "dog_dance"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=235&code=notice",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "DSD 2026 최종 결과",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100736&ek=2f998dda8f0ba06965f745c6b4b39a28",
+          "mime": "application/pdf",
+          "sha256": "2839a6a37ba3a45b3faa754a16f9e6f501c2e95202d47dd1ed04d744d3ecf492",
+          "pages": 8
+        }
+      ],
+      "eventDate": "2026-09-12",
+      "eventEndDate": "2026-09-13",
+      "summary": "주최 측이 공지한 독댄스 최종 결과 PDF입니다. 독트릭 출진표와 구분합니다.",
+      "language": "한국어·영어",
+      "images": []
+    },
+    {
+      "id": "dsd-2026-orders",
+      "title": "2026 DSD 월드챔피언십 최종 출진표",
+      "kind": "entry_list",
+      "sportIds": [
+        "dog_dance",
+        "dog_trick"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=232&code=notice",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "9월 12일 출진순서",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100735&ek=580c839112779f62e7bbdfdc139240a9",
+          "mime": "application/pdf",
+          "sha256": "cdd46c74eab6f10d086f1a14c77f65bc263ad6c55d7e6b2054180357ad1453b2",
+          "pages": 3
+        },
+        {
+          "title": "9월 13일 출진순서",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100734&ek=5e507d63a03ade99cffc20d13eaf83d6",
+          "mime": "application/pdf",
+          "sha256": "fbb0c73575966cd11cbbf21c5fbcb44101dce62fb1b5f4fcb27f2f68eeeb0d8e",
+          "pages": 2
+        }
+      ],
+      "eventDate": "2026-09-12",
+      "eventEndDate": "2026-09-13",
+      "summary": "Trick Class와 Puppy Party·Beginner·Open 계열 클래스가 함께 수록된 최종본입니다.",
+      "language": "한국어·영어",
+      "images": []
+    },
+    {
+      "id": "disc-series-vol1-orders",
+      "title": "Disc Dog Series Vol.1 출진표 · 6월 25일 수정",
+      "kind": "entry_list",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=230&code=notice",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "스타터스 프리스타일",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100704&ek=66fc4d260db2818143d6faefda7b6d6d",
+          "mime": "application/pdf",
+          "sha256": "982cef221c65d63288d30608a4e970b4a3f1a5e8a07c45f2b2c05e0eba6cdde6",
+          "pages": 1
+        },
+        {
+          "title": "UTF 파이널 진출 가능 팀",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100705&ek=17e6c7f351e85c9f93230308992261c9",
+          "mime": "application/pdf",
+          "sha256": "26ca55939670f6400d5bd03acb252b5ae3aebfa401e14159e01cbdd37f9e0daf",
+          "pages": 1
+        },
+        {
+          "title": "UTF 트리플 릴레이",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100706&ek=7733869ae501442da6926fac77cd155b",
+          "mime": "application/pdf",
+          "sha256": "69a1605c66c712bac11c9d48ab29b302a34c525c7bd90ef4a55d4d134de202c2",
+          "pages": 1
+        },
+        {
+          "title": "UTF 커플 릴레이",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100707&ek=b0aff3fb5783809bc8d18db186fb18aa",
+          "mime": "application/pdf",
+          "sha256": "1f22b1c571b2510b84a31cf54aad75eef24f0f5811176704cc5c9b7ed4c7226e",
+          "pages": 1
+        },
+        {
+          "title": "UTF 우먼즈 싱글즈",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100708&ek=c9eac9d10ca82a4fac9311f6c63720ea",
+          "mime": "application/pdf",
+          "sha256": "b761dbdc0e58f13dbe67c8eaa43bbb60ef7d4fcae3644dbaa5f264ee24745e31",
+          "pages": 1
+        },
+        {
+          "title": "UTF 맨즈 싱글즈",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100709&ek=e1d39ea91ba535d4ffba035155f6ac34",
+          "mime": "application/pdf",
+          "sha256": "3003598c6f91297ba5a0aff0492f056c762b44ee4bb7acc2b118733cf5c46ec6",
+          "pages": 1
+        },
+        {
+          "title": "RTF 우먼즈",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100710&ek=3c426fa0da794c4fea42c1cede373a9c",
+          "mime": "application/pdf",
+          "sha256": "838013e1f9756d5622671529f377ec39530c4713d56d16cf544d8c3c16567171",
+          "pages": 1
+        },
+        {
+          "title": "RTF 맨즈",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100711&ek=9e2a416e7439035a955231df9e7178cd",
+          "mime": "application/pdf",
+          "sha256": "8efe308eb7ac2501fd98fa125f8750679d6f8f082cbcb758e1cc55e708d2709e",
+          "pages": 1
+        }
+      ],
+      "publishedAt": "2026-06-24",
+      "summary": "RTF 출진순서 수정 공지에 첨부된 8개 부문 PDF입니다. 표시 날짜는 게시일입니다.",
+      "images": []
+    },
+    {
+      "id": "kddn-2026-results",
+      "title": "제6회 KDDN 챔피언십 종목별 결과 · 수정본",
+      "kind": "result",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=229&code=notice",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "KDDN 2026 종목별 결과",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100697&ek=abe272a9955d66c440992e4ad255e383",
+          "mime": "application/pdf",
+          "sha256": "f2671e6d165d55a560f495a644ac3527ea7b9fafefa7d7fcb8ce442e34ea6624",
+          "pages": 14
+        }
+      ],
+      "eventDate": "2026-05-30",
+      "eventEndDate": "2026-05-31",
+      "summary": "주최 측이 USDDN 퀄리파이어 대기자 표시를 수정한 결과본입니다.",
+      "images": []
+    },
+    {
+      "id": "kddn-2026-orders",
+      "title": "제6회 KDDN 챔피언십 최종 출진표",
+      "kind": "entry_list",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=227&code=notice&page=2",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "최종 출진순서 · Excel 4개 시트",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100695&ek=bc841a3463099a4edd87d0a5663c6a86",
+          "mime": "application/vnd.ms-excel",
+          "sha256": "964400f63164ff433791b4e37747788dd5d3c77606d68fcf59a79e7c4e5cfe2b"
+        }
+      ],
+      "eventDate": "2026-05-30",
+      "eventEndDate": "2026-05-31",
+      "summary": "Starters·Intermediate·Championship·UTF 시트가 있는 주최 측 원본 파일입니다.",
+      "images": []
+    },
+    {
+      "id": "dsd-2025-results",
+      "title": "2025 DSD 월드챔피언십 대회 결과",
+      "kind": "result",
+      "sportIds": [
+        "dog_dance"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=220&code=notice&page=2",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "DSD 2025 최종 결과",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100660&ek=a61c9a7a472b1a3b12f0771c04eccd29",
+          "mime": "application/pdf",
+          "sha256": "80700ed9dbaa58e185762aa249c2e5355d9569f749103bb122824b58a8fcd2cf",
+          "pages": 7
+        }
+      ],
+      "eventDate": "2025-09-19",
+      "eventEndDate": "2025-09-21",
+      "language": "한국어·영어",
+      "images": []
+    },
+    {
+      "id": "dsd-2025-orders",
+      "title": "2025 DSD 월드챔피언십 최종 출진표",
+      "kind": "entry_list",
+      "sportIds": [
+        "dog_dance",
+        "dog_trick"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=218&code=notice&page=3",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "9월 19일 출진순서",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100656&ek=13423d517c6c60ae65988c6c3fd937ca",
+          "mime": "application/pdf",
+          "sha256": "91db886580cca04245ab6ad393975daaa372e0e5fbc6f15915029244d9dd0455",
+          "pages": 3
+        },
+        {
+          "title": "9월 20일 출진순서",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100657&ek=a5611a10230c0400f49282b71cd2d6b1",
+          "mime": "application/pdf",
+          "sha256": "5ae57881f4ae0cac9009125eda59bcf879d9c1dd9b36c67d3b87a0a64ef1a374",
+          "pages": 3
+        },
+        {
+          "title": "9월 21일 출진순서",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100658&ek=3ba63a88c368602dd549ed1f7c81ce24",
+          "mime": "application/pdf",
+          "sha256": "66bcda756d7cc741d2042fcf309183fd24922295ff4ed7208622293288301681",
+          "pages": 2
+        }
+      ],
+      "eventDate": "2025-09-19",
+      "eventEndDate": "2025-09-21",
+      "summary": "독댄스·독트릭 클래스별 출진순서가 함께 수록된 최종본입니다.",
+      "images": []
+    },
+    {
+      "id": "kddn-2025-results",
+      "title": "제5회 KDDN 챔피언십 종목별 결과",
+      "kind": "result",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=216&code=notice&page=3",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "스타터스 결과",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100638&ek=db4084212ca50e54ead8d722b76fbbf7",
+          "mime": "application/pdf",
+          "sha256": "6a635352b734e2e39c2738d219b9d23c71b6186c44768125dda6f8a1c7519281",
+          "pages": 4
+        },
+        {
+          "title": "인터미디어트 결과",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100639&ek=44d71a13ec20b6de0f26237a7e5aabcb",
+          "mime": "application/pdf",
+          "sha256": "7096f770466a6ad65b9295b04daf61645891c23f9dbf290a57045ef1cdd0b71a",
+          "pages": 4
+        },
+        {
+          "title": "챔피언십 결과",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100640&ek=b5b08965c709e74df6a22d84ebed0c39",
+          "mime": "application/pdf",
+          "sha256": "78e0f1fb502ac6ee8e90e195492e909941e923408ad2ff09b8906d58a8aa1793",
+          "pages": 2
+        },
+        {
+          "title": "USDDN 퀄리파이어 결과",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100641&ek=60e6df74e82f934b77ca81ccdfccfd40",
+          "mime": "application/pdf",
+          "sha256": "a34db4ae54b5e580b227c145c635ecd6ab4972fbe0c2bcd4e37f48dd37e0aa3a",
+          "pages": 1
+        },
+        {
+          "title": "UTF 결과",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100642&ek=5b28f6eb0b3435c531e7e947c1211b9b",
+          "mime": "application/pdf",
+          "sha256": "85bf9e397fcbe88bf0e6620a2108aa2f580ae2302805e32b199d08080f8c150f",
+          "pages": 3
+        }
+      ],
+      "eventDate": "2025-04-19",
+      "eventEndDate": "2025-04-20",
+      "images": []
+    },
+    {
+      "id": "kddn-2025-orders",
+      "title": "제5회 KDDN 챔피언십 최종 출진표",
+      "kind": "entry_list",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "동물과사람 · 강아지숲",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=214&code=notice&page=3",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "최종 출진순서 · 최종 공지 2",
+          "url": "http://www.dong-sa.or.kr/main/download.jsp?id=100637&ek=91183f95ea486b8b443733b0aa69f960",
+          "mime": "application/pdf",
+          "sha256": "68ffab9e82e2e70848ab1f558bea767a5bede953c62f2d13aaa47aaaf618292e",
+          "pages": 10
+        }
+      ],
+      "eventDate": "2025-04-19",
+      "eventEndDate": "2025-04-20",
+      "summary": "1차 출진순서 대신 마지막으로 공지된 최종본을 연결합니다.",
+      "images": []
+    },
+    {
+      "id": "kkc-2026-d1-bhob-orders",
+      "title": "2026 D-1 아시아 인터내셔널 BH·OB 출진표",
+      "kind": "entry_list",
+      "sportIds": [
+        "obedience"
+      ],
+      "sourceName": "한국애견협회",
+      "url": "https://kkc.or.kr/26-10-3111-01_d-1-%ec%95%84%ec%8b%9c%ec%95%84-%ec%9d%b8%ed%84%b0%eb%82%b4%ec%85%94%eb%84%90-%ec%b1%94%ed%94%bc%ec%96%b8%ec%8b%ad-%eb%8f%99%eb%b0%98%ea%b2%ac-%ec%b6%9c%ec%a7%84%eb%aa%a9%eb%a1%9d/",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "10월 31일~11월 1일 BH·OB 출진목록",
+          "url": "https://kkc.or.kr/wp-content/uploads/2026/10/10.31-11.1-BHOB-출진목록.pdf",
+          "mime": "application/pdf",
+          "sha256": "678b414394054a6a125f2833141f48496e109f7bdb46635f593298cbe5c061b9",
+          "pages": 12
+        }
+      ],
+      "eventDate": "2026-10-31",
+      "eventEndDate": "2026-11-01",
+      "summary": "BH 동반견과 OB 복종 부문 출진목록입니다. IGP 출진표로 분류하지 않습니다.",
+      "images": []
+    },
+    {
+      "id": "kkc-20261018-disc-orders",
+      "title": "2026 KKC 디스크독 챔피언십 출진표",
+      "kind": "entry_list",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "한국애견협회",
+      "url": "https://kkc.or.kr/261018_kkc-%eb%94%94%ec%8a%a4%ed%81%ac%eb%8f%85-%ec%b1%94%ed%94%bc%ec%96%b8%ec%8b%ad-%ec%b6%9c%ec%a7%84%eb%aa%a9%eb%a1%9d/",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "10월 18일 디스크독 출진목록",
+          "url": "https://kkc.or.kr/wp-content/uploads/2026/10/261018_디스크독-출진목록-1.pdf",
+          "mime": "application/pdf",
+          "sha256": "95d42fb7032f58290c551bbac6fd69b383d1cfd32495494fe2db1db9d5712e19",
+          "pages": 10
+        }
+      ],
+      "eventDate": "2026-10-18",
+      "images": []
+    },
+    {
+      "id": "usddn-2026-korea-qualifiers",
+      "title": "2026 USDDN 한국 월드예선 선발 결과",
+      "kind": "result",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "USDDN",
+      "url": "https://usddn.com/2026-usddn-world-qualifier-results/",
+      "verifiedAt": "2026-10-31",
+      "files": [],
+      "eventDate": "2026-05-30",
+      "eventEndDate": "2026-05-31",
+      "language": "영어",
+      "summary": "공식 월드예선 결과 페이지의 Korea 항목에서 5월 30일 Super Open, 31일 Super Pro 선발·대기 결과를 확인할 수 있습니다. 전체 경기 성적은 KDDN 결과 PDF를 확인하세요.",
+      "images": []
+    },
+    {
+      "id": "disc-dog-usddn-rules",
+      "title": "USDDN 디스크독 심사 핸드북 · 2026 v4",
+      "kind": "reference",
+      "sportIds": [
+        "disc_dog"
+      ],
+      "sourceName": "USDDN",
+      "url": "https://usddn.com/official-rules/",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "2026 심사 핸드북 · May 2026 v4",
+          "url": "https://usddn.com/wp-content/uploads/2026/09/USDDN-2026-judging-handbook-v4.pdf",
+          "mime": "application/pdf",
+          "sha256": "d596ca2c582d9f704db30a0fd65b10b004df6bb1dd9f4c953febfc2e9091fbba",
+          "pages": 45
+        }
+      ],
+      "summary": "2026년 5월 개정 v4 원문입니다.",
+      "language": "영어",
+      "year": 2026,
+      "images": []
+    },
+    {
+      "id": "dog-dance-fci-rules",
+      "title": "FCI 독댄스 경기·심사·운영 규정",
+      "kind": "reference",
+      "sportIds": [
+        "dog_dance"
+      ],
+      "sourceName": "FCI",
+      "url": "https://www.fci.be/en/Dog-Dancing-1352.html",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "국제 독댄스 경기 규정",
+          "url": "https://www.fci.be/medias/DDA-REG-49-2020-en-19912.pdf",
+          "mime": "application/pdf",
+          "sha256": "590e3e87e6b25f9489dcd85d9b52ba9b7abf7b9e5072778f58839e05569b5fc2",
+          "pages": 18
+        },
+        {
+          "title": "대회 조직·운영 지침",
+          "url": "https://www.fci.be/medias/DDA-REG-ORG-en-19922.pdf",
+          "mime": "application/pdf",
+          "sha256": "c352775e7380c95fab0b99cec130e85c2de65aeea6295ec731e43315906bbd35",
+          "pages": 7
+        },
+        {
+          "title": "유러피언 오픈 규정",
+          "url": "https://www.fci.be/medias/FCI-REG-DDA-EOC-en-2024-17161.pdf",
+          "mime": "application/pdf",
+          "sha256": "8dbb0bf69aa14125af500c874fb2e542b6e3736dcb66d1b32a114dd1089e3108",
+          "pages": 4
+        },
+        {
+          "title": "심사위원 지침",
+          "url": "https://www.fci.be/medias/DDA-REG-JUG-en-22355.pdf",
+          "mime": "application/pdf",
+          "sha256": "d6f624f1db4b8282902f24bce955c168604840bd043c97dffefd4142063d7572",
+          "pages": 10
+        },
+        {
+          "title": "파라 독댄스 월드챔피언십 규정",
+          "url": "https://www.fci.be/medias/DDA-PAR-REG-CMO-22619.pdf",
+          "mime": "application/pdf",
+          "sha256": "d1e6743cfb926604a2a24e244af446fac8bc975f80c38f08415f4e580bea3908",
+          "pages": 4
+        }
+      ],
+      "summary": "FCI 공식 종목 페이지에 게시된 경기 규정과 운영·심사 문서입니다.",
+      "language": "영어",
+      "images": []
+    },
+    {
+      "id": "obedience-fci-rules",
+      "title": "FCI 복종훈련 Class 1·2·3 경기 규정",
+      "kind": "reference",
+      "sportIds": [
+        "obedience"
+      ],
+      "sourceName": "FCI",
+      "url": "https://www.fci.be/en/Obedience-46.html",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "Class 1·2·3 경기 규정 · 2025",
+          "url": "https://www.fci.be/medias/OBE-REG-COB-123-20250101-en-19816.pdf",
+          "mime": "application/pdf",
+          "sha256": "6d4066f26b2a24adeff942d332afb89559b18164f461477e84520188dfef0440",
+          "pages": 96
+        },
+        {
+          "title": "월드챔피언십 일반 규정 · 2026",
+          "url": "https://www.fci.be/medias/OBE-REG-COB-3-WC-SC-en-22595.pdf",
+          "mime": "application/pdf",
+          "sha256": "b86cae35bfc473beeac3b50e124f7a8c9be0a003b3d37cedf1c1bcfe526c4169",
+          "pages": 8
+        },
+        {
+          "title": "월드챔피언십 운영 지침 · 2026",
+          "url": "https://www.fci.be/medias/OBE-REG-CMO-CCH-en-22597.pdf",
+          "mime": "application/pdf",
+          "sha256": "8c0f56c937f5d795bf151f13028bfc22ec4a9bb2128834b8f3f240fc12d040b1",
+          "pages": 10
+        }
+      ],
+      "summary": "클래스별 경기 규정과 2026년 월드챔피언십 문서를 함께 제공합니다.",
+      "language": "영어",
+      "images": []
+    },
+    {
+      "id": "flyball-fci-rules",
+      "title": "FCI 플라이볼 경기·계측·월드컵 규정",
+      "kind": "reference",
+      "sportIds": [
+        "flyball"
+      ],
+      "sourceName": "FCI",
+      "url": "https://www.fci.be/en/Flyball-70.html",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "플라이볼 경기 규정",
+          "url": "https://www.fci.be/medias/FLY-REG-en-15567.pdf",
+          "mime": "application/pdf",
+          "sha256": "81b5bc037a462632c16bdedce199708e6ec56f7deb0e1c517dfd7a0ee87bd64c",
+          "pages": 18
+        },
+        {
+          "title": "Ulna 계측 심사 지침 · 2025",
+          "url": "https://www.fci.be/medias/FLY-REG-JUG-en-22262.pdf",
+          "mime": "application/pdf",
+          "sha256": "dc57c65a873b59ac57f1282fcdf18411eea856adb17b21b12ed80f32de2fbf40",
+          "pages": 3
+        },
+        {
+          "title": "플라이볼 오픈 월드컵 운영 규정",
+          "url": "https://www.fci.be/medias/FLY-SPEC-FOWC-en-19809.pdf",
+          "mime": "application/pdf",
+          "sha256": "61639701deb9691df98a607baa1b532d0ed23e771a1b02b8f39d773f5a712da0",
+          "pages": 8
+        }
+      ],
+      "summary": "경기 규정, Ulna 계측 지침, 오픈 월드컵 운영 문서입니다.",
+      "language": "영어",
+      "images": []
+    },
+    {
+      "id": "rally-fci-rules",
+      "title": "FCI 랠리 오비디언스 규정·표지·심사 지침",
+      "kind": "reference",
+      "sportIds": [
+        "rally_obedience"
+      ],
+      "sourceName": "FCI",
+      "url": "https://www.fci.be/en/Rally-Obedience-4746.html",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "국제 경기 규정 · 2025",
+          "url": "https://www.fci.be/medias/FCI-ROB-REG-2025-en-19918.pdf",
+          "mime": "application/pdf",
+          "sha256": "d21c38334617ca4ffd04b4ac054658b5814594ea816c5b31ab749814de87fa79",
+          "pages": 36
+        },
+        {
+          "title": "운동 표지 설명",
+          "url": "https://www.fci.be/medias/ROB-REG-item-5-en-17205.pdf",
+          "mime": "application/pdf",
+          "sha256": "7c574f0ec83c4c4d1650737eea7be3a9764f41c616d90f0e566d416979c94207",
+          "pages": 15
+        },
+        {
+          "title": "운동 표지 전체 목록",
+          "url": "https://www.fci.be/medias/ROB-REG-annex-en-17333.pdf",
+          "mime": "application/pdf",
+          "sha256": "383d62ff013c741762c8e5c109cc4fab1ea2b0d27a7b04a8828a55598d66eada",
+          "pages": 96
+        },
+        {
+          "title": "코스 배치 규칙",
+          "url": "https://www.fci.be/medias/ROB-REG-Item-3-5-en-18407.pdf",
+          "mime": "application/pdf",
+          "sha256": "f689305e31bf8d7f72720ac5b14dc325bbd0047002f6fedf74cc3295a0198a3b",
+          "pages": 1
+        },
+        {
+          "title": "심사 지침 · 2026",
+          "url": "https://www.fci.be/medias/ROB-REG-JUG-en-22613.pdf",
+          "mime": "application/pdf",
+          "sha256": "8507d04bd0d6fc5dbafc6d826082935e91ba4bca9f6e7ee9f3518bc6f1e22f0e",
+          "pages": 12
+        },
+        {
+          "title": "월드·섹션 챔피언십 규정",
+          "url": "https://www.fci.be/medias/ROB-REG-CM-CDS-en-23820.pdf",
+          "mime": "application/pdf",
+          "sha256": "6c1777396d076863ed2639aedcd3661a4d74f1e983e4550675fbd9f7fe978754",
+          "pages": 9
+        }
+      ],
+      "summary": "경기 규정과 표지·코스 배치·심사 문서를 구분했습니다. 코스 배치 규칙은 특정 대회의 실제 코스맵과 다릅니다.",
+      "language": "영어",
+      "images": []
+    },
+    {
+      "id": "igp-fci-rules",
+      "title": "FCI IGP 경기·심사·월드챔피언십 규정",
+      "kind": "reference",
+      "sportIds": [
+        "igp"
+      ],
+      "sourceName": "FCI",
+      "url": "https://www.fci.be/en/Utility-Dogs-58.html",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "IGP 국제 훈련 경기 규정 · 2025",
+          "url": "https://www.fci.be/medias/UTI-REG-IGP-en-2025-22401.pdf",
+          "mime": "application/pdf",
+          "sha256": "7e72212d716fe1ee0314b7b415eaa88582849489dbff9ebe33139f4980cb1769",
+          "pages": 82
+        },
+        {
+          "title": "IGP 심사위원 규정 · 독일어",
+          "url": "https://www.fci.be/medias/UTI-REG-IGP-JUG-49-2020-de-13535.pdf",
+          "mime": "application/pdf",
+          "sha256": "cd3548333ba7aea9c3f335e05a5fa954485a87bcb80586902eaa28b1204fa16c",
+          "pages": 9
+        },
+        {
+          "title": "IGP 월드챔피언십 운영 지침",
+          "url": "https://www.fci.be/medias/UTI-REG-IGP-CMO-UTI-49-2020-en-18535.pdf",
+          "mime": "application/pdf",
+          "sha256": "4be4f96efac3fd30f6a6c8821dde995548e0581eae5719d068a85133131307e7",
+          "pages": 11
+        }
+      ],
+      "summary": "IGP·IGP-FH·BH 등 국제 훈련 규정과 IGP 심사·운영 문서입니다. 심사위원 문서 1개는 독일어입니다.",
+      "language": "영어·독일어",
+      "images": []
+    },
+    {
+      "id": "canicross-ifss-rules",
+      "title": "IFSS 캐니크로스 포함 드라이랜드 경기 규정 · 2026–2028",
+      "kind": "reference",
+      "sportIds": [
+        "canicross"
+      ],
+      "sourceName": "IFSS",
+      "url": "https://sleddogsport.net/events/default.aspx",
+      "verifiedAt": "2026-10-31",
+      "files": [
+        {
+          "title": "IFSS Race Rules 2026–2028 · ver.2",
+          "url": "https://sleddogsport.net/library/Documents/Regulations/Race Rules/IFSS_Race_Rules_2026-2028_ver2.pdf",
+          "mime": "application/pdf",
+          "sha256": "99f863e66ec604a6e7b9f711deb09aa7469fa936e707f5b6b1ecc01546cf0492",
+          "pages": 50
+        }
+      ],
+      "summary": "드라이랜드 장의 Canicross 부문을 포함하는 국제 경기 규정입니다. 2026년 7월 15일부터 2028년 총회까지의 적용본입니다.",
+      "language": "영어",
+      "images": []
+    },
+    {
+      "id": "kfss-18-canicross-results",
+      "title": "제18회 캐니크로스 대회 기록표",
+      "kind": "result",
+      "sportIds": [
+        "canicross"
+      ],
+      "sourceName": "한국반려동물스포츠협회 · KFSS",
+      "url": "http://kfss.or.kr/bbs/board.php?bo_table=sub0306&wr_id=461",
+      "verifiedAt": "2026-10-31",
+      "files": [],
+      "publishedAt": "2025-11-09",
+      "summary": "공식 게시물의 기록표 원본 이미지입니다. 게시일은 확인했으며 이미지에 개최일이 명시되지 않아 게시일을 표시합니다. 원본의 투명 배경은 밝은 바탕에서 볼 수 있습니다.",
+      "images": [
+        "https://drive.google.com/uc?export=view&id=1wbGEQOKPpYYNz8XDLEzrtrItYdF5anod"
+      ]
+    },
+    {
+      "id": "kkf-igp-helper-2026-guide",
+      "title": "2026 KKF 헬퍼 및 IGP 방위·트래킹 세미나",
+      "kind": "seminar",
+      "sportIds": [
+        "igp"
+      ],
+      "sourceName": "한국애견연맹 공식 세미나 공지",
+      "url": "https://www.thekkf.or.kr/new_home/news/board/content.php?seq=12705",
+      "verifiedAt": "2026-10-31",
+      "eventDate": "2026-11-16",
+      "eventEndDate": "2026-11-17",
+      "summary": "피터 로데 초청 IGP 트래킹·방위·헬퍼 교육입니다. 세미나 일정에서 장소·비용과 날짜별 교육 내용을 확인할 수 있습니다.",
+      "seminarId": "seminar-extra-kkf-igp-helper-2026",
+      "images": [
+        "https://drive.google.com/uc?export=view&id=1aggzefwEXATEGmStu1Ox8qpUfo7r9_GK",
+        "https://drive.google.com/uc?export=view&id=1geY_EztYmkmErhTvoUoABgTCiWZ51mAE"
+      ]
+    }
+  ],
+  "seminars": [
+    {
+      "id": "kkf-igp-helper-2026",
+      "name": "2026 KKF 헬퍼 및 IGP 방위·트래킹 세미나",
+      "date": "2026-11-16",
+      "endDate": "2026-11-17",
+      "sportIds": [
+        "igp"
+      ],
+      "location": "디지털서울문화예술대학교 이천실습장",
+      "organizer": "한국애견연맹",
+      "speaker": "피터 로데 (Peter Rohde)",
+      "time": "10:00–17:00",
+      "fee": "개인 1일 160,000원·2일 300,000원 / 단체 1일 140,000원·2일 260,000원 / 실습견 동반 1일 50,000원 추가",
+      "description": "11월 16일 IGP 트래킹, 17일 방위·헬퍼 교육·트래킹. 단체는 5인 이상이며 실습견 동반 수에는 제한이 있습니다. 상세 조건과 변경 사항은 한국애견연맹 원문을 확인하세요.",
+      "sessions": [
+        {
+          "date": "2026-11-16",
+          "label": "IGP 트래킹"
+        },
+        {
+          "date": "2026-11-17",
+          "label": "방위·헬퍼 교육·트래킹"
+        }
+      ],
+      "url": "https://www.thekkf.or.kr/new_home/news/board/content.php?seq=12705",
+      "sourceName": "한국애견연맹 공식 세미나 공지",
+      "verifiedAt": "2026-10-31",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1aggzefwEXATEGmStu1Ox8qpUfo7r9_GK",
+        "https://drive.google.com/uc?export=view&id=1geY_EztYmkmErhTvoUoABgTCiWZ51mAE"
+      ]
     }
   ]
 }
