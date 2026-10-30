@@ -9,3 +9,28 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
 .search input::placeholder{color:var(--muted);opacity:1}
+
+/* App-wide sport context and per-item identification. */
+.topbar{position:sticky;top:0;z-index:15;display:grid;grid-template-columns:minmax(110px,1fr) auto auto;gap:18px;height:auto;min-height:84px;padding-top:14px;padding-bottom:14px}
+.location-context{min-width:0}.nav-label{min-width:0}
+.sport-switch-row{display:flex;align-items:center;gap:10px;min-width:0}
+.sport-switch{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:650;white-space:nowrap}
+.sport-switch select{max-width:190px;min-height:40px;padding:8px 29px 8px 11px;border:1px solid #6f91b9;border-radius:8px;background:var(--white);font-size:13px;font-weight:700;color:var(--accent-text)}
+#sport-scope-help{font-size:10px;color:var(--muted)}
+.scope-reset{padding:8px 9px;font-size:11px;color:var(--accent-text);white-space:nowrap;min-height:36px}
+.page-scope{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;font-size:11px;color:var(--muted)}
+.page-scope strong{color:var(--ink);font-size:12px}
+.sport-tag{display:inline-flex;align-items:center;gap:5px;font-size:11px;line-height:1.4;padding:4px 7px;white-space:nowrap}
+.sport-tag svg{width:15px;height:15px;flex-shrink:0}.page-scope .sport-tag{font-size:12px}.card-body>.sport-tag{margin-bottom:12px}
+.calendar-event{white-space:normal}.calendar-sport{display:block;font-weight:750;line-height:1.4;margin-bottom:3px;overflow-wrap:anywhere}.calendar-name{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.detail-context{position:sticky;top:0;z-index:3;display:flex;align-items:center;flex-wrap:wrap;gap:7px;padding:16px 66px 16px 26px;background:var(--white);border-bottom:1px solid var(--line);font-size:11px;color:var(--muted)}
+.close{z-index:5}.detail-inner{padding-top:24px}#main{scroll-margin-top:100px}.notice-row h3{margin-top:9px}.notice-row>div{min-width:0}.empty .button{margin-top:16px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:1250px){#sport-scope-help{display:none}}
+@media(max-width:1150px){.topbar{grid-template-columns:minmax(0,1fr) auto;gap:11px}.location-context{grid-column:1;grid-row:1}.top-actions{grid-column:2;grid-row:1}.sport-switch-row{grid-column:1/-1;grid-row:2}#sport-scope-help{display:inline}}
+@media(max-width:800px){
+ .topbar{min-height:108px;padding:11px 16px;gap:8px}.breadcrumb b{display:inline;font-size:10px}.breadcrumb span{margin:0 6px}
+ .sport-switch-row{gap:8px}.sport-switch{gap:7px}.sport-switch select{max-width:176px;font-size:12px}.scope-reset{margin-left:auto;font-size:10px;padding:7px}#sport-scope-help{font-size:9px}
+ .sport-tag{font-size:10px}.sport-tag svg{width:13px;height:13px}.detail-context{padding:15px 60px 15px 20px}.calendar-sport{font-size:9px}.page-scope .sport-tag{font-size:11px}.notice-row{gap:10px}#main{scroll-margin-top:120px}
+}
+@media(max-width:360px){#sport-scope-help{display:none}.sport-switch select{max-width:160px}}
