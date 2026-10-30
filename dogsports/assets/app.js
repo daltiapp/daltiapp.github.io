@@ -5,6 +5,7 @@ const scopedHash=(page,sport=filter.sport)=>'#'+page+'?sport='+encodeURIComponen
 function selectSport(id){if(id==='all'||Object.hasOwn(SPORTS,id)){libCategory='all';location.hash=scopedHash(current,id);}}
 const sportNames = e => (e.sportIds||[]).map(s=>SPORTS[s]||s).join(' · ');
 const sportIcon = id => `<svg viewBox="0 0 24 24" aria-hidden="true">${({
+ all:'<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
  agility:'<path d="M4 21V7h3v14m10 0V7h3v14M7 12h10M2 21h7m6 0h7"/>',
  disc_dog:'<ellipse cx="12" cy="12" rx="9" ry="4" transform="rotate(-25 12 12)"/><path d="m2 4 5 1M1 8l3 1"/>',
  canicross:'<circle cx="14" cy="4" r="2"/><path d="m7 10 4-3 4 3 4 1M11 7l-1 7 5 2 2 5m-7-7-3 6H3"/>',
@@ -16,7 +17,17 @@ const sportIcon = id => `<svg viewBox="0 0 24 24" aria-hidden="true">${({
  })[id]||'<circle cx="12" cy="12" r="8"/>'}</svg>`;
 function pageScope(){return {id:filter.sport,label:SPORTS[filter.sport]||'전체 스포츠'};}
 let activeDetail=null;
-function updateContext(detail){if(detail)activeDetail=detail;const target=detail||($('#detail').open?activeDetail:null);const scope=pageScope();const label=target?sportNames(target):scope.label;$('#current-scope').textContent='선택한 스포츠 · '+scope.label;$('#sport-scope').innerHTML=Object.entries({all:'전체 스포츠',...SPORTS}).map(([id,name])=>`<option value="${id}" ${filter.sport===id?'selected':''}>${name}</option>`).join('');$('#show-all-sports').hidden=filter.sport==='all';document.title=(target?target.name:pages[current][0])+' · '+label+' | 독스포츠';}
+function sportChoices(){return Object.entries({all:'전체 스포츠',...SPORTS}).map(([id,name])=>`<li><a href="${scopedHash(current,id)}" data-sport-link="${id}" ${filter.sport===id?'aria-current="true"':''}>${sportIcon(id)}<span>${name}</span>${filter.sport===id?'<span class="choice-check" aria-hidden="true">✓</span><span class="sr-only">선택됨</span>':''}</a></li>`).join('');}
+function closeSportMenu(restoreFocus=false){const panel=$('#sport-menu');if(panel.hidden)return;panel.hidden=true;$('#sport-trigger').setAttribute('aria-expanded','false');if(restoreFocus)$('#sport-trigger').focus();}
+function toggleSportMenu(){const panel=$('#sport-menu');if(!panel.hidden){closeSportMenu();return;}panel.hidden=false;$('#sport-trigger').setAttribute('aria-expanded','true');}
+function updateContext(detail){
+ if(detail)activeDetail=detail;const target=detail||($('#detail').open?activeDetail:null);const scope=pageScope();const label=target?sportNames(target):scope.label;
+ $('#current-scope').textContent='선택한 스포츠 · '+scope.label;$('#sport-trigger').disabled=false;
+ $('#sport-trigger').innerHTML=sportIcon(scope.id)+`<span>${esc(scope.label)}</span><span class="picker-chevron" aria-hidden="true"></span>`;
+ $('#sport-trigger').setAttribute('aria-label','스포츠 변경: '+scope.label);
+ const menuKey=current+'|'+scope.id;if($('#sport-options').dataset.context!==menuKey){$('#sport-options').innerHTML=sportChoices();$('#sport-options').dataset.context=menuKey;}
+ document.title=(target?target.name:pages[current][0])+' · '+label+' | 독스포츠';
+}
 const ROOT = 'https://daltiapp.github.io';
 const $ = s => document.querySelector(s);
 const esc = v => String(v ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -71,7 +82,7 @@ function saveButton(id){return `<button class="save ${saved.has(id)?'saved':''}"
 function dateBox(e){return `<div class="date-box"><small>${e.start.slice(0,4)}.${e.start.slice(5,7)}</small><b>${e.start.slice(8,10)}</b><span>${weekday(e.start)}${e.start!==e.end?' – '+shortDate(e.end):''}</span></div>`;}
 function row(e){let [s,c]=status(e);return `<article class="event">${dateBox(e)}<button class="event-main" data-event="${esc(e.id)}" ${canOpen(e)?'':'disabled title="세부 안내 준비 중"'}><div class="tag-row">${tags(e)}${e.id.startsWith('seminar-')?'<span class="tag">세미나</span>':''}${e.area==='overseas'?'<span class="tag">해외</span>':''}</div><h3>${esc(e.name)}</h3><div class="event-meta"><span>${esc(e.location||'장소 미정')}</span>${e.organizer?`<span>·</span><span>${esc(e.organizer)}</span>`:''}</div></button><div class="event-side"><span class="status ${c}">${e.detailStatus==='detail_pending'?'세부 안내 준비 중':s}</span>${saveButton(e.id)}</div><span class="arrow" aria-hidden="true">↗</span></article>`;}
 function empty(title='조건에 맞는 일정이 없어요',body='다른 종목이나 기간을 선택해 보세요.'){return `<div class="empty"><b>${esc(title)}</b>${esc(body)}</div>`;}
-function heading(title,description){const scope=pageScope();return `<div class="page-heading"><div><div class="page-scope"><span>종목</span>${scope.id==='all'?'<strong>전체 스포츠</strong>':tags({sportIds:[scope.id]})}</div><h1>${scope.id!=='all'?esc(scope.label)+' ':''}${title}</h1><p>${description}</p></div><span class="date-stamp">${fmt(today)} ${weekday(today)}요일</span></div>`;}
+function heading(title){const scope=pageScope();return `<div class="page-heading"><h1>${scope.id!=='all'?esc(scope.label)+' ':''}${title}</h1></div>`;}
 function searchBox(placeholder){return `<label class="search">${icon('search')}<input id="search" type="search" placeholder="${placeholder}" value="${esc(filter.q)}" aria-label="${placeholder}" autocomplete="off"></label>`;}
 function render(){
   if(!snapshot)return;
@@ -81,13 +92,9 @@ function render(){
   else if(current==='seminars')renderSeminars();else if(current==='clubs')renderClubs();else if(current==='notices')renderNotices();else renderLibrary();
   bindImages();
 }
-function featuredEvent(){const pool=events.filter(e=>filter.sport==='all'||e.sportIds.includes(filter.sport));return pool.find(e=>e.end>=today&&e.area==='domestic'&&e.sportIds.some(s=>s!=='agility'))||pool.find(e=>e.end>=today&&e.area==='domestic');}
 function renderSchedule(){
- const next=featuredEvent();const sportPool=current==='saved'?[...events,...seminars()].filter(e=>saved.has(e.id)):events;
- let html=heading(current==='saved'?'나의 다음 경기':'대회 일정',current==='saved'?'마음에 담아 둔 경기들을 한눈에.':'어질리티부터 캐니크로스까지, 우리 팀의 다음 출전을 찾아보세요.');
- if(current==='schedule')html+=`<section class="hero"><div class="hero-main"><div class="eyebrow">ONE TEAM. EVERY SPORT.</div><h2>같이 뛰면,<br>더 넓은 세상이 열리니까.</h2><p>일정을 찾고, 준비하고, 함께 성장하세요.</p><div class="hero-track" aria-hidden="true"></div></div>${next?`<button class="spotlight" data-event="${esc(next.id)}">${dateBox(next)}<div><small>${esc(sportNames(next))} · 다가오는 대회</small><h3>${esc(next.name)}</h3><p>${esc(next.location||'장소 미정')}</p></div><span class="arrow">↗</span></button>`:''}</section>`;
- else html+='<div class="saved-note">이 브라우저에 저장한 일정입니다. ♡ 버튼으로 담거나 해제할 수 있어요.</div>';
- html+=`<div class="section-heading"><h2>스포츠 선택</h2><small>선택은 모든 메뉴에 적용됩니다</small></div><div class="sports"><button class="sport ${filter.sport==='all'?'active':''}" data-sport="all" aria-pressed="${filter.sport==='all'}">전체 스포츠</button>${Object.entries(SPORTS).map(([id,label])=>`<button class="sport ${filter.sport===id?'active':''}" data-sport="${id}" aria-pressed="${filter.sport===id}">${label}<span>${sportPool.filter(e=>e.sportIds.includes(id)&&(filter.area==='all'||e.area===filter.area)&&(filter.view==='calendar'||filter.range==='all'||(filter.range==='upcoming'?e.end>=today:e.end<today))).length}</span></button>`).join('')}</div>`;
+ let html=heading(current==='saved'?'내 일정':'대회 일정');
+ if(current==='saved')html+='<p class="saved-note">이 브라우저에 저장한 일정입니다.</p>';
  html+=`<div class="filters">${searchBox('대회명, 지역, 클럽 검색')}<select id="range" aria-label="일정 기간" ${filter.view==='calendar'?'hidden':''}><option value="upcoming" ${filter.range==='upcoming'?'selected':''}>다가오는 대회</option><option value="all" ${filter.range==='all'?'selected':''}>전체 기간</option><option value="past" ${filter.range==='past'?'selected':''}>지난 대회</option></select><select id="area" aria-label="개최 지역"><option value="domestic" ${filter.area==='domestic'?'selected':''}>국내</option><option value="overseas" ${filter.area==='overseas'?'selected':''}>해외</option><option value="all" ${filter.area==='all'?'selected':''}>국내 + 해외</option></select><div class="view-switch"><button data-view="list" class="${filter.view==='list'?'active':''}" aria-pressed="${filter.view==='list'}">${icon('list')}목록</button><button data-view="calendar" class="${filter.view==='calendar'?'active':''}" aria-pressed="${filter.view==='calendar'}">${icon('calendar')}달력</button></div></div><section id="results" aria-live="polite"></section>`;
  $('#main').innerHTML=html;renderResults();
 }
@@ -112,21 +119,21 @@ function notices(){return [...snapshot.notice.items.map(n=>({...n,sportIds:sport
 function scopeEmpty(noun){const label=pageScope().label;return `<div class="empty"><b>${esc(label)} ${esc(noun)} 정보가 아직 없어요</b>자료가 등록되면 이곳에서 확인할 수 있어요.${filter.sport!=='all'?`<div><button class="button" data-sport="all">전체 스포츠 ${esc(noun)} 보기</button></div>`:''}</div>`;}
 function renderSeminars(){
  const all=seminars().filter(inSport).sort((a,b)=>a.start.localeCompare(b.start));const items=all.filter(e=>(filter.range==='all'||(filter.range==='past'?e.end<today:e.end>=today))&&(!filter.q||[e.name,e.speaker,e.organizer].join(' ').includes(filter.q)));
- $('#main').innerHTML=heading('세미나','선택한 스포츠의 강사와 세미나 일정을 확인하세요.')+`<div class="filters">${searchBox('세미나명, 강사, 주최 검색')}<select id="range" aria-label="세미나 기간"><option value="upcoming" ${filter.range==='upcoming'?'selected':''}>다가오는 세미나</option><option value="all" ${filter.range==='all'?'selected':''}>전체 기간</option><option value="past" ${filter.range==='past'?'selected':''}>지난 세미나</option></select></div><div class="list-head">${items.length}개의 세미나</div><div class="card-grid">${items.map(e=>`<article class="content-card">${e.images[0]?`<img class="card-image" src="${esc(photo(e.images[0]))}" data-original="${esc(e.images[0])}" loading="lazy" alt="${esc(e.name)} 안내 이미지">`:''}<div class="card-body"><div class="tag-row">${tags(e)}</div><h3>${esc(e.name)}</h3><p>${dateRange(e)}<br>${esc(e.speaker||'')} · ${esc(e.organizer||'')}</p><div class="card-actions"><button class="button" data-seminar="${esc(e.id)}">세미나 보기 ↗</button>${saveButton(e.id)}</div></div></article>`).join('')}</div>${items.length?'':(all.length?empty('조건에 맞는 세미나가 없어요','검색어나 기간을 바꿔 보세요.'):scopeEmpty('세미나'))}`;
+ $('#main').innerHTML=heading('세미나')+`<div class="filters">${searchBox('세미나명, 강사, 주최 검색')}<select id="range" aria-label="세미나 기간"><option value="upcoming" ${filter.range==='upcoming'?'selected':''}>다가오는 세미나</option><option value="all" ${filter.range==='all'?'selected':''}>전체 기간</option><option value="past" ${filter.range==='past'?'selected':''}>지난 세미나</option></select></div><div class="list-head">${items.length}개의 세미나</div><div class="card-grid">${items.map(e=>`<article class="content-card">${e.images[0]?`<img class="card-image" src="${esc(photo(e.images[0]))}" data-original="${esc(e.images[0])}" loading="lazy" alt="${esc(e.name)} 안내 이미지">`:''}<div class="card-body"><div class="tag-row">${tags(e)}</div><h3>${esc(e.name)}</h3><p>${dateRange(e)}<br>${esc(e.speaker||'')} · ${esc(e.organizer||'')}</p><div class="card-actions"><button class="button" data-seminar="${esc(e.id)}">세미나 보기 ↗</button>${saveButton(e.id)}</div></div></article>`).join('')}</div>${items.length?'':(all.length?empty('조건에 맞는 세미나가 없어요','검색어나 기간을 바꿔 보세요.'):scopeEmpty('세미나'))}`;
 }
 function renderClubs(){
  const all=clubs().filter(inSport);const list=all.filter(c=>[c.nameKo,c.nameEn,c.address].join(' ').toLowerCase().includes(filter.q.toLowerCase()));
- $('#main').innerHTML=heading('클럽 찾기','선택한 스포츠를 함께 훈련할 팀을 찾아보세요.')+`<div class="filters">${searchBox('클럽명, 지역 검색')}</div><div class="list-head">클럽 ${list.length}곳</div><div class="card-grid">${list.map(c=>`<article class="content-card"><div class="card-body">${tags(c)}<div class="club-icon" aria-hidden="true">${esc(c.nameKo.slice(0,1))}</div><h3>${esc(c.nameKo)}</h3><p>${esc(c.nameEn||'')}<br>${esc(c.address||'주소는 클럽에 문의해 주세요.')}</p><div class="card-actions">${safe(c.instagram)?`<a class="button" href="${esc(c.instagram)}" target="_blank" rel="noopener noreferrer">인스타그램 ↗</a>`:''}${safe(c.naver)?`<a class="button" href="${esc(c.naver)}" target="_blank" rel="noopener noreferrer">클럽 안내 ↗</a>`:''}</div></div></article>`).join('')}</div>${list.length?'':(all.length?empty('검색된 클럽이 없어요','다른 이름이나 지역으로 검색해 보세요.'):scopeEmpty('클럽'))}`;
+ $('#main').innerHTML=heading('클럽 찾기')+`<div class="filters">${searchBox('클럽명, 지역 검색')}</div><div class="list-head">클럽 ${list.length}곳</div><div class="card-grid">${list.map(c=>`<article class="content-card"><div class="card-body">${tags(c)}<div class="club-icon" aria-hidden="true">${esc(c.nameKo.slice(0,1))}</div><h3>${esc(c.nameKo)}</h3><p>${esc(c.nameEn||'')}<br>${esc(c.address||'주소는 클럽에 문의해 주세요.')}</p><div class="card-actions">${safe(c.instagram)?`<a class="button" href="${esc(c.instagram)}" target="_blank" rel="noopener noreferrer">인스타그램 ↗</a>`:''}${safe(c.naver)?`<a class="button" href="${esc(c.naver)}" target="_blank" rel="noopener noreferrer">클럽 안내 ↗</a>`:''}</div></div></article>`).join('')}</div>${list.length?'':(all.length?empty('검색된 클럽이 없어요','다른 이름이나 지역으로 검색해 보세요.'):scopeEmpty('클럽'))}`;
 }
 function renderNotices(){
  const all=notices().filter(inSport);const list=all.filter(n=>n.title.toLowerCase().includes(filter.q.toLowerCase())).sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||''));
- $('#main').innerHTML=heading('공지사항','선택한 스포츠의 대회 변경과 공식 소식을 확인하세요.')+`<div class="filters">${searchBox('공지 제목 검색')}</div><div class="list-head">${list.length}개의 공지</div>${list.slice(0,filter.limit).map(n=>`<a class="notice-row" href="${esc(safe(n.url))}" target="_blank" rel="noopener noreferrer"><div><div class="tag-row">${tags(n)}<span class="tag">${esc({kkf:'KKF',kkc:'KKC',dongsa:'동물과사람'}[n.source]||n.source)}</span></div><h3>${esc(n.title)}</h3><p>${fmt(n.published_at)}</p></div><span class="arrow">↗</span></a>`).join('')}${list.length>filter.limit?'<button class="button load-more" id="more">공지 더 보기 ↓</button>':''}${list.length?'':(all.length?empty('검색된 공지가 없어요','검색어를 바꿔 보세요.'):scopeEmpty('공지'))}`;
+ $('#main').innerHTML=heading('공지사항')+`<div class="filters">${searchBox('공지 제목 검색')}</div><div class="list-head">${list.length}개의 공지</div>${list.slice(0,filter.limit).map(n=>`<a class="notice-row" href="${esc(safe(n.url))}" target="_blank" rel="noopener noreferrer"><div><div class="tag-row">${tags(n)}<span class="tag">${esc({kkf:'KKF',kkc:'KKC',dongsa:'동물과사람'}[n.source]||n.source)}</span></div><h3>${esc(n.title)}</h3><p>${fmt(n.published_at)}</p></div><span class="arrow">↗</span></a>`).join('')}${list.length>filter.limit?'<button class="button load-more" id="more">공지 더 보기 ↓</button>':''}${list.length?'':(all.length?empty('검색된 공지가 없어요','검색어를 바꿔 보세요.'):scopeEmpty('공지'))}`;
 }
-async function loadLibrary(){if(library||libraryLoading)return;libraryLoading=true;try{let url=ROOT+snapshot.manifest.basePath+'/'+snapshot.manifest.files.library;try{library=await json(url,12000);}catch{library=await json('./data/library.json');}if(current==='library')render();}catch{if(current==='library')$('#main').innerHTML=heading('경기 자료실','선택한 스포츠의 경기 자료를 확인하세요.')+empty('자료를 불러오지 못했어요','잠시 후 새로고침해 주세요.');}finally{libraryLoading=false;}}
+async function loadLibrary(){if(library||libraryLoading)return;libraryLoading=true;try{let url=ROOT+snapshot.manifest.basePath+'/'+snapshot.manifest.files.library;try{library=await json(url,12000);}catch{library=await json('./data/library.json');}if(current==='library')render();}catch{if(current==='library')$('#main').innerHTML=heading('경기 자료실')+empty('자료를 불러오지 못했어요','잠시 후 새로고침해 주세요.');}finally{libraryLoading=false;}}
 function libraryEvent(e){return {...e,sportIds:sportsOf(e,['agility'])};}
 function libraryGroups(){return library.competitionGroups.filter(g=>libCategory==='all'||g.categoryId===libCategory).map(g=>({g,e:library.events.find(e=>e.id===g.eventId)})).filter(({e})=>e).map(({e,g})=>({g,e:libraryEvent(e)})).filter(({e,g})=>inSport(e)&&e.name.toLowerCase().includes(filter.q.toLowerCase())&&(g[{course_map:'courseMapIds',result:'resultIds',entry_list:'entryListIds'}[libKind]]||[]).length);}
 function renderLibrary(){
- $('#main').innerHTML=heading('경기 자료실','선택한 스포츠의 출진표·코스맵·경기 결과를 확인하세요.');
+ $('#main').innerHTML=heading('경기 자료실');
  if(!library){$('#main').insertAdjacentHTML('beforeend','<div class="loading">경기 자료를 불러오고 있어요.</div>');loadLibrary();return;}
  const scopedEvents=library.events.map(libraryEvent).filter(inSport);if(!scopedEvents.length){$('#main').insertAdjacentHTML('beforeend',scopeEmpty('경기 자료'));return;}
  const eventIds=new Set(scopedEvents.map(e=>e.id));const categoryIds=new Set(library.competitionGroups.filter(g=>eventIds.has(g.eventId)).map(g=>g.categoryId));const categories=library.competitionCategories.filter(c=>categoryIds.has(c.id));const list=libraryGroups();
@@ -154,6 +161,8 @@ function downloadICS(e){
  const u=URL.createObjectURL(new Blob([lines.join('\r\n')+'\r\n'],{type:'text/calendar;charset=utf-8'}));const a=document.createElement('a');a.href=u;a.download='dogsports-'+e.start+'.ics';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);toast('캘린더 파일을 다운로드했어요.');
 }
 document.addEventListener('click',async event=>{
+ if(event.target.closest('#sport-trigger')){toggleSportMenu();return;}
+ if(event.target.closest('[data-sport-link]'))closeSportMenu(true);else if(!event.target.closest('.sport-switch'))closeSportMenu();
  if(event.target.closest('a.skip')){event.preventDefault();$('#main').focus();$('#main').scrollIntoView({block:'start'});return;}
  const b=event.target.closest('button');if(!b)return;
  if(b.dataset.event)showEvent(findEvent(b.dataset.event));else if(b.dataset.seminar)showEvent(findEvent(b.dataset.seminar));else if(b.dataset.save)toggleSave(b.dataset.save);else if(b.dataset.library)showLibrary(b.dataset.library);
@@ -166,11 +175,13 @@ document.addEventListener('click',async event=>{
  else if(b.dataset.ics)downloadICS(findEvent(b.dataset.ics));
  else if(b.dataset.copy){try{await navigator.clipboard.writeText(location.origin+location.pathname+'#event='+encodeURIComponent(b.dataset.copy)+'?sport='+encodeURIComponent(filter.sport));toast('대회 링크를 복사했어요.');}catch{toast('주소창의 링크를 복사해 주세요.');}}
 });
-document.addEventListener('change',e=>{if(e.target.id==='sport-scope'){selectSport(e.target.value);return;}if(['range','area','category'].includes(e.target.id)){if(e.target.id==='category')libCategory=e.target.value;else filter[e.target.id]=e.target.value;filter.day='';filter.limit=40;render();}});
+document.addEventListener('change',e=>{if(['range','area','category'].includes(e.target.id)){if(e.target.id==='category')libCategory=e.target.value;else filter[e.target.id]=e.target.value;filter.day='';filter.limit=40;render();}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#sport-menu').hidden){e.preventDefault();closeSportMenu(true);}});
+document.addEventListener('focusin',e=>{if(!e.target.closest('.sport-switch'))closeSportMenu();});
 document.addEventListener('input',e=>{if(e.target.id!=='search')return;filter.q=e.target.value;filter.limit=40;const pos=e.target.selectionStart;if(['schedule','saved'].includes(current))renderResults();else{render();$('#search')?.focus();try{$('#search')?.setSelectionRange(pos,pos);}catch{}}});
 $('#detail').addEventListener('close',()=>{activeDetail=null;updateContext();});
 $('#close-detail').onclick=()=>$('#detail').close();$('#detail').addEventListener('click',e=>{if(e.target===$('#detail')){const r=$('#detail').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('#detail').close();}});
-function route(){const [path,query='']=location.hash.slice(1).split('?');const requested=new URLSearchParams(query).get('sport');if(!path.startsWith('event=')&&$('#detail').open)$('#detail').close();filter.sport=Object.hasOwn(SPORTS,requested)?requested:'all';
+function route(){closeSportMenu();const [path,query='']=location.hash.slice(1).split('?');const requested=new URLSearchParams(query).get('sport');if(!path.startsWith('event=')&&$('#detail').open)$('#detail').close();filter.sport=Object.hasOwn(SPORTS,requested)?requested:'all';
  if(path.startsWith('event=')){let e;try{e=findEvent(decodeURIComponent(path.slice(6)));}catch{}current='schedule';if(e&&!requested&&e.sportIds.length===1)filter.sport=e.sportIds[0];render();if(e)showEvent(e);return;}
  current=pages[path]?path:'schedule';filter.q='';filter.day='';filter.limit=40;if(current==='saved'){filter.range='all';filter.area='all';filter.view='list';}render();window.scrollTo(0,0);
 }
