@@ -8,7 +8,7 @@
     "KAO",
     "어질리티"
   ],
-  "total_count": 42,
+  "total_count": 43,
   "detail_dir": "./",
   "items": [
     {
@@ -430,6 +430,16 @@
       "published_at_raw": "2026.10.29",
       "published_at": "2026-10-29T00:00:00+09:00",
       "detail_path": "./138.json"
+    },
+    {
+      "id": 139,
+      "source": "dongsa",
+      "source_seq": "239",
+      "title": "2027 WAO(World Agility Open) 한글 규정집 & 2026 KAO(Korea Agility Open) Championship 로컬 규정집",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=239&code=notice",
+      "published_at_raw": "2026.10.31",
+      "published_at": "2026-10-31T00:00:00+09:00",
+      "detail_path": "./139.json"
     }
   ]
 }
