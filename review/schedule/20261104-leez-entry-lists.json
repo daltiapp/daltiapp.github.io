@@ -1,0 +1,679 @@
+{
+  "verifiedAt": "2026-11-04T01:28:51+09:00",
+  "dataVersion": "20261104.1",
+  "request": "리즈 채널 출진표를 기존 대회 일정과 확인해 반영",
+  "beforeManifest": {
+    "service": "agilitykorea",
+    "schemaVersion": 2,
+    "dataVersion": "20261103.2",
+    "forceRefreshKey": "v3:20261103.2",
+    "basePath": "/ak/v3",
+    "updatedAt": "2026-11-03T22:30:35+09:00",
+    "files": {
+      "club": "club/club.json",
+      "clubs": "club/clubs.json",
+      "globalMatch": "global/globalmatch.json",
+      "match": "match/match.json",
+      "menu": "main/menu.json",
+      "menuV1": "main/menu_v1.json",
+      "notice": "notice/notice.json",
+      "noticeDongsa": "notice/dongsa/notice_dongsa.json",
+      "noticeKkf": "notice/kkf/notice_kkf.json",
+      "noticeKkc": "notice/kkc/notice_kkc.json",
+      "seminar": "seminar/seminar.json",
+      "venue": "venue/venue.json",
+      "library": "library/library.json"
+    }
+  },
+  "sourceUrls": {
+    "originalNotice": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+    "saturdayEntryList": "https://pf.kakao.com/_HlJFG/115113222",
+    "sundayEntryList": "https://pf.kakao.com/_HlJFG/115113313"
+  },
+  "findings": {
+    "eventDates": [
+      "2026-11-07",
+      "2026-11-08"
+    ],
+    "eventDateAndDisciplinesMatchExistingSchedule": true,
+    "newTimetablePublished": false,
+    "existingScheduleTimesPreserved": true,
+    "existingUserConfirmedJudgesPreserved": true,
+    "judgeCorrectionEvidence": "review/schedule/20261029-leez-judge-role-correction.json",
+    "libraryAlreadyContainsAllNineEntryImages": true,
+    "libraryUnchanged": true,
+    "canonicalScheduleUrlsPreserved": true,
+    "unrelatedCompetitionRowsChanged": 0
+  },
+  "sourcePosts": [
+    {
+      "postId": "115113222",
+      "title": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표",
+      "publishedAt": "2026-11-03T15:25:46+09:00",
+      "imageCount": 4,
+      "contentOrder": "비기너1 → 비기너2 → 노비스1 → 노비스2"
+    },
+    {
+      "postId": "115113313",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
+      "publishedAt": "2026-11-03T15:29:58+09:00",
+      "imageCount": 5,
+      "contentOrder": "어드밴스드 → 점핑 ST → 어질리티 ST → 점핑 MS → 어질리티 MS"
+    }
+  ],
+  "beforeRows": [
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
+      ],
+      "detailNotice": "11월 7일(토) 일정입니다.\n08:00~09:00 선수등록·안전교육, 09:00~12:00 비기너1·노비스1, 12:00~14:00 KKF 전국 학생부 어질리티 평가전, 14:00~17:00 비기너2·노비스2, 17:00~18:00 시상식.\n심사위원: 강현기.\nKKF 전국 학생부 평가는 별도 접수(10월 19일~11월 1일)이며 일반 LEEZ 대회 접수와 구분해 주세요.",
+      "startAt": "2026-11-07T08:00:00",
+      "endAt": "2026-11-07T18:00:00",
+      "judge": [
+        "강현기"
+      ],
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ]
+    },
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR"
+      ],
+      "detailNotice": "11월 8일(일) 일정입니다.\n08:00~09:00 선수등록·안전교육, 09:00~12:00 점핑 ST·MS, 12:00~14:00 어드밴스드, 14:00~17:00 어질리티 ST·MS, 17:00~18:00 시상식.\n심사위원: 김민성, 이지훈.",
+      "startAt": "2026-11-08T08:00:00",
+      "endAt": "2026-11-08T18:00:00",
+      "judge": [
+        "김민성",
+        "이지훈"
+      ],
+      "matchTypes": [
+        "점핑 ST",
+        "점핑 MS",
+        "어질리티 ST",
+        "어질리티 MS",
+        "어드밴스드"
+      ]
+    }
+  ],
+  "afterRows": [
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR",
+        "https://drive.google.com/uc?export=view&id=1YTO4vfgA2GhMBHsMi2hGRt_y4caUnJNk",
+        "https://drive.google.com/uc?export=view&id=1RjwAuRPjP7ZaA7SnnS9iDpExm7iiy4yD",
+        "https://drive.google.com/uc?export=view&id=1QpAny8U5xopFdqS1_7tm2QPpq13U1lAv",
+        "https://drive.google.com/uc?export=view&id=1iAWklWB1DstV3A9zatvBaiQtIsevxFg1"
+      ],
+      "detailNotice": "11월 7일(토) 일정입니다.\n08:00~09:00 선수등록·안전교육, 09:00~12:00 비기너1·노비스1, 12:00~14:00 KKF 전국 학생부 어질리티 평가전, 14:00~17:00 비기너2·노비스2, 17:00~18:00 시상식.\n심사위원: 강현기.\nKKF 전국 학생부 평가는 별도 접수(10월 19일~11월 1일)이며 일반 LEEZ 대회 접수와 구분해 주세요.\n11월 3일 공개 출진표: 비기너1·비기너2·노비스1·노비스2.\n상세 이미지에서 체급별 출진 순서·배번·핸들러·출진견·소속을 확인해 주세요. 수정사항은 리즈 채널 1대1 문의로 전달해 주세요.\n공식 출진표: https://pf.kakao.com/_HlJFG/115113222",
+      "startAt": "2026-11-07T08:00:00",
+      "endAt": "2026-11-07T18:00:00",
+      "judge": [
+        "강현기"
+      ],
+      "matchTypes": [
+        "비기너",
+        "노비스"
+      ]
+    },
+    {
+      "applicationEndAt": "2026-10-25T23:59:59",
+      "applicationStartAt": "2026-10-18T00:00:00",
+      "club": "한국어질리티연합",
+      "detailStatus": "detail_ready",
+      "eventType": "랭킹전",
+      "location": "소노벨 비발디파크메인센터",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
+      "url": "https://www.agility.co.kr/39/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175134552&t=board",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR",
+        "https://drive.google.com/uc?export=view&id=1AbrYlFNh79dqzklq8R6A4M2lWXdJRDSW",
+        "https://drive.google.com/uc?export=view&id=1IVtHeu9nKc1Y-mJ6CjWEux-X2IeBcZiB",
+        "https://drive.google.com/uc?export=view&id=1vWgF46Q9hf83u9-sofg3iGp0qhrIoGhw",
+        "https://drive.google.com/uc?export=view&id=1R23mGXKU_lkUIUNZQA7onqYNdCCfKupM",
+        "https://drive.google.com/uc?export=view&id=1raY73JL8wgIBmyLu07JBUEgEXhTq3Xvc"
+      ],
+      "detailNotice": "11월 8일(일) 일정입니다.\n08:00~09:00 선수등록·안전교육, 09:00~12:00 점핑 ST·MS, 12:00~14:00 어드밴스드, 14:00~17:00 어질리티 ST·MS, 17:00~18:00 시상식.\n심사위원: 김민성, 이지훈.\n11월 3일 공개 출진표: 어드밴스드·점핑 ST·어질리티 ST·점핑 MS·어질리티 MS.\n상세 이미지에서 체급별 출진 순서·배번·핸들러·출진견·소속을 확인해 주세요. 수정사항은 리즈 채널 1대1 문의로 전달해 주세요.\n공식 출진표: https://pf.kakao.com/_HlJFG/115113313",
+      "startAt": "2026-11-08T08:00:00",
+      "endAt": "2026-11-08T18:00:00",
+      "judge": [
+        "김민성",
+        "이지훈"
+      ],
+      "matchTypes": [
+        "점핑 ST",
+        "점핑 MS",
+        "어질리티 ST",
+        "어질리티 MS",
+        "어드밴스드"
+      ]
+    }
+  ],
+  "imageCounts": {
+    "originalNotice": 11,
+    "newSaturdayEntryList": 4,
+    "newSundayEntryList": 5,
+    "sourceTotal": 20,
+    "downloadedTotal": 20,
+    "reusedExistingDriveFiles": 11,
+    "newDriveUploads": 9,
+    "anyoneReaderVerified": 20,
+    "anonymousImageGetVerified": 20,
+    "sha256MatchesSource": 20,
+    "jsonImagesSaturday": 15,
+    "jsonImagesSunday": 16
+  },
+  "imageOrder": "Original notice eleven images preserved on both days; each day appends only its corresponding full entry list in source order.",
+  "imageVerification": [
+    {
+      "order": 1,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/f6d4720120f16.png",
+      "sha256": "e68d0764e4e3cd6f0d3d3dce46627ffcff642b9f6aa3165661f97e349bbe4ec5",
+      "bytes": 1582838,
+      "mimeType": "image/png",
+      "driveFileId": "1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+      "publicVerification": {
+        "fileId": "1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "url": "https://drive.google.com/uc?export=view&id=1SU8paixmMQW1F_VKcqnodk_YiYcgCGJw",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 1582838,
+        "sha256": "e68d0764e4e3cd6f0d3d3dce46627ffcff642b9f6aa3165661f97e349bbe4ec5",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 2,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/55fd05dc073ba.png",
+      "sha256": "71f01145775faa2a30d20d732558350374d304d734541ff43ee4bb3c88772c91",
+      "bytes": 125514,
+      "mimeType": "image/png",
+      "driveFileId": "1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+      "publicVerification": {
+        "fileId": "1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "url": "https://drive.google.com/uc?export=view&id=1y_8I9Umb38tJiJqcWA0ux5FVnTplnmOB",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 125514,
+        "sha256": "71f01145775faa2a30d20d732558350374d304d734541ff43ee4bb3c88772c91",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 3,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/fa24ab3354e93.png",
+      "sha256": "a2239e81eedc4bc3908f522f13a9e0be95c626f63b5cfaec91a418018c203965",
+      "bytes": 448243,
+      "mimeType": "image/png",
+      "driveFileId": "1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+      "publicVerification": {
+        "fileId": "1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "url": "https://drive.google.com/uc?export=view&id=1sjC1uY-VmzKhmfZg_kGoyUCqqWFzAV0l",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 448243,
+        "sha256": "a2239e81eedc4bc3908f522f13a9e0be95c626f63b5cfaec91a418018c203965",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 4,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/c6580402ae717.png",
+      "sha256": "a4b4e80c895ae4ec2b31479809bbb8e55958abbf38f3f68488eff5b5d801bebe",
+      "bytes": 451219,
+      "mimeType": "image/png",
+      "driveFileId": "13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+      "publicVerification": {
+        "fileId": "13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "url": "https://drive.google.com/uc?export=view&id=13irQBoykXiXJ2xM1LziKGPfycfUP3UxY",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 451219,
+        "sha256": "a4b4e80c895ae4ec2b31479809bbb8e55958abbf38f3f68488eff5b5d801bebe",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 5,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/2be5552f3bb73.png",
+      "sha256": "b39320e96ea348ddbb0ed5076777451f5f724465923465f0c644523683e3da3f",
+      "bytes": 513628,
+      "mimeType": "image/png",
+      "driveFileId": "1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+      "publicVerification": {
+        "fileId": "1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "url": "https://drive.google.com/uc?export=view&id=1prMsYslBUcMkH3jM_uPHyfA9HMyRw5pt",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 513628,
+        "sha256": "b39320e96ea348ddbb0ed5076777451f5f724465923465f0c644523683e3da3f",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 6,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/e154418d61029.png",
+      "sha256": "c39ebcf779552b4a8f9dbfc89c78998bd2ff0369a7a2e1b5de626de2d306f23e",
+      "bytes": 494064,
+      "mimeType": "image/png",
+      "driveFileId": "1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+      "publicVerification": {
+        "fileId": "1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "url": "https://drive.google.com/uc?export=view&id=1H7rjN1s0C7qhUta2MoycwWG2L-DcHB89",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 494064,
+        "sha256": "c39ebcf779552b4a8f9dbfc89c78998bd2ff0369a7a2e1b5de626de2d306f23e",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 7,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/462c2eee8eb72.png",
+      "sha256": "baf4e1e90bfd5b78b1b616ab3cdaaab9170e90ac445248d6909a39d588b9c2ae",
+      "bytes": 442410,
+      "mimeType": "image/png",
+      "driveFileId": "1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+      "publicVerification": {
+        "fileId": "1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "url": "https://drive.google.com/uc?export=view&id=1lmyaghySdgxVR7QQnTJymjvipGHHfioO",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 442410,
+        "sha256": "baf4e1e90bfd5b78b1b616ab3cdaaab9170e90ac445248d6909a39d588b9c2ae",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 8,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/fd5e2524469a3.png",
+      "sha256": "e62f65884a66ea67da6316dd8c784ce0507e5466ff53e81cef5c13b1b98bf62f",
+      "bytes": 440886,
+      "mimeType": "image/png",
+      "driveFileId": "1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+      "publicVerification": {
+        "fileId": "1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "url": "https://drive.google.com/uc?export=view&id=1xm50GsQW-DbfvxgRHxzKyZgJzvSIhqYT",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 440886,
+        "sha256": "e62f65884a66ea67da6316dd8c784ce0507e5466ff53e81cef5c13b1b98bf62f",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 9,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/0066b77e56bd0.png",
+      "sha256": "8150b6e714da13b4b08d5a4639f9a0409715b94e013cf25d3b00712fb6fd1a5b",
+      "bytes": 929367,
+      "mimeType": "image/png",
+      "driveFileId": "1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+      "publicVerification": {
+        "fileId": "1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "url": "https://drive.google.com/uc?export=view&id=1kcDDoVONDDu-03tE3bfgz3icuiZjsbRh",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 929367,
+        "sha256": "8150b6e714da13b4b08d5a4639f9a0409715b94e013cf25d3b00712fb6fd1a5b",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 10,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/b0a129debcdfd.png",
+      "sha256": "c7261a100a5168a5ff58d81ca0789a5cd01569f1a5ace512b70f8a204ba4b364",
+      "bytes": 836884,
+      "mimeType": "image/png",
+      "driveFileId": "1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+      "publicVerification": {
+        "fileId": "1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "url": "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 836884,
+        "sha256": "c7261a100a5168a5ff58d81ca0789a5cd01569f1a5ace512b70f8a204ba4b364",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "order": 11,
+      "sourceUrl": "https://cdn.imweb.me/upload/S2020012054cad0b813b8c/5d6c68118cc0b.png",
+      "sha256": "3c9ddd137874696107255261181c972b97f84c064b4e59864a9b55311b0cf1a2",
+      "bytes": 446265,
+      "mimeType": "image/png",
+      "driveFileId": "1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR",
+      "publicVerification": {
+        "fileId": "1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR",
+        "url": "https://drive.google.com/uc?export=view&id=1JgpdoM_2jQOZSNm4q2C1oo1xwf6rmCuR",
+        "status": 200,
+        "mimeType": "image/png",
+        "bytes": 446265,
+        "sha256": "3c9ddd137874696107255261181c972b97f84c064b4e59864a9b55311b0cf1a2",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113222",
+      "order": 1,
+      "mediaId": "196398941",
+      "sourceUrl": "https://k.kakaocdn.net/dn/dBoJ6F/dJMcaiS2yJd/X672GXiBXxEZHB7k9oPXE1/img_xl.jpg",
+      "sha256": "efd53afeafd9589aa65987a14c22d11e076dfed810daffe0387e7370cb25ba49",
+      "bytes": 436911,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1YTO4vfgA2GhMBHsMi2hGRt_y4caUnJNk",
+      "publicVerification": {
+        "fileId": "1YTO4vfgA2GhMBHsMi2hGRt_y4caUnJNk",
+        "url": "https://drive.google.com/uc?export=view&id=1YTO4vfgA2GhMBHsMi2hGRt_y4caUnJNk",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 436911,
+        "sha256": "efd53afeafd9589aa65987a14c22d11e076dfed810daffe0387e7370cb25ba49",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113222",
+      "order": 2,
+      "mediaId": "196398942",
+      "sourceUrl": "https://k.kakaocdn.net/dn/SnbtB/dJMcahzKj8h/LXWweKr43dVw6dtwuLvA21/img_xl.jpg",
+      "sha256": "f17593043b3ec9315773cbb14e71c36be96dd0665e54f01c1004780eb3cfc27f",
+      "bytes": 448738,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1RjwAuRPjP7ZaA7SnnS9iDpExm7iiy4yD",
+      "publicVerification": {
+        "fileId": "1RjwAuRPjP7ZaA7SnnS9iDpExm7iiy4yD",
+        "url": "https://drive.google.com/uc?export=view&id=1RjwAuRPjP7ZaA7SnnS9iDpExm7iiy4yD",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 448738,
+        "sha256": "f17593043b3ec9315773cbb14e71c36be96dd0665e54f01c1004780eb3cfc27f",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113222",
+      "order": 3,
+      "mediaId": "196398943",
+      "sourceUrl": "https://k.kakaocdn.net/dn/bTXbQ3/dJMcaiFtByG/IRSQq9tRrvs3Nz0PEOOpE0/img_xl.jpg",
+      "sha256": "fe32897dd571d5b75eb42d80908bfdbc8dd22fc8c3a9910cb32cd1f1031073b6",
+      "bytes": 499153,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1QpAny8U5xopFdqS1_7tm2QPpq13U1lAv",
+      "publicVerification": {
+        "fileId": "1QpAny8U5xopFdqS1_7tm2QPpq13U1lAv",
+        "url": "https://drive.google.com/uc?export=view&id=1QpAny8U5xopFdqS1_7tm2QPpq13U1lAv",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 499153,
+        "sha256": "fe32897dd571d5b75eb42d80908bfdbc8dd22fc8c3a9910cb32cd1f1031073b6",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113222",
+      "order": 4,
+      "mediaId": "196398944",
+      "sourceUrl": "https://k.kakaocdn.net/dn/hqQ90/dJMcaiS2yJk/kJ9La9oV265dX0pvdRthIK/img_xl.jpg",
+      "sha256": "801eeed87a51166a0ece1101e12bf0cd04c11a449dd43b55c1fe68cf48b92236",
+      "bytes": 426503,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1iAWklWB1DstV3A9zatvBaiQtIsevxFg1",
+      "publicVerification": {
+        "fileId": "1iAWklWB1DstV3A9zatvBaiQtIsevxFg1",
+        "url": "https://drive.google.com/uc?export=view&id=1iAWklWB1DstV3A9zatvBaiQtIsevxFg1",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 426503,
+        "sha256": "801eeed87a51166a0ece1101e12bf0cd04c11a449dd43b55c1fe68cf48b92236",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113313",
+      "order": 1,
+      "mediaId": "196399572",
+      "sourceUrl": "https://k.kakaocdn.net/dn/cUEZfl/dJMcah7Hsgd/In7lbR5LVntkm9xdJZj6ek/img_xl.jpg",
+      "sha256": "3395ff559252ec46f31719f7b2efca015f4d2d072648d754dee9f8d751ad4b1b",
+      "bytes": 402060,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1AbrYlFNh79dqzklq8R6A4M2lWXdJRDSW",
+      "publicVerification": {
+        "fileId": "1AbrYlFNh79dqzklq8R6A4M2lWXdJRDSW",
+        "url": "https://drive.google.com/uc?export=view&id=1AbrYlFNh79dqzklq8R6A4M2lWXdJRDSW",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 402060,
+        "sha256": "3395ff559252ec46f31719f7b2efca015f4d2d072648d754dee9f8d751ad4b1b",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113313",
+      "order": 2,
+      "mediaId": "196399573",
+      "sourceUrl": "https://k.kakaocdn.net/dn/cGbvkE/dJMcadYsi0u/eKb1eJ5XdQKvQtQDf4HfEK/img_xl.jpg",
+      "sha256": "141f36f85b20d67c23d092d01608e399baa5de3d57088a7f7b61c24dd3ae0eb6",
+      "bytes": 407851,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1IVtHeu9nKc1Y-mJ6CjWEux-X2IeBcZiB",
+      "publicVerification": {
+        "fileId": "1IVtHeu9nKc1Y-mJ6CjWEux-X2IeBcZiB",
+        "url": "https://drive.google.com/uc?export=view&id=1IVtHeu9nKc1Y-mJ6CjWEux-X2IeBcZiB",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 407851,
+        "sha256": "141f36f85b20d67c23d092d01608e399baa5de3d57088a7f7b61c24dd3ae0eb6",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113313",
+      "order": 3,
+      "mediaId": "196399574",
+      "sourceUrl": "https://k.kakaocdn.net/dn/KkpZl/dJMcabzr4b7/kpSbULzH3faQTRqtSC4nKK/img_xl.jpg",
+      "sha256": "596a0d2896ab5a7d0c08d7f76739b26e918c003a85db3bf3405830febe9670bb",
+      "bytes": 364649,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1vWgF46Q9hf83u9-sofg3iGp0qhrIoGhw",
+      "publicVerification": {
+        "fileId": "1vWgF46Q9hf83u9-sofg3iGp0qhrIoGhw",
+        "url": "https://drive.google.com/uc?export=view&id=1vWgF46Q9hf83u9-sofg3iGp0qhrIoGhw",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 364649,
+        "sha256": "596a0d2896ab5a7d0c08d7f76739b26e918c003a85db3bf3405830febe9670bb",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113313",
+      "order": 4,
+      "mediaId": "196399575",
+      "sourceUrl": "https://k.kakaocdn.net/dn/btMQSD/dJMcabzr4cd/lKKUsdW7tZtMCB3mnef8R0/img_xl.jpg",
+      "sha256": "bca7650c993ef85dddf0c8b92177e27553516dd820cd8e18ef860c7dbbf3cf2c",
+      "bytes": 260401,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1R23mGXKU_lkUIUNZQA7onqYNdCCfKupM",
+      "publicVerification": {
+        "fileId": "1R23mGXKU_lkUIUNZQA7onqYNdCCfKupM",
+        "url": "https://drive.google.com/uc?export=view&id=1R23mGXKU_lkUIUNZQA7onqYNdCCfKupM",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 260401,
+        "sha256": "bca7650c993ef85dddf0c8b92177e27553516dd820cd8e18ef860c7dbbf3cf2c",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    },
+    {
+      "postId": "115113313",
+      "order": 5,
+      "mediaId": "196399577",
+      "sourceUrl": "https://k.kakaocdn.net/dn/i3O4I/dJMcah7Hsgq/oXtZMFj8yQGWafDkyquxLK/img_xl.jpg",
+      "sha256": "b169be16f00b63a85aa1201126df6257f3e242b73d4cfcc2e989b907190faa02",
+      "bytes": 318864,
+      "mimeType": "image/jpeg",
+      "driveFileId": "1raY73JL8wgIBmyLu07JBUEgEXhTq3Xvc",
+      "publicVerification": {
+        "fileId": "1raY73JL8wgIBmyLu07JBUEgEXhTq3Xvc",
+        "url": "https://drive.google.com/uc?export=view&id=1raY73JL8wgIBmyLu07JBUEgEXhTq3Xvc",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 318864,
+        "sha256": "b169be16f00b63a85aa1201126df6257f3e242b73d4cfcc2e989b907190faa02",
+        "sha256MatchesSource": true,
+        "anyoneReader": true
+      }
+    }
+  ],
+  "venueVerification": {
+    "exactVenueMatches": 1,
+    "venueName": "소노벨 비발디파크메인센터",
+    "before": {
+      "name": "소노벨 비발디파크메인센터",
+      "location": {
+        "name": "소노벨 비발디파크메인센터",
+        "address": "강원특별자치도 홍천군 서면 한치골길 264",
+        "latitude": 37.6452854,
+        "longitude": 127.6821151
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8"
+      ]
+    },
+    "after": {
+      "name": "소노벨 비발디파크메인센터",
+      "location": {
+        "name": "소노벨 비발디파크메인센터",
+        "address": "강원특별자치도 홍천군 서면 한치골길 262",
+        "latitude": 37.6452854,
+        "longitude": 127.6821151
+      },
+      "photos": [
+        "https://drive.google.com/uc?export=view&id=1fuZYnnKAQvvWZF__rNAD2Fqzwdr2Z1C8"
+      ]
+    },
+    "eventMapSourceImageOrder": 10,
+    "officialAddressSource": "https://www.sonolc.com/homepage/images/pdf/sonorous_brochure.pdf",
+    "mapSource": "https://place.map.kakao.com/17577003",
+    "mapPublicResponse": "https://place.map.kakao.com/places/panel3/17577003",
+    "mapRoadAddress": "강원특별자치도 홍천군 서면 한치골길 262",
+    "mapCoordinates": {
+      "lon": 127.68198109594066,
+      "lat": 37.64505201471353
+    },
+    "existingCoordinateDistanceMeters": 28.51,
+    "coordinateDecision": "Preserve the existing entrance coordinates within the same Main Center building, approximately 28.5 m from the map center pin; the event map names this Main Center. Correct only the road address suffix from 264 to 262."
+  },
+  "validation": {
+    "activeDataHarness": {
+      "ok": true,
+      "scope": "all",
+      "json_file_count": 204,
+      "competition_count": 82,
+      "notice_count": 139,
+      "data_version": "20261104.1",
+      "schedule_due_date": "2026-11-04",
+      "schedule_due_competition_count": 0,
+      "schedule_manual_confirmation_limit": 3
+    },
+    "adminTests": {
+      "total": 166,
+      "passed": 165,
+      "failed": 1,
+      "knownFailure": "tests/server.test.mjs:159 expects the former daltiapp.github.io folder name instead of the canonical agility-data folder; same failure recorded before this update."
+    },
+    "sourceOrderAndLibraryReferencesVerified": true,
+    "diffCheck": true,
+    "onlyTargetRowsChanged": true,
+    "venueFieldsChanged": [
+      "location.address"
+    ]
+  },
+  "appPushSent": 0,
+  "telegramMessagesSent": 0,
+  "paidApiCalls": 0
+}
