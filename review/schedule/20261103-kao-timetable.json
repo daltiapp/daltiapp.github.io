@@ -1,0 +1,487 @@
+{
+  "verifiedAt": "2026-11-03T22:30:35+09:00",
+  "dataVersion": "20261103.2",
+  "operation": "Update the two existing 2026 KAO rows from the official timetable; no duplicate competition registration",
+  "sourceInstagramUrl": "https://www.instagram.com/p/DfMUf5oE7Ez/",
+  "originalSourceInstagramUrl": "https://www.instagram.com/p/DelxZJmk1SS/",
+  "originalScheduleUrlPreserved": true,
+  "sourceOwner": "dongsa08",
+  "changes": [
+    {
+      "index": 74,
+      "before": {
+        "applicationEndAt": "2026-10-30T23:59:59",
+        "applicationStartAt": "2026-10-17T00:00:00",
+        "club": "동물과사람",
+        "detailNotice": "",
+        "detailStatus": "detail_ready",
+        "endAt": "2026-11-07T00:00:00",
+        "eventType": "랭킹전",
+        "judge": [
+          "스테파니 젬카트",
+          "파우 세라노 시라투사"
+        ],
+        "location": "강아지숲",
+        "matchTypes": [
+          "펜타슬론",
+          "바이애슬론",
+          "스누커",
+          "갬블러"
+        ],
+        "name": "2026 Korea Agility Open (KAO)",
+        "startAt": "2026-11-07T00:00:00",
+        "url": "https://www.instagram.com/p/DelxZJmk1SS/?img_index=1",
+        "detailImages": [
+          "https://drive.google.com/uc?export=view&id=1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+          "https://drive.google.com/uc?export=view&id=1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+          "https://drive.google.com/uc?export=view&id=1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+          "https://drive.google.com/uc?export=view&id=1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+          "https://drive.google.com/uc?export=view&id=1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+          "https://drive.google.com/uc?export=view&id=1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+          "https://drive.google.com/uc?export=view&id=1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+          "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+          "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+          "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs"
+        ]
+      },
+      "after": {
+        "applicationEndAt": "2026-10-30T23:59:59",
+        "applicationStartAt": "2026-10-17T00:00:00",
+        "club": "동물과사람",
+        "detailNotice": "2026 KAO 공식 시간표 · 11월 7일(토) DAY 1\n08:00 현장 선수등록·체고측정, 코스맵 공개·코스 세팅.\n09:00 개회식·심판 브리핑 / 09:10 코스 답사(펜타슬론 점핑·어질리티).\n09:50 펜타슬론 어질리티(Ring 1) / 11:30 펜타슬론 점핑(Ring 2).\n13:00 점심 / 13:50 코스 세팅 / 14:20 코스 답사(펜타슬론 스피드스테이크스·스누커).\n15:00 펜타슬론 스피드스테이크스(Ring 1) / 16:40 스누커(Ring 2) / 18:00 시상식.\n목록의 시작 시각은 현장 선수등록 시작 기준입니다. 실제 행사 종료 시각은 공지되지 않았습니다.\n장소: 강아지숲 테마파크 동산 KAO 경기장(춘천시 남산면 충효로 437). 현장 상황에 따라 경기 시간이 변동될 수 있으며, 주최 측은 토요일 아침 교통체증을 감안한 출발을 안내했습니다.\n공식 시간표: https://www.instagram.com/p/DfMUf5oE7Ez/",
+        "detailStatus": "detail_ready",
+        "endAt": "2026-11-07T23:59:59",
+        "eventType": "랭킹전",
+        "judge": [
+          "스테파니 젬카트",
+          "파우 세라노 시라투사"
+        ],
+        "location": "강아지숲",
+        "matchTypes": [
+          "펜타슬론",
+          "바이애슬론",
+          "스누커",
+          "갬블러"
+        ],
+        "name": "2026 Korea Agility Open (KAO)",
+        "startAt": "2026-11-07T08:00:00",
+        "url": "https://www.instagram.com/p/DelxZJmk1SS/?img_index=1",
+        "detailImages": [
+          "https://drive.google.com/uc?export=view&id=1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+          "https://drive.google.com/uc?export=view&id=1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+          "https://drive.google.com/uc?export=view&id=1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+          "https://drive.google.com/uc?export=view&id=1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+          "https://drive.google.com/uc?export=view&id=1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+          "https://drive.google.com/uc?export=view&id=1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+          "https://drive.google.com/uc?export=view&id=1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+          "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+          "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+          "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+          "https://drive.google.com/uc?export=view&id=18CFKjdB2pNG71Y8ZlA0piLlh4DF5pjUO",
+          "https://drive.google.com/uc?export=view&id=1VVLJKyV78fvZsZryWsdHXRdfQ9HvzqqZ",
+          "https://drive.google.com/uc?export=view&id=1OcJTVpyhyxwBsnOUpNf2YhpA0MHUC7BI",
+          "https://drive.google.com/uc?export=view&id=15lFXFhwD8n7UCUcHw7EC-1Tlopk9o59v"
+        ]
+      }
+    },
+    {
+      "index": 77,
+      "before": {
+        "applicationEndAt": "2026-10-30T23:59:59",
+        "applicationStartAt": "2026-10-17T00:00:00",
+        "club": "동물과사람",
+        "detailNotice": "",
+        "detailStatus": "detail_ready",
+        "endAt": "2026-11-08T00:00:00",
+        "eventType": "랭킹전",
+        "judge": [
+          "스테파니 젬카트",
+          "파우 세라노 시라투사"
+        ],
+        "location": "강아지숲",
+        "matchTypes": [
+          "펜타슬론",
+          "바이애슬론",
+          "스누커",
+          "갬블러"
+        ],
+        "name": "2026 Korea Agility Open (KAO)",
+        "startAt": "2026-11-08T00:00:00",
+        "url": "https://www.instagram.com/p/DelxZJmk1SS/?img_index=1",
+        "detailImages": [
+          "https://drive.google.com/uc?export=view&id=1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+          "https://drive.google.com/uc?export=view&id=1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+          "https://drive.google.com/uc?export=view&id=1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+          "https://drive.google.com/uc?export=view&id=1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+          "https://drive.google.com/uc?export=view&id=1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+          "https://drive.google.com/uc?export=view&id=1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+          "https://drive.google.com/uc?export=view&id=1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+          "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+          "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+          "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs"
+        ]
+      },
+      "after": {
+        "applicationEndAt": "2026-10-30T23:59:59",
+        "applicationStartAt": "2026-10-17T00:00:00",
+        "club": "동물과사람",
+        "detailNotice": "2026 KAO 공식 시간표 · 11월 8일(일) DAY 2\n08:30 현장 선수등록, 코스맵 공개·코스 세팅 / 09:30 코스 답사(바이애슬론 점핑·어질리티).\n10:10 바이애슬론 점핑(Ring 1) / 11:50 바이애슬론 어질리티(Ring 2).\n13:20 점심 / 14:10 코스 세팅 / 14:40 코스 답사(갬블러) / 15:05 갬블러(Ring 1).\n16:25 코스 세팅 / 16:55 코스 답사(파이널 라운드) / 17:20 KAO 파이널 라운드(Ring 1).\n18:20 시상식·폐회식.\n목록의 시작 시각은 현장 선수등록 시작 기준입니다. 실제 행사 종료 시각은 공지되지 않았으며, 18:20은 시상식·폐회식 시작 시각입니다.\n장소: 강아지숲 테마파크 동산 KAO 경기장(춘천시 남산면 충효로 437). 현장 상황에 따라 경기 시간이 변동될 수 있습니다.\n공식 시간표: https://www.instagram.com/p/DfMUf5oE7Ez/",
+        "detailStatus": "detail_ready",
+        "endAt": "2026-11-08T23:59:59",
+        "eventType": "랭킹전",
+        "judge": [
+          "스테파니 젬카트",
+          "파우 세라노 시라투사"
+        ],
+        "location": "강아지숲",
+        "matchTypes": [
+          "펜타슬론",
+          "바이애슬론",
+          "스누커",
+          "갬블러"
+        ],
+        "name": "2026 Korea Agility Open (KAO)",
+        "startAt": "2026-11-08T08:30:00",
+        "url": "https://www.instagram.com/p/DelxZJmk1SS/?img_index=1",
+        "detailImages": [
+          "https://drive.google.com/uc?export=view&id=1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+          "https://drive.google.com/uc?export=view&id=1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+          "https://drive.google.com/uc?export=view&id=1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+          "https://drive.google.com/uc?export=view&id=1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+          "https://drive.google.com/uc?export=view&id=1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+          "https://drive.google.com/uc?export=view&id=1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+          "https://drive.google.com/uc?export=view&id=1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+          "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+          "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+          "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+          "https://drive.google.com/uc?export=view&id=18CFKjdB2pNG71Y8ZlA0piLlh4DF5pjUO",
+          "https://drive.google.com/uc?export=view&id=1VVLJKyV78fvZsZryWsdHXRdfQ9HvzqqZ",
+          "https://drive.google.com/uc?export=view&id=1OcJTVpyhyxwBsnOUpNf2YhpA0MHUC7BI",
+          "https://drive.google.com/uc?export=view&id=15lFXFhwD8n7UCUcHw7EC-1Tlopk9o59v"
+        ]
+      }
+    }
+  ],
+  "timeInterpretation": {
+    "startAt": "First on-site registration activity: 08:00 on Saturday, 08:30 on Sunday. Opening and first competition times are stated separately in detailNotice.",
+    "firstCompetitionAt": {
+      "2026-11-07": "09:50",
+      "2026-11-08": "10:10"
+    },
+    "lastPublishedActivityAt": {
+      "2026-11-07": "18:00 Awards",
+      "2026-11-08": "18:20 Awards & Closing Ceremony"
+    },
+    "actualEndAtPublished": false,
+    "endAt": "23:59:59 same-day sentinel for unpublished finish; never claim awards start is an exact finish."
+  },
+  "sourceImageCount": 14,
+  "sourceImagesDownloaded": 14,
+  "originalSourceImages": 10,
+  "newTimetableSourceImages": 4,
+  "retainedExistingDriveFiles": 10,
+  "newDriveUploads": 4,
+  "anyoneReaderImages": 14,
+  "anonymousHttpGetVerified": 14,
+  "sourceHashMatches": 14,
+  "jsonDetailImagesPerCompetition": 14,
+  "imageOrder": "Original 10 images retain their exact order, followed by all 4 timetable images in their source order. Both competition rows use the identical list.",
+  "imageVerification": {
+    "existing": [
+      {
+        "order": 1,
+        "fileId": "1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+        "url": "https://drive.google.com/uc?export=view&id=1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 370625,
+        "sha256": "ff551339973e34e9d4d6bcefb5b1dcda8b28265ccbd0359962e7609450a2dae8",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 2,
+        "fileId": "1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+        "url": "https://drive.google.com/uc?export=view&id=1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 219243,
+        "sha256": "53ab8cb7a6565692c04747c6bd5f44f77ca082ec7db2cc51997cdddae60e7f7c",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 3,
+        "fileId": "1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+        "url": "https://drive.google.com/uc?export=view&id=1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 306049,
+        "sha256": "d970cc69fd98ff5de060801892594f60bb6cb0b8737a6f83d34a21e09a5b047c",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 4,
+        "fileId": "1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+        "url": "https://drive.google.com/uc?export=view&id=1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 278308,
+        "sha256": "321ecda990c80e6dba697dc5ef438ec515ff92e42bb5e2a027619521fb6cd8de",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 5,
+        "fileId": "1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+        "url": "https://drive.google.com/uc?export=view&id=1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 362927,
+        "sha256": "cba24dfe0486fd91e83d8a2b67ef8c3a454eebfbcfed869ab1094697e4e1b22d",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 6,
+        "fileId": "1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+        "url": "https://drive.google.com/uc?export=view&id=1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 242142,
+        "sha256": "fd8118886cc14a20ff18947f65451a58177340ff65e311dc3fdf3f2562dc76a3",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 7,
+        "fileId": "1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+        "url": "https://drive.google.com/uc?export=view&id=1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 312607,
+        "sha256": "cafe3ec9e8a19e30ff355200311207f2c7d243e87b72e987f59ffba02aa6293c",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 8,
+        "fileId": "1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+        "url": "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 325535,
+        "sha256": "0c1ca759c8d28eb1a79df9670d904108bfe39ff03e4a1181d49e42b6c5e83281",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 9,
+        "fileId": "13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+        "url": "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 415611,
+        "sha256": "6079fc402f35a7a2a2291ae229c1ca5b34e7ed8bcce68995d99a97f30cb813b4",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 10,
+        "fileId": "1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+        "url": "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 376925,
+        "sha256": "558b2ae79c54ad68bd1aeb5153e246e3362d732c186663af86dc8b6fd5bb6c6b",
+        "sourceHashMatches": true
+      }
+    ],
+    "added": [
+      {
+        "order": 1,
+        "fileId": "18CFKjdB2pNG71Y8ZlA0piLlh4DF5pjUO",
+        "fileName": "kao-20261103-DfMUf5oE7Ez-01-d81f3f28c77aed4b.jpg",
+        "url": "https://drive.google.com/uc?export=view&id=18CFKjdB2pNG71Y8ZlA0piLlh4DF5pjUO",
+        "anyoneReader": true,
+        "permissionCreated": true,
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 380140,
+        "sha256": "d81f3f28c77aed4bbcf83630211a6ba91f29e541d962b38bcd00a86a1f293e00",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 2,
+        "fileId": "1VVLJKyV78fvZsZryWsdHXRdfQ9HvzqqZ",
+        "fileName": "kao-20261103-DfMUf5oE7Ez-02-7d9627942f372d34.jpg",
+        "url": "https://drive.google.com/uc?export=view&id=1VVLJKyV78fvZsZryWsdHXRdfQ9HvzqqZ",
+        "anyoneReader": true,
+        "permissionCreated": true,
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 270253,
+        "sha256": "7d9627942f372d34d59a905965acb73e39ae8f8dbe1cdde39cb98e9d3e1b7cd8",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 3,
+        "fileId": "1OcJTVpyhyxwBsnOUpNf2YhpA0MHUC7BI",
+        "fileName": "kao-20261103-DfMUf5oE7Ez-03-364e067f645e1a36.jpg",
+        "url": "https://drive.google.com/uc?export=view&id=1OcJTVpyhyxwBsnOUpNf2YhpA0MHUC7BI",
+        "anyoneReader": true,
+        "permissionCreated": true,
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 268604,
+        "sha256": "364e067f645e1a36fa56b417d35fc414c434dd3be4b4d19ac442a4b41646f092",
+        "sourceHashMatches": true
+      },
+      {
+        "order": 4,
+        "fileId": "15lFXFhwD8n7UCUcHw7EC-1Tlopk9o59v",
+        "fileName": "kao-20261103-DfMUf5oE7Ez-04-6dcaafcf00613488.jpg",
+        "url": "https://drive.google.com/uc?export=view&id=15lFXFhwD8n7UCUcHw7EC-1Tlopk9o59v",
+        "anyoneReader": true,
+        "permissionCreated": true,
+        "status": 200,
+        "mimeType": "image/jpeg",
+        "bytes": 224416,
+        "sha256": "6dcaafcf006134882f2e5de0b56626c2cb80c214bdf96203de531fc65c84c0fb",
+        "sourceHashMatches": true
+      }
+    ],
+    "permissions": {
+      "existing": [
+        {
+          "fileId": "1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
+          "fileName": "kau-instagram-DelxZJmk1SS-ff551339973e34e9d4d6bcefb5b1dcda8b28265ccbd0359962e7609450a2dae8.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1NsFBU2YPNSGUnrbUkrI5AmjbBfj-isfJ",
+          "fileName": "kau-instagram-DelxZJmk1SS-53ab8cb7a6565692c04747c6bd5f44f77ca082ec7db2cc51997cdddae60e7f7c.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1JnsDQteA_W-0Urpk3RiTdMZE-5aGrHac",
+          "fileName": "kau-instagram-DelxZJmk1SS-d970cc69fd98ff5de060801892594f60bb6cb0b8737a6f83d34a21e09a5b047c.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1DtLoVqv76zqsGlTBQmmMJR5qXO8P1PNp",
+          "fileName": "kau-instagram-DelxZJmk1SS-321ecda990c80e6dba697dc5ef438ec515ff92e42bb5e2a027619521fb6cd8de.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1n5JMFOnZ2-eTjskjar6KKIf64jo53dg1",
+          "fileName": "kau-instagram-DelxZJmk1SS-cba24dfe0486fd91e83d8a2b67ef8c3a454eebfbcfed869ab1094697e4e1b22d.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1P3MIeTRrrjA_0AQED2yxZ1kKsWz-US9g",
+          "fileName": "kau-instagram-DelxZJmk1SS-fd8118886cc14a20ff18947f65451a58177340ff65e311dc3fdf3f2562dc76a3.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
+          "fileName": "kau-instagram-DelxZJmk1SS-cafe3ec9e8a19e30ff355200311207f2c7d243e87b72e987f59ffba02aa6293c.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
+          "fileName": "kau-instagram-DelxZJmk1SS-0c1ca759c8d28eb1a79df9670d904108bfe39ff03e4a1181d49e42b6c5e83281.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
+          "fileName": "kau-instagram-DelxZJmk1SS-6079fc402f35a7a2a2291ae229c1ca5b34e7ed8bcce68995d99a97f30cb813b4.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+          "fileName": "kau-instagram-DelxZJmk1SS-558b2ae79c54ad68bd1aeb5153e246e3362d732c186663af86dc8b6fd5bb6c6b.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        }
+      ],
+      "added": [
+        {
+          "fileId": "18CFKjdB2pNG71Y8ZlA0piLlh4DF5pjUO",
+          "fileName": "kao-20261103-DfMUf5oE7Ez-01-d81f3f28c77aed4b.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1VVLJKyV78fvZsZryWsdHXRdfQ9HvzqqZ",
+          "fileName": "kao-20261103-DfMUf5oE7Ez-02-7d9627942f372d34.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "1OcJTVpyhyxwBsnOUpNf2YhpA0MHUC7BI",
+          "fileName": "kao-20261103-DfMUf5oE7Ez-03-364e067f645e1a36.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        },
+        {
+          "fileId": "15lFXFhwD8n7UCUcHw7EC-1Tlopk9o59v",
+          "fileName": "kao-20261103-DfMUf5oE7Ez-04-6dcaafcf00613488.jpg",
+          "anyoneReader": true,
+          "mimeType": "image/jpeg"
+        }
+      ]
+    }
+  },
+  "venue": {
+    "name": "강아지숲",
+    "unchanged": true,
+    "location": {
+      "name": "강아지숲",
+      "address": "강원도 춘천시 남산면 충효로 437",
+      "latitude": 37.7364350197699,
+      "longitude": 127.662020178819
+    },
+    "sourceAddress": "강아지숲 테마파크 동산 KAO 경기장 (춘천시 남산면 충효로 437)",
+    "source": "https://www.instagram.com/p/DelxZJmk1SS/",
+    "nameAndAddressMatch": true,
+    "coordinatesPreserved": true,
+    "officialHomeUrl": "https://www.dforest.co.kr/",
+    "officialMapScriptUrl": "https://www.dforest.co.kr/static/js/main.8d31f9fa.js",
+    "officialMapCoordinates": {
+      "latitude": 37.7364351,
+      "longitude": 127.6620201
+    },
+    "officialMapDistanceMeters": 0.0113,
+    "officialMapScriptSha256": "8647170f188be9a0f8a6ba1e571c038ee465897fc507715c5bf0565463e8563b",
+    "officialAddressVerified": true,
+    "coordinatesVerified": true
+  },
+  "unrelatedCompetitionRowsChanged": 0,
+  "schemaChanged": false,
+  "appPushSent": false,
+  "telegramSent": false,
+  "paidApiCalls": 0,
+  "validation": {
+    "allScopeHarness": {
+      "ok": true,
+      "scope": "all",
+      "data_version": "20261103.2",
+      "json_file_count": 204,
+      "competition_count": 82,
+      "notice_count": 139,
+      "schedule_due_competition_count": 0
+    },
+    "adminContractTests": {
+      "tests": 166,
+      "pass": 165,
+      "fail": 1,
+      "cancelled": 0,
+      "skipped": 0,
+      "knownFailure": "tests/server.test.mjs:159 still expects legacy repository basename daltiapp.github.io; canonical basename is agility-data. The same failure is recorded in the existing 20261030-suncheon-leez audit.",
+      "relatedCodeChanged": false
+    },
+    "diffCheckPassed": true
+  }
+}

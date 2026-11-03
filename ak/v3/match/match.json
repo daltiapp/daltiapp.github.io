@@ -1825,9 +1825,9 @@
       "applicationEndAt": "2026-10-30T23:59:59",
       "applicationStartAt": "2026-10-17T00:00:00",
       "club": "동물과사람",
-      "detailNotice": "",
+      "detailNotice": "2026 KAO 공식 시간표 · 11월 7일(토) DAY 1\n08:00 현장 선수등록·체고측정, 코스맵 공개·코스 세팅.\n09:00 개회식·심판 브리핑 / 09:10 코스 답사(펜타슬론 점핑·어질리티).\n09:50 펜타슬론 어질리티(Ring 1) / 11:30 펜타슬론 점핑(Ring 2).\n13:00 점심 / 13:50 코스 세팅 / 14:20 코스 답사(펜타슬론 스피드스테이크스·스누커).\n15:00 펜타슬론 스피드스테이크스(Ring 1) / 16:40 스누커(Ring 2) / 18:00 시상식.\n목록의 시작 시각은 현장 선수등록 시작 기준입니다. 실제 행사 종료 시각은 공지되지 않았습니다.\n장소: 강아지숲 테마파크 동산 KAO 경기장(춘천시 남산면 충효로 437). 현장 상황에 따라 경기 시간이 변동될 수 있으며, 주최 측은 토요일 아침 교통체증을 감안한 출발을 안내했습니다.\n공식 시간표: https://www.instagram.com/p/DfMUf5oE7Ez/",
       "detailStatus": "detail_ready",
-      "endAt": "2026-11-07T00:00:00",
+      "endAt": "2026-11-07T23:59:59",
       "eventType": "랭킹전",
       "judge": [
         "스테파니 젬카트",
@@ -1841,7 +1841,7 @@
         "갬블러"
       ],
       "name": "2026 Korea Agility Open (KAO)",
-      "startAt": "2026-11-07T00:00:00",
+      "startAt": "2026-11-07T08:00:00",
       "url": "https://www.instagram.com/p/DelxZJmk1SS/?img_index=1",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
@@ -1853,7 +1853,11 @@
         "https://drive.google.com/uc?export=view&id=1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
         "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
         "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
-        "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs"
+        "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+        "https://drive.google.com/uc?export=view&id=18CFKjdB2pNG71Y8ZlA0piLlh4DF5pjUO",
+        "https://drive.google.com/uc?export=view&id=1VVLJKyV78fvZsZryWsdHXRdfQ9HvzqqZ",
+        "https://drive.google.com/uc?export=view&id=1OcJTVpyhyxwBsnOUpNf2YhpA0MHUC7BI",
+        "https://drive.google.com/uc?export=view&id=15lFXFhwD8n7UCUcHw7EC-1Tlopk9o59v"
       ]
     },
     {
@@ -1915,9 +1919,9 @@
       "applicationEndAt": "2026-10-30T23:59:59",
       "applicationStartAt": "2026-10-17T00:00:00",
       "club": "동물과사람",
-      "detailNotice": "",
+      "detailNotice": "2026 KAO 공식 시간표 · 11월 8일(일) DAY 2\n08:30 현장 선수등록, 코스맵 공개·코스 세팅 / 09:30 코스 답사(바이애슬론 점핑·어질리티).\n10:10 바이애슬론 점핑(Ring 1) / 11:50 바이애슬론 어질리티(Ring 2).\n13:20 점심 / 14:10 코스 세팅 / 14:40 코스 답사(갬블러) / 15:05 갬블러(Ring 1).\n16:25 코스 세팅 / 16:55 코스 답사(파이널 라운드) / 17:20 KAO 파이널 라운드(Ring 1).\n18:20 시상식·폐회식.\n목록의 시작 시각은 현장 선수등록 시작 기준입니다. 실제 행사 종료 시각은 공지되지 않았으며, 18:20은 시상식·폐회식 시작 시각입니다.\n장소: 강아지숲 테마파크 동산 KAO 경기장(춘천시 남산면 충효로 437). 현장 상황에 따라 경기 시간이 변동될 수 있습니다.\n공식 시간표: https://www.instagram.com/p/DfMUf5oE7Ez/",
       "detailStatus": "detail_ready",
-      "endAt": "2026-11-08T00:00:00",
+      "endAt": "2026-11-08T23:59:59",
       "eventType": "랭킹전",
       "judge": [
         "스테파니 젬카트",
@@ -1931,7 +1935,7 @@
         "갬블러"
       ],
       "name": "2026 Korea Agility Open (KAO)",
-      "startAt": "2026-11-08T00:00:00",
+      "startAt": "2026-11-08T08:30:00",
       "url": "https://www.instagram.com/p/DelxZJmk1SS/?img_index=1",
       "detailImages": [
         "https://drive.google.com/uc?export=view&id=1GfQfS9idlqd52Fk8bAoRSWQmsWcceE9K",
@@ -1943,7 +1947,11 @@
         "https://drive.google.com/uc?export=view&id=1oqtkl2i_FmkzxZ1vOW98j2audRTTI1Hf",
         "https://drive.google.com/uc?export=view&id=1jC2G7sXqPVGEj1XjmxOFsYk1biFLSMVA",
         "https://drive.google.com/uc?export=view&id=13s8ysj1kMCV_mGb4_PODkdbLvyi5kKsv",
-        "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs"
+        "https://drive.google.com/uc?export=view&id=1cZ719fJ7ZYRoVonqk-ECoCntSIojZjCs",
+        "https://drive.google.com/uc?export=view&id=18CFKjdB2pNG71Y8ZlA0piLlh4DF5pjUO",
+        "https://drive.google.com/uc?export=view&id=1VVLJKyV78fvZsZryWsdHXRdfQ9HvzqqZ",
+        "https://drive.google.com/uc?export=view&id=1OcJTVpyhyxwBsnOUpNf2YhpA0MHUC7BI",
+        "https://drive.google.com/uc?export=view&id=15lFXFhwD8n7UCUcHw7EC-1Tlopk9o59v"
       ]
     },
     {
