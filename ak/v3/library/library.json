@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261029.5",
-  "updatedAt": "2026-10-29T20:44:46+09:00",
+  "dataVersion": "20261103.1",
+  "updatedAt": "2026-11-03T21:04:24+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -65,6 +65,40 @@
     }
   ],
   "events": [
+    {
+      "id": "event-kakao-HlJFG-115113313-a26552cc8778",
+      "name": "2026 LEEZ 어질리티 챔피언쉽 파이널",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ]
+    },
+    {
+      "id": "event-kakao-GptxdX-115113380-6a91d9a0546f",
+      "name": "2026 KKF 전국 학생부 어질리티 평가전",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
+      "id": "event-kakao-HlJFG-115113222-48bcd3b59d4a",
+      "name": "2026 LEEZ 어질리티 챔피언쉽 파이널",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": null,
+      "categoryIds": [
+        "benov_ranking"
+      ]
+    },
     {
       "id": "event-kakao-GptxdX-114855200-61dee1502fc0",
       "name": "익산 FCI 인터내셔널 어질리티 경기대회",
@@ -2271,6 +2305,326 @@
     }
   ],
   "assets": [
+    {
+      "id": "asset-kakao-HlJFG-196399572",
+      "kind": "entry_list",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수장사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cUEZfl/dJMcah7Hsgd/In7lbR5LVntkm9xdJZj6ek/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cUEZfl/dJMcah7Hsgd/In7lbR5LVntkm9xdJZj6ek/img_s.jpg",
+        "width": 957,
+        "height": 1471,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113313",
+        "mediaId": "196399572",
+        "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
+        "publishedAt": "2026-11-03T15:29:58+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196399573",
+      "kind": "entry_list",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수장사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cGbvkE/dJMcadYsi0u/eKb1eJ5XdQKvQtQDf4HfEK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cGbvkE/dJMcadYsi0u/eKb1eJ5XdQKvQtQDf4HfEK/img_s.jpg",
+        "width": 945,
+        "height": 1391,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113313",
+        "mediaId": "196399573",
+        "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
+        "publishedAt": "2026-11-03T15:29:58+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196399574",
+      "kind": "entry_list",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수장사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/KkpZl/dJMcabzr4b7/kpSbULzH3faQTRqtSC4nKK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/KkpZl/dJMcabzr4b7/kpSbULzH3faQTRqtSC4nKK/img_s.jpg",
+        "width": 972,
+        "height": 1214,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113313",
+        "mediaId": "196399574",
+        "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
+        "publishedAt": "2026-11-03T15:29:58+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196399575",
+      "kind": "entry_list",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수장사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/btMQSD/dJMcabzr4cd/lKKUsdW7tZtMCB3mnef8R0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/btMQSD/dJMcabzr4cd/lKKUsdW7tZtMCB3mnef8R0/img_s.jpg",
+        "width": 879,
+        "height": 961,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113313",
+        "mediaId": "196399575",
+        "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
+        "publishedAt": "2026-11-03T15:29:58+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196399577",
+      "kind": "entry_list",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 5",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수장사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/i3O4I/dJMcah7Hsgq/oXtZMFj8yQGWafDkyquxLK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/i3O4I/dJMcah7Hsgq/oXtZMFj8yQGWafDkyquxLK/img_s.jpg",
+        "width": 946,
+        "height": 1090,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113313",
+        "mediaId": "196399577",
+        "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
+        "publishedAt": "2026-11-03T15:29:58+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-196400040",
+      "kind": "entry_list",
+      "title": "11.07(토) KKF 전국 학생 어질리티 평가전 출진표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-115113380-6a91d9a0546f"
+      ],
+      "mapCategories": [],
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/0MdMZ/dJMb99VXUuf/bWJkOph7ZKkJ6PdyvxKFb0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/0MdMZ/dJMb99VXUuf/bWJkOph7ZKkJ6PdyvxKFb0/img_s.jpg",
+        "width": 973,
+        "height": 1134,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115113380",
+        "mediaId": "196400040",
+        "postTitle": "11.07(토) KKF 전국 학생 어질리티 평가전 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115113380",
+        "publishedAt": "2026-11-03T15:32:44+09:00",
+        "imageOrder": 1
+      },
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "event"
+    },
+    {
+      "id": "asset-kakao-HlJFG-196398941",
+      "kind": "entry_list",
+      "title": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-48bcd3b59d4a"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dBoJ6F/dJMcaiS2yJd/X672GXiBXxEZHB7k9oPXE1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dBoJ6F/dJMcaiS2yJd/X672GXiBXxEZHB7k9oPXE1/img_s.jpg",
+        "width": 732,
+        "height": 1539,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113222",
+        "mediaId": "196398941",
+        "postTitle": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113222",
+        "publishedAt": "2026-11-03T15:25:46+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196398942",
+      "kind": "entry_list",
+      "title": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-48bcd3b59d4a"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/SnbtB/dJMcahzKj8h/LXWweKr43dVw6dtwuLvA21/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/SnbtB/dJMcahzKj8h/LXWweKr43dVw6dtwuLvA21/img_s.jpg",
+        "width": 712,
+        "height": 1631,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113222",
+        "mediaId": "196398942",
+        "postTitle": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113222",
+        "publishedAt": "2026-11-03T15:25:46+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196398943",
+      "kind": "entry_list",
+      "title": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-48bcd3b59d4a"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bTXbQ3/dJMcaiFtByG/IRSQq9tRrvs3Nz0PEOOpE0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bTXbQ3/dJMcaiFtByG/IRSQq9tRrvs3Nz0PEOOpE0/img_s.jpg",
+        "width": 833,
+        "height": 1638,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113222",
+        "mediaId": "196398943",
+        "postTitle": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113222",
+        "publishedAt": "2026-11-03T15:25:46+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196398944",
+      "kind": "entry_list",
+      "title": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-48bcd3b59d4a"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hqQ90/dJMcaiS2yJk/kJ9La9oV265dX0pvdRthIK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hqQ90/dJMcaiS2yJk/kJ9La9oV265dX0pvdRthIK/img_s.jpg",
+        "width": 823,
+        "height": 1506,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113222",
+        "mediaId": "196398944",
+        "postTitle": "11.07(토) 2026 리즈 어질리티 챔피언쉽 파이널 비노 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113222",
+        "publishedAt": "2026-11-03T15:25:46+09:00",
+        "imageOrder": 4
+      }
+    },
     {
       "id": "asset-kakao-GptxdX-195367455",
       "kind": "result",
@@ -150231,6 +150585,63 @@
   ],
   "eventGroups": [
     {
+      "eventId": "event-kakao-HlJFG-115113313-a26552cc8778",
+      "entryListIds": [
+        "asset-kakao-HlJFG-196399572",
+        "asset-kakao-HlJFG-196399573",
+        "asset-kakao-HlJFG-196399574",
+        "asset-kakao-HlJFG-196399575",
+        "asset-kakao-HlJFG-196399577"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "entryListCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
+      "eventId": "event-kakao-GptxdX-115113380-6a91d9a0546f",
+      "entryListIds": [
+        "asset-kakao-GptxdX-196400040"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [
+        "jpag_promotion"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
+      "eventId": "event-kakao-HlJFG-115113222-48bcd3b59d4a",
+      "entryListIds": [
+        "asset-kakao-HlJFG-196398941",
+        "asset-kakao-HlJFG-196398942",
+        "asset-kakao-HlJFG-196398943",
+        "asset-kakao-HlJFG-196398944"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "entryListCategoryIds": [
+        "benov_ranking"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
       "eventId": "event-kakao-GptxdX-114855200-61dee1502fc0",
       "entryListIds": [
         "asset-kakao-GptxdX-195139886",
@@ -157447,6 +157858,56 @@
     }
   ],
   "competitionGroups": [
+    {
+      "id": "event:event-kakao-HlJFG-115113313-a26552cc8778:category:jpag_ranking",
+      "eventId": "event-kakao-HlJFG-115113313-a26552cc8778",
+      "categoryId": "jpag_ranking",
+      "entryListIds": [
+        "asset-kakao-HlJFG-196399573",
+        "asset-kakao-HlJFG-196399574",
+        "asset-kakao-HlJFG-196399575",
+        "asset-kakao-HlJFG-196399577"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-HlJFG-115113313-a26552cc8778:category:benov_ranking",
+      "eventId": "event-kakao-HlJFG-115113313-a26552cc8778",
+      "categoryId": "benov_ranking",
+      "entryListIds": [
+        "asset-kakao-HlJFG-196399572"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-GptxdX-115113380-6a91d9a0546f:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-115113380-6a91d9a0546f",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [
+        "asset-kakao-GptxdX-196400040"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-kakao-HlJFG-115113222-48bcd3b59d4a:category:benov_ranking",
+      "eventId": "event-kakao-HlJFG-115113222-48bcd3b59d4a",
+      "categoryId": "benov_ranking",
+      "entryListIds": [
+        "asset-kakao-HlJFG-196398941",
+        "asset-kakao-HlJFG-196398942",
+        "asset-kakao-HlJFG-196398943",
+        "asset-kakao-HlJFG-196398944"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
     {
       "id": "event:event-kakao-GptxdX-114855200-61dee1502fc0:category:jpag_promotion",
       "eventId": "event-kakao-GptxdX-114855200-61dee1502fc0",
@@ -164995,6 +165456,51 @@
     }
   ],
   "dateGroups": [
+    {
+      "id": "date:2026-11-08",
+      "date": "2026-11-08",
+      "label": "2026-11-08",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-HlJFG-115113313-a26552cc8778:category:jpag_ranking",
+        "event:event-kakao-HlJFG-115113313-a26552cc8778:category:benov_ranking"
+      ],
+      "entryListIds": [
+        "asset-kakao-HlJFG-196399572",
+        "asset-kakao-HlJFG-196399573",
+        "asset-kakao-HlJFG-196399574",
+        "asset-kakao-HlJFG-196399575",
+        "asset-kakao-HlJFG-196399577"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "unassignedAssetIds": []
+    },
+    {
+      "id": "date:2026-11-07",
+      "date": "2026-11-07",
+      "label": "2026-11-07",
+      "eventIds": [
+        "event-kakao-GptxdX-115113380-6a91d9a0546f",
+        "event-kakao-HlJFG-115113222-48bcd3b59d4a"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-GptxdX-115113380-6a91d9a0546f:category:jpag_promotion",
+        "event:event-kakao-HlJFG-115113222-48bcd3b59d4a:category:benov_ranking"
+      ],
+      "entryListIds": [
+        "asset-kakao-GptxdX-196400040",
+        "asset-kakao-HlJFG-196398941",
+        "asset-kakao-HlJFG-196398942",
+        "asset-kakao-HlJFG-196398943",
+        "asset-kakao-HlJFG-196398944"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "unassignedAssetIds": []
+    },
     {
       "id": "date:2026-10-18",
       "date": "2026-10-18",
