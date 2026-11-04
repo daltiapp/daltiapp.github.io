@@ -1,0 +1,509 @@
+{
+  "verifiedAt": "2026-11-04T22:47:57+09:00",
+  "dataVersion": "20261104.2",
+  "request": "리즈 출진표가 어질리티 앱 메인에 보이지 않는 원인 확인 및 JSON 연결 수정; 위원회 학생부 대회는 리즈 행사 맥락으로 표시",
+  "rootCause": "The app requires corroborated competition identity across match and library feeds. Schedule core 소노LEEZ파이널 did not match library core LEEZ챔피언쉽파이널, so findCompetitionLibraryLinks returned zero links and HomeWeatherController omitted both LEEZ entry-list buttons. The previous update had added schedule detail images but had not verified the home linkage.",
+  "fix": "Use the established day-specific schedule display names for the same two library events. Add 소노 LEEZ 파이널 context to the distinct student assessment event name while preserving its real committee source and identity.",
+  "sourceUrls": [
+    "https://pf.kakao.com/_HlJFG/115113222",
+    "https://pf.kakao.com/_HlJFG/115113313",
+    "https://pf.kakao.com/_GptxdX/115113380",
+    "https://www.agility.co.kr/39/?bmode=view&idx=175134552&t=board"
+  ],
+  "changedEvents": [
+    {
+      "before": {
+        "id": "event-kakao-HlJFG-115113313-a26552cc8778",
+        "name": "2026 LEEZ 어질리티 챔피언쉽 파이널",
+        "startDate": "2026-11-08",
+        "endDate": "2026-11-08",
+        "competitionGroup": "RANKING_EVENT",
+        "organizer": null,
+        "categoryIds": [
+          "jpag_ranking",
+          "benov_ranking"
+        ]
+      },
+      "after": {
+        "id": "event-kakao-HlJFG-115113313-a26552cc8778",
+        "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
+        "startDate": "2026-11-08",
+        "endDate": "2026-11-08",
+        "competitionGroup": "RANKING_EVENT",
+        "organizer": null,
+        "categoryIds": [
+          "jpag_ranking",
+          "benov_ranking"
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "event-kakao-GptxdX-115113380-6a91d9a0546f",
+        "name": "2026 KKF 전국 학생부 어질리티 평가전",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-07",
+        "competitionGroup": "OFFICIAL_PROMOTION",
+        "organizer": null,
+        "categoryIds": [
+          "jpag_promotion"
+        ]
+      },
+      "after": {
+        "id": "event-kakao-GptxdX-115113380-6a91d9a0546f",
+        "name": "제2회 KKF 전국 학생부 어질리티 평가전 (소노 LEEZ 파이널)",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-07",
+        "competitionGroup": "OFFICIAL_PROMOTION",
+        "organizer": null,
+        "categoryIds": [
+          "jpag_promotion"
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "event-kakao-HlJFG-115113222-48bcd3b59d4a",
+        "name": "2026 LEEZ 어질리티 챔피언쉽 파이널",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-07",
+        "competitionGroup": "RANKING_EVENT",
+        "organizer": null,
+        "categoryIds": [
+          "benov_ranking"
+        ]
+      },
+      "after": {
+        "id": "event-kakao-HlJFG-115113222-48bcd3b59d4a",
+        "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
+        "startDate": "2026-11-07",
+        "endDate": "2026-11-07",
+        "competitionGroup": "RANKING_EVENT",
+        "organizer": null,
+        "categoryIds": [
+          "benov_ranking"
+        ]
+      }
+    }
+  ],
+  "beforeAppHomeProbe": {
+    "manifestVersion": "20261104.1",
+    "libraryVersion": "20261103.1",
+    "rows": [
+      {
+        "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
+        "date": "2026-11-07T08:00:00.000",
+        "linkedEvents": [],
+        "linkedAssetCount": 0,
+        "homeButton": null,
+        "actionableLinks": 0
+      },
+      {
+        "name": "제2회 KKF 전국 학생부 어질리티 평가전",
+        "date": "2026-11-07T10:00:00.000",
+        "linkedEvents": [
+          "event-kakao-GptxdX-115113380-6a91d9a0546f"
+        ],
+        "linkedAssetCount": 1,
+        "homeButton": "entryList",
+        "actionableLinks": 1
+      },
+      {
+        "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
+        "date": "2026-11-08T08:00:00.000",
+        "linkedEvents": [],
+        "linkedAssetCount": 0,
+        "homeButton": null,
+        "actionableLinks": 0
+      }
+    ]
+  },
+  "afterAppHomeProbe": {
+    "manifestVersion": "20261104.2",
+    "libraryVersion": "20261104.2",
+    "rows": [
+      {
+        "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
+        "date": "2026-11-07T08:00:00.000",
+        "linkedEvents": [
+          "event-kakao-HlJFG-115113222-48bcd3b59d4a"
+        ],
+        "linkedAssetCount": 4,
+        "homeButton": "entryList",
+        "actionableLinks": 1
+      },
+      {
+        "name": "제2회 KKF 전국 학생부 어질리티 평가전",
+        "date": "2026-11-07T10:00:00.000",
+        "linkedEvents": [
+          "event-kakao-GptxdX-115113380-6a91d9a0546f"
+        ],
+        "linkedAssetCount": 1,
+        "homeButton": "entryList",
+        "actionableLinks": 1
+      },
+      {
+        "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
+        "date": "2026-11-08T08:00:00.000",
+        "linkedEvents": [
+          "event-kakao-HlJFG-115113313-a26552cc8778"
+        ],
+        "linkedAssetCount": 5,
+        "homeButton": "entryList",
+        "actionableLinks": 1
+      }
+    ]
+  },
+  "regressionInvariant": {
+    "todayKst": "2026-11-04",
+    "saturdayLEEZEntries": 4,
+    "sundayLEEZEntries": 5,
+    "separateStudentAssessmentEntries": 1,
+    "allThreeHomeButtons": "entryList",
+    "sourcePostAndImageOrderMustBePreserved": true,
+    "committeeSourceIdentityMustBePreserved": true
+  },
+  "verificationUsesAppSources": [
+    "lib/data/repository/library_mapper.dart",
+    "lib/data/repository/competition_mapper.dart",
+    "lib/domain/competition_library_link.dart",
+    "lib/domain/home_competition.dart",
+    "lib/main/home_weather_view_model.dart",
+    "lib/main/home_weather_controller.dart"
+  ],
+  "imageCounts": {
+    "sourcePosts": 3,
+    "sourceImages": 10,
+    "downloadedOriginals": 10,
+    "downloadedThumbnails": 10,
+    "anonymousOriginalGetVerified": 10,
+    "anonymousThumbnailGetVerified": 10,
+    "decodedImages": 20,
+    "libraryImageReferencesUnchanged": 10,
+    "scheduleDriveReferencesUnchanged": true
+  },
+  "imageVerification": [
+    {
+      "assetId": "asset-kakao-HlJFG-196398941",
+      "postId": "115113222",
+      "order": 1,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/dBoJ6F/dJMcaiS2yJd/X672GXiBXxEZHB7k9oPXE1/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 436911,
+      "sha256": "efd53afeafd9589aa65987a14c22d11e076dfed810daffe0387e7370cb25ba49",
+      "width": 732,
+      "height": 1539,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196398941",
+      "postId": "115113222",
+      "order": 1,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/dBoJ6F/dJMcaiS2yJd/X672GXiBXxEZHB7k9oPXE1/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 52036,
+      "sha256": "b3d80cd0bca6ee4dce40ab1e00b1689c7e8c55946ba4d98529aa5f71ffee7e13",
+      "width": 250,
+      "height": 526,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196398942",
+      "postId": "115113222",
+      "order": 2,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/SnbtB/dJMcahzKj8h/LXWweKr43dVw6dtwuLvA21/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 448738,
+      "sha256": "f17593043b3ec9315773cbb14e71c36be96dd0665e54f01c1004780eb3cfc27f",
+      "width": 712,
+      "height": 1631,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196398942",
+      "postId": "115113222",
+      "order": 2,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/SnbtB/dJMcahzKj8h/LXWweKr43dVw6dtwuLvA21/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 58018,
+      "sha256": "adaeed8b2291f5eac572d048a3bef7f4c024988c3159703585ebaf65941e5330",
+      "width": 250,
+      "height": 573,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196398943",
+      "postId": "115113222",
+      "order": 3,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/bTXbQ3/dJMcaiFtByG/IRSQq9tRrvs3Nz0PEOOpE0/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 499153,
+      "sha256": "fe32897dd571d5b75eb42d80908bfdbc8dd22fc8c3a9910cb32cd1f1031073b6",
+      "width": 833,
+      "height": 1638,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196398943",
+      "postId": "115113222",
+      "order": 3,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/bTXbQ3/dJMcaiFtByG/IRSQq9tRrvs3Nz0PEOOpE0/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 48862,
+      "sha256": "df03428a4464087ae0e23722cf9936aa191ad204e45b9d96309e27c6a0a4e67a",
+      "width": 250,
+      "height": 492,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196398944",
+      "postId": "115113222",
+      "order": 4,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/hqQ90/dJMcaiS2yJk/kJ9La9oV265dX0pvdRthIK/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 426503,
+      "sha256": "801eeed87a51166a0ece1101e12bf0cd04c11a449dd43b55c1fe68cf48b92236",
+      "width": 823,
+      "height": 1506,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196398944",
+      "postId": "115113222",
+      "order": 4,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/hqQ90/dJMcaiS2yJk/kJ9La9oV265dX0pvdRthIK/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 43648,
+      "sha256": "b7936249653affe91018d1da10322b6e490502ff0a6773430433d37e8c7c190b",
+      "width": 250,
+      "height": 457,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399572",
+      "postId": "115113313",
+      "order": 1,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/cUEZfl/dJMcah7Hsgd/In7lbR5LVntkm9xdJZj6ek/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 402060,
+      "sha256": "3395ff559252ec46f31719f7b2efca015f4d2d072648d754dee9f8d751ad4b1b",
+      "width": 957,
+      "height": 1471,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399572",
+      "postId": "115113313",
+      "order": 1,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/cUEZfl/dJMcah7Hsgd/In7lbR5LVntkm9xdJZj6ek/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 36587,
+      "sha256": "bca3fdd25199ccd0af565307e0964ffcc5ccc8c40b8b2a4b1a55c7c8984f2cce",
+      "width": 250,
+      "height": 384,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399573",
+      "postId": "115113313",
+      "order": 2,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/cGbvkE/dJMcadYsi0u/eKb1eJ5XdQKvQtQDf4HfEK/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 407851,
+      "sha256": "141f36f85b20d67c23d092d01608e399baa5de3d57088a7f7b61c24dd3ae0eb6",
+      "width": 945,
+      "height": 1391,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399573",
+      "postId": "115113313",
+      "order": 2,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/cGbvkE/dJMcadYsi0u/eKb1eJ5XdQKvQtQDf4HfEK/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 34631,
+      "sha256": "48329f1aad76ef639d09b8a867ac30106a31824449408d4242a299470d2a4ee6",
+      "width": 250,
+      "height": 368,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399574",
+      "postId": "115113313",
+      "order": 3,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/KkpZl/dJMcabzr4b7/kpSbULzH3faQTRqtSC4nKK/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 364649,
+      "sha256": "596a0d2896ab5a7d0c08d7f76739b26e918c003a85db3bf3405830febe9670bb",
+      "width": 972,
+      "height": 1214,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399574",
+      "postId": "115113313",
+      "order": 3,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/KkpZl/dJMcabzr4b7/kpSbULzH3faQTRqtSC4nKK/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 30632,
+      "sha256": "06796e7523a5d1d331e3f17aab0af75d5ddb1898fab6ee56945565808e11614b",
+      "width": 250,
+      "height": 312,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399575",
+      "postId": "115113313",
+      "order": 4,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/btMQSD/dJMcabzr4cd/lKKUsdW7tZtMCB3mnef8R0/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 260401,
+      "sha256": "bca7650c993ef85dddf0c8b92177e27553516dd820cd8e18ef860c7dbbf3cf2c",
+      "width": 879,
+      "height": 961,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399575",
+      "postId": "115113313",
+      "order": 4,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/btMQSD/dJMcabzr4cd/lKKUsdW7tZtMCB3mnef8R0/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 26854,
+      "sha256": "d88857394a5df8b7ae718bfc420d2eed1c700c855f660e299eaaa7965e146c7b",
+      "width": 250,
+      "height": 273,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399577",
+      "postId": "115113313",
+      "order": 5,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/i3O4I/dJMcah7Hsgq/oXtZMFj8yQGWafDkyquxLK/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 318864,
+      "sha256": "b169be16f00b63a85aa1201126df6257f3e242b73d4cfcc2e989b907190faa02",
+      "width": 946,
+      "height": 1090,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-HlJFG-196399577",
+      "postId": "115113313",
+      "order": 5,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/i3O4I/dJMcah7Hsgq/oXtZMFj8yQGWafDkyquxLK/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 28097,
+      "sha256": "182dc7edf1bf3724799cb1462aa3928ab254f7678d96353b67fb8842e79ad72d",
+      "width": 250,
+      "height": 288,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-196400040",
+      "postId": "115113380",
+      "order": 1,
+      "kind": "original",
+      "url": "https://k.kakaocdn.net/dn/0MdMZ/dJMb99VXUuf/bWJkOph7ZKkJ6PdyvxKFb0/img_xl.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 346116,
+      "sha256": "d486e36ad66de6e59e6bbcb79e665b540a4aee5e24ca67f6bce844541e1b97d7",
+      "width": 973,
+      "height": 1134,
+      "decoded": true
+    },
+    {
+      "assetId": "asset-kakao-GptxdX-196400040",
+      "postId": "115113380",
+      "order": 1,
+      "kind": "thumbnail",
+      "url": "https://k.kakaocdn.net/dn/0MdMZ/dJMb99VXUuf/bWJkOph7ZKkJ6PdyvxKFb0/img_s.jpg",
+      "status": 200,
+      "mimeType": "image/jpeg",
+      "bytes": 28558,
+      "sha256": "988d7fba3b142a45999beab6f0b47d37db8df624b1983ffe822d637aa6cd2607",
+      "width": 250,
+      "height": 291,
+      "decoded": true
+    }
+  ],
+  "preserved": {
+    "eventIds": true,
+    "assetIds": true,
+    "allAssets": true,
+    "originalPublisherChannelIdsAndNames": true,
+    "sourcePostTitlesAndUrls": true,
+    "allMaterialGroupReferencesAndCategories": true,
+    "matchJson": true,
+    "venueJson": true,
+    "appProductionCode": true
+  },
+  "validation": {
+    "activeDataHarness": {
+      "ok": true,
+      "scope": "all",
+      "json_file_count": 204,
+      "competition_count": 82,
+      "notice_count": 139,
+      "data_version": "20261104.2"
+    },
+    "appExistingTests": {
+      "passed": 113,
+      "failed": 0,
+      "command": "flutter test --no-pub test/domain/competition_library_link_test.dart test/domain/home_competition_test.dart test/main/home_weather_controller_test.dart test/match/competition_library_links_provider_test.dart"
+    },
+    "appActualJsonWidgetTests": {
+      "passed": 3,
+      "failed": 0,
+      "method": "The actual current match/library JSON was parsed by app mappers, supplied to HomeWeatherScheduleProvider, rendered in HomeWeatherController and each 출진표 button was tapped. The LibraryDetailController received exactly 4/5/1 images with the correct source post, image order and new dataVersion. Weather/location services were local fixtures; no device or Firebase test was performed.",
+      "command": "flutter test --no-pub /tmp/leez-home-20261104/home_live_fixture_test.dart"
+    },
+    "adminTests": {
+      "total": 166,
+      "passed": 165,
+      "failed": 1,
+      "knownFailure": "tests/server.test.mjs:159 still expects the former daltiapp.github.io folder suffix; unrelated to this change."
+    },
+    "diffCheck": true
+  },
+  "appPushSent": 0,
+  "telegramMessagesSent": 0,
+  "paidApiCalls": 0
+}

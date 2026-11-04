@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261103.1",
-  "updatedAt": "2026-11-03T21:04:24+09:00",
+  "dataVersion": "20261104.2",
+  "updatedAt": "2026-11-04T22:47:57+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -67,7 +67,7 @@
   "events": [
     {
       "id": "event-kakao-HlJFG-115113313-a26552cc8778",
-      "name": "2026 LEEZ 어질리티 챔피언쉽 파이널",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
       "startDate": "2026-11-08",
       "endDate": "2026-11-08",
       "competitionGroup": "RANKING_EVENT",
@@ -79,7 +79,7 @@
     },
     {
       "id": "event-kakao-GptxdX-115113380-6a91d9a0546f",
-      "name": "2026 KKF 전국 학생부 어질리티 평가전",
+      "name": "제2회 KKF 전국 학생부 어질리티 평가전 (소노 LEEZ 파이널)",
       "startDate": "2026-11-07",
       "endDate": "2026-11-07",
       "competitionGroup": "OFFICIAL_PROMOTION",
@@ -90,7 +90,7 @@
     },
     {
       "id": "event-kakao-HlJFG-115113222-48bcd3b59d4a",
-      "name": "2026 LEEZ 어질리티 챔피언쉽 파이널",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
       "startDate": "2026-11-07",
       "endDate": "2026-11-07",
       "competitionGroup": "RANKING_EVENT",
