@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261104.2",
-  "updatedAt": "2026-11-04T22:47:57+09:00",
+  "dataVersion": "20261105.1",
+  "updatedAt": "2026-11-05T20:16:17+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -44,6 +44,12 @@
       "name": "도그 스포츠 시리즈",
       "provider": "manual",
       "url": "https://www.instagram.com/dogsports_series/"
+    },
+    {
+      "id": "dongsa",
+      "name": "동물과사람",
+      "provider": "manual",
+      "url": null
     }
   ],
   "mapCategories": [
@@ -66,6 +72,17 @@
   ],
   "events": [
     {
+      "id": "event-dongsa-kao-20261108",
+      "name": "2026 Korea Agility Open (KAO)",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "동물과사람",
+      "categoryIds": [
+        "jpag_ranking"
+      ]
+    },
+    {
       "id": "event-kakao-HlJFG-115113313-a26552cc8778",
       "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (일요일)",
       "startDate": "2026-11-08",
@@ -75,6 +92,17 @@
       "categoryIds": [
         "jpag_ranking",
         "benov_ranking"
+      ]
+    },
+    {
+      "id": "event-dongsa-kao-20261107",
+      "name": "2026 Korea Agility Open (KAO)",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "동물과사람",
+      "categoryIds": [
+        "jpag_ranking"
       ]
     },
     {
@@ -2305,6 +2333,454 @@
     }
   ],
   "assets": [
+    {
+      "id": "asset-dongsa-240-page-01",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 펜타슬론 어질리티 · 1/2",
+      "eventIds": [
+        "event-dongsa-kao-20261107"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-01",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-02",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 펜타슬론 어질리티 · 2/2",
+      "eventIds": [
+        "event-dongsa-kao-20261107"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-02",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-03",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 펜타슬론 점핑 · 1/2",
+      "eventIds": [
+        "event-dongsa-kao-20261107"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-03",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-04",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 펜타슬론 점핑 · 2/2",
+      "eventIds": [
+        "event-dongsa-kao-20261107"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-04",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-05",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 펜타슬론 스피드스테이크 · 1/2",
+      "eventIds": [
+        "event-dongsa-kao-20261107"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-05",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-06",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 펜타슬론 스피드스테이크 · 2/2",
+      "eventIds": [
+        "event-dongsa-kao-20261107"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-06",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-07",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 스누커 · 1/2",
+      "eventIds": [
+        "event-dongsa-kao-20261107"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-07",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-08",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 스누커 · 2/2",
+      "eventIds": [
+        "event-dongsa-kao-20261107"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-08",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-09",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 바이애슬론 점핑 · 1/2",
+      "eventIds": [
+        "event-dongsa-kao-20261108"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-09",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-10",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 바이애슬론 점핑 · 2/2",
+      "eventIds": [
+        "event-dongsa-kao-20261108"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-10",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-11",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 바이애슬론 어질리티 · 1/2",
+      "eventIds": [
+        "event-dongsa-kao-20261108"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-11",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-12",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 바이애슬론 어질리티 · 2/2",
+      "eventIds": [
+        "event-dongsa-kao-20261108"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-12",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-13",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 갬블러 · 1/2",
+      "eventIds": [
+        "event-dongsa-kao-20261108"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-13",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-dongsa-240-page-14",
+      "kind": "entry_list",
+      "title": "2026 KAO 출진표 · 갬블러 · 2/2",
+      "eventIds": [
+        "event-dongsa-kao-20261108"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e.thumb.webp",
+        "width": 1489,
+        "height": 2105,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "manual",
+        "channelId": "dongsa",
+        "channelName": "동물과사람",
+        "postId": "240",
+        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-14",
+        "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "publishedAt": null,
+        "imageOrder": 14
+      }
+    },
     {
       "id": "asset-kakao-HlJFG-196399572",
       "kind": "entry_list",
@@ -150585,6 +151061,27 @@
   ],
   "eventGroups": [
     {
+      "eventId": "event-dongsa-kao-20261108",
+      "entryListIds": [
+        "asset-dongsa-240-page-09",
+        "asset-dongsa-240-page-10",
+        "asset-dongsa-240-page-11",
+        "asset-dongsa-240-page-12",
+        "asset-dongsa-240-page-13",
+        "asset-dongsa-240-page-14"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "entryListCategoryIds": [
+        "jpag_ranking"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
       "eventId": "event-kakao-HlJFG-115113313-a26552cc8778",
       "entryListIds": [
         "asset-kakao-HlJFG-196399572",
@@ -150602,6 +151099,29 @@
       "entryListCategoryIds": [
         "jpag_ranking",
         "benov_ranking"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
+      "eventId": "event-dongsa-kao-20261107",
+      "entryListIds": [
+        "asset-dongsa-240-page-01",
+        "asset-dongsa-240-page-02",
+        "asset-dongsa-240-page-03",
+        "asset-dongsa-240-page-04",
+        "asset-dongsa-240-page-05",
+        "asset-dongsa-240-page-06",
+        "asset-dongsa-240-page-07",
+        "asset-dongsa-240-page-08"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "entryListCategoryIds": [
+        "jpag_ranking"
       ],
       "courseMapCategoryIds": [],
       "resultCategoryIds": []
@@ -157859,6 +158379,22 @@
   ],
   "competitionGroups": [
     {
+      "id": "event:event-dongsa-kao-20261108:category:jpag_ranking",
+      "eventId": "event-dongsa-kao-20261108",
+      "categoryId": "jpag_ranking",
+      "entryListIds": [
+        "asset-dongsa-240-page-09",
+        "asset-dongsa-240-page-10",
+        "asset-dongsa-240-page-11",
+        "asset-dongsa-240-page-12",
+        "asset-dongsa-240-page-13",
+        "asset-dongsa-240-page-14"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
       "id": "event:event-kakao-HlJFG-115113313-a26552cc8778:category:jpag_ranking",
       "eventId": "event-kakao-HlJFG-115113313-a26552cc8778",
       "categoryId": "jpag_ranking",
@@ -157878,6 +158414,24 @@
       "categoryId": "benov_ranking",
       "entryListIds": [
         "asset-kakao-HlJFG-196399572"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
+      "id": "event:event-dongsa-kao-20261107:category:jpag_ranking",
+      "eventId": "event-dongsa-kao-20261107",
+      "categoryId": "jpag_ranking",
+      "entryListIds": [
+        "asset-dongsa-240-page-01",
+        "asset-dongsa-240-page-02",
+        "asset-dongsa-240-page-03",
+        "asset-dongsa-240-page-04",
+        "asset-dongsa-240-page-05",
+        "asset-dongsa-240-page-06",
+        "asset-dongsa-240-page-07",
+        "asset-dongsa-240-page-08"
       ],
       "courseMapIds": [],
       "resultIds": [],
@@ -165461,9 +166015,11 @@
       "date": "2026-11-08",
       "label": "2026-11-08",
       "eventIds": [
+        "event-dongsa-kao-20261108",
         "event-kakao-HlJFG-115113313-a26552cc8778"
       ],
       "competitionGroupIds": [
+        "event:event-dongsa-kao-20261108:category:jpag_ranking",
         "event:event-kakao-HlJFG-115113313-a26552cc8778:category:jpag_ranking",
         "event:event-kakao-HlJFG-115113313-a26552cc8778:category:benov_ranking"
       ],
@@ -165472,7 +166028,13 @@
         "asset-kakao-HlJFG-196399573",
         "asset-kakao-HlJFG-196399574",
         "asset-kakao-HlJFG-196399575",
-        "asset-kakao-HlJFG-196399577"
+        "asset-kakao-HlJFG-196399577",
+        "asset-dongsa-240-page-09",
+        "asset-dongsa-240-page-10",
+        "asset-dongsa-240-page-11",
+        "asset-dongsa-240-page-12",
+        "asset-dongsa-240-page-13",
+        "asset-dongsa-240-page-14"
       ],
       "courseMapIds": [],
       "resultIds": [],
@@ -165483,10 +166045,12 @@
       "date": "2026-11-07",
       "label": "2026-11-07",
       "eventIds": [
+        "event-dongsa-kao-20261107",
         "event-kakao-GptxdX-115113380-6a91d9a0546f",
         "event-kakao-HlJFG-115113222-48bcd3b59d4a"
       ],
       "competitionGroupIds": [
+        "event:event-dongsa-kao-20261107:category:jpag_ranking",
         "event:event-kakao-GptxdX-115113380-6a91d9a0546f:category:jpag_promotion",
         "event:event-kakao-HlJFG-115113222-48bcd3b59d4a:category:benov_ranking"
       ],
@@ -165495,7 +166059,15 @@
         "asset-kakao-HlJFG-196398941",
         "asset-kakao-HlJFG-196398942",
         "asset-kakao-HlJFG-196398943",
-        "asset-kakao-HlJFG-196398944"
+        "asset-kakao-HlJFG-196398944",
+        "asset-dongsa-240-page-01",
+        "asset-dongsa-240-page-02",
+        "asset-dongsa-240-page-03",
+        "asset-dongsa-240-page-04",
+        "asset-dongsa-240-page-05",
+        "asset-dongsa-240-page-06",
+        "asset-dongsa-240-page-07",
+        "asset-dongsa-240-page-08"
       ],
       "courseMapIds": [],
       "resultIds": [],

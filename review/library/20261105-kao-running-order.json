@@ -1,0 +1,603 @@
+{
+  "verifiedAt": "2026-11-05T20:16:17+09:00",
+  "dataVersion": "20261105.1",
+  "sourceNoticeUrl": "http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+  "sourceNoticeTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
+  "sourcePublishedDate": "2026-11-05",
+  "sourceTimeUnknown": true,
+  "sourcePdf": {
+    "downloadUrl": "http://www.dong-sa.or.kr/main/download.jsp?id=100745&ek=999e6756fc74cc20533c6b11f3216f74",
+    "originalFileName": "2026 KAO Championship Running Orders_final.pdf",
+    "pageCount": 14,
+    "bytes": 351293,
+    "sha256": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc",
+    "preservedPdfUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf"
+  },
+  "sourceAccess": {
+    "httpNoticeAndDownloadVerified": true,
+    "httpsNoticeUnavailable": "Both www and bare hosts fail TLS hostname verification. No TLS bypass was used. The unchanged source PDF is preserved at a working HTTPS mirror for the app HTTPS-only source contract; the actual HTTP notice is retained in every asset notice and this audit.",
+    "declaredPublisherUrl": null
+  },
+  "provisionalNoticePreserved": true,
+  "publishedAtPolicy": "Source lists only the date, so source.publishedAt is null instead of inventing a publication time.",
+  "rendering": {
+    "renderer": "Poppler pdftoppm",
+    "dpi": 180,
+    "format": "PNG",
+    "pageSize": [
+      1489,
+      2105
+    ],
+    "originalPages": 14,
+    "renderedPages": 14,
+    "sourcePageOrderPreserved": true,
+    "fullPageNoCroppingOrRetyping": true,
+    "thumbnailFormat": "WebP",
+    "thumbnailMaxSize": [
+      480,
+      680
+    ],
+    "visualReview": "All fourteen pages reviewed in a page contact sheet; original full-resolution first and last pages checked for Hangul, table borders, footers and the In Season marker."
+  },
+  "continuationEvidence": [
+    {
+      "discipline": "펜타슬론 어질리티",
+      "pages": [
+        1,
+        2
+      ],
+      "basis": "Same original PDF, matching column layout, source page order and continuation of height/order blocks before the next explicit discipline heading."
+    },
+    {
+      "discipline": "펜타슬론 점핑",
+      "pages": [
+        3,
+        4
+      ],
+      "basis": "Same original PDF, matching column layout, source page order and continuation of height/order blocks before the next explicit discipline heading."
+    },
+    {
+      "discipline": "펜타슬론 스피드스테이크",
+      "pages": [
+        5,
+        6
+      ],
+      "basis": "Same original PDF, matching column layout, source page order and continuation of height/order blocks before the next explicit discipline heading."
+    },
+    {
+      "discipline": "스누커",
+      "pages": [
+        7,
+        8
+      ],
+      "basis": "Same original PDF, matching column layout, source page order and continuation of height/order blocks before the next explicit discipline heading."
+    },
+    {
+      "discipline": "바이애슬론 점핑",
+      "pages": [
+        9,
+        10
+      ],
+      "basis": "Same original PDF, matching column layout, source page order and continuation of height/order blocks before the next explicit discipline heading."
+    },
+    {
+      "discipline": "바이애슬론 어질리티",
+      "pages": [
+        11,
+        12
+      ],
+      "basis": "Same original PDF, matching column layout, source page order and continuation of height/order blocks before the next explicit discipline heading."
+    },
+    {
+      "discipline": "갬블러",
+      "pages": [
+        13,
+        14
+      ],
+      "basis": "Same original PDF, matching column layout, source page order and continuation of height/order blocks before the next explicit discipline heading."
+    }
+  ],
+  "dayAssignmentEvidence": {
+    "source": "review/schedule/20261103-kao-timetable.json",
+    "saturdayPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sundayPages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "scope": "Only the source PDF entry lists are attached; no final-round running order is invented."
+  },
+  "events": [
+    {
+      "id": "event-dongsa-kao-20261107",
+      "name": "2026 Korea Agility Open (KAO)",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "동물과사람",
+      "categoryIds": [
+        "jpag_ranking"
+      ]
+    },
+    {
+      "id": "event-dongsa-kao-20261108",
+      "name": "2026 Korea Agility Open (KAO)",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": "동물과사람",
+      "categoryIds": [
+        "jpag_ranking"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "pdfPage": 1,
+      "discipline": "펜타슬론 어질리티",
+      "competitionDate": "2026-11-07",
+      "eventId": "event-dongsa-kao-20261107",
+      "assetId": "asset-dongsa-240-page-01",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc.png",
+        "sha256": "5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc",
+        "bytes": 392733,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc.thumb.webp",
+        "sha256": "1ed0a4e6b3f23827a6016fadedaf22cf3b157bbde9280011119f5e8b8c60ce7f",
+        "bytes": 54362,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 2,
+      "discipline": "펜타슬론 어질리티",
+      "competitionDate": "2026-11-07",
+      "eventId": "event-dongsa-kao-20261107",
+      "assetId": "asset-dongsa-240-page-02",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2.png",
+        "sha256": "5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2",
+        "bytes": 185199,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2.thumb.webp",
+        "sha256": "a3133ace4eb0c4ee5c8666ee30f273408b802b948f13645cb8e9cdc4dd90d621",
+        "bytes": 24126,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 3,
+      "discipline": "펜타슬론 점핑",
+      "competitionDate": "2026-11-07",
+      "eventId": "event-dongsa-kao-20261107",
+      "assetId": "asset-dongsa-240-page-03",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4.png",
+        "sha256": "91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4",
+        "bytes": 406562,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4.thumb.webp",
+        "sha256": "8efb446b752401ae6f7a7df25a5be2f97d2a074aa02675154b1b98deafd6798e",
+        "bytes": 56732,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 4,
+      "discipline": "펜타슬론 점핑",
+      "competitionDate": "2026-11-07",
+      "eventId": "event-dongsa-kao-20261107",
+      "assetId": "asset-dongsa-240-page-04",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429.png",
+        "sha256": "075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429",
+        "bytes": 142835,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429.thumb.webp",
+        "sha256": "be47f29d6e41041ec4be71721e973a71535fe99e24c673cc7173d60de991a5bb",
+        "bytes": 19356,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 5,
+      "discipline": "펜타슬론 스피드스테이크",
+      "competitionDate": "2026-11-07",
+      "eventId": "event-dongsa-kao-20261107",
+      "assetId": "asset-dongsa-240-page-05",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81.png",
+        "sha256": "543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81",
+        "bytes": 371712,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81.thumb.webp",
+        "sha256": "8dc4afd2721d74c7494b2314eaac0f88e101bd9aa34ca03dbd9e911c57b74c91",
+        "bytes": 51478,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 6,
+      "discipline": "펜타슬론 스피드스테이크",
+      "competitionDate": "2026-11-07",
+      "eventId": "event-dongsa-kao-20261107",
+      "assetId": "asset-dongsa-240-page-06",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff.png",
+        "sha256": "fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff",
+        "bytes": 180697,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff.thumb.webp",
+        "sha256": "26e2636ad8821a076c66353f3f6f6c4062d5bc1bcd73271da958d13a95315f62",
+        "bytes": 24970,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 7,
+      "discipline": "스누커",
+      "competitionDate": "2026-11-07",
+      "eventId": "event-dongsa-kao-20261107",
+      "assetId": "asset-dongsa-240-page-07",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81.png",
+        "sha256": "c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81",
+        "bytes": 409359,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81.thumb.webp",
+        "sha256": "c2b9af38409e79a061e5fa353fc6a83337e4d6dd14ba658bb609ade1d5306419",
+        "bytes": 57406,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 8,
+      "discipline": "스누커",
+      "competitionDate": "2026-11-07",
+      "eventId": "event-dongsa-kao-20261107",
+      "assetId": "asset-dongsa-240-page-08",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844.png",
+        "sha256": "420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844",
+        "bytes": 89974,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844.thumb.webp",
+        "sha256": "99612134e12c40b1ad7429eb6fc0e89eb14a75f9cf84ba4ba57463dbbd534f91",
+        "bytes": 11576,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 9,
+      "discipline": "바이애슬론 점핑",
+      "competitionDate": "2026-11-08",
+      "eventId": "event-dongsa-kao-20261108",
+      "assetId": "asset-dongsa-240-page-09",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e.png",
+        "sha256": "dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e",
+        "bytes": 395526,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e.thumb.webp",
+        "sha256": "4d3a8b935bbf1f04d8b7d9240fc75b587f1041379f555e5f405e17b69039382f",
+        "bytes": 55868,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 10,
+      "discipline": "바이애슬론 점핑",
+      "competitionDate": "2026-11-08",
+      "eventId": "event-dongsa-kao-20261108",
+      "assetId": "asset-dongsa-240-page-10",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a.png",
+        "sha256": "e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a",
+        "bytes": 138918,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a.thumb.webp",
+        "sha256": "3228898ce2bbe7eba8808ac9e49ab89c60c8c771fa8e93102efa3171465af282",
+        "bytes": 17820,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 11,
+      "discipline": "바이애슬론 어질리티",
+      "competitionDate": "2026-11-08",
+      "eventId": "event-dongsa-kao-20261108",
+      "assetId": "asset-dongsa-240-page-11",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d.png",
+        "sha256": "e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d",
+        "bytes": 379593,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d.thumb.webp",
+        "sha256": "e4a5fec20d3a8ef5e8285fab53c982844673f0aaa6ece6ce0740479b7de5d452",
+        "bytes": 53884,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 12,
+      "discipline": "바이애슬론 어질리티",
+      "competitionDate": "2026-11-08",
+      "eventId": "event-dongsa-kao-20261108",
+      "assetId": "asset-dongsa-240-page-12",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8.png",
+        "sha256": "0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8",
+        "bytes": 155312,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8.thumb.webp",
+        "sha256": "99b88a43fb196e2e4948b3f85aec4fd6acf11ed42e3186edf5fe17d28c732f72",
+        "bytes": 19966,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 13,
+      "discipline": "갬블러",
+      "competitionDate": "2026-11-08",
+      "eventId": "event-dongsa-kao-20261108",
+      "assetId": "asset-dongsa-240-page-13",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19.png",
+        "sha256": "6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19",
+        "bytes": 350851,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19.thumb.webp",
+        "sha256": "b699b15d588a81d45d571ad81317788233bf6eaf89ead1504eb122ec9f7652ce",
+        "bytes": 48118,
+        "width": 480,
+        "height": 679
+      }
+    },
+    {
+      "pdfPage": 14,
+      "discipline": "갬블러",
+      "competitionDate": "2026-11-08",
+      "eventId": "event-dongsa-kao-20261108",
+      "assetId": "asset-dongsa-240-page-14",
+      "image": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e.png",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e.png",
+        "sha256": "3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e",
+        "bytes": 165483,
+        "width": 1489,
+        "height": 2105
+      },
+      "thumbnail": {
+        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e.thumb.webp",
+        "relativePath": "library-media/dongsa/entry-lists/240/2090d07d0ad93995/3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e.thumb.webp",
+        "sha256": "1f9efcfab318f814554f41ac5db4defcede5d0f371524b26afabd5b2f4caa879",
+        "bytes": 21278,
+        "width": 480,
+        "height": 679
+      }
+    }
+  ],
+  "sourceImageCount": 0,
+  "sourcePdfPages": 14,
+  "downloadedPdfs": 1,
+  "renderedAndRegisteredImages": 14,
+  "saturdayImages": 8,
+  "sundayImages": 6,
+  "thumbnailCount": 14,
+  "categoryEvidence": "The existing calendar classifies KAO as 랭킹전. Preserve that contract as RANKING_EVENT and the point/agility ranking category for this Open competition; no calendar metadata was changed.",
+  "preserved": {
+    "allExistingAssets": true,
+    "allExistingEvents": true,
+    "allExistingCourseMapGroups": true,
+    "matchJson": true,
+    "venueJson": true,
+    "schemaVersion": true,
+    "basePath": true
+  },
+  "validation": {
+    "jsonSchema": true,
+    "activeDataHarness": {
+      "ok": true,
+      "scope": "all",
+      "json_file_count": 204,
+      "competition_count": 82,
+      "notice_count": 139,
+      "data_version": "20261105.1",
+      "schedule_due_date": "2026-11-05",
+      "schedule_due_competition_count": 0,
+      "schedule_manual_confirmation_limit": 3
+    },
+    "appHomeBefore": {
+      "manifestVersion": "20261105.1",
+      "libraryVersion": "20261104.2",
+      "rows": [
+        {
+          "date": "2026-11-07",
+          "eventIds": [],
+          "imageCount": 0,
+          "sourcePageOrder": [],
+          "homeButton": null,
+          "actionableLinks": 0,
+          "provisionalNotice": false
+        },
+        {
+          "date": "2026-11-08",
+          "eventIds": [],
+          "imageCount": 0,
+          "sourcePageOrder": [],
+          "homeButton": null,
+          "actionableLinks": 0,
+          "provisionalNotice": false
+        }
+      ]
+    },
+    "appHomeAfter": {
+      "manifestVersion": "20261105.1",
+      "libraryVersion": "20261105.1",
+      "rows": [
+        {
+          "date": "2026-11-07",
+          "eventIds": [
+            "event-dongsa-kao-20261107"
+          ],
+          "imageCount": 8,
+          "sourcePageOrder": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "homeButton": "entryList",
+          "actionableLinks": 1,
+          "provisionalNotice": true
+        },
+        {
+          "date": "2026-11-08",
+          "eventIds": [
+            "event-dongsa-kao-20261108"
+          ],
+          "imageCount": 6,
+          "sourcePageOrder": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "homeButton": "entryList",
+          "actionableLinks": 1,
+          "provisionalNotice": true
+        }
+      ]
+    },
+    "appTests": {
+      "passed": 115,
+      "failed": 0,
+      "existingTests": 113,
+      "currentJsonWidgetTests": 2,
+      "scope": "Actual app mappers and HomeWeatherController; both KAO entry-list buttons tapped and 8/6 pages, original PDF page order, dataVersion and provisional warning verified. Weather uses local fixtures; no Firebase or physical-device test."
+    },
+    "adminTests": {
+      "total": 93,
+      "passed": 92,
+      "failed": 1,
+      "source": "Available remote codex/direct-unified-login branch, isolated checkout; no admin source changed.",
+      "knownFailure": "The existing tests/server.test.mjs:159 expects the legacy daltiapp.github.io directory suffix. All other tests in this available checkout pass using the explicit data repository path."
+    },
+    "originalPdfRefetchedBeforeCommit": {
+      "sameSha256": true,
+      "bytes": 351293
+    },
+    "diffCheck": true,
+    "localMediaDecodeAndHashes": true,
+    "publicImageVerification": {
+      "phase": "post-deployment",
+      "requiredOriginalImages": 14,
+      "requiredThumbnails": 14,
+      "requiredSourcePdfs": 1,
+      "completionRule": "Anonymous HTTP 200, expected MIME, matching SHA-256 and image decode required after deployment before reporting completion."
+    }
+  },
+  "appPushSent": 0,
+  "telegramMessagesSent": 0,
+  "paidApiCalls": 0,
+  "workingCopy": {
+    "reason": "The original external SSD mount is unavailable. A clean isolated checkout was created from the same remote main HEAD; original user checkouts were not moved or changed.",
+    "dataBaseCommit": "5f115521098bac00922736d17bfac15e9f8b7175"
+  }
+}
