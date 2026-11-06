@@ -8,7 +8,7 @@
     "KAO",
     "어질리티"
   ],
-  "total_count": 43,
+  "total_count": 44,
   "detail_dir": "./",
   "items": [
     {
@@ -440,6 +440,16 @@
       "published_at_raw": "2026.10.31",
       "published_at": "2026-10-31T00:00:00+09:00",
       "detail_path": "./139.json"
+    },
+    {
+      "id": 140,
+      "source": "dongsa",
+      "source_seq": "240",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정",
+      "url": "http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "published_at_raw": "2026.11.05",
+      "published_at": "2026-11-05T00:00:00+09:00",
+      "detail_path": "./140.json"
     }
   ]
 }
