@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261109.1",
-  "updatedAt": "2026-11-09T03:33:28+09:00",
+  "dataVersion": "20261110.1",
+  "updatedAt": "2026-11-10T03:33:11+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2714,6 +2714,1524 @@
         "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
         "publishedAt": "2026-11-03T15:29:58+09:00",
         "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733353",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/iwtq1/dJMcaildOTT/i0CEataflRSlWbZMArdu5K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/iwtq1/dJMcaildOTT/i0CEataflRSlWbZMArdu5K/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733353",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733358",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/oNm9N/dJMcagniJtW/aRUOcH3cO6Gi1mvuPP0Wq0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/oNm9N/dJMcagniJtW/aRUOcH3cO6Gi1mvuPP0Wq0/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733358",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733357",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bqA6X7/dJMcagniJtT/C6TSsyveSrFUreBR15iibK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bqA6X7/dJMcagniJtT/C6TSsyveSrFUreBR15iibK/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733357",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733354",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/pylvO/dJMcaildOTU/IG7UIaouaKMykNktRCvkgk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/pylvO/dJMcaildOTU/IG7UIaouaKMykNktRCvkgk/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733354",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733356",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 5",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dyy9cj/dJMcadKRNLT/fKHc0tMQd2ufFVHK396Kr0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dyy9cj/dJMcadKRNLT/fKHc0tMQd2ufFVHK396Kr0/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733356",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733355",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 6",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bmORQU/dJMcagHNZB2/cigkDODgSkpFX1NU9QH481/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bmORQU/dJMcagHNZB2/cigkDODgSkpFX1NU9QH481/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733355",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733427",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 7",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bDWGRR/dJMcaagsRYF/tRA5adSFXuzHOTr8z4k7l1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bDWGRR/dJMcaagsRYF/tRA5adSFXuzHOTr8z4k7l1/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733427",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733429",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 8",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cgf7Go/dJMcac6jIAy/S8DCmUqZoTW0fJ5yuB0y81/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cgf7Go/dJMcac6jIAy/S8DCmUqZoTW0fJ5yuB0y81/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733429",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733430",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 9",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/evB90S/dJMcacSDvAS/noXMqquGKhudev3iXKHGV0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/evB90S/dJMcacSDvAS/noXMqquGKhudev3iXKHGV0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733430",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733428",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 10",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/3NzsW/dJMcaagsRYG/xnbhxQQn3AMYoXBIpdQnR1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/3NzsW/dJMcaagsRYG/xnbhxQQn3AMYoXBIpdQnR1/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733428",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733431",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 11",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/chlulc/dJMcac6jIAz/IpGpV7EfPWKIedeRxTkJNk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/chlulc/dJMcac6jIAz/IpGpV7EfPWKIedeRxTkJNk/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733431",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733432",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 12",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/8kUmO/dJMcaiL9Cl0/qrYn8XMF7SCAT7oYaCZOok/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/8kUmO/dJMcaiL9Cl0/qrYn8XMF7SCAT7oYaCZOok/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733432",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733441",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 13",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/mOHKA/dJMcadDV0il/VjuY7xgFQtmvK9DQkcZrt0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/mOHKA/dJMcadDV0il/VjuY7xgFQtmvK9DQkcZrt0/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733441",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733435",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 14",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/nuptx/dJMcaiL9Cl3/GtiDor38PkycTVPAJOg0zK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/nuptx/dJMcaiL9Cl3/GtiDor38PkycTVPAJOg0zK/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733435",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 14
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733440",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 15",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/c0dObJ/dJMcah7LBgh/44ahmUuPctv5qKzPsDhm50/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/c0dObJ/dJMcah7LBgh/44ahmUuPctv5qKzPsDhm50/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733440",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 15
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733436",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 16",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b0VI3N/dJMcadDV0ij/rQb2TJyhhmrGOGkWF1nI9k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b0VI3N/dJMcadDV0ij/rQb2TJyhhmrGOGkWF1nI9k/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733436",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 16
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196733438",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장 · 17",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/zxFAE/dJMcaiezVL7/eBRG8L16ukOAG3BD78KJr0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/zxFAE/dJMcaiezVL7/eBRG8L16ukOAG3BD78KJr0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174958",
+        "mediaId": "196733438",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 마스터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174958",
+        "publishedAt": "2026-11-09T13:20:57+09:00",
+        "imageOrder": 17
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732820",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/6znsU/dJMcahGwxnA/Kuf0AKUxS4knWoladMST7k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/6znsU/dJMcahGwxnA/Kuf0AKUxS4knWoladMST7k/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732820",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732827",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/F40MH/dJMcafPHcuE/yHvd4o8dnJkqKzJrC71I7K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/F40MH/dJMcafPHcuE/yHvd4o8dnJkqKzJrC71I7K/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732827",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732821",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/lgLRb/dJMcafBZC4e/zJv1s5LGGyEFcy7bgEnyw0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/lgLRb/dJMcafBZC4e/zJv1s5LGGyEFcy7bgEnyw0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732821",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732815",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/07Fqw/dJMcabNiqHD/17FAjg0Za601nEHZCWPO0k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/07Fqw/dJMcabNiqHD/17FAjg0Za601nEHZCWPO0k/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732815",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732816",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 5",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bYoyFi/dJMcaamYVan/VlYZ4c9g0C5rnk9uwRRF5K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bYoyFi/dJMcaamYVan/VlYZ4c9g0C5rnk9uwRRF5K/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732816",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732822",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 6",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/CGpK5/dJMcafWoofy/QkK6ttVPSQfSxf3XiEGQ21/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/CGpK5/dJMcafWoofy/QkK6ttVPSQfSxf3XiEGQ21/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732822",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732825",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 7",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/oanx2/dJMcah0LUEC/NUaB746ggSXJ0Sy9RVqB6k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/oanx2/dJMcah0LUEC/NUaB746ggSXJ0Sy9RVqB6k/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732825",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732818",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 8",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bRC9bD/dJMcahGwxnz/KAZ5RIuuQkIrsP3hKCEsJK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bRC9bD/dJMcahGwxnz/KAZ5RIuuQkIrsP3hKCEsJK/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732818",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732826",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 9",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/g4PBY/dJMcaaOkrxS/pInusz274i2onKndFoagK1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/g4PBY/dJMcaaOkrxS/pInusz274i2onKndFoagK1/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732826",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732829",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 10",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/xvUUw/dJMcab0N0h6/LXMce9yd1lN4FgDvBnc7OK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/xvUUw/dJMcab0N0h6/LXMce9yd1lN4FgDvBnc7OK/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732829",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732824",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 11",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cwjhwe/dJMcaaOkrxQ/EowzYNJ0kMn61Cv88Ia2x1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cwjhwe/dJMcaaOkrxQ/EowzYNJ0kMn61Cv88Ia2x1/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732824",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732819",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 12",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/kfKfT/dJMcafWoofx/8z5WXKKrn43AKCjyx1QKCK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kfKfT/dJMcafWoofx/8z5WXKKrn43AKCjyx1QKCK/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732819",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732828",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 13",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/LPFRG/dJMcafWoofA/3dEofq43KQW4QpwRknICV1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/LPFRG/dJMcafWoofA/3dEofq43KQW4QpwRknICV1/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732828",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732823",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 14",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/MZX3b/dJMcaamYVap/O8rXktDfhjaqlPKC76eBo0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/MZX3b/dJMcaamYVap/O8rXktDfhjaqlPKC76eBo0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732823",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 14
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732817",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 15",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bfE8CY/dJMcaamYVao/YnunXS160uNbGiYQwXDTLk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bfE8CY/dJMcaamYVao/YnunXS160uNbGiYQwXDTLk/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732817",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 15
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732943",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 16",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bi0bxP/dJMcacMbNJJ/7d2EAdvDQJSkdidKYzee00/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bi0bxP/dJMcacMbNJJ/7d2EAdvDQJSkdidKYzee00/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732943",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 16
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732948",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 17",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Fl4Aw/dJMcajdhhFc/jhk9rlAQMlt5HtwDxtAO9K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Fl4Aw/dJMcajdhhFc/jhk9rlAQMlt5HtwDxtAO9K/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732948",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 17
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732947",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 18",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/biIJ9T/dJMcajdhhFb/H6nHkS4aCuzhASfwNt59i1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/biIJ9T/dJMcajdhhFb/H6nHkS4aCuzhASfwNt59i1/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732947",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 18
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732946",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 19",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/kJLHT/dJMcabTR22D/mrX9SqOX7FAKIkiKC9b3mk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kJLHT/dJMcabTR22D/mrX9SqOX7FAKIkiKC9b3mk/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732946",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 19
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732944",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 20",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/rvvPz/dJMcafIToBv/tldplUfH1XuVTjAthUrsK0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/rvvPz/dJMcafIToBv/tldplUfH1XuVTjAthUrsK0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732944",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 20
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732945",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 21",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cmEtFB/dJMcacMbNJL/Yzx1LWlLxExsFB2R9omlYK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cmEtFB/dJMcacMbNJL/Yzx1LWlLxExsFB2R9omlYK/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732945",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 21
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732949",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 22",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dNa6pu/dJMcahNfyay/SYMI4VTrCyZqYW8uKOLRD0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dNa6pu/dJMcahNfyay/SYMI4VTrCyZqYW8uKOLRD0/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732949",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 22
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732950",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 23",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/csdEmB/dJMcahNfyaz/DvvDZk2xzDcdGKk2EEXVf0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/csdEmB/dJMcahNfyaz/DvvDZk2xzDcdGKk2EEXVf0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732950",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 23
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732954",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 24",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cwX06t/dJMcaaOkrRA/u52gM0ojLNPeViI5HEOCE1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cwX06t/dJMcaaOkrRA/u52gM0ojLNPeViI5HEOCE1/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732954",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 24
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732951",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 25",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bpLwlg/dJMcajdhhFi/iTrYSU7ny7Wksyjti4VJZk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bpLwlg/dJMcajdhhFi/iTrYSU7ny7Wksyjti4VJZk/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732951",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 25
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732953",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 26",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hMCvV/dJMcagVd3Vn/Lhycq0SWKS3x0VkPvk1H30/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hMCvV/dJMcagVd3Vn/Lhycq0SWKS3x0VkPvk1H30/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732953",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 26
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732952",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 27",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/oqudE/dJMcagVd3Vm/zXHwXHCIGKCoFpAY5Blojk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/oqudE/dJMcagVd3Vm/zXHwXHCIGKCoFpAY5Blojk/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732952",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 27
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732956",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 28",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/0DLkz/dJMcahNfyaK/r23IbTxztqNvas2xa3W2f0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/0DLkz/dJMcahNfyaK/r23IbTxztqNvas2xa3W2f0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732956",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 28
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196732955",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장 · 29",
+      "eventIds": [
+        "event-kakao-HlJFG-115165208-3cdd7f3201b4"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b3CsiA/dJMcajdhhFm/31k8zV0KNt844CatOxs2nk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b3CsiA/dJMcajdhhFm/31k8zV0KNt844CatOxs2nk/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115174858",
+        "mediaId": "196732955",
+        "postTitle": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 스타터즈 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115174858",
+        "publishedAt": "2026-11-09T13:13:12+09:00",
+        "imageOrder": 29
       }
     },
     {
@@ -153171,7 +154689,54 @@
         "asset-kakao-HlJFG-196680755",
         "asset-kakao-HlJFG-196680756"
       ],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-HlJFG-196732815",
+        "asset-kakao-HlJFG-196732816",
+        "asset-kakao-HlJFG-196732817",
+        "asset-kakao-HlJFG-196732818",
+        "asset-kakao-HlJFG-196732819",
+        "asset-kakao-HlJFG-196732820",
+        "asset-kakao-HlJFG-196732821",
+        "asset-kakao-HlJFG-196732822",
+        "asset-kakao-HlJFG-196732823",
+        "asset-kakao-HlJFG-196732824",
+        "asset-kakao-HlJFG-196732825",
+        "asset-kakao-HlJFG-196732826",
+        "asset-kakao-HlJFG-196732827",
+        "asset-kakao-HlJFG-196732828",
+        "asset-kakao-HlJFG-196732829",
+        "asset-kakao-HlJFG-196732943",
+        "asset-kakao-HlJFG-196732944",
+        "asset-kakao-HlJFG-196732945",
+        "asset-kakao-HlJFG-196732946",
+        "asset-kakao-HlJFG-196732947",
+        "asset-kakao-HlJFG-196732948",
+        "asset-kakao-HlJFG-196732949",
+        "asset-kakao-HlJFG-196732950",
+        "asset-kakao-HlJFG-196732951",
+        "asset-kakao-HlJFG-196732952",
+        "asset-kakao-HlJFG-196732953",
+        "asset-kakao-HlJFG-196732954",
+        "asset-kakao-HlJFG-196732955",
+        "asset-kakao-HlJFG-196732956",
+        "asset-kakao-HlJFG-196733353",
+        "asset-kakao-HlJFG-196733354",
+        "asset-kakao-HlJFG-196733355",
+        "asset-kakao-HlJFG-196733356",
+        "asset-kakao-HlJFG-196733357",
+        "asset-kakao-HlJFG-196733358",
+        "asset-kakao-HlJFG-196733427",
+        "asset-kakao-HlJFG-196733428",
+        "asset-kakao-HlJFG-196733429",
+        "asset-kakao-HlJFG-196733430",
+        "asset-kakao-HlJFG-196733431",
+        "asset-kakao-HlJFG-196733432",
+        "asset-kakao-HlJFG-196733435",
+        "asset-kakao-HlJFG-196733436",
+        "asset-kakao-HlJFG-196733438",
+        "asset-kakao-HlJFG-196733440",
+        "asset-kakao-HlJFG-196733441"
+      ],
       "categoryIds": [
         "jpag_ranking"
       ],
@@ -153179,7 +154744,9 @@
       "courseMapCategoryIds": [
         "jpag_ranking"
       ],
-      "resultCategoryIds": []
+      "resultCategoryIds": [
+        "jpag_ranking"
+      ]
     },
     {
       "eventId": "event-kakao-HlJFG-115166041-750cf3274506",
@@ -160587,7 +162154,54 @@
         "asset-kakao-HlJFG-196680755",
         "asset-kakao-HlJFG-196680756"
       ],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-HlJFG-196733353",
+        "asset-kakao-HlJFG-196733358",
+        "asset-kakao-HlJFG-196733357",
+        "asset-kakao-HlJFG-196733354",
+        "asset-kakao-HlJFG-196733356",
+        "asset-kakao-HlJFG-196733355",
+        "asset-kakao-HlJFG-196733427",
+        "asset-kakao-HlJFG-196733429",
+        "asset-kakao-HlJFG-196733430",
+        "asset-kakao-HlJFG-196733428",
+        "asset-kakao-HlJFG-196733431",
+        "asset-kakao-HlJFG-196733432",
+        "asset-kakao-HlJFG-196733441",
+        "asset-kakao-HlJFG-196733435",
+        "asset-kakao-HlJFG-196733440",
+        "asset-kakao-HlJFG-196733436",
+        "asset-kakao-HlJFG-196733438",
+        "asset-kakao-HlJFG-196732820",
+        "asset-kakao-HlJFG-196732827",
+        "asset-kakao-HlJFG-196732821",
+        "asset-kakao-HlJFG-196732815",
+        "asset-kakao-HlJFG-196732816",
+        "asset-kakao-HlJFG-196732822",
+        "asset-kakao-HlJFG-196732825",
+        "asset-kakao-HlJFG-196732818",
+        "asset-kakao-HlJFG-196732826",
+        "asset-kakao-HlJFG-196732829",
+        "asset-kakao-HlJFG-196732824",
+        "asset-kakao-HlJFG-196732819",
+        "asset-kakao-HlJFG-196732828",
+        "asset-kakao-HlJFG-196732823",
+        "asset-kakao-HlJFG-196732817",
+        "asset-kakao-HlJFG-196732943",
+        "asset-kakao-HlJFG-196732948",
+        "asset-kakao-HlJFG-196732947",
+        "asset-kakao-HlJFG-196732946",
+        "asset-kakao-HlJFG-196732944",
+        "asset-kakao-HlJFG-196732945",
+        "asset-kakao-HlJFG-196732949",
+        "asset-kakao-HlJFG-196732950",
+        "asset-kakao-HlJFG-196732954",
+        "asset-kakao-HlJFG-196732951",
+        "asset-kakao-HlJFG-196732953",
+        "asset-kakao-HlJFG-196732952",
+        "asset-kakao-HlJFG-196732956",
+        "asset-kakao-HlJFG-196732955"
+      ],
       "recordSelections": []
     },
     {
@@ -168274,7 +169888,54 @@
         "asset-kakao-HlJFG-196680756",
         "asset-kakao-HlJFG-196685475"
       ],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-HlJFG-196733353",
+        "asset-kakao-HlJFG-196733358",
+        "asset-kakao-HlJFG-196733357",
+        "asset-kakao-HlJFG-196733354",
+        "asset-kakao-HlJFG-196733356",
+        "asset-kakao-HlJFG-196733355",
+        "asset-kakao-HlJFG-196733427",
+        "asset-kakao-HlJFG-196733429",
+        "asset-kakao-HlJFG-196733430",
+        "asset-kakao-HlJFG-196733428",
+        "asset-kakao-HlJFG-196733431",
+        "asset-kakao-HlJFG-196733432",
+        "asset-kakao-HlJFG-196733441",
+        "asset-kakao-HlJFG-196733435",
+        "asset-kakao-HlJFG-196733440",
+        "asset-kakao-HlJFG-196733436",
+        "asset-kakao-HlJFG-196733438",
+        "asset-kakao-HlJFG-196732820",
+        "asset-kakao-HlJFG-196732827",
+        "asset-kakao-HlJFG-196732821",
+        "asset-kakao-HlJFG-196732815",
+        "asset-kakao-HlJFG-196732816",
+        "asset-kakao-HlJFG-196732822",
+        "asset-kakao-HlJFG-196732825",
+        "asset-kakao-HlJFG-196732818",
+        "asset-kakao-HlJFG-196732826",
+        "asset-kakao-HlJFG-196732829",
+        "asset-kakao-HlJFG-196732824",
+        "asset-kakao-HlJFG-196732819",
+        "asset-kakao-HlJFG-196732828",
+        "asset-kakao-HlJFG-196732823",
+        "asset-kakao-HlJFG-196732817",
+        "asset-kakao-HlJFG-196732943",
+        "asset-kakao-HlJFG-196732948",
+        "asset-kakao-HlJFG-196732947",
+        "asset-kakao-HlJFG-196732946",
+        "asset-kakao-HlJFG-196732944",
+        "asset-kakao-HlJFG-196732945",
+        "asset-kakao-HlJFG-196732949",
+        "asset-kakao-HlJFG-196732950",
+        "asset-kakao-HlJFG-196732954",
+        "asset-kakao-HlJFG-196732951",
+        "asset-kakao-HlJFG-196732953",
+        "asset-kakao-HlJFG-196732952",
+        "asset-kakao-HlJFG-196732956",
+        "asset-kakao-HlJFG-196732955"
+      ],
       "unassignedAssetIds": []
     },
     {
