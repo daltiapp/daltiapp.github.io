@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261110.1",
-  "updatedAt": "2026-11-10T03:33:11+09:00",
+  "dataVersion": "20261111.1",
+  "updatedAt": "2026-11-11T00:30:02+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2367,7 +2367,7 @@
     {
       "id": "asset-dongsa-240-page-09",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 바이애슬론 점핑 · 1/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 9",
       "eventIds": [
         "event-dongsa-kao-20261108"
       ],
@@ -2376,10 +2376,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/dd3e4e030bf4919ff2963dd4c94a4e674202b26f25a4d7e7635f23dcceb4373e.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/6a81e580965416ef4bfd0658473b56eb122905e7ed95c4b3e9598226c757cc1a.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/f50f87683f9956a0ff092dcab5a8eba460ec082d19a36e134558a25deca938c6.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -2389,9 +2389,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-09",
+        "mediaId": "page-09",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 9
       }
@@ -2399,7 +2399,7 @@
     {
       "id": "asset-dongsa-240-page-10",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 바이애슬론 점핑 · 2/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 10",
       "eventIds": [
         "event-dongsa-kao-20261108"
       ],
@@ -2408,10 +2408,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e725315068d2959e748c1487ec7cbf45b92e66a6056fc877fe8dc5628b30423a.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/efb115334666d08d186853219438d02790265be27ee52b408efcb26f569e5f07.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/1226a80a8b9698391e2e123d1536df886392686c74bb920a081bd25ea63216de.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -2421,9 +2421,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-10",
+        "mediaId": "page-10",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 10
       }
@@ -2431,7 +2431,7 @@
     {
       "id": "asset-dongsa-240-page-11",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 바이애슬론 어질리티 · 1/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 11",
       "eventIds": [
         "event-dongsa-kao-20261108"
       ],
@@ -2440,10 +2440,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/e4aca99f06efda10cebb6c9171ec55657364206036acc7812c7476c2abd68f4d.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/34473f967d46087a14559189aa9720a34c52af1dbc224c519c85cd8d0ba977cc.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/a4914c5eacb51575d3c1806784f7f9899f012cac89584c1c6de59ddada59883a.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -2453,9 +2453,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-11",
+        "mediaId": "page-11",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 11
       }
@@ -2463,7 +2463,7 @@
     {
       "id": "asset-dongsa-240-page-12",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 바이애슬론 어질리티 · 2/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 12",
       "eventIds": [
         "event-dongsa-kao-20261108"
       ],
@@ -2472,10 +2472,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/0c1d047587ecb835cfc45c5537a5dd6224a1fff8b2a4ff5942085d7567dd18c8.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/bf9ee72d0f996f8783b9588eec2cf9b67c13a19661eba127a26d511748936d6e.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/320e6484ab93407041d35f735300d49f5a38df66b9a43f52ecd027d79c60d721.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -2485,9 +2485,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-12",
+        "mediaId": "page-12",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 12
       }
@@ -2495,7 +2495,7 @@
     {
       "id": "asset-dongsa-240-page-13",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 갬블러 · 1/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 13",
       "eventIds": [
         "event-dongsa-kao-20261108"
       ],
@@ -2504,10 +2504,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/6dfd86f2bf62fc629d49b4468bedcc22ded5d579482569574f4c4c31e38c2e19.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/23010ddec5e46e58b0af79ac77a83b2eaefe157ae5554e995759afa269b0fd78.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/bb1ae55810beaa0420d16c6d8a23d16f762613d9eb9c112aa201a4466b758b8f.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -2517,9 +2517,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-13",
+        "mediaId": "page-13",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 13
       }
@@ -2527,7 +2527,7 @@
     {
       "id": "asset-dongsa-240-page-14",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 갬블러 · 2/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 14",
       "eventIds": [
         "event-dongsa-kao-20261108"
       ],
@@ -2536,10 +2536,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/3ec0989849f51f9983e34aed7fa01772de2abd5c9723071b3cced0cb17fefd1e.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/c92032e81d9fb68ebb153940c44512ced38f3ec0ffa714ea33158a4273af6af5.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/63be1a0b5699c09394f49fe75c51043775a5fdde0495b4a41e883027c78013aa.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -2549,9 +2549,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-14",
+        "mediaId": "page-14",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 14
       }
@@ -4422,7 +4422,7 @@
     {
       "id": "asset-dongsa-240-page-01",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 펜타슬론 어질리티 · 1/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 1",
       "eventIds": [
         "event-dongsa-kao-20261107"
       ],
@@ -4431,10 +4431,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5b0496fd52daf476c48adcc3d3f16ac17b4bcff72aac2dfc2159c83b072e09dc.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/da5f82a15431781f618f6162c99758fb5787f7b1c2b7efc9da9f4a3f5a01d70a.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/dceb5d67726aed9b0c5968e516aa12737a6e216f18e9c4c0a396233d2523fe1f.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -4444,9 +4444,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-01",
+        "mediaId": "page-01",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 1
       }
@@ -4454,7 +4454,7 @@
     {
       "id": "asset-dongsa-240-page-02",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 펜타슬론 어질리티 · 2/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 2",
       "eventIds": [
         "event-dongsa-kao-20261107"
       ],
@@ -4463,10 +4463,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/5326ea6259181dc48f94f5666ad9ca071027d7f16ebf6539cbbf8d88c59487d2.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/736ac9188ae05f3711d520f6f7b26bec3e291ed9e367c9cf6792688528de8bd7.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/bcad8c42bcd5b61b7ef828183051c1c32cff16cb7a523a29988badd159da4eb7.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -4476,9 +4476,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-02",
+        "mediaId": "page-02",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 2
       }
@@ -4486,7 +4486,7 @@
     {
       "id": "asset-dongsa-240-page-03",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 펜타슬론 점핑 · 1/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 3",
       "eventIds": [
         "event-dongsa-kao-20261107"
       ],
@@ -4495,10 +4495,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/91436324445744ad0613dde94f967af516f1e49eb6f9c386d8b5eafed9b25ad4.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/3943745b96ca48ac197e99c560abe9996593df689363309fa717a79895152a9e.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/9134fa6e25c0d67a12313217c42d0ab7415fb68ed3167d45a1fffb3c3d9e0286.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -4508,9 +4508,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-03",
+        "mediaId": "page-03",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 3
       }
@@ -4518,7 +4518,7 @@
     {
       "id": "asset-dongsa-240-page-04",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 펜타슬론 점핑 · 2/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 4",
       "eventIds": [
         "event-dongsa-kao-20261107"
       ],
@@ -4527,10 +4527,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/075c96ae147dd02189fea5557e46eb0b175b9f0611054ae0a90b7aa6318cb429.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/ab2c3211c3b1139f9743ee2571a7a9657de552e82fb4913e58d57d3000095b65.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/8024bc620ae3d09cce171d24cbe1c23cd878b43caefff20bc77e1b88beb7ef8e.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -4540,9 +4540,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-04",
+        "mediaId": "page-04",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 4
       }
@@ -4550,7 +4550,7 @@
     {
       "id": "asset-dongsa-240-page-05",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 펜타슬론 스피드스테이크 · 1/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 5",
       "eventIds": [
         "event-dongsa-kao-20261107"
       ],
@@ -4559,10 +4559,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/543b644c1d87288c5dc4f5356e9622442f656041fd1668c203b96c0e0379ab81.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/89a32a8700c35dd82201ce7a099289e6698670126a963a9b6aa0f4df11b08fbd.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/292c42eb77c08f9e98d9f94f828e28e900b2e1a096c1996570b954585b150f2e.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -4572,9 +4572,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-05",
+        "mediaId": "page-05",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 5
       }
@@ -4582,7 +4582,7 @@
     {
       "id": "asset-dongsa-240-page-06",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 펜타슬론 스피드스테이크 · 2/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 6",
       "eventIds": [
         "event-dongsa-kao-20261107"
       ],
@@ -4591,10 +4591,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/fc1c10a57f31554668b8474a8aa7f111e010a542f6fea7bfeb88982e4e9a0eff.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/5d386f35ba2e264acf0ad3ec0630fdc1114fcb063b8bdfc944ef11aa3238bc0e.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/2afdadbc94c8036f174b2674d3dba3a2da8ef9fa2447ecbc58e4ad306fe0f44f.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -4604,9 +4604,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-06",
+        "mediaId": "page-06",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 6
       }
@@ -4614,7 +4614,7 @@
     {
       "id": "asset-dongsa-240-page-07",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 스누커 · 1/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 7",
       "eventIds": [
         "event-dongsa-kao-20261107"
       ],
@@ -4623,10 +4623,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/c10873c087a72bd306923ff462d4f35f73ab880b47120a4614c686e2d9d6bc81.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/289c54490d0e2f7f91bfb55237aa2ad4f73bedad85b0394a479ceb15a7f32079.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/b0220be678b09a7586c7ddf384efefb77c1542e95154f1f2852b0bac2c7ed734.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -4636,9 +4636,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-07",
+        "mediaId": "page-07",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 7
       }
@@ -4646,7 +4646,7 @@
     {
       "id": "asset-dongsa-240-page-08",
       "kind": "entry_list",
-      "title": "2026 KAO 출진표 · 스누커 · 2/2",
+      "title": "제5회 KAO 챔피언십 출진순서 공지_수정 · 8",
       "eventIds": [
         "event-dongsa-kao-20261107"
       ],
@@ -4655,10 +4655,10 @@
         "jpag_ranking"
       ],
       "categoryScope": "asset",
-      "notice": "주최 측 공지 기준, 확정 전 임시 출진순서입니다. 대회 당일 체고측정 결과와 취소·노쇼 등 현장 상황에 따라 확정되며, 최종 출진순서는 현장에서 안내되는 KAO 애플리케이션과 전광판을 통해 공지됩니다.\n공식 공지: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
+      "notice": "제5회 KAO 챔피언십 출진순서를 첨부와 같이 공지합니다.\n출진 신청자께서는 첨부파일을 확인 하시어 대회 참가에 참고 부탁드립니다.\n♦ 본 출진순서는 확정 전 임시 출진순서 입니다.\n♦ 확정 출진순서는 대회 당일 체고측정 결과 및 취소/노쇼 발생 여부, 기타 상황에 따라 대회 당일 확정됩니다.\n♦ 확정 출진순서는 KAO 어플리케이션과 현장 전광판을 통해 공지될 예정입니다.\n(KAO 어플리케이션은 현장에서 안내 예정입니다)\n감사합니다.\n첨부파일\n2026 KAO Championship Running Orders_final.pdf\n주소 :강원도 춘천시 남산면 충효로 437, 반려동물연구소 1층 (사)동물과사람\n전화번호 :033-913-1442   이사장 :윤성태\nCopyright© 사단법인 동물과사람 All rightsreserved.\n원문: http://www.dong-sa.or.kr/board/read.jsp?id=240&code=notice",
       "image": {
-        "url": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844.png",
-        "thumbnailUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/420a75b819d615c65c587941fe688e8896f58706243151ab8fdc91e271068844.thumb.webp",
+        "url": "https://daltiapp.github.io/library-media/entries/dongsa/240/7112327901d9a410fef8896d4e2d92861f29bcf1eac4c4c3113ca038dafb6fe1.png",
+        "thumbnailUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/0e4b8e782d6eddef89e2d6dd49fcafb05d6ae61c1bc3e7a0f403a2f7c1badfd8.webp",
         "width": 1489,
         "height": 2105,
         "mimeType": "image/png"
@@ -4668,9 +4668,9 @@
         "channelId": "dongsa",
         "channelName": "동물과사람",
         "postId": "240",
-        "mediaId": "2090d07d0ad939955c2cf021a419b4dd8596f82c74e3ce72aed8364e28a722bc-page-08",
+        "mediaId": "page-08",
         "postTitle": "제5회 KAO 챔피언십 출진순서 공지_수정",
-        "postUrl": "https://daltiapp.github.io/library-media/dongsa/entry-lists/240/2090d07d0ad93995/running-order.pdf",
+        "postUrl": "https://daltiapp.github.io/library-media/entries/dongsa/240/162c7a6f569d93f54ba1ae7cd0c1ec410e88f2c5a0060ec6b3f73ec55d3b7ea1.pdf",
         "publishedAt": null,
         "imageOrder": 8
       }
