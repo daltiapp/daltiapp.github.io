@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261111.1",
-  "updatedAt": "2026-11-11T00:30:02+09:00",
+  "dataVersion": "20261111.2",
+  "updatedAt": "2026-11-11T00:46:37+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -149,7 +149,7 @@
     },
     {
       "id": "event-kakao-HlJFG-115113222-7d1ae145b350",
-      "name": "2026 LEEZ 어질리티 챔피언쉽 파이널",
+      "name": "2026 소노 LEEZ 파이널 어질리티 랭킹전 (토요일)",
       "startDate": "2026-11-07",
       "endDate": "2026-11-07",
       "competitionGroup": "RANKING_EVENT",
@@ -2557,6 +2557,204 @@
       }
     },
     {
+      "id": "asset-kakao-HlJFG-196682690",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 기록 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/09C0n/dJMcadKReAI/QjBXKLTVb3IcyMdSGG0wXK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/09C0n/dJMcadKReAI/QjBXKLTVb3IcyMdSGG0wXK/img_s.jpg",
+        "width": 1129,
+        "height": 1678,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115165554",
+        "mediaId": "196682690",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115165554",
+        "publishedAt": "2026-11-08T10:02:04+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196687122",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 기록 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/jSHNJ/dJMcagOz5VN/tGd8fTnqkdrMXJzYqXDek1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/jSHNJ/dJMcagOz5VN/tGd8fTnqkdrMXJzYqXDek1/img_s.jpg",
+        "width": 1124,
+        "height": 1826,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115165554",
+        "mediaId": "196687122",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115165554",
+        "publishedAt": "2026-11-08T10:02:04+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196684616",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 기록 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/d8GT0W/dJMcagHNrnh/UZCGnaTmjd30zlKX7O2chK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/d8GT0W/dJMcagHNrnh/UZCGnaTmjd30zlKX7O2chK/img_s.jpg",
+        "width": 1125,
+        "height": 1472,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115165554",
+        "mediaId": "196684616",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115165554",
+        "publishedAt": "2026-11-08T10:02:04+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196691416",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 기록 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/CGj1o/dJMcacSC3ZU/1F5CNfYlHBZjxK49JKk8O1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/CGj1o/dJMcacSC3ZU/1F5CNfYlHBZjxK49JKk8O1/img_s.jpg",
+        "width": 1129,
+        "height": 1404,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115165554",
+        "mediaId": "196691416",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115165554",
+        "publishedAt": "2026-11-08T10:02:04+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196692623",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 기록 · 5",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bdBOye/dJMcaagsoEA/YpVCxiVNSpbp6O5EqmwoeK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bdBOye/dJMcaagsoEA/YpVCxiVNSpbp6O5EqmwoeK/img_s.jpg",
+        "width": 1127,
+        "height": 1105,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115165554",
+        "mediaId": "196692623",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115165554",
+        "publishedAt": "2026-11-08T10:02:04+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196692624",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.08(일) 리즈 어질리티 챔피언쉽 파이널 기록 · 6",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/tW5ti/dJMcafBZbrS/SY9JkI6UI0HSkZdBdXjCy0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/tW5ti/dJMcafBZbrS/SY9JkI6UI0HSkZdBdXjCy0/img_s.jpg",
+        "width": 1121,
+        "height": 1181,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115165554",
+        "mediaId": "196692624",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115165554",
+        "publishedAt": "2026-11-08T10:02:04+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
       "id": "asset-kakao-HlJFG-196531919",
       "kind": "entry_list",
       "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 1",
@@ -2570,10 +2768,10 @@
       "categoryScope": "asset",
       "notice": "수장사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
       "image": {
-        "url": "https://k.kakaocdn.net/dn/DAFNq/dJMcagVbtxu/kLgbo5xvC410yObm5nlQ1k/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/DAFNq/dJMcagVbtxu/kLgbo5xvC410yObm5nlQ1k/img_s.jpg",
-        "width": 891,
-        "height": 1432,
+        "url": "https://k.kakaocdn.net/dn/dmWWbq/dJMcaiezqDI/RbNGKAGAFhXMY0sdEWCKkK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dmWWbq/dJMcaiezqDI/RbNGKAGAFhXMY0sdEWCKkK/img_s.jpg",
+        "width": 1093,
+        "height": 1086,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2581,7 +2779,7 @@
         "channelId": "_HlJFG",
         "channelName": "리즈",
         "postId": "115113313",
-        "mediaId": "196531919",
+        "mediaId": "196689739",
         "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
         "publishedAt": "2026-11-03T15:29:58+09:00",
@@ -2589,9 +2787,41 @@
       }
     },
     {
-      "id": "asset-kakao-HlJFG-196531920",
+      "id": "asset-kakao-HlJFG-196690532",
       "kind": "entry_list",
       "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115113313-a26552cc8778"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수장사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다🫡",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/d4XI06/dJMcagOz8n2/BZtxCCgvtK17isEHkYhfS0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/d4XI06/dJMcagOz8n2/BZtxCCgvtK17isEHkYhfS0/img_s.jpg",
+        "width": 1119,
+        "height": 1179,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115113313",
+        "mediaId": "196690532",
+        "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
+        "publishedAt": "2026-11-03T15:29:58+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196531920",
+      "kind": "entry_list",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 3",
       "eventIds": [
         "event-kakao-HlJFG-115113313-a26552cc8778"
       ],
@@ -2617,13 +2847,13 @@
         "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
         "publishedAt": "2026-11-03T15:29:58+09:00",
-        "imageOrder": 2
+        "imageOrder": 3
       }
     },
     {
       "id": "asset-kakao-HlJFG-196531921",
       "kind": "entry_list",
-      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 3",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 4",
       "eventIds": [
         "event-kakao-HlJFG-115113313-a26552cc8778"
       ],
@@ -2649,13 +2879,13 @@
         "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
         "publishedAt": "2026-11-03T15:29:58+09:00",
-        "imageOrder": 3
+        "imageOrder": 4
       }
     },
     {
       "id": "asset-kakao-HlJFG-196626720",
       "kind": "entry_list",
-      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 4",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 5",
       "eventIds": [
         "event-kakao-HlJFG-115113313-a26552cc8778"
       ],
@@ -2681,13 +2911,13 @@
         "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
         "publishedAt": "2026-11-03T15:29:58+09:00",
-        "imageOrder": 4
+        "imageOrder": 5
       }
     },
     {
       "id": "asset-kakao-HlJFG-196626722",
       "kind": "entry_list",
-      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 5",
+      "title": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표 · 6",
       "eventIds": [
         "event-kakao-HlJFG-115113313-a26552cc8778"
       ],
@@ -2713,7 +2943,7 @@
         "postTitle": "11.08(일) 2026 LEEZ 어질리티 챔피언쉽 어드/점어 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115113313",
         "publishedAt": "2026-11-03T15:29:58+09:00",
-        "imageOrder": 5
+        "imageOrder": 6
       }
     },
     {
@@ -5730,6 +5960,930 @@
         "postUrl": "https://pf.kakao.com/_HlJFG/115164439",
         "publishedAt": "2026-11-07T22:13:52+09:00",
         "imageOrder": 29
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676837",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bnN7Ud/dJMcafPGs2n/nMqXzVPElCHk2Yc7b6xy91/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bnN7Ud/dJMcafPGs2n/nMqXzVPElCHk2Yc7b6xy91/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676837",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676835",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/pVEKW/dJMcafPGs2m/5VNsjkJkPxNkrNcFmkJ8LK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/pVEKW/dJMcafPGs2m/5VNsjkJkPxNkrNcFmkJ8LK/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676835",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676842",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ItDTk/dJMcafPGs2o/dpyLsPPF5JOnmS39kHZ2W1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ItDTk/dJMcafPGs2o/dpyLsPPF5JOnmS39kHZ2W1/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676842",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676838",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bbGNKW/dJMcacytDxw/XGmpjvfB9TCM09yBgmKBa0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bbGNKW/dJMcacytDxw/XGmpjvfB9TCM09yBgmKBa0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676838",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676841",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 5",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cPtxy6/dJMcaiyOQTc/N8WeK01cG2wMU46tGqN2A0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cPtxy6/dJMcaiyOQTc/N8WeK01cG2wMU46tGqN2A0/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676841",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676840",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 6",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/22WEh/dJMcaiyOQTb/iHdktuceDVw07wN0hKBTzk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/22WEh/dJMcaiyOQTb/iHdktuceDVw07wN0hKBTzk/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676840",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676836",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 7",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/juZmC/dJMcacytDxx/QWyBKdiRRCJTSzpbnLK1Kk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/juZmC/dJMcacytDxx/QWyBKdiRRCJTSzpbnLK1Kk/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676836",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676845",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 8",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/nT33j/dJMcaiyOQTd/M0KVlBSdd9SGkCP3KZGDAk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/nT33j/dJMcaiyOQTd/M0KVlBSdd9SGkCP3KZGDAk/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676845",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676847",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 9",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bOflTr/dJMcadYvCBb/XKCvrLYvcWQbSnYpppnkq0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bOflTr/dJMcadYvCBb/XKCvrLYvcWQbSnYpppnkq0/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676847",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676844",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 10",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/pHNv9/dJMcaf9DK5X/DiVOR6IoQwMP1tSnr5MSqK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/pHNv9/dJMcaf9DK5X/DiVOR6IoQwMP1tSnr5MSqK/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676844",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676843",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 11",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/xTFVl/dJMcah0LdJH/qZhfGLWYGXDy9wPqmUyAvK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/xTFVl/dJMcah0LdJH/qZhfGLWYGXDy9wPqmUyAvK/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676843",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676839",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 12",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bhBsxO/dJMcacytDxy/krJtWT12ZgeXTz39Qtfbkk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bhBsxO/dJMcacytDxy/krJtWT12ZgeXTz39Qtfbkk/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676839",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676846",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 13",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/xBeQm/dJMcadYvCBa/d6EEsZle72KLUMKGh2Jxk0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/xBeQm/dJMcadYvCBa/d6EEsZle72KLUMKGh2Jxk0/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676846",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 13
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676864",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 14",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/Dc0gn/dJMcacZyU9h/7ySK7yMUXCfFIqXb7MXU6k/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/Dc0gn/dJMcacZyU9h/7ySK7yMUXCfFIqXb7MXU6k/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676864",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 14
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676867",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 15",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ekXXlS/dJMcaiL8Tfv/gD5LJoLdDObKOfvbxXobm0/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ekXXlS/dJMcaiL8Tfv/gD5LJoLdDObKOfvbxXobm0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676867",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 15
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676866",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 16",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hLYaH/dJMcafISHNT/WfEqmwSirIuE0z1Z0MlKAK/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hLYaH/dJMcafISHNT/WfEqmwSirIuE0z1Z0MlKAK/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676866",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 16
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676865",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 17",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bVAGQE/dJMcaaOjJZU/xSxRlf04lGO1KgFElb2bkK/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bVAGQE/dJMcaaOjJZU/xSxRlf04lGO1KgFElb2bkK/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676865",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 17
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676868",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 18",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ASi0r/dJMcaaOjJZT/igSOgsCwuqVIBLmovkxXQk/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ASi0r/dJMcaaOjJZT/igSOgsCwuqVIBLmovkxXQk/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676868",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 18
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676874",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 19",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/7MEoU/dJMb99V1dj0/Ldbi9y2wng4ly0veKsS2Fk/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/7MEoU/dJMb99V1dj0/Ldbi9y2wng4ly0veKsS2Fk/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676874",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 19
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676871",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 20",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b6bl35/dJMcagnh1Hh/ZUhF3kvKXZ4ncyQjQt1RgK/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b6bl35/dJMcagnh1Hh/ZUhF3kvKXZ4ncyQjQt1RgK/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676871",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 20
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676863",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 21",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bIt6un/dJMcadxcDnT/iWXAtJfZKrlTRI4tsRTr1K/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bIt6un/dJMcadxcDnT/iWXAtJfZKrlTRI4tsRTr1K/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676863",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 21
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676869",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 22",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/jjjwZ/dJMcackTHSc/kQGSSDVmNk0giYQocpszV1/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/jjjwZ/dJMcackTHSc/kQGSSDVmNk0giYQocpszV1/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676869",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 22
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676862",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 23",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hlQPs/dJMcadxcDnS/Faxjptwp72sp1fy6zTvGgk/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hlQPs/dJMcadxcDnS/Faxjptwp72sp1fy6zTvGgk/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676862",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 23
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676861",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 24",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ICsrk/dJMcaaOjJZS/UTKZgKLg7esqRpoVSWrpZK/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ICsrk/dJMcaaOjJZS/UTKZgKLg7esqRpoVSWrpZK/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676861",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 24
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676875",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 25",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/xiqgI/dJMcadYvCEY/06nKmsD9Cvs3ZgzvKlQ8J1/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/xiqgI/dJMcadYvCEY/06nKmsD9Cvs3ZgzvKlQ8J1/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676875",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 25
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676873",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 26",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/deYLy7/dJMcacSCQfD/XKfhxnzoiSOOK5egDCwtmk/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/deYLy7/dJMcacSCQfD/XKfhxnzoiSOOK5egDCwtmk/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676873",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 26
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676872",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 27",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dGGAEs/dJMcadcWUpi/HmIKikyZge6MFwqTDYrwd0/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dGGAEs/dJMcadcWUpi/HmIKikyZge6MFwqTDYrwd0/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676872",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 27
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-196676870",
+      "kind": "result",
+      "resultType": "image",
+      "title": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장 · 28",
+      "eventIds": [
+        "event-kakao-HlJFG-115113222-7d1ae145b350"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/RVgAx/dJMcadRBCNg/BQRm2zKKGflXQUDAaqzuV1/img.png",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/RVgAx/dJMcadRBCNg/BQRm2zKKGflXQUDAaqzuV1/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/png"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115164432",
+        "mediaId": "196676870",
+        "postTitle": "11.07(토) 리즈 어질리티 챔피언쉽 파이널 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115164432",
+        "publishedAt": "2026-11-07T22:08:56+09:00",
+        "imageOrder": 28
       }
     },
     {
@@ -154665,10 +155819,18 @@
         "asset-kakao-HlJFG-196531920",
         "asset-kakao-HlJFG-196531921",
         "asset-kakao-HlJFG-196626720",
-        "asset-kakao-HlJFG-196626722"
+        "asset-kakao-HlJFG-196626722",
+        "asset-kakao-HlJFG-196690532"
       ],
       "courseMapIds": [],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-HlJFG-196682690",
+        "asset-kakao-HlJFG-196684616",
+        "asset-kakao-HlJFG-196687122",
+        "asset-kakao-HlJFG-196691416",
+        "asset-kakao-HlJFG-196692623",
+        "asset-kakao-HlJFG-196692624"
+      ],
       "categoryIds": [
         "jpag_ranking",
         "benov_ranking"
@@ -154678,7 +155840,10 @@
         "benov_ranking"
       ],
       "courseMapCategoryIds": [],
-      "resultCategoryIds": []
+      "resultCategoryIds": [
+        "jpag_ranking",
+        "benov_ranking"
+      ]
     },
     {
       "eventId": "event-kakao-HlJFG-115165208-3cdd7f3201b4",
@@ -154842,6 +156007,34 @@
         "asset-kakao-HlJFG-196667783",
         "asset-kakao-HlJFG-196670205",
         "asset-kakao-HlJFG-196670206",
+        "asset-kakao-HlJFG-196676835",
+        "asset-kakao-HlJFG-196676836",
+        "asset-kakao-HlJFG-196676837",
+        "asset-kakao-HlJFG-196676838",
+        "asset-kakao-HlJFG-196676839",
+        "asset-kakao-HlJFG-196676840",
+        "asset-kakao-HlJFG-196676841",
+        "asset-kakao-HlJFG-196676842",
+        "asset-kakao-HlJFG-196676843",
+        "asset-kakao-HlJFG-196676844",
+        "asset-kakao-HlJFG-196676845",
+        "asset-kakao-HlJFG-196676846",
+        "asset-kakao-HlJFG-196676847",
+        "asset-kakao-HlJFG-196676861",
+        "asset-kakao-HlJFG-196676862",
+        "asset-kakao-HlJFG-196676863",
+        "asset-kakao-HlJFG-196676864",
+        "asset-kakao-HlJFG-196676865",
+        "asset-kakao-HlJFG-196676866",
+        "asset-kakao-HlJFG-196676867",
+        "asset-kakao-HlJFG-196676868",
+        "asset-kakao-HlJFG-196676869",
+        "asset-kakao-HlJFG-196676870",
+        "asset-kakao-HlJFG-196676871",
+        "asset-kakao-HlJFG-196676872",
+        "asset-kakao-HlJFG-196676873",
+        "asset-kakao-HlJFG-196676874",
+        "asset-kakao-HlJFG-196676875",
         "asset-kakao-HlJFG-196676897",
         "asset-kakao-HlJFG-196676898",
         "asset-kakao-HlJFG-196676899",
@@ -162129,7 +163322,12 @@
         "asset-kakao-HlJFG-196626722"
       ],
       "courseMapIds": [],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-HlJFG-196682690",
+        "asset-kakao-HlJFG-196687122",
+        "asset-kakao-HlJFG-196684616",
+        "asset-kakao-HlJFG-196691416"
+      ],
       "recordSelections": []
     },
     {
@@ -162137,10 +163335,14 @@
       "eventId": "event-kakao-HlJFG-115113313-a26552cc8778",
       "categoryId": "benov_ranking",
       "entryListIds": [
-        "asset-kakao-HlJFG-196531919"
+        "asset-kakao-HlJFG-196531919",
+        "asset-kakao-HlJFG-196690532"
       ],
       "courseMapIds": [],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-HlJFG-196692623",
+        "asset-kakao-HlJFG-196692624"
+      ],
       "recordSelections": []
     },
     {
@@ -162292,6 +163494,34 @@
         "asset-kakao-HlJFG-196676921",
         "asset-kakao-HlJFG-196676923",
         "asset-kakao-HlJFG-196676918",
+        "asset-kakao-HlJFG-196676837",
+        "asset-kakao-HlJFG-196676835",
+        "asset-kakao-HlJFG-196676842",
+        "asset-kakao-HlJFG-196676838",
+        "asset-kakao-HlJFG-196676841",
+        "asset-kakao-HlJFG-196676840",
+        "asset-kakao-HlJFG-196676836",
+        "asset-kakao-HlJFG-196676845",
+        "asset-kakao-HlJFG-196676847",
+        "asset-kakao-HlJFG-196676844",
+        "asset-kakao-HlJFG-196676843",
+        "asset-kakao-HlJFG-196676839",
+        "asset-kakao-HlJFG-196676846",
+        "asset-kakao-HlJFG-196676864",
+        "asset-kakao-HlJFG-196676867",
+        "asset-kakao-HlJFG-196676866",
+        "asset-kakao-HlJFG-196676865",
+        "asset-kakao-HlJFG-196676868",
+        "asset-kakao-HlJFG-196676874",
+        "asset-kakao-HlJFG-196676871",
+        "asset-kakao-HlJFG-196676863",
+        "asset-kakao-HlJFG-196676869",
+        "asset-kakao-HlJFG-196676862",
+        "asset-kakao-HlJFG-196676861",
+        "asset-kakao-HlJFG-196676875",
+        "asset-kakao-HlJFG-196676873",
+        "asset-kakao-HlJFG-196676872",
+        "asset-kakao-HlJFG-196676870",
         "asset-kakao-HlJFG-196655978",
         "asset-kakao-HlJFG-196655981",
         "asset-kakao-HlJFG-196667779",
@@ -169876,6 +171106,7 @@
         "asset-dongsa-240-page-13",
         "asset-dongsa-240-page-14",
         "asset-kakao-HlJFG-196531919",
+        "asset-kakao-HlJFG-196690532",
         "asset-kakao-HlJFG-196531920",
         "asset-kakao-HlJFG-196531921",
         "asset-kakao-HlJFG-196626720",
@@ -169889,6 +171120,12 @@
         "asset-kakao-HlJFG-196685475"
       ],
       "resultIds": [
+        "asset-kakao-HlJFG-196682690",
+        "asset-kakao-HlJFG-196687122",
+        "asset-kakao-HlJFG-196684616",
+        "asset-kakao-HlJFG-196691416",
+        "asset-kakao-HlJFG-196692623",
+        "asset-kakao-HlJFG-196692624",
         "asset-kakao-HlJFG-196733353",
         "asset-kakao-HlJFG-196733358",
         "asset-kakao-HlJFG-196733357",
@@ -170006,6 +171243,34 @@
         "asset-kakao-HlJFG-196676921",
         "asset-kakao-HlJFG-196676923",
         "asset-kakao-HlJFG-196676918",
+        "asset-kakao-HlJFG-196676837",
+        "asset-kakao-HlJFG-196676835",
+        "asset-kakao-HlJFG-196676842",
+        "asset-kakao-HlJFG-196676838",
+        "asset-kakao-HlJFG-196676841",
+        "asset-kakao-HlJFG-196676840",
+        "asset-kakao-HlJFG-196676836",
+        "asset-kakao-HlJFG-196676845",
+        "asset-kakao-HlJFG-196676847",
+        "asset-kakao-HlJFG-196676844",
+        "asset-kakao-HlJFG-196676843",
+        "asset-kakao-HlJFG-196676839",
+        "asset-kakao-HlJFG-196676846",
+        "asset-kakao-HlJFG-196676864",
+        "asset-kakao-HlJFG-196676867",
+        "asset-kakao-HlJFG-196676866",
+        "asset-kakao-HlJFG-196676865",
+        "asset-kakao-HlJFG-196676868",
+        "asset-kakao-HlJFG-196676874",
+        "asset-kakao-HlJFG-196676871",
+        "asset-kakao-HlJFG-196676863",
+        "asset-kakao-HlJFG-196676869",
+        "asset-kakao-HlJFG-196676862",
+        "asset-kakao-HlJFG-196676861",
+        "asset-kakao-HlJFG-196676875",
+        "asset-kakao-HlJFG-196676873",
+        "asset-kakao-HlJFG-196676872",
+        "asset-kakao-HlJFG-196676870",
         "asset-kakao-HlJFG-196655978",
         "asset-kakao-HlJFG-196655981",
         "asset-kakao-HlJFG-196667779",
