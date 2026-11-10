@@ -1,7 +1,17 @@
 {
   "identity_field": "id",
-  "total_count": 140,
+  "total_count": 141,
   "items": [
+    {
+      "id": 141,
+      "source": "kkc",
+      "source_seq": "wp-258296",
+      "title": "261114_KKC 어질리티 챔피언십 출진목록",
+      "url": "https://kkc.or.kr/261114_kkc-%EC%96%B4%EC%A7%88%EB%A6%AC%ED%8B%B0-%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD-%EC%B6%9C%EC%A7%84%EB%AA%A9%EB%A1%9D/",
+      "published_at_raw": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00+09:00",
+      "detail_path": "./kkc/141.json"
+    },
     {
       "id": 140,
       "source": "dongsa",
