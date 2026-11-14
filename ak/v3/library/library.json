@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261111.2",
-  "updatedAt": "2026-11-11T00:46:37+09:00",
+  "dataVersion": "20261115.1",
+  "updatedAt": "2026-11-15T03:39:04+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -71,6 +71,17 @@
     }
   ],
   "events": [
+    {
+      "id": "event-kakao-HlJFG-115238468-ee3bf7c22390",
+      "name": "제1회 LEEZ 순천만국가정원 어질리티 챔피언쉽",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-21",
+      "competitionGroup": "RANKING_EVENT",
+      "organizer": null,
+      "categoryIds": [
+        "benov_ranking"
+      ]
+    },
     {
       "id": "event-dongsa-kao-20261108",
       "name": "2026 Korea Agility Open (KAO)",
@@ -2364,6 +2375,70 @@
     }
   ],
   "assets": [
+    {
+      "id": "asset-kakao-HlJFG-197089590",
+      "kind": "entry_list",
+      "title": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/buUySE/dJMcadqHs5W/kKBXKKMG0BkLbTCOhDLrL0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/buUySE/dJMcadqHs5W/kKBXKKMG0BkLbTCOhDLrL0/img_s.jpg",
+        "width": 773,
+        "height": 1878,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115238468",
+        "mediaId": "197089590",
+        "postTitle": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115238468",
+        "publishedAt": "2026-11-14T12:50:11+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197089593",
+      "kind": "entry_list",
+      "title": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/uzo9W/dJMcaaHEFuo/lTCkS0kt9kiHkIy6VNkdd0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/uzo9W/dJMcaaHEFuo/lTCkS0kt9kiHkIy6VNkdd0/img_s.jpg",
+        "width": 756,
+        "height": 1904,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115238468",
+        "mediaId": "197089593",
+        "postTitle": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115238468",
+        "publishedAt": "2026-11-14T12:50:11+09:00",
+        "imageOrder": 2
+      }
+    },
     {
       "id": "asset-dongsa-240-page-09",
       "kind": "entry_list",
@@ -155792,6 +155867,23 @@
   ],
   "eventGroups": [
     {
+      "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
+      "entryListIds": [
+        "asset-kakao-HlJFG-197089590",
+        "asset-kakao-HlJFG-197089593"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "entryListCategoryIds": [
+        "benov_ranking"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
       "eventId": "event-dongsa-kao-20261108",
       "entryListIds": [
         "asset-dongsa-240-page-09",
@@ -163295,6 +163387,18 @@
     }
   ],
   "competitionGroups": [
+    {
+      "id": "event:event-kakao-HlJFG-115238468-ee3bf7c22390:category:benov_ranking",
+      "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
+      "categoryId": "benov_ranking",
+      "entryListIds": [
+        "asset-kakao-HlJFG-197089590",
+        "asset-kakao-HlJFG-197089593"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
     {
       "id": "event:event-dongsa-kao-20261108:category:jpag_ranking",
       "eventId": "event-dongsa-kao-20261108",
@@ -171081,6 +171185,24 @@
     }
   ],
   "dateGroups": [
+    {
+      "id": "date:2026-11-21",
+      "date": "2026-11-21",
+      "label": "2026-11-21",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "competitionGroupIds": [
+        "event:event-kakao-HlJFG-115238468-ee3bf7c22390:category:benov_ranking"
+      ],
+      "entryListIds": [
+        "asset-kakao-HlJFG-197089590",
+        "asset-kakao-HlJFG-197089593"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "unassignedAssetIds": []
+    },
     {
       "id": "date:2026-11-08",
       "date": "2026-11-08",
