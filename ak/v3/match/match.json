@@ -2068,6 +2068,29 @@
         "https://drive.google.com/uc?export=view&id=1STN0XcVa3tuab3N_w8nlHxkxqpZuZ6Bi"
       ],
       "detailNotice": "챌린지 레벨(비기너·노비스), 타이니·스몰·미듐·라지 4체급. 참가비는 2경기 20,000원이며 도시락이 제공됩니다.\n08:00~09:00 선수등록, 09:00 개회식·안전교육, 09:30~12:00 비기너, 12:30~13:00 국가대표팀 시범, 13:00~16:00 노비스, 16:00~17:00 폐회·시상식.\n체급별 통합 1위 40만원·2위 30만원·3위 20만원과 트로피를 수여합니다(총상금 360만원). 각 종목 체급별 1~3위는 로젯을 수여합니다.\n신청: https://docs.google.com/forms/d/e/1FAIpQLSfBHFtXOaPPlMtPOoz3kFAlxdULNrt0h7fe6s6okGpVGTJHJQ/viewform\n주최: 순천시 / 주관: 한국어질리티연합."
+    },
+    {
+      "applicationEndAt": "2026-11-20T23:59:59",
+      "applicationStartAt": "2026-11-06T00:00:00",
+      "club": "한국반려동물융합학회",
+      "detailNotice": "2026 지산학 동반성장 EXPO 연계 대회. 주최 안산대학교, 주관 한국반려동물융합학회, 운영 학회 도그스포츠위원회.\n09:00 개회 준비, 09:40 코스 체크, 10:00 비기너·노비스, 12:00 점심, 13:00 어질리티, 14:00 점핑, 15:00 점핑 릴레이·위브 토너먼트, 16:00 시상식, 17:00 폐회.\n체급은 스몰·미디엄·라지입니다. 참가비는 정규 종목당 1만 원이며 이벤트 경기는 무료입니다. 출전 종목 시작 전에 현장 체크인을 마쳐야 합니다.\n참가 신청: https://www.kscacs.com/events/ansan-agility-2026/apply",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-11-25T17:00:00",
+      "eventType": "대회",
+      "judge": [
+        "김성한",
+        "김창식"
+      ],
+      "location": "안산대학교 대운동장",
+      "matchTypes": [
+        "비기너",
+        "노비스",
+        "점핑",
+        "어질리티"
+      ],
+      "name": "제1회 KAS 어질리티 챔피언십 안산대학교 총장배",
+      "startAt": "2026-11-25T09:00:00",
+      "url": "https://www.kscacs.com/events/ansan-agility-2026"
     }
   ]
 }
