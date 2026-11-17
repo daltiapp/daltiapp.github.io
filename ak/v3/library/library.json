@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261115.1",
-  "updatedAt": "2026-11-15T03:39:04+09:00",
+  "dataVersion": "20261118.1",
+  "updatedAt": "2026-11-18T03:23:10+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -71,6 +71,17 @@
     }
   ],
   "events": [
+    {
+      "id": "event-kakao-GptxdX-115270878-fc37a49d1bcc",
+      "name": "2026. 11. 21 강원 FCI 인터내셔널 어질리티 경기대회",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-21",
+      "competitionGroup": "OFFICIAL_PROMOTION",
+      "organizer": null,
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
     {
       "id": "event-kakao-HlJFG-115238468-ee3bf7c22390",
       "name": "제1회 LEEZ 순천만국가정원 어질리티 챔피언쉽",
@@ -2376,7 +2387,199 @@
   ],
   "assets": [
     {
-      "id": "asset-kakao-HlJFG-197089590",
+      "id": "asset-kakao-GptxdX-197268158",
+      "kind": "entry_list",
+      "title": "11.21(토) 강원 FCI 인터내셔널 출진표 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dnrraz/dJMcab7yjel/pmzr9f6PxHk7SToVlch13K/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dnrraz/dJMcab7yjel/pmzr9f6PxHk7SToVlch13K/img_s.jpg",
+        "width": 956,
+        "height": 810,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115270878",
+        "mediaId": "197268158",
+        "postTitle": "11.21(토) 강원 FCI 인터내셔널 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115270878",
+        "publishedAt": "2026-11-17T19:00:50+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197268159",
+      "kind": "entry_list",
+      "title": "11.21(토) 강원 FCI 인터내셔널 출진표 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ehmeNY/dJMcafPN2hK/eQYo7Zdr73Qiv7RQXkvQ60/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ehmeNY/dJMcafPN2hK/eQYo7Zdr73Qiv7RQXkvQ60/img_s.jpg",
+        "width": 942,
+        "height": 933,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115270878",
+        "mediaId": "197268159",
+        "postTitle": "11.21(토) 강원 FCI 인터내셔널 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115270878",
+        "publishedAt": "2026-11-17T19:00:50+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197264160",
+      "kind": "entry_list",
+      "title": "11.21(토) 강원 FCI 인터내셔널 출진표 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/nGgsY/dJMcabmf73h/lPAxwBSPOJxJ2onzk9GH1k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/nGgsY/dJMcabmf73h/lPAxwBSPOJxJ2onzk9GH1k/img_s.jpg",
+        "width": 1001,
+        "height": 1092,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115270878",
+        "mediaId": "197264160",
+        "postTitle": "11.21(토) 강원 FCI 인터내셔널 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115270878",
+        "publishedAt": "2026-11-17T19:00:50+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197268160",
+      "kind": "entry_list",
+      "title": "11.21(토) 강원 FCI 인터내셔널 출진표 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ohiUo/dJMcaam5csD/3P8XMKB1DaH6HeTNeNnf20/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ohiUo/dJMcaam5csD/3P8XMKB1DaH6HeTNeNnf20/img_s.jpg",
+        "width": 960,
+        "height": 781,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115270878",
+        "mediaId": "197268160",
+        "postTitle": "11.21(토) 강원 FCI 인터내셔널 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115270878",
+        "publishedAt": "2026-11-17T19:00:50+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197268161",
+      "kind": "entry_list",
+      "title": "11.21(토) 강원 FCI 인터내셔널 출진표 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cTAbn7/dJMcaiMgl8y/HvKacFSSkGFqklEyIdjk11/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cTAbn7/dJMcaiMgl8y/HvKacFSSkGFqklEyIdjk11/img_s.jpg",
+        "width": 943,
+        "height": 911,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115270878",
+        "mediaId": "197268161",
+        "postTitle": "11.21(토) 강원 FCI 인터내셔널 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115270878",
+        "publishedAt": "2026-11-17T19:00:50+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197264164",
+      "kind": "entry_list",
+      "title": "11.21(토) 강원 FCI 인터내셔널 출진표 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": "수정사항은 채널 1대1 문의주시면 종합 후 수정하겠습니다.",
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/EtJ8f/dJMcailkAbW/GQuoJQYYNuyZWpfk1Uyyg0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/EtJ8f/dJMcailkAbW/GQuoJQYYNuyZWpfk1Uyyg0/img_s.jpg",
+        "width": 1000,
+        "height": 1030,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115270878",
+        "mediaId": "197264164",
+        "postTitle": "11.21(토) 강원 FCI 인터내셔널 출진표",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115270878",
+        "publishedAt": "2026-11-17T19:00:50+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197268204",
       "kind": "entry_list",
       "title": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표 · 1",
       "eventIds": [
@@ -2389,10 +2592,10 @@
       "categoryScope": "asset",
       "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다.",
       "image": {
-        "url": "https://k.kakaocdn.net/dn/buUySE/dJMcadqHs5W/kKBXKKMG0BkLbTCOhDLrL0/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/buUySE/dJMcadqHs5W/kKBXKKMG0BkLbTCOhDLrL0/img_s.jpg",
-        "width": 773,
-        "height": 1878,
+        "url": "https://k.kakaocdn.net/dn/bfL6Gs/dJMcafI0hbO/ubp8aBwXHNPdwsOwqm2FZ1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bfL6Gs/dJMcafI0hbO/ubp8aBwXHNPdwsOwqm2FZ1/img_s.jpg",
+        "width": 695,
+        "height": 1701,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2400,7 +2603,7 @@
         "channelId": "_HlJFG",
         "channelName": "리즈",
         "postId": "115238468",
-        "mediaId": "197089590",
+        "mediaId": "197268204",
         "postTitle": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115238468",
         "publishedAt": "2026-11-14T12:50:11+09:00",
@@ -2408,7 +2611,7 @@
       }
     },
     {
-      "id": "asset-kakao-HlJFG-197089593",
+      "id": "asset-kakao-HlJFG-197268205",
       "kind": "entry_list",
       "title": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표 · 2",
       "eventIds": [
@@ -2421,10 +2624,10 @@
       "categoryScope": "asset",
       "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다.",
       "image": {
-        "url": "https://k.kakaocdn.net/dn/uzo9W/dJMcaaHEFuo/lTCkS0kt9kiHkIy6VNkdd0/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/uzo9W/dJMcaaHEFuo/lTCkS0kt9kiHkIy6VNkdd0/img_s.jpg",
-        "width": 756,
-        "height": 1904,
+        "url": "https://k.kakaocdn.net/dn/bnV8K9/dJMcahzVmwD/TKLFLenkCDBHTcKQImqj3k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bnV8K9/dJMcahzVmwD/TKLFLenkCDBHTcKQImqj3k/img_s.jpg",
+        "width": 692,
+        "height": 1695,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2432,7 +2635,7 @@
         "channelId": "_HlJFG",
         "channelName": "리즈",
         "postId": "115238468",
-        "mediaId": "197089593",
+        "mediaId": "197268205",
         "postTitle": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115238468",
         "publishedAt": "2026-11-14T12:50:11+09:00",
@@ -155867,10 +156070,31 @@
   ],
   "eventGroups": [
     {
+      "eventId": "event-kakao-GptxdX-115270878-fc37a49d1bcc",
+      "entryListIds": [
+        "asset-kakao-GptxdX-197264160",
+        "asset-kakao-GptxdX-197264164",
+        "asset-kakao-GptxdX-197268158",
+        "asset-kakao-GptxdX-197268159",
+        "asset-kakao-GptxdX-197268160",
+        "asset-kakao-GptxdX-197268161"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "entryListCategoryIds": [
+        "jpag_promotion"
+      ],
+      "courseMapCategoryIds": [],
+      "resultCategoryIds": []
+    },
+    {
       "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
       "entryListIds": [
-        "asset-kakao-HlJFG-197089590",
-        "asset-kakao-HlJFG-197089593"
+        "asset-kakao-HlJFG-197268204",
+        "asset-kakao-HlJFG-197268205"
       ],
       "courseMapIds": [],
       "resultIds": [],
@@ -163388,12 +163612,28 @@
   ],
   "competitionGroups": [
     {
+      "id": "event:event-kakao-GptxdX-115270878-fc37a49d1bcc:category:jpag_promotion",
+      "eventId": "event-kakao-GptxdX-115270878-fc37a49d1bcc",
+      "categoryId": "jpag_promotion",
+      "entryListIds": [
+        "asset-kakao-GptxdX-197268158",
+        "asset-kakao-GptxdX-197268159",
+        "asset-kakao-GptxdX-197264160",
+        "asset-kakao-GptxdX-197268160",
+        "asset-kakao-GptxdX-197268161",
+        "asset-kakao-GptxdX-197264164"
+      ],
+      "courseMapIds": [],
+      "resultIds": [],
+      "recordSelections": []
+    },
+    {
       "id": "event:event-kakao-HlJFG-115238468-ee3bf7c22390:category:benov_ranking",
       "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
       "categoryId": "benov_ranking",
       "entryListIds": [
-        "asset-kakao-HlJFG-197089590",
-        "asset-kakao-HlJFG-197089593"
+        "asset-kakao-HlJFG-197268204",
+        "asset-kakao-HlJFG-197268205"
       ],
       "courseMapIds": [],
       "resultIds": [],
@@ -171190,14 +171430,22 @@
       "date": "2026-11-21",
       "label": "2026-11-21",
       "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc",
         "event-kakao-HlJFG-115238468-ee3bf7c22390"
       ],
       "competitionGroupIds": [
+        "event:event-kakao-GptxdX-115270878-fc37a49d1bcc:category:jpag_promotion",
         "event:event-kakao-HlJFG-115238468-ee3bf7c22390:category:benov_ranking"
       ],
       "entryListIds": [
-        "asset-kakao-HlJFG-197089590",
-        "asset-kakao-HlJFG-197089593"
+        "asset-kakao-GptxdX-197268158",
+        "asset-kakao-GptxdX-197268159",
+        "asset-kakao-GptxdX-197264160",
+        "asset-kakao-GptxdX-197268160",
+        "asset-kakao-GptxdX-197268161",
+        "asset-kakao-GptxdX-197264164",
+        "asset-kakao-HlJFG-197268204",
+        "asset-kakao-HlJFG-197268205"
       ],
       "courseMapIds": [],
       "resultIds": [],
