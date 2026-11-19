@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261118.1",
-  "updatedAt": "2026-11-18T03:23:10+09:00",
+  "dataVersion": "20261120.1",
+  "updatedAt": "2026-11-20T03:03:39+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2579,7 +2579,7 @@
       }
     },
     {
-      "id": "asset-kakao-HlJFG-197268204",
+      "id": "asset-kakao-HlJFG-197335027",
       "kind": "entry_list",
       "title": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표 · 1",
       "eventIds": [
@@ -2592,10 +2592,10 @@
       "categoryScope": "asset",
       "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다.",
       "image": {
-        "url": "https://k.kakaocdn.net/dn/bfL6Gs/dJMcafI0hbO/ubp8aBwXHNPdwsOwqm2FZ1/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/bfL6Gs/dJMcafI0hbO/ubp8aBwXHNPdwsOwqm2FZ1/img_s.jpg",
-        "width": 695,
-        "height": 1701,
+        "url": "https://k.kakaocdn.net/dn/K3HLZ/dJMcaiyXncJ/XD4BbGM2lx9CRfRKTvZm3k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/K3HLZ/dJMcaiyXncJ/XD4BbGM2lx9CRfRKTvZm3k/img_s.jpg",
+        "width": 689,
+        "height": 1680,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2603,7 +2603,7 @@
         "channelId": "_HlJFG",
         "channelName": "리즈",
         "postId": "115238468",
-        "mediaId": "197268204",
+        "mediaId": "197335027",
         "postTitle": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115238468",
         "publishedAt": "2026-11-14T12:50:11+09:00",
@@ -2611,7 +2611,7 @@
       }
     },
     {
-      "id": "asset-kakao-HlJFG-197268205",
+      "id": "asset-kakao-HlJFG-197335028",
       "kind": "entry_list",
       "title": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표 · 2",
       "eventIds": [
@@ -2624,10 +2624,10 @@
       "categoryScope": "asset",
       "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다.",
       "image": {
-        "url": "https://k.kakaocdn.net/dn/bnV8K9/dJMcahzVmwD/TKLFLenkCDBHTcKQImqj3k/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/bnV8K9/dJMcahzVmwD/TKLFLenkCDBHTcKQImqj3k/img_s.jpg",
-        "width": 692,
-        "height": 1695,
+        "url": "https://k.kakaocdn.net/dn/lHtqb/dJMcab7y8Ge/YOQe6g7eaGcHeUwV8SRil0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/lHtqb/dJMcab7y8Ge/YOQe6g7eaGcHeUwV8SRil0/img_s.jpg",
+        "width": 703,
+        "height": 1672,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2635,7 +2635,7 @@
         "channelId": "_HlJFG",
         "channelName": "리즈",
         "postId": "115238468",
-        "mediaId": "197268205",
+        "mediaId": "197335028",
         "postTitle": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115238468",
         "publishedAt": "2026-11-14T12:50:11+09:00",
@@ -156093,8 +156093,8 @@
     {
       "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
       "entryListIds": [
-        "asset-kakao-HlJFG-197268204",
-        "asset-kakao-HlJFG-197268205"
+        "asset-kakao-HlJFG-197335027",
+        "asset-kakao-HlJFG-197335028"
       ],
       "courseMapIds": [],
       "resultIds": [],
@@ -163632,8 +163632,8 @@
       "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
       "categoryId": "benov_ranking",
       "entryListIds": [
-        "asset-kakao-HlJFG-197268204",
-        "asset-kakao-HlJFG-197268205"
+        "asset-kakao-HlJFG-197335027",
+        "asset-kakao-HlJFG-197335028"
       ],
       "courseMapIds": [],
       "resultIds": [],
@@ -171444,8 +171444,8 @@
         "asset-kakao-GptxdX-197268160",
         "asset-kakao-GptxdX-197268161",
         "asset-kakao-GptxdX-197264164",
-        "asset-kakao-HlJFG-197268204",
-        "asset-kakao-HlJFG-197268205"
+        "asset-kakao-HlJFG-197335027",
+        "asset-kakao-HlJFG-197335028"
       ],
       "courseMapIds": [],
       "resultIds": [],
