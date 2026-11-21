@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261120.1",
-  "updatedAt": "2026-11-20T03:03:39+09:00",
+  "dataVersion": "20261122.1",
+  "updatedAt": "2026-11-22T03:34:47+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2387,6 +2387,204 @@
   ],
   "assets": [
     {
+      "id": "asset-kakao-GptxdX-197502983",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 강원 FCI 대회기록 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cwqMCQ/dJMcadj8Mhq/jkQ1VCNPKakcmysjHuwDYK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cwqMCQ/dJMcadj8Mhq/jkQ1VCNPKakcmysjHuwDYK/img_s.jpg",
+        "width": 1364,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115315580",
+        "mediaId": "197502983",
+        "postTitle": "2026 강원 FCI 대회기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
+        "publishedAt": "2026-11-21T11:30:07+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197502985",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 강원 FCI 대회기록 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/jaSJk/dJMcaiZLqKQ/kR4kjpRI0p4dkZ0TaVEfok/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/jaSJk/dJMcaiZLqKQ/kR4kjpRI0p4dkZ0TaVEfok/img_s.jpg",
+        "width": 1170,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115315580",
+        "mediaId": "197502985",
+        "postTitle": "2026 강원 FCI 대회기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
+        "publishedAt": "2026-11-21T11:30:07+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197502986",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 강원 FCI 대회기록 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/nTz0L/dJMcaaHJFeq/0Qao8f5VwxSK92Obixbh30/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/nTz0L/dJMcaaHJFeq/0Qao8f5VwxSK92Obixbh30/img_s.jpg",
+        "width": 1080,
+        "height": 1092,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115315580",
+        "mediaId": "197502986",
+        "postTitle": "2026 강원 FCI 대회기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
+        "publishedAt": "2026-11-21T11:30:07+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197508112",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 강원 FCI 대회기록 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/8O3jG/dJMcacyDP3O/m9u323DwdZB0TDYKF6uepk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/8O3jG/dJMcacyDP3O/m9u323DwdZB0TDYKF6uepk/img_s.jpg",
+        "width": 1132,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115315580",
+        "mediaId": "197508112",
+        "postTitle": "2026 강원 FCI 대회기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
+        "publishedAt": "2026-11-21T11:30:07+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197509780",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 강원 FCI 대회기록 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bMj1Rq/dJMcadc6Ino/aAmziAWRWvNS0NDuHtk9n1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bMj1Rq/dJMcadc6Ino/aAmziAWRWvNS0NDuHtk9n1/img_s.jpg",
+        "width": 1215,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115315580",
+        "mediaId": "197509780",
+        "postTitle": "2026 강원 FCI 대회기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
+        "publishedAt": "2026-11-21T11:30:07+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197514892",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026 강원 FCI 대회기록 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/tAK8c/dJMcafI3Cnk/uGsc7DmN2TQ6wcfnp4mND1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/tAK8c/dJMcafI3Cnk/uGsc7DmN2TQ6wcfnp4mND1/img_s.jpg",
+        "width": 1080,
+        "height": 1144,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115315580",
+        "mediaId": "197514892",
+        "postTitle": "2026 강원 FCI 대회기록",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
+        "publishedAt": "2026-11-21T11:30:07+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
       "id": "asset-kakao-GptxdX-197268158",
       "kind": "entry_list",
       "title": "11.21(토) 강원 FCI 인터내셔널 출진표 · 1",
@@ -2579,7 +2777,1005 @@
       }
     },
     {
-      "id": "asset-kakao-HlJFG-197335027",
+      "id": "asset-kakao-HlJFG-197510200",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/1oomP/dJMcagHXL4n/843Hy4fFjDcnf4Lu4EbfO0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/1oomP/dJMcagHXL4n/843Hy4fFjDcnf4Lu4EbfO0/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510200",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510202",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/caAmJV/dJMb99Wbjgx/NTnN0io9MU6p43uuYU2ih1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/caAmJV/dJMb99Wbjgx/NTnN0io9MU6p43uuYU2ih1/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510202",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510204",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/vvG5c/dJMcafvlSsq/cGiWO8KGaq4zxzTOrfopp0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/vvG5c/dJMcafvlSsq/cGiWO8KGaq4zxzTOrfopp0/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510204",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510203",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bMj7t8/dJMcahNo3wu/o0YPYM0xbJBU3G2C6Squ8k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bMj7t8/dJMcahNo3wu/o0YPYM0xbJBU3G2C6Squ8k/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510203",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510211",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 5",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/kdLpL/dJMcagHXL4o/YevFSjzWfhaU5gruQ8zXqK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kdLpL/dJMcagHXL4o/YevFSjzWfhaU5gruQ8zXqK/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510211",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510201",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 6",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ba2baH/dJMcahmzs0f/AKNCDWbMavlCCWoLT8ITjk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ba2baH/dJMcahmzs0f/AKNCDWbMavlCCWoLT8ITjk/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510201",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510210",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 7",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/gpOR3/dJMcajxSMt9/63LMJuplkRPWusLJor4ehk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/gpOR3/dJMcajxSMt9/63LMJuplkRPWusLJor4ehk/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510210",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510205",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 8",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/hwUi1/dJMcahT5zAf/o1cqByNoOmL5tIDcKkd6O0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/hwUi1/dJMcahT5zAf/o1cqByNoOmL5tIDcKkd6O0/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510205",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510206",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 9",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/c2FZcJ/dJMcaaHJIcr/JLemWy7v8fS5mzdaztbyMK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/c2FZcJ/dJMcaaHJIcr/JLemWy7v8fS5mzdaztbyMK/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510206",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510209",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 10",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cCSUs3/dJMcajxSMt8/HxmqlGPnkspSjOnKIiKio1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cCSUs3/dJMcajxSMt8/HxmqlGPnkspSjOnKIiKio1/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510209",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510207",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 11",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b2VzMm/dJMb99Wbjgw/P9lKw5F7ixTEORoxbuscoK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b2VzMm/dJMb99Wbjgw/P9lKw5F7ixTEORoxbuscoK/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510207",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510208",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장 · 12",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b6LRgH/dJMcahmzs0g/6QfYtImue9MIxf7YY8c9J0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b6LRgH/dJMcahmzs0g/6QfYtImue9MIxf7YY8c9J0/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316668",
+        "mediaId": "197510208",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 노비스 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316668",
+        "publishedAt": "2026-11-21T14:10:40+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510152",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/PmkgW/dJMcaf27tq6/jsAFk5TaUSe4VHf42g4LI0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/PmkgW/dJMcaf27tq6/jsAFk5TaUSe4VHf42g4LI0/img_s.jpg",
+        "width": 1684,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510152",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510151",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/kBxv2/dJMb99Wbjf8/DnWZW0NezjiImb6kTZUXlk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/kBxv2/dJMb99Wbjf8/DnWZW0NezjiImb6kTZUXlk/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510151",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510162",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ct6Iqc/dJMcadRLPbL/HU5LOIxxfYSORwkKv1st0k/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ct6Iqc/dJMcadRLPbL/HU5LOIxxfYSORwkKv1st0k/img_s.jpg",
+        "width": 1685,
+        "height": 1191,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510162",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510156",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bYOCxL/dJMcag8Nkc9/bKKN8bky6szShUj4QST9U1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bYOCxL/dJMcag8Nkc9/bKKN8bky6szShUj4QST9U1/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510156",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510154",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 5",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b2mW6k/dJMcahfM3mu/8mYegF5RR9enKAHd0KK3L1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b2mW6k/dJMcahfM3mu/8mYegF5RR9enKAHd0KK3L1/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510154",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510157",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 6",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cJMdwQ/dJMcabzFh1g/crRosDLCJMWtKwjy6UUUHk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cJMdwQ/dJMcabzFh1g/crRosDLCJMWtKwjy6UUUHk/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510157",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510153",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 7",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/ibVGN/dJMcadRLPbK/v49dmw8fMvhenWMX4rgvh1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/ibVGN/dJMcadRLPbK/v49dmw8fMvhenWMX4rgvh1/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510153",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 7
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510159",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 8",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/L8Y6A/dJMcadRLPbM/Tda7AtnwKm6imHjsR0zWi0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/L8Y6A/dJMcadRLPbM/Tda7AtnwKm6imHjsR0zWi0/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510159",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 8
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510155",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 9",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/TJHIB/dJMcaaU4OYC/nY8uReUqdGIKnl2VIkyeBK/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/TJHIB/dJMcaaU4OYC/nY8uReUqdGIKnl2VIkyeBK/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510155",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 9
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510158",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 10",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/pNWWN/dJMcabzFh1h/KdEu5NPeVIcpAe2wEQP6e0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/pNWWN/dJMcabzFh1h/KdEu5NPeVIcpAe2wEQP6e0/img_s.jpg",
+        "width": 1684,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510158",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 10
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510161",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 11",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cUiq1L/dJMcabzFh1f/KegE0wLT4Mv5U62yN5pxj1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cUiq1L/dJMcabzFh1f/KegE0wLT4Mv5U62yN5pxj1/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510161",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 11
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197510160",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장 · 12",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bo2Fl6/dJMcag8Nkda/F5JS5ytJlixr1WGgxd2nD1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bo2Fl6/dJMcag8Nkda/F5JS5ytJlixr1WGgxd2nD1/img_s.jpg",
+        "width": 1685,
+        "height": 1192,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115316660",
+        "mediaId": "197510160",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 비기너 상장",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115316660",
+        "publishedAt": "2026-11-21T14:09:50+09:00",
+        "imageOrder": 12
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197508828",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 기록 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/qTzuY/dJMcag1X5wb/G4uUzsNoJt1tAbKl047Kbk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/qTzuY/dJMcag1X5wb/G4uUzsNoJt1tAbKl047Kbk/img_s.jpg",
+        "width": 955,
+        "height": 1183,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115315764",
+        "mediaId": "197508828",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115315764",
+        "publishedAt": "2026-11-21T11:54:16+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197508825",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 기록 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/APmHe/dJMcadYF9sQ/i66huIrgV4ahRSYcGoOKck/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/APmHe/dJMcadYF9sQ/i66huIrgV4ahRSYcGoOKck/img_s.jpg",
+        "width": 953,
+        "height": 1116,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115315764",
+        "mediaId": "197508825",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115315764",
+        "publishedAt": "2026-11-21T11:54:16+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197508827",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 기록 · 3",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/dJsxzn/dJMcack3Fzj/oXLAmrKXak7K7aERMCbZF0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/dJsxzn/dJMcack3Fzj/oXLAmrKXak7K7aERMCbZF0/img_s.jpg",
+        "width": 978,
+        "height": 1208,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115315764",
+        "mediaId": "197508827",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115315764",
+        "publishedAt": "2026-11-21T11:54:16+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197508826",
+      "kind": "result",
+      "resultType": "image",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 기록 · 4",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/b5oDCZ/dJMcadK04Iv/Wwd66GyrZQijKM1v5Xcbz1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/b5oDCZ/dJMcadK04Iv/Wwd66GyrZQijKM1v5Xcbz1/img_s.jpg",
+        "width": 979,
+        "height": 1131,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115315764",
+        "mediaId": "197508826",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 기록",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115315764",
+        "publishedAt": "2026-11-21T11:54:16+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197495473",
+      "kind": "course_map",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 코스 · 1",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/HZpq9/dJMcabffvih/gUEMl6fKNQUmdGu7tU6cx0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/HZpq9/dJMcabffvih/gUEMl6fKNQUmdGu7tU6cx0/img_s.jpg",
+        "width": 1523,
+        "height": 851,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115314266",
+        "mediaId": "197495473",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 코스",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115314266",
+        "publishedAt": "2026-11-21T06:56:01+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197495474",
+      "kind": "course_map",
+      "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 코스 · 2",
+      "eventIds": [
+        "event-kakao-HlJFG-115238468-ee3bf7c22390"
+      ],
+      "mapCategories": [
+        "ranking"
+      ],
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/cnZr5q/dJMcabffvii/CthX3UDPz5JZNMTXEkkyl0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/cnZr5q/dJMcabffvii/CthX3UDPz5JZNMTXEkkyl0/img_s.jpg",
+        "width": 1523,
+        "height": 851,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_HlJFG",
+        "channelName": "리즈",
+        "postId": "115314266",
+        "mediaId": "197495474",
+        "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 코스",
+        "postUrl": "https://pf.kakao.com/_HlJFG/115314266",
+        "publishedAt": "2026-11-21T06:56:01+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-HlJFG-197495444",
       "kind": "entry_list",
       "title": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표 · 1",
       "eventIds": [
@@ -2592,10 +3788,10 @@
       "categoryScope": "asset",
       "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다.",
       "image": {
-        "url": "https://k.kakaocdn.net/dn/K3HLZ/dJMcaiyXncJ/XD4BbGM2lx9CRfRKTvZm3k/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/K3HLZ/dJMcaiyXncJ/XD4BbGM2lx9CRfRKTvZm3k/img_s.jpg",
-        "width": 689,
-        "height": 1680,
+        "url": "https://k.kakaocdn.net/dn/d9zaJr/dJMcajdqNtE/q36B70Xk8u1Gl2rFswHjHk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/d9zaJr/dJMcajdqNtE/q36B70Xk8u1Gl2rFswHjHk/img_s.jpg",
+        "width": 638,
+        "height": 1659,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2603,7 +3799,7 @@
         "channelId": "_HlJFG",
         "channelName": "리즈",
         "postId": "115238468",
-        "mediaId": "197335027",
+        "mediaId": "197495444",
         "postTitle": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115238468",
         "publishedAt": "2026-11-14T12:50:11+09:00",
@@ -2611,7 +3807,7 @@
       }
     },
     {
-      "id": "asset-kakao-HlJFG-197335028",
+      "id": "asset-kakao-HlJFG-197495445",
       "kind": "entry_list",
       "title": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표 · 2",
       "eventIds": [
@@ -2624,10 +3820,10 @@
       "categoryScope": "asset",
       "notice": "수정사항은 채널 1대1 문의 주시면 종합 후 수정하겠습니다.",
       "image": {
-        "url": "https://k.kakaocdn.net/dn/lHtqb/dJMcab7y8Ge/YOQe6g7eaGcHeUwV8SRil0/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/lHtqb/dJMcab7y8Ge/YOQe6g7eaGcHeUwV8SRil0/img_s.jpg",
-        "width": 703,
-        "height": 1672,
+        "url": "https://k.kakaocdn.net/dn/bIPKpT/dJMcadj8HSN/V9mpZnKGQ8MMPuNgw86Sj1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bIPKpT/dJMcadj8HSN/V9mpZnKGQ8MMPuNgw86Sj1/img_s.jpg",
+        "width": 678,
+        "height": 1733,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2635,7 +3831,7 @@
         "channelId": "_HlJFG",
         "channelName": "리즈",
         "postId": "115238468",
-        "mediaId": "197335028",
+        "mediaId": "197495445",
         "postTitle": "2026. 11. 21(토) 순천만국가정원 어질리티 챔피언쉽 출진표",
         "postUrl": "https://pf.kakao.com/_HlJFG/115238468",
         "publishedAt": "2026-11-14T12:50:11+09:00",
@@ -120819,6 +122015,89 @@
   ],
   "courseMapGroups": [
     {
+      "id": "event:event-kakao-HlJFG-115238468-ee3bf7c22390",
+      "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
+      "maps": [
+        {
+          "id": "asset-kakao-HlJFG-197495473",
+          "kind": "course_map",
+          "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 코스 · 1",
+          "eventIds": [
+            "event-kakao-HlJFG-115238468-ee3bf7c22390"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/HZpq9/dJMcabffvih/gUEMl6fKNQUmdGu7tU6cx0/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/HZpq9/dJMcabffvih/gUEMl6fKNQUmdGu7tU6cx0/img_s.jpg",
+            "width": 1523,
+            "height": 851,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_HlJFG",
+            "channelName": "리즈",
+            "postId": "115314266",
+            "mediaId": "197495473",
+            "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 코스",
+            "postUrl": "https://pf.kakao.com/_HlJFG/115314266",
+            "publishedAt": "2026-11-21T06:56:01+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-HlJFG-197495474",
+          "kind": "course_map",
+          "title": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 코스 · 2",
+          "eventIds": [
+            "event-kakao-HlJFG-115238468-ee3bf7c22390"
+          ],
+          "mapCategories": [
+            "ranking"
+          ],
+          "courseMapCategoryIds": [
+            "benov_ranking"
+          ],
+          "categoryIds": [
+            "benov_ranking"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/cnZr5q/dJMcabffvii/CthX3UDPz5JZNMTXEkkyl0/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/cnZr5q/dJMcabffvii/CthX3UDPz5JZNMTXEkkyl0/img_s.jpg",
+            "width": 1523,
+            "height": 851,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_HlJFG",
+            "channelName": "리즈",
+            "postId": "115314266",
+            "mediaId": "197495474",
+            "postTitle": "2026. 11. 21(토) LEEZ 순천만국가정원 어질리티대회 코스",
+            "postUrl": "https://pf.kakao.com/_HlJFG/115314266",
+            "publishedAt": "2026-11-21T06:56:01+09:00",
+            "imageOrder": 2
+          }
+        }
+      ],
+      "categoryIds": [
+        "benov_ranking"
+      ]
+    },
+    {
       "id": "event:event-kakao-HlJFG-115165208-3cdd7f3201b4",
       "eventId": "event-kakao-HlJFG-115165208-3cdd7f3201b4",
       "maps": [
@@ -156080,7 +157359,14 @@
         "asset-kakao-GptxdX-197268161"
       ],
       "courseMapIds": [],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-GptxdX-197502983",
+        "asset-kakao-GptxdX-197502985",
+        "asset-kakao-GptxdX-197502986",
+        "asset-kakao-GptxdX-197508112",
+        "asset-kakao-GptxdX-197509780",
+        "asset-kakao-GptxdX-197514892"
+      ],
       "categoryIds": [
         "jpag_promotion"
       ],
@@ -156088,24 +157374,62 @@
         "jpag_promotion"
       ],
       "courseMapCategoryIds": [],
-      "resultCategoryIds": []
+      "resultCategoryIds": [
+        "jpag_promotion"
+      ]
     },
     {
       "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
       "entryListIds": [
-        "asset-kakao-HlJFG-197335027",
-        "asset-kakao-HlJFG-197335028"
+        "asset-kakao-HlJFG-197495444",
+        "asset-kakao-HlJFG-197495445"
       ],
-      "courseMapIds": [],
-      "resultIds": [],
+      "courseMapIds": [
+        "asset-kakao-HlJFG-197495473",
+        "asset-kakao-HlJFG-197495474"
+      ],
+      "resultIds": [
+        "asset-kakao-HlJFG-197508825",
+        "asset-kakao-HlJFG-197508826",
+        "asset-kakao-HlJFG-197508827",
+        "asset-kakao-HlJFG-197508828",
+        "asset-kakao-HlJFG-197510151",
+        "asset-kakao-HlJFG-197510152",
+        "asset-kakao-HlJFG-197510153",
+        "asset-kakao-HlJFG-197510154",
+        "asset-kakao-HlJFG-197510155",
+        "asset-kakao-HlJFG-197510156",
+        "asset-kakao-HlJFG-197510157",
+        "asset-kakao-HlJFG-197510158",
+        "asset-kakao-HlJFG-197510159",
+        "asset-kakao-HlJFG-197510160",
+        "asset-kakao-HlJFG-197510161",
+        "asset-kakao-HlJFG-197510162",
+        "asset-kakao-HlJFG-197510200",
+        "asset-kakao-HlJFG-197510201",
+        "asset-kakao-HlJFG-197510202",
+        "asset-kakao-HlJFG-197510203",
+        "asset-kakao-HlJFG-197510204",
+        "asset-kakao-HlJFG-197510205",
+        "asset-kakao-HlJFG-197510206",
+        "asset-kakao-HlJFG-197510207",
+        "asset-kakao-HlJFG-197510208",
+        "asset-kakao-HlJFG-197510209",
+        "asset-kakao-HlJFG-197510210",
+        "asset-kakao-HlJFG-197510211"
+      ],
       "categoryIds": [
         "benov_ranking"
       ],
       "entryListCategoryIds": [
         "benov_ranking"
       ],
-      "courseMapCategoryIds": [],
-      "resultCategoryIds": []
+      "courseMapCategoryIds": [
+        "benov_ranking"
+      ],
+      "resultCategoryIds": [
+        "benov_ranking"
+      ]
     },
     {
       "eventId": "event-dongsa-kao-20261108",
@@ -163624,7 +164948,14 @@
         "asset-kakao-GptxdX-197264164"
       ],
       "courseMapIds": [],
-      "resultIds": [],
+      "resultIds": [
+        "asset-kakao-GptxdX-197502983",
+        "asset-kakao-GptxdX-197502985",
+        "asset-kakao-GptxdX-197502986",
+        "asset-kakao-GptxdX-197508112",
+        "asset-kakao-GptxdX-197509780",
+        "asset-kakao-GptxdX-197514892"
+      ],
       "recordSelections": []
     },
     {
@@ -163632,11 +164963,43 @@
       "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
       "categoryId": "benov_ranking",
       "entryListIds": [
-        "asset-kakao-HlJFG-197335027",
-        "asset-kakao-HlJFG-197335028"
+        "asset-kakao-HlJFG-197495444",
+        "asset-kakao-HlJFG-197495445"
       ],
-      "courseMapIds": [],
-      "resultIds": [],
+      "courseMapIds": [
+        "asset-kakao-HlJFG-197495473",
+        "asset-kakao-HlJFG-197495474"
+      ],
+      "resultIds": [
+        "asset-kakao-HlJFG-197510200",
+        "asset-kakao-HlJFG-197510202",
+        "asset-kakao-HlJFG-197510204",
+        "asset-kakao-HlJFG-197510203",
+        "asset-kakao-HlJFG-197510211",
+        "asset-kakao-HlJFG-197510201",
+        "asset-kakao-HlJFG-197510210",
+        "asset-kakao-HlJFG-197510205",
+        "asset-kakao-HlJFG-197510206",
+        "asset-kakao-HlJFG-197510209",
+        "asset-kakao-HlJFG-197510207",
+        "asset-kakao-HlJFG-197510208",
+        "asset-kakao-HlJFG-197510152",
+        "asset-kakao-HlJFG-197510151",
+        "asset-kakao-HlJFG-197510162",
+        "asset-kakao-HlJFG-197510156",
+        "asset-kakao-HlJFG-197510154",
+        "asset-kakao-HlJFG-197510157",
+        "asset-kakao-HlJFG-197510153",
+        "asset-kakao-HlJFG-197510159",
+        "asset-kakao-HlJFG-197510155",
+        "asset-kakao-HlJFG-197510158",
+        "asset-kakao-HlJFG-197510161",
+        "asset-kakao-HlJFG-197510160",
+        "asset-kakao-HlJFG-197508828",
+        "asset-kakao-HlJFG-197508825",
+        "asset-kakao-HlJFG-197508827",
+        "asset-kakao-HlJFG-197508826"
+      ],
       "recordSelections": []
     },
     {
@@ -171444,11 +172807,49 @@
         "asset-kakao-GptxdX-197268160",
         "asset-kakao-GptxdX-197268161",
         "asset-kakao-GptxdX-197264164",
-        "asset-kakao-HlJFG-197335027",
-        "asset-kakao-HlJFG-197335028"
+        "asset-kakao-HlJFG-197495444",
+        "asset-kakao-HlJFG-197495445"
       ],
-      "courseMapIds": [],
-      "resultIds": [],
+      "courseMapIds": [
+        "asset-kakao-HlJFG-197495473",
+        "asset-kakao-HlJFG-197495474"
+      ],
+      "resultIds": [
+        "asset-kakao-GptxdX-197502983",
+        "asset-kakao-GptxdX-197502985",
+        "asset-kakao-GptxdX-197502986",
+        "asset-kakao-GptxdX-197508112",
+        "asset-kakao-GptxdX-197509780",
+        "asset-kakao-GptxdX-197514892",
+        "asset-kakao-HlJFG-197510200",
+        "asset-kakao-HlJFG-197510202",
+        "asset-kakao-HlJFG-197510204",
+        "asset-kakao-HlJFG-197510203",
+        "asset-kakao-HlJFG-197510211",
+        "asset-kakao-HlJFG-197510201",
+        "asset-kakao-HlJFG-197510210",
+        "asset-kakao-HlJFG-197510205",
+        "asset-kakao-HlJFG-197510206",
+        "asset-kakao-HlJFG-197510209",
+        "asset-kakao-HlJFG-197510207",
+        "asset-kakao-HlJFG-197510208",
+        "asset-kakao-HlJFG-197510152",
+        "asset-kakao-HlJFG-197510151",
+        "asset-kakao-HlJFG-197510162",
+        "asset-kakao-HlJFG-197510156",
+        "asset-kakao-HlJFG-197510154",
+        "asset-kakao-HlJFG-197510157",
+        "asset-kakao-HlJFG-197510153",
+        "asset-kakao-HlJFG-197510159",
+        "asset-kakao-HlJFG-197510155",
+        "asset-kakao-HlJFG-197510158",
+        "asset-kakao-HlJFG-197510161",
+        "asset-kakao-HlJFG-197510160",
+        "asset-kakao-HlJFG-197508828",
+        "asset-kakao-HlJFG-197508825",
+        "asset-kakao-HlJFG-197508827",
+        "asset-kakao-HlJFG-197508826"
+      ],
       "unassignedAssetIds": []
     },
     {
