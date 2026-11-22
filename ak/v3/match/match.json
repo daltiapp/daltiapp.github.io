@@ -2131,6 +2131,45 @@
       "name": "제1회 어드밴스드 OPEN 랭킹전",
       "startAt": "2026-12-12T11:30:00",
       "url": "https://www.instagram.com/kam.official.mag/p/Dft77QHmNj9/"
+    },
+    {
+      "applicationEndAt": "2026-11-30T23:59:59",
+      "applicationStartAt": "2026-11-16T00:00:00",
+      "club": "ARES",
+      "detailNotice": "강아지숲 네이처풀 운동장(춘천시 남산면 충효로 437)에서 열리는 서바이벌 어질리티 대회입니다.\n07:40 운동장 집합 · 07:50 RISING 코스 체크 · 08:00 RISING · 12:00 BLAZING · 15:00 INFERNO · 18:00 시상식.\n앞선 경기가 일찍 끝나면 다음 경기를 바로 진행합니다. 18:00은 시상식 시작 예정 시각이며 행사 종료 시각은 공지되지 않았습니다.\nRISING: 비기너~노비스(송하정). BLAZING: 점핑 0~점핑 플로우(김동한). INFERNO: 어질리티~어질리티 오픈(김동한).\n모든 팀이 2라운드까지 참가합니다. 2라운드부터 실격 또는 제한시간 초과 시 탈락하며, 3라운드 클린런이 8팀 이상이면 파이널을 진행합니다.\n접수는 11월 16일~30일이며 시작·마감 시각은 공지되지 않았습니다. 참가 취소 및 환불은 12월 7일까지 가능합니다.\n참가 신청 안내 및 시간표: https://www.instagram.com/p/DfwnyEvlFQX/",
+      "detailStatus": "detail_ready",
+      "endAt": "2026-12-12T18:00:00",
+      "eventType": "대회",
+      "judge": [
+        "송하정",
+        "김동한"
+      ],
+      "location": "강아지숲",
+      "matchTypes": [
+        "RISING",
+        "BLAZING",
+        "INFERNO"
+      ],
+      "name": "ARES : BORN TO BURN",
+      "startAt": "2026-12-12T07:40:00",
+      "url": "https://www.instagram.com/ares.agility/p/DfjOWc6FMau/",
+      "detailImages": [
+        "https://drive.google.com/uc?export=view&id=18IvuqbviufB3L4XAkl_HcijzHL1ADheR",
+        "https://drive.google.com/uc?export=view&id=1YZfn3sME4_hle-l1vI0OuYc9AGIZjXCo",
+        "https://drive.google.com/uc?export=view&id=1cwpT8H7LdHh5IsOwaO7KRLuSggGx-BX2",
+        "https://drive.google.com/uc?export=view&id=1KLmWKxk1CRAv3mIf-nzHEZUD0Nl0HVRh",
+        "https://drive.google.com/uc?export=view&id=14WQu60hSC9-MyJZ8zOWAF-vIRA_Df3PR",
+        "https://drive.google.com/uc?export=view&id=112Y4R8PVQ-Uy-nTc98JqQRU_riX9H7RK",
+        "https://drive.google.com/uc?export=view&id=1YgTqWct5Vy2xNTtSsNplSuj0I2Ai4d2C",
+        "https://drive.google.com/uc?export=view&id=1hHqrAlpIMYk-2mnXQsgapJJKv2rufSmC",
+        "https://drive.google.com/uc?export=view&id=1EZjP71sDokLotbS4kvGgEQur5HL1gbpz",
+        "https://drive.google.com/uc?export=view&id=1ij1ZeambjHhG9Bdv6H1cZZByWeKy56FM",
+        "https://drive.google.com/uc?export=view&id=1Kd3TC24wIzYUnEgWbF6tL-I_X7gOTg_b",
+        "https://drive.google.com/uc?export=view&id=1ozOKEIBQ8pF9NJh36sWlTtlbaRXEe66S",
+        "https://drive.google.com/uc?export=view&id=1rGRZ5KQDrkGe_KuExdI7c8183phg5fdW",
+        "https://drive.google.com/uc?export=view&id=1D9GtnaLw2AyOyzd9QuwMtcrhEYVEfveV",
+        "https://drive.google.com/uc?export=view&id=1G5eADA1sNLGCSpWrrlwst4d71kN9jdwI"
+      ]
     }
   ]
 }
