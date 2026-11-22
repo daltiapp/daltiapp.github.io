@@ -1,0 +1,105 @@
+{
+  "dataVersion": "20261122.2",
+  "verifiedAt": "2026-11-22T09:17:00+09:00",
+  "channelId": "_GptxdX",
+  "eventId": "event-kakao-GptxdX-115270878-fc37a49d1bcc",
+  "eventDate": "2026-11-21",
+  "eventName": "2026. 11. 21 강원 FCI 인터내셔널 어질리티 경기대회",
+  "sourcePost": "https://pf.kakao.com/_GptxdX/115314542",
+  "sourcePostFingerprint": "640b94af3623820a6cb19fcfa00c44a3b2b151ec9ef902e7cc8c2fe3893dbd32",
+  "evidence": "각 원본 머리글의 21112026 및 Jesus Fernandez Crespo 표기와 A3·A2·A1·J1·J2·J3 종목을 확인했다. 위원회 결과·출진표가 연결된 동일 대회의 점어승급전 코스맵이며 첨부 순서를 유지했다.",
+  "attachments": [
+    {
+      "order": 1,
+      "mediaId": "197497090",
+      "url": "https://k.kakaocdn.net/dn/bMkPOO/dJMcack3AdS/z5Hp2kLfFhzdFZep3brtIk/img_xl.jpg",
+      "thumbnailUrl": "https://k.kakaocdn.net/dn/bMkPOO/dJMcack3AdS/z5Hp2kLfFhzdFZep3brtIk/img_s.jpg",
+      "sha256": "2efce31cc2bb982cabadc9312833a99b305f4b8023ce3b05f15ff2125d901b52",
+      "thumbnailSha256": "9e16558bda91e688b969524d57d1cf7907abb67952ea2be613f593481342bb92",
+      "width": 1663,
+      "height": 1080,
+      "mimeType": "image/jpeg",
+      "printedClass": "A3",
+      "assetId": "asset-kakao-GptxdX-197497090"
+    },
+    {
+      "order": 2,
+      "mediaId": "197497091",
+      "url": "https://k.kakaocdn.net/dn/iiCTk/dJMcac6sEqQ/RyvaWkhkAojLbPDlJKsxx0/img_xl.jpg",
+      "thumbnailUrl": "https://k.kakaocdn.net/dn/iiCTk/dJMcac6sEqQ/RyvaWkhkAojLbPDlJKsxx0/img_s.jpg",
+      "sha256": "99c13b97955eb95651d39b4b5560c78bb431de111a4c99151af2eaa5f012ef3d",
+      "thumbnailSha256": "76fd7f8ffb99db3ec86a4a30b8b6b1b5917563605736f038e7eb29f6a5ae9994",
+      "width": 1663,
+      "height": 1080,
+      "mimeType": "image/jpeg",
+      "printedClass": "A2",
+      "assetId": "asset-kakao-GptxdX-197497091"
+    },
+    {
+      "order": 3,
+      "mediaId": "197497092",
+      "url": "https://k.kakaocdn.net/dn/y0IKa/dJMcadD498a/5V7YcPHEfoWBZY9yUrfN20/img_xl.jpg",
+      "thumbnailUrl": "https://k.kakaocdn.net/dn/y0IKa/dJMcadD498a/5V7YcPHEfoWBZY9yUrfN20/img_s.jpg",
+      "sha256": "cf4f9992c3acbff8046f051370e2ff513021feed251f60e08cea2ab0b065657d",
+      "thumbnailSha256": "2eb27163a751636bd26faa4cad2c76268e97c43bf26bcef27499708dc9333c50",
+      "width": 1663,
+      "height": 1080,
+      "mimeType": "image/jpeg",
+      "printedClass": "A1",
+      "assetId": "asset-kakao-GptxdX-197497092"
+    },
+    {
+      "order": 4,
+      "mediaId": "197497093",
+      "url": "https://k.kakaocdn.net/dn/h3wmh/dJMcadD498b/fKnNdr0sT1Cl1qXLaou7mk/img_xl.jpg",
+      "thumbnailUrl": "https://k.kakaocdn.net/dn/h3wmh/dJMcadD498b/fKnNdr0sT1Cl1qXLaou7mk/img_s.jpg",
+      "sha256": "327d2d6e4bd2fa63bd9ef3253ed130acc0bbba97876c8bd21d51899710e84448",
+      "thumbnailSha256": "9bad20fa23efad6ab8fd7878f388b75658dd2a0c20965ddb26cfa2daa7265146",
+      "width": 1663,
+      "height": 1080,
+      "mimeType": "image/jpeg",
+      "printedClass": "J1",
+      "assetId": "asset-kakao-GptxdX-197497093"
+    },
+    {
+      "order": 5,
+      "mediaId": "197497095",
+      "url": "https://k.kakaocdn.net/dn/2vskM/dJMcaiMjtbK/fELZVEKgLONqLqN9XgK6Jk/img_xl.jpg",
+      "thumbnailUrl": "https://k.kakaocdn.net/dn/2vskM/dJMcaiMjtbK/fELZVEKgLONqLqN9XgK6Jk/img_s.jpg",
+      "sha256": "f1b3d72a7d3730bcf1798c30f7be225c66f4b7c9a2f9278596b442668d1f4e4b",
+      "thumbnailSha256": "80dfcb2f0676bd81f4dcad062e3674015e16b3cd7edfd2df2d869085f9cb0f1a",
+      "width": 1663,
+      "height": 1080,
+      "mimeType": "image/jpeg",
+      "printedClass": "J2",
+      "assetId": "asset-kakao-GptxdX-197497095"
+    },
+    {
+      "order": 6,
+      "mediaId": "197497096",
+      "url": "https://k.kakaocdn.net/dn/SvpAL/dJMcaiMjtbL/3UKWkHDeCELiBd0aM9qgP1/img_xl.jpg",
+      "thumbnailUrl": "https://k.kakaocdn.net/dn/SvpAL/dJMcaiMjtbL/3UKWkHDeCELiBd0aM9qgP1/img_s.jpg",
+      "sha256": "1ad8660d7dac1b33559062aa646f1077ced9e18f40e9ed62573521c1228c29ff",
+      "thumbnailSha256": "33fc3281a2e60cdc26be61ca8f55d3848b7d8ba5d94bceee602680b174032ab0",
+      "width": 1663,
+      "height": 1080,
+      "mimeType": "image/jpeg",
+      "printedClass": "J3",
+      "assetId": "asset-kakao-GptxdX-197497096"
+    }
+  ],
+  "existingResultPost": "https://pf.kakao.com/_GptxdX/115315580",
+  "existingResultMediaIds": [
+    "197502983",
+    "197502985",
+    "197502986",
+    "197508112",
+    "197509780",
+    "197514892"
+  ],
+  "counts": {
+    "result": 6,
+    "course_map": 6,
+    "entry_list": 6
+  }
+}

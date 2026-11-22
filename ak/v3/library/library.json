@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261122.1",
-  "updatedAt": "2026-11-22T03:34:47+09:00",
+  "dataVersion": "20261122.2",
+  "updatedAt": "2026-11-22T09:17:00+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2581,6 +2581,228 @@
         "postTitle": "2026 강원 FCI 대회기록",
         "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
         "publishedAt": "2026-11-21T11:30:07+09:00",
+        "imageOrder": 6
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197497090",
+      "kind": "course_map",
+      "title": "2026 강원 FCI 대회 코스 · 1",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/bMkPOO/dJMcack3AdS/z5Hp2kLfFhzdFZep3brtIk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bMkPOO/dJMcack3AdS/z5Hp2kLfFhzdFZep3brtIk/img_s.jpg",
+        "width": 1663,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115314542",
+        "mediaId": "197497090",
+        "postTitle": "2026 강원 FCI 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+        "publishedAt": "2026-11-21T08:48:56+09:00",
+        "imageOrder": 1
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197497091",
+      "kind": "course_map",
+      "title": "2026 강원 FCI 대회 코스 · 2",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/iiCTk/dJMcac6sEqQ/RyvaWkhkAojLbPDlJKsxx0/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/iiCTk/dJMcac6sEqQ/RyvaWkhkAojLbPDlJKsxx0/img_s.jpg",
+        "width": 1663,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115314542",
+        "mediaId": "197497091",
+        "postTitle": "2026 강원 FCI 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+        "publishedAt": "2026-11-21T08:48:56+09:00",
+        "imageOrder": 2
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197497092",
+      "kind": "course_map",
+      "title": "2026 강원 FCI 대회 코스 · 3",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/y0IKa/dJMcadD498a/5V7YcPHEfoWBZY9yUrfN20/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/y0IKa/dJMcadD498a/5V7YcPHEfoWBZY9yUrfN20/img_s.jpg",
+        "width": 1663,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115314542",
+        "mediaId": "197497092",
+        "postTitle": "2026 강원 FCI 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+        "publishedAt": "2026-11-21T08:48:56+09:00",
+        "imageOrder": 3
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197497093",
+      "kind": "course_map",
+      "title": "2026 강원 FCI 대회 코스 · 4",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/h3wmh/dJMcadD498b/fKnNdr0sT1Cl1qXLaou7mk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/h3wmh/dJMcadD498b/fKnNdr0sT1Cl1qXLaou7mk/img_s.jpg",
+        "width": 1663,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115314542",
+        "mediaId": "197497093",
+        "postTitle": "2026 강원 FCI 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+        "publishedAt": "2026-11-21T08:48:56+09:00",
+        "imageOrder": 4
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197497095",
+      "kind": "course_map",
+      "title": "2026 강원 FCI 대회 코스 · 5",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/2vskM/dJMcaiMjtbK/fELZVEKgLONqLqN9XgK6Jk/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/2vskM/dJMcaiMjtbK/fELZVEKgLONqLqN9XgK6Jk/img_s.jpg",
+        "width": 1663,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115314542",
+        "mediaId": "197497095",
+        "postTitle": "2026 강원 FCI 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+        "publishedAt": "2026-11-21T08:48:56+09:00",
+        "imageOrder": 5
+      }
+    },
+    {
+      "id": "asset-kakao-GptxdX-197497096",
+      "kind": "course_map",
+      "title": "2026 강원 FCI 대회 코스 · 6",
+      "eventIds": [
+        "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+      ],
+      "mapCategories": [
+        "promotion"
+      ],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ],
+      "categoryScope": "asset",
+      "notice": null,
+      "image": {
+        "url": "https://k.kakaocdn.net/dn/SvpAL/dJMcaiMjtbL/3UKWkHDeCELiBd0aM9qgP1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/SvpAL/dJMcaiMjtbL/3UKWkHDeCELiBd0aM9qgP1/img_s.jpg",
+        "width": 1663,
+        "height": 1080,
+        "mimeType": "image/jpeg"
+      },
+      "source": {
+        "provider": "kakao",
+        "channelId": "_GptxdX",
+        "channelName": "KKF어질리티위원회",
+        "postId": "115314542",
+        "mediaId": "197497096",
+        "postTitle": "2026 강원 FCI 대회 코스",
+        "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+        "publishedAt": "2026-11-21T08:48:56+09:00",
         "imageOrder": 6
       }
     },
@@ -122015,6 +122237,237 @@
   ],
   "courseMapGroups": [
     {
+      "id": "event:event-kakao-GptxdX-115270878-fc37a49d1bcc",
+      "eventId": "event-kakao-GptxdX-115270878-fc37a49d1bcc",
+      "maps": [
+        {
+          "id": "asset-kakao-GptxdX-197497090",
+          "kind": "course_map",
+          "title": "2026 강원 FCI 대회 코스 · 1",
+          "eventIds": [
+            "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/bMkPOO/dJMcack3AdS/z5Hp2kLfFhzdFZep3brtIk/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/bMkPOO/dJMcack3AdS/z5Hp2kLfFhzdFZep3brtIk/img_s.jpg",
+            "width": 1663,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "115314542",
+            "mediaId": "197497090",
+            "postTitle": "2026 강원 FCI 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+            "publishedAt": "2026-11-21T08:48:56+09:00",
+            "imageOrder": 1
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-197497091",
+          "kind": "course_map",
+          "title": "2026 강원 FCI 대회 코스 · 2",
+          "eventIds": [
+            "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/iiCTk/dJMcac6sEqQ/RyvaWkhkAojLbPDlJKsxx0/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/iiCTk/dJMcac6sEqQ/RyvaWkhkAojLbPDlJKsxx0/img_s.jpg",
+            "width": 1663,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "115314542",
+            "mediaId": "197497091",
+            "postTitle": "2026 강원 FCI 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+            "publishedAt": "2026-11-21T08:48:56+09:00",
+            "imageOrder": 2
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-197497092",
+          "kind": "course_map",
+          "title": "2026 강원 FCI 대회 코스 · 3",
+          "eventIds": [
+            "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/y0IKa/dJMcadD498a/5V7YcPHEfoWBZY9yUrfN20/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/y0IKa/dJMcadD498a/5V7YcPHEfoWBZY9yUrfN20/img_s.jpg",
+            "width": 1663,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "115314542",
+            "mediaId": "197497092",
+            "postTitle": "2026 강원 FCI 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+            "publishedAt": "2026-11-21T08:48:56+09:00",
+            "imageOrder": 3
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-197497093",
+          "kind": "course_map",
+          "title": "2026 강원 FCI 대회 코스 · 4",
+          "eventIds": [
+            "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/h3wmh/dJMcadD498b/fKnNdr0sT1Cl1qXLaou7mk/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/h3wmh/dJMcadD498b/fKnNdr0sT1Cl1qXLaou7mk/img_s.jpg",
+            "width": 1663,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "115314542",
+            "mediaId": "197497093",
+            "postTitle": "2026 강원 FCI 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+            "publishedAt": "2026-11-21T08:48:56+09:00",
+            "imageOrder": 4
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-197497095",
+          "kind": "course_map",
+          "title": "2026 강원 FCI 대회 코스 · 5",
+          "eventIds": [
+            "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/2vskM/dJMcaiMjtbK/fELZVEKgLONqLqN9XgK6Jk/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/2vskM/dJMcaiMjtbK/fELZVEKgLONqLqN9XgK6Jk/img_s.jpg",
+            "width": 1663,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "115314542",
+            "mediaId": "197497095",
+            "postTitle": "2026 강원 FCI 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+            "publishedAt": "2026-11-21T08:48:56+09:00",
+            "imageOrder": 5
+          }
+        },
+        {
+          "id": "asset-kakao-GptxdX-197497096",
+          "kind": "course_map",
+          "title": "2026 강원 FCI 대회 코스 · 6",
+          "eventIds": [
+            "event-kakao-GptxdX-115270878-fc37a49d1bcc"
+          ],
+          "mapCategories": [
+            "promotion"
+          ],
+          "courseMapCategoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryIds": [
+            "jpag_promotion"
+          ],
+          "categoryScope": "asset",
+          "notice": null,
+          "image": {
+            "url": "https://k.kakaocdn.net/dn/SvpAL/dJMcaiMjtbL/3UKWkHDeCELiBd0aM9qgP1/img_xl.jpg",
+            "thumbnailUrl": "https://k.kakaocdn.net/dn/SvpAL/dJMcaiMjtbL/3UKWkHDeCELiBd0aM9qgP1/img_s.jpg",
+            "width": 1663,
+            "height": 1080,
+            "mimeType": "image/jpeg"
+          },
+          "source": {
+            "provider": "kakao",
+            "channelId": "_GptxdX",
+            "channelName": "KKF어질리티위원회",
+            "postId": "115314542",
+            "mediaId": "197497096",
+            "postTitle": "2026 강원 FCI 대회 코스",
+            "postUrl": "https://pf.kakao.com/_GptxdX/115314542",
+            "publishedAt": "2026-11-21T08:48:56+09:00",
+            "imageOrder": 6
+          }
+        }
+      ],
+      "categoryIds": [
+        "jpag_promotion"
+      ]
+    },
+    {
       "id": "event:event-kakao-HlJFG-115238468-ee3bf7c22390",
       "eventId": "event-kakao-HlJFG-115238468-ee3bf7c22390",
       "maps": [
@@ -157358,7 +157811,14 @@
         "asset-kakao-GptxdX-197268160",
         "asset-kakao-GptxdX-197268161"
       ],
-      "courseMapIds": [],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-197497090",
+        "asset-kakao-GptxdX-197497091",
+        "asset-kakao-GptxdX-197497092",
+        "asset-kakao-GptxdX-197497093",
+        "asset-kakao-GptxdX-197497095",
+        "asset-kakao-GptxdX-197497096"
+      ],
       "resultIds": [
         "asset-kakao-GptxdX-197502983",
         "asset-kakao-GptxdX-197502985",
@@ -157373,7 +157833,9 @@
       "entryListCategoryIds": [
         "jpag_promotion"
       ],
-      "courseMapCategoryIds": [],
+      "courseMapCategoryIds": [
+        "jpag_promotion"
+      ],
       "resultCategoryIds": [
         "jpag_promotion"
       ]
@@ -164947,7 +165409,14 @@
         "asset-kakao-GptxdX-197268161",
         "asset-kakao-GptxdX-197264164"
       ],
-      "courseMapIds": [],
+      "courseMapIds": [
+        "asset-kakao-GptxdX-197497090",
+        "asset-kakao-GptxdX-197497091",
+        "asset-kakao-GptxdX-197497092",
+        "asset-kakao-GptxdX-197497093",
+        "asset-kakao-GptxdX-197497095",
+        "asset-kakao-GptxdX-197497096"
+      ],
       "resultIds": [
         "asset-kakao-GptxdX-197502983",
         "asset-kakao-GptxdX-197502985",
@@ -172811,6 +173280,12 @@
         "asset-kakao-HlJFG-197495445"
       ],
       "courseMapIds": [
+        "asset-kakao-GptxdX-197497090",
+        "asset-kakao-GptxdX-197497091",
+        "asset-kakao-GptxdX-197497092",
+        "asset-kakao-GptxdX-197497093",
+        "asset-kakao-GptxdX-197497095",
+        "asset-kakao-GptxdX-197497096",
         "asset-kakao-HlJFG-197495473",
         "asset-kakao-HlJFG-197495474"
       ],
