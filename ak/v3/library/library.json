@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "20261122.2",
-  "updatedAt": "2026-11-22T09:17:00+09:00",
+  "dataVersion": "20261123.1",
+  "updatedAt": "2026-11-23T03:26:09+09:00",
   "channels": [
     {
       "id": "_BfHUb",
@@ -2486,7 +2486,7 @@
       }
     },
     {
-      "id": "asset-kakao-GptxdX-197508112",
+      "id": "asset-kakao-GptxdX-197514892",
       "kind": "result",
       "resultType": "image",
       "title": "2026 강원 FCI 대회기록 · 4",
@@ -2500,10 +2500,10 @@
       "categoryScope": "asset",
       "notice": null,
       "image": {
-        "url": "https://k.kakaocdn.net/dn/8O3jG/dJMcacyDP3O/m9u323DwdZB0TDYKF6uepk/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/8O3jG/dJMcacyDP3O/m9u323DwdZB0TDYKF6uepk/img_s.jpg",
-        "width": 1132,
-        "height": 1080,
+        "url": "https://k.kakaocdn.net/dn/tAK8c/dJMcafI3Cnk/uGsc7DmN2TQ6wcfnp4mND1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/tAK8c/dJMcafI3Cnk/uGsc7DmN2TQ6wcfnp4mND1/img_s.jpg",
+        "width": 1080,
+        "height": 1144,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2511,7 +2511,7 @@
         "channelId": "_GptxdX",
         "channelName": "KKF어질리티위원회",
         "postId": "115315580",
-        "mediaId": "197508112",
+        "mediaId": "197514892",
         "postTitle": "2026 강원 FCI 대회기록",
         "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
         "publishedAt": "2026-11-21T11:30:07+09:00",
@@ -2552,7 +2552,7 @@
       }
     },
     {
-      "id": "asset-kakao-GptxdX-197514892",
+      "id": "asset-kakao-GptxdX-197531433",
       "kind": "result",
       "resultType": "image",
       "title": "2026 강원 FCI 대회기록 · 6",
@@ -2566,10 +2566,10 @@
       "categoryScope": "asset",
       "notice": null,
       "image": {
-        "url": "https://k.kakaocdn.net/dn/tAK8c/dJMcafI3Cnk/uGsc7DmN2TQ6wcfnp4mND1/img_xl.jpg",
-        "thumbnailUrl": "https://k.kakaocdn.net/dn/tAK8c/dJMcafI3Cnk/uGsc7DmN2TQ6wcfnp4mND1/img_s.jpg",
-        "width": 1080,
-        "height": 1144,
+        "url": "https://k.kakaocdn.net/dn/bNERf7/dJMcafhSwtl/ED529e2FZq45hXCzkwswr1/img_xl.jpg",
+        "thumbnailUrl": "https://k.kakaocdn.net/dn/bNERf7/dJMcafhSwtl/ED529e2FZq45hXCzkwswr1/img_s.jpg",
+        "width": 987,
+        "height": 803,
         "mimeType": "image/jpeg"
       },
       "source": {
@@ -2577,7 +2577,7 @@
         "channelId": "_GptxdX",
         "channelName": "KKF어질리티위원회",
         "postId": "115315580",
-        "mediaId": "197514892",
+        "mediaId": "197531433",
         "postTitle": "2026 강원 FCI 대회기록",
         "postUrl": "https://pf.kakao.com/_GptxdX/115315580",
         "publishedAt": "2026-11-21T11:30:07+09:00",
@@ -157823,9 +157823,9 @@
         "asset-kakao-GptxdX-197502983",
         "asset-kakao-GptxdX-197502985",
         "asset-kakao-GptxdX-197502986",
-        "asset-kakao-GptxdX-197508112",
         "asset-kakao-GptxdX-197509780",
-        "asset-kakao-GptxdX-197514892"
+        "asset-kakao-GptxdX-197514892",
+        "asset-kakao-GptxdX-197531433"
       ],
       "categoryIds": [
         "jpag_promotion"
@@ -165421,9 +165421,9 @@
         "asset-kakao-GptxdX-197502983",
         "asset-kakao-GptxdX-197502985",
         "asset-kakao-GptxdX-197502986",
-        "asset-kakao-GptxdX-197508112",
+        "asset-kakao-GptxdX-197514892",
         "asset-kakao-GptxdX-197509780",
-        "asset-kakao-GptxdX-197514892"
+        "asset-kakao-GptxdX-197531433"
       ],
       "recordSelections": []
     },
@@ -173293,9 +173293,9 @@
         "asset-kakao-GptxdX-197502983",
         "asset-kakao-GptxdX-197502985",
         "asset-kakao-GptxdX-197502986",
-        "asset-kakao-GptxdX-197508112",
-        "asset-kakao-GptxdX-197509780",
         "asset-kakao-GptxdX-197514892",
+        "asset-kakao-GptxdX-197509780",
+        "asset-kakao-GptxdX-197531433",
         "asset-kakao-HlJFG-197510200",
         "asset-kakao-HlJFG-197510202",
         "asset-kakao-HlJFG-197510204",
